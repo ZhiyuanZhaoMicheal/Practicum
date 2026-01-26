@@ -1,0 +1,621 @@
+name,power,amenity,man_made,telecom,aeroway,generator:source,addr:street,addr:city,operator,voltage,lat,lon,city_source
+Cornerstone Hospital Houston – Bellaire,,hospital,,,,,Dashwood Drive,Houston,Cornerstone Healthcare Group,,29.70801,-95.47327,Houston
+Plaza Specialty Hospital,,hospital,,,,,Binz Street,Houston,HCA,,29.7240827,-95.387804,Houston
+Houston Fire Department Station 9,,fire_station,,,,,,,,,29.776231,-95.3604454,Houston
+Heights Fire Department,,fire_station,,,,,,,,,29.7923813,-95.3986973,Houston
+Houston Fire Department Station 70,,fire_station,,,,,,,,,29.6019414,-95.2291175,Houston
+Houston Fire Department Station 75,,fire_station,,,,,,,,,29.7447398,-95.6055496,Houston
+Houston Fire Department Station 34,,fire_station,,,,,,,,,29.8401944,-95.3388471,Houston
+Houston Fire Department Station 35,,fire_station,,,,,,,,,29.6741004,-95.3380004,Houston
+Houston Fire Department Station 38,,fire_station,,,,,,,,,29.7901872,-95.4677444,Houston
+Houston Fire Department Station 40,,fire_station,,,,,,,,,29.7101583,-95.3208582,Houston
+Houston Fire Department Station 25,,fire_station,,,,,,,,,29.7186504,-95.3533667,Houston
+Houston Fire Department Station 29,,fire_station,,,,,,,,,29.6840001,-95.2537059,Houston
+Houston Fire Department Station 32,,fire_station,,,,,,,,,29.8496523,-95.2654428,Houston
+Houston Fire Department Station 17,,fire_station,,,,,,,,,29.7569907,-95.341345,Houston
+Houston Fire Department Station 16,,fire_station,,,,,,,,,29.7346299,-95.4023308,Houston
+Houston Fire Department Station 19,,fire_station,,,,,,,,,29.7772172,-95.3361182,Houston
+Houston Fire Department Station 20,,fire_station,,,,,,,,,29.7440258,-95.3006886,Houston
+Houston Fire Department Station 6,,fire_station,,,,,Washington Avenue,Houston,,,29.7695805,-95.3942605,Houston
+Houston Fire Department Station 10,,fire_station,,,,,,,,,29.7065882,-95.5519251,Houston
+Houston Fire Department Station 12,,fire_station,,,,,,,,,29.7946413,-95.3528703,Houston
+Houston Fire Department Station 15,,fire_station,,,,,,,,,29.8029134,-95.3867388,Houston
+Houston Fire Department Station 3,,fire_station,,,,,,,,,29.7378928,-95.4382826,Houston
+Houston Fire Department Station 51,,fire_station,,,,,,,,,29.7052476,-95.5048712,Houston
+Houston Fire Department Station 52,,fire_station,,,,,,,,,29.6350864,-95.229704,Houston
+Houston Fire Department Station 53,,fire_station,,,,,,,,,29.7760066,-95.1869272,Houston
+Houston Fire Department Station 55,,fire_station,,,,,,,,,29.6375591,-95.35617,Houston
+Houston Fire Department Station 56,,fire_station,,,,,,,,,29.870885,-95.3058616,Houston
+Houston Fire Department Station 41,,fire_station,,,,,,,,,29.7739036,-95.2819016,Houston
+Houston Fire Department Station 42,,fire_station,,,,,,,,,29.743591,-95.2726953,Houston
+Houston Fire Department Station 43,,fire_station,,,,,,,,,29.8282469,-95.2840392,Houston
+Houston Fire Department Station 44,,fire_station,,,,,,,,,29.7781007,-95.2180868,Houston
+Houston Fire Department Station 45,,fire_station,,,,,,,,,29.8052501,-95.2638103,Houston
+Houston Fire Department Station 46,,fire_station,,,,,,,,,29.6859295,-95.3643446,Houston
+Houston Fire Department Station 47,,fire_station,,,,,,,,,29.6317186,-95.4136631,Houston
+Houston Fire Department Station 48,,fire_station,,,,,,,,,29.653346,-95.4810438,Houston
+Houston Fire Department Station 66,,fire_station,,,,,,,,,29.8519736,-95.53989,Houston
+Houston Fire Department Station 65,,fire_station,,,,,,,,,30.0205762,-95.1030934,Houston
+Houston Fire Department Station 67,,fire_station,,,,,,,,,29.8637512,-95.436052,Houston
+Houston Fire Department Station 71,,fire_station,,,,,,,,,29.5819627,-95.1279285,Houston
+Houston Fire Department Station 69,,fire_station,,,,,,,,,29.7509617,-95.5587163,Houston
+Houston Fire Department Station 73,,fire_station,,,,,,,,,29.672776,-95.5708276,Houston
+Houston Fire Department Station 57,,fire_station,,,,,,,,,29.7730364,-95.5802762,Houston
+Houston Fire Department Station 60,,fire_station,,,,,,,,,29.7331826,-95.5248414,Houston
+Houston Fire Department Station 59,,fire_station,,,,,,,,,29.625218,-95.4647593,Houston
+Houston Fire Department Station 62,,fire_station,,,,,,,,,29.797952,-95.4377415,Houston
+Houston Fire Department Station 61,,fire_station,,,,,,,,,29.6253833,-95.2670824,Houston
+Houston Fire Department Station 64,,fire_station,,,,,,,,,29.9508972,-95.3420667,Houston
+Houston Fire Department Station 63,,fire_station,,,,,,,,,29.9843898,-95.3094668,Houston
+Houston Fire Department Station 93,,fire_station,,,,,,,,,29.5898977,-95.1805305,Houston
+Houston Fire Department Station 92,,fire_station,,,,,,,,,29.9810448,-95.3260887,Houston
+Houston Fire Department Station 86,,fire_station,,,,,,,,,29.7562869,-95.6378446,Houston
+Houston Fire Department Station 90,,fire_station,,,,,,,,,29.7889282,-95.6694929,Houston
+Houston Fire Department Station 101,,fire_station,,,,,,,,,30.0516145,-95.2276997,Houston
+Houston Fire Department Station 99,,fire_station,,,,,,,,,29.9755041,-95.3569762,Houston
+Houston Fire Department Station 77,,fire_station,,,,,,,,,29.8223466,-95.5438158,Houston
+Houston Fire Department Station 74,,fire_station,,,,,,,,,29.931589,-95.3915413,Houston
+Houston Fire Department Station 82,,fire_station,,,,,,,,,29.6579157,-95.511336,Houston
+Houston Fire Department Station 83,,fire_station,,,,,,,,,29.7266058,-95.5776574,Houston
+Houston Fire Department Station 80,,fire_station,,,,,,,,,29.5911909,-95.4835174,Houston
+Houston Fire Department Station 81,,fire_station,,,,,,,,,29.6414096,-95.2784065,Houston
+Houston Fire Department Station 104,,fire_station,,,,,,,,,30.0293757,-95.2385682,Houston
+Houston Fire Department Station 102,,fire_station,,,,,,,,,30.0656872,-95.1869886,Houston
+Southeast Volunteer Fire Department,,fire_station,,,,,,,,,29.5866,-95.1975,Houston
+Houston Fire Station Number 15,,fire_station,,,,,,,,,29.7949,-95.3781,Houston
+Harris County Fire Department,,fire_station,,,,,,,,,29.9412,-95.3957,Houston
+Houston Fire Station Number 38,,fire_station,,,,,,,,,29.7901909,-95.4677045,Houston
+Houston Fire Station Number 20,,fire_station,,,,,,,,,29.7439792,-95.3004633,Houston
+Houston Fire Station Number 48,,fire_station,,,,,,,,,29.6535,-95.4812,Houston
+Houston Fire Station Number 45,,fire_station,,,,,,,,,29.8046,-95.2644,Houston
+Houston Fire Station Number 41,,fire_station,,,,,,,,,29.7733,-95.2826,Houston
+Houston Fire Station Number 65,,fire_station,,,,,,,,,30.0202,-95.106,Houston
+Houston Fire Station Number 62,,fire_station,,,,,,,,,29.7986,-95.4377,Houston
+Houston Fire Station Number 62,,fire_station,,,,,,,,,29.6577235,-95.5113197,Houston
+Houston Fire Station Number 55,,fire_station,,,,,,,,,29.6402,-95.3568,Houston
+Houston Fire Station Number 53,,fire_station,,,,,,,,,29.7760278,-95.1869953,Houston
+Houston Police Department - Independence Heights,,police,,,,,,,,,29.8289201,-95.388071,Houston
+Houston Police Department - Eastside Patrol,,police,,,,,,,,,29.734426,-95.2906143,Houston
+Harris County Sheriff's Office,,police,,,,,,,,,29.5582352,-95.120248,Houston
+Houston Police Department - Southeast Patrol,,police,,,,,,,,,29.6575066,-95.3164366,Houston
+Houston Police Department - Fondren Patrol,,police,,,,,,,,,29.6588714,-95.5088654,Houston
+Houston Police Department - Palm Center,,police,,,,,,,,,29.6958228,-95.3340619,Houston
+Houston Police Department - Acres Home,,police,,,,,,,,,29.8574824,-95.4216752,Houston
+Houston Police Department - Aldine Community,,police,,,,,,,,,29.9242746,-95.4113088,Houston
+Houston Police Department - Sunnyside,,police,,,,,,,,,29.658768,-95.3708717,Houston
+Houston Police Department - Northeast Patrol,,police,,,,,,,,,29.832194,-95.2732908,Houston
+Harris County Sheriff's Office,,police,,,,,,,,,29.7643591,-95.3569288,Houston
+Houston Police Department - Westwood,,police,,,,,,,,,29.6749377,-95.5469822,Houston
+Houston Police Department - Spring Branch,,police,,,,,,,,,29.8034752,-95.4961808,Houston
+Houston Police Department - Hobby Airport,,police,,,,,,,,,29.6570556,-95.2802056,Houston
+Harris County Sheriff's Office - DARE Program,,police,,,,,,,,,29.8434157,-95.3342513,Houston
+Houston Police Department - Hiram Clarke,,police,,,,,,,,,29.6137466,-95.4421789,Houston
+Houston Police Department - Near Town,,police,,,,,,,,,29.7450136,-95.3898927,Houston
+Houston Police Department - Ana Maria Lopez,,police,,,,,,,,,29.7819689,-95.3586726,Houston
+Harris County Sheriff's Office,,police,,,,,,,,,29.7628066,-95.357298,Houston
+Houston Police Department - Westbury,,police,,,,,,,,,29.6513496,-95.4784206,Houston
+Houston Police Department - Northwest Patrol,,police,,,,,,,,,29.8570626,-95.5397144,Houston
+Houston Police Department - Leija,,police,,,,,,,,,29.6851134,-95.2539724,Houston
+Houston Police Department - Headquarters,,police,,,,,,,,,29.755888,-95.367452,Houston
+Houston Police Department - Greenspoint,,police,,,,,,,,,29.9448311,-95.4121634,Houston
+Houston Police Department - Clear Lake Patrol,,police,,,,,,,,,29.5796298,-95.1067229,Houston
+Harris County Sheriff's Office - Economic Crime,,police,,,,,,,,,29.7620822,-95.3577236,Houston
+Houston Police Department - Willowbrook,,police,,,,,,,,,29.9578016,-95.5386066,Houston
+Houston Police Department - North Patrol,,police,,,,,,,,,29.8793208,-95.4467386,Houston
+Houston Police Department - Telephone Road,,police,,,,,,,,,29.6193584,-95.2849214,Houston
+Houston Police Department - Gulfton,,police,,,,,,,,,29.7169926,-95.4853497,Houston
+Houston Police Department - Southwest Patrol,,police,,,,,Nitida Street,Houston,,,29.6366438,-95.4577617,Houston
+Houston Police Department - Navigation,,police,,,,,,,,,29.7525853,-95.327579,Houston
+Houston Police Department - Ranchester,,police,,,,,,,,,29.7066176,-95.5440621,Houston
+Harris County Sheriff's Office - Recruiting,,police,,,,,,,,,29.7535046,-95.3227812,Houston
+Houston Police Department - Lake Houston,,police,,,,,,,,,30.0037137,-95.1137616,Houston
+Houston Police Department - Richmond,,police,,,,,,,,,29.7322035,-95.4941756,Houston
+Houston Police Department - Jensen Street,,police,,,,,,,,,29.8451211,-95.3436164,Houston
+Westbury Police Station,,police,,,,,,,,,29.6523,-95.4804,Houston
+Houston Heights Police Station,,police,,,,,,,,,29.8037,-95.4029,Houston
+Houston Police Department - Heights,,police,,,,,,,,,29.7860468,-95.4113904,Houston
+Harris County Sheriff's Office,,police,,,,,,,,,29.7616785,-95.3568397,Houston
+Houston Police Department - Intercontinental Airport,,police,,,,,,,,,29.9877649,-95.3405178,Houston
+Texas Heart Institute - Denton A. Cooley Building,,hospital,,,,,Bertner Avenue,Houston,Texas Heart Institute,,29.7079305,-95.399419,Houston
+,,fire_station,,,,,,,,,29.999246,-95.356302,Houston
+,,fire_station,,,,,,,,,29.556743,-95.149368,Houston
+Menninger Clinic,,hospital,,,,,Main Street,,,,29.6497083,-95.4567128,Houston
+,generator,,,,,gas,,,,,29.7187371,-95.2328296,Houston
+,generator,,,,,gas,,,,,29.7187439,-95.2323121,Houston
+,generator,,,,,gas,,,,,29.7187493,-95.2318939,Houston
+Best Auto Storage,,police,,,,,Industrial Way,Houston,,,29.7518882,-95.3116037,Houston
+,generator,,,,,wind,,,,,29.6393617,-95.2089412,Houston
+Behavioral Hospital of Bellaire,,hospital,,,,,Dashwood Drive,Houston,,,29.7084045,-95.4732361,Houston
+,generator,,,,,gas,,,,,29.7033454,-95.3980288,Houston
+"Westbridge Recovery Center, Inc",,hospital,,,,,Acorn Ln,Porter,,,30.072272,-95.1722775,Houston
+Houston Police Station,,police,,,,,,,,,29.7649432,-95.3706247,Houston
+City of Houston Fire Station 24,,fire_station,,,,,,,,,29.658029,-95.3899701,Houston
+,generator,,,,,gas,,,,,29.8196466,-95.2223709,Houston
+,generator,,,,,gas,,,,,29.8195023,-95.2223683,Houston
+,generator,,,,,gas,,,,,29.8192137,-95.2223631,Houston
+,generator,,,,,gas,,,,,29.8190487,-95.2223602,Houston
+,generator,,,,,gas,,,,,29.8187555,-95.2223549,Houston
+,generator,,,,,gas,,,,,29.8186041,-95.2223521,Houston
+Greens Bayou Electric Generating Station,plant,,,,,,,,NRG Texas,,29.820810058225366,-95.21982838932064,Houston
+H.O. Clarke Substation,substation,,,,,,,,CenterPoint Energy,138000;69000;12500,29.648561647839703,-95.44876908687013,Houston
+TECO Substation,substation,,,,,,,,Thermal Energy Cooporation,138000,29.703756855612415,-95.39881934832124,Houston
+Bellaire Substation,substation,,,,,,,,CenterPoint Energy,345000;138000;12500,29.72471909564808,-95.45107727012916,Houston
+United Memorial Medical Center,,hospital,,,,,West Tidwell Road,Houston,,,29.847970085942055,-95.40828248453079,Houston
+,substation,,,,,,,,,,29.71875425,-95.226304,Houston
+Drouet Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.66715254437637,-95.28300544457709,Houston
+Ellington Airport,,,,,aerodrome,,,,Houston Airport System,,29.60737166375458,-95.16156552961219,Houston
+Lynch Substation,substation,,,,,,,,,138000,29.767576309324546,-95.07247072823388,Houston
+Industrial Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.752124123421392,-95.18585332584523,Houston
+Ben Taub General Hospital,,hospital,,,,,Taub Loop,Houston,Harris Health,,29.710647741690224,-95.3934789430992,Houston
+,substation,,,,,,,,,,29.71354196987096,-95.2562146863689,Houston
+,substation,,,,,,,,,138000,29.720380272901657,-95.22694335628191,Houston
+Clinton Substation,substation,,,,,,,,CenterPoint Energy,138000,29.75554143993844,-95.3011662852143,Houston
+Houston Methodist - Central Plant,generator,,,,,gas,,,,,29.709163577213193,-95.4000172679838,Houston
+University Substation,substation,,,,,,,,CenterPoint Energy,138000;69000;12000,29.716791125775234,-95.33150258305768,Houston
+Garden Villas Substation,substation,,,,,,,,CenterPoint Energy,138000;69000;12000,29.650899350154077,-95.3145245683327,Houston
+Houston Fire Station Number 36;Houston Fire Department Station 36,,fire_station,,,,,,,,,29.657096473486853,-95.28009641731265,Houston
+Busch Substation,substation,,,,,,,,CenterPoint Energy,138000,29.77489866936327,-95.26785125238473,Houston
+South Houston Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.628973460707673,-95.22515236707628,Houston
+,,,wastewater_plant,,,,,,,,29.603219413171054,-95.23794845853453,Houston
+Gulfgate Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.69310953015244,-95.30010057919215,Houston
+Houston Fire Department Station 72,,fire_station,,,,,,,,,29.55804523793424,-95.10706717871648,Houston
+,substation,,,,,,,,,,29.72256529801987,-95.25979113448712,Houston
+Children's Memorial Hermann Hospital,,hospital,,,,,Fannin Street,Houston,,,29.713840636840754,-95.3954005275672,Houston
+Grant Substation,substation,,,,,,,,CenterPoint Energy,138000;34500;12500,29.703397907412935,-95.40150041426847,Houston
+University of Texas MD Anderson Cancer Center,,hospital,,,,,Holcombe Boulevard,Houston,,,29.70774243642762,-95.39755484521177,Houston
+Garrott Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.732847401739182,-95.38586823155325,Houston
+NASA Substation,substation,,,,,,,,National Aeronautics and Space Administration,138000;13800,29.563127388685878,-95.08525021258075,Houston
+Polaris Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.578420827756172,-95.09882019903547,Houston
+Southeast Substation,substation,,,,,,,,,138000,29.629665374585333,-95.1511252609794,Houston
+Ellington Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.588155040197066,-95.18056718018178,Houston
+East Side Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.747041995444924,-95.35311982752829,Houston
+,substation,,,,,,,,,,29.76301069594829,-95.35235034247287,Houston
+Magnolia Park Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.743712919635986,-95.31093974139843,Houston
+Downtown Substation,substation,,,,,,,,CenterPoint Energy,138000;69000;12000,29.755266478244277,-95.37372040191127,Houston
+Fannin Substation,substation,,,,,,,,CenterPoint Energy,138000;34500,29.689591458342093,-95.40847432386693,Houston
+Stadium Substation,substation,,,,,,,,CenterPoint Energy,138000;4160,29.685277764384743,-95.40650761656146,Houston
+Campbell Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.81824195,-95.52467150000001,Houston
+Addicks Substation,substation,,,,,,,,CenterPoint Energy,345000;138000;34500,29.82279405109556,-95.57308218104336,Houston
+T. H. Wharton Power Plant,plant,,,,,,,,NRG Energy,,29.942635981350932,-95.5321293375736,Houston
+Brittmoore Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.79438194800006,-95.57259277576905,Houston
+San Felipe Substation,substation,,,,,,,,CenterPoint Energy,138000;34500;12500,29.75060599613684,-95.44787564953138,Houston
+Eureka Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.794751326181423,-95.43343780144863,Houston
+Sauer Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.78873065302695,-95.55285829080387,Houston
+Hardy Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.818726723077017,-95.35339099670749,Houston
+North Side Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.784128493434647,-95.34966552675937,Houston
+Airline Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.818677299999997,-95.38937619999999,Houston
+Todd Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.816005773932233,-95.48302296218208,Houston
+White Oak Substation,substation,,,,,,,,CenterPoint Energy,345000;138000;69000;12500,29.815178191805984,-95.43482721791433,Houston
+Hillcroft Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.722092281027557,-95.49769092591235,Houston
+Jeanetta Substation,substation,,,,,,,,CenterPoint Energy,345000;138000;12500,29.718719014706846,-95.53669263308358,Houston
+Westwood Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.689947249999996,-95.53668045,Houston
+Blueridge Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.62862945972553,-95.49681232549729,Houston
+Roark Substation,substation,,,,,,,,CenterPoint Energy,138000;34500;12500,29.666041738933117,-95.5613225366754,Houston
+Knight Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.672251360162214,-95.41309058937333,Houston
+Alief Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.70043204205113,-95.58180836946259,Houston
+Hayes Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.746347999999994,-95.57437449999999,Houston
+The Woman's Hospital of Texas,,hospital,,,,,Fannin Street,Houston,HCA,,29.693452096012336,-95.40283524734454,Houston
+Deihl Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.85469726483882,-95.47605629121587,Houston
+Fairbanks Substation,substation,,,,,,,,CenterPoint Energy,138000;34500,29.89997161359337,-95.5019191807206,Houston
+Humble Substation,substation,,,,,,,,CenterPoint Energy,138000;34500;12500,30.000072513093563,-95.23506430836832,Houston
+Brays Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.683753575121024,-95.44783569312315,Houston
+David Wayne Hooks Memorial Airport,,,,,aerodrome,,,Tomball,,,30.063308705213245,-95.55415439076259,Houston
+Busch Substation,substation,,,,,,,,CenterPoint Energy,138000,29.776250294430064,-95.27273277743183,Houston
+Houston East Water Purification Plant,,,water_works,,,,,,,,29.742016090697632,-95.21666435727589,Houston
+Berry Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.83953401871406,-95.3536726335036,Houston
+Liberty Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.807004349999996,-95.28552239999999,Houston
+Echo Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.785420175614437,-95.52068586502195,Houston
+Westchase Substation,substation,,,,,,,,CenterPoint Energy,138000;34500,29.718754228084318,-95.55875900789393,Houston
+Houston Fire Department Station 50,,fire_station,,,,,,,,,29.834454643112466,-95.48987349736957,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941387762433322,-95.53440082815767,Houston
+Memorial Hermann Memorial City Medical Center,,hospital,,,,,Gessner Road,Houston,Memorial Hermann,,29.781229239845942,-95.54678365316009,Houston
+Clinton Substation,substation,,,,,,,,CenterPoint Energy,69000;12000,29.7609552597837,-95.29967440635679,Houston
+Kindred Hospital Houston Medical Center,,hospital,,,,,Main Street,Houston,Kindred Healthcare,,29.713003126266525,-95.39909785109654,Houston
+Kirby Substation,substation,,,,,,,,CenterPoint Energy,138000,29.72974737344828,-95.42291565465375,Houston
+William P. Hobby Airport,,,,,aerodrome,,,,,,29.64589092759171,-95.27716989788915,Houston
+Wallisville Substation,substation,,,,,,,,CenterPoint Energy,69000;12000,29.78743533745914,-95.29123574235656,Houston
+Houston Police Department - Southwest Patrol,,police,,,,,,,,,29.688600140720553,-95.45142674205897,Houston
+Memorial Hermann-Texas Medical Center,,hospital,,,,,Fannin Street,Houston,,,29.71352475844168,-95.39587960812264,Houston
+Houston Fire Department Station 8,,fire_station,,,,,Louisiana Street,Houston,,,29.751321159979348,-95.37282625768195,Houston
+George Bush Intercontinental Airport - Houston,,,,,aerodrome,,North Terminal Road,Houston,"Houston, Texas",,29.983234562978904,-95.33266167106041,Houston
+US Pain & Spine Hospital,,hospital,,,,,La Branch Street,Houston,US Pain & Spine,,29.724180310516477,-95.38399904946591,Houston
+Houston Fire Department Station 76,,fire_station,,,,,Cook Road,Houston,,,29.699345799999996,-95.59654289999999,Houston
+Dunlavy Substation,substation,,,,,,,,CenterPoint Energy,69000;12000,29.752642622734236,-95.40185493562157,Houston
+Houston Fire Department Station 4,,fire_station,,,,,West Little York Road,Houston,,,29.866278572083317,-95.48950448049273,Houston
+,,,wastewater_plant,,,,,,,,29.762686488664336,-95.56085456500081,Houston
+Blodgett Substation,substation,,,,,,,,CenterPoint Energy,138000,29.720982242895992,-95.36446705258527,Houston
+Katy Addicks Pump Station,,,water_works,,,,,,City of Houston,,29.79876998124853,-95.56781238291994,Houston
+,,,water_works,,,,,,City of Houston,,29.822705072828985,-95.52454266364481,Houston
+Katy Addicks #5 Well,,,water_works,,,,,,City of Houston,,29.80054472469267,-95.57814485984848,Houston
+,,,water_works,,,,,,City of Houston,,29.790492304234647,-95.58652192901438,Houston
+Katy Addicks #7 Well,,,water_works,,,,,,City of Houston,,29.80561867120539,-95.5732648441546,Houston
+Houston Fire Department Station 49,,fire_station,,,,,,,,,29.791141835662483,-95.54423973280444,Houston
+,,,wastewater_plant,,,,,,,,29.687184398817262,-95.45018172714627,Houston
+,,,wastewater_plant,,,,,,,,29.69645891774521,-95.42005721238577,Houston
+Memorial Hermann Greater Heights Hospital,,hospital,,,,,,,Memorial Hermann,,29.810735033221114,-95.43135843055407,Houston
+Crockett Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.776839033299837,-95.37988804715017,Houston
+Heights Substation,substation,,,,,,,,CenterPoint Energy,69000;12500,29.782391396364225,-95.39850171551342,Houston
+Dunvale Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.733086800000002,-95.5189723,Houston
+Franklin Substation,substation,,,,,,,,CenterPoint Energy,138000;69000,29.76609777418982,-95.3677680365253,Houston
+Memorial Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.789766457965637,-95.61954365170824,Houston
+El Dorado Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.561908350000003,-95.1416275,Houston
+Holmes Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.67945277529843,-95.37211734044088,Houston
+Westheimer Substation,substation,,,,,,,,CenterPoint Energy,138000;34500;12500,29.736607437698208,-95.61730443044534,Houston
+Chocolate Bayou Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.627877924834724,-95.35269018723952,Houston
+Houston Fire Department Station 5,,fire_station,,,,,,,,,29.810273340860682,-95.50625843453463,Houston
+Sharpstown Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.701381960924596,-95.48726774092641,Houston
+Midtown Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.7414929,-95.37146489999999,Houston
+Houston Fire Department Station 68,,fire_station,,,,,Bissonnet Street,Houston,,,29.677024523150948,-95.528750060934,Houston
+Rittenhouse Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.86363012832517,-95.37941734651616,Houston
+Goodyear Substation,substation,,,,,,,,CenterPoint Energy,138000,29.70619268627828,-95.25697044214914,Houston
+Kingwood Substation,substation,,,,,,,,CenterPoint Energy,138000;34500,30.0544893835413,-95.18928698868561,Houston
+Polk Substation,substation,,,,,,,,CenterPoint Energy,138000,29.75223805,-95.36167625000002,Houston
+Greens Road Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.950844231225854,-95.33322756780824,Houston
+Plaza Substation,substation,,,,,,,,CenterPoint Energy,138000;34500,29.6894270613142,-95.38957140863837,Houston
+Hyde Park Substation,substation,,,,,,,,CenterPoint Energy,69000;12000,29.7479018,-95.3844158,Houston
+Oates Substation,substation,,,,,,,,CenterPoint Energy,138000,29.778661438360604,-95.25214606848806,Houston
+Fondren Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.667890345882547,-95.50936319261682,Houston
+Little York Substation,substation,,,,,,,,CenterPoint Energy,69000;12500,29.864100728653572,-95.42991148124013,Houston
+Normandy Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.76955465,-95.20560565,Houston
+Greens Bayou 345kV Substation,substation,,,,,,,,CenterPoint Energy,345000,29.818459181814113,-95.21825901466143,Houston
+Greens Bayou 69kV Substation,substation,,,,,,,,CenterPoint Energy,69000,29.820096666504,-95.2208513354926,Houston
+Wirt Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.78523311191409,-95.47962268016455,Houston
+Harrisburg Substation,substation,,,,,,,,CenterPoint Energy,69000;12000,29.714925640874107,-95.2653107477057,Houston
+Telephone Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.59913515305591,-95.28742390564118,Houston
+,substation,,,,,,,,,,29.717802749999993,-95.23445974999998,Houston
+Thermal Energy Cooporation Central Plant,plant,,,,,,,,Thermal Energy Cooporation,,29.703782028701664,-95.39805298417087,Houston
+Bertwood Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.84396537232942,-95.31415957266937,Houston
+Glenwood Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.850619973114146,-95.2659799837688,Houston
+Scenic Woods Substation,substation,,,,,,,,CenterPoint Energy,138000;12000,29.88372277520766,-95.28526468807526,Houston
+Almeda Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.630098245698324,-95.40362396742208,Houston
+,substation,,,,,,,,CenterPoint Energy,69000,29.74609873221232,-95.34149091192062,Houston
+Bringhurst Substation,substation,,,,,,,,CenterPoint Energy,69000;12000,29.762791673218278,-95.33334196481762,Houston
+Ulrich Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.735880599515966,-95.48381089817558,Houston
+Central Power Plant,plant,,,,,,,,,,29.721975073171137,-95.34161306300857,Houston
+Department of Public Safety,,police,,,,,,,,,29.719917396784982,-95.3511777113771,Houston
+Houston Police Department - South Central Patrol,,police,,,,,Saint Emanuel Street,Houston,,,29.74285784225847,-95.36277050455179,Houston
+Satelite Thermal Plant,plant,,,,,,,,,,29.72399221030453,-95.36364021268967,Houston
+,generator,,,,,solar,,,,,29.719930784461617,-95.36009093118932,Houston
+Riverside General Hospital,,hospital,,,,,Ennis Street,Houston,,,29.730778129164264,-95.361296207623,Houston
+Saint Joseph Medical Center,,hospital,,,,,Saint Joseph Parkway,Houston,Steward Health Care,,29.747806807990873,-95.36611519883542,Houston
+Kingwood Police Station,,police,,,,,Rustic Woods Drive,Kingwood,Houston Police Department,,30.054718953243192,-95.18829259950623,Houston
+Houston Fire Department Station 103,,fire_station,,,,,,,,,30.05896731998989,-95.15686725076716,Houston
+Kingwood Pines Hospital,,hospital,,,,,Ladbrook Drive,Kingwood,,,30.044588617766433,-95.22966451642614,Houston
+Houston Fire Department Station 2,,fire_station,,,,,Woodway Drive,,,,29.762336051196264,-95.48108795253171,Houston
+,substation,,,,,,,,,,29.73023456641786,-95.31889233258973,Houston
+Houston Fire Station 18,,fire_station,,,,,,,,,29.73553422747493,-95.33144689929993,Houston
+,,,wastewater_plant,,,,,,,,29.699830587143698,-95.26667540335934,Houston
+Houston Fire Department Station 37,,fire_station,,,,,Stella Link Road,Houston,,,29.701714987295663,-95.4406582442174,Houston
+,,,wastewater_plant,,,,,,,,29.669378218413694,-95.54351782012586,Houston
+,,,wastewater_plant,,,,,,,,29.709952579110965,-95.25893924152983,Houston
+,,,water_works,,,,,,,,30.033339070101125,-95.21766177253872,Houston
+,,,wastewater_plant,,,,,,,,30.040139185539463,-95.18440455453192,Houston
+Houston Fire Department Station 33,,fire_station,,,,,,,,,29.700191456878716,-95.40137734580205,Houston
+,,,wastewater_plant,,,,,,,,29.616972749963622,-95.45443283418102,Houston
+Turkey Creek Wastewater Treatment Plant,,,wastewater_plant,,,,,,City of Houston,,29.767929690378786,-95.62098755834083,Houston
+Channel Energy Center,plant,,,,,,,,Calpine,,29.718580097144212,-95.23273169308807,Houston
+Shriners Hospitals for Children — Houston,,hospital,,,,,South Main Street,Houston,Shriners Hospitals for Children,,29.704386138561006,-95.405717762743,Houston
+City of Houston Fire Department - Arson,,fire_station,,,,,,,,,29.76960024115105,-95.36962363925711,Houston
+,,,water_works,,,,,,City of Houston,,29.82042319938634,-95.5166688698141,Houston
+Houston Police Department - Westside Command Station,,police,,,,,South Dairy Ashford Road,Houston,Houston Police Department,,29.727842359665694,-95.60420698873192,Houston
+,,,wastewater_plant,,,,,,,,29.645765378714014,-95.3389070169869,Houston
+Houston Fire Department Station 7,,fire_station,,,,,,,,,29.739254366996995,-95.3736076989297,Houston
+Houston Methodist Willowbrook Hospital,,hospital,,,,,State Highway 249,Houston,Houston Methodist,,29.9674579188674,-95.55066939933263,Houston
+Houston Fire Department Station 23,,fire_station,,,,,,,,,29.71603636352544,-95.27922719598013,Houston
+UTHealth Harris County Psychiatric Center,,hospital,,,,,South MacGregor Way,Houston,,,29.712002891016287,-95.37468857894405,Houston
+Memorial Hermann Southeast Hospital,,hospital,,,,,Astoria Boulevard,Houston,Memorial Hermann,,29.58367249787518,-95.20733465882618,Houston
+,,,wastewater_plant,,,,,,,,29.704930804889703,-95.43343803108675,Houston
+HCA Houston Healthcare Kingwood,,hospital,,,,,US Highway 59 North,Kingwood,HCA Houston Healthcare,,30.050287195066513,-95.25476380623383,Houston
+,,,wastewater_plant,,,,,,,,29.602455100892985,-95.4781258956983,Houston
+Clear Lake Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.60836550055782,-95.12648454936017,Houston
+Pine Valley Specialty Hospital,,hospital,,,,,South Loop East,Houston,Concord Healthcare Group,,29.694042060528407,-95.31601856501905,Houston
+Quentin Mease Hospital,,hospital,,,,,North MacGregor Way,Houston,Harris Health,,29.711414536621216,-95.35951349641182,Houston
+Park Plaza Hospital,,hospital,,,,,Hermann Drive,Houston,HCA,,29.723495450005153,-95.38740168047883,Houston
+Baylor College of Medicine McNair Campus,,hospital,,,,,Cambridge Street,Houston,St Lukes Health,,29.69956314940294,-95.39426859511292,Houston
+Michael E. DeBakey VA Medical Center,,hospital,,,,,Holcombe Boulevard,Houston,Veterans Health Administration,,29.70223067123337,-95.38883862290581,Houston
+Sun Behavioral Houston,,hospital,,,,,Fannin Street,Houston,,,29.69254182201912,-95.39850635257602,Houston
+Texas Orthopedic Hospital,,hospital,,,,,South Main Street,Houston,HCA,,29.700183857915786,-95.40907661379667,Houston
+Texas Children's Hospital West Campus,,hospital,,,,,Katy Freeway,Houston,Texas Children's Hospital,,29.78729278228099,-95.69177195253046,Houston
+Houston Methodist West Hospital,,hospital,,,,,Katy Freeway,Houston,Houston Methodist,,29.787203601311063,-95.69827339277819,Houston
+West Houston Medical Center,,hospital,,,,,Richmond Avenue,Houston,Hospital Corporation of America,,29.728707587037164,-95.59422129067838,Houston
+Memorial Hermann Southwest Hospital,,hospital,,,,,Beechnut Street,Houston,Memorial Hermann,,29.693408150653035,-95.52203601632011,Houston
+Houston Behavioral Healthcare Hospital,,hospital,,,,,Gessner Road,Houston,,,29.823899365592197,-95.54671968811286,Houston
+Kindred Hospital The Heights,,hospital,,,,,,,Kindred Healthcare,,29.80916132243536,-95.43092445815982,Houston
+Saint Joseph's Medical Center,,hospital,,,,,Ashland Street,Houston,Steward Health Care,,29.80340956905769,-95.40425594665203,Houston
+Lyndon B. Johnson General Hospital,,hospital,,,,,Kelley Street,Houston,Harris Health,,29.81183403733152,-95.31284243793984,Houston
+Houston Community College Police,,police,,,,,,,,,29.73556924737866,-95.3775401968539,Houston
+HCA Houston North Cypress,,hospital,,,,,Northwest Freeway,Cypress,,,29.926339405684484,-95.63139257163347,Houston
+,,,wastewater_plant,,,,,,,,29.714513764245833,-95.73865927306484,Houston
+Genoa Substation,substation,,,,,,,,,138000,29.622747325127804,-95.11776879161785,Houston
+Johnson Space Center Combined Heat & Power,plant,,,,,,,,National Aeronautics and Space Administration,,29.562324443841757,-95.08926463138847,Houston
+,generator,,,,,gas,,,National Aeronautics and Space Administration,,29.562226429438045,-95.08916673676895,Houston
+,generator,,,,,gas,,,National Aeronautics and Space Administration,,29.56236639999999,-95.08935615,Houston
+,generator,,,,,gas,,,National Aeronautics and Space Administration,,29.562321899999997,-95.08924255000001,Houston
+,substation,,,,,,,,,138000,29.60984025013794,-95.18435213637754,Houston
+Friendswood Energy,plant,,,,,,,,Quantum Utility Generation,,29.647085127325006,-95.45157560192028,Houston
+,generator,,,,,gas,,,,,29.6470681182865,-95.4515755246746,Houston
+Intermediate Substation,substation,,,,,,,,CenterPoint Energy,138000;12500,29.6066748,-95.44688825,Houston
+,substation,,,,,,,,,138000,29.653101059025403,-95.41338253408925,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941367749999998,-95.53294125,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941372424927433,-95.5331886453418,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941364275072573,-95.53360105465823,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941367735099835,-95.53382097507361,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941368950000005,-95.53555905,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941371264900162,-95.53530962492638,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941370675072577,-95.53493075465818,Houston
+,generator,,,,,gas,,,NRG Energy,,29.9413701,-95.53467865,Houston
+,generator,,,,,gas,,,NRG Energy,,29.941385574366873,-95.5341044608186,Houston
+,generator,,,,,gas,,,,,29.942948262657957,-95.53281782500218,Houston
+,generator,,,,,gas,,,,,29.942951724998572,-95.53321615548673,Houston
+,generator,,,,,gas,,,,,29.942950550000003,-95.53357689999999,Houston
+,generator,,,,,gas,,,,,29.94295172499857,-95.53397390548386,Houston
+,generator,,,,,gas,,,,,29.94294825,-95.53449960000002,Houston
+,generator,,,,,gas,,,,,29.942945737342047,-95.53488747499784,Houston
+T. H. Wharton Substation,substation,,,,,,,,CenterPoint Energy,345000;138000;34500,29.939928409308262,-95.53313009955318,Houston
+,,,,data_center,,,,,,,29.821506114084205,-95.57078462346954,Houston
+,,,wastewater_plant,,,,,,,,29.84336146442245,-95.54768288425514,Houston
+,substation,,,,,,,,,,29.767708750000004,-95.33407985000001,Houston
+Houston Methodist Hospital,,hospital,,,,,Fannin Street,Houston,,,29.710674069050505,-95.39950112935306,Houston
+Nexus Children's Hospital,,hospital,,,,,Woodland Park Drive,Houston,Nexus Health Systems,,29.732511155685216,-95.57975494250236,Houston
+Memorial Hermann Surgical Hospital Kingwood,,hospital,,,,,Kingwood Medical Drive,Kingwood,,,30.04799589722262,-95.25916372545211,Houston
+Advanced Diagnostics East Hospital & 24 Hour Emergency Center,,hospital,,,,,East Freeway,Houston,Advanced Diagnostics Hospitals & Clinics,,29.77072220003671,-95.200453525419,Houston
+,substation,,,,,,,,,,29.77087274985132,-95.617765593716,Houston
+Houston Fire Department Station 90,,fire_station,,,,,,,,,29.78893059104486,-95.66952523798791,Houston
+M. D. Anderson Cancer Center,,hospital,,,,,,,,,29.78687145186713,-95.63058770002928,Houston
+,generator,,,,,,,,,,29.828252623583086,-95.61498370366937,Houston
+,generator,,,,,,,,,,29.82810401909403,-95.61481754064405,Houston
+,,,water_works,,,,,,,,29.844713438298815,-95.27470479734743,Houston
+,generator,,,,,,,,,,29.821581491360288,-95.61067325196106,Houston
+,,,water_works,,,,,,,,29.77200939047578,-95.19613690169376,Houston
+,generator,,,,,,,,,,29.83161362631438,-95.61648392953738,Houston
+,substation,,,,,,,,,,29.705626238284697,-95.24995189830477,Houston
+,,,water_works,,,,,,,,29.894208256875157,-95.43056339844145,Houston
+,,,wastewater_plant,,,,,,,,29.755467817575067,-95.30095424422713,Houston
+West Houston Airport,,,,,aerodrome,,,,,,29.81823011730872,-95.67388086887152,Houston
+,,,water_works,,,,,,,,29.877280775879964,-95.49709834425589,Houston
+,,,water_works,,,,,,,,29.700889963367388,-95.59928835123905,Houston
+Houston Fire Department Station 21,,fire_station,,,,,,,,,29.67042924144809,-95.43282740445125,Houston
+Houston Fire Department Station 30,,fire_station,,,,,Irvington Boulevard,Houston,,,29.819169266578697,-95.36076636763384,Houston
+,substation,,,,,,,,,,29.709758750000002,-95.2386201,Houston
+,substation,,,,,,,,,,29.717313862427076,-95.23324849643915,Houston
+Behavioral Hospital of Bellaire,,hospital,,,,,,,,,29.708365430924,-95.47337153368704,Houston
+West Oaks Hospital,,hospital,,,,,,,,,29.709504918798718,-95.49794252404037,Houston
+,,,water_works,,,,,,,,29.728342963760703,-95.45037348205256,Houston
+Houston Fire Department Station 31,,fire_station,,,,,West Crosstimbers Street,Houston,,,29.828498178670202,-95.40246264119037,Houston
+,generator,,,,,solar,,,,,29.750182306774644,-95.37341143976286,Houston
+,generator,,,,,solar,,,,,29.750308446547653,-95.37331651170825,Houston
+Upper Braes WWTP,,,wastewater_plant,,,,,,,,29.71712956798745,-95.59081010785022,Houston
+,,,wastewater_plant,,,,,,,,29.706295340933092,-95.56291977029652,Houston
+,,,wastewater_plant,,,,,,,,29.7078497919747,-95.56639276272202,Houston
+Houston Fire Department Station 58,,fire_station,,,,,Fulton Street,Houston,,,29.857068360483723,-95.38351724899933,Houston
+,,,water_works,,,,,,,,29.970482854502606,-95.54661170190916,Houston
+Willowbrook Residence & Rehabilitation Center,,hospital,,,,,,,,,29.97246877888476,-95.54487152405835,Houston
+Houston Fire Department Station 96,,fire_station,,,,,,,,,29.96944632407169,-95.54096977545294,Houston
+,,,wastewater_plant,,,,,,,,29.733705124380187,-95.14921448116334,Houston
+Houston Fire Department Station 78,,fire_station,,,,,,,,,29.779200643992613,-95.61952329901334,Houston
+Houston Police Department - Broadway Square,,police,,,,,,,,,29.675850314668637,-95.27677822540285,Houston
+Houston Fire Department - Arson Division,,fire_station,,,,,,,,,29.791302350000002,-95.43071035,Houston
+,,,water_works,,,,,,,,29.91347576043776,-95.29092279645046,Houston
+Police Helicopter Patrol Heliport,,,,,aerodrome,,,,Houston Police Department,,29.649165549422545,-95.27025514363032,Houston
+,substation,,,,,,,,,,29.800965350000002,-95.28015459999999,Houston
+,,,wastewater_plant,,,,,,,,29.736616575738072,-95.26708295328197,Houston
+,,,wastewater_plant,,,,,,,,29.765712185895058,-95.2225913336225,Houston
+,,,wastewater_plant,,,,,,,,29.731161392800924,-95.12637432205325,Houston
+,,,wastewater_plant,,,,,,,,29.7194938644112,-95.33300247567507,Houston
+,,,water_works,,,,,,,,29.76461750462602,-95.3530024854341,Houston
+Gable Street Substation,substation,,,,,,,,CenterPoint Energy,138000;69000;12000,29.76448640416898,-95.35250197339263,Houston
+,,,wastewater_plant,,,,,,,,29.75992195232815,-95.3202726324848,Houston
+Houston Fire Department Station 22,,fire_station,,,,,,,,,29.730571719536304,-95.2846403439514,Houston
+Houston Fire Department Station 11,,fire_station,,,,,,,,,29.77940304884848,-95.41767175105059,Houston
+,substation,,,,,,,,,,29.610915159768876,-95.23891167805229,Houston
+Houston Fire Department Station 28,,fire_station,,,,,,,,,29.733913505645486,-95.47685225330919,Houston
+Houston Fire Department Station 27,,fire_station,,,,,,,,,29.77689011549823,-95.30458430927126,Houston
+Houston Fire Department Station 13,,fire_station,,,,,,,,,29.832251903257806,-95.4513809395574,Houston
+Houston Fire Department Station 39,,fire_station,,,,,,,,,29.812804198416842,-95.31864668501572,Houston
+,generator,,,,,solar,,,,,29.674023596362932,-95.48148872502232,Houston
+Houston Fire Department Station 26,,fire_station,,,,,,,,,29.68180138687619,-95.30502725977664,Houston
+,,,wastewater_plant,,,,,,,,32.7375437,-96.7752209,Dallas
+Dallas Fire Station Number 16,,fire_station,,,,,,,,,32.7984617,-96.7558334,Dallas
+Dallas Fire Station Number 30,,fire_station,,,,,,,,,32.894682,-96.883301,Dallas
+Dallas Fire Station Number 28,,fire_station,,,,,,,,,32.8956685,-96.7521178,Dallas
+Dallas Fire Station Number 21,,fire_station,,,,,,,,,32.8516721,-96.8590248,Dallas
+Dallas Fire Station Number 2,,fire_station,,,,,,,,,32.902624,-96.837746,Dallas
+Dallas Fire Station Number 17,,fire_station,,,,,,,,,32.817644,-96.761998,Dallas
+Dallas Fire Station Number 14,,fire_station,,,,,,,,,32.741568,-96.839754,Dallas
+Dallas Fire Station Number 36,,fire_station,,,,,,,,,32.78188,-96.856962,Dallas
+Dallas Fire Station Number 37,,fire_station,,,,,,,,,32.8666637,-96.766364,Dallas
+Dallas Fire Station Number 41,,fire_station,,,,,,,,,32.8946118,-96.8063159,Dallas
+Dallas Fire Station Number 43,,fire_station,,,,,,,,,32.866075,-96.877397,Dallas
+Dallas Fire Station Number 46,,fire_station,,,,,,,,,32.662569,-96.818367,Dallas
+Dallas Fire Station Number 45,,fire_station,,,,,,,,,32.7723929,-96.834735,Dallas
+Dallas Fire Station Number 48,,fire_station,,,,,,,,,32.863956,-96.704124,Dallas
+Dallas Fire Station Number 47,,fire_station,,,,,,,,,32.814923,-96.870496,Dallas
+Dallas Fire Station Number 5,,fire_station,,,,,,,,,32.747711,-96.657199,Dallas
+Dallas Fire Station Number 55,,fire_station,,,,,,,,,32.845561,-96.746498,Dallas
+Dallas Fire Station Number 7,,fire_station,,,,,,,,,32.975827,-96.803899,Dallas
+Dallas Fire Station Number 9,,fire_station,,,,,,,,,32.678819,-96.610099,Dallas
+Culp Airport (Historic),,,,,aerodrome,,,,,,32.7214012,-96.7238998,Dallas
+Dallas Police NE District Station,,police,,,,,,,,,32.8632741,-96.7158178,Dallas
+Select Specialty Hospital - Dallas Downtown,,hospital,,,,,Gaston Avenue,Dallas,Select Specialty Hospital,,32.790245,-96.7800903,Dallas
+Baylor Scott & White Heart and Vascular Hospital,,hospital,,,,,North Hall Street,Dallas,Baylor Scott & White Health,,32.7882306,-96.7811018,Dallas
+North Central Surgical Center,,hospital,,,,,North Central Expressway,Dallas,,,32.8749243,-96.7712045,Dallas
+Dallas Love Field Airport,,,,,aerodrome,,,,,,32.8450229,-96.8498413,Dallas
+,,fire_station,,,,,,,,,32.8508606,-96.8592449,Dallas
+VIRTBIZ,,,,data_center,,,Canton Street,Dallas,,,32.7825463,-96.7828145,Dallas
+,generator,,,,,gas,,,,,32.8360819,-96.54654,Dallas
+,generator,,,,,gas,,,,,32.8367456,-96.5465346,Dallas
+,generator,,,,,gas,,,,,32.7253042,-96.9360638,Dallas
+,generator,,,,,gas,,,,,32.7244083,-96.9360477,Dallas
+,generator,,,,,gas,,,,,32.72481,-96.9360718,Dallas
+Dallas Love Field,,,,,aerodrome,,Herb Kelleher Way,Dallas,Dallas Department of Aviation,,32.846496215485615,-96.84970851429489,Dallas
+Jack Evans Police Headquarters,,police,,,,,South Lamar Street,Dallas,,,32.7678545909304,-96.794596495478,Dallas
+Dallas CBD Vertiport,,,,,aerodrome,,,,City of Dallas,,32.77178258489476,-96.80238957771319,Dallas
+,,,wastewater_plant,,,,,,,,32.73389552378076,-96.77223677714314,Dallas
+West Levee Substation,substation,,,,,,,,Oncor,345000;138000;13000,32.77763395035197,-96.82598888045473,Dallas
+East Levee Substation,substation,,,,,,,,Oncor,138000,32.78392301797974,-96.81971423081103,Dallas
+800/900 Network Substation,substation,,,,,,,,Oncor,138000,32.787167136679855,-96.81370712082251,Dallas
+,substation,,,,,,,,,345000;138000,32.857505250624655,-96.65324947222919,Dallas
+Children's Medical Center of Dallas,,hospital,,,,,Medical District Drive,Dallas,Children's Health,,32.80949522438885,-96.83767774923174,Dallas
+,substation,,,,,,,,,,32.840872161354305,-96.7690241230987,Dallas
+Lake Hubbard Station,substation,,,,,,,,,138000,32.83697961512869,-96.54769962211195,Dallas
+Industrial Boulevard Substation,substation,,,,,,,,Oncor,138000,32.7591149997957,-96.78914105133323,Dallas
+Sargent Road Substation,substation,,,,,,,,Oncor,345000;138000,32.72786123398943,-96.77416919735724,Dallas
+,substation,,,,,,,,,,32.73474862913645,-96.77824103926882,Dallas
+Parkdale Substation,substation,,,,,,,,Oncor,138000,32.77571246086548,-96.72408837165194,Dallas
+Cedar Crest Substation,substation,,,,,,,,Oncor,138000;69000,32.72174393803447,-96.80232048156647,Dallas
+Cedar Crest Switching Station,substation,,,,,,,,Oncor,138000,32.72183727098996,-96.8042672110756,Dallas
+Prairie Creek Substation,substation,,,,,,,,Oncor,138000;12500,32.7772356982858,-96.66281243860753,Dallas
+,substation,,,,,,,,,,32.70209232957457,-96.82374293920108,Dallas
+,substation,,,,,,,,,,32.92687079772426,-96.7598591134218,Dallas
+,substation,,,,,,,,,,32.73153289999999,-96.98659780000001,Dallas
+,substation,,,,,,,,,,32.73157420072401,-96.98519861158185,Dallas
+Medical City Dallas,,hospital,,,,,Forest Lane,Dallas,HCA,,32.911668493376744,-96.77339963803387,Dallas
+,substation,,,,,,,,,,32.66553341607642,-96.9610596132641,Dallas
+,substation,,,,,,,,,,32.837354999999995,-96.54859545,Dallas
+,substation,,,,,,,,,,32.63203539999999,-96.94610220000001,Dallas
+,substation,,,,,,,,,,32.6490360092868,-96.95957006050935,Dallas
+,substation,,,,,,,,,,32.78473400717745,-96.8353319799321,Dallas
+,substation,,,,,,,,,,32.928639540250536,-96.97121372807825,Dallas
+Dallas Fire Station 22,,fire_station,,,,,Coit Road,Dallas,,,32.9151937677232,-96.76879119266188,Dallas
+,substation,,,,,,,,,,32.91455664222185,-96.76864517019384,Dallas
+Dallas Police Association Office,,police,,,,,Griffin Street East,Dallas,,,32.77195899279656,-96.79329544070843,Dallas
+Dallas Fire Station Number 11,,fire_station,,,,,,,,,32.81003629141295,-96.80949710298893,Dallas
+,,fire_station,,,,,,,,,32.81017356919605,-96.8096777333723,Dallas
+Baylor Medical Center at Uptown,,hospital,,,,,East Lemmon Avenue,Dallas,,,32.80425387891924,-96.79503811211755,Dallas
+,substation,,,,,,,,,,32.79535234644353,-96.79650643963674,Dallas
+,substation,,,,,,,,,,32.82083066427618,-96.7301894317646,Dallas
+,substation,,,,,,,,,138000,32.80775482039407,-96.80133907768753,Dallas
+Kirkland Park Substation,substation,,,,,,,,,138000,32.89290842902784,-96.76396689055505,Dallas
+Greenville Avenue Substation,substation,,,,,,,,,138000;69000;12500,32.84115398799056,-96.76877019679432,Dallas
+Haskell Substation,substation,,,,,,,,Oncor,138000;12500,32.782142280786914,-96.74596020021352,Dallas
+,substation,,,,,,,,,138000,32.76448144999999,-96.81880705,Dallas
+Calumet Substation,substation,,,,,,,,Oncor,138000,32.74214469999999,-96.89454140000001,Dallas
+Wall Street Substation,substation,,,,,,,,,138000,32.76232067663779,-96.78510895643139,Dallas
+Armstrong Substation,substation,,,,,,,,Oncor,138000,32.822856263335865,-96.79217390815447,Dallas
+Blackwell Street Substation,substation,,,,,,,,Oncor,138000;12500,32.86744297081865,-96.76582884598676,Dallas
+North Lake Substation,substation,,,,,,,,Oncor,138000,32.95133748057758,-96.97571656466381,Dallas
+,substation,,,,,,,,,138000,32.962389522933485,-96.819564866867,Dallas
+,substation,,,,,,,,,,32.7741594,-96.76552469999999,Dallas
+,substation,,,,,,,,Oncor,138000,32.777692249999994,-96.87163129999998,Dallas
+,substation,,,,,,,,,138000,32.75521093892643,-96.87462936752311,Dallas
+Northaven Switching Station,substation,,,,,,,,Oncor,138000;12500,32.90137727699204,-96.81005051917367,Dallas
+,substation,,,,,,,,,138000,32.846812199999995,-96.8728433,Dallas
+Morrison Lane Substation,substation,,,,,,,,Oncor,138000;12500,32.8831675500263,-96.89344126342728,Dallas
+,substation,,,,,,,,,138000,32.81295172146771,-96.84888638761788,Dallas
+Record Crossing Substation,substation,,,,,,,,Oncor,138000;12500,32.81807445,-96.85588005,Dallas
+,substation,,,,,,,,,138000,32.8080627503201,-96.83831213370424,Dallas
+Lomo Alto Substation,substation,,,,,,,,Oncor,138000;12500,32.84995459987664,-96.81272899852819,Dallas
+Reagan Street Substation,substation,,,,,,,,Oncor,138000;12500,32.80368408038668,-96.81920537878337,Dallas
+,substation,,,,,,,,,,32.70574542507333,-96.68254519559979,Dallas
+,substation,,,,,,,,,138000,32.727396925249906,-96.70054895924589,Dallas
+,substation,,,,,,,,,138000,32.9314404172252,-96.82201435048495,Dallas
+,substation,,,,,,,,Oncor,138000,32.97646287484567,-96.80096927383106,Dallas
+Dallas Water Utilities Southside Wastewater Treatment Plant,,,wastewater_plant,,,,,,Dallas Water Utilities,,32.64800011866117,-96.63412870333936,Dallas
+,substation,,,,,,,,,,32.99843082820037,-96.77953481647363,Dallas
+Dallas Executive Airport,,,,,aerodrome,,Challanger Drive,Dallas,City of Dallas,,32.6821176698863,-96.86967018268449,Dallas
+Dallas Fire Station Number 4,,fire_station,,,,,South Akard Street,Dallas,,,32.77425147273828,-96.796149539899,Dallas
+,substation,,,,,,,,,,32.8478360700173,-96.87164299937467,Dallas
+,substation,,,,,,,,,,32.720905479762514,-96.87349217202569,Dallas
+,substation,,,,,,,,,,33.00737018655913,-96.83283792156699,Dallas
+Dallas Fire Station Number 10,,fire_station,,,,,,,,,32.998066196551015,-96.832301003777,Dallas
+Dallas Fire Station Number 42,,fire_station,,,,,,,,,32.83575705020702,-96.83600346667251,Dallas
+,substation,,,,,,,,,,32.899994111763185,-96.89869302497557,Dallas
+Dallas VA Medical Center,,hospital,,,,,South Lancaster Road,Dallas,United States Department of Veterans Affairs,,32.69493449301313,-96.78948806867209,Dallas
+,substation,,,,,,,,,,32.87960746119832,-96.76524361997639,Dallas
+,substation,,,,,,,,,,32.76601066355937,-96.80517718356423,Dallas
+,substation,,,,,,,,,,32.829746,-96.8833304,Dallas
+,substation,,,,,,,,,,32.70486515369831,-96.89222846938293,Dallas
+Dallas Fire Station 18,,fire_station,,,,,North Griffin Street,,DFD,,32.783675905720116,-96.80366684010883,Dallas
+,,,,,aerodrome,,,,,,32.84675574371805,-96.83970006949059,Dallas
+Methodist Charlton Medical Center,,hospital,,,,,West Wheatland Road,Dallas,Methodist Health System,,32.64549625183584,-96.87637533140986,Dallas
+Zale Lipshy University Hospital,,hospital,,,,,Harry Hines Boulevard,Dallas,University of Texas Southwestern Medical Center,,32.81077442608344,-96.83702307749955,Dallas
+,,hospital,,,,,,,,,32.91315734129476,-96.76685740138329,Dallas
+Dallas Fire Station Number 8,,fire_station,,,,,North Garrett Avenue,,,,32.810212482809376,-96.77646930618802,Dallas
+Baylor Scott & White Institute for Rehabilitation,,hospital,,,,,North Washington Avenue,Dallas,Baylor Scott & White Health,,32.791698804026495,-96.78051323603373,Dallas
+Dallas Fire Station Number 24,,fire_station,,,,,,,,,32.75215201260293,-96.75727071672148,Dallas
+Dallas Fire Station Number 44,,fire_station,,,,,Frank Street,,,,32.772758419178125,-96.7479641908375,Dallas
+Dallas Fire Station Number 15,,fire_station,,,,,East 8th Street,,,,32.748599832474895,-96.82251869024005,Dallas
+Dallas Fire Station Number 1,,fire_station,,,,,,,Dallas Fire Department,,32.79402538170857,-96.82705360822008,Dallas
+Dallas Fire Station Number 32,,fire_station,,,,,North Jim Miller Road,,,,32.774315695998126,-96.69959282701322,Dallas
+Dallas Fire Station 19,,fire_station,,,,,East Grand Avenue,Dallas,,,32.79386128625049,-96.7467960823748,Dallas
+Dallas Fire Station Number 53,,fire_station,,,,,John West Road,,,,32.80748170879628,-96.69358685619471,Dallas
+Dallas Fire Station Number 31,,fire_station,,,,,Garland Road,Dallas,,,32.832618740458436,-96.70427876815071,Dallas
+City Hospital at White Rock,,hospital,,,,,Poppy Drive,Dallas,,,32.834473316848225,-96.70553406277081,Dallas
+Dallas Fire Station Number 26,,fire_station,,,,,Sheldon Avenue,,,,32.74454750786288,-96.8745909741862,Dallas
+Dallas Fire Station Number 33,,fire_station,,,,,West Illinois Avenue,,,,32.71967349302273,-96.83653046922397,Dallas
+,substation,,,,,,,,,,32.70481188297074,-96.76427175843067,Dallas
+Dallas Fire Station Number 35,,fire_station,,,,,Walnut Hill Lane,,,,32.880909244688475,-96.85177048639142,Dallas
+Dallas Fire Station 49,,fire_station,,,,,South Hampton Road,Dallas,,,32.68477081920069,-96.85743318549284,Dallas
+,substation,,,,,,,,,,32.844221700000006,-96.75196510000002,Dallas
+,substation,,,,,,,,,,32.749038724755415,-96.85772495474836,Dallas
+Dallas Fire Station Number 39,,fire_station,,,,,Centerville Road,Dallas,,,32.84510014348317,-96.66676604655319,Dallas
+Dallas Fire Station Number 57,,fire_station,,,,,Audelia Road,Dallas,,,32.89663388827783,-96.71831574147355,Dallas
+Dallas Fire Station Number 29,,fire_station,,,,,Audelia Road,,,,32.916356715618484,-96.71704930503441,Dallas
+,substation,,,,,,,,,,32.88905087507215,-96.7171282406202,Dallas
+,substation,,,,,,,,,,32.888967545857206,-96.73734347445769,Dallas
+,,fire_station,,,,,West Wheatland Road,,,,32.64241090280771,-96.95308829885565,Dallas
+,substation,,,,,,,,,,32.667692875876334,-96.77171046623172,Dallas
+,substation,,,,,,,,,,32.62588570784794,-96.74163134490166,Dallas
+Dallas Fire Station Number 54,,fire_station,,,,,Bonnie View Road,,,,32.66984129362514,-96.76050347078181,Dallas
+,substation,,,,,,,,,,32.89979932485527,-96.8553616681642,Dallas
+,substation,,,,,,,,,,32.90297612941709,-96.83097204153019,Dallas
+,substation,,,,,,,,,,32.8974199,-96.7940434,Dallas
+,substation,,,,,,,,,,32.89956209979156,-96.77008250045047,Dallas
+UT Police Department,,police,,,,,,,,,32.82248724328921,-96.84646947294667,Dallas
+Dallas Fire Station Number 20,,fire_station,,,,,Montfort Drive,,,,32.92218537600881,-96.81170102023907,Dallas
+Dallas Fire Station Number 13,,fire_station,,,,,Frankford Road,,,,32.99728342408095,-96.78413235258222,Dallas
+North Central Service Station,,police,,,,,Mccallum Boulevard,,,,32.98905973608656,-96.78312904390349,Dallas
+Dallas Fire Station Number 56,,fire_station,,,,,Belt Line Road,,,,32.94963509253466,-96.78231415075668,Dallas
+Dallas Fire Station Number 51,,fire_station,,,,,North St Augustine Road,,,,32.71051835310171,-96.65667692260698,Dallas
+,substation,,,,,,,,Texas Utilities Electric Company,,32.81197961776005,-96.70873924151849,Dallas
+,,,water_works,,,,,,North Texas Municipal Water District,,32.84640101876216,-96.65731459391425,Dallas
+,substation,,,,,,,,,,32.7856844611249,-96.7767747694418,Dallas
+Dallas Fire Station Number 3,,fire_station,,,,,,,,,32.78724108551243,-96.78321721981042,Dallas
+,substation,,,,,,,,,,32.79610809728757,-96.78229568385817,Dallas
+,substation,,,,,,,,,,32.77712195,-96.72591090000002,Dallas
+Dallas Fire Station Number 27,,fire_station,,,,,,,,,32.865142336603796,-96.80889956806688,Dallas
+,substation,,,,,,,,,,32.6992819,-96.8582856,Dallas
+,substation,,,,,,,,,,32.70101760747837,-96.83966537716199,Dallas
+,substation,,,,,,,,,,32.751857900000005,-96.74752865,Dallas
+,substation,,,,,,,,,,32.78507969668037,-96.81778583664882,Dallas
+,substation,,,,,,,,,,32.786377699999996,-96.81544964999999,Dallas
+,substation,,,,,,,,,,32.865196600000004,-96.8918277,Dallas
+The T. Boone Pickens Center for Hospice and Palliative Care,,hospital,,,,,Merit Drive,Dallas,,,32.91746425521001,-96.77392623132381,Dallas
+Garland/DFW Heloplex,,,,,aerodrome,,,,,,32.88658626914771,-96.68424223519445,Dallas
+Texas Health Presbyterian Hospital Dallas,,hospital,,,,,Walnut Hill Lane,Dallas,Texas Health Resources,,32.879943786461915,-96.76204427690946,Dallas
+,substation,,,,,,,,,,32.84047905,-96.77356875000001,Dallas
+Baylor University Medical Center,,hospital,,,,,Gaston Avenue,Dallas,Baylor Scott & White Health,,32.78980808984145,-96.7786231252053,Dallas
+Methodist Rehabilitation Hospital,,hospital,,,,,West Wheatland Road,Dallas,,,32.646547519876414,-96.87102826354808,Dallas
+Methodist Dallas Medical Center,,hospital,,,,,North Beckley Avenue,Dallas,Methodist Health System,,32.76087507713176,-96.82477300158385,Dallas
+Our Children's House,,hospital,,,,,Empire Central,Dallas,Children's Health,,32.82608761932777,-96.8697628175043,Dallas
+Medical City Green Oaks Hospital,,hospital,,,,,Clodus Fields Drive,Dallas,HCA,,32.912838537585564,-96.77171652714351,Dallas
+Texas Scottish Rite Hospital for Children,,hospital,,,,,Welborn Street,Dallas,,,32.80223620407711,-96.81483732097247,Dallas
+William P. Clements Jr. University Hospital,,hospital,,,,,Harry Hines Boulevard,Dallas,University of Texas Southwestern Medical Center,,32.819171657210646,-96.84865077597755,Dallas
+Parkland Memorial Hospital,,hospital,,,,,Harry Hines Boulevard,Dallas,Parkland Health & Hospital System,,32.81299257319389,-96.8351220694629,Dallas
+Pine Creek Medical Center,,hospital,,,,,Harry Hines Boulevard,Dallas,,,32.84112323074882,-96.86839796465101,Dallas
+Promise Hospital of Dallas,,hospital,,,,,Harry Hines Boulevard,Dallas,Promise Healthcare,,32.83282800319414,-96.86167351758093,Dallas
+Duck Creek Wastewater Treatment Plant,,,wastewater_plant,,,,,,,,32.79225774169761,-96.51662489562247,Dallas
+Texas Institute for Surgery At Texas Health Presbyterian Dallas,,hospital,,,,,Greenville Avenue,Dallas,Texas Institute for Surgery,,32.876977901910536,-96.7620591835742,Dallas
+,substation,,,,,,,,,,32.8006698220033,-96.8080669034097,Dallas
+,substation,,,,,,,,,,32.65386116641061,-96.80382148277867,Dallas
+,substation,,,,,,,,,,32.66190433751196,-96.81540350578555,Dallas
+,substation,,,,,,,,,,32.8549725,-96.6484478,Dallas
+,substation,,,,,,,,,,32.78723506860846,-96.6984535857828,Dallas
+,,hospital,,,,,,,,,32.717760695789735,-96.66233967104709,Dallas
+,,hospital,,,,,,,,,32.82057045294004,-96.84458124577183,Dallas
+,substation,,,,,,,,,,32.86745754401701,-96.7885199111509,Dallas
+Bachman WTP,,,water_works,,,,Shorecrest Drive,Dallas,Dallas Water Utilities,,32.84852531137957,-96.86877910498445,Dallas
+,substation,,,,,,,,,,32.94989132517002,-96.77133474532847,Dallas
+,substation,,,,,,,,,,32.748614149999995,-96.72579979999999,Dallas
+,,,water_works,,,,,,,,32.83838863928573,-96.87072383934094,Dallas
+,substation,,,,,,,,,,32.86542339999999,-96.84461855,Dallas
+,substation,,,,,,,,,,32.882982850000005,-96.8922271,Dallas
+,,hospital,,,,,,,,,32.695121395428146,-96.79006702872448,Dallas
+Redmond Taylor Army Heliport,,,,,aerodrome,,,,,,32.7314028120501,-96.97501736170497,Dallas
+,substation,,,,,,,,,,32.82593898166048,-96.86231872517729,Dallas
+,substation,,,,,,,,,,32.732454244045634,-96.98666098995423,Dallas
+,substation,,,,,,,,Oncor,,32.96536483861775,-96.78876146453693,Dallas
+Dallas Police Love Field Unit,,police,,,,,,,Dallas Police Department,,32.84473095823043,-96.84750822908589,Dallas
+Dallas Fire Station 6,,fire_station,,,,,Pennsylvania Avenue,Dallas,,,32.763611245283094,-96.77210064740736,Dallas
+Lake Hubbard Station,plant,,,,,,,,Luminant Generation Company LLC,,32.83703530486553,-96.54873177840228,Dallas
+,substation,,,,,,,,,,32.81936385,-96.83358860000001,Dallas
