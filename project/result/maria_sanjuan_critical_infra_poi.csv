@@ -1,0 +1,435 @@
+osm_id,name,type,lat,lon
+357272604,San Juan Medical Imaging LLP,clinic,18.4503418,-66.0658003
+367769870,Rosa de Lima Police Station,police,18.42966,-66.112485
+1042055257,San Juan Seaplane Base,aerodrome,18.4577999,-66.1211014
+1984391658,Clinica Expreso Auxilio Mutuo (CDT),clinic,18.3569189,-66.0458568
+2450076284,Policía de Puerto Rico,police,18.4671958,-66.1043441
+2612952339,Autoridad de Energía Eléctrica de PR,government,18.451721,-66.0762856
+2612953478,A.E.E. Monacillos,government,18.3722813,-66.0731372
+2692772381,CIES,government,18.4031872,-66.0524381
+2692837155,Departamento de Transportación y Obras Públicas,government,18.4484478,-66.0675498
+2738523675,Legislatura Municipal de San Juan,government,18.4660253,-66.116822
+2748751712,Oficina Estatal de Conservación Histórica,government,18.4674773,-66.1200493
+2834704662,San Juan Caperstrano Ambulatory Clinic,clinic,18.4546995,-66.0727394
+2837148877,Bianca Pucchi,clinic,18.4543566,-66.0726912
+2944887453,Condado MRI,clinic,18.454621,-66.0660363
+2967511671,Police Diving Unit,police,18.4458976,-66.0836862
+3013595585,Social Security Administration,government,18.4073744,-66.1041121
+3074285478,Junta de Planificación,government,18.4496273,-66.0672694
+3099826222,Fondita de Jesús,clinic,18.4504921,-66.0791634
+3138784391,Laboratorio Clínico Las Colinas,clinic,18.3625549,-66.1188287
+3401850663,Laboratiorio Borinquen,clinic,18.4453697,-66.0691044
+3401850664,Laboratorio Borinquen,clinic,18.4449059,-66.0690777
+3401850666,Pavía Breast & Imaging Center,clinic,18.4450097,-66.0689746
+3401850667,Pavía Medical Plaza,clinic,18.44534,-66.0688073
+3434600152,Instituto de Ciencias Forenses,government,18.3936262,-66.0792293
+3613844396,Autoridad de Acueductos y Alcantarillados,government,18.4003089,-66.0521512
+3653041339,unnamed,police,18.39509,-66.035289
+3778279091,OIAT,government,18.3896513,-66.0772889
+3853767875,Cuartel Condado,police,18.4543492,-66.0755214
+3894902455,Comisión de Servicio Público,government,18.38148,-66.0692943
+4023943916,Registro Demográfico,government,18.4179873,-66.0438431
+4230304317,Departamento de la Familia ACUDEN,government,18.466391,-66.1086768
+4232309093,Laboratorio Clínico Muñoz Rivera,clinic,18.372156,-66.1024239
+4232346198,Centro Clínico Serrano,clinic,18.372263,-66.1053969
+4270345286,Laboratorio Clinico Adamar,clinic,18.4508623,-66.0548543
+4304659393,Laboratorio Miramar,clinic,18.455765,-66.0834672
+4387461343,Registro de la Propiedad,government,18.409692,-66.0547426
+4608437241,Departamento de la Familia,government,18.4554095,-66.082628
+4690975392,Policía Municipal,police,18.4200557,-66.0633799
+4694086269,Cámara De Representantes De Puerto Rico,government,18.4657105,-66.1029929
+4694086272,Archivo De Comisiones Legislativas,government,18.4657016,-66.102882
+4694108572,ACUDEN,government,18.4657669,-66.1101631
+4702466950,Clínica Medicina Preventiva,clinic,18.4372936,-66.0537491
+4702466951,Quality Dental Care,clinic,18.4371931,-66.0535419
+4713955903,Pranic Healing,clinic,18.4420379,-66.0632602
+4714053511,Santurce Medical Mall,clinic,18.4407068,-66.0615147
+4749637828,San Jorge Chiropractic Place,clinic,18.4439978,-66.0633694
+4825681232,Ojos Day Surgery Center,clinic,18.4447725,-66.0739071
+4858658799,Asociación Empleados Gerenciales y Supervisores Autoridad de Carreteras,government,18.4496006,-66.0695342
+4894082229,Natural Health Clinic,clinic,18.4445313,-66.0664606
+4894126417,Laboratorio Borinquen,clinic,18.4462022,-66.0687946
+4894205142,Laboratorio Clínico del Parque,clinic,18.4462401,-66.065556
+4907922524,MedChic,clinic,18.458451,-66.0765551
+4976155783,Instituto de Rehabilitación del Caribe,clinic,18.4467774,-66.063535
+5150833678,Health South Rehabilitation Of PR,clinic,18.3971838,-66.0735602
+5150833684,Metropolitan Community Clinic,clinic,18.4182516,-66.0572664
+5150833685,Integrated Community Health System,clinic,18.397181,-66.148662
+5150833686,Hoffa Medical Center,clinic,18.4461662,-66.0654426
+5150833689,CSM Integrados CDT,clinic,18.3976747,-66.1501214
+5150833691,CPF Celeste Zalduondo,clinic,18.419809,-66.058392
+5150833694,Corporación del Fondo de Seguro del Estado,clinic,18.3997535,-66.1317393
+5150833696,Clinica Externas Administracion De Servicio,clinic,18.3953864,-66.0742321
+5150833703,CDT Programa SIDA de San Juan,clinic,18.447642,-66.074286
+5150833704,CDT Medicina Familiar Minillas,clinic,18.3765433,-66.1469457
+5150833706,"CDT GMSP, Inc.",clinic,18.3967338,-66.1473424
+5150833707,Centro De Diagnostico Y Tratamiento Eulalia Kuilan - Cataño -,clinic,18.436202,-66.153956
+5150833712,CDT Doctores Villalobos,clinic,18.3802079,-65.9560303
+5150833714,CDT Caribbean Medical Testing Center (Cmt),clinic,18.4066478,-66.0653561
+5150833715,CDT Asociacion De Maestros De Puerto Rico,clinic,18.411961,-66.06811
+5164294637,Medical Oftalmic Laser,clinic,18.3973037,-66.1634651
+5164339824,"Guaynabo ASG, Inc.",clinic,18.4168823,-66.1084321
+5270637923,unnamed,government,18.4084707,-66.1480934
+5270658721,Oficina para el Manejo de Emergencia Bayamón,government,18.4079719,-66.1482972
+5364131921,MetroAid Ambulance,clinic,18.4054803,-66.1725206
+5489339922,Administración de Seguros de Salud,government,18.3852902,-66.0659182
+6584172181,Torre Vigilancia,police,18.4709437,-66.1357686
+6802504787,unnamed,police,18.4164889,-66.1476882
+7057304253,USDA Inspection Station (Estación de Inspeción USDA),government,18.4362635,-66.0044475
+7454690185,unnamed,police,18.4019632,-65.9887664
+7454690285,unnamed,police,18.4028844,-65.9937749
+7489702285,Fresenius Kidney Care Carolina,clinic,18.422398,-65.9904962
+7524584385,Cuartel de la Policía Municipal del Viejo San Juan,police,18.46468,-66.1109766
+7737567994,Centro de Rayos-X  y Open MRI,clinic,18.3705577,-66.0145111
+7737699994,Fresenius Kidney Care,clinic,18.3570686,-66.0614417
+7741375538,Reforma de Salud y Programa Medicaid - Bayamón,government,18.4013222,-66.157706
+7741589380,Beautiful Body Esthetic & Spa,clinic,18.3943004,-66.1450022
+7752772139,Oficina del Medicaid,government,18.3820921,-65.9632177
+7752772143,Oficinas AEE - Carolina,government,18.3820081,-65.9630353
+7795328442,True Colon Hydrotherapy,clinic,18.3673462,-66.0634383
+7795328444,Navitas Medical Boutique,clinic,18.3672234,-66.0636817
+7795388233,Fresenius Kidney Care,clinic,18.3570808,-66.0457826
+8251485117,Audio Salud,clinic,18.3955376,-65.9694488
+8957498417,Clinica Veterinaria,clinic,18.3819395,-66.0682862
+9499262117,Vital Care Clinic,clinic,18.431021,-66.0160108
+9522495313,JRC Tax & Accounting,government,18.3778845,-66.09597
+9538503957,Federal Bureau of Investigation San Juan Field Office,government,18.4232946,-66.0644504
+9556656328,Cuartel de la Policía Municipal de Guaynabo,police,18.3926121,-66.1173549
+9556816738,Oficina de Permisos del Municipio de San Juan,government,18.39304,-66.0836376
+9556816739,Departamento de Vivienda,government,18.3930706,-66.0834136
+9656761016,Programa WIC,government,18.423677,-66.0750047
+9657080998,Departamento de Corrección y Rehabilitación,government,18.4270937,-66.0689049
+9657080999,Junta de Libertad Bajo Palabra,government,18.4265873,-66.068811
+9657081014,Lotería Electrónica de Puerto Rico,government,18.4220653,-66.069849
+9657135919,Puerto Rico Federal Contracting Center,government,18.421835,-66.0684194
+9657135920,Govology,government,18.4213998,-66.0681002
+9657135921,Departamento de Desarrollo Económico y Comercio,government,18.4217994,-66.0680788
+9657136004,Administración de Terrenos,government,18.4253338,-66.0631266
+9657136018,Administración de Compensaciones por Accidentes de Automóviles (ACAA),government,18.4255412,-66.0636764
+9657136019,Oficina del Inspector General,government,18.425307,-66.0635691
+9657136020,Colecturía de San Juan - Hato Rey,government,18.426956,-66.0641351
+9657136021,Adminstración de Asuntos Energéticos,government,18.4270005,-66.0638897
+9657136023,Oficina del Contralor Electoral,government,18.4268275,-66.0638762
+9657136038,Sistema de Retiro para Maestros de Puerto Rico,government,18.4266646,-66.0640412
+9657136039,Eden Esthetics,clinic,18.4264051,-66.0638467
+9657136045,Vidaurre - Dra. Vilma Ortega,clinic,18.4264522,-66.0639876
+9892070889,Administración de Rehabilitación Vocacional,government,18.4323507,-66.0597689
+9892070890,Oficina del Procurador del Ciudadano,government,18.4321496,-66.0595436
+9901926117,Salus,clinic,18.4135436,-65.9828317
+9966306088,Social Security Administration,government,18.4090044,-66.1049573
+10014176937,Metropistas,government,18.4175046,-66.1085853
+10014176939,US Environmental Protection Agency,government,18.4172145,-66.1083265
+10067091257,Departamento de Estado,government,18.4225763,-66.0743207
+10067170485,Oficinas Centrales de AEE / Luma Energy,government,18.451567,-66.0759847
+10679733557,Puerto Rico Emergency Management Agency,government,18.4210352,-66.0588913
+10690269495,Caribbean Fishery Management Council,government,18.4247566,-66.0586198
+10716618413,Casa Alcaldía de San Juan,townhall,18.465541,-66.1166828
+11012988594,Clinica Borinquen Medical Services,clinic,18.4472136,-66.0354669
+11493708473,CBP San Juan Cruise Port Terminal PAD West,government,18.458798,-66.0986247
+11553950510,Departamento de Justicia de Puerto Rico,government,18.4082988,-66.0637924
+12212373758,Hope Women's Clinic,clinic,18.4010054,-66.0559088
+12212384586,Hope Women's Clinic,clinic,18.3950999,-66.1425328
+12300581601,Departamento de La Vivienda Carolina Shopping Court,government,18.381632,-65.9625927
+12389238447,Numed,clinic,18.3919683,-66.1045166
+12394983426,unnamed,substation,18.4476139,-66.0660911
+12572429567,Auxilio Mutuo Pediátrico,clinic,18.4102762,-66.0498696
+12572429568,Hospital Panamericano de San Juan,clinic,18.4103777,-66.0501382
+12572429569,Clínica de Subespecialistas Pediátricos,clinic,18.4100883,-66.0503323
+12572429581,Instituto de Arritmia de Puerto Rico,clinic,18.4094453,-66.0511734
+12572429582,Centro de Neurodiagnóstico,clinic,18.4106381,-66.0512406
+12572429584,Ginecología y Uroginecología Dra. Daniela Carlos,clinic,18.4091358,-66.0523083
+12572429590,Voice & Sinus Institute - Dr. Omar González Yanes,clinic,18.4088453,-66.0527153
+12572429591,Dra. Milagros Fernández,clinic,18.4088779,-66.0526361
+12572429592,Dra. Gabriela Pabón,clinic,18.4089507,-66.0525917
+12572429595,Grupo Fisiátrico,clinic,18.4090219,-66.0522935
+12572429596,Gastro 2000,clinic,18.4090462,-66.0525414
+12572429597,Centro Digestivo Pediátrico del Caribe,clinic,18.4087936,-66.0526386
+12840207465,MMM Multiclínica,clinic,18.3867611,-65.9801905
+12840221039,MMM Multiclínica,clinic,18.3915405,-66.1615145
+12840299871,Triple-S Salud,clinic,18.3973249,-66.1547698
+12844437801,Nueva Figura,clinic,18.4515872,-66.0394242
+12844455201,Sahha Naturali,clinic,18.4515524,-66.039685
+12847384214,Cuartel de la Policía Municipal de Guyanabo,police,18.3752133,-66.1135234
+12847384215,Oficina Municipal para el Manejo de Emergencias de Guaynabo,government,18.3754724,-66.1134697
+12848148473,Registro Demográfico de Bayamón,government,18.3969653,-66.1559788
+12849075170,Registro Demográfico de Guaynabo,government,18.3616656,-66.1133372
+12849628801,Caribbean 12-Step,clinic,18.4525007,-66.0773222
+12854119401,Departamento de Justicia Registro de la Propiedad,government,18.4500174,-66.0750082
+12854132701,Departamento de Justicia Registro de la Propiedad,government,18.4500174,-66.0750082
+12865124501,Remedy+ Chiropractic Cryospa,clinic,18.4302328,-66.0608966
+12889521001,VIDA Wellness,clinic,18.4588463,-66.0771213
+13014618955,CESCO,government,18.4012585,-66.1575595
+13014618956,Autoridad de Acueductos y Alcantarillados,government,18.4009344,-66.1575788
+13031404402,Lotería de Puerto Rico,government,18.4257129,-66.061837
+13176039301,Cuartel de la Policía de Barrio Obrero,police,18.4366335,-66.0415923
+55787520,Centro Médico de Puerto Rico,hospital,18.3952598,-66.0737457
+59576700,Hospital de la UPR - Dr. Federico Trilla,hospital,18.3888917,-65.9719277
+59592670,Hospital Auxilio Mutuo,hospital,18.409803,-66.0512493
+60982169,unnamed,water_works,18.3758506,-66.1197177
+72746868,Cuartel Estatal de Río Piedras,police,18.3973332,-66.0516965
+72872245,Centro Más Salud Dr. Javier J. Antón,clinic,18.3957817,-66.0485872
+79584691,Autoridad de Transporte Integrado / Tren Urbano,government,18.4078623,-66.0660264
+84176389,Subestación Viaducto I,substation,18.4462356,-66.0780513
+84179767,Subestación Hato Rey 1420,substation,18.4270126,-66.0679783
+84348642,Subestación Monacillos,substation,18.3728888,-66.0730377
+84567357,Central Palo Seco,plant,18.4558707,-66.1486603
+157554080,Subestación Bayamón,substation,18.398782,-66.1406293
+164066019,Subestación Sabana Llana II,substation,18.395243,-65.9810258
+194738491,Auxilio Mutuo San Pablo - Bayamón,hospital,18.3980232,-66.1475309
+196598857,Banco Gubernamental de Fomento - Edificio Guillermo Rodríguez Benítez,government,18.4491995,-66.0679504
+196598858,Centro Gubernamental Roberto Sánchez Vilella Torre Norte,government,18.4496095,-66.0672516
+196598859,Centro Gubernamental Roberto Sánchez Vilella Torre Sur,government,18.44853,-66.0675174
+197851673,Subestación Santurce,substation,18.454173,-66.0760882
+197855252,Subestación Martín Peña,substation,18.4345157,-66.060246
+202157722,Aeropuerto Comandante Fernando Luis Ribas Dominicci,aerodrome,18.4562051,-66.0981778
+202550974,Centro de Gobierno José E. Aponte de la Torre,government,18.383496,-65.9542256
+204984396,Compañía de Fomento Industrial,government,18.4216865,-66.0682597
+204984407,Municipio de San Juan,government,18.4262813,-66.0624946
+204984411,Autoridad de Acueductos y Alcantarillados,government,18.4137899,-66.0435945
+204984416,Departamento de la Vivienda,government,18.4132392,-66.043998
+251385682,Office of Management and Budget,government,18.4643019,-66.116202
+252692668,Casa Alcaldía de San Juan,government,18.4655388,-66.1166802
+256339011,Compañía de Turismo de Puerto Rico,government,18.4637207,-66.1180424
+256662599,Centro de Recepciones Oficiales del Gobierno,government,18.4661709,-66.111424
+261399818,Edificio Agencias Ambientales,public_building,18.3919777,-66.0588214
+261411289,Guaynabo Medical Mall,hospital,18.3615749,-66.1133806
+279217293,Centro Urbano del Condado,government,18.4548488,-66.0694414
+286614603,Clínicas Externas Dr. Emilio A. Dávila González,clinic,18.3946429,-66.0736017
+286614614,Centro Latinoamericano de Enfermedades de Transmisión Sexual,clinic,18.3936959,-66.0738448
+288788380,Subestación UPR - Bayamón,substation,18.3734882,-66.143316
+292443721,US Food & Drug Administration,government,18.4611613,-66.0895764
+294759852,Servicios Médicos,clinic,18.4053593,-66.0477829
+295176739,unnamed,police,18.4625854,-66.0967649
+295319828,Estación de Bomberos de San Juan,fire_station,18.4626118,-66.0921764
+295380546,unnamed,fire_station,18.4627526,-66.0922916
+295523810,unnamed,government,18.4625447,-66.0988989
+295552214,Administración de Vivienda Pública,government,18.4533097,-66.079518
+299167621,Departamento de Recreación y Deportes,government,18.4392815,-66.0673374
+303113650,Centro de Servicios Integrados Departamento de Familia,government,18.4474936,-66.0707555
+303115208,Subestación Minillas - 1114,substation,18.450832,-66.0690707
+304233018,CESCO de Sagrado Corazón,government,18.4370138,-66.0610008
+305363575,Subestación Viaducto II,substation,18.4466301,-66.0778643
+308579735,Estación de Bomberos de Guaynabo,fire_station,18.3578284,-66.1157542
+308623259,Centro Gubernamental de Guaynabo,government,18.36184,-66.1120691
+308623265,Cuartel de la Policía Estatal de Guaynabo,police,18.3622146,-66.1119904
+308741708,Professional Hospital,hospital,18.3625223,-66.0977203
+308742147,Guaynabo Transit Police,police,18.3609055,-66.0976807
+308747403,Casa Alcaldía de Guaynabo,townhall,18.3586637,-66.1124956
+311966736,Autoridad de Tierras,government,18.4474361,-66.0729443
+311966744,Centro Más Salud Dr. Manuel García,clinic,18.4475439,-66.0744492
+312275914,unnamed,substation,18.4541812,-66.0867041
+314666250,Cuartel Estatal Precinto 266,police,18.4484501,-66.0817469
+318984563,Subestación Cataño,substation,18.4234338,-66.1399541
+320118923,Viva Medical Spa,clinic,18.4453062,-66.0705789
+321603556,Subestación Condado - 1133,substation,18.4521612,-66.0669751
+332400629,Casa Alcaldía de Guaynabo - Anexo I,townhall,18.3587147,-66.1120236
+332401574,Legislatura Municipal de Guaynabo,government,18.3587122,-66.1116032
+333374803,The San Jorge Hospital,hospital,18.4469993,-66.0631347
+336398983,Hospital General de Psiquiatría Dr. Ramón Fernández Marina,hospital,18.39007,-66.0766116
+336398987,SJ Veteran's Administration Caribbean Healthcare System,hospital,18.3908124,-66.0793734
+336451536,Subestación Fonalleda,substation,18.4070501,-66.0679219
+337496520,División de Vehiculos Hurtados,police,18.4181588,-66.1451074
+337496543,Comandancia de la Policía de Bayamón,police,18.4154044,-66.1475288
+338716630,Policía Municipal,police,18.3994582,-66.1557241
+338720288,Cuartel de la Policía Estatal de Bayamón Norte Agente Carlos R. Acosta Rey,police,18.3936945,-66.1501492
+338720301,Casa Alcaldía de Bayamón,townhall,18.3961737,-66.1557804
+338720375,Varmed Health Center,clinic,18.3971398,-66.1546443
+338720498,Estación de Bomberos de Bayamón,fire_station,18.3923257,-66.1670543
+339934072,Cuartel Bayamon Sur,police,18.3633893,-66.1498639
+345767296,Comisión Estatal de Elecciones,government,18.4284872,-66.0631774
+348343557,Subestación Parques y Recreos,substation,18.4621143,-66.0901848
+350707937,Centro de Salud Integral en la Montaña,clinic,18.3632001,-66.1894726
+358947136,Autoridad de los Puertos - Negociado Marítimo,government,18.4539899,-66.0955542
+358949144,Autoridad de los Puertos,government,18.4557407,-66.0941275
+358995959,Subestación Taft,substation,18.4509197,-66.0607131
+358997015,Junta de Inscripción Permanente San Juan 1-A (CEE),government,18.4491382,-66.0526387
+365135848,unnamed,clinic,18.3986122,-66.0149779
+365135890,unnamed,clinic,18.3967561,-66.045417
+365136044,Centro de Gestión Única Laboral,government,18.3968073,-66.0499693
+365136108,unnamed,clinic,18.3962488,-66.0500374
+365138908,unnamed,hospital,18.3967422,-66.0521728
+365139310,unnamed,clinic,18.3974514,-66.0464976
+365141436,unnamed,clinic,18.3978455,-66.0458193
+365142354,unnamed,fire_station,18.3958925,-66.0510659
+365143171,unnamed,substation,18.4012651,-66.0474904
+365144341,unnamed,substation,18.4012719,-66.0475598
+365413096,Departamento de la Familia,government,18.3942578,-66.0837665
+365414526,Comisión Industrial de Puerto Rico,government,18.3914216,-66.0823085
+365414544,Junta de Gobierno del Servicio 9-1-1,government,18.3877735,-66.1068111
+365415153,Cuartel de la Policía Municipal de San Juan - Unidad de Tránsito,police,18.3849864,-66.072591
+365415701,Comandancia de la Policía - Region San Juan,police,18.3854283,-66.0799516
+365415981,Departamento de Salud,government,18.3819332,-66.0666681
+365416505,unnamed,police,18.4004691,-66.0914197
+365422501,Autoridad Metropolitana de Autobuses,government,18.388037,-66.0804623
+366005892,Policía de Puerto Rico - Precinto 466,police,18.4367075,-66.0415543
+366006004,Centro Más Salud Dr. José S. Belaval,clinic,18.4358378,-66.0483739
+366006359,Cuartel de la Policía Municipal de San Juan,police,18.4408393,-66.0514146
+366007553,Estación de Bomberos de San Juan - Barrio Obrero,fire_station,18.4402355,-66.0526202
+366007926,Policía de Puerto Rico - Precinto 466,police,18.4368501,-66.0416787
+366404543,CRIM,government,18.3630383,-66.0844427
+366577125,"Estación de Bomberos de Hato Rey ""Arthur Rivera Cruz""",fire_station,18.4162144,-66.0571073
+366578397,Cuartel General de la Policía de Puerto Rico,police,18.4172129,-66.0778615
+366578807,Estación de Bomberos de Puerto Nuevo,fire_station,18.4130433,-66.0854475
+366579035,Policía Municipal de San Juan - Cuartel Hato Rey Este,police,18.413911,-66.0501445
+366579260,Centro de Acogida,clinic,18.4166016,-66.0436588
+366580694,Hospital Pavía de Hato Rey,hospital,18.4193389,-66.0559612
+366581109,Unión Independiente Auténtica de la Autoridad de Acueductos y Alcantarillados,government,18.4129485,-66.0500193
+366582027,Departamento de la Familia,government,18.4239842,-66.0459833
+366584971,unnamed,substation,18.4269674,-66.1044622
+366585123,unnamed,clinic,18.4173372,-66.0799928
+366590886,Estación de Bomberos de San Juan - Truman,fire_station,18.4191725,-66.0425305
+366726080,Oficinas AEE - Edificio Ingeniero Julio A. Negroni Arizmendi,government,18.3734193,-66.0721662
+366897661,Subestación Fátima,substation,18.4124287,-66.0571849
+367363957,Health Pro-Med,clinic,18.4375817,-66.0559337
+368758848,Subestación Río Bayamón,substation,18.3816711,-66.1260116
+369412003,Subestación Egozcue,substation,18.4408991,-66.0687042
+369424125,Área de Embellecimiento y Ornato,government,18.4281504,-66.0706005
+369424142,Comisión Estatal de Elecciones - Centro de Operaciones Electorales,government,18.4321479,-66.071115
+371499302,Centro de Radioterapia del Auxilio Mutuo,clinic,18.4107237,-66.0503796
+375020948,Subestación Tres Monjitas - 1414,substation,18.4223859,-66.0675614
+375708854,Clínica Las Américas,hospital,18.4196641,-66.0692463
+376698037,Subestación San Antón,substation,18.3966997,-65.992575
+376698039,Subestación Sabana Llana I,substation,18.3943652,-65.9807973
+380242849,Subestación Venezuela,substation,18.3970599,-66.055757
+387047881,Hospital del Maestro,hospital,18.4116521,-66.0686266
+406005062,Junta de Inscripción Permanente,government,18.3547364,-66.1111012
+422850323,Laboratorio Borinquen,clinic,18.4522015,-66.0552783
+422982417,unnamed,police,18.3673286,-66.0232635
+425039845,Centro Más Salud Dr. Gualberto Rabell,clinic,18.4470885,-66.0822103
+426258872,Subestación Campo Llano,substation,18.4102452,-66.0113391
+440090983,unnamed,substation,18.4225553,-66.07024
+441595008,"Autoridad de los Puertos - Conservación, Marítimo y Talleres",government,18.4532644,-66.0963493
+442865732,Clínica,clinic,18.4379544,-66.0555552
+443060324,Subestación Villamil,substation,18.4505628,-66.0729889
+448221263,Central Termoeléctrica de San Juan,plant,18.4266402,-66.1045714
+458520760,Hospital Metropolitano de San Juan,hospital,18.3901301,-66.0982671
+462848788,Subestación Hato Rey 1404,substation,18.4268981,-66.0600857
+464270549,Subestación Universidad,substation,18.406049,-66.0474712
+469278555,Centro Más Salud Dr. Manuel Quevedo Báez,clinic,18.4646342,-66.0961279
+475343834,Subestación Miramar 1107,substation,18.4500082,-66.0826163
+479518889,Policía de Puerto Rico - Patrullas de Carreteras de San Juan,police,18.4192217,-66.0612584
+479518891,Policía de Puerto Rico - Recinto Hato Rey Oeste,police,18.420088,-66.0614814
+484385658,Subestación Los Frailes,substation,18.3697374,-66.1119631
+491656628,unnamed,government,18.3921993,-65.9957975
+492218841,Subestación Guaynabo Pueblo,substation,18.3648495,-66.1111198
+492408200,Centro Médico Correccional,hospital,18.4178664,-66.1477885
+528183924,Casa Alcaldía de Carolina,townhall,18.3814089,-65.9555621
+528183925,Legislatura Municipal de Carolina,government,18.3809934,-65.9555165
+528263466,Comandancia de la Policía - Carolina,police,18.3798953,-65.9609741
+528832294,Subestación Base Muñiz,substation,18.4377781,-65.9868359
+528927188,unnamed,fire_station,18.4375385,-65.9979983
+528928024,"National Weather Service - San Juan, PR",government,18.4316199,-65.9920442
+529009572,Cuartel de la Policía de Piñones,police,18.4555184,-65.9836786
+529758427,Centro de Diagnóstico y Tratamiento de Trujillo Alto,clinic,18.3636996,-66.0050763
+530073173,Metro Pavía Clinic - Toa Baja,clinic,18.4390465,-66.1948931
+530073175,Centro Gubernamental de Toa Baja Anacleto Ortiz Santana,government,18.4393249,-66.1970721
+530130857,Corporación del Fondo del Seguro del Estado,government,18.3958842,-65.9900834
+530277351,Agencia Estatal para el Manejo de Emergencias - Carolina,government,18.3805282,-65.9677636
+530434594,Hospital Episcopal San Lucas Metro,hospital,18.3726834,-66.0464969
+530434622,Ashford Presbyterian Community Hospital,hospital,18.4561992,-66.0654345
+530492743,Casa Alcaldía de Cataño,townhall,18.4410413,-66.1216041
+530658553,Casa Alcaldía de Trujillo Alto,townhall,18.3521441,-66.0065326
+530910162,Cuartel de la Polícia Municipal de Toa Baja,police,18.438057,-66.1943734
+531422223,Cirujano Dentista,clinic,18.3949645,-65.9750519
+531422224,IGO Medical Mall,clinic,18.3948587,-65.9749551
+531425025,Quiropráctico Laser Clinic,clinic,18.3937331,-65.9731798
+531425028,Neumólogo,clinic,18.393523,-65.9728541
+532023242,Oficinas de Servicios Múltiples,government,18.4410855,-66.1204436
+532023252,Departamento de la Familia,government,18.4412709,-66.1202102
+532807887,Subestación Aeropuerto,substation,18.436535,-66.0096964
+532825818,Casa Alcaldía de Trujillo Alto Elsie Calderón Rodríguez,townhall,18.3547204,-66.0073641
+533000268,Centro Colorectal del Caribe,clinic,18.3933879,-65.9726461
+533000280,Medicina deportiva y Rehabilitación,clinic,18.3931788,-65.9723157
+533029423,unnamed,police,18.3826063,-65.9795425
+533099600,Cuartel Policía Municipal de Cataño Sgto. Carlos Reyes Rivera,police,18.4414143,-66.1262691
+533139432,Cuartel Estatal de la Policía de Trujillo Alto,police,18.356566,-66.0052432
+533211436,Cuartel de la Policía Municipal de Trujillo Alto Teniente Pedro Casildo Torres Santos,police,18.3559913,-66.0063848
+535072267,Centro de Actividades Múltiples Wilson Ramos Cortés,government,18.4406842,-66.1230236
+535083087,Departamento de Salud,government,18.4428912,-66.1293276
+535083126,Estación de Bomberos de Cataño Comandante Abelsaín Coreano Cruz,fire_station,18.4408239,-66.1267694
+535382381,unnamed,substation,18.3991227,-66.0720811
+535402206,Subestación Centro Médico,substation,18.3923049,-66.0729881
+537797274,Departamento de la Familia - Trujillo Alto,government,18.3716567,-66.0153921
+543302174,Subestación Puerta de Tierra,substation,18.4644015,-66.1008387
+548889837,Cuartel de la Policia - Juan Domingo,police,18.3973461,-66.1226951
+585913572,Hospital Universitario Dr. Ramón Ruiz Arnau,hospital,18.3682821,-66.1541844
+585939362,Hospital San Francisco,hospital,18.3991004,-66.0387956
+608469301,unnamed,hospital,18.4283405,-66.1384771
+669355515,Estación de Bomberos - Isla Verde,fire_station,18.441801,-66.0250984
+766786276,unnamed,substation,18.4341178,-66.1119254
+778606219,Centro Más Salud Dr. Enrique Koppish,hospital,18.4194095,-66.0429398
+778617874,unnamed,substation,18.4152232,-66.0497426
+778642869,Cuartel de la Policía de Puerto Rico - Precinto de Hato Rey Este,police,18.4147516,-66.0343249
+829423251,Subestación Capuchino,substation,18.395925,-66.0434787
+830434797,Subestación Carolina Pueblo,substation,18.3790633,-65.9605404
+835130833,Metro Pavia Clinic - Cupey,hospital,18.3569026,-66.0455278
+842820908,unnamed,substation,18.3850002,-66.1806706
+888219412,unnamed,substation,18.3890027,-66.0754235
+888219415,unnamed,substation,18.386556,-66.072627
+945141286,Municipio Autónomo de Cataño,government,18.4404857,-66.1216583
+952097685,CDT Cataño,hospital,18.4419738,-66.127424
+953147283,"Comité Félix Delgado ""El Cano""",government,18.4396642,-66.1233305
+984781778,Subestación Bayamón Pueblo,substation,18.3981712,-66.1579377
+1030680369,Subestación Palo Seco,substation,18.4543399,-66.148801
+1030680370,Subestación Amelia,substation,18.432172,-66.1148225
+1030680373,unnamed,substation,18.4325108,-66.1126064
+1030680375,unnamed,substation,18.4399047,-66.1286807
+1030680376,Subestación CREA,substation,18.4114275,-66.1779877
+1036402765,Subestación Las Lomas,substation,18.3898712,-66.0944607
+1037802967,Subestación Juan Domingo,substation,18.399591,-66.122335
+1047471817,Subestación Luis Llorens Torres,substation,18.4463734,-66.0444973
+1056112060,Subestación Puerto Nuevo,substation,18.4161793,-66.0795597
+1062653486,Subestación Tapia,substation,18.4468921,-66.0526512
+1062667534,Subestación Hato Tejas,substation,18.4067545,-66.1830973
+1071091832,Subestación Las Monjas,substation,18.4272654,-66.0494123
+1071756814,Subestación Vistamar,substation,18.4224154,-65.9880558
+1075366784,First Transit Puerto Rico Inc.,government,18.3889918,-66.1061601
+1077496873,San Juan Health Centre,clinic,18.4503963,-66.0658141
+1077496878,Centro Más Salud Dr. Arnaldo J. García,hospital,18.4483611,-66.0406834
+1077508628,Subestación Isla Grande,substation,18.4510464,-66.091127
+1077785430,Subestación Covadonga GIS,substation,18.4655061,-66.1070722
+1079118723,Subestación San Fernando,substation,18.4144153,-66.0885962
+1079118739,Subestación Summit Hills I,substation,18.3980813,-66.0990662
+1079287745,Subestación Summit Hills II,substation,18.3984683,-66.0990377
+1079311973,Subestación Villas Prades,substation,18.4043658,-66.0188514
+1079311976,Cuartel de la Policía Municipal de San Juan - Antillas,police,18.396584,-66.0156042
+1082585704,Subestación Caparra,substation,18.4096974,-66.1073571
+1082587452,Subestación Crematorio,substation,18.4297729,-66.0835376
+1084316615,Subestación Bayview,substation,18.4498106,-66.1383639
+1086286572,unnamed,substation,18.3771195,-66.1396783
+1086286575,Subestación Guaraguao,substation,18.3781849,-66.1438748
+1102156073,unnamed,substation,18.4152339,-66.1364163
+1102156075,unnamed,plant,18.4149446,-66.1344496
+1122950382,Centro Más Salud Dr. José A. López Antongiorgi,hospital,18.4172815,-66.0799337
+1123235481,Centro Más Salud Dr. A. Oliveras Guerra,hospital,18.3986982,-66.0149506
+1150325802,unnamed,plant,18.4089209,-66.1143385
+1153025219,unnamed,substation,18.3687666,-66.0214758
+1153025220,unnamed,substation,18.3711533,-66.0238751
+1153025222,unnamed,substation,18.3689792,-66.0120743
+1154611615,unnamed,substation,18.3713925,-66.1664375
+1154611616,unnamed,substation,18.3826471,-66.156553
+1155117989,unnamed,substation,18.417006,-66.1949539
+1155295445,unnamed,plant,18.4156343,-66.1286988
+1155295483,unnamed,plant,18.4166837,-66.1255137
+1155295505,unnamed,substation,18.40833,-66.1161046
+1155295536,unnamed,plant,18.4117406,-66.1123014
+1196469878,Subestación Reparto Metro,substation,18.400902,-66.0787554
+1202447709,unnamed,substation,18.4415756,-66.0167353
+1205919116,Subestación Jardines Metropolitanos AEE,substation,18.4010601,-66.0628957
+1206039853,unnamed,substation,18.4405698,-66.0249189
+1208396628,unnamed,substation,18.4175684,-66.1094276
+1312067501,AAA,water_works,18.4371668,-66.1904854
+1340875157,CPC Hospital San Juan Capestrano,hospital,18.3844748,-66.0225649
+1340878748,Doctors' Center Hospital Bayamón,hospital,18.3980272,-66.1664112
+1386309035,unnamed,substation,18.4270282,-66.1051563
+1386309038,unnamed,substation,18.4238106,-66.1036448
+1387030087,MMM Multiclínica,clinic,18.4201776,-66.0569537
+1388053887,unnamed,substation,18.451524,-66.095291
+1425032130,unnamed,substation,18.4328535,-66.0866611
+1431425325,Subestación Venezuela,substation,18.396628,-66.0561074
+1431425334,unnamed,substation,18.3940194,-66.0596389
+1433187144,unnamed,substation,18.4459183,-66.0732258
+1433643391,unnamed,substation,18.4235399,-66.0469837
+1433829607,unnamed,substation,18.4393446,-66.0254867
+1450942539,Subeatacióon Los Ángeles,substation,18.43142,-66.0070063
+6004891,Aeropuerto Internacional Luis Muñoz Marín,aerodrome,18.4430518,-66.0023757

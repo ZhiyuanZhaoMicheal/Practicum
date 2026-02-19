@@ -1,0 +1,146 @@
+osm_id,name,type,lat,lon
+358389569,Moss Memorial Health Clinic,clinic,30.1828509,-93.2080662
+367132228,Cajun Country Fire Department,fire_station,30.1398036,-93.1632952
+367132237,Manchester Fire Station,fire_station,30.1956678,-93.0966875
+367132259,Le Bleu Settlement Fire Department,fire_station,30.2757048,-93.0843466
+367132344,Westlake Fire Department,fire_station,30.262046,-93.2669312
+367132345,Holmwood Fire Station,fire_station,30.1263242,-93.08069
+367132388,Lake Charles Fire Department,fire_station,30.229344,-93.2047496
+367132730,Calcasieu Parish Sheriff's Office,police,30.2266202,-93.2191424
+367132829,Calcasieu Parish Sheriff's Office - Training,police,30.2098518,-93.1519748
+367132844,Lake Charles Police Service Center,police,30.2345582,-93.1948407
+367132854,Lake Charles Police Service Center,police,30.1754522,-93.2181462
+367132875,Calcasieu Parish Sheriff's Office South Lake Charles Law Enforcement Center,police,30.1283213,-93.2128318
+367132940,Calcasieu Parish Sheriff's Office - Youth,police,30.2328786,-93.1316651
+367132975,Calcasieu Parish Sheriff's Office - Prison,police,30.2258143,-93.1414128
+367133014,Calcasieu Parish Sheriff's Office,police,30.2270962,-93.1412809
+367133023,Calcasieu Parish Sheriff's Office,police,30.2270961,-93.1410725
+367133037,Calcasieu Parish Sheriff's Office North Lake Charles Law Enforcement Center,police,30.2492345,-93.1896297
+367133057,Westlake Police Department,police,30.2626468,-93.2669457
+367133160,Calcasieu Parish Police Jury,government,30.2257461,-93.2186233
+367133197,Louisiana State Police Troop D,police,30.2265451,-93.1626838
+369015742,Open A-1 Ranch Airport,aerodrome,30.1375856,-93.1427849
+369015744,Morgan Crop Service Airport,aerodrome,30.2293734,-93.0884847
+369015746,Chloe Airport,aerodrome,30.2546084,-93.1351548
+369015798,Chennault International Airport,aerodrome,30.2108979,-93.1449929
+668135207,City of Lake Charles,fire_station,30.1790601,-93.252946
+1042005711,L Auberge Du Lac Hotel Seaplane Base,aerodrome,30.2076284,-93.2598091
+5120825227,Ward 3 Marshal's Office,government,30.2319608,-93.2179181
+10888303662,Extended Care Of Southwest Louisiana,hospital,30.2050534,-93.2226202
+10888466656,Lake Charles Memorial Hospital For Women,hospital,30.1406178,-93.2470628
+10892127472,Avail Hospital Lake Charles,hospital,30.1903784,-93.2503702
+10892152282,Oceans Behavioral Hospital Of Lake Charles,hospital,30.1764601,-93.222959
+11632169144,South Star Urgent Care,clinic,30.2585806,-93.257637
+11632186307,Lake Charles Urgent Care,clinic,30.2088916,-93.2189542
+11632186315,South Star Urgent Care,clinic,30.1881831,-93.2180583
+11632186331,Reliant Specialty Infusion,clinic,30.1960701,-93.2210208
+11632244567,Surgicare of Lake Charles,clinic,30.2117287,-93.232844
+11632320339,Revitalized Health,clinic,30.2127035,-93.2447755
+11632320340,Infinite Health Integrative Medicine Center,clinic,30.212797,-93.2447848
+11632320341,Revitalized Health,clinic,30.212263,-93.2451431
+11654579311,Social Security Administration,government,30.2048849,-93.2216745
+11654579318,Calcasieu Parish Health Unit,government,30.1986133,-93.2106278
+165477516,unnamed,substation,30.2828533,-93.2877939
+165477521,unnamed,substation,30.2819975,-93.2959309
+165477523,unnamed,substation,30.2823412,-93.2904798
+198702821,unnamed,substation,30.2601135,-93.1213976
+338957592,Carlyss Substation,substation,30.1923573,-93.348559
+339604854,Pecan Grove Substation,substation,30.1736949,-93.3345983
+339604862,unnamed,substation,30.1758212,-93.2052539
+339604870,Chalkley Bulk Substation,substation,30.1723956,-93.1129006
+339604875,Chlomal Substation,substation,30.2315747,-93.1279452
+339604880,Contraband Substation,substation,30.1837542,-93.2320798
+339604899,Smith Substation,substation,30.1685633,-93.1795166
+339604911,Solac Substation,substation,30.1547552,-93.2283103
+339613951,Greinwich Substation,substation,30.1985466,-93.1777419
+339754866,unnamed,substation,30.2205111,-93.178917
+339754872,Ann Substation,substation,30.2319325,-93.2185953
+339754873,East Broad Substation,substation,30.2266546,-93.2011016
+339754874,Ford Substation,substation,30.2134196,-93.2109259
+339754875,Goosport Substation,substation,30.2639765,-93.1794809
+339754876,Oak Park Substation,substation,30.2028337,-93.2024901
+339758212,Westlake Substation,substation,30.2426576,-93.249883
+339760452,unnamed,substation,30.2450237,-93.2719822
+339760453,unnamed,substation,30.2384397,-93.2831709
+339760454,unnamed,substation,30.2366275,-93.2717411
+339760455,unnamed,substation,30.2528709,-93.2809675
+340244781,unnamed,substation,30.2433063,-93.2825641
+340244783,Mossville Substation,substation,30.2434605,-93.2925728
+341383339,unnamed,substation,30.1840611,-93.3258945
+341383340,Citcon West Substation,substation,30.1883824,-93.3435268
+341383346,Rosebluff Substation,substation,30.1845118,-93.3245131
+465517575,unnamed,substation,30.205872,-93.2286197
+465517591,unnamed,substation,30.197538,-93.2525386
+488779759,Lake Charles Memorial Hospital,hospital,30.204224,-93.1980827
+488779764,Lake Area Medical Center,hospital,30.1811676,-93.2507482
+488779797,CHRISTUS Saint Patrick Hospital,hospital,30.2159176,-93.2273564
+488796120,Lake Charles Police Department,police,30.2265834,-93.2048279
+492936824,PPG Powerhouse A,plant,30.2249847,-93.281306
+510819998,Roy S. Nelson Generating Plant,plant,30.2849623,-93.2933413
+510863218,unnamed,substation,30.2283611,-93.2973449
+621961349,unnamed,substation,30.197795,-93.3070085
+621961353,unnamed,substation,30.1595111,-93.345523
+635456174,unnamed,substation,30.110723,-93.2815721
+676362449,Calcasieu Power Station,plant,30.1597468,-93.3453269
+686206722,Cajun Country Volunteer Fire Department,fire_station,30.2767907,-93.1704683
+819616590,unnamed,substation,30.2241918,-93.2960095
+819616593,unnamed,substation,30.2214775,-93.2819105
+819616594,unnamed,substation,30.2239394,-93.2813511
+819616597,unnamed,substation,30.2276366,-93.2976599
+819616600,unnamed,substation,30.1910829,-93.3027182
+841539667,Calcasieu Parish Government Building,townhall,30.2256327,-93.2186807
+848226064,Transit and Customer Service Center,government,30.223873,-93.2180425
+864868798,Lake Charles Power,plant,30.2709678,-93.2896838
+888038230,Louisiana State Police Troop D Heliport,aerodrome,30.2265516,-93.1626316
+1074171454,Lake Charles Regional Airport,aerodrome,30.1230587,-93.222826
+1178437038,PPG Powerhouse B,plant,30.2215337,-93.2806851
+1178437039,PPG Powerhouse C,plant,30.2256031,-93.2947732
+1178437040,PPG Plant C Caustic Cogen,plant,30.2264655,-93.2938677
+1178437041,unnamed,substation,30.2236,-93.302878
+1178437042,unnamed,substation,30.2230555,-93.3028035
+1178437043,RS Cogen,plant,30.2214157,-93.2830309
+1178437062,Lake Charles Polymers Cogen,plant,30.19661,-93.3219444
+1178542725,unnamed,substation,30.2624578,-93.2929611
+1178542726,unnamed,substation,30.2621942,-93.2934835
+1178542729,unnamed,substation,30.246256,-93.2832226
+1178542731,unnamed,substation,30.2515955,-93.2754325
+1178542735,Maplewood Substation,substation,30.234464,-93.3174738
+1178542739,Hollywood Substation,substation,30.2271718,-93.3426032
+1178542754,unnamed,substation,30.2516573,-93.3094847
+1178542755,unnamed,substation,30.2464004,-93.2932043
+1178561581,unnamed,substation,30.2211863,-93.2855552
+1178561582,unnamed,substation,30.2213011,-93.284158
+1178561584,unnamed,substation,30.2222222,-93.2805154
+1178561586,unnamed,substation,30.2255087,-93.2939511
+1178561604,unnamed,substation,30.1972384,-93.31733
+1178561605,unnamed,substation,30.1971263,-93.3237156
+1178561628,unnamed,substation,30.2110751,-93.3386527
+1178561647,unnamed,substation,30.1940372,-93.3259053
+1178561648,unnamed,substation,30.1946868,-93.3260145
+1178561650,Citgo Substation,substation,30.1833861,-93.3271358
+1178561666,unnamed,substation,30.1860288,-93.3298957
+1178561669,unnamed,substation,30.1935564,-93.3234458
+1178621395,Vincent Substation,substation,30.153332,-93.2810913
+1178621399,unnamed,substation,30.1792604,-93.3429156
+1178621403,unnamed,substation,30.1598244,-93.3493307
+1178621405,unnamed,substation,30.1553436,-93.3418531
+1178621410,Contank Substation,substation,30.1582027,-93.3392889
+1178621411,unnamed,substation,30.1590446,-93.3392364
+1178621412,unnamed,substation,30.1567438,-93.3393006
+1178621413,unnamed,substation,30.1578475,-93.3317581
+1178621414,unnamed,substation,30.1471594,-93.3382447
+1178722234,unnamed,substation,30.274173,-93.1590878
+1193271849,unnamed,substation,30.222931,-93.1584674
+1196267278,Manchester Substation,substation,30.1575354,-93.0818302
+1208349828,"National Weather Service - Lake Charles, LA",government,30.1252031,-93.2163025
+1225396022,Calcasieu Parish Communication District,government,30.2266802,-93.2145534
+1240927812,Calcasieu Parish School Board Central Office,government,30.2255638,-93.1707485
+1251844676,Family Physicians Urgent Care,clinic,30.220106,-93.3248819
+1253783706,unnamed,government,30.204852,-93.2216792
+1286662631,Westlake City Hall,townhall,30.2526828,-93.2627852
+1380474245,The Family Practice Center of Sulphur,clinic,30.2269273,-93.3480253
+1417588270,Sulphur Fire Department,fire_station,30.2284352,-93.3367277
+1429434469,unnamed,substation,30.1167028,-93.2836072
+1447031993,North Water Treatment Facility,water_works,30.238194,-93.3454551
+1449492481,Mossville Waterworks District 2,water_works,30.2490304,-93.306156
+1462190230,unnamed,substation,30.1242188,-93.2962183
