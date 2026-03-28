@@ -75,7 +75,7 @@
       </div>
 
       <!-- Grid view: all 6 events -->
-      <div v-if="activeView === 'grid'" class="charts-grid reveal">
+      <div v-if="activeView === 'grid'" class="charts-grid reveal visible">
         <RecoveryChart
           v-for="ev in EVENTS"
           :key="ev.id"
@@ -87,7 +87,7 @@
       </div>
 
       <!-- Single event view -->
-      <div v-else class="single-view reveal">
+      <div v-else class="single-view reveal visible">
         <!-- Event selector pills -->
         <div class="event-pills">
           <button
