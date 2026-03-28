@@ -196,11 +196,11 @@
             <div class="ntl-player__panels">
               <div class="ntl-player__panel">
                 <div class="ntl-player__label">Daily NTL</div>
-                <img :src="`/data/frames/${ntlFrames.frames[frameIdx].ntl}`" class="ntl-player__img" />
+                <img :src="`${base}data/frames/${ntlFrames.frames[frameIdx].ntl}`" class="ntl-player__img" />
               </div>
               <div class="ntl-player__panel">
                 <div class="ntl-player__label">Delta NTL (vs BAU)</div>
-                <img :src="`/data/frames/${ntlFrames.frames[frameIdx].delta}`" class="ntl-player__img" />
+                <img :src="`${base}data/frames/${ntlFrames.frames[frameIdx].delta}`" class="ntl-player__img" />
               </div>
             </div>
             <div class="ntl-player__info">
@@ -1505,6 +1505,7 @@ import { useRoute } from 'vue-router'
 import { EVENTS } from '@/data/events.js'
 
 const route = useRoute()
+const base = import.meta.env.BASE_URL
 const sectionId = computed(() => route.params.section)
 
 // Scroll to top when navigating between doc sections
@@ -1522,7 +1523,7 @@ let playInterval = null
 
 onMounted(async () => {
   try {
-    const res = await fetch('/data/frames/maria_frames.json')
+    const res = await fetch(`${import.meta.env.BASE_URL}data/frames/maria_frames.json`)
     if (res.ok) ntlFrames.value = await res.json()
   } catch { /* ignore */ }
 })
@@ -1573,15 +1574,15 @@ const cloudFrac = ref(null)
 
 onMounted(async () => {
   try {
-    const res = await fetch('/data/cloud_stats.json')
+    const res = await fetch(`${import.meta.env.BASE_URL}data/cloud_stats.json`)
     if (res.ok) cloudStats.value = await res.json()
   } catch { /* ignore */ }
   try {
-    const res2 = await fetch('/data/eda_stats.json')
+    const res2 = await fetch(`${import.meta.env.BASE_URL}data/eda_stats.json`)
     if (res2.ok) edaStats.value = await res2.json()
   } catch { /* ignore */ }
   try {
-    const res3 = await fetch('/data/cloud_fraction.json')
+    const res3 = await fetch(`${import.meta.env.BASE_URL}data/cloud_fraction.json`)
     if (res3.ok) cloudFrac.value = await res3.json()
   } catch { /* ignore */ }
 })
