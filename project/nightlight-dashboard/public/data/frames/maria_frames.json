@@ -1,0 +1,456 @@
+{
+  "event": "maria",
+  "disaster_date": "2017-09-20",
+  "bau": "maria_bau.png",
+  "vmax": 7.0,
+  "frames": [
+    {
+      "date": "2017-08-01",
+      "ntl": "maria_2017-08-01.png",
+      "delta": "maria_delta_2017-08-01.png",
+      "phase": "pre",
+      "mean_ntl": 3.42
+    },
+    {
+      "date": "2017-08-02",
+      "ntl": "maria_2017-08-02.png",
+      "delta": "maria_delta_2017-08-02.png",
+      "phase": "pre",
+      "mean_ntl": 3.06
+    },
+    {
+      "date": "2017-08-06",
+      "ntl": "maria_2017-08-06.png",
+      "delta": "maria_delta_2017-08-06.png",
+      "phase": "pre",
+      "mean_ntl": 3.7
+    },
+    {
+      "date": "2017-08-09",
+      "ntl": "maria_2017-08-09.png",
+      "delta": "maria_delta_2017-08-09.png",
+      "phase": "pre",
+      "mean_ntl": 2.74
+    },
+    {
+      "date": "2017-08-10",
+      "ntl": "maria_2017-08-10.png",
+      "delta": "maria_delta_2017-08-10.png",
+      "phase": "pre",
+      "mean_ntl": 2.91
+    },
+    {
+      "date": "2017-08-11",
+      "ntl": "maria_2017-08-11.png",
+      "delta": "maria_delta_2017-08-11.png",
+      "phase": "pre",
+      "mean_ntl": 3.28
+    },
+    {
+      "date": "2017-08-12",
+      "ntl": "maria_2017-08-12.png",
+      "delta": "maria_delta_2017-08-12.png",
+      "phase": "pre",
+      "mean_ntl": 3.52
+    },
+    {
+      "date": "2017-08-13",
+      "ntl": "maria_2017-08-13.png",
+      "delta": "maria_delta_2017-08-13.png",
+      "phase": "pre",
+      "mean_ntl": 3.2
+    },
+    {
+      "date": "2017-08-14",
+      "ntl": "maria_2017-08-14.png",
+      "delta": "maria_delta_2017-08-14.png",
+      "phase": "pre",
+      "mean_ntl": 2.53
+    },
+    {
+      "date": "2017-08-16",
+      "ntl": "maria_2017-08-16.png",
+      "delta": "maria_delta_2017-08-16.png",
+      "phase": "pre",
+      "mean_ntl": 3.15
+    },
+    {
+      "date": "2017-08-18",
+      "ntl": "maria_2017-08-18.png",
+      "delta": "maria_delta_2017-08-18.png",
+      "phase": "pre",
+      "mean_ntl": 2.91
+    },
+    {
+      "date": "2017-08-20",
+      "ntl": "maria_2017-08-20.png",
+      "delta": "maria_delta_2017-08-20.png",
+      "phase": "pre",
+      "mean_ntl": 2.55
+    },
+    {
+      "date": "2017-08-21",
+      "ntl": "maria_2017-08-21.png",
+      "delta": "maria_delta_2017-08-21.png",
+      "phase": "pre",
+      "mean_ntl": 2.28
+    },
+    {
+      "date": "2017-08-22",
+      "ntl": "maria_2017-08-22.png",
+      "delta": "maria_delta_2017-08-22.png",
+      "phase": "pre",
+      "mean_ntl": 3.1
+    },
+    {
+      "date": "2017-08-23",
+      "ntl": "maria_2017-08-23.png",
+      "delta": "maria_delta_2017-08-23.png",
+      "phase": "pre",
+      "mean_ntl": 3.4
+    },
+    {
+      "date": "2017-08-24",
+      "ntl": "maria_2017-08-24.png",
+      "delta": "maria_delta_2017-08-24.png",
+      "phase": "pre",
+      "mean_ntl": 2.85
+    },
+    {
+      "date": "2017-08-25",
+      "ntl": "maria_2017-08-25.png",
+      "delta": "maria_delta_2017-08-25.png",
+      "phase": "pre",
+      "mean_ntl": 2.27
+    },
+    {
+      "date": "2017-08-26",
+      "ntl": "maria_2017-08-26.png",
+      "delta": "maria_delta_2017-08-26.png",
+      "phase": "pre",
+      "mean_ntl": 2.72
+    },
+    {
+      "date": "2017-08-28",
+      "ntl": "maria_2017-08-28.png",
+      "delta": "maria_delta_2017-08-28.png",
+      "phase": "pre",
+      "mean_ntl": 3.46
+    },
+    {
+      "date": "2017-08-30",
+      "ntl": "maria_2017-08-30.png",
+      "delta": "maria_delta_2017-08-30.png",
+      "phase": "pre",
+      "mean_ntl": 2.6
+    },
+    {
+      "date": "2017-08-31",
+      "ntl": "maria_2017-08-31.png",
+      "delta": "maria_delta_2017-08-31.png",
+      "phase": "pre",
+      "mean_ntl": 2.65
+    },
+    {
+      "date": "2017-09-01",
+      "ntl": "maria_2017-09-01.png",
+      "delta": "maria_delta_2017-09-01.png",
+      "phase": "pre",
+      "mean_ntl": 3.08
+    },
+    {
+      "date": "2017-09-02",
+      "ntl": "maria_2017-09-02.png",
+      "delta": "maria_delta_2017-09-02.png",
+      "phase": "pre",
+      "mean_ntl": 4.16
+    },
+    {
+      "date": "2017-09-05",
+      "ntl": "maria_2017-09-05.png",
+      "delta": "maria_delta_2017-09-05.png",
+      "phase": "pre",
+      "mean_ntl": 2.31
+    },
+    {
+      "date": "2017-09-11",
+      "ntl": "maria_2017-09-11.png",
+      "delta": "maria_delta_2017-09-11.png",
+      "phase": "pre",
+      "mean_ntl": 2.37
+    },
+    {
+      "date": "2017-09-12",
+      "ntl": "maria_2017-09-12.png",
+      "delta": "maria_delta_2017-09-12.png",
+      "phase": "pre",
+      "mean_ntl": 2.2
+    },
+    {
+      "date": "2017-09-18",
+      "ntl": "maria_2017-09-18.png",
+      "delta": "maria_delta_2017-09-18.png",
+      "phase": "pre",
+      "mean_ntl": 3.76
+    },
+    {
+      "date": "2017-09-27",
+      "ntl": "maria_2017-09-27.png",
+      "delta": "maria_delta_2017-09-27.png",
+      "phase": "post",
+      "mean_ntl": 0.56
+    },
+    {
+      "date": "2017-09-28",
+      "ntl": "maria_2017-09-28.png",
+      "delta": "maria_delta_2017-09-28.png",
+      "phase": "post",
+      "mean_ntl": 0.67
+    },
+    {
+      "date": "2017-10-03",
+      "ntl": "maria_2017-10-03.png",
+      "delta": "maria_delta_2017-10-03.png",
+      "phase": "post",
+      "mean_ntl": 1.41
+    },
+    {
+      "date": "2017-10-04",
+      "ntl": "maria_2017-10-04.png",
+      "delta": "maria_delta_2017-10-04.png",
+      "phase": "post",
+      "mean_ntl": 1.42
+    },
+    {
+      "date": "2017-10-05",
+      "ntl": "maria_2017-10-05.png",
+      "delta": "maria_delta_2017-10-05.png",
+      "phase": "post",
+      "mean_ntl": 1.46
+    },
+    {
+      "date": "2017-10-06",
+      "ntl": "maria_2017-10-06.png",
+      "delta": "maria_delta_2017-10-06.png",
+      "phase": "post",
+      "mean_ntl": 1.42
+    },
+    {
+      "date": "2017-10-08",
+      "ntl": "maria_2017-10-08.png",
+      "delta": "maria_delta_2017-10-08.png",
+      "phase": "post",
+      "mean_ntl": 1.44
+    },
+    {
+      "date": "2017-10-13",
+      "ntl": "maria_2017-10-13.png",
+      "delta": "maria_delta_2017-10-13.png",
+      "phase": "post",
+      "mean_ntl": 1.66
+    },
+    {
+      "date": "2017-10-14",
+      "ntl": "maria_2017-10-14.png",
+      "delta": "maria_delta_2017-10-14.png",
+      "phase": "post",
+      "mean_ntl": 1.32
+    },
+    {
+      "date": "2017-10-15",
+      "ntl": "maria_2017-10-15.png",
+      "delta": "maria_delta_2017-10-15.png",
+      "phase": "post",
+      "mean_ntl": 1.3
+    },
+    {
+      "date": "2017-10-19",
+      "ntl": "maria_2017-10-19.png",
+      "delta": "maria_delta_2017-10-19.png",
+      "phase": "post",
+      "mean_ntl": 0.98
+    },
+    {
+      "date": "2017-10-20",
+      "ntl": "maria_2017-10-20.png",
+      "delta": "maria_delta_2017-10-20.png",
+      "phase": "post",
+      "mean_ntl": 1.21
+    },
+    {
+      "date": "2017-10-21",
+      "ntl": "maria_2017-10-21.png",
+      "delta": "maria_delta_2017-10-21.png",
+      "phase": "post",
+      "mean_ntl": 0.83
+    },
+    {
+      "date": "2017-10-22",
+      "ntl": "maria_2017-10-22.png",
+      "delta": "maria_delta_2017-10-22.png",
+      "phase": "post",
+      "mean_ntl": 0.79
+    },
+    {
+      "date": "2017-10-23",
+      "ntl": "maria_2017-10-23.png",
+      "delta": "maria_delta_2017-10-23.png",
+      "phase": "post",
+      "mean_ntl": 0.8
+    },
+    {
+      "date": "2017-10-24",
+      "ntl": "maria_2017-10-24.png",
+      "delta": "maria_delta_2017-10-24.png",
+      "phase": "post",
+      "mean_ntl": 0.9
+    },
+    {
+      "date": "2017-10-25",
+      "ntl": "maria_2017-10-25.png",
+      "delta": "maria_delta_2017-10-25.png",
+      "phase": "post",
+      "mean_ntl": 1.27
+    },
+    {
+      "date": "2017-10-26",
+      "ntl": "maria_2017-10-26.png",
+      "delta": "maria_delta_2017-10-26.png",
+      "phase": "post",
+      "mean_ntl": 1.16
+    },
+    {
+      "date": "2017-10-27",
+      "ntl": "maria_2017-10-27.png",
+      "delta": "maria_delta_2017-10-27.png",
+      "phase": "post",
+      "mean_ntl": 0.93
+    },
+    {
+      "date": "2017-10-30",
+      "ntl": "maria_2017-10-30.png",
+      "delta": "maria_delta_2017-10-30.png",
+      "phase": "post",
+      "mean_ntl": 1.23
+    },
+    {
+      "date": "2017-10-31",
+      "ntl": "maria_2017-10-31.png",
+      "delta": "maria_delta_2017-10-31.png",
+      "phase": "post",
+      "mean_ntl": 1.4
+    },
+    {
+      "date": "2017-11-01",
+      "ntl": "maria_2017-11-01.png",
+      "delta": "maria_delta_2017-11-01.png",
+      "phase": "post",
+      "mean_ntl": 1.14
+    },
+    {
+      "date": "2017-11-02",
+      "ntl": "maria_2017-11-02.png",
+      "delta": "maria_delta_2017-11-02.png",
+      "phase": "post",
+      "mean_ntl": 1.1
+    },
+    {
+      "date": "2017-11-03",
+      "ntl": "maria_2017-11-03.png",
+      "delta": "maria_delta_2017-11-03.png",
+      "phase": "post",
+      "mean_ntl": 1.18
+    },
+    {
+      "date": "2017-11-04",
+      "ntl": "maria_2017-11-04.png",
+      "delta": "maria_delta_2017-11-04.png",
+      "phase": "post",
+      "mean_ntl": 1.5
+    },
+    {
+      "date": "2017-11-05",
+      "ntl": "maria_2017-11-05.png",
+      "delta": "maria_delta_2017-11-05.png",
+      "phase": "post",
+      "mean_ntl": 1.55
+    },
+    {
+      "date": "2017-11-06",
+      "ntl": "maria_2017-11-06.png",
+      "delta": "maria_delta_2017-11-06.png",
+      "phase": "post",
+      "mean_ntl": 1.2
+    },
+    {
+      "date": "2017-11-11",
+      "ntl": "maria_2017-11-11.png",
+      "delta": "maria_delta_2017-11-11.png",
+      "phase": "post",
+      "mean_ntl": 1.42
+    },
+    {
+      "date": "2017-11-14",
+      "ntl": "maria_2017-11-14.png",
+      "delta": "maria_delta_2017-11-14.png",
+      "phase": "post",
+      "mean_ntl": 1.23
+    },
+    {
+      "date": "2017-11-21",
+      "ntl": "maria_2017-11-21.png",
+      "delta": "maria_delta_2017-11-21.png",
+      "phase": "post",
+      "mean_ntl": 1.93
+    },
+    {
+      "date": "2017-11-22",
+      "ntl": "maria_2017-11-22.png",
+      "delta": "maria_delta_2017-11-22.png",
+      "phase": "post",
+      "mean_ntl": 1.68
+    },
+    {
+      "date": "2017-11-23",
+      "ntl": "maria_2017-11-23.png",
+      "delta": "maria_delta_2017-11-23.png",
+      "phase": "post",
+      "mean_ntl": 1.33
+    },
+    {
+      "date": "2017-11-24",
+      "ntl": "maria_2017-11-24.png",
+      "delta": "maria_delta_2017-11-24.png",
+      "phase": "post",
+      "mean_ntl": 1.35
+    },
+    {
+      "date": "2017-11-25",
+      "ntl": "maria_2017-11-25.png",
+      "delta": "maria_delta_2017-11-25.png",
+      "phase": "post",
+      "mean_ntl": 1.52
+    },
+    {
+      "date": "2017-11-26",
+      "ntl": "maria_2017-11-26.png",
+      "delta": "maria_delta_2017-11-26.png",
+      "phase": "post",
+      "mean_ntl": 2.37
+    },
+    {
+      "date": "2017-11-27",
+      "ntl": "maria_2017-11-27.png",
+      "delta": "maria_delta_2017-11-27.png",
+      "phase": "post",
+      "mean_ntl": 1.92
+    },
+    {
+      "date": "2017-11-28",
+      "ntl": "maria_2017-11-28.png",
+      "delta": "maria_delta_2017-11-28.png",
+      "phase": "post",
+      "mean_ntl": 1.55
+    }
+  ]
+}

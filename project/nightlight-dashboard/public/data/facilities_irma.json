@@ -1,0 +1,4202 @@
+[
+  {
+    "name": "Douglas Gardens Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.19296,
+      25.82373
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Saint Catherine's Rehabilitation Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.177,
+      25.88992
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Baptist Children's Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.33823,
+      25.684
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Acupuncture",
+    "type": "hospital",
+    "coords": [
+      -80.25408,
+      25.74233
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Urgent Care",
+    "type": "hospital",
+    "coords": [
+      -80.14065,
+      25.78453
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeLaCalle Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.26609,
+      25.81556
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Shore Medical Center Emergency Room",
+    "type": "hospital",
+    "coords": [
+      -80.21421,
+      25.85961
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Baptist Health South Florida",
+    "type": "hospital",
+    "coords": [
+      -80.14054,
+      25.77747
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Springs Nursing And Rehab Center",
+    "type": "hospital",
+    "coords": [
+      -80.28296,
+      25.81867
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Select Specialty Hospital - Miami Lakes",
+    "type": "hospital",
+    "coords": [
+      -80.33152,
+      25.90034
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Saint Catherine's West Rehabilitation Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.34297,
+      25.88376
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Southern Winds",
+    "type": "hospital",
+    "coords": [
+      -80.32153,
+      25.86034
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kindred Hospital - South Florida - Coral Gables",
+    "type": "hospital",
+    "coords": [
+      -80.27895,
+      25.76372
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "United Dental Specialists",
+    "type": "hospital",
+    "coords": [
+      -80.33233,
+      25.91399
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jackson Memorial Emergency Department",
+    "type": "hospital",
+    "coords": [
+      -80.21176,
+      25.79206
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mount Sinai Emergency Department",
+    "type": "hospital",
+    "coords": [
+      -80.14085,
+      25.81397
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mercy Hospital Emergency Department",
+    "type": "hospital",
+    "coords": [
+      -80.21284,
+      25.74005
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stems Health Regenerative Medicine Miami",
+    "type": "hospital",
+    "coords": [
+      -80.13478,
+      25.81362
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bascom Palmer Eye Institute/Anne Bates Leach Eye Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.21069,
+      25.79099
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Gables Rehabilitation Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.31658,
+      25.74683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Palmetto General Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.32609,
+      25.88621
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mount Sinai Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.14186,
+      25.81348
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Jewish Health Systems",
+    "type": "hospital",
+    "coords": [
+      -80.1938,
+      25.82339
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Highland Park Pavilion",
+    "type": "hospital",
+    "coords": [
+      -80.2084,
+      25.7911
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jackson North Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.20307,
+      25.93039
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Care Resource",
+    "type": "hospital",
+    "coords": [
+      -80.18884,
+      25.81272
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Select Specialty Hospital - Miami",
+    "type": "hospital",
+    "coords": [
+      -80.21085,
+      25.77702
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Larkin Community Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.29298,
+      25.70602
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Doctors Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.27401,
+      25.72438
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Nicklaus Children's Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.2945,
+      25.74124
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westchester General Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.31775,
+      25.74733
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sylvester Comprehensive Cancer Center",
+    "type": "hospital",
+    "coords": [
+      -80.21381,
+      25.78851
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University of Miami Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.21634,
+      25.78847
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jackson Behavioral Health Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.20949,
+      25.79072
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Veterans Affairs Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.21714,
+      25.7918
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jackson Memorial Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.21199,
+      25.79179
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mercy Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.21483,
+      25.74093
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.25516,
+      25.74345
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "The Miami Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.29402,
+      25.77904
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Larkin Community Hospital Palm Springs Campus",
+    "type": "hospital",
+    "coords": [
+      -80.31175,
+      25.86845
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Shore Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.21416,
+      25.85976
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.26862,
+      25.84568
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Leon Medical Centers",
+    "type": "hospital",
+    "coords": [
+      -80.39649,
+      25.687
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jackson West Medical Center",
+    "type": "hospital",
+    "coords": [
+      -80.32319,
+      25.79898
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Baptist Rehabilitation Hospital",
+    "type": "hospital",
+    "coords": [
+      -80.29401,
+      25.70475
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Watson Island International Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -80.1745,
+      25.77564
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Miami Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -80.17755,
+      25.78346
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Miami International Airport",
+    "type": "airport",
+    "coords": [
+      -80.29188,
+      25.79554
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Miami-Opa Locka Executive Airport",
+    "type": "airport",
+    "coords": [
+      -80.27532,
+      25.9057
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Central District Wastewater Treatment Plant",
+    "type": "power",
+    "coords": [
+      -80.15281,
+      25.7485
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IKEA Miami 327 Solar",
+    "type": "power",
+    "coords": [
+      -80.38375,
+      25.79153
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wynwood Energy Storage",
+    "type": "power",
+    "coords": [
+      -80.19713,
+      25.79899
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach - Beach Patrol Ocean Rescue",
+    "type": "fire",
+    "coords": [
+      -80.13016,
+      25.78026
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami East Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.16667,
+      25.89556
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Saga Bay Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.34889,
+      25.81083
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Honey Hill Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.28,
+      25.95361
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bunche Park Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.24472,
+      25.91361
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Airport North Side Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.28889,
+      25.8075
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Dade Fire / Rescue",
+    "type": "fire",
+    "coords": [
+      -80.34859,
+      25.81022
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Florida Fire Fighters",
+    "type": "fire",
+    "coords": [
+      -80.31717,
+      25.90484
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Fire Department Station 1",
+    "type": "fire",
+    "coords": [
+      -80.2604,
+      25.74587
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 1",
+    "type": "fire",
+    "coords": [
+      -80.27996,
+      25.8267
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Model Cities Fire Department Station 2",
+    "type": "fire",
+    "coords": [
+      -80.24168,
+      25.83334
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 4",
+    "type": "fire",
+    "coords": [
+      -80.19698,
+      25.76306
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Department Support Service Division",
+    "type": "fire",
+    "coords": [
+      -80.21425,
+      25.78065
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 6",
+    "type": "fire",
+    "coords": [
+      -80.20787,
+      25.81031
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 7",
+    "type": "fire",
+    "coords": [
+      -80.23501,
+      25.76884
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 8",
+    "type": "fire",
+    "coords": [
+      -80.24122,
+      25.73017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 9",
+    "type": "fire",
+    "coords": [
+      -80.19463,
+      25.83301
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Fire Department Station 3",
+    "type": "fire",
+    "coords": [
+      -80.28236,
+      25.66329
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Kendall Fire Department Station 57",
+    "type": "fire",
+    "coords": [
+      -80.40104,
+      25.68881
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bunche Park Fire Department Station 54",
+    "type": "fire",
+    "coords": [
+      -80.24465,
+      25.91332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Palm Springs North Fire Department Station 44",
+    "type": "fire",
+    "coords": [
+      -80.32656,
+      25.94188
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Doral Fire Department Station 45",
+    "type": "fire",
+    "coords": [
+      -80.35439,
+      25.82568
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Bird Fire Department Station 37",
+    "type": "fire",
+    "coords": [
+      -80.42407,
+      25.72804
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seaport / Port of Miami Fire Department Station 39",
+    "type": "fire",
+    "coords": [
+      -80.16965,
+      25.77488
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Medley Fire Department Station 46",
+    "type": "fire",
+    "coords": [
+      -80.36441,
+      25.87018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westchester Fire Department Station 47",
+    "type": "fire",
+    "coords": [
+      -80.34696,
+      25.74771
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pinecrest Fire Department Station 49",
+    "type": "fire",
+    "coords": [
+      -80.28492,
+      25.66905
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Springs Fire Department Station 35",
+    "type": "fire",
+    "coords": [
+      -80.28463,
+      25.82138
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Fire / Rescue Station 3",
+    "type": "fire",
+    "coords": [
+      -80.12131,
+      25.83138
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Fire / Rescue Station 1",
+    "type": "fire",
+    "coords": [
+      -80.13703,
+      25.78135
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Opa - Locka Airport Fire Department Station 25",
+    "type": "fire",
+    "coords": [
+      -80.26977,
+      25.90649
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Opa - Locka Fire Department Station 26",
+    "type": "fire",
+    "coords": [
+      -80.25093,
+      25.88214
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Gardens Fire Department Station 28",
+    "type": "fire",
+    "coords": [
+      -80.33858,
+      25.86794
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sweetwater Fire Department Station 29",
+    "type": "fire",
+    "coords": [
+      -80.36841,
+      25.7652
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Shores / El Portal Fire Station 30",
+    "type": "fire",
+    "coords": [
+      -80.19367,
+      25.8628
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami Beach Fire Department Station 31",
+    "type": "fire",
+    "coords": [
+      -80.16273,
+      25.93284
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Uleta Fire Department Station 32",
+    "type": "fire",
+    "coords": [
+      -80.19286,
+      25.92891
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Aventura South Fire Department Station 33",
+    "type": "fire",
+    "coords": [
+      -80.1484,
+      25.94015
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 11",
+    "type": "fire",
+    "coords": [
+      -80.29214,
+      25.77044
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 12",
+    "type": "fire",
+    "coords": [
+      -80.22061,
+      25.81743
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Little River Fire Department Station 7",
+    "type": "fire",
+    "coords": [
+      -80.2345,
+      25.85993
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade Fire Rescue Station 12 (MIA Midfield)",
+    "type": "fire",
+    "coords": [
+      -80.29218,
+      25.79738
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Virginia Gardens Fire Department Station 17",
+    "type": "fire",
+    "coords": [
+      -80.31185,
+      25.80901
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Miami Fire Department Station 14",
+    "type": "fire",
+    "coords": [
+      -80.28847,
+      25.70588
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Haulover Fire Department Station 21",
+    "type": "fire",
+    "coords": [
+      -80.12516,
+      25.90201
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami East Fire Department Station 20",
+    "type": "fire",
+    "coords": [
+      -80.16696,
+      25.89567
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami West Fire Department Station 19",
+    "type": "fire",
+    "coords": [
+      -80.21024,
+      25.89442
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Northside Fire Department Station 59",
+    "type": "fire",
+    "coords": [
+      -80.2886,
+      25.80653
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 3",
+    "type": "fire",
+    "coords": [
+      -80.29915,
+      25.8662
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 4",
+    "type": "fire",
+    "coords": [
+      -80.2766,
+      25.83256
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 2",
+    "type": "fire",
+    "coords": [
+      -80.27925,
+      25.82888
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 7",
+    "type": "fire",
+    "coords": [
+      -80.33253,
+      25.89097
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 5",
+    "type": "fire",
+    "coords": [
+      -80.30732,
+      25.89004
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Fire Department Station 6",
+    "type": "fire",
+    "coords": [
+      -80.29771,
+      25.84394
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tropical Park Fire Department Station 3",
+    "type": "fire",
+    "coords": [
+      -80.32719,
+      25.73398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 2",
+    "type": "fire",
+    "coords": [
+      -80.19449,
+      25.79413
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire and Rescue Training Center",
+    "type": "fire",
+    "coords": [
+      -80.25699,
+      25.72677
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade County Fire and Rescue Headquarters",
+    "type": "fire",
+    "coords": [
+      -80.33533,
+      25.71205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Rescue City of Miami",
+    "type": "fire",
+    "coords": [
+      -80.17571,
+      25.84801
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire-Rescue Station 5",
+    "type": "fire",
+    "coords": [
+      -80.21546,
+      25.7948
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade Fire Rescue Station 40",
+    "type": "fire",
+    "coords": [
+      -80.29561,
+      25.76195
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Key Biscayne Fire Department",
+    "type": "fire",
+    "coords": [
+      -80.16425,
+      25.69075
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Department Support Service Division",
+    "type": "fire",
+    "coords": [
+      -80.21428,
+      25.78068
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 1",
+    "type": "fire",
+    "coords": [
+      -80.19115,
+      25.7788
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Suniland / Pinecrest Fire Department Station 23",
+    "type": "fire",
+    "coords": [
+      -80.3212,
+      25.67421
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sunny Isles Beach Fire Department Station 10",
+    "type": "fire",
+    "coords": [
+      -80.12315,
+      25.93563
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kendall Fire Department Station 9",
+    "type": "fire",
+    "coords": [
+      -80.3813,
+      25.69547
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 10",
+    "type": "fire",
+    "coords": [
+      -80.26325,
+      25.77896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Key Biscayne Fire Department Station 15",
+    "type": "fire",
+    "coords": [
+      -80.16086,
+      25.70284
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Eastern Shores Fire Rescue Station (78)",
+    "type": "fire",
+    "coords": [
+      -80.13578,
+      25.93172
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Lakes Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.30893,
+      25.92402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carol City Fire Department Station 11",
+    "type": "fire",
+    "coords": [
+      -80.24511,
+      25.94489
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "fire",
+    "coords": [
+      -80.19369,
+      25.86282
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fontainebleau Fire Department Station 48",
+    "type": "fire",
+    "coords": [
+      -80.33877,
+      25.79111
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "fire",
+    "coords": [
+      -80.42408,
+      25.72806
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Turnpike South Fire Department Station 53",
+    "type": "fire",
+    "coords": [
+      -80.38734,
+      25.65871
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Honey Hill Fire Department Station 51",
+    "type": "fire",
+    "coords": [
+      -80.27983,
+      25.95533
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tamiami Fire Department Station 58",
+    "type": "fire",
+    "coords": [
+      -80.40131,
+      25.76181
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Interama Fire Department Station 22",
+    "type": "fire",
+    "coords": [
+      -80.15534,
+      25.91955
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Number 4 Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.12406,
+      25.8539
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "fire",
+    "coords": [
+      -80.40108,
+      25.68885
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Fire / Rescue Station 3",
+    "type": "fire",
+    "coords": [
+      -80.2136,
+      25.78054
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Doral North Fire Station",
+    "type": "fire",
+    "coords": [
+      -80.37791,
+      25.84105
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Fire Department Station 2",
+    "type": "fire",
+    "coords": [
+      -80.26476,
+      25.72441
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Aventura Police Station",
+    "type": "police",
+    "coords": [
+      -80.13916,
+      25.95281
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bal Harbour Village Police Station",
+    "type": "police",
+    "coords": [
+      -80.12682,
+      25.88742
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Police Station",
+    "type": "police",
+    "coords": [
+      -80.26041,
+      25.74604
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Biscayne Park Police Station",
+    "type": "police",
+    "coords": [
+      -80.18556,
+      25.87944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "El Portal Police Station",
+    "type": "police",
+    "coords": [
+      -80.18754,
+      25.85485
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Police Station",
+    "type": "police",
+    "coords": [
+      -80.26651,
+      25.87274
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Metro Police Sub-Station Number 2",
+    "type": "police",
+    "coords": [
+      -80.24556,
+      25.84889
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Police Substation",
+    "type": "police",
+    "coords": [
+      -80.28083,
+      25.82389
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Police Substation",
+    "type": "police",
+    "coords": [
+      -80.33222,
+      25.89056
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Gardens Police Substation",
+    "type": "police",
+    "coords": [
+      -80.36944,
+      25.88944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Gardens Police Station",
+    "type": "police",
+    "coords": [
+      -80.33917,
+      25.86306
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Medley Satellite Police Station",
+    "type": "police",
+    "coords": [
+      -80.36222,
+      25.87306
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Medley Police Station",
+    "type": "police",
+    "coords": [
+      -80.3175,
+      25.84028
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Omni Police Station",
+    "type": "police",
+    "coords": [
+      -80.18833,
+      25.78944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Overtown Police Station",
+    "type": "police",
+    "coords": [
+      -80.20019,
+      25.78903
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade County Police Headquarters",
+    "type": "police",
+    "coords": [
+      -80.3439,
+      25.79849
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Upper Eastside Police Station",
+    "type": "police",
+    "coords": [
+      -80.18444,
+      25.83583
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Springs Police Station",
+    "type": "police",
+    "coords": [
+      -80.285,
+      25.82083
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Police Station",
+    "type": "police",
+    "coords": [
+      -80.13323,
+      25.78235
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Bayside Police Mini Station",
+    "type": "police",
+    "coords": [
+      -80.24583,
+      25.71722
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Alapattah Police Station",
+    "type": "police",
+    "coords": [
+      -80.22667,
+      25.795
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami East Havana Network Police Station",
+    "type": "police",
+    "coords": [
+      -80.20278,
+      25.77222
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Downtown Police Station",
+    "type": "police",
+    "coords": [
+      -80.1953,
+      25.7825
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami North Police Station",
+    "type": "police",
+    "coords": [
+      -80.21361,
+      25.83167
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Flagami Network Police Station",
+    "type": "police",
+    "coords": [
+      -80.25944,
+      25.7825
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Edgewater Police Mini Station",
+    "type": "police",
+    "coords": [
+      -80.18972,
+      25.80028
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sweetwater Police Station",
+    "type": "police",
+    "coords": [
+      -80.37306,
+      25.76361
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sunny Isles Beach Police Department",
+    "type": "police",
+    "coords": [
+      -80.12202,
+      25.9426
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Virginia Gardens Police Station",
+    "type": "police",
+    "coords": [
+      -80.30222,
+      25.80917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pinecrest Police Station",
+    "type": "police",
+    "coords": [
+      -80.32528,
+      25.66444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Opalocka Police Mini Station",
+    "type": "police",
+    "coords": [
+      -80.23361,
+      25.89778
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Miami Police Station",
+    "type": "police",
+    "coords": [
+      -80.29207,
+      25.70329
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami Beach Police Station",
+    "type": "police",
+    "coords": [
+      -80.16222,
+      25.93139
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Opa-Locka Police Station",
+    "type": "police",
+    "coords": [
+      -80.24194,
+      25.90583
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bay Village Police Station",
+    "type": "police",
+    "coords": [
+      -80.15806,
+      25.84861
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Southwest Coconut Grove Network Police Station",
+    "type": "police",
+    "coords": [
+      -80.25472,
+      25.73139
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Miami Police Station",
+    "type": "police",
+    "coords": [
+      -80.29547,
+      25.76218
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Highway Patrol Troop E",
+    "type": "police",
+    "coords": [
+      -80.37411,
+      25.78148
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Little Haiti NET",
+    "type": "police",
+    "coords": [
+      -80.20387,
+      25.83961
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Canine Unit",
+    "type": "police",
+    "coords": [
+      -80.19439,
+      25.78202
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade Police Department Professional Compliance Bureau",
+    "type": "police",
+    "coords": [
+      -80.2444,
+      25.94548
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Doral Police Department",
+    "type": "police",
+    "coords": [
+      -80.33142,
+      25.82062
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Gardens Police Department",
+    "type": "police",
+    "coords": [
+      -80.22692,
+      25.92768
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department West Flagler NET",
+    "type": "police",
+    "coords": [
+      -80.26659,
+      25.77136
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department Little Havana NET",
+    "type": "police",
+    "coords": [
+      -80.21594,
+      25.77462
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Highway Patrol Snapper Creek Service Plaza",
+    "type": "police",
+    "coords": [
+      -80.3874,
+      25.66367
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - NET",
+    "type": "police",
+    "coords": [
+      -80.18751,
+      25.77887
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metro - Dade Police Communications Bureau",
+    "type": "police",
+    "coords": [
+      -80.33604,
+      25.71532
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.32574,
+      25.78288
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kendall Police Station",
+    "type": "police",
+    "coords": [
+      -80.38085,
+      25.69676
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department - Special Patrol",
+    "type": "police",
+    "coords": [
+      -80.323,
+      25.78863
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.32348,
+      25.78768
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police - Court Liaison",
+    "type": "police",
+    "coords": [
+      -80.21692,
+      25.78581
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.19653,
+      25.77353
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.16642,
+      25.84861
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Crime Suppression",
+    "type": "police",
+    "coords": [
+      -80.16156,
+      25.89504
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Metro Police Department",
+    "type": "police",
+    "coords": [
+      -80.32546,
+      25.78353
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department",
+    "type": "police",
+    "coords": [
+      -80.23449,
+      25.72828
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami Beach Police Department - Neighborhood Resource Center",
+    "type": "police",
+    "coords": [
+      -80.1692,
+      25.91596
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.24486,
+      25.9415
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.32356,
+      25.78864
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department - Dare",
+    "type": "police",
+    "coords": [
+      -80.34338,
+      25.79761
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Internal Affairs",
+    "type": "police",
+    "coords": [
+      -80.1983,
+      25.77835
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Administration",
+    "type": "police",
+    "coords": [
+      -80.19831,
+      25.7781
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Police Department - Property and Evidence",
+    "type": "police",
+    "coords": [
+      -80.26633,
+      25.87257
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department Northside Station",
+    "type": "police",
+    "coords": [
+      -80.24523,
+      25.84924
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metro Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.34331,
+      25.79758
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department Hammocks Station",
+    "type": "police",
+    "coords": [
+      -80.423,
+      25.6746
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade Police Department Metropolitan Police Institute (Training Bureau)",
+    "type": "police",
+    "coords": [
+      -80.35189,
+      25.8269
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police - Investigation",
+    "type": "police",
+    "coords": [
+      -80.32585,
+      25.78353
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department - Warrants Bureau",
+    "type": "police",
+    "coords": [
+      -80.34338,
+      25.79758
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade College Police Department",
+    "type": "police",
+    "coords": [
+      -80.24546,
+      25.87786
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Lakes Police Department",
+    "type": "police",
+    "coords": [
+      -80.29825,
+      25.91006
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade School Police Department",
+    "type": "police",
+    "coords": [
+      -80.19997,
+      25.83154
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.19501,
+      25.7746
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sweetwater Police Department",
+    "type": "police",
+    "coords": [
+      -80.38071,
+      25.7683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department - Evidence",
+    "type": "police",
+    "coords": [
+      -80.34331,
+      25.79761
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami Beach Police Department - Neighborhood Resource",
+    "type": "police",
+    "coords": [
+      -80.15605,
+      25.90036
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.32447,
+      25.78297
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Investigations",
+    "type": "police",
+    "coords": [
+      -80.1983,
+      25.77822
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University of Miami Police Department",
+    "type": "police",
+    "coords": [
+      -80.28049,
+      25.71275
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Key Biscayne Police Station",
+    "type": "police",
+    "coords": [
+      -80.16499,
+      25.69098
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FIU Police Department",
+    "type": "police",
+    "coords": [
+      -80.37213,
+      25.75989
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pinecrest Police Station",
+    "type": "police",
+    "coords": [
+      -80.32861,
+      25.65288
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Marine Police",
+    "type": "police",
+    "coords": [
+      -80.1732,
+      25.78525
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University Police",
+    "type": "police",
+    "coords": [
+      -80.14349,
+      25.91197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bay Village City Hall - Police Chief",
+    "type": "police",
+    "coords": [
+      -80.15104,
+      25.84839
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Marine Patrol",
+    "type": "police",
+    "coords": [
+      -80.14487,
+      25.79344
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami South Police Station",
+    "type": "police",
+    "coords": [
+      -80.23171,
+      25.77225
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Station",
+    "type": "police",
+    "coords": [
+      -80.19838,
+      25.77815
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami Police Department",
+    "type": "police",
+    "coords": [
+      -80.18379,
+      25.88916
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Police Department - Bomb Squad",
+    "type": "police",
+    "coords": [
+      -80.21387,
+      25.78107
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department Intercoastal Station",
+    "type": "police",
+    "coords": [
+      -80.15497,
+      25.92001
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Fish and Wildlife Conservation Commission Law Enforcement South Region B",
+    "type": "police",
+    "coords": [
+      -80.13957,
+      25.91544
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "police",
+    "coords": [
+      -80.33597,
+      25.71524
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Highway Patrol Troop E Investigations",
+    "type": "police",
+    "coords": [
+      -80.23775,
+      25.77215
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami - Dade County Police Department",
+    "type": "police",
+    "coords": [
+      -80.19899,
+      25.7765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Shores Police Station",
+    "type": "police",
+    "coords": [
+      -80.19382,
+      25.8668
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Indian Creek Village Police Station",
+    "type": "police",
+    "coords": [
+      -80.12977,
+      25.87747
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Town of Bay Harbor Islands Police Department",
+    "type": "police",
+    "coords": [
+      -80.13003,
+      25.88552
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Town of Bay Harbor Islands Police Department Administrative Offices",
+    "type": "police",
+    "coords": [
+      -80.13008,
+      25.88537
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Opa-Locka City Hall",
+    "type": "government",
+    "coords": [
+      -80.25306,
+      25.90472
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "El Portal Village Hall",
+    "type": "government",
+    "coords": [
+      -80.18773,
+      25.85491
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bay Village City Hall",
+    "type": "government",
+    "coords": [
+      -80.15889,
+      25.84972
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Shores City Hall",
+    "type": "government",
+    "coords": [
+      -80.19383,
+      25.8675
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Health Rehabilative Services",
+    "type": "government",
+    "coords": [
+      -80.24172,
+      25.83287
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Aviation Administration",
+    "type": "government",
+    "coords": [
+      -80.27496,
+      25.79322
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of South Miami City Hall",
+    "type": "government",
+    "coords": [
+      -80.29184,
+      25.70348
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oficina de empadronamiento electoral de Bolivia en el exterior",
+    "type": "government",
+    "coords": [
+      -80.3381,
+      25.80826
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USCIS Immigration",
+    "type": "government",
+    "coords": [
+      -80.43097,
+      25.6562
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port of Miami Administration",
+    "type": "government",
+    "coords": [
+      -80.17793,
+      25.77876
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Village of Virginia Gardens",
+    "type": "government",
+    "coords": [
+      -80.30268,
+      25.80939
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Miami Administrative Building (Riverside)",
+    "type": "government",
+    "coords": [
+      -80.19823,
+      25.77032
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dade County Public School Management",
+    "type": "government",
+    "coords": [
+      -80.40712,
+      25.74456
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Customer Service Centers Miami Beach",
+    "type": "government",
+    "coords": [
+      -80.1364,
+      25.79312
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Highway Patrol Regional Communication Center - Miami",
+    "type": "government",
+    "coords": [
+      -80.37417,
+      25.78085
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Building Department - North Beach Office",
+    "type": "government",
+    "coords": [
+      -80.12941,
+      25.85561
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Passport Agency",
+    "type": "government",
+    "coords": [
+      -80.18759,
+      25.79002
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Park Administration Office",
+    "type": "government",
+    "coords": [
+      -80.15676,
+      25.67136
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Government Center Metrorail Station 2nd Floor",
+    "type": "government",
+    "coords": [
+      -80.19602,
+      25.77546
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Venetian Causeway Operations Tower",
+    "type": "government",
+    "coords": [
+      -80.15229,
+      25.79116
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Venetian Way Operations Tower",
+    "type": "government",
+    "coords": [
+      -80.18148,
+      25.78977
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FIU One Card Center",
+    "type": "government",
+    "coords": [
+      -80.37249,
+      25.75472
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Department of Highway Safety and Motor Vehicles",
+    "type": "government",
+    "coords": [
+      -80.37896,
+      25.89851
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Divorce Without War",
+    "type": "government",
+    "coords": [
+      -80.30801,
+      25.68862
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Miami City Hall",
+    "type": "government",
+    "coords": [
+      -80.29546,
+      25.76232
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FLHSMV Driver License and Motor Vehicle Service Center",
+    "type": "government",
+    "coords": [
+      -80.25814,
+      25.78146
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Department of Agriculture Division of Licensing",
+    "type": "government",
+    "coords": [
+      -80.32217,
+      25.81776
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -80.38166,
+      25.76902
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pincrest",
+    "type": "government",
+    "coords": [
+      -80.32861,
+      25.65314
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "National Weather Service - Miami, FL,",
+    "type": "government",
+    "coords": [
+      -80.38364,
+      25.7546
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Refugee Health Center",
+    "type": "government",
+    "coords": [
+      -80.34184,
+      25.78624
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Miami Beach Fleet Department",
+    "type": "government",
+    "coords": [
+      -80.14834,
+      25.77078
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Sanitation City of Miami Beach",
+    "type": "government",
+    "coords": [
+      -80.14791,
+      25.77123
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USCIS Application Support Center (ASC) North Miami",
+    "type": "government",
+    "coords": [
+      -80.16727,
+      25.92471
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "N Miami Beach Public Services Opns",
+    "type": "government",
+    "coords": [
+      -80.15726,
+      25.9228
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dade County Commissioner",
+    "type": "government",
+    "coords": [
+      -80.17786,
+      25.92519
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Department of Highway Safety and Motor Vehicles",
+    "type": "government",
+    "coords": [
+      -80.15554,
+      25.91818
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Driver License and Motor Vehicle Service Center",
+    "type": "government",
+    "coords": [
+      -80.24406,
+      25.84848
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Florida Department of Highway Safety and Motor Vehicles",
+    "type": "government",
+    "coords": [
+      -80.21536,
+      25.9432
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Customs & GAC",
+    "type": "government",
+    "coords": [
+      -80.2895,
+      25.80526
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "National Hurricane Center",
+    "type": "government",
+    "coords": [
+      -80.38362,
+      25.75449
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA Southeast Fisheries Science Center",
+    "type": "government",
+    "coords": [
+      -80.1605,
+      25.73339
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA",
+    "type": "government",
+    "coords": [
+      -80.16263,
+      25.73577
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "government",
+    "coords": [
+      -80.32862,
+      25.65298
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach City Hall",
+    "type": "government",
+    "coords": [
+      -80.13539,
+      25.79283
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Government Center",
+    "type": "government",
+    "coords": [
+      -80.19652,
+      25.77589
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Doral City Hall",
+    "type": "government",
+    "coords": [
+      -80.33418,
+      25.82179
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Social Security Administration",
+    "type": "government",
+    "coords": [
+      -80.22145,
+      25.92943
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sunny Isles Beach Government Center",
+    "type": "government",
+    "coords": [
+      -80.12178,
+      25.94268
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Tag Agency",
+    "type": "government",
+    "coords": [
+      -80.25921,
+      25.75852
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables City Hall",
+    "type": "government",
+    "coords": [
+      -80.26349,
+      25.74914
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "government",
+    "coords": [
+      -80.18764,
+      25.85487
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade Corrections & Rehabilitation Department Headquarters",
+    "type": "government",
+    "coords": [
+      -80.36714,
+      25.80624
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bal Harbour Village Hall",
+    "type": "government",
+    "coords": [
+      -80.1268,
+      25.88728
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "government",
+    "coords": [
+      -80.33858,
+      25.8003
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Greater Miami Expressway Agency",
+    "type": "government",
+    "coords": [
+      -80.25728,
+      25.79467
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -80.25443,
+      25.76494
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami City Hall",
+    "type": "government",
+    "coords": [
+      -80.23383,
+      25.72774
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Town of Surfside Town Hall",
+    "type": "government",
+    "coords": [
+      -80.1228,
+      25.88136
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "government",
+    "coords": [
+      -80.29204,
+      25.70373
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Miami City Hall",
+    "type": "government",
+    "coords": [
+      -80.18269,
+      25.89016
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Gardens City Hall",
+    "type": "government",
+    "coords": [
+      -80.2447,
+      25.94374
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Old City Hall",
+    "type": "government",
+    "coords": [
+      -80.13264,
+      25.78262
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA",
+    "type": "government",
+    "coords": [
+      -80.15977,
+      25.73343
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "government",
+    "coords": [
+      -80.29202,
+      25.70342
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami-Dade State Attorney's Office",
+    "type": "government",
+    "coords": [
+      -80.21558,
+      25.78665
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dade County Health Department",
+    "type": "government",
+    "coords": [
+      -80.13248,
+      25.77582
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA",
+    "type": "government",
+    "coords": [
+      -80.3835,
+      25.75487
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Town of Bay Harbor Islands Town Hall",
+    "type": "government",
+    "coords": [
+      -80.12991,
+      25.88552
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Town of Bay Harbor Islands Building & Zoning Department",
+    "type": "government",
+    "coords": [
+      -80.12981,
+      25.88553
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Town of Bay Harbor Islands Administrative Offices",
+    "type": "government",
+    "coords": [
+      -80.12988,
+      25.88538
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coral Gables Development Services",
+    "type": "government",
+    "coords": [
+      -80.264,
+      25.74878
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Flagami Substation",
+    "type": "substation",
+    "coords": [
+      -80.34335,
+      25.76824
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Olympia Heights Substation",
+    "type": "substation",
+    "coords": [
+      -80.35289,
+      25.73582
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Miller Substation",
+    "type": "substation",
+    "coords": [
+      -80.36578,
+      25.7133
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Lakes Substation",
+    "type": "substation",
+    "coords": [
+      -80.32238,
+      25.90561
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Gratigny Substation",
+    "type": "substation",
+    "coords": [
+      -80.31441,
+      25.88487
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Seagull Substation",
+    "type": "substation",
+    "coords": [
+      -80.38014,
+      25.81834
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.33089,
+      25.83018
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Doral Switching Substation",
+    "type": "substation",
+    "coords": [
+      -80.35362,
+      25.83117
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Levee Substation FPL",
+    "type": "substation",
+    "coords": [
+      -80.43563,
+      25.81331
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Lindgren Substation",
+    "type": "substation",
+    "coords": [
+      -80.4133,
+      25.69095
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Sweetwater Substation",
+    "type": "substation",
+    "coords": [
+      -80.41627,
+      25.77316
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Modesto A. Maidique Substation",
+    "type": "substation",
+    "coords": [
+      -80.38357,
+      25.75295
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Dade Substation 138kV",
+    "type": "substation",
+    "coords": [
+      -80.3128,
+      25.83096
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Dade Substation 230kV",
+    "type": "substation",
+    "coords": [
+      -80.31111,
+      25.83113
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "River Substation",
+    "type": "substation",
+    "coords": [
+      -80.25735,
+      25.7995
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Shores Substation",
+    "type": "substation",
+    "coords": [
+      -80.20656,
+      25.85962
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Lemon City Substation",
+    "type": "substation",
+    "coords": [
+      -80.18917,
+      25.84587
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Little River Substation",
+    "type": "substation",
+    "coords": [
+      -80.20467,
+      25.84066
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Seaboard Substation",
+    "type": "substation",
+    "coords": [
+      -80.2578,
+      25.8479
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.28783,
+      25.94034
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Merchandise Substation",
+    "type": "substation",
+    "coords": [
+      -80.31419,
+      25.77754
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Lejeune Substation",
+    "type": "substation",
+    "coords": [
+      -80.26574,
+      25.79353
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Blue Lagoon Substation",
+    "type": "substation",
+    "coords": [
+      -80.28597,
+      25.7772
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Lawrence Substation",
+    "type": "substation",
+    "coords": [
+      -80.22713,
+      25.78384
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Riverside Substation",
+    "type": "substation",
+    "coords": [
+      -80.27138,
+      25.77585
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Galloway Substation",
+    "type": "substation",
+    "coords": [
+      -80.33765,
+      25.70539
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Killian Substation",
+    "type": "substation",
+    "coords": [
+      -80.35444,
+      25.6605
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Red Road Substation",
+    "type": "substation",
+    "coords": [
+      -80.28839,
+      25.88325
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.32933,
+      25.90068
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Country Club Substation",
+    "type": "substation",
+    "coords": [
+      -80.31962,
+      25.94209
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Fronton Substation",
+    "type": "substation",
+    "coords": [
+      -80.25826,
+      25.81017
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Airport Substation",
+    "type": "substation",
+    "coords": [
+      -80.26922,
+      25.80896
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Urban Substation",
+    "type": "substation",
+    "coords": [
+      -80.36836,
+      25.8545
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Coconut Grove Substation",
+    "type": "substation",
+    "coords": [
+      -80.25455,
+      25.73557
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Snapper Creek Substation",
+    "type": "substation",
+    "coords": [
+      -80.28538,
+      25.67115
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Ojus Substation",
+    "type": "substation",
+    "coords": [
+      -80.14221,
+      25.94635
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Arch Creek Substation",
+    "type": "substation",
+    "coords": [
+      -80.17003,
+      25.89273
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Spoonbill Substation",
+    "type": "substation",
+    "coords": [
+      -80.35705,
+      25.92722
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.37277,
+      25.87227
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Doral Substation",
+    "type": "substation",
+    "coords": [
+      -80.37031,
+      25.793
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Pennsuco Substation",
+    "type": "substation",
+    "coords": [
+      -80.37189,
+      25.87229
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Roney Substation",
+    "type": "substation",
+    "coords": [
+      -80.12106,
+      25.85377
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Haulover Substation",
+    "type": "substation",
+    "coords": [
+      -80.12429,
+      25.90093
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.31315,
+      25.78946
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Brandon Substation",
+    "type": "substation",
+    "coords": [
+      -80.21233,
+      25.91352
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.14467,
+      25.95433
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Downtown Substation",
+    "type": "substation",
+    "coords": [
+      -80.19691,
+      25.76985
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Bell Substation",
+    "type": "substation",
+    "coords": [
+      -80.32685,
+      25.77522
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Douglas Substation",
+    "type": "substation",
+    "coords": [
+      -80.25376,
+      25.74756
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Milam Substation",
+    "type": "substation",
+    "coords": [
+      -80.32652,
+      25.80582
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Master Substation",
+    "type": "substation",
+    "coords": [
+      -80.25868,
+      25.87768
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "137th Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -80.41808,
+      25.78732
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Substation",
+    "type": "substation",
+    "coords": [
+      -80.28648,
+      25.82934
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Tropical Substation",
+    "type": "substation",
+    "coords": [
+      -80.34945,
+      25.75395
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Railway Substation",
+    "type": "substation",
+    "coords": [
+      -80.20342,
+      25.78464
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Substation",
+    "type": "substation",
+    "coords": [
+      -80.19371,
+      25.79677
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Biscayne Substation",
+    "type": "substation",
+    "coords": [
+      -80.2064,
+      25.89094
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Industrial Substation",
+    "type": "substation",
+    "coords": [
+      -80.25762,
+      25.8284
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Seminola Substation",
+    "type": "substation",
+    "coords": [
+      -80.29361,
+      25.84028
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Greynolds Substation",
+    "type": "substation",
+    "coords": [
+      -80.15108,
+      25.92717
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Weston Village Substation",
+    "type": "substation",
+    "coords": [
+      -80.20487,
+      25.94656
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Uleta Substation",
+    "type": "substation",
+    "coords": [
+      -80.17156,
+      25.92431
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulford Substation",
+    "type": "substation",
+    "coords": [
+      -80.20397,
+      25.92824
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.32846,
+      25.89704
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Roselawn Substation",
+    "type": "substation",
+    "coords": [
+      -80.31221,
+      25.85576
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Golden Glades Substation",
+    "type": "substation",
+    "coords": [
+      -80.23317,
+      25.92765
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Garden Substation",
+    "type": "substation",
+    "coords": [
+      -80.26369,
+      25.93694
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Opa Locka Substation",
+    "type": "substation",
+    "coords": [
+      -80.23601,
+      25.89781
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "South Miami Substation",
+    "type": "substation",
+    "coords": [
+      -80.28742,
+      25.70877
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Bird Substation",
+    "type": "substation",
+    "coords": [
+      -80.2943,
+      25.73407
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Dadeland Substation",
+    "type": "substation",
+    "coords": [
+      -80.30494,
+      25.69485
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Village Green Substation",
+    "type": "substation",
+    "coords": [
+      -80.38533,
+      25.72819
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "University Substation",
+    "type": "substation",
+    "coords": [
+      -80.27574,
+      25.71681
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Marion Substation",
+    "type": "substation",
+    "coords": [
+      -80.38156,
+      25.69315
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "62nd Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -80.29592,
+      25.7549
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.31235,
+      25.78405
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Key Biscayne Substation",
+    "type": "substation",
+    "coords": [
+      -80.16227,
+      25.70067
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Tamiami Substation",
+    "type": "substation",
+    "coords": [
+      -80.26502,
+      25.76395
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Market Substation",
+    "type": "substation",
+    "coords": [
+      -80.2187,
+      25.79647
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Buena Vista Substation",
+    "type": "substation",
+    "coords": [
+      -80.20236,
+      25.81436
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Gladeview Substation",
+    "type": "substation",
+    "coords": [
+      -80.2378,
+      25.83671
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Miramar Substation",
+    "type": "substation",
+    "coords": [
+      -80.19754,
+      25.79889
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Natoma Substation",
+    "type": "substation",
+    "coords": [
+      -80.23931,
+      25.75707
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Railway Substation",
+    "type": "substation",
+    "coords": [
+      -80.20333,
+      25.78405
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Suniland Substation",
+    "type": "substation",
+    "coords": [
+      -80.32689,
+      25.65651
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Kendall Substation",
+    "type": "substation",
+    "coords": [
+      -80.32665,
+      25.67594
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "8th Street Cable Terminal",
+    "type": "substation",
+    "coords": [
+      -80.30514,
+      25.76335
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Venetian Substation",
+    "type": "substation",
+    "coords": [
+      -80.14224,
+      25.79492
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Substation",
+    "type": "substation",
+    "coords": [
+      -80.32792,
+      25.88266
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "40th Street Substation",
+    "type": "substation",
+    "coords": [
+      -80.12806,
+      25.81311
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Miami Beach Substation",
+    "type": "substation",
+    "coords": [
+      -80.14886,
+      25.77117
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Normandy Beach Substation",
+    "type": "substation",
+    "coords": [
+      -80.12249,
+      25.87245
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Simpson Substation",
+    "type": "substation",
+    "coords": [
+      -80.19668,
+      25.76081
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Sunny Isles Substation",
+    "type": "substation",
+    "coords": [
+      -80.13207,
+      25.9304
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Virginia Key Substation",
+    "type": "substation",
+    "coords": [
+      -80.1535,
+      25.74799
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Boulevard Substation",
+    "type": "substation",
+    "coords": [
+      -80.17056,
+      25.87933
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Latin Quarter Substation",
+    "type": "substation",
+    "coords": [
+      -80.22296,
+      25.76787
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Natoma Substation",
+    "type": "substation",
+    "coords": [
+      -80.2203,
+      25.747
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "New Fortress Substation",
+    "type": "substation",
+    "coords": [
+      -80.3091,
+      25.83892
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.35698,
+      25.83549
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.35659,
+      25.8355
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Don Shula Substation",
+    "type": "substation",
+    "coords": [
+      -80.37994,
+      25.65741
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.19863,
+      25.79057
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Faucet Substation",
+    "type": "substation",
+    "coords": [
+      -80.39972,
+      25.67676
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Flagami Substation",
+    "type": "substation",
+    "coords": [
+      -80.34272,
+      25.76653
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.14613,
+      25.76666
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "Banyan Substation",
+    "type": "substation",
+    "coords": [
+      -80.29605,
+      25.75519
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.17071,
+      25.90868
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "nan",
+    "type": "substation",
+    "coords": [
+      -80.2106,
+      25.79744
+    ],
+    "probability": 0.736,
+    "radiusM": 750
+  },
+  {
+    "name": "MDWASA JOHN PRESTON",
+    "type": "water_works",
+    "coords": [
+      -80.2867,
+      25.83159
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hialeah Water Treatment Plant",
+    "type": "water_works",
+    "coords": [
+      -80.28656,
+      25.82824
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  }
+]

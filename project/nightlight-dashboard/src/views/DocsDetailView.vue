@@ -1,0 +1,2330 @@
+<template>
+  <div class="detail-page">
+    <!-- Sticky sidebar TOC -->
+    <nav class="detail-toc" v-if="sectionData && subSections.length">
+      <RouterLink to="/docs" class="back-link" style="margin-bottom:16px">
+        <span class="back-arrow">←</span> All Docs
+      </RouterLink>
+      <div class="detail-toc__title">{{ sectionData.title }}</div>
+      <ul class="detail-toc__list">
+        <li v-for="s in subSections" :key="s.id">
+          <a
+            class="detail-toc__link"
+            :class="{ active: activeTocId === s.id }"
+            @click.prevent="tocScrollTo(s.id)"
+            href="#"
+          >{{ s.label }}</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="detail-inner">
+      <!-- Back link (only if no sidebar) -->
+      <RouterLink v-if="!subSections.length" to="/docs" class="back-link">
+        <span class="back-arrow">←</span> Back to Documentation
+      </RouterLink>
+
+      <!-- Dynamic section content -->
+      <article class="detail-content" v-if="sectionData">
+        <div class="detail-header reveal">
+          <span class="mono dim">{{ sectionData.num }}</span>
+          <h1>{{ sectionData.title }}</h1>
+          <span v-for="t in sectionData.tags" :key="t" class="tag tag--cyan" style="font-size:10px">{{ t }}</span>
+        </div>
+
+        <!-- 01 Overview -->
+        <template v-if="sectionId === 'overview'">
+          <h2 id="sec-1-1">1.1 Motivation</h2>
+          <p>
+            When hurricanes and earthquakes strike, power grids fail — sometimes for days, sometimes
+            for months. Critical facilities like hospitals, airports, and fire stations rely on backup
+            generators to maintain operations during these blackouts. But <strong>no public database
+            tracks which buildings have generators or whether they actually activated</strong>. Emergency
+            managers, utility companies, and researchers lack a systematic, scalable way to assess
+            infrastructure resilience after disasters.
+          </p>
+          <p>
+            This project addresses that gap using an unconventional data source: <strong>nighttime
+            satellite imagery</strong>. NASA's Black Marble product captures how bright every 500-meter
+            patch of Earth is at night. During a power outage, most of a city goes dark — but
+            facilities with backup generators keep their lights on. By comparing nighttime brightness
+            near critical infrastructure before and after a disaster, we can detect this "resilience
+            signal" from space.
+          </p>
+
+          <h2 id="sec-1-2">1.2 Core Hypothesis</h2>
+          <p>
+            The central hypothesis is straightforward: <strong>pixels near facilities with backup
+            generators maintain higher nighttime light levels during power outages</strong> compared to
+            surrounding areas without backup power. We formalize this as the <em>Resilience
+            Advantage (RA)</em> — the difference in NTL recovery ratios between buffer zones around
+            critical facilities and non-buffer areas. A positive RA indicates that infrastructure
+            buffers recover faster or maintain brightness better, consistent with generator activation.
+          </p>
+
+          <h2 id="sec-1-3">1.3 Collaboration</h2>
+          <div class="callout callout--cyan">
+            <span>🛰️</span>
+            <div>
+              <strong>Temple University</strong> (PI: Prof. Li Xiaojiang) × <strong>Arizona State
+              University</strong>. The study began with six primary events across Puerto Rico, Florida,
+              and Louisiana, and has been extended to 9 events including Hurricane Ian (2022) and the
+              Turkey–Syria Earthquake (2023) to test cross-event generalizability.
+            </div>
+          </div>
+
+          <h2 id="sec-1-4">1.4 Study Events</h2>
+          <p>
+            We analyze 9 major disasters spanning 2017–2023, covering 7 hurricanes and 2 earthquakes
+            across the United States, Puerto Rico, and Turkey. Events are ordered chronologically below.
+            Each was selected based on outage severity (>100K affected users), duration (>5 days),
+            and satellite data availability (≥15 cloud-free post-disaster days).
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Event</th><th>Location</th><th>Date</th><th>Type</th><th>Affected</th></tr></thead>
+              <tbody>
+                <tr v-for="ev in sortedEvents" :key="ev.id">
+                  <td><span class="dot" :style="{ background: ev.color }" />{{ ev.name }}</td>
+                  <td>{{ ev.subtitle }}</td>
+                  <td class="mono">{{ ev.date }}</td>
+                  <td><span class="tag" :class="`tag--${ev.type}`" style="font-size:10px">{{ ev.type }}</span></td>
+                  <td class="mono">{{ ev.affectedUsers }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="sec-1-5">1.5 Research Questions</h2>
+          <ul class="detail-list">
+            <li><strong>Detection:</strong> Can nighttime light satellite imagery detect backup generator activation at critical facilities during power outages?</li>
+            <li><strong>Statistical signal:</strong> Do buffer zones around critical infrastructure show statistically higher NTL recovery ratios than surrounding non-buffer areas?</li>
+            <li><strong>Generalization:</strong> Can a predictive model trained on multiple disaster events generalize to unseen events through cross-event transfer learning?</li>
+          </ul>
+
+          <div class="takeaway">
+            <div class="takeaway__label">KEY TAKEAWAY</div>
+            <p class="takeaway__text">
+              This is fundamentally a <strong>remote sensing + machine learning</strong> project that
+              turns a data gap (no generator records) into a detection problem (can we see generators
+              from space?). The answer, as the following sections demonstrate, is a qualified yes —
+              with important caveats about resolution, cloud cover, and cross-event variability.
+            </p>
+          </div>
+        </template>
+
+        <!-- 02 Data Collection -->
+        <template v-if="sectionId === 'data'">
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 1: What is Black Marble?                -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-1">2.1 NASA Black Marble — Nighttime Lights from Space</h2>
+          <p>
+            Our primary data source is <strong>NASA's Black Marble</strong> product suite (VNP46A2),
+            which provides daily, gap-filled nighttime light (NTL) imagery at 500-meter resolution.
+            The data comes from the VIIRS Day/Night Band sensor aboard the Suomi NPP satellite,
+            which orbits Earth ~14 times per day and captures visible-band light emission after sunset.
+          </p>
+          <p>
+            The VNP46A2 product is not raw sensor output — it undergoes extensive processing by
+            NASA's Black Marble team: lunar irradiance correction (so moonlight doesn't inflate values),
+            atmospheric correction, bidirectional reflectance correction (BRDF), and a cloud gap-filling
+            algorithm that interpolates cloud-covered pixels using temporal neighbors. The result is
+            a remarkably clean daily snapshot of artificial light on Earth's surface — including the
+            lights that stay on during power outages because of backup generators.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Property</th><th>Value</th></tr></thead>
+              <tbody>
+                <tr><td>Product</td><td class="mono">VNP46A2 (daily) · VNP46A3 (monthly)</td></tr>
+                <tr><td>Key layer</td><td class="mono">Gap_Filled_DNB_BRDF-Corrected_NTL</td></tr>
+                <tr><td>Resolution</td><td class="mono">500 m / pixel</td></tr>
+                <tr><td>Access</td><td class="mono">Google Earth Engine / NASA LAADS DAAC</td></tr>
+                <tr><td>Unit</td><td class="mono">nW / cm² / sr</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 2: EAGLE-I (moved up)                   -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-2">2.2 EAGLE-I Power Outage Records</h2>
+          <p>
+            The U.S. Department of Energy's EAGLE-I system provides county-level hourly power
+            outage counts, which we use for event selection and temporal alignment. EAGLE-I
+            aggregates outage reports from utilities across the country, giving us an independent
+            ground-truth reference for when and where blackouts occurred. This data source is what
+            tells us which disasters caused significant, sustained power outages worth studying
+            with satellite imagery.
+          </p>
+          <p>Our event selection criteria ensure each study event is both significant enough
+            to produce a detectable NTL signal and has sufficient satellite coverage for analysis:</p>
+          <ul class="detail-list">
+            <li><strong>Outage duration</strong> > 5 days — sustained enough for daily NTL to detect</li>
+            <li><strong>Affected users</strong> > 100,000 — significant spatial extent of blackout</li>
+            <li><strong>Post-disaster clear days</strong> ≥ 15 — sufficient cloud-free satellite observations</li>
+            <li><strong>Geographic diversity</strong> — events across different U.S. regions and disaster types (hurricanes + earthquakes)</li>
+          </ul>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 3: What does it look like? (Maria demo) -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-3">2.3 What Does a Disaster Look Like in NTL?</h2>
+          <p>
+            Hurricane Maria made landfall in Puerto Rico on September 20, 2017 as a Category 5 storm,
+            causing the longest blackout in U.S. history. It is the ideal case study for our method
+            because the NTL signal is dramatic and unambiguous: the entire island went dark.
+          </p>
+          <p>
+            The player below shows daily satellite imagery of the San Juan metropolitan area.
+            On the <strong>left</strong>, each frame is a raw NTL image — brighter pixels mean more light.
+            On the <strong>right</strong>, each frame shows the <em>change from baseline</em> (delta NTL),
+            computed as (day − BAU) / BAU, where BAU is the pre-disaster median composite.
+            <strong style="color:var(--red,#ff6b6b)">Red pixels = dimmer than normal</strong> (outage),
+            <strong style="color:#6699ff">blue pixels = brighter than normal</strong> (possible generator).
+          </p>
+          <p>
+            Press play and watch: before September 20, the city pulses with normal nighttime activity.
+            After the hurricane, the lights vanish almost entirely. Over the following two months,
+            brightness returns unevenly — some areas recover quickly (often near hospitals and airports
+            with backup power), while others remain dark for weeks.
+          </p>
+
+          <div v-if="ntlFrames" class="ntl-player">
+            <div class="ntl-player__panels">
+              <div class="ntl-player__panel">
+                <div class="ntl-player__label">Daily NTL</div>
+                <img :src="`/data/frames/${ntlFrames.frames[frameIdx].ntl}`" class="ntl-player__img" />
+              </div>
+              <div class="ntl-player__panel">
+                <div class="ntl-player__label">Delta NTL (vs BAU)</div>
+                <img :src="`/data/frames/${ntlFrames.frames[frameIdx].delta}`" class="ntl-player__img" />
+              </div>
+            </div>
+            <div class="ntl-player__info">
+              <span class="ntl-player__date mono">
+                {{ ntlFrames.frames[frameIdx].date }}
+              </span>
+              <span class="ntl-player__phase" :class="ntlFrames.frames[frameIdx].phase">
+                {{ ntlFrames.frames[frameIdx].phase === 'pre' ? 'PRE-DISASTER' : 'POST-DISASTER' }}
+              </span>
+              <span class="mono" style="color:var(--text-muted); font-size:11px">
+                Mean NTL: {{ ntlFrames.frames[frameIdx].mean_ntl }} nW/cm²/sr
+              </span>
+            </div>
+            <div class="ntl-player__controls">
+              <button class="ntl-player__btn" @click="prevFrame">⏮</button>
+              <button class="ntl-player__btn ntl-player__btn--play" @click="togglePlay">
+                {{ playing ? '⏸' : '▶' }}
+              </button>
+              <button class="ntl-player__btn" @click="nextFrame">⏭</button>
+              <input type="range" class="ntl-player__slider" min="0" :max="ntlFrames.frames.length - 1" v-model.number="frameIdx" />
+              <span class="mono" style="font-size:10px; color:var(--text-dim); min-width:50px; text-align:right">
+                {{ frameIdx + 1 }} / {{ ntlFrames.frames.length }}
+              </span>
+            </div>
+            <!-- Colorbar legends -->
+            <div class="ntl-player__legends">
+              <div class="ntl-player__legend">
+                <span style="font-size:10px; color:var(--text-muted)">NTL (nW/cm²/sr)</span>
+                <div class="legend-bar legend-bar--hot" />
+                <div class="legend-labels"><span>0</span><span>{{ ntlFrames.vmax }}</span></div>
+              </div>
+              <div class="ntl-player__legend">
+                <span style="font-size:10px; color:var(--text-muted)">Delta NTL</span>
+                <div class="legend-bar legend-bar--div" />
+                <div class="legend-labels"><span>-100%</span><span>0</span><span>+100%</span></div>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            This pattern — a sudden NTL collapse followed by gradual, spatially uneven recovery — is
+            what we observe across all nine study events, though the severity and duration vary
+            significantly. The bar charts below summarize the daily spatial-mean NTL for each event,
+            with <strong style="color:var(--green)">green bars = pre-disaster</strong> and
+            <strong style="color:var(--red, #ff6b6b)">red bars = post-disaster</strong>.
+          </p>
+
+          <div v-if="cloudStats" class="collapsible" :class="{ expanded: ntlExpanded }">
+            <div class="collapsible__content">
+              <div class="ntl-charts-grid">
+                <div v-for="ev in cloudEvents" :key="ev.id" class="ntl-chart-card">
+                  <div class="ntl-chart-card__header">
+                    <span class="dot" :style="{ background: ev.color }" />
+                    <strong>{{ ev.name }}</strong>
+                    <span class="mono" style="color:var(--text-muted); font-size:11px">{{ ev.subtitle }}</span>
+                  </div>
+                  <svg :viewBox="`0 0 ${ntlChartW} ${ntlChartH}`" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
+                    <line v-for="y in [0.25, 0.5, 0.75, 1.0]" :key="y"
+                      :x1="ntlPad.l" :x2="ntlChartW - ntlPad.r"
+                      :y1="ntlY(y, ev.id)" :y2="ntlY(y, ev.id)"
+                      stroke="rgba(255,255,255,0.06)" stroke-width="0.5" />
+                    <line :x1="ntlX(ev.id, 'split')" :x2="ntlX(ev.id, 'split')"
+                      :y1="ntlPad.t" :y2="ntlChartH - ntlPad.b"
+                      stroke="rgba(255,100,100,0.6)" stroke-width="1" stroke-dasharray="3 2" />
+                    <text :x="ntlX(ev.id, 'split') + 3" :y="ntlPad.t + 10" fill="rgba(255,120,120,0.8)" font-size="8" font-family="monospace">DISASTER</text>
+                    <rect v-for="(d, i) in getPreDays(ev.id)" :key="'pre'+i"
+                      :x="ntlBarX(ev.id, i, 'pre')" :y="ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
+                      :width="ntlBarW(ev.id)" :height="ntlChartH - ntlPad.b - ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
+                      fill="rgba(0,229,160,0.6)" rx="1" />
+                    <rect v-for="(d, i) in getPostDays(ev.id)" :key="'post'+i"
+                      :x="ntlBarX(ev.id, i, 'post')" :y="ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
+                      :width="ntlBarW(ev.id)" :height="ntlChartH - ntlPad.b - ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
+                      fill="rgba(255,107,107,0.6)" rx="1" />
+                    <text :x="ntlPad.l" :y="ntlChartH - 2" fill="var(--text-dim)" font-size="8" font-family="monospace">Pre</text>
+                    <text :x="ntlX(ev.id, 'split') + 3" :y="ntlChartH - 2" fill="var(--text-dim)" font-size="8" font-family="monospace">Post</text>
+                    <text :x="ntlChartW - ntlPad.r" :y="ntlPad.t + 10" fill="var(--text-muted)" font-size="8" font-family="monospace" text-anchor="end">
+                      Pre avg: {{ cloudStats[ev.dashId]?.summary.pre_mean_ntl }} · Post avg: {{ cloudStats[ev.dashId]?.summary.post_mean_ntl }} nW/cm²/sr
+                    </text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!ntlExpanded" />
+            <button class="collapsible__toggle" @click="ntlExpanded = !ntlExpanded">
+              {{ ntlExpanded ? 'Show Less' : `Show All ${cloudEvents.length} Events` }}
+            </button>
+          </div>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 4: Cloud coverage                       -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-4">2.4 Cloud Contamination & Quality Control</h2>
+          <p>
+            A fundamental challenge of optical satellite remote sensing is cloud cover. When clouds
+            obscure the ground, the sensor cannot measure surface-emitted light, and the resulting
+            pixel values are unreliable. This is especially problematic for disaster studies because
+            the very weather systems that cause hurricanes also produce extensive cloud cover in the
+            days surrounding landfall — precisely when we most need clear observations.
+          </p>
+          <p>
+            The VNP46A2 product partially addresses this through its gap-filling algorithm, which
+            uses temporal interpolation to estimate NTL values for clouded pixels. However, gap-filling
+            has limits: when an entire region is cloud-covered for multiple consecutive days, the
+            interpolated values become unreliable. We therefore apply a second quality control step
+            after download.
+          </p>
+          <div class="callout callout--cyan">
+            <span>🌥️</span>
+            <div>
+              <strong>Our cloud masking strategy:</strong> For each daily GeoTIFF, we compute the fraction
+              of pixels with valid (non-zero, non-NaN) values. Days where this fraction falls below
+              <strong>30%</strong> are excluded entirely from the analysis. Pixels with NTL ≤ 0 within
+              retained days are still masked individually. This two-stage approach (NASA's gap-filling +
+              our post-download QC) maximizes the number of usable observation days while ensuring
+              that included days have sufficient spatial coverage for meaningful statistics.
+            </div>
+          </div>
+
+          <!-- Cloud coverage summary table -->
+          <div v-if="cloudFrac" class="data-table" style="margin:20px 0">
+            <table>
+              <thead>
+                <tr>
+                  <th>Event</th>
+                  <th>Total Days</th>
+                  <th>Usable Days</th>
+                  <th>Excluded Days</th>
+                  <th>Avg Cloud %</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="ev in cloudEvents" :key="ev.id">
+                  <td><span class="dot" :style="{ background: ev.color }" />{{ ev.name }}</td>
+                  <td class="mono">{{ cloudFrac[ev.dashId]?.summary.total_days ?? '—' }}</td>
+                  <td class="mono" style="color:var(--green)">{{ cloudFrac[ev.dashId]?.summary.usable_days ?? '—' }}</td>
+                  <td class="mono" :style="{ color: (cloudFrac[ev.dashId]?.summary.excluded_days ?? 0) > 20 ? '#ff6b6b' : 'var(--text)' }">
+                    {{ cloudFrac[ev.dashId]?.summary.excluded_days ?? '—' }}
+                  </td>
+                  <td class="mono" :style="{ color: (cloudFrac[ev.dashId]?.summary.avg_cloud_pct ?? 0) > 40 ? '#ff6b6b' : 'var(--text)' }">
+                    {{ cloudFrac[ev.dashId]?.summary.avg_cloud_pct ?? '—' }}%
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            The charts below show the daily <strong>cloud fraction</strong> (% of pixels obscured)
+            for each event. <span style="color:rgba(0,180,255,0.8)">Blue = usable day</span> (cloud &lt; 30%),
+            <span style="color:rgba(255,80,80,0.8)">red = excluded day</span> (cloud &ge; 30%).
+            The <span style="color:rgba(255,170,0,0.8)">orange dashed line</span> marks the 30% threshold.
+            Note how Michael has the worst cloud contamination (avg 47%), while EQ San Juan
+            is the cleanest (avg 20%).
+          </p>
+
+          <div v-if="cloudFrac" class="collapsible" :class="{ expanded: cloudExpanded }">
+            <div class="collapsible__content">
+              <div class="ntl-charts-grid">
+                <div v-for="ev in cloudEvents" :key="'cloud-'+ev.id" class="ntl-chart-card">
+                  <div class="ntl-chart-card__header">
+                    <span class="dot" :style="{ background: ev.color }" />
+                    <strong>{{ ev.name }}</strong>
+                    <span class="mono" style="color:var(--text-muted); font-size:11px">
+                      Avg cloud: {{ cloudFrac[ev.dashId]?.summary.avg_cloud_pct }}% · {{ cloudFrac[ev.dashId]?.summary.excluded_days }} days excluded
+                    </span>
+                  </div>
+                  <svg :viewBox="`0 0 ${ntlChartW} ${ntlChartH}`" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
+                    <!-- 30% threshold -->
+                    <line :x1="ntlPad.l" :x2="ntlChartW - ntlPad.r"
+                      :y1="cloudY(30)" :y2="cloudY(30)"
+                      stroke="rgba(255,170,0,0.6)" stroke-width="1" stroke-dasharray="4 2" />
+                    <text :x="ntlChartW - ntlPad.r - 2" :y="cloudY(30) - 3" fill="rgba(255,170,0,0.8)" font-size="7" font-family="monospace" text-anchor="end">30% usability threshold</text>
+                    <!-- Disaster line -->
+                    <line :x1="cfSplitX(ev.dashId)" :x2="cfSplitX(ev.dashId)"
+                      :y1="ntlPad.t" :y2="ntlChartH - ntlPad.b"
+                      stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3 2" />
+                    <!-- Bars -->
+                    <rect v-for="(d, i) in getCfDays(ev.dashId)" :key="'cf'+i"
+                      :x="cfBarX(ev.dashId, i)" :y="cloudY(d.cloud_pct)"
+                      :width="cfBarW(ev.dashId)" :height="ntlChartH - ntlPad.b - cloudY(d.cloud_pct)"
+                      :fill="d.usable ? 'rgba(0,180,255,0.55)' : 'rgba(255,80,80,0.6)'"
+                      rx="1" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!cloudExpanded" />
+            <button class="collapsible__toggle" @click="cloudExpanded = !cloudExpanded">
+              {{ cloudExpanded ? 'Show Less' : `Show All ${cloudEvents.length} Events` }}
+            </button>
+          </div>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 5: GEE Download Pipeline                -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-5">2.5 Data Acquisition via Google Earth Engine</h2>
+          <p>
+            All NTL imagery is downloaded programmatically through the Google Earth Engine (GEE)
+            Python API. For each event, we define a bounding box covering the study area, a
+            pre-disaster time window (typically 30 days before the event), and a post-disaster
+            window (30–90 days after). GEE handles the server-side filtering and clipping, then
+            exports each daily image as a GeoTIFF to Google Drive for local processing.
+          </p>
+          <p>
+            This approach is reproducible and scalable — adding a new event requires only
+            specifying the bounding box, disaster date, and time windows. The code below shows
+            the core download logic for Hurricane Maria:
+          </p>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.gee }">
+            <div class="collapsible__content">
+              <div class="code-block">
+                <div class="code-block__header"><span class="mono">Python · GEE Download</span></div>
+                <pre><code>import ee
+ee.Initialize()
+
+# Define study area and time window
+bbox = ee.Geometry.Rectangle([west, south, east, north])
+pre_start, pre_end = '2017-08-20', '2017-09-19'
+post_start, post_end = '2017-09-21', '2017-11-20'
+
+# Load VNP46A2 daily NTL
+vnp46 = ee.ImageCollection('NASA/VIIRS/002/VNP46A2')
+ntl_band = 'Gap_Filled_DNB_BRDF-Corrected_NTL'
+
+# Filter and download pre-disaster
+pre_col = (vnp46
+    .filterBounds(bbox)
+    .filterDate(pre_start, pre_end)
+    .select(ntl_band))
+
+# Export each day as GeoTIFF
+for img in pre_col.toList(pre_col.size()).getInfo():
+    image = ee.Image(img['id']).select(ntl_band)
+    task = ee.batch.Export.image.toDrive(
+        image=image.clip(bbox),
+        description=f'pre_{img["id"].split("/")[-1]}',
+        scale=500,  # 500m resolution
+        region=bbox,
+        fileFormat='GeoTIFF'
+    )
+    task.start()</code></pre>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.gee" />
+            <button class="collapsible__toggle" @click="codeExpanded.gee = !codeExpanded.gee">
+              {{ codeExpanded.gee ? 'Collapse Code' : 'Expand Full Code' }}
+            </button>
+          </div>
+
+          <div class="callout callout--amber">
+            <span>⚠️</span>
+            <div>
+              <strong>Cloud masking strategy:</strong> After download, each daily GeoTIFF is checked:
+              pixels with NTL ≤ 0 or NaN are treated as cloud-contaminated/nodata. Days with
+              &lt;30% valid pixels are excluded from temporal mean computation. This two-stage
+              approach (GEE gap-filling + post-download QC) maximizes usable observations while
+              maintaining data quality.
+            </div>
+          </div>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 6: OSM Facilities                       -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-6">2.6 Critical Infrastructure from OpenStreetMap</h2>
+          <p>
+            A core challenge of this project is that <strong>no public dataset of backup generator
+            locations exists</strong>. We cannot simply look up which buildings have generators — this
+            information is proprietary, scattered across utility companies, and rarely georeferenced.
+            This is precisely why we turn to satellite imagery in the first place: to <em>infer</em>
+            generator presence from the NTL signal rather than relying on direct records.
+          </p>
+          <p>
+            Our proxy approach: we identify <strong>critical infrastructure facilities</strong> —
+            hospitals, airports, power plants, fire stations, and police stations — which are
+            <em>legally required or highly likely</em> to have backup generators. By analyzing the
+            NTL patterns in buffer zones around these facilities, we can detect whether backup
+            power is actually activating during outages. The facility locations serve as our
+            best available spatial prior for where generators should be.
+          </p>
+          <p>
+            We source facility locations from OpenStreetMap (OSM) via its Overpass API — a free,
+            crowd-sourced global geodatabase with generally excellent coverage of critical
+            infrastructure in the U.S. and Turkey. For each event, we query all relevant facility
+            types within the event's bounding box, extract coordinates and names, and cache the
+            results locally. This produces between 50 and 420 facilities per event — from 52 in
+            Hatay, Turkey to 420 in Miami, Florida.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Facility Type</th><th>OSM Tag</th><th>Buffer Radius</th><th>Signal Group</th></tr></thead>
+              <tbody>
+                <tr><td>Hospital</td><td class="mono">amenity=hospital</td><td class="mono">750 m</td><td>High</td></tr>
+                <tr><td>Airport</td><td class="mono">aeroway=aerodrome</td><td class="mono">1,250 m</td><td>High</td></tr>
+                <tr><td>Power Plant</td><td class="mono">power=plant</td><td class="mono">750 m</td><td>High</td></tr>
+                <tr><td>Fire Station</td><td class="mono">amenity=fire_station</td><td class="mono">750 m</td><td>Medium</td></tr>
+                <tr><td>Police</td><td class="mono">amenity=police</td><td class="mono">750 m</td><td>Medium</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout callout--amber">
+            <span>⚠️</span>
+            <div>
+              <strong>Excluded facility types:</strong> Clinics, schools, government offices, and
+              substations are queried but excluded from the primary "strict" buffer label. These
+              facilities either don't operate at night or don't typically have backup generators
+              capable of producing a detectable NTL signal at 500m resolution.
+            </div>
+          </div>
+
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.overpass }">
+            <div class="collapsible__content">
+              <div class="code-block">
+                <div class="code-block__header"><span class="mono">Python · Overpass API Query</span></div>
+                <pre><code>import requests
+
+OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+
+# OSM tags for each facility type
+OSM_QUERIES = {
+    "hospital":     'node["amenity"="hospital"]({bbox});way["amenity"="hospital"]({bbox});',
+    "aerodrome":    'node["aeroway"="aerodrome"]({bbox});way["aeroway"="aerodrome"]({bbox});',
+    "power_plant":  'node["power"="plant"]({bbox});way["power"="plant"]({bbox});',
+    "fire_station": 'node["amenity"="fire_station"]({bbox});way["amenity"="fire_station"]({bbox});',
+    "police":       'node["amenity"="police"]({bbox});way["amenity"="police"]({bbox});',
+}
+
+def fetch_facilities(bbox, ftype, query_template):
+    """
+    Query Overpass API for a facility type within a bounding box.
+    bbox = (south, west, north, east)
+    Returns list of {name, lon, lat} dicts.
+    """
+    south, west, north, east = bbox
+    bbox_str = f"{south},{west},{north},{east}"
+    body = query_template.replace("{bbox}", bbox_str)
+    ql = f'[out:json][timeout:60];({body});out center tags;'
+
+    resp = requests.post(OVERPASS_URL, data={"data": ql}, timeout=90)
+    resp.raise_for_status()
+
+    results = []
+    for el in resp.json().get("elements", []):
+        if el["type"] == "node":
+            lon, lat = el["lon"], el["lat"]
+        elif "center" in el:
+            lon, lat = el["center"]["lon"], el["center"]["lat"]
+        else:
+            continue
+        name = el.get("tags", {}).get("name", "")
+        results.append({"name": name, "lon": lon, "lat": lat})
+    return results
+
+# Example: fetch hospitals in San Juan, Puerto Rico
+bbox = (18.30, -66.25, 18.52, -65.90)
+hospitals = fetch_facilities(bbox, "hospital", OSM_QUERIES["hospital"])
+print(f"Found {len(hospitals)} hospitals")
+for h in hospitals[:3]:
+    print(f"  {h['name'] or 'unnamed'} ({h['lon']:.4f}, {h['lat']:.4f})")</code></pre>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.overpass" />
+            <button class="collapsible__toggle" @click="codeExpanded.overpass = !codeExpanded.overpass">
+              {{ codeExpanded.overpass ? 'Collapse Code' : 'Expand Full Code' }}
+            </button>
+          </div>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 7: Data Quality Challenges              -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-7">2.7 Data Quality Considerations</h2>
+          <p>
+            While NASA Black Marble provides the best available daily NTL product, several data
+            quality challenges must be acknowledged. These limitations directly affect our modeling
+            choices and the interpretability of results.
+          </p>
+
+          <h3>No Ground Truth for Backup Generators</h3>
+          <p>
+            The most fundamental limitation is the <strong>absence of direct backup generator
+            data</strong>. There is no public, georeferenced database of which buildings have
+            generators, their capacity, or whether they were actually activated during a given
+            disaster. Generator installations are tracked by individual utilities, building
+            management companies, and local emergency agencies — but this information is
+            fragmented, proprietary, and rarely available to researchers.
+          </p>
+          <p>
+            This is why our approach uses critical infrastructure locations as a <em>proxy</em>.
+            We assume that hospitals, airports, and power plants are highly likely to have
+            backup generators based on regulatory requirements (e.g., Joint Commission standards
+            for hospitals, FAA requirements for airports). But this assumption introduces noise:
+            not every facility may have a functioning generator, and some non-critical buildings
+            (hotels, data centers) may also have backup power without appearing in our facility
+            dataset. Our model therefore predicts a <em>probability of backup power presence</em>
+            rather than a definitive yes/no classification.
+          </p>
+
+          <h3>Spatial Resolution (500m)</h3>
+          <p>
+            Each pixel covers a 500m × 500m area — roughly 25 hectares. A single pixel may contain
+            a hospital, its parking lot, surrounding residential blocks, and a park. This
+            "mixed-pixel" problem means the NTL value we observe is an area-weighted average of
+            all light sources within that footprint. A hospital's backup generator illuminating
+            its campus may only produce a modest increase in the pixel's total NTL if the
+            surrounding area is dark. Our buffer zone approach (750m–1250m radii) is designed
+            to capture this diffuse signal by aggregating across multiple pixels near each facility.
+          </p>
+
+          <h3>Cloud Cover Variability</h3>
+          <p>
+            As shown in the cloud coverage analysis above, observation quality varies substantially
+            across events. Hurricane Michael (Panama City) averages only ~83% cloud-free pixels —
+            the lowest in our dataset — because the storm's remnants lingered over the Florida
+            Panhandle. In contrast, the Turkey earthquake occurred in winter under relatively
+            clear skies (97% cloud-free). This variability means some events have denser temporal
+            sampling than others, which affects the reliability of daily NTL ratios.
+          </p>
+
+          <h3>Cross-Event Heterogeneity</h3>
+          <p>
+            Our nine events span different geographies (Caribbean islands, Gulf Coast, Florida
+            peninsula, southeastern Turkey), city sizes (Lake Charles ~80K population vs. Miami
+            ~6M metro), disaster types (hurricanes vs. earthquakes), and recovery timelines
+            (Irma recovered in ~2 weeks; Maria took 11 months). This heterogeneity is both a
+            strength (testing generalizability) and a challenge (the "generator signature" may
+            manifest differently in each context). The cross-event modeling in later sections
+            directly addresses whether a universal signal exists despite these differences.
+          </p>
+
+          <div class="takeaway">
+            <div class="takeaway__label">KEY TAKEAWAY</div>
+            <p class="takeaway__text">
+              We have no direct data on backup generators — no database tells us which buildings
+              have them or whether they activated. Instead, we use satellite-observed nighttime
+              light as an indirect signal, and critical facility locations as a spatial prior for
+              where generators <em>should</em> be. Combined with 500m resolution, cloud contamination,
+              and cross-event diversity, this means individual pixel-level predictions should be
+              interpreted with caution. The strength of this approach lies in
+              <strong>aggregate statistical patterns</strong> — the consistent tendency for buffer
+              zones around critical infrastructure to maintain higher NTL ratios during outages
+              across multiple independent disaster events.
+            </p>
+          </div>
+        </template>
+
+        <!-- 03 Pixel Panel -->
+        <template v-if="sectionId === 'panel'">
+          <p>
+            For each event, pre- and post-disaster GeoTIFFs are stacked to compute per-pixel
+            mean NTL. Only pixels with <code>pre_mean_ntl > 0.5</code> are retained.
+            Buffer zones are rasterized in UTM coordinates at 750 m (hospitals, fire stations,
+            power plants) and 1,250 m (airports). A cKDTree assigns each pixel its nearest
+            facility type and distance.
+          </p>
+          <div class="formula-block">
+            <div class="formula">delta_ntl = (post_mean − pre_mean) / pre_mean</div>
+            <div class="formula__caption">Relative NTL change; negative values indicate outage/damage</div>
+          </div>
+
+          <h3>Panel Schema</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Column</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr><td class="mono">event_id</td><td>Event identifier (e.g. Maria_SanJuan)</td></tr>
+                <tr><td class="mono">pre_mean_ntl</td><td>Mean NTL over pre-disaster window</td></tr>
+                <tr><td class="mono">post_mean_ntl</td><td>Mean NTL over post-disaster window</td></tr>
+                <tr><td class="mono">delta_ntl</td><td>Relative NTL change</td></tr>
+                <tr><td class="mono">in_buffer_strict</td><td>1 if inside high/medium-signal buffer</td></tr>
+                <tr><td class="mono">nearest_fac_type</td><td>Nearest facility type</td></tr>
+                <tr><td class="mono">dist_to_facility</td><td>Distance to nearest facility (metres)</td></tr>
+                <tr><td class="mono">city_pre_mean</td><td>City-level mean NTL (floor-effect control)</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Construction Pipeline</h3>
+          <ul class="detail-list">
+            <li>Download pre/post daily GeoTIFFs via Google Earth Engine</li>
+            <li>Stack and compute per-pixel temporal mean (excluding cloud-masked days)</li>
+            <li>Filter: retain only pixels with pre_mean_ntl > 0.5 nW/cm²/sr</li>
+            <li>Fetch facility POIs from OpenStreetMap Overpass API</li>
+            <li>Reproject to local UTM, create buffer polygons, rasterize to pixel grid</li>
+            <li>Build cKDTree for nearest-facility assignment (type + distance)</li>
+            <li>Merge into a single parquet panel: 15,539 rows × 9 events</li>
+          </ul>
+        </template>
+
+        <!-- 04 Exploratory Data Analysis -->
+        <template v-if="sectionId === 'eda'">
+
+          <h2 id="sec-4-1">3.1 Key Definitions</h2>
+          <p>
+            Before analyzing the data, we need to define the metrics that quantify how well
+            an area maintains nighttime brightness during a power outage. These definitions
+            are central to everything that follows.
+          </p>
+
+          <h3>Business-As-Usual (BAU) Baseline</h3>
+          <p>
+            For each pixel, the <strong>BAU</strong> (Business-As-Usual) is the median NTL
+            brightness across all pre-disaster observation days. This represents "normal"
+            nighttime brightness — what the pixel would look like if no disaster had occurred.
+            We use the median rather than the mean to reduce sensitivity to individual cloudy
+            or anomalous days.
+          </p>
+          <div class="formula-block">
+            <div class="formula">BAU = median(NTL<sub>pre,day1</sub>, NTL<sub>pre,day2</sub>, ..., NTL<sub>pre,dayN</sub>)</div>
+            <div class="formula__caption">Per-pixel temporal median over the pre-disaster window</div>
+          </div>
+
+          <h3>Resilience Ratio (R)</h3>
+          <p>
+            The <strong>Resilience Ratio</strong> measures how much of a pixel's normal brightness
+            is maintained on a given post-disaster day. It is defined as:
+          </p>
+          <div class="formula-block">
+            <div class="formula">R = NTL<sub>post,day</sub> / BAU</div>
+            <div class="formula__caption">R = 1.0 means full brightness maintained; R = 0 means complete darkness</div>
+          </div>
+          <p>
+            An R value of <strong>1.0</strong> means the pixel is as bright as its pre-disaster
+            baseline — either the power grid never failed, or backup generators are sustaining
+            the lights. An R of <strong>0.3</strong> means only 30% of normal brightness remains.
+            Values above 1.0 are possible (e.g., emergency lighting, reconstruction activity)
+            but uncommon.
+          </p>
+
+          <h3>Delta NTL</h3>
+          <p>
+            For the pixel panel, we also compute a summary metric across the entire post-disaster
+            window:
+          </p>
+          <div class="formula-block">
+            <div class="formula">delta_ntl = (post_mean − pre_mean) / pre_mean</div>
+            <div class="formula__caption">Negative values indicate NTL loss; -0.5 means a 50% drop in brightness</div>
+          </div>
+
+          <h3>Damage Label</h3>
+          <p>
+            For classification, pixels are labeled as <strong>"damaged"</strong> if their
+            <code>delta_ntl &lt; -0.10</code> (more than 10% brightness loss). This threshold
+            was chosen to exclude minor fluctuations while capturing meaningful outage impacts.
+          </p>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-4-2">3.2 Buffer Zone vs. Non-Buffer Comparison</h2>
+          <p>
+            The core analysis compares NTL recovery patterns between two groups of pixels:
+          </p>
+          <ul class="detail-list">
+            <li><strong>Buffer pixels</strong> — within 750m (hospitals, fire stations, power plants)
+              or 1250m (airports) of a critical facility</li>
+            <li><strong>Non-buffer pixels</strong> — all other urban pixels in the study area,
+              not near any known critical infrastructure</li>
+          </ul>
+          <p>
+            If backup generators are producing a detectable NTL signal, we expect buffer pixels
+            to have <strong>higher R values</strong> than non-buffer pixels during the post-disaster
+            period. This difference is the <em>Resilience Advantage (RA)</em>:
+          </p>
+          <div class="formula-block">
+            <div class="formula">RA = R&#772;<sub>buffer</sub> − R&#772;<sub>non-buffer</sub></div>
+            <div class="formula__caption">Positive RA = buffer zones recover faster or maintain brightness better</div>
+          </div>
+          <p>
+            The <RouterLink to="/charts" class="inline-link">Recovery Charts</RouterLink> page
+            visualizes these daily R curves for all 9 events. In most events, the buffer curve
+            (green) consistently sits above the non-buffer curve (blue) during the post-disaster
+            window — but the magnitude varies considerably.
+          </p>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-4-3">3.3 The Floor Effect</h2>
+          <p>
+            The <strong>floor effect</strong> is the most important confound in this analysis,
+            and understanding it is essential to interpreting results correctly.
+          </p>
+          <p>
+            In large cities like Miami and San Juan, critical infrastructure (hospitals, airports)
+            tends to be located in brighter commercial/urban districts. Buffer pixels start with
+            high BAU values, and even a large percentage drop still leaves them brighter than
+            surrounding residential areas. The buffer advantage is easy to detect.
+          </p>
+          <p>
+            But in <strong>smaller cities</strong> like Lake Charles and Panama City, the situation
+            reverses: hospitals and fire stations are often in the <em>darker</em> parts of
+            the urban core. Their BAU values are low to begin with. When the grid fails, these
+            pixels can drop to near-zero NTL — creating a "floor" below which they cannot fall
+            further. This means <strong>buffer pixels in small cities may actually show LOWER
+            R values than non-buffer pixels</strong>, not because they lack generators, but because
+            their baseline was already dim.
+          </p>
+          <div class="callout callout--amber">
+            <span>⚠️</span>
+            <div>
+              <strong>Why this matters:</strong> A naive comparison of R<sub>buffer</sub> vs
+              R<sub>non-buffer</sub> in small cities would conclude that critical infrastructure
+              has <em>worse</em> resilience — the opposite of reality. The floor effect creates
+              a systematic bias that must be controlled for in any statistical or predictive model.
+            </div>
+          </div>
+          <!-- Floor Effect Visualization -->
+          <h3>Floor Effect — Empirical Evidence</h3>
+          <p>
+            The table and chart below show this effect clearly with real data from our pixel panel.
+            In <strong>large cities</strong>, buffer pixels start brighter (6.69 vs 4.18 nW/cm²/sr)
+            and show slightly less NTL loss. But in <strong>small cities</strong>, buffer pixels
+            actually show <em>more</em> loss than non-buffer — the floor effect in action.
+          </p>
+
+          <div v-if="edaStats" class="data-table" style="margin:16px 0">
+            <table>
+              <thead><tr><th>City Size</th><th>Cities</th><th>Zone</th><th>Mean Pre-NTL</th><th>Mean Delta NTL</th><th>N Pixels</th></tr></thead>
+              <tbody>
+                <tr v-for="d in edaStats.floor" :key="d.city_size+d.in_buffer">
+                  <td><strong>{{ d.city_size }}</strong></td>
+                  <td style="font-size:11px; color:var(--text-muted)">{{ floorCities[d.city_size] }}</td>
+                  <td>{{ d.in_buffer ? 'Buffer' : 'Non-Buffer' }}</td>
+                  <td class="mono">{{ d.mean_pre_ntl }} nW/cm²/sr</td>
+                  <td class="mono" :style="{ color: d.mean_delta < -0.1 ? '#ff6b6b' : d.mean_delta > 0 ? 'var(--green)' : 'var(--text)' }">
+                    {{ (d.mean_delta * 100).toFixed(1) }}%
+                  </td>
+                  <td class="mono">{{ d.n.toLocaleString() }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Floor Effect Bar Chart -->
+          <div v-if="edaStats" class="eda-chart-card">
+            <div class="ntl-chart-card__header">
+              <strong>Baseline Brightness: Buffer vs Non-Buffer by City Size</strong>
+            </div>
+            <svg viewBox="0 0 520 220" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
+              <!-- Y axis label -->
+              <text x="10" y="100" font-size="9" fill="var(--text-dim)" font-family="monospace" transform="rotate(-90, 10, 100)" text-anchor="middle">Pre-NTL (nW/cm²/sr)</text>
+              <!-- Grid lines -->
+              <line v-for="v in [0,2,4,6,8]" :key="v" x1="40" x2="500" :y1="180 - v*20" :y2="180 - v*20" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+              <text v-for="v in [0,2,4,6,8]" :key="'l'+v" x="36" :y="184 - v*20" text-anchor="end" font-size="9" font-family="monospace" fill="var(--text-dim)">{{v}}</text>
+
+              <!-- Bars for each city size -->
+              <template v-for="(cs, ci) in floorGroups" :key="cs.key">
+                <!-- Group label -->
+                <text :x="100 + ci * 160" y="205" text-anchor="middle" font-size="12" fill="var(--text-bright)" font-weight="600">{{ cs.label }}</text>
+                <text :x="100 + ci * 160" y="217" text-anchor="middle" font-size="8" fill="var(--text-dim)">{{ cs.cities }}</text>
+                <!-- Non-buffer bar -->
+                <rect :x="65 + ci*160" :width="30" rx="2"
+                  :y="180 - floorVal(cs.key, false) * 20"
+                  :height="floorVal(cs.key, false) * 20"
+                  fill="rgba(0,212,255,0.5)"/>
+                <!-- Buffer bar -->
+                <rect :x="100 + ci*160" :width="30" rx="2"
+                  :y="180 - floorVal(cs.key, true) * 20"
+                  :height="floorVal(cs.key, true) * 20"
+                  fill="rgba(0,229,160,0.6)"/>
+                <!-- Value labels -->
+                <text :x="80 + ci*160" :y="176 - floorVal(cs.key, false) * 20" text-anchor="middle" font-size="9" font-family="monospace" fill="var(--cyan)">{{ floorVal(cs.key, false).toFixed(1) }}</text>
+                <text :x="115 + ci*160" :y="176 - floorVal(cs.key, true) * 20" text-anchor="middle" font-size="9" font-family="monospace" fill="var(--green)">{{ floorVal(cs.key, true).toFixed(1) }}</text>
+                <!-- Ratio label -->
+                <text :x="100 + ci*160" :y="12" text-anchor="middle" font-size="9" font-family="monospace" fill="var(--text-muted)">
+                  {{ (floorVal(cs.key, true) / Math.max(floorVal(cs.key, false), 0.01)).toFixed(1) }}×
+                </text>
+              </template>
+
+              <!-- Legend -->
+              <rect x="380" y="2" width="12" height="8" fill="rgba(0,212,255,0.5)" rx="1"/>
+              <text x="396" y="9" font-size="9" fill="var(--text-muted)">Non-Buffer</text>
+              <rect x="450" y="2" width="12" height="8" fill="rgba(0,229,160,0.6)" rx="1"/>
+              <text x="466" y="9" font-size="9" fill="var(--text-muted)">Buffer</text>
+            </svg>
+            <p style="font-size:12px; color:var(--text-muted); margin:8px 0 0; line-height:1.5">
+              In large cities, buffer zones are <strong style="color:var(--green)">1.6× brighter</strong> than non-buffer.
+              In small cities, the ratio drops to 1.9× — but absolute brightness is much lower (2.4 vs 4.2), compressing the available signal range.
+            </p>
+          </div>
+
+          <!-- Per-event RA chart -->
+          <h3>Resilience Advantage by Event</h3>
+          <p>
+            The chart below shows the raw Resilience Advantage (RA = delta_buffer - delta_non-buffer)
+            for each event. Positive values (green) mean buffer zones lost less brightness;
+            negative values (red) mean buffer zones lost <em>more</em> — the floor effect.
+          </p>
+          <div v-if="edaStats" class="eda-chart-card">
+            <svg viewBox="0 0 500 220" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
+              <!-- Center line (RA=0) -->
+              <line x1="40" x2="490" y1="110" y2="110" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+              <text x="35" y="113" text-anchor="end" font-size="8" font-family="monospace" fill="var(--text-dim)">0</text>
+              <!-- Grid -->
+              <line x1="40" x2="490" y1="60" y2="60" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+              <text x="35" y="63" text-anchor="end" font-size="8" font-family="monospace" fill="var(--text-dim)">+5%</text>
+              <line x1="40" x2="490" y1="160" y2="160" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+              <text x="35" y="163" text-anchor="end" font-size="8" font-family="monospace" fill="var(--text-dim)">-5%</text>
+
+              <!-- Bars -->
+              <template v-for="(ev, i) in sortedEdaEvents" :key="ev.event_id">
+                <rect
+                  :x="55 + i * 48" :width="32" rx="2"
+                  :y="ev.ra >= 0 ? 110 - ev.ra * 1000 : 110"
+                  :height="Math.abs(ev.ra) * 1000"
+                  :fill="ev.ra >= 0 ? 'rgba(0,229,160,0.6)' : 'rgba(255,107,107,0.6)'"
+                />
+                <!-- Value -->
+                <text :x="71 + i * 48" :y="ev.ra >= 0 ? 106 - ev.ra * 1000 : 124 + Math.abs(ev.ra) * 1000"
+                  text-anchor="middle" font-size="8" font-family="monospace"
+                  :fill="ev.ra >= 0 ? 'var(--green)' : '#ff6b6b'">
+                  {{ (ev.ra * 100).toFixed(1) }}%
+                </text>
+                <!-- Label -->
+                <text :x="71 + i * 48" y="200" text-anchor="middle" font-size="8" fill="var(--text-muted)"
+                  transform-origin="center" :transform="`rotate(-30, ${71 + i * 48}, 200)`">
+                  {{ ev.event_id.replace('_',' ').replace('Earthquake','EQ') }}
+                </text>
+                <!-- City size dot -->
+                <circle :cx="71 + i * 48" y="210" :cy="212"  r="3"
+                  :fill="ev.city_size === 'large' ? 'var(--cyan)' : ev.city_size === 'medium' ? 'var(--green)' : '#ffaa00'" />
+              </template>
+
+              <!-- Legend -->
+              <circle cx="350" cy="10" r="3" fill="var(--cyan)"/><text x="356" y="13" font-size="8" fill="var(--text-muted)">Large</text>
+              <circle cx="390" cy="10" r="3" fill="var(--green)"/><text x="396" y="13" font-size="8" fill="var(--text-muted)">Medium</text>
+              <circle cx="440" cy="10" r="3" fill="#ffaa00"/><text x="446" y="13" font-size="8" fill="var(--text-muted)">Small</text>
+            </svg>
+          </div>
+
+          <p>
+            We address the floor effect through several mechanisms:
+          </p>
+          <ul class="detail-list">
+            <li><strong>City-level normalization</strong> — <code>ntl_relative = pre_mean_ntl / city_pre_mean</code> measures brightness relative to the city average</li>
+            <li><strong>Below-median indicator</strong> — <code>below_city_median</code> flags pixels in the darker half of their city</li>
+            <li><strong>Interaction terms</strong> — <code>below_median_x_group</code> allows the model to learn different patterns for dark-zone vs. bright-zone pixels by facility type</li>
+            <li><strong>City size code</strong> — <code>city_size_code</code> (large=0, medium=1, small=2) as a direct control variable</li>
+          </ul>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-4-4">3.4 Facility Type Differences</h2>
+          <p>
+            Not all critical facilities produce equal NTL signals. Our analysis groups facilities
+            into three tiers based on expected backup power capacity:
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Group</th><th>Facility Types</th><th>Expected Signal</th><th>Rationale</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><strong>Group 1 — High Signal</strong></td>
+                  <td class="mono">hospital, aerodrome, power_plant</td>
+                  <td style="color:var(--green)">Strong</td>
+                  <td>Large facilities with industrial-scale generators; legally required backup power; 24/7 operations produce consistent nighttime light</td>
+                </tr>
+                <tr>
+                  <td><strong>Group 2 — Medium Signal</strong></td>
+                  <td class="mono">fire_station, police</td>
+                  <td style="color:var(--cyan)">Moderate</td>
+                  <td>Smaller facilities with portable or partial generators; may not illuminate enough area to significantly change a 500m pixel</td>
+                </tr>
+                <tr>
+                  <td><strong>Group 3 — Excluded</strong></td>
+                  <td class="mono">government, substation, water_works</td>
+                  <td style="color:var(--text-muted)">Weak / None</td>
+                  <td>No consistent nighttime operations; substations don't generate light; used only as sensitivity test baseline</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The EDA confirms this hierarchy: model-predicted probabilities show clear stratification
+            by facility group, with Group 1 buffer pixels consistently scoring highest.
+            Interestingly, the <em>individual</em> facility type indicators for Group 1
+            (near_hospital, near_aerodrome, near_power_plant) show zero feature importance in
+            the predictive model — because they are perfectly correlated with the buffer label
+            itself. The meaningful variation comes from <strong>Group 2 vs. Group 1</strong>
+            and the <strong>fac_group ordinal</strong> feature.
+          </p>
+
+          <!-- Facility Type Data Table -->
+          <h3>Facility Type Statistics</h3>
+          <div v-if="edaStats" class="data-table" style="margin:16px 0">
+            <table>
+              <thead><tr><th>Facility Type</th><th>Total Pixels</th><th>Buffer Pixels</th><th>Mean Pre-NTL</th><th>Mean Delta (All)</th><th>Mean Delta (Buffer)</th></tr></thead>
+              <tbody>
+                <tr v-for="d in edaStats.facilities" :key="d.type">
+                  <td><strong>{{ d.type }}</strong></td>
+                  <td class="mono">{{ d.n_total.toLocaleString() }}</td>
+                  <td class="mono">{{ d.n_buffer.toLocaleString() }}</td>
+                  <td class="mono">{{ d.mean_pre_ntl }}</td>
+                  <td class="mono" :style="{ color: d.mean_delta < -0.1 ? '#ff6b6b' : 'var(--text)' }">
+                    {{ (d.mean_delta * 100).toFixed(1) }}%
+                  </td>
+                  <td class="mono" :style="{ color: d.buf_delta && d.buf_delta < -0.1 ? '#ff6b6b' : 'var(--text)' }">
+                    {{ d.buf_delta != null ? (d.buf_delta * 100).toFixed(1) + '%' : '—' }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-4-5">3.5 City Size & Cross-Event Variation</h2>
+          <p>
+            The 9 events span three city size categories, each with distinct characteristics
+            that affect the NTL signal:
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>City Size</th><th>Events</th><th>Characteristics</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><strong>Large</strong></td>
+                  <td>San Juan (Maria, EQ), Miami (Irma), New Orleans (Ida)</td>
+                  <td>Bright urban cores; floor effect minimal; strong baseline NTL contrast between buffer and non-buffer</td>
+                </tr>
+                <tr>
+                  <td><strong>Medium</strong></td>
+                  <td>Fort Myers (Ian), Hatay (EQ)</td>
+                  <td>Mixed brightness; some floor effect in downtown areas; moderate signal</td>
+                </tr>
+                <tr>
+                  <td><strong>Small</strong></td>
+                  <td>Lake Charles (Laura), Panama City (Michael), Charlotte Harbor (Ian)</td>
+                  <td>Low baseline NTL; strong floor effect; infrastructure in dark zones; hardest events for the model</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Additionally, disaster type introduces variation: <strong>hurricanes</strong> produce
+            widespread, sustained outages with gradual recovery, while <strong>earthquakes</strong>
+            cause more sudden, spatially concentrated damage. The two earthquake events
+            (San Juan 2020, Hatay 2023) are geographically coupled only to their specific
+            regions, making cross-event earthquake generalization particularly challenging.
+          </p>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-4-6">3.6 Key EDA Findings</h2>
+
+          <div class="takeaway">
+            <div class="takeaway__label">KEY FINDINGS</div>
+            <p class="takeaway__text">
+              <strong>1. The resilience signal is real but subtle.</strong> Buffer zones show
+              consistently higher R values in most events, but the magnitude (RA ≈ 5–20%) is
+              small relative to pixel-level noise.<br /><br />
+              <strong>2. Floor effect is the dominant confound.</strong> In small cities, raw
+              buffer-vs-non-buffer comparisons can be misleading or reversed. Any valid analysis
+              must control for baseline brightness.<br /><br />
+              <strong>3. Facility type matters.</strong> Hospitals and airports (Group 1) show the
+              strongest resilience signal. Fire stations and police (Group 2) contribute a weaker
+              but detectable signal. Government buildings and substations (Group 3) show no
+              meaningful generator signature.<br /><br />
+              <strong>4. City size systematically affects model performance.</strong> Large-city
+              events are easiest to predict; small-city events with strong floor effects are hardest.
+              This has direct implications for cross-event generalization.
+            </p>
+          </div>
+        </template>
+
+        <!-- 05 Interpretive Modeling -->
+        <template v-if="sectionId === 'interpretive'">
+
+          <!-- ═══ 5.1 Why Four Models ═══ -->
+          <h2 id="sec-5-1">4.1 Why Four Models?</h2>
+          <p>
+            The four models are not redundant repetitions — they attack the same hypothesis
+            from four different angles: <em>"Can backup generators at critical infrastructure
+            leave a detectable resilience signal in satellite nighttime light data?"</em>
+          </p>
+          <p>
+            No single model is sufficient. OLS alone assumes pixel independence (biased SEs).
+            Logit alone discards the continuous NTL change information. Both OLS and Logit ignore
+            the <em>time</em> dimension of recovery. Only when all four models point in the same
+            direction — <strong>triangulation</strong> — can we confidently say the signal is real.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Model</th><th>DV</th><th>Question</th><th>Unique Contribution</th></tr></thead>
+              <tbody>
+                <tr><td><strong>OLS</strong></td><td class="mono">delta_ntl</td><td>How much less NTL decline?</td><td>Baseline effect size; reveals interaction with brightness</td></tr>
+                <tr><td><strong>MixedLM</strong></td><td class="mono">delta_ntl + u<sub>j</sub></td><td>Same, with clustering correction</td><td>Confirms OLS isn't inflated by within-event correlation</td></tr>
+                <tr><td><strong>Logistic</strong></td><td class="mono">is_damaged (binary)</td><td>Lower damage probability?</td><td>Intuitive OR; AUC for discrimination; LOEO direction test</td></tr>
+                <tr><td><strong>Cox PH</strong></td><td class="mono">recovery_days</td><td>Faster recovery?</td><td>Time dimension; independent from cross-section models</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ═══ 5.2 Specification ═══ -->
+          <h2 id="sec-5-2">4.2 Specification & Controls</h2>
+          <p>
+            All models share a core specification (n = 10,306 pixels, 6 events) with two variants
+            to test the impact of land-use confounding:
+          </p>
+          <div class="formula-block">
+            <div class="formula">Y<sub>i</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer + &beta;<sub>2</sub> &middot; pre_mean_ntl + &beta;<sub>3</sub> &middot; (in_buffer &times; pre_mean_ntl) + &gamma; &middot; C(event_id) [+ &delta; &middot; NLCD] + &epsilon;</div>
+            <div class="formula__caption">The interaction term &beta;<sub>3</sub> captures the floor effect: generator signal strength depends on baseline brightness</div>
+          </div>
+          <ul class="detail-list">
+            <li><strong>no_nlcd</strong> — baseline: pre_mean_ntl, event fixed effects, interaction term</li>
+            <li><strong>with_nlcd</strong> — adds NLCD land-use dummies (developed 22/23/24), OSM facility density, cloud quality proxy</li>
+          </ul>
+
+          <!-- ═══ 5.3 Model Details (collapsible) ═══ -->
+          <h2 id="sec-5-3">4.3 OLS — Baseline Effect Size</h2>
+          <div class="formula-block">
+            <div class="formula">delta_ntl<sub>i</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer<sub>i</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>i</sub> + &beta;<sub>3</sub> &middot; (in_buffer<sub>i</sub> &times; pre_mean_ntl<sub>i</sub>) + &gamma; &middot; NLCD<sub>i</sub> + &epsilon;<sub>i</sub></div>
+            <div class="formula__caption">HC1 robust standard errors; &beta;<sub>1</sub> = average buffer effect; &beta;<sub>3</sub> = floor effect interaction</div>
+          </div>
+          <p>
+            OLS establishes the baseline: buffer pixels show <strong>+2.8% less NTL decline</strong>
+            (p = 0.070, marginal). The interaction term <code>in_buffer &times; pre_mean_ntl</code>
+            is the key discovery — with NLCD controls, it becomes highly significant (p = 0.0002),
+            revealing that the <strong>generator effect is stronger in brighter areas</strong> and
+            invisible in dim small cities. This is the statistical fingerprint of the floor effect.
+          </p>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.ols }">
+            <div class="collapsible__content">
+              <div class="data-table">
+                <table>
+                  <thead><tr><th>Variable</th><th>no_nlcd coef</th><th>p</th><th>with_nlcd coef</th><th>p</th></tr></thead>
+                  <tbody>
+                    <tr><td class="mono">in_buffer</td><td class="mono" style="color:var(--green)">+0.028</td><td class="mono">0.070</td><td class="mono" style="color:#ff6b6b">-0.024</td><td class="mono">0.122</td></tr>
+                    <tr><td class="mono">in_buffer &times; pre_mean_ntl</td><td class="mono">~0</td><td class="mono">n.s.</td><td class="mono" style="color:var(--green)">+0.010</td><td class="mono" style="color:var(--green); font-weight:700">0.0002</td></tr>
+                    <tr><td class="mono">C(event_id)[maria]</td><td class="mono" style="color:#ff6b6b">-0.50</td><td class="mono">&lt;0.001</td><td colspan="2">Island grid collapse</td></tr>
+                    <tr><td class="mono">C(event_id)[michael]</td><td class="mono" style="color:#ff6b6b">-0.11</td><td class="mono">&lt;0.001</td><td colspan="2">Small city, Cat 5</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>
+                Event fixed effects match physical expectations: Maria is the most extreme (-0.50),
+                large-city events (Irma, Ida) show less loss. The model's R² is low — expected for
+                an explanatory model, not a pixel-level predictor.
+              </p>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.ols" />
+            <button class="collapsible__toggle" @click="codeExpanded.ols = !codeExpanded.ols">
+              {{ codeExpanded.ols ? 'Collapse Details' : 'Show Full OLS Results' }}
+            </button>
+          </div>
+
+          <h2 id="sec-5-4">4.4 MixedLM — Clustering Correction</h2>
+          <div class="formula-block">
+            <div class="formula">delta_ntl<sub>ij</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer<sub>ij</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>ij</sub> + &gamma; &middot; NLCD<sub>ij</sub> + u<sub>j</sub> + &epsilon;<sub>ij</sub></div>
+            <div class="formula__caption">i = pixel, j = event; u<sub>j</sub> ~ N(0, &sigma;²<sub>u</sub>) event-level random intercept</div>
+          </div>
+          <p>
+            Pixels within the same disaster event share the same grid, weather, and recovery
+            trajectory — they are not independent. MixedLM adds event-level random intercepts
+            to correct for this. Result: <strong>same coefficients as OLS, but p-value improves
+            from 0.070 to 0.020</strong> — the buffer effect is genuine, not inflated by
+            pseudo-replication.
+          </p>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.mixed }">
+            <div class="collapsible__content">
+              <div class="data-table">
+                <table>
+                  <thead><tr><th>Metric</th><th>no_nlcd</th><th>with_nlcd</th></tr></thead>
+                  <tbody>
+                    <tr><td>in_buffer coef</td><td class="mono" style="color:var(--green)">+0.028 (p=0.020)</td><td class="mono" style="color:#ff6b6b">-0.024 (p=0.045)</td></tr>
+                    <tr><td>Random intercept var (&sigma;²<sub>u</sub>)</td><td class="mono" colspan="2">&asymp; 0 (singular)</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>
+                The random intercept variance is effectively zero — event-level differences are
+                fully captured by the fixed effects. The model degenerates to "OLS with clustered
+                standard errors," which is informative: it tells us the six events don't have
+                residual systematic differences beyond what <code>in_buffer</code> and
+                <code>pre_mean_ntl</code> already explain.
+              </p>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.mixed" />
+            <button class="collapsible__toggle" @click="codeExpanded.mixed = !codeExpanded.mixed">
+              {{ codeExpanded.mixed ? 'Collapse Details' : 'Show Full MixedLM Results' }}
+            </button>
+          </div>
+
+          <h2 id="sec-5-5">4.5 Logistic Regression — Damage Probability</h2>
+          <div class="formula-block">
+            <div class="formula">log[P(damaged<sub>i</sub>=1) / (1 - P(damaged<sub>i</sub>=1))] = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer<sub>i</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>i</sub> + &gamma; &middot; NLCD<sub>i</sub></div>
+            <div class="formula__caption">damaged = 1 if delta_ntl &lt; -10%; OR = exp(&beta;<sub>1</sub>); OR &lt; 1 = protective effect</div>
+          </div>
+          <p>
+            Logit converts the question to binary: "was this pixel damaged (&gt;10% NTL loss)?"
+            Buffer pixels have <strong>OR = 0.68 (p &lt; 0.001)</strong> — 32% lower odds of damage.
+            The AUC of 0.72 means the model correctly ranks a random damaged/undamaged pixel pair
+            72% of the time. Critically, in LOEO cross-validation, the <strong>direction is correct
+            in all 6 folds</strong> (100% sign consistency), even though AUC drops to 0.455.
+          </p>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.logit }">
+            <div class="collapsible__content">
+              <div class="data-table">
+                <table>
+                  <thead><tr><th>Metric</th><th>no_nlcd</th><th>with_nlcd</th></tr></thead>
+                  <tbody>
+                    <tr><td>OR (in_buffer)</td><td class="mono" style="color:var(--green)">0.683 (p&lt;0.001)</td><td class="mono">1.178 (p=0.105)</td></tr>
+                    <tr><td>AUC (sample)</td><td class="mono">0.719</td><td class="mono">0.749</td></tr>
+                    <tr><td>LOEO AUC</td><td class="mono" style="color:#ff6b6b" colspan="2">0.455 (near random)</td></tr>
+                    <tr><td>LOEO sign consistency</td><td class="mono" style="color:var(--green)" colspan="2">6/6 = 100%</td></tr>
+                    <tr><td>Robustness (-5% to -20%)</td><td class="mono" colspan="2">OR range: 0.60–0.72, direction never changes</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>
+                The 100% sign consistency in LOEO is a crucial finding: even when the model can't
+                accurately <em>quantify</em> the effect for a new event, it always gets the
+                <em>direction</em> right. This validates <code>in_buffer</code> as a meaningful
+                weak-supervision label for Phase 3 predictive modeling.
+              </p>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.logit" />
+            <button class="collapsible__toggle" @click="codeExpanded.logit = !codeExpanded.logit">
+              {{ codeExpanded.logit ? 'Collapse Details' : 'Show Full Logistic Results' }}
+            </button>
+          </div>
+
+          <h2 id="sec-5-6">4.6 Cox PH — Recovery Speed</h2>
+          <div class="formula-block">
+            <div class="formula">h(t | x<sub>i</sub>) = h<sub>0</sub>(t) &middot; exp(&beta;<sub>1</sub> &middot; in_buffer<sub>i</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>i</sub> + &gamma; &middot; NLCD<sub>i</sub>)</div>
+            <div class="formula__caption">h<sub>0</sub>(t) = nonparametric baseline hazard; HR = exp(&beta;<sub>1</sub>); HR &gt; 1 = faster recovery</div>
+          </div>
+          <p>
+            The first three models flatten the post-disaster window into a single average. Cox
+            models the <em>time to recovery</em> explicitly: buffer pixels recover
+            <strong>~13% faster</strong> (HR = 1.13, p &lt; 0.001), and this holds across
+            80%/90%/95% thresholds (HR = 1.12–1.13). This is the most parameter-stable result
+            across all four models.
+          </p>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.cox }">
+            <div class="collapsible__content">
+              <div class="data-table">
+                <table>
+                  <thead><tr><th>Threshold</th><th>HR</th><th>p-value</th></tr></thead>
+                  <tbody>
+                    <tr><td>80% of BAU</td><td class="mono" style="color:var(--green)">1.133</td><td class="mono">&lt;0.001</td></tr>
+                    <tr><td>90% of BAU</td><td class="mono" style="color:var(--green)">1.126</td><td class="mono">&lt;0.001</td></tr>
+                    <tr><td>95% of BAU</td><td class="mono" style="color:var(--green)">1.123</td><td class="mono">&lt;0.001</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="callout callout--amber">
+                <span>⚠️</span>
+                <div>
+                  <strong>PH assumption caveat:</strong> Schoenfeld residual tests show PH holds
+                  for <code>in_buffer</code> (p = 0.82) but is severely violated for event dummies
+                  (Irma p &asymp; 10<sup>-75</sup>). Miami recovers in days; Maria takes months.
+                  The global HR = 1.13 is an average — not a constant across all time points.
+                  Reported as a limitation.
+                </div>
+              </div>
+              <p>
+                The Kaplan-Meier curves show: early (0–10 days) both groups are similarly affected;
+                mid-period (10–30 days) buffer pixels pull ahead; late (&gt;30 days) both converge.
+                The generator advantage manifests as <em>recovery speed</em>, not <em>final outcome</em>.
+              </p>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.cox" />
+            <button class="collapsible__toggle" @click="codeExpanded.cox = !codeExpanded.cox">
+              {{ codeExpanded.cox ? 'Collapse Details' : 'Show Full Cox Results' }}
+            </button>
+          </div>
+
+          <!-- ═══ 5.7 Land-use confound ═══ -->
+          <h2 id="sec-5-7">4.7 The Land-Use Confound</h2>
+          <p>
+            The most important methodological finding: when NLCD land-use controls are added,
+            the buffer coefficient <strong>reverses sign or loses significance</strong> in all models.
+            Critical facilities tend to be in more developed areas (NLCD 22–24), and developed
+            areas recover faster regardless of generators.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Model</th><th>no_nlcd</th><th>with_nlcd</th><th>Change</th></tr></thead>
+              <tbody>
+                <tr><td>OLS coef</td><td class="mono" style="color:var(--green)">+0.028</td><td class="mono" style="color:#ff6b6b">-0.024</td><td>Sign reversal</td></tr>
+                <tr><td>Logit OR</td><td class="mono" style="color:var(--green)">0.68</td><td class="mono" style="color:#ff6b6b">1.18</td><td>Complete reversal</td></tr>
+                <tr><td>Cox HR</td><td class="mono" style="color:var(--green)">1.13</td><td class="mono">1.05</td><td>Attenuated (still &gt;1)</td></tr>
+                <tr><td>Interaction (with_nlcd)</td><td colspan="2" class="mono" style="color:var(--green)">+0.010 (p=0.0002)</td><td>Generator signal &times; brightness</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            However, the <strong>interaction term</strong> remains highly significant with NLCD:
+            the generator effect is real but <em>conditional on baseline brightness</em>. In bright
+            urban areas, generators produce a visible NTL bump. In dim small-city areas, the
+            signal is buried in the floor effect. This is not "the effect doesn't exist" — it's
+            "the effect is heterogeneous."
+          </p>
+
+          <!-- ═══ Summary ═══ -->
+          <div class="takeaway">
+            <div class="takeaway__label">TRIANGULATION SUMMARY</div>
+            <p class="takeaway__text">
+              <strong>Signal is real:</strong> All four models show significant buffer effects
+              in the baseline specification (direction 100% consistent).<br /><br />
+              <strong>Signal is confounded:</strong> Land-use absorbs the main effect — but the
+              interaction (generator &times; brightness) survives with p = 0.0002.<br /><br />
+              <strong>Signal is modest:</strong> +2.8% less decline, 32% lower damage odds,
+              13% faster recovery. Small relative to pixel noise, but consistent.<br /><br />
+              <strong>Generalization fails:</strong> LOEO AUC = 0.455. Linear models cannot
+              transport across events — this motivates Phase 3's tree-based predictive approach,
+              using <code>in_buffer</code> as a weak-supervision label (validated by 100%
+              LOEO sign consistency).
+            </p>
+          </div>
+        </template>
+
+        <!-- 06 Feature Engineering -->
+        <template v-if="sectionId === 'features'">
+          <h3>Floor Effect</h3>
+          <div class="callout callout--amber">
+            <span>🔍</span>
+            <div>
+              In smaller cities (Lake Charles, Panama City), critical infrastructure sits in darker
+              urban cores. Raw buffer comparisons are confounded.
+              Two features address this: <code>below_city_median</code> and
+              <code>below_median_x_group</code> (interaction with facility group).
+            </div>
+          </div>
+
+          <h3>Full Feature Set — 17 features</h3>
+          <div class="feature-grid">
+            <div v-for="f in features17" :key="f.name" class="feature-item">
+              <div class="feature-item__name mono">{{ f.name }}</div>
+              <div class="feature-item__desc">{{ f.desc }}</div>
+            </div>
+          </div>
+
+          <h3>Feature Categories</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Category</th><th>Features</th><th>Purpose</th></tr></thead>
+              <tbody>
+                <tr><td>NTL Signal</td><td class="mono">drop_magnitude, delta_ntl, log_pre/post_ntl</td><td>Outage severity and baseline brightness</td></tr>
+                <tr><td>Spatial</td><td class="mono">log_dist, ntl_relative, log_city_pre_mean</td><td>Distance to facility, urban context</td></tr>
+                <tr><td>Facility</td><td class="mono">near_fire/police, near_excluded, fac_group</td><td>Facility type indicators</td></tr>
+                <tr><td>Controls</td><td class="mono">city_size_code, is_hurricane/earthquake</td><td>Event-level confounders</td></tr>
+                <tr><td>Interactions</td><td class="mono">ntl_x_group, below_median_x_group</td><td>Floor-effect correction</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </template>
+
+        <!-- 05 Models -->
+        <template v-if="sectionId === 'models'">
+          <p>
+            Three model variants evaluated with
+            <strong>Leave-One-Event-Out (LOEO)</strong> cross-validation.
+            Pixels within the same event share spatial autocorrelation and must not
+            leak across train/test splits.
+          </p>
+          <div class="model-cards">
+            <div v-for="m in modelVariants" :key="m.id" class="model-card">
+              <div class="model-card__label mono">{{ m.id }}</div>
+              <div class="model-card__name">{{ m.name }}</div>
+              <div class="model-card__desc">{{ m.desc }}</div>
+            </div>
+          </div>
+
+          <h3>Algorithms</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Algorithm</th><th>Key Hyperparameters</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td>Random Forest</td><td class="mono">max_depth=5, min_samples_leaf=20, n=500</td><td>Primary (more discriminative)</td></tr>
+                <tr><td>XGBoost</td><td class="mono">max_depth=4, lr=0.05, min_child=20</td><td>Ensemble: RF×0.7 + XGB×0.3</td></tr>
+                <tr><td>Logistic Regression</td><td class="mono">C=1.0, class_weight=balanced</td><td>Linear baseline</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--amber">
+            <span>⚠️</span>
+            <div>
+              <strong>Cross-event generalization:</strong> Strong within-sample AUC but near-random
+              LOEO AUC (~0.49), driven by city size confound, recovery duration variation, and
+              earthquake events coupled only to San Juan. Dataset expansion to 9–12 balanced events
+              is underway.
+            </div>
+          </div>
+
+          <h3>LOEO Cross-Validation</h3>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.loeo }">
+            <div class="collapsible__content">
+              <div class="code-block">
+                <div class="code-block__header"><span class="mono">Python · LOEO skeleton</span></div>
+                <pre><code>for held_out in events:
+    train_ev = [e for e in events if e != held_out]
+    X_tr = df[df.event_id.isin(train_ev)][features]
+    y_tr = df[df.event_id.isin(train_ev)][label]
+    X_te = df[df.event_id == held_out][features]
+    y_te = df[df.event_id == held_out][label]
+    rf.fit(X_tr, y_tr)
+    auc = roc_auc_score(y_te, rf.predict_proba(X_te)[:,1])</code></pre>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.loeo" />
+            <button class="collapsible__toggle" @click="codeExpanded.loeo = !codeExpanded.loeo">
+              {{ codeExpanded.loeo ? 'Collapse Code' : 'Expand Full Code' }}
+            </button>
+          </div>
+        </template>
+
+        <!-- 06 Probability Maps -->
+        <template v-if="sectionId === 'maps'">
+          <p>
+            The final ensemble model generates <code>P(backup_power_present)</code> for every
+            urban pixel in each study area, exported as GeoTIFF and GeoJSON.
+          </p>
+          <div class="formula-block">
+            <div class="formula">P_ensemble = 0.7 × P_RF + 0.3 × P_XGB</div>
+            <div class="formula__caption">RF is more discriminative on this task</div>
+          </div>
+          <p>
+            The <RouterLink to="/map" class="inline-link">Interactive Map</RouterLink> visualizes
+            these outputs as heatmaps with facility buffer overlays.
+            Use the layer toggles to isolate buffer zones or facility points.
+          </p>
+
+          <h3>Export Pipeline</h3>
+          <ul class="detail-list">
+            <li><strong>prob_*.geojson</strong> — Per-pixel probability points (filtered at P > 0.05)</li>
+            <li><strong>ts_*.json</strong> — Daily R_buffer / R_nonBuffer time series</li>
+            <li><strong>facilities_*.json</strong> — Facility locations with mean buffer probability</li>
+            <li><strong>loeo_results.json</strong> — LOEO AUC per held-out event</li>
+          </ul>
+
+          <h3>Color Mapping</h3>
+          <p>
+            The heatmap uses per-event quantile normalization (P10/P50/P90) to ensure full color
+            range utilization regardless of the event's absolute probability distribution. Light and
+            dark basemaps use different color ramps for optimal contrast.
+          </p>
+        </template>
+
+        <!-- 07 Reproducibility -->
+        <template v-if="sectionId === 'repro'">
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Resource</th><th>Details</th></tr></thead>
+              <tbody>
+                <tr><td>VNP46A2 daily NTL</td><td class="mono">GEE: NASA/VIIRS/002/VNP46A2</td></tr>
+                <tr><td>VNP46A3 monthly NTL</td><td class="mono">GEE: NASA/VIIRS/002/VNP46A3</td></tr>
+                <tr><td>EAGLE-I outage data</td><td>U.S. DOE EAGLE-I portal (public)</td></tr>
+                <tr><td>Facility POI</td><td>OpenStreetMap Overpass API via <code>overpy</code></td></tr>
+                <tr><td>Pipeline</td><td>stage2_prediction_model.ipynb (Python / Jupyter)</td></tr>
+                <tr><td>Dashboard export</td><td><code>export_to_dashboard.py</code></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout callout--green">
+            <span>📖</span>
+            <div>
+              <strong>Key references:</strong>
+              Wang et al. (2018, NASA Black Marble team) — disaster power outage monitoring;
+              Zhang et al. (2023) — damage assessment with Black Marble NTL.
+            </div>
+          </div>
+
+          <h3>Environment</h3>
+          <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.deps }">
+            <div class="collapsible__content">
+              <div class="code-block">
+                <div class="code-block__header"><span class="mono">Key Dependencies</span></div>
+                <pre><code>python >= 3.10
+pandas, geopandas, rasterio, pyproj
+scikit-learn, xgboost, joblib
+overpy (OSM Overpass)
+google-earth-engine (GEE API)</code></pre>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.deps" />
+            <button class="collapsible__toggle" @click="codeExpanded.deps = !codeExpanded.deps">
+              {{ codeExpanded.deps ? 'Collapse Code' : 'Expand Full Code' }}
+            </button>
+          </div>
+        </template>
+
+        <!-- Bottom navigation -->
+        <div class="detail-nav">
+          <RouterLink v-if="prevSection" :to="`/docs/${prevSection.id}`" class="detail-nav__link detail-nav__link--prev">
+            <span class="detail-nav__dir">← Previous</span>
+            <span class="detail-nav__name">{{ prevSection.title }}</span>
+          </RouterLink>
+          <div v-else />
+          <RouterLink v-if="nextSection" :to="`/docs/${nextSection.id}`" class="detail-nav__link detail-nav__link--next">
+            <span class="detail-nav__dir">Next →</span>
+            <span class="detail-nav__name">{{ nextSection.title }}</span>
+          </RouterLink>
+        </div>
+      </article>
+
+      <div v-else class="not-found">
+        <p>Section not found.</p>
+        <RouterLink to="/docs" class="back-link">← Back to Documentation</RouterLink>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
+import { EVENTS } from '@/data/events.js'
+
+const route = useRoute()
+const sectionId = computed(() => route.params.section)
+
+// Scroll to top when navigating between doc sections
+watch(sectionId, () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+  // Re-setup reveal observers for new content
+  setTimeout(() => setupReveal(), 300)
+})
+
+// ── NTL Animation Player ──
+const ntlFrames = ref(null)
+const frameIdx = ref(0)
+const playing = ref(false)
+let playInterval = null
+
+onMounted(async () => {
+  try {
+    const res = await fetch('/data/frames/maria_frames.json')
+    if (res.ok) ntlFrames.value = await res.json()
+  } catch { /* ignore */ }
+})
+
+function togglePlay() {
+  if (playing.value) {
+    clearInterval(playInterval)
+    playing.value = false
+  } else {
+    playing.value = true
+    playInterval = setInterval(() => {
+      if (frameIdx.value < (ntlFrames.value?.frames.length ?? 1) - 1) {
+        frameIdx.value++
+      } else {
+        frameIdx.value = 0
+      }
+    }, 400)
+  }
+}
+
+function nextFrame() {
+  if (ntlFrames.value && frameIdx.value < ntlFrames.value.frames.length - 1) frameIdx.value++
+}
+function prevFrame() {
+  if (frameIdx.value > 0) frameIdx.value--
+}
+
+onUnmounted(() => { clearInterval(playInterval); tocObserver?.disconnect(); revealObs?.disconnect() })
+
+// ── Collapsible state ──
+const ntlExpanded = ref(false)
+const cloudExpanded = ref(false)
+const codeExpanded = ref({
+  gee: false,
+  overpass: false,
+  loeo: false,
+  deps: false,
+  ols: false,
+  mixed: false,
+  logit: false,
+  cox: false,
+})
+
+// ── Cloud / NTL stats ──
+const cloudStats = ref(null)
+const edaStats = ref(null)
+const cloudFrac = ref(null)
+
+onMounted(async () => {
+  try {
+    const res = await fetch('/data/cloud_stats.json')
+    if (res.ok) cloudStats.value = await res.json()
+  } catch { /* ignore */ }
+  try {
+    const res2 = await fetch('/data/eda_stats.json')
+    if (res2.ok) edaStats.value = await res2.json()
+  } catch { /* ignore */ }
+  try {
+    const res3 = await fetch('/data/cloud_fraction.json')
+    if (res3.ok) cloudFrac.value = await res3.json()
+  } catch { /* ignore */ }
+})
+
+const DASH_MAP = {
+  maria: 'maria', irma: 'irma', ida: 'ida', laura: 'laura',
+  michael: 'michael', 'eq-pr': 'eq-pr', 'ian-charlotte': 'ian-charlotte',
+  'ian-fortmyers': 'ian-fortmyers', 'eq-hatay': 'eq-hatay',
+}
+
+const cloudEvents = computed(() =>
+  EVENTS.map(ev => ({ ...ev, dashId: ev.id }))
+)
+
+// ── NTL bar chart helpers ──
+const ntlChartW = 480
+const ntlChartH = 120
+const ntlPad = { t: 16, b: 14, l: 8, r: 8 }
+
+function getPreDays(dashId) { return cloudStats.value?.[dashId]?.pre ?? [] }
+function getPostDays(dashId) { return cloudStats.value?.[dashId]?.post ?? [] }
+function getAllDays(dashId) { return [...getPreDays(dashId), ...getPostDays(dashId)] }
+
+function ntlMax(dashId) {
+  const all = getAllDays(dashId)
+  return all.length ? Math.max(...all.map(d => d.mean_ntl), 1) : 1
+}
+
+function ntlY(frac, dashId) {
+  return ntlPad.t + (ntlChartH - ntlPad.t - ntlPad.b) * (1 - Math.min(frac, 1))
+}
+
+function ntlBarW(dashId) {
+  const total = getAllDays(dashId).length
+  return total > 0 ? Math.max((ntlChartW - ntlPad.l - ntlPad.r) / total - 1, 1) : 2
+}
+
+function ntlBarX(dashId, i, phase) {
+  const total = getAllDays(dashId).length
+  const w = (ntlChartW - ntlPad.l - ntlPad.r) / total
+  const offset = phase === 'post' ? getPreDays(dashId).length : 0
+  return ntlPad.l + (offset + i) * w + 0.5
+}
+
+function ntlX(dashId, type) {
+  if (type === 'split') {
+    const pre = getPreDays(dashId).length
+    const total = getAllDays(dashId).length
+    return total > 0 ? ntlPad.l + (pre / total) * (ntlChartW - ntlPad.l - ntlPad.r) : ntlPad.l
+  }
+  return ntlPad.l
+}
+
+// ── Cloud chart helpers ──
+function cloudY(pct) {
+  return ntlPad.t + (ntlChartH - ntlPad.t - ntlPad.b) * (1 - pct / 100)
+}
+
+function cloudBarW(dashId) {
+  const total = getAllDays(dashId).length
+  return total > 0 ? Math.max((ntlChartW - ntlPad.l - ntlPad.r) / total - 1, 1) : 2
+}
+
+function cloudBarX(dashId, i) {
+  const total = getAllDays(dashId).length
+  const w = (ntlChartW - ntlPad.l - ntlPad.r) / total
+  return ntlPad.l + i * w + 0.5
+}
+
+function cloudSplitX(dashId) {
+  const pre = getPreDays(dashId).length
+  const total = getAllDays(dashId).length
+  return total > 0 ? ntlPad.l + (pre / total) * (ntlChartW - ntlPad.l - ntlPad.r) : ntlPad.l
+}
+
+const allSections = [
+  { id: 'overview',     num: '01', title: 'Project Overview', tags: ['VIIRS VNP46A2'] },
+  { id: 'data',         num: '02', title: 'Data Collection & Processing', tags: ['VNP46A2', 'OSM', 'EAGLE-I'] },
+  { id: 'eda',          num: '03', title: 'Exploratory Data Analysis', tags: ['Resilience Ratio', 'Floor Effect'] },
+  { id: 'interpretive', num: '04', title: 'Interpretive Modeling', tags: ['OLS', 'MixedLM', 'Logit', 'Cox'] },
+  { id: 'features',     num: '05', title: 'Feature Engineering', tags: ['17 features'] },
+  { id: 'models',       num: '06', title: 'Predictive Models', tags: ['RF + XGB', 'LOEO'] },
+  { id: 'maps',         num: '07', title: 'Probability Maps', tags: ['GeoJSON'] },
+  { id: 'repro',        num: '08', title: 'Reproducibility', tags: ['Open data'] },
+]
+
+const sectionData = computed(() => allSections.find(s => s.id === sectionId.value))
+
+// Cloud fraction chart helpers
+function getCfDays(dashId) { return cloudFrac.value?.[dashId]?.days ?? [] }
+function cfBarW(dashId) {
+  const total = getCfDays(dashId).length
+  return total > 0 ? Math.max((ntlChartW - ntlPad.l - ntlPad.r) / total - 1, 1) : 2
+}
+function cfBarX(dashId, i) {
+  const total = getCfDays(dashId).length
+  const w = (ntlChartW - ntlPad.l - ntlPad.r) / total
+  return ntlPad.l + i * w + 0.5
+}
+function cfSplitX(dashId) {
+  const days = getCfDays(dashId)
+  const preCount = days.filter(d => d.period === 'pre').length
+  const total = days.length
+  return total > 0 ? ntlPad.l + (preCount / total) * (ntlChartW - ntlPad.l - ntlPad.r) : ntlPad.l
+}
+
+// Events sorted chronologically by year
+const sortedEvents = computed(() => [...EVENTS].sort((a, b) => a.year - b.year))
+
+// EDA chart helpers
+const floorCities = {
+  large: 'San Juan, Miami, New Orleans',
+  medium: 'Fort Myers, Hatay',
+  small: 'Lake Charles, Panama City, Charlotte Harbor',
+}
+
+const floorGroups = [
+  { key: 'large',  label: 'Large',  cities: 'San Juan, Miami, New Orleans' },
+  { key: 'medium', label: 'Medium', cities: 'Fort Myers, Hatay' },
+  { key: 'small',  label: 'Small',  cities: 'Lake Charles, Panama City, Charlotte Harbor' },
+]
+
+function floorVal(citySize, inBuffer) {
+  if (!edaStats.value) return 0
+  const d = edaStats.value.floor.find(f => f.city_size === citySize && f.in_buffer === inBuffer)
+  return d ? d.mean_pre_ntl : 0
+}
+
+const sortedEdaEvents = computed(() => {
+  if (!edaStats.value) return []
+  return [...edaStats.value.events].sort((a, b) => b.ra - a.ra)
+})
+
+// ── Sub-section TOC per detail page ──
+const SUB_SECTIONS = {
+  overview: [
+    { id: 'sec-1-1', label: '1.1 Motivation' },
+    { id: 'sec-1-2', label: '1.2 Core Hypothesis' },
+    { id: 'sec-1-3', label: '1.3 Collaboration' },
+    { id: 'sec-1-4', label: '1.4 Study Events' },
+    { id: 'sec-1-5', label: '1.5 Research Questions' },
+  ],
+  data: [
+    { id: 'sec-2-1', label: '2.1 NASA Black Marble' },
+    { id: 'sec-2-2', label: '2.2 EAGLE-I Outages' },
+    { id: 'sec-2-3', label: '2.3 Disaster in NTL' },
+    { id: 'sec-2-4', label: '2.4 Cloud & QC' },
+    { id: 'sec-2-5', label: '2.5 GEE Acquisition' },
+    { id: 'sec-2-6', label: '2.6 OSM Facilities' },
+    { id: 'sec-2-7', label: '2.7 Data Quality' },
+  ],
+  eda: [
+    { id: 'sec-4-1', label: '3.1 Key Definitions' },
+    { id: 'sec-4-2', label: '3.2 Buffer vs Non-Buffer' },
+    { id: 'sec-4-3', label: '3.3 Floor Effect' },
+    { id: 'sec-4-4', label: '3.4 Facility Types' },
+    { id: 'sec-4-5', label: '3.5 City Size Effects' },
+    { id: 'sec-4-6', label: '3.6 Key Findings' },
+  ],
+  interpretive: [
+    { id: 'sec-5-1', label: '4.1 Why Four Models?' },
+    { id: 'sec-5-2', label: '4.2 Specification' },
+    { id: 'sec-5-3', label: '4.3 OLS' },
+    { id: 'sec-5-4', label: '4.4 MixedLM' },
+    { id: 'sec-5-5', label: '4.5 Logistic' },
+    { id: 'sec-5-6', label: '4.6 Cox PH' },
+    { id: 'sec-5-7', label: '4.7 Land-Use Confound' },
+  ],
+  features: [
+    { id: 'sec-6-floor', label: '5.1 Floor Effect' },
+    { id: 'sec-6-features', label: '5.2 Feature Set' },
+  ],
+  models: [
+    { id: 'sec-5-intro', label: '6.1 Model Variants' },
+    { id: 'sec-5-algo', label: '6.2 Algorithms' },
+    { id: 'sec-5-loeo', label: '6.3 LOEO Validation' },
+  ],
+}
+
+const subSections = computed(() => SUB_SECTIONS[sectionId.value] ?? [])
+const activeTocId = ref('')
+
+function tocScrollTo(id) {
+  const el = document.getElementById(id)
+  if (!el) return
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+// Scroll reveal for detail pages
+let revealObs
+function setupReveal() {
+  if (revealObs) revealObs.disconnect()
+  revealObs = new IntersectionObserver(
+    entries => entries.forEach(e => e.target.classList.toggle('visible', e.isIntersecting)),
+    { threshold: 0.1 }
+  )
+  setTimeout(() => document.querySelectorAll('.detail-page .reveal').forEach(el => revealObs.observe(el)), 200)
+}
+
+// Intersection observer for TOC active state
+let tocObserver
+onMounted(() => {
+  setupTocObserver()
+  setupReveal()
+})
+
+function setupTocObserver() {
+  if (tocObserver) tocObserver.disconnect()
+  const ids = subSections.value.map(s => s.id)
+  if (!ids.length) return
+  tocObserver = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) activeTocId.value = e.target.id }),
+    { rootMargin: '-10% 0px -70% 0px' }
+  )
+  // Wait for DOM
+  setTimeout(() => {
+    ids.forEach(id => { const el = document.getElementById(id); if (el) tocObserver.observe(el) })
+  }, 200)
+}
+const currentIndex = computed(() => allSections.findIndex(s => s.id === sectionId.value))
+const prevSection = computed(() => currentIndex.value > 0 ? allSections[currentIndex.value - 1] : null)
+const nextSection = computed(() => currentIndex.value < allSections.length - 1 ? allSections[currentIndex.value + 1] : null)
+
+const features17 = [
+  { name: 'drop_magnitude',       desc: 'Clipped NTL drop (outage signal)' },
+  { name: 'delta_ntl',            desc: 'Raw relative NTL change' },
+  { name: 'log_pre_ntl',          desc: 'Log pre-disaster brightness' },
+  { name: 'log_post_ntl',         desc: 'Log post-disaster brightness' },
+  { name: 'log_city_pre_mean',    desc: 'City-level log mean NTL' },
+  { name: 'ntl_relative',         desc: 'Pixel brightness / city mean' },
+  { name: 'log_dist',             desc: 'Log distance to nearest facility' },
+  { name: 'near_fire_station',    desc: 'Binary: nearest = fire station' },
+  { name: 'near_police',          desc: 'Binary: nearest = police' },
+  { name: 'near_excluded',        desc: 'Binary: nearest = excluded type' },
+  { name: 'fac_group',            desc: 'Facility group ordinal (1/2/3)' },
+  { name: 'city_size_code',       desc: 'large=0, medium=1, small=2' },
+  { name: 'is_hurricane',         desc: 'Disaster type flag' },
+  { name: 'is_earthquake',        desc: 'Disaster type flag' },
+  { name: 'ntl_x_group',         desc: 'log_pre × fac_group interaction' },
+  { name: 'below_city_median',    desc: 'Pixel below city median NTL' },
+  { name: 'below_median_x_group', desc: 'below_median × fac_group' },
+]
+
+const modelVariants = [
+  { id: 'Model A', name: 'Pre + Post NTL',       desc: 'Full feature set. Primary model. Probability map correlates with baseline brightness.' },
+  { id: 'Model B', name: 'Post-Disaster Only',   desc: 'No pre-NTL features. Avoids baseline bias in probability maps.' },
+  { id: 'Model C', name: 'A + Building Coverage', desc: 'Adds OSM building footprint coverage per pixel. Addresses 500m mixed-pixel problem.' },
+]
+</script>
+
+<style scoped>
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.detail-page {
+  min-height: calc(100vh - var(--nav-h));
+  background: transparent;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 0;
+}
+.detail-inner {
+  flex: 1;
+  min-width: 0;
+  max-width: 820px;
+  padding: 32px 32px 80px;
+  background: rgba(3,13,26,0.6);
+  backdrop-filter: blur(4px);
+  border-left: 1px solid rgba(18,42,69,0.3);
+  border-right: 1px solid rgba(18,42,69,0.3);
+}
+
+/* ── Sidebar TOC ── */
+.detail-toc {
+  position: sticky;
+  top: calc(var(--nav-h) + 24px);
+  align-self: flex-start;
+  width: 200px;
+  flex-shrink: 0;
+  padding: 24px 16px 24px 24px;
+}
+.detail-toc__title {
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+.detail-toc__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.detail-toc__link {
+  display: block;
+  padding: 5px 10px;
+  border-radius: var(--radius);
+  border-left: 2px solid transparent;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--t-fast);
+  line-height: 1.4;
+}
+.detail-toc__link:hover {
+  color: var(--text-bright);
+  background: var(--bg-3);
+}
+.detail-toc__link.active {
+  color: var(--cyan);
+  background: var(--cyan-dim);
+  border-left-color: var(--cyan);
+}
+
+/* ── Takeaway box ── */
+.takeaway {
+  background: linear-gradient(135deg, rgba(255,170,0,0.08), rgba(255,100,0,0.05));
+  border: 1px solid rgba(255,170,0,0.25);
+  border-left: 4px solid #ffaa00;
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  margin: 32px 0 16px;
+}
+.takeaway__label {
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #ffaa00;
+  margin-bottom: 12px;
+}
+.takeaway__text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-bright);
+}
+.takeaway__text strong {
+  color: #ffaa00;
+}
+.takeaway__text em {
+  color: var(--cyan);
+  font-style: normal;
+}
+
+/* h2 scroll margin for TOC */
+.detail-content h2[id] {
+  scroll-margin-top: calc(var(--nav-h) + 24px);
+}
+
+/* Back link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--cyan);
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: all var(--t-fast);
+}
+.back-link:hover { color: var(--text-bright); }
+.back-arrow {
+  transition: transform var(--t-fast);
+}
+.back-link:hover .back-arrow { transform: translateX(-3px); }
+
+/* Header */
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.detail-header h1 { font-size: 26px; font-weight: 700; }
+.dim { font-size: 12px; color: var(--text-dim); }
+
+/* Content styling */
+.detail-content h2 { font-size: 18px; font-weight: 600; color: var(--text-bright); margin: 28px 0 12px; }
+.detail-content h3 { font-size: 15px; font-weight: 600; color: var(--text-bright); margin: 24px 0 10px; }
+.detail-content p { font-size: 14px; color: var(--text); line-height: 1.75; margin-bottom: 12px; }
+.detail-content strong { color: var(--text-bright); }
+.detail-content em { color: var(--cyan); font-style: normal; }
+code {
+  font-family: var(--font-mono); font-size: 12px;
+  background: var(--bg-3); border: 1px solid var(--border);
+  border-radius: 3px; padding: 1px 5px; color: var(--green);
+}
+.inline-link { color: var(--cyan); text-decoration: none; }
+.inline-link:hover { text-decoration: underline; }
+
+.detail-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0;
+}
+.detail-list li {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.6;
+  padding-left: 18px;
+  position: relative;
+}
+.detail-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--cyan);
+}
+
+/* Callouts */
+.callout { display: flex; gap: 12px; padding: 12px 16px; border-radius: var(--radius-lg); margin: 12px 0; font-size: 13px; line-height: 1.6; }
+.callout--cyan  { background: var(--cyan-dim);  border: 1px solid rgba(0,212,255,.15); color: var(--text); }
+.callout--amber { background: var(--amber-dim); border: 1px solid rgba(255,170,0,.15); color: var(--text); }
+.callout--green { background: var(--green-dim); border: 1px solid rgba(0,229,160,.15); color: var(--text); }
+
+/* Tables */
+.data-table { margin: 12px 0; overflow-x: auto; }
+.data-table table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th {
+  font-family: var(--font-head); font-size: 10px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim);
+  text-align: left; padding: 8px 12px;
+  background: var(--bg-2); border-bottom: 1px solid var(--border);
+}
+td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text); }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--bg-3); }
+.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 7px; vertical-align: middle; }
+
+/* Formula */
+.formula-block {
+  background: var(--bg-2); border: 1px solid var(--border);
+  border-left: 3px solid var(--cyan);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 14px 18px; margin: 12px 0;
+}
+.formula { font-family: var(--font-mono); font-size: 14px; color: var(--text-bright); }
+.formula__caption { margin-top: 4px; font-size: 11px; color: var(--text-muted); }
+
+/* Code block */
+.code-block { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin: 12px 0; }
+.code-block__header { padding: 7px 14px; background: var(--bg-3); border-bottom: 1px solid var(--border); font-size: 11px; color: var(--text-muted); }
+.code-block pre { padding: 14px; overflow-x: auto; margin: 0; }
+.code-block code { font-size: 12px; background: none; border: none; padding: 0; color: var(--text); line-height: 1.7; display: block; }
+
+/* Feature grid */
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; margin: 10px 0; }
+.feature-item { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 9px 11px; }
+.feature-item__name { font-size: 11px; color: var(--cyan); margin-bottom: 3px; }
+.feature-item__desc { font-size: 11px; color: var(--text-muted); line-height: 1.4; }
+
+/* Model cards */
+.model-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 12px 0; }
+.model-card { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 14px; }
+.model-card__label { font-size: 10px; color: var(--cyan); letter-spacing: 0.12em; margin-bottom: 4px; font-family: var(--font-mono); }
+.model-card__name { font-family: var(--font-head); font-size: 13px; font-weight: 600; color: var(--text-bright); margin-bottom: 5px; }
+.model-card__desc { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+
+/* Bottom navigation */
+.detail-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.detail-nav__link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  transition: all var(--t-fast);
+  min-width: 140px;
+}
+.detail-nav__link:hover {
+  border-color: var(--cyan);
+  background: var(--bg-3);
+}
+.detail-nav__link--next { text-align: right; margin-left: auto; }
+.detail-nav__dir {
+  font-family: var(--font-head);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+.detail-nav__name {
+  font-size: 13px;
+  color: var(--text-bright);
+  font-weight: 500;
+}
+
+.not-found {
+  text-align: center;
+  padding: 80px 0;
+  color: var(--text-muted);
+}
+
+/* EDA chart cards */
+.eda-chart-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* NTL Animation Player */
+.ntl-player {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ntl-player__panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.ntl-player__panel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ntl-player__label {
+  font-family: var(--font-head);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.ntl-player__img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  background: #000;
+  image-rendering: pixelated;
+}
+.ntl-player__info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ntl-player__date {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-bright);
+}
+.ntl-player__phase {
+  font-family: var(--font-head);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+.ntl-player__phase.pre {
+  background: rgba(0,229,160,0.15);
+  color: var(--green);
+}
+.ntl-player__phase.post {
+  background: rgba(255,107,107,0.15);
+  color: #ff6b6b;
+}
+.ntl-player__controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ntl-player__btn {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius);
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--t-fast);
+}
+.ntl-player__btn:hover { border-color: var(--cyan); color: var(--cyan); }
+.ntl-player__btn--play { width: 40px; font-size: 16px; }
+.ntl-player__slider {
+  flex: 1;
+  height: 4px;
+  appearance: none;
+  background: var(--bg-4, var(--border));
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+.ntl-player__slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--cyan);
+  cursor: pointer;
+}
+.ntl-player__legends {
+  display: flex;
+  gap: 24px;
+}
+.ntl-player__legend {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.legend-bar {
+  height: 8px;
+  width: 120px;
+  border-radius: 3px;
+}
+.legend-bar--hot {
+  background: linear-gradient(90deg, #000, #a00, #f60, #ff0, #fff);
+}
+.legend-bar--div {
+  background: linear-gradient(90deg, #00f, #008, #000, #800, #f00);
+}
+.legend-labels {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-dim);
+  width: 120px;
+}
+
+/* Collapsible sections */
+.collapsible {
+  position: relative;
+  margin: 16px 0;
+}
+.collapsible--code .collapsible__content {
+  max-height: 170px;
+}
+.collapsible__content {
+  max-height: 220px;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+.collapsible.expanded .collapsible__content {
+  max-height: 8000px;
+}
+.collapsible__fade {
+  position: absolute;
+  bottom: 36px;
+  left: 0; right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, rgba(3,13,26,0) 0%, rgba(3,13,26,0.95) 85%);
+  pointer-events: none;
+  z-index: 1;
+}
+.collapsible__toggle {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-top: 1px solid var(--border);
+  cursor: pointer;
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--cyan);
+  text-align: center;
+  transition: all var(--t-fast);
+  position: relative;
+  z-index: 2;
+}
+.collapsible__toggle:hover {
+  color: var(--text-bright);
+  background: var(--bg-3);
+}
+
+/* NTL / Cloud chart cards */
+.ntl-charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.ntl-chart-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 12px;
+  overflow: hidden;
+}
+.ntl-chart-card__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.ntl-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .detail-page { flex-direction: column; }
+  .detail-toc { position: static; width: 100%; padding: 16px 16px 0; }
+  .detail-toc__list { flex-direction: row; flex-wrap: wrap; gap: 4px; }
+  .detail-inner { padding: 24px 16px 60px; }
+  .model-cards { grid-template-columns: 1fr; }
+  .detail-nav { flex-direction: column; }
+  .ntl-charts-grid { grid-template-columns: 1fr; }
+}
+</style>

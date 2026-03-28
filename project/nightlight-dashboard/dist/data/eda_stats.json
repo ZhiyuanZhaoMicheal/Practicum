@@ -1,0 +1,178 @@
+{
+  "floor": [
+    {
+      "city_size": "large",
+      "in_buffer": false,
+      "mean_pre_ntl": 4.18,
+      "mean_delta": -0.174,
+      "median_delta": -0.142,
+      "n": 4966
+    },
+    {
+      "city_size": "large",
+      "in_buffer": true,
+      "mean_pre_ntl": 6.69,
+      "mean_delta": -0.155,
+      "median_delta": -0.114,
+      "n": 2443
+    },
+    {
+      "city_size": "medium",
+      "in_buffer": false,
+      "mean_pre_ntl": 1.91,
+      "mean_delta": 0.069,
+      "median_delta": -0.033,
+      "n": 4110
+    },
+    {
+      "city_size": "medium",
+      "in_buffer": true,
+      "mean_pre_ntl": 4.29,
+      "mean_delta": -0.032,
+      "median_delta": -0.079,
+      "n": 364
+    },
+    {
+      "city_size": "small",
+      "in_buffer": false,
+      "mean_pre_ntl": 2.44,
+      "mean_delta": -0.131,
+      "median_delta": -0.205,
+      "n": 3174
+    },
+    {
+      "city_size": "small",
+      "in_buffer": true,
+      "mean_pre_ntl": 4.59,
+      "mean_delta": -0.155,
+      "median_delta": -0.221,
+      "n": 482
+    }
+  ],
+  "facilities": [
+    {
+      "type": "hospital",
+      "n_total": 2909,
+      "n_buffer": 295,
+      "mean_pre_ntl": 2.27,
+      "mean_delta": -0.077,
+      "buf_delta": -0.052
+    },
+    {
+      "type": "police",
+      "n_total": 2762,
+      "n_buffer": 923,
+      "mean_pre_ntl": 3.89,
+      "mean_delta": -0.341,
+      "buf_delta": -0.331
+    },
+    {
+      "type": "substation",
+      "n_total": 8609,
+      "n_buffer": 1960,
+      "mean_pre_ntl": 4.24,
+      "mean_delta": -0.004,
+      "buf_delta": -0.057
+    },
+    {
+      "type": "water_works",
+      "n_total": 1259,
+      "n_buffer": 111,
+      "mean_pre_ntl": 2.02,
+      "mean_delta": -0.207,
+      "buf_delta": -0.293
+    }
+  ],
+  "events": [
+    {
+      "event_id": "Maria_SanJuan",
+      "city_size": "large",
+      "n": 1393,
+      "buf_pct": 33.6,
+      "buf_delta": -0.552,
+      "nbuf_delta": -0.596,
+      "ra": 0.044,
+      "mean_pre_ntl": 3.39
+    },
+    {
+      "event_id": "Irma_Miami",
+      "city_size": "large",
+      "n": 2260,
+      "buf_pct": 35.0,
+      "buf_delta": -0.046,
+      "nbuf_delta": -0.067,
+      "ra": 0.021,
+      "mean_pre_ntl": 6.82
+    },
+    {
+      "event_id": "Ida_NewOrleans",
+      "city_size": "large",
+      "n": 2387,
+      "buf_pct": 30.5,
+      "buf_delta": -0.05,
+      "nbuf_delta": -0.08,
+      "ra": 0.029,
+      "mean_pre_ntl": 4.57
+    },
+    {
+      "event_id": "Laura_LakeCharles",
+      "city_size": "small",
+      "n": 1621,
+      "buf_pct": 15.5,
+      "buf_delta": -0.096,
+      "nbuf_delta": -0.073,
+      "ra": -0.023,
+      "mean_pre_ntl": 3.8
+    },
+    {
+      "event_id": "Michael_PanamaCity",
+      "city_size": "small",
+      "n": 1259,
+      "buf_pct": 8.8,
+      "buf_delta": -0.293,
+      "nbuf_delta": -0.199,
+      "ra": -0.095,
+      "mean_pre_ntl": 2.02
+    },
+    {
+      "event_id": "Earthquake_SanJuan",
+      "city_size": "large",
+      "n": 1369,
+      "buf_pct": 33.2,
+      "buf_delta": -0.104,
+      "nbuf_delta": -0.092,
+      "ra": -0.011,
+      "mean_pre_ntl": 4.4
+    },
+    {
+      "event_id": "Ian_CharlotteHarbor",
+      "city_size": "small",
+      "n": 776,
+      "buf_pct": 15.3,
+      "buf_delta": -0.152,
+      "nbuf_delta": -0.132,
+      "ra": -0.021,
+      "mean_pre_ntl": 1.6
+    },
+    {
+      "event_id": "Ian_FortMyers",
+      "city_size": "medium",
+      "n": 2909,
+      "buf_pct": 10.1,
+      "buf_delta": -0.052,
+      "nbuf_delta": -0.08,
+      "ra": 0.028,
+      "mean_pre_ntl": 2.27
+    },
+    {
+      "event_id": "Earthquake_Hatay",
+      "city_size": "medium",
+      "n": 1565,
+      "buf_pct": 4.4,
+      "buf_delta": 0.056,
+      "nbuf_delta": 0.331,
+      "ra": -0.275,
+      "mean_pre_ntl": 1.79
+    }
+  ]
+}
