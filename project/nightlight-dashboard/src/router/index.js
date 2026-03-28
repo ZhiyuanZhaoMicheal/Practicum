@@ -17,7 +17,7 @@ const routes = [
     path: '/charts',
     name: 'Charts',
     component: () => import('@/views/ChartsView.vue'),
-    meta: { title: 'NightLight — Recovery Charts' },
+    meta: { title: 'NightLight — Results' },
   },
   {
     path: '/docs',

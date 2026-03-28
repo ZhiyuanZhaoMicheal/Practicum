@@ -191,19 +191,6 @@
       </div>
     </div>
 
-    <!-- ── Collapsible time-series panel ── -->
-    <div class="chart-panel" :class="{ open: chartPanelOpen }">
-      <button class="chart-panel__toggle btn btn--ghost" @click="chartPanelOpen = !chartPanelOpen">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-          <polyline points="1,10 4,5 7,8 10,3 13,6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-        </svg>
-        {{ chartPanelOpen ? "Hide Recovery Chart" : "Show Recovery Chart" }}
-      </button>
-      <div class="chart-panel__body" v-if="chartPanelOpen && activeEvent">
-        <RecoveryChart :event="activeEvent" :height="190" />
-      </div>
-    </div>
-
     <!-- ── Bottom status bar ── -->
     <div class="status-bar">
       <span class="mono" style="font-size:10px; color:var(--text-muted)">

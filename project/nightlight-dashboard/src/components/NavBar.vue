@@ -47,7 +47,7 @@ const eventCount = EVENTS.length
 const links = [
   { to: '/',       label: 'Overview' },
   { to: '/map',    label: 'Map'      },
-  { to: '/charts', label: 'Charts'   },
+  { to: '/charts', label: 'Results'  },
   { to: '/docs',   label: 'Docs'     },
 ]
 </script>
