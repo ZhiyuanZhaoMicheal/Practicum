@@ -40,7 +40,6 @@
                 <th>Year</th>
                 <th>Mean RA</th>
                 <th>Min NTL</th>
-                <th>Recovery Day</th>
                 <th>Buffer R̄</th>
                 <th>Non-Buf R̄</th>
               </tr>
@@ -65,7 +64,6 @@
                   {{ evStats[ev.id] ? `+${(evStats[ev.id].ra * 100).toFixed(1)}%` : '—' }}
                 </td>
                 <td class="mono">{{ evStats[ev.id] ? `${(evStats[ev.id].minR * 100).toFixed(1)}%` : '—' }}</td>
-                <td class="mono">{{ evStats[ev.id]?.recoveryDay != null ? `+${evStats[ev.id].recoveryDay}d` : 'N/A' }}</td>
                 <td class="mono">{{ evStats[ev.id] ? `${(evStats[ev.id].meanBuf * 100).toFixed(1)}%` : '—' }}</td>
                 <td class="mono">{{ evStats[ev.id] ? `${(evStats[ev.id].meanNonBuf * 100).toFixed(1)}%` : '—' }}</td>
               </tr>

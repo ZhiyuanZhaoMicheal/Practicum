@@ -225,10 +225,6 @@
         <span class="rc__stat-val">{{ (stats.minR * 100).toFixed(1) }}%</span>
       </div>
       <div class="rc__stat">
-        <span class="rc__stat-lbl">Recovery Day</span>
-        <span class="rc__stat-val mono">{{ stats.recoveryDay != null ? `+${stats.recoveryDay}d` : 'N/A' }}</span>
-      </div>
-      <div class="rc__stat">
         <span class="rc__stat-lbl">Post-Event Buf.</span>
         <span class="rc__stat-val">{{ (stats.meanBuf * 100).toFixed(1) }}%</span>
       </div>
