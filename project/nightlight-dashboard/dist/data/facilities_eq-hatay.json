@@ -280,16 +280,6 @@
     "radiusM": 750
   },
   {
-    "name": "Samanda\u011f RES TM",
-    "type": "substation",
-    "coords": [
-      36.04249,
-      36.10491
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
     "name": "Antakya-III TM",
     "type": "substation",
     "coords": [

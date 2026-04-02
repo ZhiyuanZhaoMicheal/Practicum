@@ -440,16 +440,6 @@
     "radiusM": 1250
   },
   {
-    "name": "Miami-Opa Locka Executive Airport",
-    "type": "airport",
-    "coords": [
-      -80.27532,
-      25.9057
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
     "name": "Central District Wastewater Treatment Plant",
     "type": "power",
     "coords": [
@@ -675,16 +665,6 @@
     "coords": [
       -80.13703,
       25.78135
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Opa - Locka Airport Fire Department Station 25",
-    "type": "fire",
-    "coords": [
-      -80.26977,
-      25.90649
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -945,16 +925,6 @@
     "coords": [
       -80.29561,
       25.76195
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Key Biscayne Fire Department",
-    "type": "fire",
-    "coords": [
-      -80.16425,
-      25.69075
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1310,16 +1280,6 @@
     "radiusM": 750
   },
   {
-    "name": "Opa-Locka Police Station",
-    "type": "police",
-    "coords": [
-      -80.24194,
-      25.90583
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "North Bay Village Police Station",
     "type": "police",
     "coords": [
@@ -1620,16 +1580,6 @@
     "radiusM": 750
   },
   {
-    "name": "Miami Lakes Police Department",
-    "type": "police",
-    "coords": [
-      -80.29825,
-      25.91006
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami - Dade School Police Department",
     "type": "police",
     "coords": [
@@ -1695,16 +1645,6 @@
     "coords": [
       -80.28049,
       25.71275
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Key Biscayne Police Station",
-    "type": "police",
-    "coords": [
-      -80.16499,
-      25.69098
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2015,16 +1955,6 @@
     "coords": [
       -80.18148,
       25.78977
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Divorce Without War",
-    "type": "government",
-    "coords": [
-      -80.30801,
-      25.68862
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -3105,16 +3035,6 @@
     "coords": [
       -80.29605,
       25.75519
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "substation facility",
-    "type": "substation",
-    "coords": [
-      -80.17071,
-      25.90868
     ],
     "probability": 0.736,
     "radiusM": 750

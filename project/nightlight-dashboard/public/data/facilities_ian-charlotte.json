@@ -150,16 +150,6 @@
     "radiusM": 750
   },
   {
-    "name": "Charlotte County Fire and Emergency Medical Services Station 8",
-    "type": "fire",
-    "coords": [
-      -82.09164,
-      27.02629
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Charlotte County Fire Department Station 1",
     "type": "fire",
     "coords": [
@@ -280,16 +270,6 @@
     "radiusM": 750
   },
   {
-    "name": "Murdock Substation",
-    "type": "substation",
-    "coords": [
-      -82.12805,
-      27.00259
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
     "name": "Deepcreek Substation",
     "type": "substation",
     "coords": [
@@ -345,16 +325,6 @@
     "coords": [
       -82.02437,
       26.85902
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
-    "name": "Raintree Substation",
-    "type": "substation",
-    "coords": [
-      -82.11038,
-      27.02599
     ],
     "probability": 0.452,
     "radiusM": 750

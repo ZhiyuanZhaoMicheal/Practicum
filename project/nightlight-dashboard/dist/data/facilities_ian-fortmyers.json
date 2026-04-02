@@ -360,16 +360,6 @@
     "radiusM": 750
   },
   {
-    "name": "Lehigh Acres Fire Dept Station 103",
-    "type": "fire",
-    "coords": [
-      -81.71442,
-      26.609
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "South Trail Fire / Rescue Station 63",
     "type": "fire",
     "coords": [

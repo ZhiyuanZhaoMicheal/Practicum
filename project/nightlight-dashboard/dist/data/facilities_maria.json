@@ -1380,16 +1380,6 @@
     "radiusM": 750
   },
   {
-    "name": "Oficina del Seguro Social",
-    "type": "government",
-    "coords": [
-      -66.20246,
-      18.3417
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Administraci\u00f3n de Rehabilitaci\u00f3n Vocacional",
     "type": "government",
     "coords": [
@@ -2260,31 +2250,11 @@
     "radiusM": 750
   },
   {
-    "name": "substation facility",
-    "type": "substation",
-    "coords": [
-      -66.05652,
-      18.34391
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Subestaci\u00f3n Monacillos",
     "type": "substation",
     "coords": [
       -66.07304,
       18.37289
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "substation facility",
-    "type": "substation",
-    "coords": [
-      -65.99095,
-      18.34365
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2615,16 +2585,6 @@
     "coords": [
       -65.98684,
       18.43778
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Subestaci\u00f3n Conquistador",
-    "type": "substation",
-    "coords": [
-      -66.01262,
-      18.3436
     ],
     "probability": 0.5,
     "radiusM": 750

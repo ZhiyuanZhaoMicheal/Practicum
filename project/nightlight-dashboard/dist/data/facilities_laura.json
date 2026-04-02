@@ -370,16 +370,6 @@
     "radiusM": 750
   },
   {
-    "name": "Calcasieu Parish Sheriff's Office Sulphur Law Enforcement Center",
-    "type": "police",
-    "coords": [
-      -93.36039,
-      30.23079
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "substation facility",
     "type": "substation",
     "coords": [
@@ -565,16 +555,6 @@
     "coords": [
       -93.20249,
       30.20283
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "Arizona Substation",
-    "type": "substation",
-    "coords": [
-      -93.35569,
-      30.18278
     ],
     "probability": 0.559,
     "radiusM": 750

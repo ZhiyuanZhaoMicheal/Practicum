@@ -342,17 +342,26 @@ def export_facility_probs(event_nb_id, event_df, prob_arr, poi_cache_dir, out_di
         print(f"  [WARN] POI CSV missing columns {required - set(poi_df.columns)}")
         return []
 
-    # Filter POIs to study area bounding box (with small padding)
+    # Filter POIs to heatmap bounding box (prob > threshold pixels only)
+    # Use the probability array + coordinates to get the visible heatmap bounds
     if lons is not None and lats is not None:
-        pad = 0.01  # ~1km padding
-        lon_min, lon_max = float(lons.min()) - pad, float(lons.max()) + pad
-        lat_min, lat_max = float(lats.min()) - pad, float(lats.max()) + pad
+        vis_mask = prob_arr > MIN_PROB_FOR_GEOJSON
+        if vis_mask.any():
+            vis_lons = lons[vis_mask]
+            vis_lats = lats[vis_mask]
+            pad = 0.005  # ~500m padding
+            lon_min, lon_max = float(vis_lons.min()) - pad, float(vis_lons.max()) + pad
+            lat_min, lat_max = float(vis_lats.min()) - pad, float(vis_lats.max()) + pad
+        else:
+            pad = 0.01
+            lon_min, lon_max = float(lons.min()) - pad, float(lons.max()) + pad
+            lat_min, lat_max = float(lats.min()) - pad, float(lats.max()) + pad
         before = len(poi_df)
         poi_df = poi_df[
             (poi_df["lon"] >= lon_min) & (poi_df["lon"] <= lon_max) &
             (poi_df["lat"] >= lat_min) & (poi_df["lat"] <= lat_max)
         ]
-        print(f"  Filtered POIs to study area: {before} → {len(poi_df)}")
+        print(f"  Filtered POIs to heatmap bounds: {before} → {len(poi_df)}")
 
     # Fix "nan" names
     if "name" in poi_df.columns:

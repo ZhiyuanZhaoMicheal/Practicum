@@ -10,16 +10,6 @@
     "radiusM": 750
   },
   {
-    "name": "United Medical Rehabilitation Hospitals",
-    "type": "hospital",
-    "coords": [
-      -90.03013,
-      29.86599
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Saint Catherine Memorial Hospital",
     "type": "hospital",
     "coords": [
@@ -380,16 +370,6 @@
     "radiusM": 750
   },
   {
-    "name": "Marrero - Estelle Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.09791,
-      29.86317
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Harvey Volunteer Fire Company",
     "type": "fire",
     "coords": [
@@ -490,31 +470,11 @@
     "radiusM": 750
   },
   {
-    "name": "Terrytown Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.03322,
-      29.86296
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "New Orleans Fire Department Training Division",
     "type": "fire",
     "coords": [
       -89.92923,
       30.01897
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Avondale Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.20782,
-      29.89918
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1420,16 +1380,6 @@
     "radiusM": 750
   },
   {
-    "name": "Jefferson Parish Juvenile Services",
-    "type": "government",
-    "coords": [
-      -90.21136,
-      29.97844
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "United States Custom House",
     "type": "government",
     "coords": [
@@ -1475,16 +1425,6 @@
     "coords": [
       -90.18936,
       29.96539
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "government facility",
-    "type": "government",
-    "coords": [
-      -90.21063,
-      29.98164
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1655,16 +1595,6 @@
     "coords": [
       -90.14777,
       29.94701
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "Snakefarm Substation",
-    "type": "substation",
-    "coords": [
-      -90.2096,
-      29.97863
     ],
     "probability": 0.7,
     "radiusM": 750
