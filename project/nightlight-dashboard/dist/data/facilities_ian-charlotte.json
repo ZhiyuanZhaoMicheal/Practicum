@@ -50,26 +50,6 @@
     "radiusM": 750
   },
   {
-    "name": "Sunnybreeze Airport",
-    "type": "airport",
-    "coords": [
-      -81.97073,
-      27.04999
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
-    "name": "Lake Suzy Estates Airport",
-    "type": "airport",
-    "coords": [
-      -82.04421,
-      27.0428
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
     "name": "Shell Creek Airpark",
     "type": "airport",
     "coords": [
@@ -90,7 +70,7 @@
     "radiusM": 1250
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -82.0643,
@@ -110,36 +90,6 @@
     "radiusM": 750
   },
   {
-    "name": "North Port Fire / Rescue Station 84",
-    "type": "fire",
-    "coords": [
-      -82.16212,
-      27.06647
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Port Fire / Rescue Station 1",
-    "type": "fire",
-    "coords": [
-      -82.20796,
-      27.07385
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Port Fire / Rescue Station 83",
-    "type": "fire",
-    "coords": [
-      -82.11825,
-      27.0683
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Charlotte County Fire/EMS Station 7",
     "type": "fire",
     "coords": [
@@ -150,31 +100,11 @@
     "radiusM": 750
   },
   {
-    "name": "Charlotte County Fire Station 4",
-    "type": "fire",
-    "coords": [
-      -82.22336,
-      26.91721
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Charlotte County Fire Station 5",
     "type": "fire",
     "coords": [
       -82.01466,
       26.86065
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Charlotte County Fire Department Station 2",
-    "type": "fire",
-    "coords": [
-      -82.15679,
-      27.0046
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -220,26 +150,6 @@
     "radiusM": 750
   },
   {
-    "name": "Charlotte County Fire Department Station 3",
-    "type": "fire",
-    "coords": [
-      -82.21025,
-      26.96621
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Port Fire / Rescue Station 84",
-    "type": "fire",
-    "coords": [
-      -82.16218,
-      27.06648
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Charlotte County Fire and Emergency Medical Services Station 8",
     "type": "fire",
     "coords": [
@@ -255,16 +165,6 @@
     "coords": [
       -82.09214,
       26.97622
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "fire",
-    "coords": [
-      -82.15681,
-      27.00457
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -300,16 +200,6 @@
     "radiusM": 750
   },
   {
-    "name": "Charlotte County Sheriff's Office Community Policing Crime Prevention Office",
-    "type": "police",
-    "coords": [
-      -82.14452,
-      27.01008
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Major Terry Branscome Training Center",
     "type": "police",
     "coords": [
@@ -325,16 +215,6 @@
     "coords": [
       -82.00344,
       26.92158
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Port Police Department",
-    "type": "police",
-    "coords": [
-      -82.20809,
-      27.07567
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -370,41 +250,11 @@
     "radiusM": 750
   },
   {
-    "name": "Social Security Administration",
-    "type": "government",
-    "coords": [
-      -82.13812,
-      27.00986
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Port City Hall",
-    "type": "government",
-    "coords": [
-      -82.20641,
-      27.07575
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Florida Department of Health in Charlotte County",
     "type": "government",
     "coords": [
       -82.05626,
       27.01223
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Charlotte County Administration Center",
-    "type": "government",
-    "coords": [
-      -82.14114,
-      27.00866
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -440,16 +290,6 @@
     "radiusM": 750
   },
   {
-    "name": "Coast Substation",
-    "type": "substation",
-    "coords": [
-      -82.1381,
-      27.01676
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
     "name": "Deepcreek Substation",
     "type": "substation",
     "coords": [
@@ -465,36 +305,6 @@
     "coords": [
       -81.97792,
       26.9553
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
-    "name": "Peachland Substation",
-    "type": "substation",
-    "coords": [
-      -82.06386,
-      27.04245
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -81.951,
-      27.04428
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -82.17604,
-      27.01661
     ],
     "probability": 0.452,
     "radiusM": 750
@@ -520,16 +330,6 @@
     "radiusM": 750
   },
   {
-    "name": "McCall Substtaion",
-    "type": "substation",
-    "coords": [
-      -82.22413,
-      26.92827
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
     "name": "Punta Gorda Substation",
     "type": "substation",
     "coords": [
@@ -540,21 +340,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -82.02437,
       26.85902
-    ],
-    "probability": 0.452,
-    "radiusM": 750
-  },
-  {
-    "name": "Panacea Substation",
-    "type": "substation",
-    "coords": [
-      -82.15834,
-      27.09017
     ],
     "probability": 0.452,
     "radiusM": 750
@@ -570,17 +360,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "water_works",
-    "coords": [
-      -82.00242,
-      27.08988
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.93421,

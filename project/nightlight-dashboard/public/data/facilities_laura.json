@@ -70,16 +70,6 @@
     "radiusM": 750
   },
   {
-    "name": "West Calcasieu Cameron Hospital",
-    "type": "hospital",
-    "coords": [
-      -93.36895,
-      30.22903
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Open A-1 Ranch Airport",
     "type": "airport",
     "coords": [
@@ -145,16 +135,6 @@
     "coords": [
       -93.22283,
       30.12306
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
-    "name": "Southland Field",
-    "type": "airport",
-    "coords": [
-      -93.37607,
-      30.1308
     ],
     "probability": 0.5,
     "radiusM": 1250
@@ -245,16 +225,6 @@
     "coords": [
       -93.32194,
       30.19661
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "power",
-    "coords": [
-      -93.16804,
-      30.33145
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -360,16 +330,6 @@
     "radiusM": 750
   },
   {
-    "name": "Calcasieu Parish Sheriff's Office Carlyss Law Enforcement Center",
-    "type": "police",
-    "coords": [
-      -93.37371,
-      30.13201
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Calcasieu Parish Sheriff's Office North Lake Charles Law Enforcement Center",
     "type": "police",
     "coords": [
@@ -420,27 +380,7 @@
     "radiusM": 750
   },
   {
-    "name": "Sulphur City Marshal's Office",
-    "type": "police",
-    "coords": [
-      -93.37095,
-      30.2345
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Sulphur Police Department",
-    "type": "police",
-    "coords": [
-      -93.37673,
-      30.2431
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28779,
@@ -450,17 +390,7 @@
     "radiusM": 750
   },
   {
-    "name": "Moss Bluff Substation",
-    "type": "substation",
-    "coords": [
-      -93.23391,
-      30.32954
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29593,
@@ -470,7 +400,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29048,
@@ -480,17 +410,7 @@
     "radiusM": 750
   },
   {
-    "name": "Gillis Substation",
-    "type": "substation",
-    "coords": [
-      -93.20084,
-      30.33082
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.1214,
@@ -520,17 +440,7 @@
     "radiusM": 750
   },
   {
-    "name": "Boudoin Substation",
-    "type": "substation",
-    "coords": [
-      -93.3629,
-      30.16949
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.20525,
@@ -600,7 +510,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.17892,
@@ -680,7 +590,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.27198,
@@ -690,7 +600,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28317,
@@ -700,7 +610,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.27174,
@@ -710,7 +620,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28097,
@@ -720,7 +630,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28256,
@@ -740,27 +650,7 @@
     "radiusM": 750
   },
   {
-    "name": "Choupique Substation",
-    "type": "substation",
-    "coords": [
-      -93.37574,
-      30.16032
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "Sulphur Substation",
-    "type": "substation",
-    "coords": [
-      -93.37388,
-      30.21794
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.32589,
@@ -790,7 +680,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.22862,
@@ -800,7 +690,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.25254,
@@ -810,7 +700,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29734,
@@ -820,7 +710,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.30701,
@@ -830,7 +720,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.34552,
@@ -840,7 +730,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28157,
@@ -850,7 +740,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29601,
@@ -860,7 +750,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28191,
@@ -870,7 +760,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28135,
@@ -880,7 +770,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29766,
@@ -890,7 +780,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.30272,
@@ -900,17 +790,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -93.39945,
-      30.21264
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.30288,
@@ -920,7 +800,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.3028,
@@ -930,7 +810,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.35273,
@@ -940,27 +820,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -93.34972,
-      30.32631
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -93.35213,
-      30.32652
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29296,
@@ -970,7 +830,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29348,
@@ -980,7 +840,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28322,
@@ -990,7 +850,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.27543,
@@ -1020,27 +880,7 @@
     "radiusM": 750
   },
   {
-    "name": "Burton Substation",
-    "type": "substation",
-    "coords": [
-      -93.38993,
-      30.24146
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -93.36597,
-      30.26519
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.30948,
@@ -1050,7 +890,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.2932,
@@ -1060,7 +900,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28556,
@@ -1070,7 +910,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28416,
@@ -1080,7 +920,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28052,
@@ -1090,7 +930,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29395,
@@ -1100,7 +940,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.31733,
@@ -1110,7 +950,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.32372,
@@ -1120,7 +960,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.33865,
@@ -1130,7 +970,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.32591,
@@ -1140,7 +980,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.32601,
@@ -1160,7 +1000,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.3299,
@@ -1170,7 +1010,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.32345,
@@ -1200,7 +1040,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.34292,
@@ -1210,7 +1050,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.34933,
@@ -1220,7 +1060,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.34185,
@@ -1240,7 +1080,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.33924,
@@ -1250,7 +1090,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.3393,
@@ -1260,7 +1100,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.33176,
@@ -1270,7 +1110,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.33824,
@@ -1280,7 +1120,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.15909,
@@ -1290,7 +1130,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.15847,
@@ -1310,27 +1150,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -93.36746,
-      30.15512
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "Thomas Road Substation",
-    "type": "substation",
-    "coords": [
-      -93.38553,
-      30.19384
-    ],
-    "probability": 0.559,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.28361,
@@ -1340,7 +1160,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29622,
@@ -1350,7 +1170,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.33737,
@@ -1360,7 +1180,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.33659,
@@ -1370,7 +1190,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.29569,
@@ -1380,7 +1200,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.21547,
@@ -1390,7 +1210,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.11184,
@@ -1400,7 +1220,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -93.12663,

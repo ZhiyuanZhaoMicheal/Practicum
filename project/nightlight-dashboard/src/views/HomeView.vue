@@ -534,4 +534,26 @@ onUnmounted(() => observer?.disconnect())
   .pipeline-section { padding: 24px 24px 60px; }
   .pipeline-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+@media (max-width: 600px) {
+  .hero__content { padding: 0 16px; gap: 12px; }
+  .hero__title { font-size: 28px; }
+  .hero__sub { font-size: 14px; }
+  .hero__authors { font-size: 13px; }
+  .hero__ctas { flex-direction: column; gap: 8px; width: 100%; align-items: center; }
+  .hero__ctas .btn { width: 100%; max-width: 260px; text-align: center; }
+
+  .stats__inner { padding: 0 16px; gap: 0; }
+  .stat { padding: 12px 16px; }
+  .stat__value { font-size: 16px; }
+
+  .events-section { padding: 32px 16px; }
+  .events-grid { grid-template-columns: 1fr; gap: 12px; }
+  .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  .pipeline-section { padding: 20px 16px 60px; }
+  .pipeline-grid { grid-template-columns: 1fr; gap: 10px; }
+
+  .event-card__stats { flex-wrap: wrap; gap: 10px; }
+}
 </style>

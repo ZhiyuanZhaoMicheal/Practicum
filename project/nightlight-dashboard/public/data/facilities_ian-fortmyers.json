@@ -140,16 +140,6 @@
     "radiusM": 1250
   },
   {
-    "name": "Buckingham Field",
-    "type": "airport",
-    "coords": [
-      -81.708,
-      26.64297
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
     "name": "Caloosa Downtown Seaplane Base",
     "type": "airport",
     "coords": [
@@ -200,16 +190,6 @@
     "radiusM": 1250
   },
   {
-    "name": "FGCU Solar Field",
-    "type": "power",
-    "coords": [
-      -81.78303,
-      26.46507
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Fort Myers Plant",
     "type": "power",
     "coords": [
@@ -255,16 +235,6 @@
     "coords": [
       -81.90981,
       26.67129
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "San Carlos Park Fire Department Station 51",
-    "type": "fire",
-    "coords": [
-      -81.82326,
-      26.46821
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -420,16 +390,6 @@
     "radiusM": 750
   },
   {
-    "name": "Fort Myers Beach Fire Department Station 2",
-    "type": "fire",
-    "coords": [
-      -81.94802,
-      26.48162
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Fort Myers Fire Department Station 14",
     "type": "fire",
     "coords": [
@@ -515,16 +475,6 @@
     "coords": [
       -81.93651,
       26.514
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "San Carlos Park Fire Department Station 53",
-    "type": "fire",
-    "coords": [
-      -81.78052,
-      26.4575
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -780,16 +730,6 @@
     "radiusM": 750
   },
   {
-    "name": "Lee County Sheriff's Office",
-    "type": "police",
-    "coords": [
-      -81.70612,
-      26.64589
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Cape Coral Police Department",
     "type": "police",
     "coords": [
@@ -980,16 +920,6 @@
     "radiusM": 750
   },
   {
-    "name": "Iona Substation",
-    "type": "substation",
-    "coords": [
-      -81.94365,
-      26.48657
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Winkler Substation",
     "type": "substation",
     "coords": [
@@ -1010,7 +940,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -81.77923,
@@ -1050,7 +980,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -81.78408,
@@ -1240,7 +1170,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -81.81463,
@@ -1260,7 +1190,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -81.9737,
@@ -1270,7 +1200,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -81.78218,
@@ -1300,7 +1230,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.82674,
@@ -1310,7 +1240,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.85929,
@@ -1320,7 +1250,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.72552,
@@ -1330,7 +1260,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.72254,
@@ -1340,7 +1270,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.75698,
@@ -1350,17 +1280,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "water_works",
-    "coords": [
-      -81.82845,
-      26.47587
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -81.79143,

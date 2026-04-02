@@ -315,12 +315,14 @@ def export_time_series(event_nb_id, cfg, event_df, data_dir, out_dir):
 # 6. Facility probability export
 # ──────────────────────────────────────────────────────────────────────────────
 
-def export_facility_probs(event_nb_id, event_df, prob_arr, poi_cache_dir, out_dir):
+def export_facility_probs(event_nb_id, event_df, prob_arr, poi_cache_dir, out_dir,
+                          lons=None, lats=None):
     """
     For each facility POI, compute the mean predicted probability
     within its buffer zone. Also includes the POI's lat/lon for the
     events.js facilities array.
 
+    Only includes POIs within the study area bounding box (from pixel lons/lats).
     Writes: public/data/facilities_<dash_id>.json
     """
     dash_id   = EVENT_ID_MAP.get(event_nb_id, event_nb_id.lower())
@@ -335,11 +337,28 @@ def export_facility_probs(event_nb_id, event_df, prob_arr, poi_cache_dir, out_di
         return []
 
     # Required columns: facility_type, lon, lat
-    # (notebook saves these in poi_cache)
     required = {"facility_type", "lon", "lat"}
     if not required.issubset(poi_df.columns):
         print(f"  [WARN] POI CSV missing columns {required - set(poi_df.columns)}")
         return []
+
+    # Filter POIs to study area bounding box (with small padding)
+    if lons is not None and lats is not None:
+        pad = 0.01  # ~1km padding
+        lon_min, lon_max = float(lons.min()) - pad, float(lons.max()) + pad
+        lat_min, lat_max = float(lats.min()) - pad, float(lats.max()) + pad
+        before = len(poi_df)
+        poi_df = poi_df[
+            (poi_df["lon"] >= lon_min) & (poi_df["lon"] <= lon_max) &
+            (poi_df["lat"] >= lat_min) & (poi_df["lat"] <= lat_max)
+        ]
+        print(f"  Filtered POIs to study area: {before} → {len(poi_df)}")
+
+    # Fix "nan" names
+    if "name" in poi_df.columns:
+        poi_df["name"] = poi_df["name"].fillna("").astype(str)
+        poi_df.loc[poi_df["name"].isin(["nan", ""]), "name"] = \
+            poi_df.loc[poi_df["name"].isin(["nan", ""]), "facility_type"] + " facility"
 
     # Attach OOF/model probability to each pixel
     event_df = event_df.copy()
@@ -351,8 +370,7 @@ def export_facility_probs(event_nb_id, event_df, prob_arr, poi_cache_dir, out_di
         radius_m  = BUFFER_RADIUS.get(fac_type, BUFFER_RADIUS["default"])
 
         # Mean probability for pixels whose nearest facility is this type
-        # AND are in the buffer. Since we don't have per-POI pixel mapping
-        # directly, use nearest_fac_type as a proxy.
+        # AND are in the buffer.
         in_type_buf = (
             (event_df["nearest_fac_type"] == fac_type) &
             (event_df["in_buffer_strict"] == 1)
@@ -362,8 +380,12 @@ def export_facility_probs(event_nb_id, event_df, prob_arr, poi_cache_dir, out_di
             if in_type_buf.any() else float("nan")
         )
 
+        name = str(fac.get("name", f"{fac_type} facility"))
+        if name in ("nan", ""):
+            name = f"{fac_type} facility"
+
         facilities.append({
-            "name":        str(fac.get("name", f"{fac_type} facility")),
+            "name":        name,
             "type":        FAC_TYPE_MAP.get(fac_type, fac_type),
             "coords":      [round(float(fac["lon"]), 5), round(float(fac["lat"]), 5)],
             "probability": round(mean_prob, 3) if not np.isnan(mean_prob) else 0.5,
@@ -576,7 +598,8 @@ def main(project_root, dashboard_root):
 
         # Facility probabilities
         facilities = export_facility_probs(
-            nb_id, event_df, ens_prob, poi_cache_dir, out_dir)
+            nb_id, event_df, ens_prob, poi_cache_dir, out_dir,
+            lons=lons, lats=lats)
         all_facilities[nb_id] = facilities
 
     # ── Generate events_config.js ───────────────────────────────────────────

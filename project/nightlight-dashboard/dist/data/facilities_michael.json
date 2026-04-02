@@ -10,7 +10,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "hospital facility",
     "type": "hospital",
     "coords": [
       -85.65695,
@@ -20,7 +20,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "hospital facility",
     "type": "hospital",
     "coords": [
       -85.60861,
@@ -30,7 +30,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "hospital facility",
     "type": "hospital",
     "coords": [
       -85.60471,
@@ -40,7 +40,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "hospital facility",
     "type": "hospital",
     "coords": [
       -85.66588,
@@ -60,7 +60,7 @@
     "radiusM": 1250
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -85.61215,
@@ -110,7 +110,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -85.5654,
@@ -160,7 +160,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -85.65185,
@@ -170,7 +170,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -85.63271,
@@ -180,7 +180,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -85.61026,
@@ -190,7 +190,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -85.66339,
@@ -250,7 +250,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -85.6412,
@@ -500,7 +500,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.51888,
@@ -590,7 +590,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.62181,
@@ -610,7 +610,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.75965,
@@ -630,7 +630,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.61537,
@@ -640,7 +640,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.57772,
@@ -650,7 +650,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.60413,
@@ -670,7 +670,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.69932,
@@ -690,7 +690,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -85.70308,

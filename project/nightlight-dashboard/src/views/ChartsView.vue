@@ -355,5 +355,22 @@ code {
 
 @media (max-width: 800px) {
   .results-inner { padding: 24px 16px 60px; }
+  .page-header__title { font-size: 22px; }
+  .fi-name { width: 120px; font-size: 11px; }
+  .fi-val { width: 38px; font-size: 10px; }
+  .takeaway { padding: 16px 18px; }
+  .takeaway__text { font-size: 13px; }
+}
+
+@media (max-width: 480px) {
+  .results-inner { padding: 20px 12px 60px; gap: 24px; }
+  .page-header__title { font-size: 20px; }
+  .result-section h2 { font-size: 15px; }
+  .fi-item { gap: 6px; }
+  .fi-name { width: 90px; font-size: 10px; }
+  .fi-rank { width: 16px; font-size: 10px; }
+  .data-table { margin: 0 -12px; }
+  .data-table table { font-size: 11px; }
+  th, td { padding: 6px 8px; }
 }
 </style>

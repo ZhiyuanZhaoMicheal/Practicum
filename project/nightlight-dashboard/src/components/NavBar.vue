@@ -15,7 +15,7 @@
       <span class="navbar__logo-text">NIGHTLIGHT</span>
     </RouterLink>
 
-    <!-- Navigation links -->
+    <!-- Navigation links (desktop) -->
     <div class="navbar__links">
       <RouterLink
         v-for="link in links"
@@ -34,15 +34,38 @@
       <span class="status-dot" />
       <span class="status-text mono">{{ eventCount }} EVENTS LOADED</span>
     </div>
+
+    <!-- Hamburger button (mobile) -->
+    <button class="navbar__hamburger" @click="mobileOpen = !mobileOpen" aria-label="Menu">
+      <span :class="{ open: mobileOpen }" />
+    </button>
+
+    <!-- Mobile dropdown -->
+    <div class="navbar__mobile" :class="{ open: mobileOpen }">
+      <RouterLink
+        v-for="link in links"
+        :key="'m-' + link.to"
+        :to="link.to"
+        class="navbar__mobile-link"
+        :class="{ active: route.path === link.to }"
+        @click="mobileOpen = false"
+      >
+        {{ link.label }}
+      </RouterLink>
+    </div>
   </nav>
 </template>
 
 <script setup>
+import { ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { EVENTS } from '@/data/events.js'
 
 const route = useRoute()
 const eventCount = EVENTS.length
+const mobileOpen = ref(false)
+
+watch(() => route.path, () => { mobileOpen.value = false })
 
 const links = [
   { to: '/',       label: 'Overview' },
@@ -148,5 +171,88 @@ const links = [
   font-size: 10px;
   letter-spacing: 0.12em;
   color: var(--text-muted);
+}
+
+/* Hamburger button — hidden on desktop */
+.navbar__hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin-left: auto;
+}
+.navbar__hamburger span,
+.navbar__hamburger span::before,
+.navbar__hamburger span::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 1px;
+  position: absolute;
+  left: 4px;
+  transition: all 0.25s ease;
+}
+.navbar__hamburger span { top: 13px; }
+.navbar__hamburger span::before { content: ''; top: -6px; }
+.navbar__hamburger span::after  { content: ''; top: 6px; }
+.navbar__hamburger span.open { background: transparent; }
+.navbar__hamburger span.open::before { top: 0; transform: rotate(45deg); }
+.navbar__hamburger span.open::after  { top: 0; transform: rotate(-45deg); }
+
+/* Mobile dropdown — hidden on desktop */
+.navbar__mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar { padding: 0 16px; }
+  .navbar__links  { display: none; }
+  .navbar__status { display: none; }
+  .navbar__hamburger { display: block; }
+
+  .navbar__mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: var(--nav-h);
+    left: 0; right: 0;
+    background: rgba(3, 13, 26, 0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 16px;
+    gap: 2px;
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    z-index: 99;
+  }
+  .navbar__mobile.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+  .navbar__mobile-link {
+    display: block;
+    padding: 10px 14px;
+    font-family: var(--font-head);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    border-radius: var(--radius);
+    transition: all var(--t-fast);
+  }
+  .navbar__mobile-link:hover,
+  .navbar__mobile-link.active {
+    color: var(--cyan);
+    background: var(--cyan-dim);
+  }
 }
 </style>

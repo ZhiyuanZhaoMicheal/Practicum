@@ -264,4 +264,18 @@ tr:hover td { background: var(--bg-3); }
   .docs-inner { padding: 24px 16px 60px; }
   .sections-grid { grid-template-columns: 1fr; }
 }
+
+@media (max-width: 600px) {
+  .docs-inner { padding: 20px 12px 60px; gap: 24px; }
+  .page-header__title { font-size: 24px; }
+  .page-header__desc { font-size: 14px; }
+  .section-card { padding: 18px 16px; }
+  .section-card__title { font-size: 18px; }
+  .section-card__desc { font-size: 14px; }
+  .section-card__tags { gap: 4px; }
+  .tag--dim { font-size: 10px; padding: 3px 7px; }
+  .data-table { margin: 0 -12px; }
+  .data-table table { font-size: 11px; }
+  th, td { padding: 6px 8px; }
+}
 </style>

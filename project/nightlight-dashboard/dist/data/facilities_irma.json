@@ -20,16 +20,6 @@
     "radiusM": 750
   },
   {
-    "name": "Baptist Children's Hospital",
-    "type": "hospital",
-    "coords": [
-      -80.33823,
-      25.684
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Coral Gables Acupuncture",
     "type": "hospital",
     "coords": [
@@ -130,16 +120,6 @@
     "radiusM": 750
   },
   {
-    "name": "United Dental Specialists",
-    "type": "hospital",
-    "coords": [
-      -80.33233,
-      25.91399
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Jackson Memorial Emergency Department",
     "type": "hospital",
     "coords": [
@@ -235,16 +215,6 @@
     "coords": [
       -80.2084,
       25.7911
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Jackson North Medical Center",
-    "type": "hospital",
-    "coords": [
-      -80.20307,
-      25.93039
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -420,16 +390,6 @@
     "radiusM": 750
   },
   {
-    "name": "Leon Medical Centers",
-    "type": "hospital",
-    "coords": [
-      -80.39649,
-      25.687
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Jackson West Medical Center",
     "type": "hospital",
     "coords": [
@@ -500,16 +460,6 @@
     "radiusM": 750
   },
   {
-    "name": "IKEA Miami 327 Solar",
-    "type": "power",
-    "coords": [
-      -80.38375,
-      25.79153
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Wynwood Energy Storage",
     "type": "power",
     "coords": [
@@ -545,26 +495,6 @@
     "coords": [
       -80.34889,
       25.81083
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Honey Hill Fire Station",
-    "type": "fire",
-    "coords": [
-      -80.28,
-      25.95361
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Bunche Park Fire Station",
-    "type": "fire",
-    "coords": [
-      -80.24472,
-      25.91361
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -690,61 +620,11 @@
     "radiusM": 750
   },
   {
-    "name": "Coral Gables Fire Department Station 3",
-    "type": "fire",
-    "coords": [
-      -80.28236,
-      25.66329
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "West Kendall Fire Department Station 57",
-    "type": "fire",
-    "coords": [
-      -80.40104,
-      25.68881
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Bunche Park Fire Department Station 54",
-    "type": "fire",
-    "coords": [
-      -80.24465,
-      25.91332
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Palm Springs North Fire Department Station 44",
-    "type": "fire",
-    "coords": [
-      -80.32656,
-      25.94188
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Doral Fire Department Station 45",
     "type": "fire",
     "coords": [
       -80.35439,
       25.82568
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "West Bird Fire Department Station 37",
-    "type": "fire",
-    "coords": [
-      -80.42407,
-      25.72804
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -760,31 +640,11 @@
     "radiusM": 750
   },
   {
-    "name": "Medley Fire Department Station 46",
-    "type": "fire",
-    "coords": [
-      -80.36441,
-      25.87018
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Westchester Fire Department Station 47",
     "type": "fire",
     "coords": [
       -80.34696,
       25.74771
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Pinecrest Fire Department Station 49",
-    "type": "fire",
-    "coords": [
-      -80.28492,
-      25.66905
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -850,51 +710,11 @@
     "radiusM": 750
   },
   {
-    "name": "Sweetwater Fire Department Station 29",
-    "type": "fire",
-    "coords": [
-      -80.36841,
-      25.7652
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami Shores / El Portal Fire Station 30",
     "type": "fire",
     "coords": [
       -80.19367,
       25.8628
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Miami Beach Fire Department Station 31",
-    "type": "fire",
-    "coords": [
-      -80.16273,
-      25.93284
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Uleta Fire Department Station 32",
-    "type": "fire",
-    "coords": [
-      -80.19286,
-      25.92891
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Aventura South Fire Department Station 33",
-    "type": "fire",
-    "coords": [
-      -80.1484,
-      25.94015
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1160,36 +980,6 @@
     "radiusM": 750
   },
   {
-    "name": "Suniland / Pinecrest Fire Department Station 23",
-    "type": "fire",
-    "coords": [
-      -80.3212,
-      25.67421
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Sunny Isles Beach Fire Department Station 10",
-    "type": "fire",
-    "coords": [
-      -80.12315,
-      25.93563
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Kendall Fire Department Station 9",
-    "type": "fire",
-    "coords": [
-      -80.3813,
-      25.69547
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami Fire / Rescue Station 10",
     "type": "fire",
     "coords": [
@@ -1210,37 +1000,7 @@
     "radiusM": 750
   },
   {
-    "name": "Eastern Shores Fire Rescue Station (78)",
-    "type": "fire",
-    "coords": [
-      -80.13578,
-      25.93172
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Miami Lakes Fire Station",
-    "type": "fire",
-    "coords": [
-      -80.30893,
-      25.92402
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Carol City Fire Department Station 11",
-    "type": "fire",
-    "coords": [
-      -80.24511,
-      25.94489
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -80.19369,
@@ -1260,71 +1020,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "fire",
-    "coords": [
-      -80.42408,
-      25.72806
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Turnpike South Fire Department Station 53",
-    "type": "fire",
-    "coords": [
-      -80.38734,
-      25.65871
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Honey Hill Fire Department Station 51",
-    "type": "fire",
-    "coords": [
-      -80.27983,
-      25.95533
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Tamiami Fire Department Station 58",
-    "type": "fire",
-    "coords": [
-      -80.40131,
-      25.76181
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Interama Fire Department Station 22",
-    "type": "fire",
-    "coords": [
-      -80.15534,
-      25.91955
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami Beach Number 4 Fire Station",
     "type": "fire",
     "coords": [
       -80.12406,
       25.8539
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "fire",
-    "coords": [
-      -80.40108,
-      25.68885
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1340,31 +1040,11 @@
     "radiusM": 750
   },
   {
-    "name": "Doral North Fire Station",
-    "type": "fire",
-    "coords": [
-      -80.37791,
-      25.84105
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Coral Gables Fire Department Station 2",
     "type": "fire",
     "coords": [
       -80.26476,
       25.72441
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Aventura Police Station",
-    "type": "police",
-    "coords": [
-      -80.13916,
-      25.95281
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1450,31 +1130,11 @@
     "radiusM": 750
   },
   {
-    "name": "Hialeah Gardens Police Substation",
-    "type": "police",
-    "coords": [
-      -80.36944,
-      25.88944
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Hialeah Gardens Police Station",
     "type": "police",
     "coords": [
       -80.33917,
       25.86306
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Medley Satellite Police Station",
-    "type": "police",
-    "coords": [
-      -80.36222,
-      25.87306
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1620,41 +1280,11 @@
     "radiusM": 750
   },
   {
-    "name": "Sweetwater Police Station",
-    "type": "police",
-    "coords": [
-      -80.37306,
-      25.76361
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Sunny Isles Beach Police Department",
-    "type": "police",
-    "coords": [
-      -80.12202,
-      25.9426
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Virginia Gardens Police Station",
     "type": "police",
     "coords": [
       -80.30222,
       25.80917
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Pinecrest Police Station",
-    "type": "police",
-    "coords": [
-      -80.32528,
-      25.66444
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1675,16 +1305,6 @@
     "coords": [
       -80.29207,
       25.70329
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "North Miami Beach Police Station",
-    "type": "police",
-    "coords": [
-      -80.16222,
-      25.93139
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1730,16 +1350,6 @@
     "radiusM": 750
   },
   {
-    "name": "Miami Highway Patrol Troop E",
-    "type": "police",
-    "coords": [
-      -80.37411,
-      25.78148
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami Police Department - Little Haiti NET",
     "type": "police",
     "coords": [
@@ -1760,31 +1370,11 @@
     "radiusM": 750
   },
   {
-    "name": "Miami-Dade Police Department Professional Compliance Bureau",
-    "type": "police",
-    "coords": [
-      -80.2444,
-      25.94548
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Doral Police Department",
     "type": "police",
     "coords": [
       -80.33142,
       25.82062
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Miami Gardens Police Department",
-    "type": "police",
-    "coords": [
-      -80.22692,
-      25.92768
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1805,16 +1395,6 @@
     "coords": [
       -80.21594,
       25.77462
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Florida Highway Patrol Snapper Creek Service Plaza",
-    "type": "police",
-    "coords": [
-      -80.3874,
-      25.66367
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1845,16 +1425,6 @@
     "coords": [
       -80.32574,
       25.78288
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Kendall Police Station",
-    "type": "police",
-    "coords": [
-      -80.38085,
-      25.69676
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1940,26 +1510,6 @@
     "radiusM": 750
   },
   {
-    "name": "North Miami Beach Police Department - Neighborhood Resource Center",
-    "type": "police",
-    "coords": [
-      -80.1692,
-      25.91596
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Miami - Dade County Police Department",
-    "type": "police",
-    "coords": [
-      -80.24486,
-      25.9415
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami - Dade County Police Department",
     "type": "police",
     "coords": [
@@ -2025,16 +1575,6 @@
     "coords": [
       -80.34331,
       25.79758
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Miami - Dade County Police Department Hammocks Station",
-    "type": "police",
-    "coords": [
-      -80.423,
-      25.6746
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2110,16 +1650,6 @@
     "radiusM": 750
   },
   {
-    "name": "Sweetwater Police Department",
-    "type": "police",
-    "coords": [
-      -80.38071,
-      25.7683
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Miami - Dade County Police Department - Evidence",
     "type": "police",
     "coords": [
@@ -2180,41 +1710,11 @@
     "radiusM": 750
   },
   {
-    "name": "FIU Police Department",
-    "type": "police",
-    "coords": [
-      -80.37213,
-      25.75989
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Pinecrest Police Station",
-    "type": "police",
-    "coords": [
-      -80.32861,
-      25.65288
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Marine Police",
     "type": "police",
     "coords": [
       -80.1732,
       25.78525
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "University Police",
-    "type": "police",
-    "coords": [
-      -80.14349,
-      25.91197
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2280,27 +1780,7 @@
     "radiusM": 750
   },
   {
-    "name": "Miami - Dade County Police Department Intercoastal Station",
-    "type": "police",
-    "coords": [
-      -80.15497,
-      25.92001
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Florida Fish and Wildlife Conservation Commission Law Enforcement South Region B",
-    "type": "police",
-    "coords": [
-      -80.13957,
-      25.91544
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -80.33597,
@@ -2450,16 +1930,6 @@
     "radiusM": 750
   },
   {
-    "name": "USCIS Immigration",
-    "type": "government",
-    "coords": [
-      -80.43097,
-      25.6562
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Port of Miami Administration",
     "type": "government",
     "coords": [
@@ -2490,31 +1960,11 @@
     "radiusM": 750
   },
   {
-    "name": "Dade County Public School Management",
-    "type": "government",
-    "coords": [
-      -80.40712,
-      25.74456
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Customer Service Centers Miami Beach",
     "type": "government",
     "coords": [
       -80.1364,
       25.79312
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Florida Highway Patrol Regional Communication Center - Miami",
-    "type": "government",
-    "coords": [
-      -80.37417,
-      25.78085
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2535,16 +1985,6 @@
     "coords": [
       -80.18759,
       25.79002
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Park Administration Office",
-    "type": "government",
-    "coords": [
-      -80.15676,
-      25.67136
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2575,26 +2015,6 @@
     "coords": [
       -80.18148,
       25.78977
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "FIU One Card Center",
-    "type": "government",
-    "coords": [
-      -80.37249,
-      25.75472
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Florida Department of Highway Safety and Motor Vehicles",
-    "type": "government",
-    "coords": [
-      -80.37896,
-      25.89851
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2640,36 +2060,6 @@
     "radiusM": 750
   },
   {
-    "name": "Social Security Administration",
-    "type": "government",
-    "coords": [
-      -80.38166,
-      25.76902
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Pincrest",
-    "type": "government",
-    "coords": [
-      -80.32861,
-      25.65314
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "National Weather Service - Miami, FL,",
-    "type": "government",
-    "coords": [
-      -80.38364,
-      25.7546
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Refugee Health Center",
     "type": "government",
     "coords": [
@@ -2700,46 +2090,6 @@
     "radiusM": 750
   },
   {
-    "name": "USCIS Application Support Center (ASC) North Miami",
-    "type": "government",
-    "coords": [
-      -80.16727,
-      25.92471
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "N Miami Beach Public Services Opns",
-    "type": "government",
-    "coords": [
-      -80.15726,
-      25.9228
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Dade County Commissioner",
-    "type": "government",
-    "coords": [
-      -80.17786,
-      25.92519
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Florida Department of Highway Safety and Motor Vehicles",
-    "type": "government",
-    "coords": [
-      -80.15554,
-      25.91818
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Driver License and Motor Vehicle Service Center",
     "type": "government",
     "coords": [
@@ -2750,31 +2100,11 @@
     "radiusM": 750
   },
   {
-    "name": "Florida Department of Highway Safety and Motor Vehicles",
-    "type": "government",
-    "coords": [
-      -80.21536,
-      25.9432
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Customs & GAC",
     "type": "government",
     "coords": [
       -80.2895,
       25.80526
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "National Hurricane Center",
-    "type": "government",
-    "coords": [
-      -80.38362,
-      25.75449
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2795,16 +2125,6 @@
     "coords": [
       -80.16263,
       25.73577
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "government",
-    "coords": [
-      -80.32862,
-      25.65298
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2840,26 +2160,6 @@
     "radiusM": 750
   },
   {
-    "name": "US Social Security Administration",
-    "type": "government",
-    "coords": [
-      -80.22145,
-      25.92943
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Sunny Isles Beach Government Center",
-    "type": "government",
-    "coords": [
-      -80.12178,
-      25.94268
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Coral Gables Tag Agency",
     "type": "government",
     "coords": [
@@ -2880,21 +2180,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -80.18764,
       25.85487
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Miami-Dade Corrections & Rehabilitation Department Headquarters",
-    "type": "government",
-    "coords": [
-      -80.36714,
-      25.80624
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2910,7 +2200,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -80.33858,
@@ -2960,7 +2250,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -80.29204,
@@ -2975,16 +2265,6 @@
     "coords": [
       -80.18269,
       25.89016
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Miami Gardens City Hall",
-    "type": "government",
-    "coords": [
-      -80.2447,
-      25.94374
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -3010,7 +2290,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -80.29202,
@@ -3035,16 +2315,6 @@
     "coords": [
       -80.13248,
       25.77582
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "NOAA",
-    "type": "government",
-    "coords": [
-      -80.3835,
-      25.75487
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -3110,16 +2380,6 @@
     "radiusM": 750
   },
   {
-    "name": "Miller Substation",
-    "type": "substation",
-    "coords": [
-      -80.36578,
-      25.7133
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "Miami Lakes Substation",
     "type": "substation",
     "coords": [
@@ -3140,17 +2400,7 @@
     "radiusM": 750
   },
   {
-    "name": "Seagull Substation",
-    "type": "substation",
-    "coords": [
-      -80.38014,
-      25.81834
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.33089,
@@ -3165,46 +2415,6 @@
     "coords": [
       -80.35362,
       25.83117
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Levee Substation FPL",
-    "type": "substation",
-    "coords": [
-      -80.43563,
-      25.81331
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Lindgren Substation",
-    "type": "substation",
-    "coords": [
-      -80.4133,
-      25.69095
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Sweetwater Substation",
-    "type": "substation",
-    "coords": [
-      -80.41627,
-      25.77316
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Modesto A. Maidique Substation",
-    "type": "substation",
-    "coords": [
-      -80.38357,
-      25.75295
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3280,16 +2490,6 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -80.28783,
-      25.94034
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "Merchandise Substation",
     "type": "substation",
     "coords": [
@@ -3350,16 +2550,6 @@
     "radiusM": 750
   },
   {
-    "name": "Killian Substation",
-    "type": "substation",
-    "coords": [
-      -80.35444,
-      25.6605
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "Red Road Substation",
     "type": "substation",
     "coords": [
@@ -3370,21 +2560,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.32933,
       25.90068
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Country Club Substation",
-    "type": "substation",
-    "coords": [
-      -80.31962,
-      25.94209
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3410,16 +2590,6 @@
     "radiusM": 750
   },
   {
-    "name": "Urban Substation",
-    "type": "substation",
-    "coords": [
-      -80.36836,
-      25.8545
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "Coconut Grove Substation",
     "type": "substation",
     "coords": [
@@ -3430,71 +2600,11 @@
     "radiusM": 750
   },
   {
-    "name": "Snapper Creek Substation",
-    "type": "substation",
-    "coords": [
-      -80.28538,
-      25.67115
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Ojus Substation",
-    "type": "substation",
-    "coords": [
-      -80.14221,
-      25.94635
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "Arch Creek Substation",
     "type": "substation",
     "coords": [
       -80.17003,
       25.89273
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Spoonbill Substation",
-    "type": "substation",
-    "coords": [
-      -80.35705,
-      25.92722
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -80.37277,
-      25.87227
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Doral Substation",
-    "type": "substation",
-    "coords": [
-      -80.37031,
-      25.793
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Pennsuco Substation",
-    "type": "substation",
-    "coords": [
-      -80.37189,
-      25.87229
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3520,31 +2630,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.31315,
       25.78946
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Brandon Substation",
-    "type": "substation",
-    "coords": [
-      -80.21233,
-      25.91352
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -80.14467,
-      25.95433
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3595,16 +2685,6 @@
     "coords": [
       -80.25868,
       25.87768
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "137th Avenue Substation",
-    "type": "substation",
-    "coords": [
-      -80.41808,
-      25.78732
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3680,47 +2760,7 @@
     "radiusM": 750
   },
   {
-    "name": "Greynolds Substation",
-    "type": "substation",
-    "coords": [
-      -80.15108,
-      25.92717
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Weston Village Substation",
-    "type": "substation",
-    "coords": [
-      -80.20487,
-      25.94656
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Uleta Substation",
-    "type": "substation",
-    "coords": [
-      -80.17156,
-      25.92431
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Fulford Substation",
-    "type": "substation",
-    "coords": [
-      -80.20397,
-      25.92824
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.32846,
@@ -3735,26 +2775,6 @@
     "coords": [
       -80.31221,
       25.85576
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Golden Glades Substation",
-    "type": "substation",
-    "coords": [
-      -80.23317,
-      25.92765
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Garden Substation",
-    "type": "substation",
-    "coords": [
-      -80.26369,
-      25.93694
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3800,31 +2820,11 @@
     "radiusM": 750
   },
   {
-    "name": "Village Green Substation",
-    "type": "substation",
-    "coords": [
-      -80.38533,
-      25.72819
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "University Substation",
     "type": "substation",
     "coords": [
       -80.27574,
       25.71681
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Marion Substation",
-    "type": "substation",
-    "coords": [
-      -80.38156,
-      25.69315
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -3840,7 +2840,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.31235,
@@ -3930,26 +2930,6 @@
     "radiusM": 750
   },
   {
-    "name": "Suniland Substation",
-    "type": "substation",
-    "coords": [
-      -80.32689,
-      25.65651
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Kendall Substation",
-    "type": "substation",
-    "coords": [
-      -80.32665,
-      25.67594
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "8th Street Cable Terminal",
     "type": "substation",
     "coords": [
@@ -4020,16 +3000,6 @@
     "radiusM": 750
   },
   {
-    "name": "Sunny Isles Substation",
-    "type": "substation",
-    "coords": [
-      -80.13207,
-      25.9304
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
     "name": "Virginia Key Substation",
     "type": "substation",
     "coords": [
@@ -4080,7 +3050,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.35698,
@@ -4090,7 +3060,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.35659,
@@ -4100,31 +3070,11 @@
     "radiusM": 750
   },
   {
-    "name": "Don Shula Substation",
-    "type": "substation",
-    "coords": [
-      -80.37994,
-      25.65741
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.19863,
       25.79057
-    ],
-    "probability": 0.736,
-    "radiusM": 750
-  },
-  {
-    "name": "Faucet Substation",
-    "type": "substation",
-    "coords": [
-      -80.39972,
-      25.67676
     ],
     "probability": 0.736,
     "radiusM": 750
@@ -4140,7 +3090,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.14613,
@@ -4160,7 +3110,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.17071,
@@ -4170,7 +3120,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -80.2106,

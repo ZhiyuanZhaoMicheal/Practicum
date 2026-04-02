@@ -1,60 +1,10 @@
 [
   {
-    "name": "Hatay Havaalan\u0131",
-    "type": "airport",
-    "coords": [
-      36.28637,
-      36.36133
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
-    "name": "K\u0131r\u0131khan \u0130l\u00e7e Emniyet M\u00fcd\u00fcrl\u00fc\u011f\u00fc",
-    "type": "police",
-    "coords": [
-      36.36234,
-      36.48333
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "police",
-    "coords": [
-      36.4513,
-      36.14214
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Serinyol Jandarma Komutanl\u0131\u011f\u0131",
-    "type": "police",
-    "coords": [
-      36.20673,
-      36.35432
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Alt\u0131n\u00f6z\u00fc Kaymakaml\u0131k Lojman\u0131 Polis Noktas\u0131",
     "type": "police",
     "coords": [
       36.24766,
       36.11743
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Belen Kaymakaml\u0131k Lojman\u0131 Polis Noktas\u0131",
-    "type": "police",
-    "coords": [
-      36.18154,
-      36.50723
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -105,16 +55,6 @@
     "coords": [
       36.16444,
       36.19493
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "government",
-    "coords": [
-      36.45113,
-      36.1419
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -260,36 +200,6 @@
     "radiusM": 750
   },
   {
-    "name": "Hatay \u0130l Afet ve Acil Durum M\u00fcd\u00fcrl\u00fc\u011f\u00fc",
-    "type": "government",
-    "coords": [
-      36.2263,
-      36.36844
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Hatay 112 Acil \u00c7a\u011fr\u0131 Merkezi M\u00fcd\u00fcrl\u00fc\u011f\u00fc",
-    "type": "government",
-    "coords": [
-      36.22567,
-      36.36809
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Hatay \u0130l Afet ve Acil Durum M\u00fcd\u00fcrl\u00fc\u011f\u00fc",
-    "type": "government",
-    "coords": [
-      36.22536,
-      36.36815
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "AFAD",
     "type": "government",
     "coords": [
@@ -370,36 +280,6 @@
     "radiusM": 750
   },
   {
-    "name": "Belen Kaymakaml\u0131k Lojman\u0131",
-    "type": "government",
-    "coords": [
-      36.18201,
-      36.50695
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Belen Kaymakaml\u0131k Lojman\u0131",
-    "type": "government",
-    "coords": [
-      36.18184,
-      36.50699
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Antakya-II TM",
-    "type": "substation",
-    "coords": [
-      36.27381,
-      36.41475
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
     "name": "Samanda\u011f RES TM",
     "type": "substation",
     "coords": [
@@ -430,67 +310,7 @@
     "radiusM": 750
   },
   {
-    "name": "\u0130skenderun-III TM",
-    "type": "substation",
-    "coords": [
-      36.16823,
-      36.53735
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "\u015eenb\u00fck RES TM",
-    "type": "substation",
-    "coords": [
-      36.23604,
-      36.44901
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "\u00c7er\u00e7ikaya RES TM",
-    "type": "substation",
-    "coords": [
-      36.11619,
-      36.42303
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "Belen RES TM",
-    "type": "substation",
-    "coords": [
-      36.21256,
-      36.47832
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "Atik Belen TM",
-    "type": "substation",
-    "coords": [
-      36.21624,
-      36.50684
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "Samanda\u011f TM",
-    "type": "substation",
-    "coords": [
-      36.01407,
-      36.05539
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       36.13926,
@@ -500,17 +320,7 @@
     "radiusM": 750
   },
   {
-    "name": "Karl\u0131tepe RES substation",
-    "type": "substation",
-    "coords": [
-      36.1033,
-      36.44856
-    ],
-    "probability": 0.43,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       36.16251,

@@ -28,6 +28,14 @@
             <span class="layer-toggle__box" :style="{ '--lc': '#c8dff0' }" />
             <span class="layer-toggle__label">Facility Labels</span>
           </label>
+
+          <hr class="divider" style="margin:10px 0 6px" />
+          <div class="sidebar__section-title" style="font-size:9px; margin-bottom:6px">Ground Truth (Miami only)</div>
+          <label class="layer-toggle">
+            <input type="checkbox" :checked="showGenerators" @change="toggleGenerators" />
+            <span class="layer-toggle__box" :style="{ '--lc': '#ff0' }" />
+            <span class="layer-toggle__label">Real Generators</span>
+          </label>
         </div>
 
         <hr class="divider" style="margin:16px 0" />
@@ -99,6 +107,14 @@
             <div class="fac-legend__item">
               <span class="fac-legend__icon" style="color:#38bdf8">&#x1F4A7;</span>
               <span>Water Works</span>
+            </div>
+            <div class="fac-legend__item" v-if="showGenerators" style="margin-top:6px; border-top:1px solid var(--border); padding-top:6px">
+              <span class="fac-legend__icon" style="color:#ffe600">&#x25C6;</span>
+              <span>Real Generator (Commercial)</span>
+            </div>
+            <div class="fac-legend__item" v-if="showGenerators">
+              <span class="fac-legend__icon" style="color:#ff8c00">&#x25CF;</span>
+              <span>Real Generator (Residential)</span>
             </div>
           </div>
         </div>
@@ -257,6 +273,8 @@ const eventPanelCollapsed = ref(false)
 const popup = ref({ visible: false, x: 0, y: 0, name: '', facilityType: '', probability: 0 })
 const chartPanelOpen = ref(false)
 const showLabels = ref(true)
+const showGenerators = ref(false)
+let generatorsLoaded = false
 const pixelTip = ref({ visible: false, x: 0, y: 0, prob: 0, inBuffer: false })
 const activeBasemap = ref('dark')
 
@@ -444,6 +462,12 @@ function addFacilityIcons(mapInstance) {
 
 // ── Initialize map ──
 onMounted(() => {
+  // Auto-collapse sidebars on mobile
+  if (window.innerWidth <= 768) {
+    sidebarCollapsed.value = true
+    eventPanelCollapsed.value = true
+  }
+
   map = new maplibregl.Map({
     container: mapContainer.value,
     style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
@@ -752,6 +776,59 @@ function toggleLabels() {
   if (!map) return
   const vis = showLabels.value ? 'visible' : 'none'
   EVENTS.forEach(ev => safeSetVisibility(`facilities-label-${ev.id}`, vis))
+}
+
+// ── Toggle real generator overlay (Miami/Irma only) ──
+async function toggleGenerators() {
+  showGenerators.value = !showGenerators.value
+  if (!map) return
+
+  if (!generatorsLoaded) {
+    try {
+      const BASE = import.meta.env.BASE_URL
+      const res = await fetch(`${BASE}data/generators_irma.geojson`)
+      if (!res.ok) return
+      const data = await res.json()
+
+      map.addSource('generators', { type: 'geojson', data })
+
+      // Commercial generators — yellow diamonds
+      map.addLayer({
+        id: 'generators-commercial',
+        type: 'circle',
+        source: 'generators',
+        filter: ['==', ['get', 'type'], 'C'],
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 8, 3, 12, 6, 14, 10],
+          'circle-color': '#ffe600',
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#000',
+          'circle-opacity': 0.9,
+        },
+      })
+
+      // Residential generators — small orange dots
+      map.addLayer({
+        id: 'generators-residential',
+        type: 'circle',
+        source: 'generators',
+        filter: ['==', ['get', 'type'], 'R'],
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 8, 1.5, 12, 3, 14, 5],
+          'circle-color': '#ff8c00',
+          'circle-stroke-width': 1,
+          'circle-stroke-color': '#000',
+          'circle-opacity': 0.7,
+        },
+      })
+
+      generatorsLoaded = true
+    } catch { return }
+  }
+
+  const vis = showGenerators.value ? 'visible' : 'none'
+  safeSetVisibility('generators-commercial', vis)
+  safeSetVisibility('generators-residential', vis)
 }
 
 // ── Switch basemap ──
@@ -1307,6 +1384,45 @@ function flyToEvent(ev) {
   backdrop-filter: blur(12px);
   border-radius: var(--radius-lg);
   overflow: hidden;
+}
+
+/* ── Mobile responsive ── */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+    top: 10px;
+    left: 10px;
+  }
+  .event-panel {
+    width: 220px;
+    top: 10px;
+    right: 10px;
+  }
+  .status-bar {
+    flex-direction: column;
+    gap: 2px;
+    padding: 4px 12px;
+    font-size: 9px;
+  }
+  .status-bar span { margin-left: 0 !important; }
+  .chart-panel { width: 100%; right: 0; bottom: 28px; }
+  .map-popup { width: 180px; }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 180px;
+    top: 8px;
+    left: 8px;
+  }
+  .sidebar__inner { max-height: 60vh; }
+  .event-panel {
+    width: 180px;
+    top: 8px;
+    right: 8px;
+  }
+  .event-panel__inner { max-height: 50vh; }
+  .event-pill__type { display: none; }
 }
 
 </style>

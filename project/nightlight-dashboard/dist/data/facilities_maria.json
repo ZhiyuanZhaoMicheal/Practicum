@@ -90,7 +90,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "hospital facility",
     "type": "hospital",
     "coords": [
       -66.05217,
@@ -190,21 +190,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "hospital facility",
     "type": "hospital",
     "coords": [
       -66.13848,
       18.42834
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "hospital",
-    "coords": [
-      -66.24357,
-      18.30306
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -330,27 +320,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "power",
-    "coords": [
-      -66.0164,
-      18.32819
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Parque Solar San Ferm\u00edn",
-    "type": "power",
-    "coords": [
-      -65.90382,
-      18.41219
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -66.13445,
@@ -360,7 +330,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -66.11434,
@@ -370,7 +340,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -66.1287,
@@ -380,7 +350,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -66.12551,
@@ -390,7 +360,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -66.1123,
@@ -410,7 +380,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -66.09229,
@@ -440,7 +410,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -66.05107,
@@ -490,7 +460,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -65.998,
@@ -505,16 +475,6 @@
     "coords": [
       -66.12677,
       18.44082
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Estaci\u00f3n de Bomberos - Bayam\u00f3n 2",
-    "type": "fire",
-    "coords": [
-      -66.19874,
-      18.34002
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -560,7 +520,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -66.03529,
@@ -600,7 +560,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -66.14769,
@@ -610,7 +570,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -65.98877,
@@ -620,7 +580,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -65.99377,
@@ -680,7 +640,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -66.09676,
@@ -770,16 +730,6 @@
     "radiusM": 750
   },
   {
-    "name": "Cuartel de la Polic\u00eda - Montehiedra",
-    "type": "police",
-    "coords": [
-      -66.06984,
-      18.33851
-    ],
-    "probability": 0.701,
-    "radiusM": 750
-  },
-  {
     "name": "Cuartel de la Polic\u00eda Municipal de San Juan - Unidad de Tr\u00e1nsito",
     "type": "police",
     "coords": [
@@ -800,7 +750,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -66.09142,
@@ -860,7 +810,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -66.02326,
@@ -920,7 +870,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -65.97954,
@@ -1180,7 +1130,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -66.14809,
@@ -1810,7 +1760,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -66.0989,
@@ -2100,7 +2050,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -65.9958,
@@ -2125,16 +2075,6 @@
     "coords": [
       -65.95552,
       18.38099
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "CESCO Carolina",
-    "type": "government",
-    "coords": [
-      -65.93887,
-      18.37776
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2230,16 +2170,6 @@
     "radiusM": 750
   },
   {
-    "name": "Centro de Servicios Integrados de Toa Baja",
-    "type": "government",
-    "coords": [
-      -66.21219,
-      18.41695
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Centro de Actividades M\u00faltiples Wilson Ramos Cort\u00e9s",
     "type": "government",
     "coords": [
@@ -2300,7 +2230,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.06609,
@@ -2330,7 +2260,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.05652,
@@ -2350,51 +2280,11 @@
     "radiusM": 750
   },
   {
-    "name": "Subestaci\u00f3n Candelaria Arenas",
-    "type": "substation",
-    "coords": [
-      -66.22624,
-      18.41329
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Subestaci\u00f3n Quebrada Negrito",
-    "type": "substation",
-    "coords": [
-      -65.98767,
-      18.32212
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Subestaci\u00f3n Pi\u00f1as",
-    "type": "substation",
-    "coords": [
-      -66.23086,
-      18.34687
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -65.99095,
       18.34365
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Subestaci\u00f3n Can\u00f3vanas",
-    "type": "substation",
-    "coords": [
-      -65.90963,
-      18.37476
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -2480,7 +2370,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.0867,
@@ -2540,7 +2430,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.04749,
@@ -2550,7 +2440,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.04756,
@@ -2560,7 +2450,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.10446,
@@ -2650,7 +2540,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.07024,
@@ -2720,16 +2610,6 @@
     "radiusM": 750
   },
   {
-    "name": "Subestaci\u00f3n R\u00edo",
-    "type": "substation",
-    "coords": [
-      -66.08523,
-      18.31349
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Subestaci\u00f3n Base Mu\u00f1iz",
     "type": "substation",
     "coords": [
@@ -2760,7 +2640,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.07208,
@@ -2790,7 +2670,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.11193,
@@ -2800,7 +2680,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.04974,
@@ -2830,7 +2710,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.18067,
@@ -2840,7 +2720,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.07542,
@@ -2850,7 +2730,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.07263,
@@ -2890,7 +2770,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.11261,
@@ -2900,7 +2780,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.12868,
@@ -3060,16 +2940,6 @@
     "radiusM": 750
   },
   {
-    "name": "Subestaci\u00f3n Solar San Ferm\u00edn",
-    "type": "substation",
-    "coords": [
-      -65.90779,
-      18.40552
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Subestaci\u00f3n Caparra",
     "type": "substation",
     "coords": [
@@ -3100,7 +2970,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.13968,
@@ -3120,7 +2990,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.13642,
@@ -3130,17 +3000,7 @@
     "radiusM": 750
   },
   {
-    "name": "Subestaci\u00f3n Barrazas",
-    "type": "substation",
-    "coords": [
-      -65.93901,
-      18.3233
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.02148,
@@ -3150,7 +3010,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.02388,
@@ -3160,7 +3020,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.01207,
@@ -3170,7 +3030,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.16644,
@@ -3180,7 +3040,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.15655,
@@ -3190,7 +3050,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.19495,
@@ -3200,7 +3060,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.1161,
@@ -3220,7 +3080,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.01674,
@@ -3240,7 +3100,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.02492,
@@ -3250,7 +3110,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.10943,
@@ -3260,7 +3120,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.10516,
@@ -3270,7 +3130,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.10364,
@@ -3280,7 +3140,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.09529,
@@ -3290,17 +3150,7 @@
     "radiusM": 750
   },
   {
-    "name": "Subestaci\u00f3n Buena Vista",
-    "type": "substation",
-    "coords": [
-      -66.20408,
-      18.32518
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.08666,
@@ -3320,7 +3170,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.05964,
@@ -3330,7 +3180,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.07323,
@@ -3340,7 +3190,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.04698,
@@ -3350,7 +3200,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.02549,
@@ -3370,7 +3220,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.16998,
@@ -3380,7 +3230,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.05587,
@@ -3390,7 +3240,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.02328,
@@ -3400,7 +3250,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.03655,
@@ -3410,7 +3260,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.04341,
@@ -3420,7 +3270,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -66.0591,
@@ -3430,17 +3280,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -66.01716,
-      18.32808
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -66.11972,

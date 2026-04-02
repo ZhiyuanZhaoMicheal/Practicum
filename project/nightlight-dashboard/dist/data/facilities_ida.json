@@ -270,16 +270,6 @@
     "radiusM": 1250
   },
   {
-    "name": "Louis Armstrong New Orleans International Airport",
-    "type": "airport",
-    "coords": [
-      -90.26446,
-      29.9939
-    ],
-    "probability": 0.5,
-    "radiusM": 1250
-  },
-  {
     "name": "New Orleans Lakefront Airport",
     "type": "airport",
     "coords": [
@@ -350,7 +340,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "power_plant facility",
     "type": "power",
     "coords": [
       -90.16225,
@@ -420,16 +410,6 @@
     "radiusM": 750
   },
   {
-    "name": "Marrero - Estelle Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.11357,
-      29.83092
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Harvey Volunteer Fire Company",
     "type": "fire",
     "coords": [
@@ -485,16 +465,6 @@
     "coords": [
       -90.20168,
       29.95379
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Jefferson Parish Third District Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.2254,
-      29.96519
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -870,26 +840,6 @@
     "radiusM": 750
   },
   {
-    "name": "Kenner Fire Station 37",
-    "type": "fire",
-    "coords": [
-      -90.23999,
-      30.02852
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Harvey Volunteer Fire Company",
-    "type": "fire",
-    "coords": [
-      -90.04501,
-      29.85255
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "New Orleans Fire Department Engine 37",
     "type": "fire",
     "coords": [
@@ -905,26 +855,6 @@
     "coords": [
       -89.94874,
       30.06302
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Kenner Fire Rescue 379",
-    "type": "fire",
-    "coords": [
-      -90.23989,
-      30.01759
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Eastbank Cosolidated Fire Department Station 17",
-    "type": "fire",
-    "coords": [
-      -90.21805,
-      30.01194
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -950,41 +880,11 @@
     "radiusM": 750
   },
   {
-    "name": "Kenner Fire Station 35",
-    "type": "fire",
-    "coords": [
-      -90.24241,
-      29.98973
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Chief William R. Mancuso Fire Headquarters",
-    "type": "fire",
-    "coords": [
-      -90.24081,
-      29.99692
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Eastbank Consolidated Fire Department Station 11",
     "type": "fire",
     "coords": [
       -90.16176,
       29.96352
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Third District Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.22798,
-      29.99093
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1010,17 +910,7 @@
     "radiusM": 750
   },
   {
-    "name": "Herbert Wallace Memorial Volunteer Fire Department",
-    "type": "fire",
-    "coords": [
-      -90.22739,
-      29.9121
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "fire_station facility",
     "type": "fire",
     "coords": [
       -89.99053,
@@ -1160,16 +1050,6 @@
     "radiusM": 750
   },
   {
-    "name": "Jefferson Parish Sheriff's Office",
-    "type": "police",
-    "coords": [
-      -90.23153,
-      29.97375
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "New Orleans Police Department First District",
     "type": "police",
     "coords": [
@@ -1300,16 +1180,6 @@
     "radiusM": 750
   },
   {
-    "name": "Louisiana State Police Troop B",
-    "type": "police",
-    "coords": [
-      -90.23915,
-      30.01122
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Sherriff's Office",
     "type": "police",
     "coords": [
@@ -1340,17 +1210,7 @@
     "radiusM": 750
   },
   {
-    "name": "Plaquemines Parish Sheriff's Office",
-    "type": "police",
-    "coords": [
-      -89.99302,
-      29.85962
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "police facility",
     "type": "police",
     "coords": [
       -90.00048,
@@ -1500,21 +1360,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -90.05883,
       29.9603
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "U.S. Department of Labor Wage and Hour Division",
-    "type": "government",
-    "coords": [
-      -90.23943,
-      30.02409
     ],
     "probability": 0.5,
     "radiusM": 750
@@ -1620,16 +1470,6 @@
     "radiusM": 750
   },
   {
-    "name": "Kenner City Hall",
-    "type": "government",
-    "coords": [
-      -90.24238,
-      29.99003
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "Joseph S. Yenni Building",
     "type": "government",
     "coords": [
@@ -1640,7 +1480,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "government facility",
     "type": "government",
     "coords": [
       -90.21063,
@@ -1730,46 +1570,6 @@
     "radiusM": 750
   },
   {
-    "name": "Plaquemines Parish Assessor's Office",
-    "type": "government",
-    "coords": [
-      -89.98301,
-      29.85656
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "District Attorney 25th Judicial District",
-    "type": "government",
-    "coords": [
-      -89.98223,
-      29.8562
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Plaquemines Parish Government Building",
-    "type": "government",
-    "coords": [
-      -89.99188,
-      29.85929
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Plaquemines Parish Sheriff's Office - Detective Bureau",
-    "type": "government",
-    "coords": [
-      -90.00408,
-      29.82813
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
     "name": "LaDOTD",
     "type": "government",
     "coords": [
@@ -1800,7 +1600,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.93555,
@@ -1810,7 +1610,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.98098,
@@ -1830,7 +1630,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.02459,
@@ -1855,16 +1655,6 @@
     "coords": [
       -90.14777,
       29.94701
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -90.22386,
-      30.01822
     ],
     "probability": 0.7,
     "radiusM": 750
@@ -1920,26 +1710,6 @@
     "radiusM": 750
   },
   {
-    "name": "Waggaman Subsation",
-    "type": "substation",
-    "coords": [
-      -90.2372,
-      29.93204
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "Barataria Substation",
-    "type": "substation",
-    "coords": [
-      -90.1144,
-      29.83179
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
     "name": "Behrman Substation",
     "type": "substation",
     "coords": [
@@ -1960,16 +1730,6 @@
     "radiusM": 750
   },
   {
-    "name": "Peters Road Substation",
-    "type": "substation",
-    "coords": [
-      -90.05986,
-      29.85677
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
     "name": "Holiday Substation",
     "type": "substation",
     "coords": [
@@ -1980,7 +1740,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.97672,
@@ -1990,21 +1750,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.97482,
       29.93875
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "Poydras Substation",
-    "type": "substation",
-    "coords": [
-      -89.8681,
-      29.8685
     ],
     "probability": 0.7,
     "radiusM": 750
@@ -2030,7 +1780,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.97649,
@@ -2160,7 +1910,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.05575,
@@ -2170,7 +1920,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.95758,
@@ -2190,7 +1940,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.14974,
@@ -2200,7 +1950,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.03173,
@@ -2210,7 +1960,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.97758,
@@ -2230,7 +1980,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.06557,
@@ -2240,17 +1990,7 @@
     "radiusM": 750
   },
   {
-    "name": "Port Nickel Substation",
-    "type": "substation",
-    "coords": [
-      -89.97059,
-      29.86016
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.90125,
@@ -2280,7 +2020,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.90071,
@@ -2290,7 +2030,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.90074,
@@ -2300,7 +2040,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.90395,
@@ -2310,7 +2050,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.93725,
@@ -2320,7 +2060,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.97191,
@@ -2330,7 +2070,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.17119,
@@ -2340,7 +2080,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.93045,
@@ -2350,7 +2090,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.03364,
@@ -2360,17 +2100,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -90.05634,
-      29.83774
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -89.91544,
@@ -2380,17 +2110,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
-    "type": "substation",
-    "coords": [
-      -89.96484,
-      29.85867
-    ],
-    "probability": 0.7,
-    "radiusM": 750
-  },
-  {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.06483,
@@ -2400,7 +2120,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "substation facility",
     "type": "substation",
     "coords": [
       -90.17905,
@@ -2410,7 +2130,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.12952,
@@ -2420,7 +2140,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.13062,
@@ -2430,7 +2150,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.13127,
@@ -2440,7 +2160,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.12785,
@@ -2450,7 +2170,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.12656,
@@ -2460,7 +2180,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.13159,
@@ -2470,7 +2190,7 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.1311,
@@ -2480,21 +2200,11 @@
     "radiusM": 750
   },
   {
-    "name": "nan",
+    "name": "water_works facility",
     "type": "water_works",
     "coords": [
       -90.13189,
       29.9596
-    ],
-    "probability": 0.5,
-    "radiusM": 750
-  },
-  {
-    "name": "Belle Chasse Water Plant",
-    "type": "water_works",
-    "coords": [
-      -89.98416,
-      29.85499
     ],
     "probability": 0.5,
     "radiusM": 750
