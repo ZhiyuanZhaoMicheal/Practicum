@@ -434,32 +434,40 @@
             </div>
           </div>
 
-          <!-- Cloud coverage summary table -->
-          <div v-if="cloudFrac" class="data-table" style="margin:20px 0">
-            <table>
-              <thead>
-                <tr>
-                  <th>Event</th>
-                  <th>Total Days</th>
-                  <th>Usable Days</th>
-                  <th>Excluded Days</th>
-                  <th>Avg Cloud %</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="ev in cloudEvents" :key="ev.id">
-                  <td><span class="dot" :style="{ background: ev.color }" />{{ ev.name }}</td>
-                  <td class="mono">{{ cloudFrac[ev.dashId]?.summary.total_days ?? '—' }}</td>
-                  <td class="mono" style="color:var(--green)">{{ cloudFrac[ev.dashId]?.summary.usable_days ?? '—' }}</td>
-                  <td class="mono" :style="{ color: (cloudFrac[ev.dashId]?.summary.excluded_days ?? 0) > 20 ? '#ff6b6b' : 'var(--text)' }">
-                    {{ cloudFrac[ev.dashId]?.summary.excluded_days ?? '—' }}
-                  </td>
-                  <td class="mono" :style="{ color: (cloudFrac[ev.dashId]?.summary.avg_cloud_pct ?? 0) > 40 ? '#ff6b6b' : 'var(--text)' }">
-                    {{ cloudFrac[ev.dashId]?.summary.avg_cloud_pct ?? '—' }}%
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <!-- Cloud coverage summary table (collapsible) -->
+          <div v-if="cloudFrac" class="collapsible" :class="{ expanded: codeExpanded.cloudTable }">
+            <div class="collapsible__content">
+              <div class="data-table" style="margin:0">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Event</th>
+                      <th>Total Days</th>
+                      <th>Usable Days</th>
+                      <th>Excluded Days</th>
+                      <th>Avg Cloud %</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="ev in cloudEvents" :key="ev.id">
+                      <td><span class="dot" :style="{ background: ev.color }" />{{ ev.name }}</td>
+                      <td class="mono">{{ cloudFrac[ev.dashId]?.summary.total_days ?? '—' }}</td>
+                      <td class="mono" style="color:var(--green)">{{ cloudFrac[ev.dashId]?.summary.usable_days ?? '—' }}</td>
+                      <td class="mono" :style="{ color: (cloudFrac[ev.dashId]?.summary.excluded_days ?? 0) > 20 ? '#ff6b6b' : 'var(--text)' }">
+                        {{ cloudFrac[ev.dashId]?.summary.excluded_days ?? '—' }}
+                      </td>
+                      <td class="mono" :style="{ color: (cloudFrac[ev.dashId]?.summary.avg_cloud_pct ?? 0) > 40 ? '#ff6b6b' : 'var(--text)' }">
+                        {{ cloudFrac[ev.dashId]?.summary.avg_cloud_pct ?? '—' }}%
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="collapsible__fade" v-if="!codeExpanded.cloudTable" />
+            <button class="collapsible__toggle" @click="codeExpanded.cloudTable = !codeExpanded.cloudTable">
+              {{ codeExpanded.cloudTable ? 'Collapse Table' : `Show All ${cloudEvents.length} Events` }}
+            </button>
           </div>
 
           <p>
@@ -1774,47 +1782,30 @@ for h in hospitals[:3]:
             </p>
           </div>
 
+          <h2>6.8 Probability Maps</h2>
+          <p>
+            The final ensemble model generates <code>P(backup_power_present)</code> for every
+            urban pixel in each study area:
+          </p>
+          <div class="formula-block">
+            <div class="formula">P_ensemble = 0.7 × P_RF + 0.3 × P_XGB</div>
+            <div class="formula__caption">RF receives higher weight due to more consistent cross-event performance</div>
+          </div>
+          <p>
+            Maps are exported as GeoTIFF (for analysis) and GeoJSON (for the interactive dashboard).
+            The heatmap uses per-event quantile normalization (P10/P50/P90) to ensure the full color
+            range is utilized regardless of the event's absolute probability distribution.
+          </p>
+
           <RouterLink to="/map" class="feature-link reveal">
             <span class="feature-link__text">Explore the probability maps for all 25 events on the interactive map</span>
             <span class="feature-link__cta">Open Map →</span>
           </RouterLink>
         </template>
 
-        <!-- 06 Probability Maps -->
-        <template v-if="sectionId === 'maps'">
-          <p>
-            The final ensemble model generates <code>P(backup_power_present)</code> for every
-            urban pixel in each study area, exported as GeoTIFF and GeoJSON.
-          </p>
-          <div class="formula-block">
-            <div class="formula">P_ensemble = 0.7 × P_RF + 0.3 × P_XGB</div>
-            <div class="formula__caption">RF is more discriminative on this task</div>
-          </div>
-          <p>
-            The <RouterLink to="/map" class="inline-link">Interactive Map</RouterLink> visualizes
-            these outputs as heatmaps with facility buffer overlays.
-            Use the layer toggles to isolate buffer zones or facility points.
-          </p>
-
-          <h3>Export Pipeline</h3>
-          <ul class="detail-list">
-            <li><strong>prob_*.geojson</strong> — Per-pixel probability points (filtered at P > 0.05)</li>
-            <li><strong>ts_*.json</strong> — Daily R_buffer / R_nonBuffer time series</li>
-            <li><strong>facilities_*.json</strong> — Facility locations with mean buffer probability</li>
-            <li><strong>loeo_results.json</strong> — LOEO AUC per held-out event</li>
-          </ul>
-
-          <h3>Color Mapping</h3>
-          <p>
-            The heatmap uses per-event quantile normalization (P10/P50/P90) to ensure full color
-            range utilization regardless of the event's absolute probability distribution. Light and
-            dark basemaps use different color ramps for optimal contrast.
-          </p>
-        </template>
-
-        <!-- 08 Stage 3: Zip-Code Analysis -->
+        <!-- 07 Zip-Code Analysis -->
         <template v-if="sectionId === 'stage3'">
-          <h2 id="sec-8-1">8.1 Research Question</h2>
+          <h2 id="sec-7-1">7.1 Research Question</h2>
           <p>
             Stage 2 answers "can we detect backup generators from space?" at the <strong>pixel level</strong>.
             Stage 3 asks a policy-relevant follow-up: <strong>do areas with more critical facilities
@@ -1822,7 +1813,7 @@ for h in hospitals[:3]:
             zip-code-level analysis, connecting facility density with EAGLE-I outage records.
           </p>
 
-          <h2 id="sec-8-2">8.2 Data Sources</h2>
+          <h2 id="sec-7-2">7.2 Data Sources</h2>
           <div class="data-table">
             <table>
               <thead><tr><th>Dataset</th><th>Source</th><th>Role</th></tr></thead>
@@ -1839,7 +1830,7 @@ for h in hospitals[:3]:
             </table>
           </div>
 
-          <h2 id="sec-8-3">8.3 Sample Construction</h2>
+          <h2 id="sec-7-3">7.3 Sample Construction</h2>
           <p>
             The analysis covers <strong>1,002 zip codes</strong> across <strong>22 U.S. disaster
             events</strong> (Puerto Rico and Turkey excluded due to lack of U.S. ZCTA boundaries).
@@ -1854,44 +1845,154 @@ for h in hospitals[:3]:
             allocation.
           </p>
 
-          <h2 id="sec-8-4">8.4 Model Design</h2>
-          <p>The dependent variable is a composite outage severity index per zip code:</p>
-          <div class="formula-block">
-            <div class="formula">outage_severity = frequency × intensity × duration</div>
-          </div>
-          <p>Independent variables include:</p>
-          <ul class="detail-list">
-            <li><strong>facility_density</strong> — critical facilities per km² (core variable)</li>
-            <li><strong>mean_backup_prob</strong> — Stage 2 Model C probability aggregated to zip code</li>
-            <li><strong>ntl_drop_pct</strong> — mean NTL decline during disaster</li>
-            <li><strong>pop_density, median_income</strong> — Census ACS controls</li>
-            <li><strong>urban_pct</strong> — NLCD land cover classification</li>
-            <li><strong>impervious_pct</strong> — NLCD impervious surface fraction (building/road density proxy)</li>
-            <li><strong>disaster_exposure</strong> — IBTrACS historical hurricane track density</li>
-          </ul>
+          <h2 id="sec-7-4">7.4 Model Design</h2>
           <p>
-            Modeling approach: OLS baseline → Moran's I spatial autocorrelation test → spatial
-            error model (SEM) or spatial lag model (SLM) depending on test results. Subgroup
-            analysis by city size (large/medium/small) connects to Stage 1/2's floor effect findings.
+            We test whether facility density predicts backup power probability at the zip code
+            level, using a four-step modeling approach that mirrors the interpretive modeling
+            philosophy from Stage 1: start simple, then progressively address statistical concerns.
+          </p>
+
+          <h3>Dependent Variable</h3>
+          <p>
+            For each zip code within a study area, we compute <code>mean_backup_prob</code> — the
+            average predicted backup power probability from Stage 2's ensemble model, aggregated
+            from all pixels within the zip code boundary via spatial join with ZCTA shapefiles.
+          </p>
+
+          <h3>Independent Variables</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Variable</th><th>Source</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td><strong><code>facility_density</code></strong></td><td>OSM / ZCTA area</td><td>Core predictor: critical facilities per km²</td></tr>
+                <tr><td><code>mean_backup_prob</code></td><td>Stage 2 Model C</td><td>Pixel-level probability aggregated to zip code</td></tr>
+                <tr><td><code>ntl_drop_pct</code></td><td>pixel_panel</td><td>Mean NTL decline during disaster</td></tr>
+                <tr><td><code>pop_density</code></td><td>Census ACS</td><td>Control: urbanization proxy</td></tr>
+                <tr><td><code>median_income</code></td><td>Census ACS</td><td>Control: socioeconomic status</td></tr>
+                <tr><td><code>urban_pct</code></td><td>NLCD</td><td>Control: land cover classification</td></tr>
+                <tr><td><code>impervious_pct</code></td><td>NLCD</td><td>Control: building/road density proxy</td></tr>
+                <tr><td><code>disaster_exposure</code></td><td>IBTrACS</td><td>Control: historical hurricane track density</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Model 1: OLS with Event Fixed Effects</h3>
+          <div class="formula-block">
+            <div class="formula">mean_prob<sub>iz</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; fac_density<sub>z</sub> + &gamma;<sub>i</sub> + &epsilon;<sub>iz</sub></div>
+            <div class="formula__caption">i = event, z = zip code, &gamma;<sub>i</sub> = event fixed effect</div>
+          </div>
+          <p>
+            The baseline model tests the core relationship while absorbing event-level variation
+            (different cities, disaster types, severity) through fixed effects. This ensures we are
+            comparing zip codes <em>within</em> the same disaster, not across events with different
+            baseline brightness levels.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Metric</th><th>Value</th></tr></thead>
+              <tbody>
+                <tr><td>N</td><td class="mono">1,002 zip-event observations</td></tr>
+                <tr><td>R²</td><td class="mono" style="color:var(--green)">0.475</td></tr>
+                <tr><td>fac_density coefficient</td><td class="mono">+0.096 (se = 0.006)</td></tr>
+                <tr><td>fac_density p-value</td><td class="mono" style="color:var(--green)">9.56 × 10⁻⁵⁴</td></tr>
+                <tr><td>Interpretation</td><td>+1 facility/km² → +9.6% backup power probability</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Model 2: Moran's I Spatial Autocorrelation Test</h3>
+          <p>
+            OLS assumes independent observations, but neighboring zip codes are spatially
+            correlated — a hospital's backup power benefits adjacent zip codes too. Moran's I
+            tests whether OLS residuals cluster spatially:
+          </p>
+          <div class="formula-block">
+            <div class="formula">Moran's I = 0.329, E[I] = -0.007, p = 0.001</div>
+            <div class="formula__caption">Tested on Newark NJ (n=145 zips), KNN weights (k=5)</div>
+          </div>
+          <p>
+            <strong>Significant spatial autocorrelation</strong> — OLS standard errors are
+            underestimated. We need a spatial regression model to correct for this.
+          </p>
+
+          <h3>Model 3: Spatial Error Model (SEM)</h3>
+          <p>
+            The Spatial Error Model accounts for spatially correlated error terms. If a zip code's
+            residual is positive (model under-predicts), its neighbors' residuals tend to be positive
+            too — captured by the spatial autoregressive parameter &lambda;:
+          </p>
+          <div class="formula-block">
+            <div class="formula">y = X&beta; + u, &nbsp; u = &lambda;Wu + &epsilon;</div>
+            <div class="formula__caption">W = spatial weights matrix (KNN, k=5), &lambda; = spatial error parameter</div>
+          </div>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Parameter</th><th>Value</th><th>Interpretation</th></tr></thead>
+              <tbody>
+                <tr><td>&lambda;</td><td class="mono" style="color:var(--cyan)">0.648</td><td>Strong spatial error dependence — neighbors' errors are 65% correlated</td></tr>
+                <tr><td>fac_density</td><td class="mono" style="color:var(--green)">0.097</td><td>Effect <strong>survives</strong> spatial correction (virtually unchanged from OLS)</td></tr>
+                <tr><td>Pseudo R²</td><td class="mono">0.236</td><td>Lower than OLS R² because spatial effects absorb variance</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The key finding: <strong>facility density's effect is real, not a spatial artifact</strong>.
+            The coefficient barely changes from OLS (0.096 → 0.097) after controlling for spatial
+            autocorrelation. The high &lambda; (0.648) means neighboring zip codes share unobserved
+            factors (urban form, utility infrastructure), but the facility density signal is
+            independent of this spatial structure.
+          </p>
+
+          <h3>Model 4: Subgroup Analysis</h3>
+          <p>
+            Does the facility density effect vary by city size or disaster type? This connects
+            to the floor effect discovered in Stage 1 — smaller cities might show different patterns.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>City Size</th><th>N</th><th>R²</th><th>With Facilities</th><th>Without</th><th>Delta</th></tr></thead>
+              <tbody>
+                <tr><td>Large</td><td class="mono">687</td><td class="mono">0.358</td><td class="mono">0.480</td><td class="mono">0.310</td><td class="mono" style="color:var(--green)">+0.170</td></tr>
+                <tr><td>Medium</td><td class="mono">241</td><td class="mono">0.284</td><td class="mono">0.271</td><td class="mono">0.129</td><td class="mono" style="color:var(--green)">+0.142</td></tr>
+                <tr><td>Small</td><td class="mono">74</td><td class="mono">0.326</td><td class="mono">0.229</td><td class="mono">0.064</td><td class="mono" style="color:var(--green)">+0.165</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="data-table" style="margin-top:12px">
+            <table>
+              <thead><tr><th>Disaster Type</th><th>N</th><th>With Facilities</th><th>Without</th><th>Delta</th></tr></thead>
+              <tbody>
+                <tr><td>Hurricane</td><td class="mono">554</td><td class="mono">0.403</td><td class="mono">0.233</td><td class="mono" style="color:var(--green)">+0.171</td></tr>
+                <tr><td>Winter Storm</td><td class="mono">234</td><td class="mono">0.435</td><td class="mono">0.274</td><td class="mono" style="color:var(--green)">+0.161</td></tr>
+                <tr><td>Derecho</td><td class="mono">74</td><td class="mono">0.534</td><td class="mono">0.263</td><td class="mono" style="color:var(--green)">+0.271</td></tr>
+                <tr><td>Severe Storm</td><td class="mono">90</td><td class="mono">0.397</td><td class="mono">0.127</td><td class="mono" style="color:var(--green)">+0.270</td></tr>
+                <tr><td>Ice Storm</td><td class="mono">50</td><td class="mono">0.296</td><td class="mono">0.077</td><td class="mono" style="color:var(--green)">+0.219</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The effect is <strong>universally positive</strong> across all city sizes and all
+            disaster types — no exceptions. Derechos and severe storms show the largest deltas
+            (+0.27), possibly because these events cause more localized, patchy outages where
+            generator-powered facilities stand out more clearly against the surrounding blackout.
           </p>
 
           <div class="takeaway">
-            <div class="takeaway__label">PRELIMINARY RESULTS</div>
+            <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              OLS with event fixed effects: <strong>R² = 0.475</strong>, facility density
-              coefficient p = 9.6e-54. Moran's I = 0.329 (p = 0.001) confirms spatial
-              autocorrelation; Spatial Error Model controls for neighbor effects and
-              <strong>the facility density effect survives</strong> (lambda = 0.648).
-              Subgroup analysis shows the effect is consistent across large, medium, and
-              small cities, and across all disaster types (hurricane, winter storm, derecho,
-              ice storm, severe storm). Sign consistency: <strong>12/12 events (100%)</strong>.
+              Facility density is a <strong>robust predictor of backup power probability</strong>
+              at the zip code level: OLS R² = 0.475 (p = 9.6e-54), effect survives spatial
+              error correction (&lambda; = 0.648), and is consistent across all city sizes
+              and all 5 disaster types. The +9.6% per facility/km² effect translates to
+              meaningful policy insight: zip codes with denser critical infrastructure have
+              measurably higher predicted resilience during power outages.
             </p>
           </div>
         </template>
 
         <!-- 09 Dashboard Development -->
         <template v-if="sectionId === 'web'">
-          <h2 id="sec-9-1">9.1 Architecture</h2>
+          <h2 id="sec-8-1">8.1 Architecture</h2>
           <p>
             This dashboard is a single-page application built with <strong>Vue 3</strong> (Composition API)
             and <strong>Vite</strong> as the build tool. The project uses Vue Router (hash history mode
@@ -1910,7 +2011,7 @@ for h in hospitals[:3]:
             </table>
           </div>
 
-          <h2 id="sec-9-2">9.2 Map Engine</h2>
+          <h2 id="sec-8-2">8.2 Map Engine</h2>
           <p>
             The interactive map uses <strong>MapLibre GL JS</strong> with multiple layer types per event:
           </p>
@@ -1927,7 +2028,7 @@ for h in hospitals[:3]:
             keeping initial page load fast even with 25 events.
           </p>
 
-          <h2 id="sec-9-3">9.3 Responsive Design</h2>
+          <h2 id="sec-8-3">8.3 Responsive Design</h2>
           <p>
             The dashboard adapts to mobile devices with:
           </p>
@@ -1938,7 +2039,7 @@ for h in hospitals[:3]:
             <li><strong>Docs/Charts</strong> — horizontal-scrolling tables, reduced padding, stacked layouts</li>
           </ul>
 
-          <h2 id="sec-9-4">9.4 Deployment</h2>
+          <h2 id="sec-8-4">8.4 Deployment</h2>
           <p>
             Automated via <strong>GitHub Actions</strong>: every push to <code>main</code> that modifies
             <code>project/nightlight-dashboard/**</code> triggers a build + deploy workflow. The Vite
@@ -2075,7 +2176,7 @@ google-earth-engine (GEE API)</code></pre>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { ref, reactive, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { EVENTS } from '@/data/events.js'
 
@@ -2196,7 +2297,7 @@ function modalCfBarX(dashId, i) {
   return modalPad.l + i * w + 0.5
 }
 const cloudExpanded = ref(false)
-const codeExpanded = ref({
+const codeExpanded = reactive({
   gee: false,
   overpass: false,
   loeo: false,
@@ -2204,6 +2305,7 @@ const codeExpanded = ref({
   ols: false,
   mixed: false,
   logit: false,
+  cloudTable: false,
   cox: false,
 })
 
@@ -2336,11 +2438,10 @@ const allSections = [
   { id: 'eda',          num: '03', title: 'Exploratory Data Analysis', tags: ['Resilience Ratio', 'Floor Effect'] },
   { id: 'interpretive', num: '04', title: 'Interpretive Modeling', tags: ['OLS', 'MixedLM', 'Logit', 'Cox'] },
   { id: 'features',     num: '05', title: 'Feature Engineering', tags: ['17 features'] },
-  { id: 'models',       num: '06', title: 'Predictive Models', tags: ['RF + XGB', 'LOEO', '4 Variants'] },
-  { id: 'maps',         num: '07', title: 'Probability Maps', tags: ['GeoJSON'] },
-  { id: 'stage3',       num: '08', title: 'Zip-Code Analysis', tags: ['EAGLE-I', 'Spatial Regression'] },
-  { id: 'web',          num: '09', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
-  { id: 'repro',        num: '10', title: 'Reproducibility', tags: ['Open data'] },
+  { id: 'models',       num: '06', title: 'Predictive Models & Probability Maps', tags: ['RF + XGB', 'LOEO', '4 Variants'] },
+  { id: 'stage3',       num: '07', title: 'Zip-Code Analysis', tags: ['EAGLE-I', 'Spatial Regression'] },
+  { id: 'web',          num: '08', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
+  { id: 'repro',        num: '09', title: 'Reproducibility', tags: ['Open data'] },
 ]
 
 const sectionData = computed(() => allSections.find(s => s.id === sectionId.value))
@@ -2436,16 +2537,16 @@ const SUB_SECTIONS = {
     { id: 'sec-5-loeo', label: '6.6 LOEO Design' },
   ],
   stage3: [
-    { id: 'sec-8-1', label: '8.1 Research Question' },
-    { id: 'sec-8-2', label: '8.2 Data Sources' },
-    { id: 'sec-8-3', label: '8.3 Sample Construction' },
-    { id: 'sec-8-4', label: '8.4 Model Design' },
+    { id: 'sec-8-1', label: '7.1 Research Question' },
+    { id: 'sec-8-2', label: '7.2 Data Sources' },
+    { id: 'sec-8-3', label: '7.3 Sample' },
+    { id: 'sec-8-4', label: '7.4 Models & Results' },
   ],
   web: [
-    { id: 'sec-9-1', label: '9.1 Architecture' },
-    { id: 'sec-9-2', label: '9.2 Map Engine' },
-    { id: 'sec-9-3', label: '9.3 Responsive Design' },
-    { id: 'sec-9-4', label: '9.4 Deployment' },
+    { id: 'sec-8-1', label: '8.1 Architecture' },
+    { id: 'sec-8-2', label: '8.2 Map Engine' },
+    { id: 'sec-8-3', label: '8.3 Responsive Design' },
+    { id: 'sec-8-4', label: '8.4 Deployment' },
   ],
 }
 
@@ -2733,7 +2834,7 @@ tr:hover td { background: var(--bg-3); }
 .code-block { background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; margin: 12px 0; }
 .code-block__header { padding: 7px 14px; background: var(--bg-3); border-bottom: 1px solid var(--border); font-size: 11px; color: var(--text-muted); }
 .code-block pre { padding: 14px; overflow-x: auto; margin: 0; }
-.code-block code { font-size: 12px; background: none; border: none; padding: 0; color: var(--text); line-height: 1.7; display: block; }
+.code-block code { font-size: 12px; background: none; border: none; padding: 0; color: var(--text); line-height: 1.7; display: block; white-space: pre; }
 
 /* Feature grid */
 .feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; margin: 10px 0; }
