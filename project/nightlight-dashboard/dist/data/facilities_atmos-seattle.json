@@ -1,0 +1,2522 @@
+[
+  {
+    "name": "Navos West Seattle Campus",
+    "type": "hospital",
+    "coords": [
+      -122.36622,
+      47.53444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "The Seattle Facial Plastic Surgery Center",
+    "type": "hospital",
+    "coords": [
+      -122.32421,
+      47.60917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "VA Medical Center - Seattle",
+    "type": "hospital",
+    "coords": [
+      -122.30826,
+      47.56301
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Swedish Medical Center Ballard Campus",
+    "type": "hospital",
+    "coords": [
+      -122.38024,
+      47.66759
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kaiser Permanente Capitol Hill Campus",
+    "type": "hospital",
+    "coords": [
+      -122.31208,
+      47.61996
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Virginia Mason Hospital & Seattle Medical Center",
+    "type": "hospital",
+    "coords": [
+      -122.32789,
+      47.61007
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Swedish First Hill Medical Center",
+    "type": "hospital",
+    "coords": [
+      -122.32226,
+      47.60861
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Overlake Medical Center",
+    "type": "hospital",
+    "coords": [
+      -122.18694,
+      47.62097
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "EvergreenHealth Kirkland",
+    "type": "hospital",
+    "coords": [
+      -122.17834,
+      47.71534
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fairfax Hospital",
+    "type": "hospital",
+    "coords": [
+      -122.20468,
+      47.71943
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cascade Behavioral Health",
+    "type": "hospital",
+    "coords": [
+      -122.29575,
+      47.48742
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Schick Shadel Hospital",
+    "type": "hospital",
+    "coords": [
+      -122.35069,
+      47.49458
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Eastside Therapeutic Resource",
+    "type": "hospital",
+    "coords": [
+      -122.19576,
+      47.66842
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Swedish Medical Center Cherry Hill Campus",
+    "type": "hospital",
+    "coords": [
+      -122.3109,
+      47.60711
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "hospital facility",
+    "type": "hospital",
+    "coords": [
+      -122.33721,
+      47.71486
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "C-Wing",
+    "type": "hospital",
+    "coords": [
+      -122.33773,
+      47.7148
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Children's Hospital",
+    "type": "hospital",
+    "coords": [
+      -122.28295,
+      47.6631
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Will Rogers Wiley Post Memorial Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -122.21807,
+      47.50059
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Seattle Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -122.32763,
+      47.63197
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Kenmore Air Seaplane Terminal",
+    "type": "airport",
+    "coords": [
+      -122.33919,
+      47.62831
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Seaplane Scenics at Carillon Point Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -122.2097,
+      47.65999
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Kenmore Air Harbor Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -122.25792,
+      47.75712
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Renton Municipal Airport",
+    "type": "airport",
+    "coords": [
+      -122.21463,
+      47.49283
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Boeing Field",
+    "type": "airport",
+    "coords": [
+      -122.30343,
+      47.52978
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "University of Washington Power Plant",
+    "type": "power",
+    "coords": [
+      -122.30363,
+      47.65374
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University of Washington West Campus Utility Plant",
+    "type": "power",
+    "coords": [
+      -122.31299,
+      47.65393
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle School District Office",
+    "type": "government",
+    "coords": [
+      -122.27142,
+      47.52422
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Fire Department Headquarters",
+    "type": "government",
+    "coords": [
+      -122.35474,
+      47.53402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burien City Hall",
+    "type": "government",
+    "coords": [
+      -122.33967,
+      47.46706
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County District Court - Southwest Division",
+    "type": "government",
+    "coords": [
+      -122.34238,
+      47.46935
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ballard Neighborhood Service Center",
+    "type": "government",
+    "coords": [
+      -122.38455,
+      47.66963
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Seattle Customer Service Center",
+    "type": "government",
+    "coords": [
+      -122.31292,
+      47.66233
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Social and Health Services",
+    "type": "government",
+    "coords": [
+      -122.34332,
+      47.6129
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metropolitan Improvement District",
+    "type": "government",
+    "coords": [
+      -122.33799,
+      47.61267
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Public Utilities",
+    "type": "government",
+    "coords": [
+      -122.32074,
+      47.57919
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Social & Health Services",
+    "type": "government",
+    "coords": [
+      -122.33393,
+      47.59813
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Bureau of Investigation Seattle Field Office",
+    "type": "government",
+    "coords": [
+      -122.33469,
+      47.60663
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rainier Vehicle and Vessel Licensing",
+    "type": "government",
+    "coords": [
+      -122.28806,
+      47.56833
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Northgate Community Field Office",
+    "type": "government",
+    "coords": [
+      -122.34166,
+      47.69902
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Seattle Customer Service Center",
+    "type": "government",
+    "coords": [
+      -122.29799,
+      47.72003
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kirkland Municipal Court",
+    "type": "government",
+    "coords": [
+      -122.18512,
+      47.70664
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Elections",
+    "type": "government",
+    "coords": [
+      -122.22994,
+      47.46837
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Northshore Public Health at Totem Lake",
+    "type": "government",
+    "coords": [
+      -122.17843,
+      47.71767
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Licensing",
+    "type": "government",
+    "coords": [
+      -122.33544,
+      47.60588
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -122.17982,
+      47.61653
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Juvenile Court",
+    "type": "government",
+    "coords": [
+      -122.316,
+      47.60479
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Renton Licensing",
+    "type": "government",
+    "coords": [
+      -122.20681,
+      47.47866
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Veterans Affairs Office",
+    "type": "government",
+    "coords": [
+      -122.21135,
+      47.48105
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Renton Area Youth & Family Services",
+    "type": "government",
+    "coords": [
+      -122.20324,
+      47.47953
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Renton Chamber of Commerce",
+    "type": "government",
+    "coords": [
+      -122.20871,
+      47.47799
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County GIS Center",
+    "type": "government",
+    "coords": [
+      -122.33135,
+      47.59895
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Corrections - Seattle Community Justice Center",
+    "type": "government",
+    "coords": [
+      -122.3283,
+      47.58896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Parks & Community Services",
+    "type": "government",
+    "coords": [
+      -122.20989,
+      47.67912
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Human Resources",
+    "type": "government",
+    "coords": [
+      -122.20988,
+      47.67904
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Seattle Transportation Department Traffic Shops",
+    "type": "government",
+    "coords": [
+      -122.32223,
+      47.56492
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Voter Registration Annex",
+    "type": "government",
+    "coords": [
+      -122.32947,
+      47.60287
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgetown License",
+    "type": "government",
+    "coords": [
+      -122.32222,
+      47.54789
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Ferries",
+    "type": "government",
+    "coords": [
+      -122.35207,
+      47.61825
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Passport Agency",
+    "type": "government",
+    "coords": [
+      -122.32732,
+      47.60205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellevue Chamber of Commerce",
+    "type": "government",
+    "coords": [
+      -122.19037,
+      47.61345
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Vital Statistics",
+    "type": "government",
+    "coords": [
+      -122.32403,
+      47.60516
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Renton Community Services Office",
+    "type": "government",
+    "coords": [
+      -122.22271,
+      47.47414
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Social Security Administration",
+    "type": "government",
+    "coords": [
+      -122.32712,
+      47.60205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Puget Sound Regional Council",
+    "type": "government",
+    "coords": [
+      -122.33796,
+      47.60423
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Regional Transportation Planning Organization",
+    "type": "government",
+    "coords": [
+      -122.33805,
+      47.60432
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Labor Council",
+    "type": "government",
+    "coords": [
+      -122.31188,
+      47.59946
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Licensing",
+    "type": "government",
+    "coords": [
+      -122.34765,
+      47.74469
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA Corps",
+    "type": "government",
+    "coords": [
+      -122.25788,
+      47.68697
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Labor & Industries",
+    "type": "government",
+    "coords": [
+      -122.33361,
+      47.70846
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newcastle City Hall",
+    "type": "government",
+    "coords": [
+      -122.16859,
+      47.53853
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Licensing",
+    "type": "government",
+    "coords": [
+      -122.36045,
+      47.62224
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgetown Maintenance & Operations Center",
+    "type": "government",
+    "coords": [
+      -122.3206,
+      47.54924
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "National Weather Service - Seattle/Tacoma, WA",
+    "type": "government",
+    "coords": [
+      -122.2565,
+      47.68701
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King North Community Services Office",
+    "type": "government",
+    "coords": [
+      -122.33283,
+      47.69832
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cowlitz Indian Tribe",
+    "type": "government",
+    "coords": [
+      -122.25276,
+      47.46274
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burien Parks Maintenance Facility",
+    "type": "government",
+    "coords": [
+      -122.32309,
+      47.46451
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USDA",
+    "type": "government",
+    "coords": [
+      -122.23174,
+      47.47056
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County",
+    "type": "government",
+    "coords": [
+      -122.23368,
+      47.47153
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Renton School District Nutrition Services Purchasing Warehouse Services",
+    "type": "government",
+    "coords": [
+      -122.21078,
+      47.48349
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department Of Transportation Maintenance Facility",
+    "type": "government",
+    "coords": [
+      -122.22699,
+      47.46667
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "WSU Extension Service - King",
+    "type": "government",
+    "coords": [
+      -122.23343,
+      47.47526
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Woodinville City Hall",
+    "type": "government",
+    "coords": [
+      -122.16228,
+      47.75289
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Administration Building",
+    "type": "government",
+    "coords": [
+      -122.22527,
+      47.59151
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "United States Courthouse",
+    "type": "government",
+    "coords": [
+      -122.33641,
+      47.61519
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Courthouse",
+    "type": "government",
+    "coords": [
+      -122.33053,
+      47.60264
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Administration Building",
+    "type": "government",
+    "coords": [
+      -122.32942,
+      47.60305
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lake Forest Park City Hall",
+    "type": "government",
+    "coords": [
+      -122.27749,
+      47.75394
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kirkland City Hall",
+    "type": "government",
+    "coords": [
+      -122.20718,
+      47.67821
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Renton City Hall",
+    "type": "government",
+    "coords": [
+      -122.20473,
+      47.47479
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA Diving Program",
+    "type": "government",
+    "coords": [
+      -122.2599,
+      47.68676
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Building 1",
+    "type": "government",
+    "coords": [
+      -122.25737,
+      47.68685
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Building 2",
+    "type": "government",
+    "coords": [
+      -122.25566,
+      47.68694
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sunset Multi-Service & Career Development Center",
+    "type": "government",
+    "coords": [
+      -122.1808,
+      47.50359
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "William Kenzo Nakamura US Courthouse",
+    "type": "government",
+    "coords": [
+      -122.33137,
+      47.60723
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Kirkland City Hall Annex",
+    "type": "government",
+    "coords": [
+      -122.20796,
+      47.67748
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle City Hall",
+    "type": "government",
+    "coords": [
+      -122.33005,
+      47.60385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tukwila City Hall",
+    "type": "government",
+    "coords": [
+      -122.25559,
+      47.46314
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mercer Island City Hall",
+    "type": "government",
+    "coords": [
+      -122.21048,
+      47.57737
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port of Seattle Headquarters",
+    "type": "government",
+    "coords": [
+      -122.35439,
+      47.61383
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Golden Gardens Park House",
+    "type": "government",
+    "coords": [
+      -122.40113,
+      47.68891
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Montlake Project Information Center",
+    "type": "government",
+    "coords": [
+      -122.30328,
+      47.64392
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jameson Building",
+    "type": "government",
+    "coords": [
+      -122.38842,
+      47.65925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ArcWeld Facility",
+    "type": "government",
+    "coords": [
+      -122.38718,
+      47.65851
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jameson Building",
+    "type": "government",
+    "coords": [
+      -122.38903,
+      47.65924
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ArcWeld Facility",
+    "type": "government",
+    "coords": [
+      -122.38717,
+      47.65858
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle & King County Public Health - Downtown Public Health Center",
+    "type": "government",
+    "coords": [
+      -122.34218,
+      47.61459
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Yesler Building",
+    "type": "government",
+    "coords": [
+      -122.32821,
+      47.60198
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chinook Building",
+    "type": "government",
+    "coords": [
+      -122.32857,
+      47.60249
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "WA Department of Social and Health Services",
+    "type": "government",
+    "coords": [
+      -122.28713,
+      47.54691
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Health and Human Services",
+    "type": "government",
+    "coords": [
+      -122.36418,
+      47.56709
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Southwest Youth and Family Services",
+    "type": "government",
+    "coords": [
+      -122.36352,
+      47.56199
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Parks and Recreation Central Office",
+    "type": "government",
+    "coords": [
+      -122.34193,
+      47.61913
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Southeast Youth & Family Services",
+    "type": "government",
+    "coords": [
+      -122.28507,
+      47.5572
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Transportation Northwest Region Headquarters",
+    "type": "government",
+    "coords": [
+      -122.35175,
+      47.74329
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Shoreline City Hall",
+    "type": "government",
+    "coords": [
+      -122.34346,
+      47.75634
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Municipal Court",
+    "type": "government",
+    "coords": [
+      -122.32906,
+      47.60413
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Emergency Operations Center",
+    "type": "government",
+    "coords": [
+      -122.32803,
+      47.60125
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USGS Western Fisheries Research Center",
+    "type": "government",
+    "coords": [
+      -122.2557,
+      47.67534
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Northwest Fisheries Science Center",
+    "type": "government",
+    "coords": [
+      -122.30656,
+      47.64447
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "VA Magnolia",
+    "type": "government",
+    "coords": [
+      -122.40761,
+      47.66303
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Henry M. Jackson Federal Building",
+    "type": "government",
+    "coords": [
+      -122.33548,
+      47.60459
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Seattle Joint Training Facility",
+    "type": "government",
+    "coords": [
+      -122.33513,
+      47.51887
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington Interscholatic Activities Association",
+    "type": "government",
+    "coords": [
+      -122.20497,
+      47.47695
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellevue City Hall",
+    "type": "government",
+    "coords": [
+      -122.19234,
+      47.61444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Medina City Hall",
+    "type": "government",
+    "coords": [
+      -122.23912,
+      47.61534
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hunts Point Town Hall",
+    "type": "government",
+    "coords": [
+      -122.22723,
+      47.6373
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North City Water District",
+    "type": "government",
+    "coords": [
+      -122.31236,
+      47.75724
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Yarrow Point Town Hall",
+    "type": "government",
+    "coords": [
+      -122.21385,
+      47.64736
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Water District No. 49",
+    "type": "government",
+    "coords": [
+      -122.33988,
+      47.46569
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -122.33616,
+      47.46305
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Emergency Coordination Center",
+    "type": "government",
+    "coords": [
+      -122.17152,
+      47.48049
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cowlitz Indian Tride - Health & Human Services",
+    "type": "government",
+    "coords": [
+      -122.25278,
+      47.46337
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USCIS Field Office",
+    "type": "government",
+    "coords": [
+      -122.29112,
+      47.49046
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tukwila School District Service Center",
+    "type": "government",
+    "coords": [
+      -122.28154,
+      47.47452
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -122.2871,
+      47.47102
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Puget Sound Regional Services",
+    "type": "government",
+    "coords": [
+      -122.20255,
+      47.48469
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Juvenile Detention",
+    "type": "government",
+    "coords": [
+      -122.3155,
+      47.60487
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tukwila Justice Center",
+    "type": "government",
+    "coords": [
+      -122.2881,
+      47.46821
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Metro Safety and Training Facility at Norfolk",
+    "type": "government",
+    "coords": [
+      -122.28781,
+      47.512
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -122.34396,
+      47.72744
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "United States Customs and Border Protection",
+    "type": "government",
+    "coords": [
+      -122.25691,
+      47.75706
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Northwest Fisheries Science Center, NOAA",
+    "type": "government",
+    "coords": [
+      -122.30675,
+      47.64485
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Capitol Hill Community Services Office",
+    "type": "government",
+    "coords": [
+      -122.30952,
+      47.60841
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Office Building",
+    "type": "government",
+    "coords": [
+      -122.33649,
+      47.6041
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Environmental Lab",
+    "type": "government",
+    "coords": [
+      -122.36171,
+      47.65238
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NOAA Western Regional Center",
+    "type": "government",
+    "coords": [
+      -122.25504,
+      47.68587
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington State Department of Transportation - Corson Avenue Facility",
+    "type": "government",
+    "coords": [
+      -122.32392,
+      47.54455
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fort Lawton FAA Radar Site",
+    "type": "government",
+    "coords": [
+      -122.41284,
+      47.65775
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.38777,
+      47.63824
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.20192,
+      47.57738
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.32484,
+      47.63233
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "TPSS #66",
+    "type": "substation",
+    "coords": [
+      -122.32022,
+      47.61753
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Capitol Rectifier Sub. No. 6",
+    "type": "substation",
+    "coords": [
+      -122.31249,
+      47.62127
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19626,
+      47.57898
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Substation",
+    "type": "substation",
+    "coords": [
+      -122.3194,
+      47.68408
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Talbot Substation",
+    "type": "substation",
+    "coords": [
+      -122.19138,
+      47.46819
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Maple Valley Substation",
+    "type": "substation",
+    "coords": [
+      -122.18758,
+      47.46875
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.2395,
+      47.46713
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Shoreline Substation",
+    "type": "substation",
+    "coords": [
+      -122.33366,
+      47.74778
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Massachusetts Substation",
+    "type": "substation",
+    "coords": [
+      -122.33592,
+      47.58873
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lakeside Substation",
+    "type": "substation",
+    "coords": [
+      -122.1583,
+      47.58636
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Viewland/Hoffman Substation",
+    "type": "substation",
+    "coords": [
+      -122.35049,
+      47.70597
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Duwamish Substation",
+    "type": "substation",
+    "coords": [
+      -122.30717,
+      47.51445
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University Receiving Substation",
+    "type": "substation",
+    "coords": [
+      -122.32346,
+      47.65485
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Canal Substation",
+    "type": "substation",
+    "coords": [
+      -122.36512,
+      47.66184
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Broad Street Substation",
+    "type": "substation",
+    "coords": [
+      -122.34566,
+      47.62149
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Pine Substation",
+    "type": "substation",
+    "coords": [
+      -122.30315,
+      47.61468
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Creston-Nelson Substation",
+    "type": "substation",
+    "coords": [
+      -122.26703,
+      47.50648
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Delridge Substation",
+    "type": "substation",
+    "coords": [
+      -122.36621,
+      47.54949
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Paccar Substation",
+    "type": "substation",
+    "coords": [
+      -122.19491,
+      47.49539
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.15767,
+      47.67403
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.15778,
+      47.67459
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.20848,
+      47.47109
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Norway Hill Substation",
+    "type": "substation",
+    "coords": [
+      -122.19357,
+      47.74357
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.16567,
+      47.5558
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.20787,
+      47.49359
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Shuffleton Substation",
+    "type": "substation",
+    "coords": [
+      -122.20294,
+      47.5017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.20262,
+      47.50017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wayne Substation",
+    "type": "substation",
+    "coords": [
+      -122.21227,
+      47.74971
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Earlington Substation",
+    "type": "substation",
+    "coords": [
+      -122.22586,
+      47.46559
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mercerwood",
+    "type": "substation",
+    "coords": [
+      -122.22007,
+      47.56684
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.20208,
+      47.63226
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.18667,
+      47.61256
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.23297,
+      47.58209
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.2019,
+      47.57738
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Substation",
+    "type": "substation",
+    "coords": [
+      -122.33015,
+      47.56811
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.2932,
+      47.59027
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellevue Rectifier Sub. No. 5",
+    "type": "substation",
+    "coords": [
+      -122.32633,
+      47.62022
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.18656,
+      47.50266
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.29087,
+      47.68525
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.39786,
+      47.65165
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Waterfront Streetcar Rectifier Sub. No. 20",
+    "type": "substation",
+    "coords": [
+      -122.34439,
+      47.60975
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Broadway Rectifier Sub. No. 13",
+    "type": "substation",
+    "coords": [
+      -122.32035,
+      47.634
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.35657,
+      47.55622
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Juanita Substation",
+    "type": "substation",
+    "coords": [
+      -122.19558,
+      47.71767
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.22816,
+      47.74121
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19791,
+      47.69476
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19546,
+      47.68025
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.16723,
+      47.63136
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.1677,
+      47.58274
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19627,
+      47.57899
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.22346,
+      47.54174
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.21225,
+      47.53751
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.20134,
+      47.53434
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.18518,
+      47.53973
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.16503,
+      47.49019
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.31455,
+      47.56107
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.18425,
+      47.6233
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.23289,
+      47.61926
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.22868,
+      47.63323
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.2087,
+      47.61354
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19589,
+      47.66768
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19605,
+      47.59361
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union Street Substation",
+    "type": "substation",
+    "coords": [
+      -122.33948,
+      47.60711
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.19779,
+      47.65486
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.16375,
+      47.71043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Denny Substation",
+    "type": "substation",
+    "coords": [
+      -122.33198,
+      47.61911
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.23717,
+      47.46607
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Boeing 5-30",
+    "type": "substation",
+    "coords": [
+      -122.21006,
+      47.4919
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Receiving Station",
+    "type": "substation",
+    "coords": [
+      -122.31254,
+      47.65366
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.2027,
+      47.50012
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.21065,
+      47.49186
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Building 42",
+    "type": "substation",
+    "coords": [
+      -122.26344,
+      47.68123
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Broadway and Minor Traction Substation",
+    "type": "substation",
+    "coords": [
+      -122.32101,
+      47.60639
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Broad Street Substation Annex",
+    "type": "substation",
+    "coords": [
+      -122.34672,
+      47.6212
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.33069,
+      47.69621
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.15747,
+      47.58449
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -122.17767,
+      47.6099
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellevue Pumping Station",
+    "type": "water",
+    "coords": [
+      -122.20429,
+      47.60288
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -122.4129,
+      47.67101
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County West Point Wastewater Treatment Plant",
+    "type": "water",
+    "coords": [
+      -122.42778,
+      47.66383
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County South Treatment Plant",
+    "type": "water",
+    "coords": [
+      -122.2392,
+      47.47032
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -122.27595,
+      47.6964
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "King County Alki Wet Weather Treatment Facility",
+    "type": "water",
+    "coords": [
+      -122.4173,
+      47.57462
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Interbay Pump Station",
+    "type": "water",
+    "coords": [
+      -122.38575,
+      47.64867
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Interbay Pump Station",
+    "type": "water",
+    "coords": [
+      -122.37771,
+      47.63318
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Murray Avenue Pump Station",
+    "type": "water",
+    "coords": [
+      -122.39731,
+      47.53983
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -122.22087,
+      47.56834
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "30th Avenue Northeast Pump Station",
+    "type": "water",
+    "coords": [
+      -122.29591,
+      47.66392
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Salmon Creek Treatment Plant",
+    "type": "water",
+    "coords": [
+      -122.36115,
+      47.49101
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lake City Tunnel Regulator",
+    "type": "water",
+    "coords": [
+      -122.32051,
+      47.65616
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Murray Wet Weather Facility",
+    "type": "water",
+    "coords": [
+      -122.39593,
+      47.53992
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Magnolia Wet Weather Storage Facility",
+    "type": "water",
+    "coords": [
+      -122.38658,
+      47.63287
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -122.39877,
+      47.63252
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Barton Street Pump Station",
+    "type": "water",
+    "coords": [
+      -122.39344,
+      47.52338
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Seattle Metro Pumping Station",
+    "type": "water",
+    "coords": [
+      -122.30664,
+      47.65039
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wilburton Pumping Station",
+    "type": "water",
+    "coords": [
+      -122.17994,
+      47.60244
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -122.18379,
+      47.61155
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Magnolia CSO Control Facility",
+    "type": "water",
+    "coords": [
+      -122.38647,
+      47.63292
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Beach Pump Station",
+    "type": "water",
+    "coords": [
+      -122.39065,
+      47.70144
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wheeler Street Discharge Station",
+    "type": "water",
+    "coords": [
+      -122.38015,
+      47.64101
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fremont Siphon",
+    "type": "water",
+    "coords": [
+      -122.35976,
+      47.65321
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  }
+]

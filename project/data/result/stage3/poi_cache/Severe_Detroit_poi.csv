@@ -1,0 +1,473 @@
+name,facility_type,lat,lon,osm_id,osm_type
+"Cosmetic Surgeons of Michigan, PC",hospital,42.4604021,-82.900778,11042343299,node
+Windsor Metropolitan Hospital,hospital,42.3003281,-82.997185,23394311,way
+Kresge Eye Institute,hospital,42.3578437,-83.0573256,155058504,way
+Corewell Health Dearborn Hospital,hospital,42.2898947,-83.2147461,327574095,way
+DMC Sinai-Grace Hospital,hospital,42.4185226,-83.1823876,328562414,way
+St. John Hospital and Medical Center,hospital,42.4201354,-82.9138531,328735388,way
+Henry Ford Hospital,hospital,42.3678045,-83.0854852,469341318,way
+St. John Providence Hospital,hospital,42.4426205,-83.0202355,560388892,way
+Corewell Health Beaumont Hospital,hospital,42.383479,-82.9138248,562624138,way
+John D. Dingell VA Medical Center,hospital,42.3556713,-83.0592626,568335379,way
+Windsor Regional Hospital,hospital,42.3084425,-83.0319668,570758275,way
+Michigan Surgical Hospital,hospital,42.4516225,-83.0819857,580580903,way
+Henry Ford Wyandotte Hospital,hospital,42.2103082,-83.1464408,582940633,way
+Henry Ford Medical Center - Fairlane,hospital,42.3199128,-83.2272291,582960883,way
+Oakland Regional Hospital,hospital,42.4576101,-83.2033736,589839385,way
+"Ascension Providence Hospital, Southfield Campus",hospital,42.4571759,-83.2039228,589839386,way
+Riverview Health and Rehab Center,hospital,42.3508844,-82.9993142,591909272,way
+hospital facility,hospital,42.4202129,-83.214917,612346459,way
+Team Wellness Center – East,hospital,42.3619603,-83.0213136,638522295,way
+Henry Ford Kingswood Hospital,hospital,42.4471337,-83.1643954,648740992,way
+StoneCrest Center,hospital,42.4434663,-82.9713931,679124880,way
+Maryvale,hospital,42.2911614,-83.0731832,781424139,way
+Hotel-Dieu Grace Healthcare,hospital,42.2849607,-83.0642202,781424161,way
+James-Martin Chevrolet,hospital,42.3672192,-83.0707641,910657910,way
+Henry Ford Medical Center-Cottage,hospital,42.3966109,-82.9029034,8032727,relation
+Detroit Medical Center,hospital,42.3537703,-83.0559901,11104116,relation
+Windsor Airport,aerodrome,42.2762682,-82.9450488,23348851,way
+Coleman A. Young Municipal Airport,aerodrome,42.411217,-83.0083767,292217307,way
+Walter P. Harris Regional Training Center,fire_station,42.4041198,-83.0179536,354013834,node
+Engine Number 38 Fire Station,fire_station,42.3725,-82.9506,367813266,node
+"DFD Engine 51 firehouse (Squad 5, Medic 18)",fire_station,42.4250376,-83.1408027,367813271,node
+Engine Number 47 Fire Station,fire_station,42.4226685,-83.0388204,367813277,node
+Grosse Point Shore Fire Station,fire_station,42.4369965,-82.8772267,367813298,node
+Grosse Point Fire Station,fire_station,42.3861,-82.9124,367813304,node
+Engine Number 8 Fire Station (Closed),fire_station,42.3244769,-83.0640149,367813324,node
+Engine Number 9 Fire Station,fire_station,42.3472,-83.0131,367813325,node
+River Rouge Fire Station,fire_station,42.2729275,-83.1349166,367813376,node
+Engine House #11,fire_station,42.35448,-83.0311687,633874554,node
+Tecumseh Fire Hall No. 1,fire_station,42.3145615,-82.8877317,1801699187,node
+Detroit Fire Department HQ,fire_station,42.3302408,-83.0578873,2365998223,node
+LaSalle Fire and Rescue,fire_station,42.2452038,-83.0573,5378220116,node
+Ecorse Fire Station,fire_station,42.2542807,-83.1390016,10731625281,node
+Windsor Fire Station 7,fire_station,42.3215999,-82.9385557,12892157167,node
+DFD Ladder No. 5/3rd battalion/Engine No. 6,fire_station,42.3501337,-83.0420026,59449689,way
+Engine Number 1 Fire Station,fire_station,42.3378734,-83.0540795,69134329,way
+Engine Co. 17 Fire Station,fire_station,42.3647957,-83.0736267,69287494,way
+Windsor Fire Station Number 7,fire_station,42.3215423,-82.9386306,181946669,way
+fire_station facility,fire_station,42.2692483,-82.9662764,206185367,way
+Dearborn Fire Department,fire_station,42.3115016,-83.1905635,229354307,way
+Engine Number 44 Fire Station,fire_station,42.4320152,-83.1031419,288580740,way
+Squad 6 Medic 13,fire_station,42.3896906,-82.994327,288731576,way
+Engine Number 55 Fire Station,fire_station,42.3581461,-83.2173658,317241411,way
+Engine Number 53 Fire Station,fire_station,42.4011144,-83.199117,327007809,way
+Engine Number 40 Fire Station,fire_station,42.3934598,-83.1338724,327173249,way
+Engine Number 21 Fire Station (closed),fire_station,42.3799025,-83.1133456,327698878,way
+Engine Number 39 Fire Station,fire_station,42.3722243,-83.1004154,327698882,way
+Engine Number 42 Fire Station,fire_station,42.3667925,-83.1393638,327698884,way
+Allen Park Fire Station,fire_station,42.2584621,-83.2136756,361259711,way
+Melvindale Fire Station,fire_station,42.2826163,-83.1764675,362055788,way
+Detroit Fire Department - Engine 16 (Fire Boat),fire_station,42.3131889,-83.0782154,369215516,way
+Engine Number 27 Fire Station,fire_station,42.3146821,-83.0999311,378389188,way
+Engine Number 23 Fire Station,fire_station,42.3755396,-83.0363407,380156588,way
+Engine Number 26 Fire Station,fire_station,42.3627386,-82.99226,385386946,way
+Engine Number 32 Fire Station,fire_station,42.3682233,-82.9667363,385386947,way
+Engine Number 41 Fire Station,fire_station,42.3799449,-83.0032181,409618208,way
+Engine Number 37 Fire Station,fire_station,42.3175449,-83.1275713,439636151,way
+Engine Number 48 Fire Station,fire_station,42.27302,-83.1588142,441544381,way
+Engine Number 33 Fire Station,fire_station,42.3004911,-83.126856,442984842,way
+fire_station facility,fire_station,42.3544888,-83.0311396,456081071,way
+Engine Number 60 Fire Station,fire_station,42.4402345,-83.0052439,466081675,way
+Southgate Fire Station,fire_station,42.2026954,-83.2077244,470843854,way
+Hamtramck Fire Department,fire_station,42.3990327,-83.0627543,518065227,way
+Engine Number 35 Fire Station,fire_station,42.385366,-83.0808478,559557628,way
+Windsor Fire Station Number 1,fire_station,42.3119919,-83.0335025,631309513,way
+fire_station facility,fire_station,42.4606601,-83.120401,664516691,way
+Lincoln Park Fire Station,fire_station,42.2499019,-83.1796842,671858421,way
+Windsor Fire Station Number 3,fire_station,42.282155,-83.0157395,752058217,way
+Windsor Fire Station Number 6,fire_station,42.2575862,-82.9774017,783462565,way
+Windsor Fire Station 2,fire_station,42.3068758,-82.9866604,783677083,way
+Windsor Fire Station Number 5,fire_station,42.2762675,-83.049,787828835,way
+Windsor Fire Station Number 4,fire_station,42.2998341,-83.0630576,787836865,way
+fire_station facility,fire_station,42.3067467,-82.9866798,790242803,way
+Detroit Engine No. 5,fire_station,42.3488897,-83.0636068,806272156,way
+Fire Department Headquarters City of Highland Park,fire_station,42.4060976,-83.0961066,810144781,way
+fire_station facility,fire_station,42.4250398,-83.1407854,840653737,way
+Engine Number 59 Fire Station,fire_station,42.4230865,-83.2182195,857581282,way
+Engine Number 10 Fire Station,fire_station,42.3335476,-83.0980687,912953731,way
+fire_station facility,fire_station,42.4666959,-83.0642212,981318433,way
+Engine Number 56 Fire Station,fire_station,42.4299468,-83.0632245,1026269138,way
+Detroit Fire Engine 50 Ladder 23 Chief 3;Engine Number 50 Fire Station,fire_station,42.4206798,-82.9858706,1051702773,way
+Engine Number 64 Fire Station,fire_station,42.3901523,-83.0297522,1053183394,way
+Engine Number 66 Fire Station,fire_station,42.338572,-83.1337401,1069305443,way
+DFD Engine 30,fire_station,42.4126969,-83.1702131,1104207745,way
+Engine Number 34 Fire Station,fire_station,42.3464615,-83.1320655,1138078719,way
+Engine Number 31 Fire Station,fire_station,42.3484131,-83.1109378,1138078778,way
+Engine Number 49 Fire Station,fire_station,42.3793467,-83.1660816,1158554193,way
+Detroit Fire Engine 46,fire_station,42.3991046,-83.0037025,1161366511,way
+Engine Number 52 Fire Station,fire_station,42.3969585,-82.9563193,1161585106,way
+Grosse Point Park Fire Station,fire_station,42.3764657,-82.9377975,1186901215,way
+Wyandotte Fire Station,fire_station,42.2136811,-83.1660193,1244247736,way
+fire_station facility,fire_station,42.4643154,-82.9527845,1246174807,way
+Harper Woods Fire Station,fire_station,42.4335676,-82.9237769,1275406421,way
+Ferndale City Fire Department,fire_station,42.4592949,-83.1438417,1353703958,way
+Central Fire Station,fire_station,42.2023748,-83.152801,1413563721,way
+Precinct 10 Police Station,police,42.3765843,-83.1387515,367814454,node
+Ecorse Police Station,police,42.2546648,-83.1389279,367814466,node
+Melvindale Police Station,police,42.283018,-83.1755284,367814898,node
+River Rouge Police Station,police,42.273,-83.1349,367814950,node
+Hamtramck Police,police,42.3995654,-83.0526501,973631929,node
+Detroit Police Department HQ,police,42.3300386,-83.0577532,2365997488,node
+Detroit Police,police,42.3323336,-83.0527996,2411073461,node
+Oak Park Public Safety,police,42.4662451,-83.1834676,3466073008,node
+LaSalle Police Service Headqaurters,police,42.2452712,-83.0580434,5378220118,node
+Grosse Pointe Farms Police Station,police,42.4064337,-82.892141,5430295125,node
+Allen Park Police Department,police,42.2594411,-83.2112707,6548455208,node
+Highland Park Police,police,42.3953363,-83.0895386,7625616578,node
+Highland Park Police,police,42.4099644,-83.1013601,7626676718,node
+WSU Police Department,police,42.3649552,-83.0715639,7650230473,node
+DPD 3rd Precinct,police,42.3676648,-83.0811336,9061158120,node
+Grosse Point Shore Police Station,police,42.4368085,-82.8768581,9387105166,node
+Eastpointe Police Station,police,42.4649825,-82.9560911,9602233955,node
+Detroit Police Training Academy,police,42.3571003,-83.0955254,58310344,way
+Detroit 5th Precinct Station,police,42.3818085,-82.9659137,58758788,way
+Wayne County Sheriff's Office,police,42.355289,-83.0638779,69139635,way
+Precinct 12 Police Station,police,42.4314711,-83.1186437,71186853,way
+Dearborn Police Department,police,42.3135354,-83.2003207,105612463,way
+police facility,police,42.3676854,-83.0813308,112069930,way
+Wyandotte Police Department,police,42.2134379,-83.1484771,168138264,way
+Ontario Provincial Police,police,42.3152516,-82.8878635,168991753,way
+Historic Police Headquarters,police,42.3404077,-82.9866195,368854142,way
+United States Immigration Station,police,42.3431689,-83.0102586,396275712,way
+Ferndale Police Department,police,42.4601735,-83.1309256,431906367,way
+Windsor City Police Headquarters,police,42.3191956,-83.0371335,469346367,way
+Southgate Police Department,police,42.2031299,-83.2084472,470843836,way
+police facility,police,42.33765,-82.9994397,507125670,way
+Detroit Police Department Eleventh Precinct,police,42.4255186,-83.0513016,599709815,way
+Precinct 2 Police Station,police,42.3858137,-83.1794155,631359803,way
+Lincoln Park Police Station,police,42.2503231,-83.1809586,672312449,way
+Michigan State Police Department,police,42.47465,-83.1905896,692347539,way
+Grosse Point Police Station,police,42.3864627,-82.9119062,1022636424,way
+Precinct 9 Police Station,police,42.4094223,-82.9951143,1022699962,way
+6th Precinct Station,police,42.338513,-83.1341614,1069305442,way
+Harper Woods Police Station,police,42.4330355,-82.9241039,1275406422,way
+East Windsor Cogeneration Centre,power_plant,42.3255031,-83.0001928,23757824,way
+Brighton Beach LP Power Station,power_plant,42.2793306,-83.0944578,165631500,way
+West Windsor Power Plant,power_plant,42.2809393,-83.0865793,165631501,way
+Mistersky Gas Power Plant,power_plant,42.3040169,-83.0903538,214312739,way
+Herman Kiefer Steam Generation Plant,power_plant,42.3762444,-83.091668,410109873,way
+Wyandotte Municipal Power Plant,power_plant,42.2079518,-83.1455723,418197247,way
+power_plant facility,power_plant,42.3778854,-83.2006024,522722860,way
+Boulevard Plant,power_plant,42.3670687,-83.0749062,544186606,way
+Dearborn Industrial Generation,power_plant,42.304233,-83.1521498,565859121,way
+Willis Avenue Station,power_plant,42.3514615,-83.062122,636628832,way
+Delray Peaking Facility,power_plant,42.2949817,-83.1022112,636669940,way
+Windsor Solar Farm,power_plant,42.2839671,-82.9322596,732008131,way
+Windsor Solar Project,power_plant,42.2759339,-82.94139,732008135,way
+power_plant facility,power_plant,42.4711027,-83.1238626,882071200,way
+Northeast Power Plant,power_plant,42.4516143,-83.0387416,1077826994,way
+power_plant facility,power_plant,42.2878087,-82.9803651,1227258410,way
+EES Coke Plant,power_plant,42.2807536,-83.1096796,1243635327,way
+power_plant facility,power_plant,42.3173172,-83.2105567,15671225,relation
+Eastpointe Courthouse,government,42.4676,-82.9551,367813073,node
+Grosse Point Farms Municipal Court,government,42.4066006,-82.8920928,367813078,node
+Grosse Point Shores Courthouse,government,42.4368198,-82.8766807,367813105,node
+Oakland County 43rd District Court,government,42.4622867,-83.1036096,367813107,node
+Melvindale City Hall,government,42.2827662,-83.1753533,367815164,node
+Ecorse City Hall,government,42.2545427,-83.1389627,367815273,node
+Detroit North Central City Hall,government,42.4331634,-83.0786568,367815301,node
+Detroit City Hall Adminstrative Office,government,42.3296818,-83.0436649,367815302,node
+Detroit North End City Hall,government,42.3733,-83.0791,367815306,node
+Detroit Northeast City Hall,government,42.4259,-82.9877,367815311,node
+River Rouge City Hall,government,42.2730678,-83.1348875,367815312,node
+Secretary of State,government,42.369237,-83.074765,2390724711,node
+Secretary of State,government,42.4732948,-83.1809197,2794807055,node
+Oak Park City Hall,government,42.4661298,-83.1880014,3465528666,node
+45th District Court,government,42.4662753,-83.1829287,3465529944,node
+Michigan Secretary of State,government,42.3242405,-83.0813343,3870075593,node
+government facility,government,42.2891745,-83.0828205,4465657289,node
+31st District Court,government,42.3993619,-83.0525292,4642980541,node
+Passport Office,government,42.3195178,-83.0398702,5030988922,node
+LaSalle Town Hall,government,42.2458721,-83.0601601,5378220114,node
+Grosse Pointe Farms City Hall,government,42.406492,-82.8924282,5430295124,node
+Service Canada,government,42.3176209,-83.034332,5446088591,node
+Detroit Health Department,government,42.3419071,-83.0154346,5917133478,node
+Detroit Regional Chamber,government,42.3290494,-83.0454953,5961853386,node
+U.S. Drug Enforcement Administration,government,42.3306077,-83.0526589,5966476224,node
+"Cheryl Hardcastle, MP",government,42.3137103,-82.9195175,6697577893,node
+"Percy Hatfield, MPP",government,42.3095196,-82.9584584,7022582044,node
+"Lisa Gretzky, MPP",government,42.2970871,-83.0201412,7022695668,node
+Drive Test,government,42.2879025,-83.0222318,7022736254,node
+Detroit Housing Commission,government,42.3451204,-83.0362263,8195590069,node
+Detroit Metro Parole Office,government,42.3504925,-83.0962261,8458436748,node
+Social Security Administration,government,42.3307136,-83.11398,8481001715,node
+City of Allen Park Downtown Development Authority & Chamber of Commerce,government,42.2583316,-83.2078286,8497538212,node
+Detroit Housing Commission,government,42.3339233,-83.0340616,8773005765,node
+DHHHS Office,government,42.3490346,-83.0913922,8930900159,node
+Michigan Department of Health and Human Services,government,42.3589799,-83.0456308,9132925352,node
+Social Security Administration,government,42.3807289,-82.9652506,9360919971,node
+Department of Justice,government,42.3295669,-83.049387,9537043944,node
+Detroit Passport Agency,government,42.3296185,-83.0492651,9537169322,node
+U.S. Customs and Border Protection,government,42.3296339,-83.0492137,9537174272,node
+Secretary of State office,government,42.464772,-82.9566675,9602233935,node
+Secretary of State,government,42.3247743,-83.1756331,9715982671,node
+MI Secretary of State,government,42.4485607,-83.0842547,10299385840,node
+Federal Bureau of Investigation Detroit Field Office,government,42.3313556,-83.0530989,10685134588,node
+DWSD Westside Customer Service Center,government,42.3935557,-83.2000506,10997379585,node
+Water and Sewerage Department,government,42.332721,-83.044216,11134646063,node
+government facility,government,42.3354972,-83.0475944,11918245269,node
+36th District Court,government,42.3377599,-83.0453698,12085652009,node
+United States Customs and Border Protection Detroit Station,government,42.3674307,-82.9661353,12113319092,node
+United States Department of Treasury Office of Enforcement,government,42.3427684,-83.0423555,12509687150,node
+United States Border Patrol,government,42.3315757,-83.0328593,12509708880,node
+Service Ontario,government,42.2875126,-83.0251463,13153894427,node
+government facility,government,42.3984356,-83.1049478,58390662,way
+Coleman A. Young Municipal Center Courts Tower,government,42.3294954,-83.0442611,69000343,way
+Detroit Municipal Parking Department,government,42.3249259,-83.0644161,71187482,way
+19th District Court,government,42.3129378,-83.1997484,105612461,way
+Wyandotte City Hall,government,42.2006905,-83.1510546,116771760,way
+Tecumseh Town Hall,government,42.3158964,-82.8881851,168991751,way
+City of Dearborn - Dearborn Administrative Center,government,42.3125443,-83.2059373,229336328,way
+Coleman A. Young Municipal Center Administration Tower,government,42.3297673,-83.0434614,320396455,way
+government facility,government,42.3613142,-83.0483129,330297898,way
+Administration Building,government,42.284686,-83.125301,382132071,way
+Lincoln Hall of Juvenile Justice,government,42.3592974,-83.0522594,383542097,way
+U.S. Citizenship and Immigration Services - Detroit District Office,government,42.3678735,-82.9701714,385386953,way
+Hazel Park City Hall,government,42.4621694,-83.1036007,442857219,way
+Hamtramck City Hall,government,42.3995266,-83.0524639,470049548,way
+28th District Court / James A. Kandrevas Judicial Building,government,42.203049,-83.2078357,470843837,way
+Southgate City Hall,government,42.2040852,-83.2069662,470843839,way
+Social Security Administration,government,42.4310574,-83.1637627,490315806,way
+Park Office,government,42.3334443,-83.0222872,631397216,way
+Rosa Parks Federal Building,government,42.3429318,-83.0100228,657075750,way
+43rd District Court,government,42.4609461,-83.1310103,664479555,way
+Pleasant Ridge City Hall,government,42.4708792,-83.1424073,664487971,way
+Lincoln Park Streets Department,government,42.2459764,-83.1605369,671812479,way
+Lincoln Park Parole Office,government,42.2620039,-83.1679806,671822147,way
+Lincoln Park City Hall,government,42.2503567,-83.1792582,671858420,way
+Ontario Superior Court of Justice,government,42.3184807,-83.0368295,672180334,way
+Social Security Administration,government,42.1986002,-83.1523263,678446005,way
+City of Wyandotte Department of Public Services,government,42.1906209,-83.1668835,678697193,way
+Allen Park City Hall,government,42.2593273,-83.2111264,683578647,way
+Cadillac Place,government,42.3687106,-83.0753561,760809327,way
+Windsor City Hall,government,42.3170594,-83.035002,787809006,way
+Canada Revenue Agency,government,42.3159889,-83.0438598,787827835,way
+Windsor Port Authority,government,42.3022394,-83.0757568,787957585,way
+David W. Hanselman Municipal Complex,government,42.4768071,-83.0330287,798425091,way
+Robert B. Blackwell Municipal Building,government,42.3952235,-83.0895773,816480876,way
+City of Detroit Department of Elections,government,42.3681932,-83.0776049,916054283,way
+Grosse Pointe Shores Municipal Building,government,42.4367563,-82.8767472,1017716119,way
+Grosse Pointe City Hall,government,42.3866278,-82.9114351,1022636425,way
+Grosse Pointe Woods City Hall,government,42.4320367,-82.9099332,1037449984,way
+Harper Woods City Hall,government,42.4332929,-82.923877,1043084997,way
+government facility,government,42.4649955,-82.956086,1043316292,way
+Grosse Pointe Park City Hall,government,42.3762732,-82.9374649,1186901217,way
+Eastpointe City Hall,government,42.4682072,-82.9549957,1361297687,way
+City of Windsor: Department of Parks and Recreation,government,42.2924678,-83.0182436,1430372924,way
+Ferndale City Hall,government,42.4603341,-83.1310795,1467346025,way
+Theodore Levin United States Courthouse,government,42.3303675,-83.0496275,1539284,relation
+substation facility,substation,42.2155255,-83.0843393,2158181226,node
+substation facility,substation,42.1937713,-83.0621118,2160162560,node
+substation facility,substation,42.2607982,-82.9805694,2161930329,node
+substation facility,substation,42.3113295,-82.9966543,2166048019,node
+substation facility,substation,42.327734,-82.9400277,2168221593,node
+Crestwood Substation,substation,42.3273755,-83.196298,59135337,way
+Amsterdam Substation,substation,42.3649917,-83.0737207,69287493,way
+Verizon substation,substation,42.3275771,-83.071786,71756628,way
+Riverview Substation,substation,42.183737,-83.1693315,84347064,way
+Substation 9,substation,42.2176253,-83.1550275,138227226,way
+Substation 8,substation,42.1903632,-83.1568202,146681925,way
+Malden Transformer Station,substation,42.2551903,-83.0571568,147600902,way
+Crawford Transformer Station,substation,42.307975,-83.0448539,147608068,way
+River Rouge Substation,substation,42.2722374,-83.1130841,167282147,way
+substation facility,substation,42.3740446,-83.067749,180654113,way
+Jupiter Substation,substation,42.2288054,-83.2099563,186963293,way
+Ranger Substation,substation,42.2869909,-83.2017238,199286849,way
+Walker 1 Transformer Station,substation,42.2887761,-82.9791199,206587429,way
+Ford Essex Substation,substation,42.2926652,-82.9380192,206587442,way
+Lauzon Transformer Station,substation,42.2867997,-82.917032,206596695,way
+Filmore Substation,substation,42.2703109,-83.2070768,207465760,way
+substation facility,substation,42.2836404,-83.1145377,207468418,way
+Maxwell Substation,substation,42.2915184,-83.1342199,207468609,way
+Waterman Substation,substation,42.2963327,-83.1026938,207468610,way
+Great Lakes Substation,substation,42.2632117,-83.1298947,207468931,way
+Stephens Substation,substation,42.4739694,-82.9965914,210640589,way
+Trillium Substation,substation,42.2543066,-83.1333172,214304072,way
+Tecumseh Substation,substation,42.256498,-83.1308852,214304073,way
+Ecorse Substation,substation,42.2476536,-83.1312842,214304948,way
+Adams Substation,substation,42.2614891,-83.1214447,214306232,way
+Baxter Substation,substation,42.2925399,-83.1690347,214322953,way
+Warren Station,substation,42.342327,-83.1802827,214322954,way
+DBGEN GIS Substation,substation,42.3027675,-83.1511995,214322958,way
+DBGEN 100 Substation,substation,42.3059949,-83.1738627,214322962,way
+Essex Transformer Station,substation,42.2896002,-82.98428,214328766,way
+Cortland Substation,substation,42.3962095,-83.0916755,220278317,way
+Erin Substation,substation,42.4536682,-82.9359156,224876691,way
+Korte Substation,substation,42.3150996,-83.201284,229353713,way
+substation facility,substation,42.278652,-83.0069242,236890986,way
+W. Clark Keith transformer Substation,substation,42.2809017,-83.0918531,274904647,way
+Zenon Substation,substation,42.3142287,-83.1128417,321306323,way
+substation facility,substation,42.4183821,-83.1844257,327519280,way
+DPL Palmer Park Substation,substation,42.4204966,-83.1078535,328400949,way
+Mack Station,substation,42.3857236,-82.9735625,328777990,way
+substation facility,substation,42.2887661,-82.9352471,338114121,way
+Rotunda Substation,substation,42.3091927,-83.1887568,361131092,way
+Fairlane Substation,substation,42.3293006,-83.2245744,369240585,way
+DPL Ludden Substation,substation,42.3578695,-83.0278229,379487353,way
+substation facility,substation,42.3726729,-83.0385649,380136220,way
+Canfield Substation,substation,42.3533727,-83.0605364,383374533,way
+C.T.L. #3,substation,42.2853534,-83.1614077,440145005,way
+C.T.L. #7,substation,42.2861692,-83.1611394,440145007,way
+Stone Pool Substation,substation,42.3513368,-83.0708978,463190539,way
+Substation 7,substation,42.2254188,-83.1655945,472310145,way
+substation facility,substation,42.225041,-83.060976,488481895,way
+Midtown Substation,substation,42.3711257,-83.065813,516647419,way
+Alfred Substation,substation,42.3501786,-83.036496,519778145,way
+Essex Substation,substation,42.3604019,-82.9616849,520573000,way
+C.T.L. #8,substation,42.2738937,-83.1200233,533895122,way
+Marion Substation,substation,42.274232,-83.1208554,534070399,way
+DBGEN 48/49A Substation,substation,42.2955938,-83.1611395,534565802,way
+DBGEN 41A Substation,substation,42.3037997,-83.1539455,534730065,way
+C.T.L. #9,substation,42.3180782,-83.1103739,535241548,way
+substation facility,substation,42.2784796,-83.1145418,535258182,way
+Mopar Substation,substation,42.380686,-82.9774057,554968110,way
+Caniff Station,substation,42.4044994,-83.0430654,574209205,way
+DTE Garfield Substation,substation,42.3594342,-83.0483143,580990747,way
+Arctic Substation,substation,42.2890777,-83.1899899,581728316,way
+Grand River Substation,substation,42.3570502,-83.1113148,594448667,way
+C.T.L. #2,substation,42.4473378,-83.1136198,597953363,way
+C.T.L. #6,substation,42.4465557,-83.1462024,598584690,way
+Cicot Substation,substation,42.2641343,-83.1789529,604281464,way
+Voyager Substation,substation,42.3742629,-82.9624318,606875317,way
+Saturn Substation,substation,42.3854312,-83.0472176,607371330,way
+Frisbie Substation,substation,42.3735712,-83.0572334,607388993,way
+Wyandotte Substation,substation,42.1962509,-83.1646306,607509395,way
+Resource Recovery Substation,substation,42.3678081,-83.0499948,607848318,way
+DTE Temple Substation,substation,42.3433553,-83.0569877,607918703,way
+Bristol Substation,substation,42.3852604,-83.0639479,607983294,way
+Public Lighting Commission,substation,42.2945755,-83.1287096,608398803,way
+substation facility,substation,42.2818284,-83.1435667,608753097,way
+substation facility,substation,42.1867424,-83.1599895,622464113,way
+Vernier Substation,substation,42.4434967,-82.9085483,636714047,way
+Grosse Pointe Substation,substation,42.4177997,-82.9115968,636714050,way
+St. Louis Substation,substation,42.4267203,-83.039589,636714052,way
+Saint Antoine Substation,substation,42.332607,-83.0395665,636720306,way
+Greenfield Substation,substation,42.3900407,-83.1974314,647761941,way
+substation facility,substation,42.306476,-82.9966841,658016722,way
+Mercury Substation,substation,42.320892,-83.2064513,659079228,way
+Hazel Park Substation,substation,42.4613534,-83.113457,664552479,way
+Scotten Substation,substation,42.3344159,-83.1030934,669605091,way
+substation facility,substation,42.3260116,-83.0591488,671715488,way
+Oakman Substation,substation,42.390574,-83.1412988,679135217,way
+Empire Substation,substation,42.3662271,-83.1449855,683606513,way
+substation facility,substation,42.3650576,-83.0533236,686789790,way
+Pulford Substation,substation,42.3641811,-83.0182225,690293750,way
+Venice Substation,substation,42.2939019,-83.209985,727940814,way
+Windsor Solar Farm Substation,substation,42.2878355,-82.9257298,732008132,way
+Tireman Substation,substation,42.3508749,-83.2154789,737557741,way
+substation facility,substation,42.3464431,-83.0944619,771377396,way
+DBGEN 99 Substation,substation,42.3076122,-83.1569779,792262987,way
+Vance Substation,substation,42.4749846,-83.0888158,795989600,way
+substation facility,substation,42.4700556,-83.0273165,798425110,way
+Dix Substation,substation,42.2163795,-83.1934466,810517914,way
+Corktown Substation,substation,42.3278836,-83.0655391,864740677,way
+DBGEN 41 Substation,substation,42.3029509,-83.1527974,875092272,way
+Howard Substation,substation,42.3297765,-83.0555914,895005818,way
+Maple Substation,substation,42.3421386,-83.0385845,908254446,way
+Zephyr Substation,substation,42.266716,-83.2088154,918071721,way
+substation facility,substation,42.2874638,-83.1246703,924408388,way
+Hilton Road Substation,substation,42.4589737,-83.1219294,940181979,way
+Puritan Substation,substation,42.4090722,-83.1969939,941515135,way
+substation facility,substation,42.2154766,-83.0843286,945453252,way
+DTE Walker Substation,substation,42.3400039,-83.0159098,960168870,way
+substation facility,substation,42.3495317,-83.0875287,965397816,way
+Chandler Substation,substation,42.389147,-82.9745886,1013800949,way
+Atlas Substation,substation,42.1843197,-83.198619,1014635317,way
+Denver Substation,substation,42.396766,-82.9223205,1017253461,way
+substation facility,substation,42.3826336,-83.0624681,1027129699,way
+Wayburn Substation,substation,42.3876472,-82.9472001,1035861230,way
+Pingree Substation,substation,42.3751222,-83.0884316,1070330826,way
+Maidstone Distribution Station,substation,42.2073696,-82.8826719,1071280382,way
+substation facility,substation,42.2911731,-82.9846628,1071280778,way
+Liberty Substation,substation,42.4629577,-83.0487811,1072338783,way
+Northeast Substation,substation,42.4501051,-83.0382508,1077826993,way
+Gibson Substation,substation,42.3469617,-83.0734379,1079787096,way
+Outer Drive Substation,substation,42.4355788,-83.1420001,1079787897,way
+Chicago Boulevard Substation,substation,42.3658162,-83.1871713,1092238638,way
+Grant Substation,substation,42.4128111,-83.0673051,1115862710,way
+Meyers Substation,substation,42.3988042,-83.1688856,1126112958,way
+Cyril Substation,substation,42.3973118,-83.0286067,1126503472,way
+Coolidge Substation,substation,42.3812448,-83.1773039,1134259721,way
+Savannah Substation,substation,42.4252071,-83.1017786,1134379888,way
+substation facility,substation,42.345191,-83.1382091,1138078705,way
+substation facility,substation,42.3454828,-83.1340866,1138078716,way
+Appoline Substation,substation,42.431538,-83.1721482,1138153923,way
+Conant Substation,substation,42.4429133,-83.0804863,1138317497,way
+Kenney Substation,substation,42.4772704,-83.0840345,1152559845,way
+Lauder Substation,substation,42.4446687,-83.1940316,1153632495,way
+Lambert Substation,substation,42.3887637,-83.0086017,1153633175,way
+substation facility,substation,42.4152283,-83.0706206,1154539257,way
+substation facility,substation,42.4566004,-83.1178042,1154734583,way
+substation facility,substation,42.4532577,-83.16095,1155824571,way
+Oak Park,substation,42.467131,-83.18282,1156119406,way
+Northland Substation,substation,42.4556706,-83.2016564,1156129249,way
+Eight Mile Substation,substation,42.4493796,-82.9705896,1157419289,way
+substation facility,substation,42.4777029,-83.0294182,1157429296,way
+substation facility,substation,42.4553368,-83.010723,1157535710,way
+Fairmount Substation,substation,42.4432889,-83.0046138,1157536099,way
+Shores Substation,substation,42.4661099,-82.9155675,1157541997,way
+substation facility,substation,42.47881,-82.9075684,1157544308,way
+Hayes Substation,substation,42.4341217,-82.9650432,1160764400,way
+Gunston Substation,substation,42.4142128,-82.999623,1168575189,way
+Wagner Substation,substation,42.3420044,-83.1287119,1170449362,way
+Islandview Substation,substation,42.35703,-83.0151348,1173567100,way
+McGraw Substation,substation,42.3298967,-83.1540014,1175361152,way
+Linwood Substation,substation,42.3805963,-83.1138283,1180982061,way
+Curtis Substation,substation,42.4230041,-83.2197154,1182286751,way
+Turner Substation,substation,42.4164397,-83.149333,1182289141,way
+West End Substation,substation,42.2950845,-83.1163109,1182292735,way
+Decatur Substation,substation,42.3509876,-83.1791894,1182311791,way
+Madison Substation,substation,42.3382892,-83.0446605,1182319909,way
+CATO Substation,substation,42.3353179,-83.0572738,1182326444,way
+McKinstry Substation,substation,42.3124743,-83.0914913,1190863548,way
+Balfour Substation,substation,42.4077523,-82.9524012,1190888992,way
+Artesian Substation,substation,42.3800625,-83.2245903,1191519664,way
+DBGEN 42 Substation,substation,42.2972157,-83.160981,1211317352,way
+Promenade Substation,substation,42.3866326,-83.0229709,1232459687,way
+substation facility,substation,42.2871591,-83.1302115,1244765624,way
+Transalta Substation,substation,42.2877735,-82.9809164,1277817005,way
+substation facility,substation,42.4524873,-83.0376637,1280654588,way
+Shaddick Substation,substation,42.3401814,-83.1567589,1352092075,way
+substation facility,substation,42.3309783,-83.1443803,1352123170,way
+substation facility,substation,42.3933386,-83.0075793,1352123799,way
+Hamtramck Substation,substation,42.3855515,-83.0460475,1353018076,way
+substation facility,substation,42.3045401,-83.0902241,1353257821,way
+Ferndale Substation,substation,42.4601341,-83.1443163,1353703952,way
+NextStar Energy Substation,substation,42.2918379,-82.9071951,1424153381,way
+Walker 2 Transformer Station,substation,42.288956,-82.979804,1463704543,way
+substation facility,substation,42.2665518,-82.9476505,1463946170,way
+substation facility,substation,42.2085339,-82.9981194,1464192183,way
+substation facility,substation,42.3122503,-82.8803245,1464248587,way
+substation facility,substation,42.1900782,-83.0337881,1465209246,way
+substation facility,substation,42.3066613,-82.941955,1466364310,way
+substation facility,substation,42.4678902,-83.0386008,1485090300,way
+substation facility,substation,42.4441228,-83.0162445,1485090301,way
+substation facility,substation,42.4045228,-83.032596,1485090302,way
+Eagle Substation,substation,42.3130341,-83.1590762,1485090303,way
+Wyandotte,substation,42.2087671,-83.1448619,1485090304,way
+Alloy Substation,substation,42.2722668,-83.1720511,1490890200,way
+substation facility,substation,42.2297873,-83.2062078,1490895943,way
+Adelaide Substation,substation,42.1966775,-83.1645362,1492456713,way
+Ecorse Substation,substation,42.2435436,-83.1564107,1493545737,way
+Navarre Substation,substation,42.284644,-83.1608725,6547599,relation
+Downriver Wastewater Treatment Facility,water_works,42.1876457,-83.1617127,311568829,way
+Ferric Chloride Storage Depot,water_works,42.2844996,-83.1273441,382132080,way
+Northeast Water Treatment Plant,water_works,42.4450152,-83.0124981,560209755,way
+Springwells Water Treatment Plant,water_works,42.3472297,-83.1514216,560390243,way
+Highland Park Water Treatment Plant,water_works,42.4124241,-83.0784028,561183987,way
+Water Works Park,water_works,42.3583429,-82.9788935,562240179,way
+Grosse Pointe Farms Water Filtration Plant,water_works,42.4077902,-82.88892,566858115,way
+Milk River Pumping Station,water_works,42.4499406,-82.8898873,568522003,way
+Lou Romano Water Reclamation Plant,water_works,42.2824778,-83.0834415,570701621,way
+water_works facility,water_works,42.2285981,-83.2084475,604267217,way
+water_works facility,water_works,42.1866387,-83.1637292,622464117,way
+water_works facility,water_works,42.1865799,-83.1615901,622464118,way
+Baby Creek CSO Control Facility,water_works,42.3079903,-83.1408202,641002626,way
+water_works facility,water_works,42.4069977,-82.887398,754136248,way
+water_works facility,water_works,42.3303312,-82.877546,779435396,way
+water_works facility,water_works,42.1890219,-83.1611364,836409098,way
+Oakwood CSO Control Facility,water_works,42.2824964,-83.1437731,875092271,way
+Southwest Water Treatment Plant,water_works,42.2304206,-83.205175,1352991656,way
+Little River Pollution Control Plant,water_works,42.3304735,-82.9272784,1390210703,way
+Detroit Wastewater Treatment Plant,water_works,42.2863741,-83.1264682,11256155,relation

@@ -1,0 +1,235 @@
+name,facility_type,lat,lon,osm_id,osm_type
+TriStar Skyline Madison Campus,hospital,36.2547756,-86.6824968,356879642,node
+Monroe Carell Jr. Children's Hospital at Vanderbilt,hospital,36.1393682,-86.8022762,356898097,node
+Lloyd C. Elam Mental Health Center,hospital,36.1667039,-86.8080112,356901157,node
+TriStar Centennial Parthenon Pavilion,hospital,36.1526984,-86.8104941,356901174,node
+Select Specialty Hospital,hospital,36.1525321,-86.8011062,356901177,node
+The Children's Hospital at TriStar Centennial,hospital,36.153542,-86.807152,4904992463,node
+Saint Thomas Hospital for Specialty Surgery,hospital,36.1551457,-86.8033192,5685004422,node
+Dermazen Spa,hospital,36.1925063,-86.6183786,12281142518,node
+Rogers Behavioral Health,hospital,36.032198,-86.7786157,13005336101,node
+Vanderbilt University Medical Center,hospital,36.1408677,-86.8025912,487124714,way
+TriStar Southern Hills Medical Center,hospital,36.0765785,-86.722409,498884920,way
+TriStar Summit Medical Center,hospital,36.1762068,-86.608436,498901964,way
+Tristar Skyline Medical Center,hospital,36.2451616,-86.7500233,498973195,way
+Nashville General Hospital,hospital,36.1668517,-86.8072542,499152027,way
+VA Tennessee Valley Healthcare System,hospital,36.1415944,-86.8039376,499161822,way
+TriStar Centennial Medical Center,hospital,36.1536942,-86.8088158,499190651,way
+Ascension Saint Thomas Midtown Hospital,hospital,36.1538601,-86.8022433,499190655,way
+Saint Thomas West Hospital,hospital,36.1298786,-86.8445769,499320685,way
+Hermitage Hall,hospital,36.1398937,-86.7775473,693238298,way
+Evans Airport,aerodrome,36.2964417,-86.9416675,368992887,node
+Oakley Airport,aerodrome,36.1698875,-86.9440543,8455824790,node
+Tennessee Air National Guard,aerodrome,36.1095867,-86.6757746,27941733,way
+John C. Tune Airport,aerodrome,36.1833689,-86.8862144,213397076,way
+Nashville International Airport,aerodrome,36.1195668,-86.6769875,11657815,relation
+Brentwood Fire Department & Station 1,fire_station,36.0344072,-86.8046601,368157319,node
+Davidson County Fire Department,fire_station,36.1700803,-86.764444,368157324,node
+NFD Station 7,fire_station,36.1178657,-86.8869728,657355746,node
+fire_station facility,fire_station,36.0684168,-86.7169058,660520458,node
+fire_station facility,fire_station,36.0899584,-86.6871509,753085759,node
+Nashville Fire Department Station 37,fire_station,36.0723502,-86.9342254,1744663742,node
+Nashville  Fire Department Station 22,fire_station,36.216682,-86.6884172,9258721234,node
+Nashville Fire Department Station 17,fire_station,36.1306571,-86.8358501,9258733082,node
+fire_station facility,fire_station,36.1702424,-86.7644866,267657511,way
+Nashville Fire Department - Station 28,fire_station,36.1694599,-86.6827887,599467130,way
+fire_station facility,fire_station,36.0402135,-86.7403374,627635181,way
+fire_station facility,fire_station,36.0684043,-86.7169067,663233078,way
+fire_station facility,fire_station,36.1167973,-86.7470685,684017885,way
+Station 13,fire_station,36.1530654,-86.8405891,770620520,way
+fire_station facility,fire_station,36.1433231,-86.7791847,817980314,way
+Nashville Fire Station 9,fire_station,36.1550536,-86.7712864,1055231358,way
+Nashville Fire Dept. Station 11,fire_station,36.1791513,-86.811065,1066561002,way
+Nashville Fire Department Station 23,fire_station,36.1688124,-86.8618261,1085616255,way
+Williamson County Rescue Squad (Station 22),fire_station,36.0203938,-86.8886467,1097596424,way
+Metropolitan Fire Department,fire_station,36.2167747,-86.8015012,1131942762,way
+Nashville Fire Department - Station 31,fire_station,36.2590238,-86.7157328,1220078718,way
+Brentwood Fire Station 1,fire_station,36.0344196,-86.804651,18063040,relation
+South Precinct,police,36.0892821,-86.6874942,753084706,node
+Berry Hill Police department,police,36.1121781,-86.7625471,2056623779,node
+Metro Police Department - North Precinct,police,36.1885555,-86.8194067,5652763234,node
+Metro Nashville Police Department,police,36.142076,-86.7402495,9253520026,node
+Hendersonville Police Department,police,36.3011851,-86.6306811,11327525917,node
+West Precinct - Metropolitan Nashville Police Department,police,36.1514953,-86.8555309,490432484,way
+Midtown Hills Police Precint,police,36.1375298,-86.7887267,533228044,way
+police facility,police,36.1885983,-86.819413,666486918,way
+Old Hickory Power Plant,power_plant,36.2973174,-86.6556192,379808120,way
+J P Priest Power Plant,power_plant,36.1569092,-86.6187624,963850297,way
+Music City Community Solar,power_plant,36.2478262,-86.7461604,1157526997,way
+Central Wastewater Solar,power_plant,36.1840243,-86.7870959,1233861830,way
+Whites Creek Wastewater Solar,power_plant,36.1816204,-86.8549128,1489136447,way
+Omohundro Water Treatment Solar,power_plant,36.1580743,-86.727316,20327285,relation
+Nashville Environmental Field Office,government,36.2138595,-86.7388255,576677028,node
+Davidson County Clerk,government,36.0891735,-86.6876641,753458922,node
+Tennesse Lottery,government,36.19577,-86.7992275,1712044951,node
+Tennessee Housing Development Agency,government,36.1654207,-86.7821025,4574280388,node
+Nashville Juvenile Court,government,36.1688459,-86.7713175,4576350830,node
+Nashville City Hall,government,36.1671885,-86.7788385,4595540327,node
+Davidson County Criminal Court,government,36.1685304,-86.7784024,4595548679,node
+Metro Nashville Courthouse,government,36.1674156,-86.7783349,6139853430,node
+Tennessee Emergency Management Agency,government,36.0984003,-86.7580886,10679800959,node
+Equal Employment Opportunity Commission - Nashville,government,36.1945422,-86.7998507,12180181290,node
+Tennessee Supreme Court,government,36.1649272,-86.7848702,112916694,way
+William R. Snodgrass Tennessee Tower,government,36.163892,-86.7848695,112916700,way
+U.S. Courthouse,government,36.1583211,-86.7825704,130905894,way
+US Customs House,government,36.1587457,-86.7812826,130905910,way
+Citizens Plaza,government,36.1659846,-86.7808455,130913026,way
+AA Birch Justice Complex,government,36.1685288,-86.778362,130913028,way
+government facility,government,36.1672556,-86.7785874,130913030,way
+Andrew Johnson Tower,government,36.1678383,-86.7872037,130913031,way
+Tennessee Department of Records,government,36.1660631,-86.7824648,130913034,way
+Ben West Municipal Building,government,36.1680817,-86.7782756,130913053,way
+Federal Bureau of Investigation,government,36.1479888,-86.6621591,185379288,way
+Tennessee General Assembly,government,36.1670491,-86.7831647,249147623,way
+Andrew Jackson Building,government,36.1654281,-86.7821897,249147624,way
+Rachel Jackson Building,government,36.1651756,-86.7827412,249147625,way
+government facility,government,36.164617,-86.7817452,249147626,way
+Davy Crockett Tower,government,36.1691133,-86.7845472,353241844,way
+City of Forest Hills Town Hall,government,36.0478412,-86.8613464,468569501,way
+Fort Negley Visitors Center,government,36.1432106,-86.7751315,514032937,way
+government facility,government,36.1939389,-86.7886053,666489329,way
+government facility,government,36.1960829,-86.7962807,667070864,way
+government facility,government,36.1956429,-86.7990579,667230724,way
+government facility,government,36.1531404,-86.768694,687075253,way
+government facility,government,36.1224403,-86.7442516,690210847,way
+Driftwood Equalization Basin - CSO Detention Basin,government,36.1565921,-86.757648,699666919,way
+James H Fyke administrative complex,government,36.1471778,-86.820667,704874518,way
+Tennessee Education Association,government,36.1713915,-86.7817184,766218790,way
+Fred D. Thompson U.S. Courthouse and Federal Building,government,36.1613178,-86.7828928,772536067,way
+government facility,government,36.1782123,-86.6159764,830863904,way
+government facility,government,36.1774976,-86.6144077,830863905,way
+Metro Water Service Customer Service Center,government,36.1840462,-86.7900586,831372620,way
+North Nashville Substation,substation,36.2776741,-86.7131849,53624949,way
+Nolensville Road Substation,substation,36.0490622,-86.7084452,106991146,way
+Cane Ridge Substation,substation,36.0328866,-86.653932,106991148,way
+Radnor Substation,substation,36.0565838,-86.7706654,106993368,way
+Battlefield Substation,substation,36.1188369,-86.7716027,107096287,way
+Brentwood Substation,substation,36.0181462,-86.7512776,107134355,way
+substation facility,substation,36.1720546,-86.862455,107203619,way
+South Nashville Substation,substation,36.1553894,-86.7460667,107208501,way
+substation facility,substation,36.207806,-86.7343274,107208502,way
+substation facility,substation,36.15381,-86.7448938,107233020,way
+Murfreesboro Road Substation,substation,36.0642626,-86.6247975,107233021,way
+Craighead Substation,substation,36.1302451,-86.7589916,107234968,way
+West Nashville Substation,substation,36.1658805,-86.8662399,107244527,way
+Airport Substation,substation,36.1239138,-86.6488617,107310368,way
+Hendersonville Substation,substation,36.3066119,-86.6229687,197406517,way
+Old Hickory Substation,substation,36.2579766,-86.6514821,205226933,way
+substation facility,substation,36.2784173,-86.6623469,205226934,way
+Edenwold Substation,substation,36.2934853,-86.6969902,205226935,way
+Finn Street Substation,substation,36.178767,-86.7527685,205226937,way
+Brick Church Substation,substation,36.2432224,-86.7814128,205255840,way
+Watkins Park Substation,substation,36.1609234,-86.8026588,205255844,way
+Sharondale Substation,substation,36.1274911,-86.816192,205255845,way
+substation facility,substation,36.1593438,-86.836494,205255852,way
+Metro Center Substation,substation,36.1875282,-86.802732,205255853,way
+Walton Lane Substation,substation,36.2406277,-86.7363408,205255855,way
+Galloway Substation,substation,36.1571736,-86.8119251,205255856,way
+Whites Creek Substation,substation,36.2463755,-86.8320786,205255869,way
+substation facility,substation,36.1998857,-86.8433281,205255870,way
+substation facility,substation,36.190188,-86.7102215,205275904,way
+Madison Substation,substation,36.2611707,-86.7146584,205275911,way
+East Substation,substation,36.210272,-86.7347711,205275913,way
+substation facility,substation,36.196115,-86.6181404,207452130,way
+Merry Oaks Substation,substation,36.1530954,-86.6847366,207452131,way
+substation facility,substation,36.2266521,-86.6952517,207452133,way
+Donelson Substation,substation,36.1646168,-86.6498293,207452135,way
+substation facility,substation,36.1905911,-86.6651388,207474692,way
+Elysian Fields Substation,substation,36.0970884,-86.7463228,207706762,way
+Peabody Substation,substation,36.1552703,-86.7772957,207706768,way
+Van Buren Substation,substation,36.180872,-86.786765,207869583,way
+substation facility,substation,36.1275654,-86.8492596,207869586,way
+Green Hills Substation,substation,36.1044827,-86.8183403,207878702,way
+substation facility,substation,36.0859444,-86.8371886,207878703,way
+Forest Hills Substation,substation,36.04821,-86.8593206,207878705,way
+substation facility,substation,36.118676,-86.9097591,207886591,way
+Bellevue Substation,substation,36.0724575,-86.925855,207938172,way
+substation facility,substation,36.0965522,-86.6903406,207973816,way
+Elm Hill Substation,substation,36.1486831,-86.7109529,208020415,way
+Edgehill Substation,substation,36.1409848,-86.7901174,208020441,way
+Avco Primary Substation,substation,36.1213346,-86.6961961,208020442,way
+substation facility,substation,36.1247278,-86.7103398,208020448,way
+Central Substation,substation,36.1689642,-86.7790684,208090073,way
+Monticello Substation,substation,36.2889409,-86.705435,208290749,way
+substation facility,substation,36.1818931,-86.8715453,208290755,way
+McIver Substation,substation,36.2193665,-86.7288065,208304386,way
+substation facility,substation,36.298164,-86.6552754,208456835,way
+Dupont Substation,substation,36.2708449,-86.6595733,208456838,way
+substation facility,substation,36.0405046,-86.8222485,208608293,way
+substation facility,substation,36.1096376,-86.7192433,208608294,way
+substation facility,substation,36.1258043,-86.7087141,208608298,way
+substation facility,substation,36.121724,-86.793943,208608301,way
+substation facility,substation,36.168771,-86.7747145,208763629,way
+substation facility,substation,36.2268359,-86.7630195,208763632,way
+Scott Avenue Substation,substation,36.191969,-86.7337878,208763639,way
+substation facility,substation,36.1566999,-86.6188012,208964332,way
+North Nashville Substation,substation,36.2767,-86.7126914,262174074,way
+GAF Substation,substation,36.1341097,-86.7522782,331397926,way
+54th Avenue Substation,substation,36.1527437,-86.8519474,499316020,way
+Trinity Hills Substation,substation,36.2119904,-86.7798746,776316725,way
+HCA IT & Services Data Center,substation,36.0315303,-86.6370809,819981890,way
+41st Avenue Substation,substation,36.1417261,-86.8353415,1088454628,way
+substation facility,substation,36.1256541,-86.8451076,1088464206,way
+42nd Avenue Substation,substation,36.1566678,-86.8376844,1210515245,way
+substation facility,substation,36.1468165,-86.7623422,1210590675,way
+Pin Hook Substation,substation,36.0463987,-86.605771,1210590700,way
+substation facility,substation,36.158019,-86.7700675,1211026811,way
+Utopia Substation,substation,36.1257593,-86.7569607,1334011026,way
+substation facility,substation,36.2309088,-86.7260994,1420850948,way
+substation facility,substation,36.2979475,-86.6553627,1429544015,way
+North East Substation,substation,36.1935119,-86.7681394,1447819119,way
+substation facility,substation,36.1242177,-86.9014175,1462084550,way
+Crockett Substation,substation,36.1952634,-86.7532107,1462084554,way
+substation facility,substation,36.1574565,-86.7260596,1462094619,way
+11th Avenue Substation,substation,36.1603722,-86.7895917,1462175334,way
+substation facility,substation,36.30661,-86.7195078,1489113322,way
+substation facility,substation,36.2638716,-86.7589048,1489113805,way
+substation facility,substation,36.2393697,-86.7370193,1489134375,way
+Ardee Avenue Substation,substation,36.2107016,-86.7149132,1489134556,way
+Trinity Lane Substation,substation,36.2073291,-86.7511566,1489134927,way
+Dickerson Road Substation,substation,36.211728,-86.7645753,1489135018,way
+Crutcher Street Substation,substation,36.1622556,-86.7563198,1489135400,way
+substation facility,substation,36.1925631,-86.8357001,1489135827,way
+Harding Place Substation,substation,36.0932556,-86.8473878,1489135887,way
+substation facility,substation,36.1109591,-86.8289503,1489136079,way
+substation facility,substation,36.0998823,-86.8279697,1489136127,way
+substation facility,substation,36.1098267,-86.809951,1489136194,way
+Clay Street Substation,substation,36.1839818,-86.8080291,1489136540,way
+substation facility,substation,36.1732176,-86.8070917,1489136568,way
+substation facility,substation,36.1822043,-86.8235462,1489136688,way
+substation facility,substation,36.1450328,-86.8040558,1489137267,way
+TSU Substation,substation,36.1667445,-86.8320614,1489137687,way
+substation facility,substation,36.1466829,-86.8694759,1489137887,way
+substation facility,substation,36.2734198,-86.7109472,1489139227,way
+Montague Substation,substation,36.2476549,-86.7196916,1489139330,way
+substation facility,substation,36.277106,-86.729895,1489139376,way
+substation facility,substation,36.2566647,-86.7323972,1489139420,way
+substation facility,substation,36.2595826,-86.7108722,1489139482,way
+Randy Substation,substation,36.2531464,-86.6931898,1489139706,way
+substation facility,substation,36.1738807,-86.6968422,1489139913,way
+Dupont Substation #2,substation,36.271024,-86.6508238,1489140926,way
+substation facility,substation,36.2445173,-86.6367037,1489141084,way
+Jacksonian Substation,substation,36.1947474,-86.6277607,1489141325,way
+Kent Substation,substation,36.1521982,-86.6631568,1489141550,way
+Truxton Substation,substation,36.1546114,-86.6436986,1489141583,way
+Mashburn Substation,substation,36.1137544,-86.7307483,1489142188,way
+substation facility,substation,36.0976279,-86.7167599,1489142519,way
+substation facility,substation,36.0692356,-86.6976914,1489144798,way
+substation facility,substation,36.0650407,-86.7315842,1489144852,way
+substation facility,substation,36.0833952,-86.7390631,1489144902,way
+substation facility,substation,36.0839921,-86.7561961,1489144913,way
+substation facility,substation,36.0741597,-86.7476039,1489144967,way
+substation facility,substation,36.0732461,-86.7667369,1489144968,way
+substation facility,substation,36.1441778,-86.8830356,1489149416,way
+Harding Pike Substation,substation,36.0996914,-86.8721788,1489149494,way
+water_works facility,water_works,36.1875906,-86.785677,720665507,way
+water_works facility,water_works,36.1862433,-86.7897914,720665510,way
+Whites Creek Wastewater Treatment Plant,water_works,36.1826791,-86.8559763,776316713,way
+K.R. Harrington WTP,water_works,36.1909507,-86.6665704,778951498,way
+Nashville Pumping Station and Filtration Plant,water_works,36.1616252,-86.7258704,819981875,way
+water_works facility,water_works,36.1371718,-86.6756554,843175362,way
+water_works facility,water_works,36.145086,-86.9147057,930328354,way
+Dry Creek Wastewater Plant,water_works,36.2887623,-86.6897732,1242138140,way
+water_works facility,water_works,36.3018247,-86.6504829,1473203085,way
+Ewing Creek,water_works,36.2373896,-86.7826199,1489134129,way
+water_works facility,water_works,36.0889489,-86.6205374,1489143981,way

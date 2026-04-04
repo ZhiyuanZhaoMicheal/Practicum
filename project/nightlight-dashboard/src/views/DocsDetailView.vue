@@ -79,7 +79,7 @@
           </p>
           <ul class="detail-list">
             <li><strong>Stage 1 — Interpretive modeling:</strong> Four statistical models (OLS, MixedLM, Logistic, Cox PH) test whether the resilience signal is real and statistically significant.</li>
-            <li><strong>Stage 2 — Predictive modeling:</strong> Random Forest + XGBoost models predict pixel-level backup power probability, validated with Leave-One-Event-Out cross-validation across 15 events.</li>
+            <li><strong>Stage 2 — Predictive modeling:</strong> Random Forest + XGBoost models predict pixel-level backup power probability, validated with Leave-One-Event-Out cross-validation across 25 events.</li>
             <li><strong>Stage 3 — Zip-code analysis:</strong> Extending from pixels to policy-relevant geographic units, testing whether facility density correlates with historical outage severity.</li>
           </ul>
           <p>
@@ -125,7 +125,7 @@
             <div>
               <strong>Collaboration:</strong> Temple University (PI: Prof. Xiaojiang Li) and
               Arizona State University. The project began with 6 events in Puerto Rico, Florida,
-              and Louisiana, and has expanded to 15 events across the continental U.S. and Turkey.
+              and Louisiana, and has expanded to 25 events across the continental U.S. and Turkey.
             </div>
           </div>
 
@@ -300,7 +300,7 @@
 
           <p>
             This pattern — a sudden NTL collapse followed by gradual, spatially uneven recovery — is
-            what we observe across all 15 study events, though the severity and duration vary
+            what we observe across all 25 study events, though the severity and duration vary
             significantly. The bar charts below summarize the daily spatial-mean NTL for each event,
             with <strong style="color:var(--green)">green bars = pre-disaster</strong> and
             <strong style="color:var(--red, #ff6b6b)">red bars = post-disaster</strong>.
@@ -365,7 +365,7 @@
               pixels and excluding cloudy days entirely (threshold: 30% cloud cover). This ensures
               the EDA statistics reflect real observations, not interpolations.
               <br /><br />
-              For the predictive modeling phase, we expanded to 15 events using <strong>gap-filled
+              For the predictive modeling phase, we expanded to 25 events using <strong>gap-filled
               imagery</strong> (VNP46A2) to maximize geographic coverage. Gap-filling uses temporal
               interpolation from neighboring days, which may slightly inflate post-disaster brightness
               for days with cloud cover (the algorithm borrows from pre-disaster values). However,
@@ -1480,7 +1480,7 @@ for h in hospitals[:3]:
             We design <strong>four model variants (A–D)</strong> as a systematic ablation study.
             Each variant removes a category of features to isolate what drives prediction accuracy.
             All four are evaluated with <strong>Leave-One-Event-Out (LOEO)</strong> cross-validation
-            across 15 disaster events — ensuring that the model never trains and tests on the same
+            across 25 disaster events — ensuring that the model never trains and tests on the same
             geographic area.
           </p>
 
@@ -1518,7 +1518,7 @@ for h in hospitals[:3]:
           </p>
           <div class="formula-block">
             <div class="formula">LOEO AUC: RF = 0.969 (±0.023), XGB = 0.973, Logit = 0.948</div>
-            <div class="formula__caption">Mean across 15 held-out events, strict buffer label</div>
+            <div class="formula__caption">Mean across 25 held-out events, strict buffer label</div>
           </div>
           <p>
             Feature importance reveals <strong><code>log_dist</code></strong> (distance to nearest
@@ -1633,7 +1633,7 @@ for h in hospitals[:3]:
             <div class="collapsible__content">
               <div class="code-block">
                 <div class="code-block__header"><span class="mono">Python · LOEO cross-validation</span></div>
-                <pre><code>for held_out in events:  # 15 events
+                <pre><code>for held_out in events:  # 25 events
     train = df[df.event_id != held_out]  # 14 events
     test  = df[df.event_id == held_out]  # 1 event (unseen city)
 
@@ -1651,7 +1651,7 @@ for h in hospitals[:3]:
             </button>
           </div>
           <p>
-            With 15 events spanning 17 U.S. states, 2 disaster types (hurricane, earthquake),
+            With 25 events spanning 19 U.S. states, 2 disaster types (hurricane, earthquake),
             and 3 city size categories (large/medium/small), LOEO tests whether a model trained on
             Miami and New Orleans can predict Jacksonville and Atlanta — a genuinely challenging
             generalization task.
@@ -1704,7 +1704,7 @@ for h in hospitals[:3]:
           <div class="takeaway">
             <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              <strong>Model A achieves 0.969 mean LOEO AUC</strong> across 15 held-out events —
+              <strong>Model A achieves 0.969 mean LOEO AUC</strong> across 25 held-out events —
               strong cross-city generalization. <strong>Pre-NTL features are unnecessary</strong>
               (Model B matches Model A). <strong>Building footprints add nothing</strong> (Model C).
               <strong>Pure NTL behavior gives 0.700 AUC</strong> (Model D) — a genuine but modest
@@ -1716,7 +1716,7 @@ for h in hospitals[:3]:
           </div>
 
           <RouterLink to="/map" class="feature-link reveal">
-            <span class="feature-link__text">Explore the probability maps for all 15 events on the interactive map</span>
+            <span class="feature-link__text">Explore the probability maps for all 25 events on the interactive map</span>
             <span class="feature-link__cta">Open Map →</span>
           </RouterLink>
         </template>

@@ -145,7 +145,7 @@ function scrollToIntro() {
 }
 
 
-const stateCount = 17
+const stateCount = 19
 const uniqueCities = new Set(EVENTS.map(ev => ev.subtitle.split(',')[0])).size
 const stats = [
   { value: String(uniqueCities),  label: 'Study Areas' },

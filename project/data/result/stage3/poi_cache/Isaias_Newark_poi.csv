@@ -1,0 +1,591 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Lenox Health Greenwich Village,hospital,40.7377778,-74.0008333,357620244,node
+Essex County Isolation Hospital,hospital,40.7957041,-74.1718258,357744420,node
+Back to health,hospital,40.5996696,-73.9965176,5916175885,node
+Girling Health Care,hospital,40.6165652,-74.024444,6157505385,node
+North Hudson Community Action Corporation,hospital,40.8640182,-74.1184489,7011939647,node
+Willowbrook Pediatrics,hospital,40.8890355,-74.2492247,9058036347,node
+Hudson County Meadowview Psychiatric Hospital,hospital,40.7852797,-74.0574789,10897792586,node
+Alantic Health Patient Transport Center,hospital,40.8105244,-74.3431285,12408384319,node
+Liberty Endoscopy Center,hospital,40.7100546,-74.0058746,12723835209,node
+Hospital for Special Surgery,hospital,40.6555782,-74.011705,12766117165,node
+Urgent Care West Orange,hospital,40.8034411,-74.2499855,13619239388,node
+Hoboken University Medical Center,hospital,40.7413556,-74.0340099,27080832,way
+VA New York Harbor Healthcare System Brooklyn Campus,hospital,40.6078957,-74.0241204,167481919,way
+Hackensack University Medical Center,hospital,40.8837197,-74.0553081,245391851,way
+Holy Name Medical Center,hospital,40.8829907,-74.0100249,245394269,way
+St Joseph Hospital,hospital,40.8890675,-74.2492063,274201776,way
+Jersey City Medical Center,hospital,40.7152504,-74.0508589,405835399,way
+Saint Michael's Medical Center,hospital,40.7440252,-74.1742477,414494633,way
+VA New Jersey Health Care System,hospital,40.7524397,-74.2353624,425525335,way
+Kessler Institute for Rehabilitation,hospital,40.7848135,-74.2777203,427302931,way
+Newark Beth Israel Medical Center,hospital,40.7101311,-74.2125408,431043330,way
+Clara Maass Medical Center,hospital,40.7857786,-74.1768918,445321962,way
+Columbus Hospital,hospital,40.7726544,-74.1866481,446140444,way
+Richmond University Medical Center,hospital,40.6360988,-74.1054784,447327109,way
+Bayley Seton Hospital,hospital,40.6223928,-74.0757452,447778011,way
+Hudson Regional Hospital,hospital,40.7914091,-74.0735619,451720059,way
+Palisades Medical Center,hospital,40.7941183,-73.9957172,458950443,way
+Trinitas Regional Medical Center Williamson Campus,hospital,40.6589363,-74.214259,469743982,way
+St. Mary's General Hospital,hospital,40.859386,-74.1379855,484426637,way
+Mountainside Hospital,hospital,40.8112526,-74.2045728,484447465,way
+Christ Hospital,hospital,40.7340193,-74.0499478,484453822,way
+East Orange General Hospital,hospital,40.7545101,-74.2135441,484561010,way
+Saint Barnabas Medical Center,hospital,40.7634762,-74.3051113,484587179,way
+Bayonne Medical Center,hospital,40.6681264,-74.1126258,484604257,way
+Trinitas Regional Medical Center New Point Campus,hospital,40.6592513,-74.1976156,484615941,way
+Robert Wood Johnson University Hospital At Rahway,hospital,40.6131367,-74.2909063,484637464,way
+Maimonides Medical Center,hospital,40.6394641,-73.9987799,526963278,way
+University Hospital,hospital,40.7403602,-74.1904339,591394791,way
+NYU Langone Hospital – Brooklyn,hospital,40.6466837,-74.0211159,723006150,way
+NewYork-Presbyterian Lower Manhattan Hospital,hospital,40.7103064,-74.0049658,799488173,way
+Carmel Richmond,hospital,40.5954576,-74.0905932,1307534086,way
+Alantic Health Transport Center,hospital,40.8105464,-74.3432092,1341423559,way
+Essex County Hospital Center,hospital,40.8519669,-74.2348099,8635611,relation
+Passaic River Seaplane Base,aerodrome,40.8296014,-74.1209809,1042011748,node
+Newark Liberty International Airport,aerodrome,40.6891397,-74.1726854,141207228,way
+West 30th Street Heliport,aerodrome,40.754999,-74.0070654,160756588,way
+Teterboro Airport,aerodrome,40.8491329,-74.0646776,267542255,way
+Linden Airport,aerodrome,40.6164665,-74.2446381,274648000,way
+Essex County Airport,aerodrome,40.872623,-74.282597,412198597,way
+Hoboken Fire Dept Ladder 2 Engine 5,fire_station,40.7369253,-74.0396118,296377486,node
+Bayonne Hazardous Materials Company 1,fire_station,40.6686541,-74.1171496,367683164,node
+Carteret Fire Company Number 3,fire_station,40.5926244,-74.2432312,367684326,node
+Washington Park Hose Company Number 2,fire_station,40.8408423,-74.0473178,367684560,node
+East Rutherford Engine Company Number 2,fire_station,40.8462707,-74.1138624,367684583,node
+Passaic Truck Company Number 2,fire_station,40.8640626,-74.1159228,367684602,node
+Passaic Engine Company Number 2,fire_station,40.8640647,-74.1159148,367684608,node
+Rahway Engine Company Number 5,fire_station,40.6071274,-74.2906984,367684665,node
+East Orange Fire Company Number 1,fire_station,40.7651008,-74.214868,367684676,node
+Elizabeth Engine Company Number 7,fire_station,40.6720469,-74.2184787,367684689,node
+Elizabeth Engine Company Number 4,fire_station,40.6481587,-74.1912556,367684709,node
+Elizabeth Engine Company Number 5,fire_station,40.6531863,-74.1893861,367684718,node
+Elizabeth Engine Company Number 2,fire_station,40.6480542,-74.2165233,367684744,node
+Elizabeth Engine Company Number 3,fire_station,40.6589917,-74.2009781,367684754,node
+Elizabeth Hook and Ladder Company Number 3,fire_station,40.6589859,-74.2010081,367684781,node
+Bayonne Engine Company 3,fire_station,40.6686961,-74.1171127,367684856,node
+Bayonne Engine Company 2,fire_station,40.649736,-74.1316938,367684869,node
+Grove Street Fire House,fire_station,40.7352872,-74.2159026,367684883,node
+Coit Street Fire House,fire_station,40.7217284,-74.2239122,367684896,node
+Bayonne Ladder Company 3,fire_station,40.6891788,-74.1038605,367684905,node
+Bayonne Engine Company 6,fire_station,40.6892103,-74.1038364,367684915,node
+Bayonne Engine Company 5,fire_station,40.6741378,-74.1108684,367684920,node
+Little Ferry Hose Company Number 1,fire_station,40.8480556,-74.0386111,367684948,node
+Little Ferry Hook and Ladder Company Number 1,fire_station,40.8508463,-74.0381232,367684961,node
+Bayonne Tower Ladder Company 2,fire_station,40.6687381,-74.1171045,367684974,node
+Bayonne Tower Ladder Company 1,fire_station,40.6497288,-74.1316617,367684986,node
+East Orange Truck Company Number 3,fire_station,40.773434,-74.2062566,367685081,node
+Hoboken Ladder Company Number 2,fire_station,40.7381462,-74.0385841,367685099,node
+East Orange Hose Company Number 3,fire_station,40.7814523,-74.2155687,367685111,node
+East Orange Engine Company Number 4,fire_station,40.7734258,-74.2062319,367685122,node
+Hoboken Engine Company Number 1,fire_station,40.7381025,-74.0385961,367685151,node
+Hoboken Ladder Company Number 1;Hoboken Engine Company Number 3,fire_station,40.7527622,-74.0259534,367685163,node
+New York Ladder Company 77 & Engine Company 153,fire_station,40.6250484,-74.0777041,368046661,node
+New York Ladder Company 78,fire_station,40.6376656,-74.0877462,368046667,node
+New York Ladder Company 80,fire_station,40.6362022,-74.1353876,368046677,node
+New York Ladder Company 83,fire_station,40.6152859,-74.1308333,368046689,node
+New York Engine Company 166,fire_station,40.6142493,-74.1579974,368046705,node
+New York Ladder Company 86,fire_station,40.6142153,-74.1580196,368046709,node
+New York Foam Company 83,fire_station,40.6113751,-74.0705521,368046728,node
+New York Rescue Company 5,fire_station,40.6073466,-74.0891808,368046735,node
+New York Engine Company 160,fire_station,40.6073413,-74.0891739,368046739,node
+New York Engine Company 163,fire_station,40.6152325,-74.1308175,368046743,node
+New York Ladder Company 81,fire_station,40.5967938,-74.069868,368046754,node
+New York Engine Company 161,fire_station,40.5967889,-74.069918,368046758,node
+New York Engine Company 155,fire_station,40.6376521,-74.0877872,368046778,node
+New York Engine Company 157,fire_station,40.63628,-74.1353824,368046786,node
+New York Engine Company 156,fire_station,40.6327778,-74.1172222,368046789,node
+New York Engine Company 159,fire_station,40.5907158,-74.1005966,368046793,node
+New York Engine Company 247,fire_station,40.6280721,-73.9976784,368047134,node
+FDNY Engine 4/Ladder 15,fire_station,40.7036231,-74.0075414,368047434,node
+Carlstadt Fire Department,fire_station,40.8416453,-74.094873,608422945,node
+Kearny Fire Department,fire_station,40.7704917,-74.1440316,958934450,node
+Ames Avenue Fire House,fire_station,40.8291852,-74.1028387,976118185,node
+Mortimer Avenue Fire House,fire_station,40.8239605,-74.1142384,976119849,node
+West End Fire House,fire_station,40.8371765,-74.1147963,976119850,node
+Springfield Fire Station,fire_station,40.7056834,-74.3168161,1227313658,node
+Park Row Hose Company No. 3,fire_station,40.8559621,-74.1033986,1261525917,node
+Wallington Engine Company No.2,fire_station,40.8445151,-74.1048403,1261527325,node
+Wallington FD - Truck Company No. 1,fire_station,40.8538,-74.114236,1262466037,node
+fire_station facility,fire_station,40.6282328,-74.2477299,1277568486,node
+fire_station facility,fire_station,40.6217678,-74.3203837,1278850902,node
+Clark Fire HQ,fire_station,40.6255544,-74.2998862,1278850903,node
+Linden FD,fire_station,40.63382,-74.2681117,1278852183,node
+fire_station facility,fire_station,40.8622759,-74.0265176,1713513048,node
+City of Orange Township Fire House,fire_station,40.7678002,-74.2390447,3154235267,node
+fire_station facility,fire_station,40.8492485,-74.2909299,3482516376,node
+Engine No. 15,fire_station,40.7318064,-74.0689135,3579497747,node
+East Newark Fire House,fire_station,40.7521739,-74.1590401,4457396124,node
+fire_station facility,fire_station,40.6427871,-74.3303046,4636001444,node
+Fire HQ,fire_station,40.7936887,-74.3154794,5346202221,node
+LFD Northfield Firehouse,fire_station,40.7719744,-74.3275057,5353571421,node
+WO Engine 2,fire_station,40.7864494,-74.2304255,5353579721,node
+Engine 11 Ladder 11 Hazmat,fire_station,40.7387817,-74.2003495,5353584222,node
+Engine 26 Ladder 12 BC6,fire_station,40.7471757,-74.2317621,5353584223,node
+Engine 18 BC4 NFD,fire_station,40.727276,-74.2078016,5353584422,node
+E10 L5 R1 Arson HQ,fire_station,40.7213953,-74.1931949,5353598921,node
+Fire Department,fire_station,40.848251,-73.9982863,6171872959,node
+Jersey City Fire Dept Training Academy,fire_station,40.7401625,-74.0573762,7661260385,node
+Fire Rescue Squad,fire_station,40.7172237,-74.0719074,7978845876,node
+fire_station facility,fire_station,40.7037376,-74.0897136,7978858311,node
+fire_station facility,fire_station,40.7604546,-74.0271482,8401234126,node
+Fire Department of Jersey City,fire_station,40.7158308,-74.0411427,9661577660,node
+Verona Volunteer Fire Department Engine Co. No. 1,fire_station,40.8349873,-74.2567306,9996146835,node
+Center Fire Company No. 1,fire_station,40.8514484,-74.2288671,10023118125,node
+Ridgefield Park Heavy Rescue,fire_station,40.8510421,-74.0267184,11445102172,node
+Ridgefield Park Fire Department,fire_station,40.8509194,-74.0263154,11445102173,node
+Fire Station 4,fire_station,40.8156801,-74.25637,11866918514,node
+fire_station facility,fire_station,40.8790673,-74.2908556,12478931330,node
+Kearny Fire Station 4,fire_station,40.7256245,-74.1103024,13239559551,node
+fire_station facility,fire_station,40.7816341,-74.1813999,117530780,way
+Cranford Fire Department,fire_station,40.6569179,-74.3022294,180520638,way
+East Rutherford Fire Dept. (HQ),fire_station,40.8354457,-74.1009471,226083169,way
+fire_station facility,fire_station,40.7443425,-74.1505859,240724294,way
+FDNY Engine 224,fire_station,40.6931084,-73.9971595,241822782,way
+New York Engine Company 154,fire_station,40.5978674,-74.1804727,241824323,way
+New York Ladder Company 79,fire_station,40.6343964,-74.1219804,245568755,way
+FDNY Engine 156,fire_station,40.6309784,-74.1167588,245569981,way
+New York Engine Company 158,fire_station,40.6352621,-74.1599516,245575451,way
+FDNY Engine 152 & Battalion 21,fire_station,40.6116515,-74.0704074,247611534,way
+FDNY Ladder 20/Division 1,fire_station,40.7229495,-73.9965184,247866664,way
+FDNY Engine 55,fire_station,40.7198386,-73.995759,247867455,way
+FDNY Engine 279/Ladder 131,fire_station,40.6721611,-73.9996096,248168001,way
+FDNY Engine 201;Ladder 114;Battalion 40,fire_station,40.6453878,-74.0131988,248169471,way
+FDNY Engine 241/Ladder 109,fire_station,40.638153,-74.0251377,248495159,way
+FDNY Engine 242,fire_station,40.6173479,-74.0294184,248500563,way
+New York Engine Company 284 and Ladder Company 149,fire_station,40.6199418,-74.0125225,248575679,way
+FDNY Engine 243 & Ladder 168,fire_station,40.6060502,-74.0034702,248919796,way
+New York Engine Company 247,fire_station,40.6280214,-73.9977267,249123542,way
+FDNY Engine 228,fire_station,40.6518238,-74.0052951,249606820,way
+FDNY Squad 18,fire_station,40.7344338,-74.0003582,249663958,way
+FDNY Engine 24/Ladder 5/Battalion 2,fire_station,40.7280327,-74.003429,249664942,way
+FDNY Ladder 8,fire_station,40.7195568,-74.0066188,250052723,way
+FDNY Engine 7/Ladder 1/Battalion 1,fire_station,40.7153524,-74.0061592,250269507,way
+Rutherford Fire Department,fire_station,40.823983,-74.1142023,253134460,way
+Millburn Fire Station,fire_station,40.7239567,-74.3121095,255176707,way
+FDNY Engine 3/Ladder 12/Battalion 7,fire_station,40.7411699,-73.9968771,264644793,way
+Bayonne FD Rescue Co.1 Engine Co.4,fire_station,40.6620193,-74.1288202,264967240,way
+FDNY Engine 34/Ladder 21,fire_station,40.7565371,-73.9965055,265282509,way
+FDNY Rescue 1,fire_station,40.7607089,-73.996594,265312769,way
+FDJC Palisade Ave. Firehouse,fire_station,40.7489039,-74.0415447,265560953,way
+Little Falls Engine Company 2,fire_station,40.8819086,-74.2270491,274465768,way
+Little Falls Fire Department,fire_station,40.878406,-74.2224943,274467522,way
+Singac Fire Station 3,fire_station,40.8850548,-74.2456851,274606987,way
+Clifton Fire Department Station 5,fire_station,40.8468339,-74.1595957,277919012,way
+Clifton Fire Department Station 4,fire_station,40.8318832,-74.1405808,277926163,way
+FDNY Engine 10/Ladder 10,fire_station,40.7098307,-74.0125721,278033598,way
+FDNY Engine 6,fire_station,40.7099511,-74.0054049,278087813,way
+FDNY Engine 202/Ladder 101/Battalion 32,fire_station,40.6802965,-74.0063459,278371934,way
+Montclair Fire Department Headquarters,fire_station,40.8073936,-74.2094179,309729613,way
+FDNY Marine 1,fire_station,40.7406491,-74.0118242,311665216,way
+Rahway Fire Department Headquarters,fire_station,40.6039477,-74.2760106,314515587,way
+fire_station facility,fire_station,40.8404106,-74.2082526,327170451,way
+Fire Department of Jersey City Engine 7 Ladder 3,fire_station,40.7401837,-74.057362,353916023,way
+Jersey City Gong Club Car 26,fire_station,40.737663,-74.0585844,401830680,way
+Fire Fighters Memorial Station,fire_station,40.7261876,-74.0406636,409635076,way
+fire_station facility,fire_station,40.7254578,-74.0523332,409846066,way
+Jesey City Fire Department Engine 9,fire_station,40.7240937,-74.0703575,415378887,way
+fire_station facility,fire_station,40.7480284,-74.1769554,415722290,way
+Engine 7 NFD,fire_station,40.7435835,-74.1866303,417258020,way
+Engine 18 BC 4,fire_station,40.7275668,-74.2086863,424228647,way
+fire_station facility,fire_station,40.7396196,-74.2300834,427962364,way
+fire_station facility,fire_station,40.7213979,-74.193202,429557191,way
+fire_station facility,fire_station,40.720298,-74.1562642,435749959,way
+fire_station facility,fire_station,40.7309986,-74.1619661,436756077,way
+Newark Fire Department-Engine 13,fire_station,40.7769002,-74.1655013,444946216,way
+Newark Fire Department Engine 28,fire_station,40.7732719,-74.1791425,445895369,way
+Montclair Fire Dept.,fire_station,40.8001694,-74.2255894,447573288,way
+fire_station facility,fire_station,40.746943,-74.1573235,447699939,way
+Hoboken Rescue Company Number 1,fire_station,40.746924,-74.0324543,449045631,way
+Hoboken Fire Department Engine 3,fire_station,40.7401261,-74.0376011,450042837,way
+Roselle Fire Department,fire_station,40.6517896,-74.2612479,466840030,way
+fire_station facility,fire_station,40.8445184,-74.1048431,468897107,way
+Clifton Fire Station 6,fire_station,40.8697713,-74.1692037,468935655,way
+fire_station facility,fire_station,40.6702651,-74.205057,469618117,way
+Elizabeth Engine Company Number 1,fire_station,40.6612016,-74.2148344,469620675,way
+Garwood Volunteer Fire Station,fire_station,40.6510906,-74.3257818,474470584,way
+North Bergen Fire Department,fire_station,40.7791388,-74.02643,486688275,way
+fire_station facility,fire_station,40.6427784,-74.3303695,543823712,way
+"Squad Co. 23, Teaneck FD",fire_station,40.8730348,-74.0132938,577739552,way
+"Bogota FD Engine 1, Ladder 1",fire_station,40.8792886,-74.0296453,577750533,way
+Bogota FD Engine 3,fire_station,40.8690572,-74.0311521,577750535,way
+FDRP Truck 2,fire_station,40.8625039,-74.0192623,577750541,way
+North Hudson Regional Fire & Rescue,fire_station,40.7606404,-74.0449828,583584494,way
+Kenilworth Fire Department,fire_station,40.6778642,-74.2930997,621647689,way
+"Engine Co. 1, HFD",fire_station,40.8723851,-74.042013,635838059,way
+"Engine Co. 2, HFD",fire_station,40.8811736,-74.0628081,645365499,way
+Hackensack Fire Headquarters,fire_station,40.8851354,-74.044608,648898101,way
+Bloomfield Fire Station #4,fire_station,40.8094443,-74.1879653,693441027,way
+fire_station facility,fire_station,40.6641661,-74.232528,720391203,way
+Belleville Fire Station #2,fire_station,40.7955031,-74.1488688,745131729,way
+fire_station facility,fire_station,40.8462769,-74.1138606,766212088,way
+fire_station facility,fire_station,40.7928996,-74.1414754,776318624,way
+"Engine Co. 2, Rescue Co. 1, Secaucus FD",fire_station,40.7999115,-74.0587758,846702611,way
+fire_station facility,fire_station,40.8603927,-74.26115,859499259,way
+Fire Department,fire_station,40.8776031,-74.1336317,878739546,way
+FDNY Marine 9,fire_station,40.6299411,-74.0724164,1011457970,way
+Bayonne Fire Station 5,fire_station,40.6728919,-74.1026702,1032410308,way
+fire_station facility,fire_station,40.7949158,-74.3404242,1047319453,way
+Roseland Volunteer Fire Department,fire_station,40.8204149,-74.3086531,1065746173,way
+Colonia Fire Department,fire_station,40.6002692,-74.3130548,1077470306,way
+Verona Volunteer Fire Department Company No. 2,fire_station,40.8261244,-74.2353644,1092436896,way
+South End Fire Company Station 3,fire_station,40.8385997,-74.2279701,1094381031,way
+Union Township Station No. 3,fire_station,40.6869521,-74.2409191,1190057728,way
+Union Township Fire Headquarters,fire_station,40.6940321,-74.2688792,1190616284,way
+Bloomfield Fire Station No. 2,fire_station,40.7833225,-74.1940828,1201575435,way
+Nutley Fire Department,fire_station,40.8190018,-74.1580326,1280935700,way
+Union Township Station No. 2,fire_station,40.710779,-74.2802363,1330428095,way
+Great Notch Fire Company,fire_station,40.8729903,-74.206993,1379395004,way
+Elizabeth Police Headquarters,police,40.6631986,-74.2092321,367693920,node
+New York City Police Headquarters,police,40.7119845,-74.0022478,368051819,node
+Roselle Police Department,police,40.6582983,-74.2637365,505577099,node
+police facility,police,40.6759574,-74.2893623,540395851,node
+Carlstadt Police Department,police,40.8417221,-74.0945942,608421861,node
+Kearny Police Department,police,40.7719948,-74.1379318,958934445,node
+SpringField PD,police,40.7089093,-74.3145913,1131838846,node
+Cranford PD,police,40.6572563,-74.3014809,1277193090,node
+police facility,police,40.6045985,-74.2746015,1277543634,node
+Ridgefield Park Police,police,40.8581538,-74.0253826,1713513933,node
+Little Ferry Police Station,police,40.8503273,-74.0444796,2063685590,node
+NJIT Public Safety,police,40.7402948,-74.1788895,2084110613,node
+NYPD 5 PCT,police,40.7161816,-73.9974633,2380293531,node
+NYPD 1 PCT,police,40.7203451,-74.0070419,2380313280,node
+NYPD 10 PCT,police,40.7426863,-73.9983835,2380484204,node
+NYPD 6 PCT,police,40.7340416,-74.0054536,2380492748,node
+NYPD Special Victims Division,police,40.7172406,-74.0007776,2563988674,node
+JCPD North District,police,40.7444375,-74.0502412,2636098702,node
+Little Falls Police Department,police,40.8825549,-74.2347911,2791825349,node
+West Orange Police,police,40.7693793,-74.2463209,3154235262,node
+Newark Police Complex,police,40.7656177,-74.1658877,4224912812,node
+police facility,police,40.7521699,-74.1588168,4457396137,node
+Garwood Police,police,40.6511806,-74.3254561,4632362541,node
+JCPD East District,police,40.7258859,-74.0427001,5047028049,node
+Police Crime Prevention,police,40.7869651,-74.2306703,5353584421,node
+Teaneck Police Department,police,40.8866822,-74.0068874,5537803702,node
+NYPD 68th Precinct,police,40.6389413,-74.0226488,5870647273,node
+Police Department,police,40.8480437,-73.9981124,6171872948,node
+Stevens Campus Police,police,40.7435812,-74.0263837,6663013937,node
+Cedar Grove Police Station,police,40.8515239,-74.2286346,6823944043,node
+Union City Police Department,police,40.7742022,-74.024916,6900807383,node
+Orange Police Dept.,police,40.7713615,-74.2255982,8191717769,node
+Rutgers Public Safety and Security,police,40.7403188,-74.1742119,9017988885,node
+NYPD Emergency Service Unit Squad 6,police,40.638778,-74.0223776,9786118963,node
+Verona Police Department,police,40.8324255,-74.2466924,9989691382,node
+Guttenberg Police Department,police,40.7915914,-74.0037948,10245969552,node
+Police department: 1st precinct,police,40.7304262,-74.1907474,11356338649,node
+Lyndhurst Police Department,police,40.81268,-74.1245177,11423595546,node
+South Hackensack Police Department,police,40.8601909,-74.045783,12278996437,node
+Port Authority Police - NJMT Command,police,40.6686505,-74.1627551,12554079858,node
+Newark Police - Office of Professional Standards,police,40.7454014,-74.1697306,12707824087,node
+Newark Police Department Sub-Precinct Community Resource Center,police,40.7354968,-74.1712304,12736543648,node
+New York State Police - SP Staten Island,police,40.6014817,-74.064188,12791442101,node
+police facility,police,40.7121737,-74.0104823,12994986225,node
+MTA Police Department District 9,police,40.6346469,-74.075019,13040315371,node
+Harrison Police Riverbend Station,police,40.7397215,-74.155869,13148619081,node
+Livingston Police Station,police,40.7827013,-74.3143029,13343736164,node
+East Rutherford Police Dept.,police,40.8355498,-74.101237,226083170,way
+University Police,police,40.8600413,-74.2013866,232846896,way
+New York Police Department 76th Precinct,police,40.6838547,-74.0002454,241835166,way
+120 Precinct Police Station,police,40.6446361,-74.0774623,241853855,way
+Waterfront Commission Police,police,40.6882728,-74.0016201,245220685,way
+NYPD Harbor Unit,police,40.6440847,-74.0287604,245576867,way
+New York City Police Department - 62nd Precinct,police,40.602578,-74.0030839,248919137,way
+New York City Police Department 72nd Precinct,police,40.6581906,-74.0010575,249606376,way
+Rutherford Police,police,40.825762,-74.1089978,252961638,way
+Millburn Law Enforcement,police,40.7241136,-74.311626,255176706,way
+Union County Police Department,police,40.6508596,-74.3406878,256763984,way
+Bayonne Police Headquarters,police,40.6684103,-74.1168942,264969838,way
+Manhattan South Task Force,police,40.7598782,-73.9967614,265300012,way
+1 Police Plaza,police,40.7122002,-74.0018521,278112893,way
+Montclair Police Department,police,40.816936,-74.2209201,381151631,way
+121st Precinct,police,40.6235997,-74.1506941,383663646,way
+JCPD South District,police,40.7090948,-74.0849829,412224333,way
+JCPD West District,police,40.7169318,-74.0741552,419162203,way
+police facility,police,40.7211075,-74.1998244,423624198,way
+3rd Precinct - Newark Police Department,police,40.7307394,-74.149248,437556589,way
+Newark Police Division Roseville Section - 7th Precinct,police,40.7697727,-74.1853639,446154725,way
+police facility,police,40.7466821,-74.1571689,447696474,way
+Hoboken Police Station,police,40.7377206,-74.030017,449875246,way
+police facility,police,40.8297639,-74.0947027,468893585,way
+North Bergan Police department,police,40.779734,-74.027508,486689532,way
+Union City Police Department,police,40.7565932,-74.0397889,555509857,way
+Bogota Police Department,police,40.8793082,-74.029917,577750534,way
+South Orange Police Department,police,40.745489,-74.25329,585817134,way
+Clifton Police,police,40.8736705,-74.1382182,592896801,way
+Hackensack Police Department,police,40.8857525,-74.0440886,648898104,way
+Security and Police Substation,police,40.7265318,-74.0385481,654086960,way
+East Orange Police Department,police,40.7587398,-74.2112973,754626208,way
+police facility,police,40.860525,-74.2613456,859499258,way
+police facility,police,40.8375274,-74.1785311,968222218,way
+Kean Police,police,40.6768299,-74.2328309,979646477,way
+police facility,police,40.7072912,-74.1560343,1186014896,way
+Elizabeth Police Department,police,40.6668951,-74.2127247,1189987046,way
+Union Township Police Department,police,40.6969084,-74.2768624,1190615816,way
+police facility,police,40.8191398,-74.1579046,1211362073,way
+police facility,police,40.7249266,-74.2343385,1238682891,way
+Irvington Police Department,police,40.7271587,-74.2343422,1241557387,way
+Garfield Police Station,police,40.8785806,-74.1028867,1280251660,way
+West Caldwell Police Department,police,40.8505989,-74.2922688,1284144493,way
+Essex County Sheriff’s Patrol Division H.Q.,police,40.7524521,-74.1937581,1341396019,way
+Bloomfield Station Troop 10,police,40.8373611,-74.1786152,1384107848,way
+Kearny Generating Station,power_plant,40.7372896,-74.0987815,39836037,way
+Bergen Generating Station,power_plant,40.8374944,-74.0236943,95782347,way
+Xchange Solar Field,power_plant,40.7670264,-74.083342,258964391,way
+Kearney Solar Farm,power_plant,40.750992,-74.1099676,258970655,way
+Joseph J. Seymour Power Project,power_plant,40.6630067,-73.9998522,362877302,way
+Linden Generating Station,power_plant,40.6235315,-74.2096248,378250807,way
+Rutgers Health Sciences Power Plant,power_plant,40.7393577,-74.1872379,387150086,way
+Narrows Gas Turbines Generating,power_plant,40.6510506,-74.0253988,421695210,way
+Linden Solar Farm,power_plant,40.6195487,-74.2147816,425545120,way
+power_plant facility,power_plant,40.756693,-74.3399646,427315772,way
+Bayonne Energy Center,power_plant,40.6528881,-74.0915966,538975195,way
+Covanta Essex Company,power_plant,40.7385022,-74.1263474,767624517,way
+Pouch,power_plant,40.6182017,-74.0683336,861227468,way
+Newark Energy Center,power_plant,40.7070794,-74.127538,861227470,way
+Gowanus Power Plant,power_plant,40.6632451,-74.0054445,861227471,way
+Linden Cogeneration Plant,power_plant,40.6323648,-74.2146148,911394757,way
+Arthur Kill Power Plant,power_plant,40.5913467,-74.2006973,996660335,way
+"Wilzig Associates, LLC",power_plant,40.8218437,-74.0959568,1116432543,way
+Union County Resource Recovery Facility,power_plant,40.601415,-74.2667852,1128115126,way
+IOS - ERW9,power_plant,40.5956542,-74.2250469,1150516456,way
+East Orange Solar,power_plant,40.7514546,-74.3381142,1153863561,way
+Garfield Solar,power_plant,40.8886052,-74.1224581,1153868436,way
+power_plant facility,power_plant,40.8867855,-74.122348,1153868437,way
+Allied Beverages Elizabeth,power_plant,40.6657517,-74.1752095,1153912471,way
+46 Meadowlands Parkway,power_plant,40.7897712,-74.0714971,1157811684,way
+WEA Texas Bayonne,power_plant,40.6775661,-74.0924648,1158838927,way
+Hartz Way,power_plant,40.7825102,-74.0727255,1159180016,way
+Royal Wine Corp Solar Power Plant,power_plant,40.6636162,-74.1002701,1159185728,way
+"Goya Foods, Inc- Secaucus Solar",power_plant,40.7729803,-74.0773904,1159202276,way
+77 Metro Way,power_plant,40.7703105,-74.0724484,1159202293,way
+Caldwell Wastewater Treatment Plant Hybrid,power_plant,40.8394399,-74.3118853,1159694565,way
+DG Infineum,power_plant,40.6394114,-74.2357238,1159763222,way
+435A Bergen Avenue,power_plant,40.751974,-74.1311328,1159798257,way
+Linden Hawk Rise Solar CSG,power_plant,40.6025874,-74.2450542,1160059287,way
+power_plant facility,power_plant,40.8723222,-74.1986515,1169012025,way
+power_plant facility,power_plant,40.8721656,-74.1986099,1169012026,way
+power_plant facility,power_plant,40.872045,-74.1984473,1169012027,way
+Hackensack Solar Farm,power_plant,40.8717503,-74.0381838,1169738274,way
+Kenilworth Energy Facility,power_plant,40.6769117,-74.2749829,1228087808,way
+power_plant facility,power_plant,40.797557,-74.3370123,1442912036,way
+Fox Hills Battery Station,power_plant,40.6094821,-74.0777722,1454130903,way
+Union Solar LLC,power_plant,40.7081088,-74.2485203,1475136339,way
+Bayonne MUA- Leitner-Poma Wind Turbine,power_plant,40.6528361,-74.1176584,14166016,relation
+BBB Corporate Headquarters,power_plant,40.6977327,-74.3048432,15668132,relation
+Westside Avenue,power_plant,40.8154379,-74.0211001,15673095,relation
+North Bergen Solar,power_plant,40.8183599,-74.0175632,15673278,relation
+"Goya Foods, Inc- Jersey City Solar",power_plant,40.7597583,-74.0647892,15673305,relation
+Prudential 80 Livingston Roseland Solar,power_plant,40.8122613,-74.2972363,15675057,relation
+Prudential 55 Livingston Roseland Solar,power_plant,40.8153663,-74.2965622,15675073,relation
+CCG Marketing,power_plant,40.8589717,-74.2993944,15684157,relation
+Jersey City DWP,power_plant,40.6888557,-74.0900515,15684666,relation
+Hudson County Solar,power_plant,40.7272208,-74.1074972,15687813,relation
+Community Foodbank of NJ,power_plant,40.6974083,-74.2138286,15691426,relation
+power_plant facility,power_plant,40.7160272,-74.1326813,15698345,relation
+power_plant facility,power_plant,40.7947848,-74.0335267,15698348,relation
+River Terminal Development Solar,power_plant,40.7268268,-74.1157587,17393682,relation
+Port Richmond WWT Solar,power_plant,40.6381496,-74.126053,17393756,relation
+Kearny Substation,substation,40.737864,-74.098483,39836038,way
+Turnpike Substation,substation,40.7606292,-74.1171238,54618157,way
+Grove Street Traction & Signal Substation,substation,40.7358393,-74.043264,65355276,way
+Roseland Substation,substation,40.819863,-74.3306224,94783939,way
+Laurel Ave Substation,substation,40.8033462,-74.291354,94810814,way
+Marion Drive Substation,substation,40.7919761,-74.2582638,94810815,way
+West Orange Substation,substation,40.7900243,-74.2569448,95199038,way
+West Caldwell Substation,substation,40.8541926,-74.2905511,95200263,way
+Cedar Substation,substation,40.8672382,-74.217586,95200267,way
+Athenia Switching Station,substation,40.8618479,-74.1584658,95201299,way
+Clifton Substation,substation,40.8560412,-74.1640156,95201300,way
+Belleville Substation,substation,40.8028228,-74.1422128,95697489,way
+Harvey Future,substation,40.8269027,-74.1694028,95697502,way
+Cook Road Substation,substation,40.8117745,-74.1782907,95697506,way
+Kingsland Landfill Substation,substation,40.791922,-74.1170548,95730907,way
+49th Street Substation,substation,40.7887526,-74.0358455,95782039,way
+Homestead Substation,substation,40.7788592,-74.0422609,95782050,way
+Penhorn Substation,substation,40.7632936,-74.0553171,95782054,way
+North Bergen Substation,substation,40.8043217,-74.0255753,95782055,way
+Minue Street Substation,substation,40.5909894,-74.2379461,95894476,way
+Linden Substation,substation,40.6122887,-74.2266662,95894483,way
+HVDC B2B Station Hudson,substation,40.8319675,-74.0125717,188201724,way
+West 49th Street Substation,substation,40.766003,-73.9958842,188367030,way
+substation facility,substation,40.7448298,-74.1103637,192702739,way
+NJT Meadowlands Substaion,substation,40.7456291,-74.1029462,192702740,way
+substation facility,substation,40.7433359,-74.1210988,193033343,way
+Amtrak Substation 4,substation,40.7442248,-74.1214792,193045884,way
+Kearny Sub,substation,40.7449462,-74.1185675,193045925,way
+Hackensack Sub,substation,40.7718165,-74.0438699,193816231,way
+Leonard Street Substation,substation,40.7183959,-74.0064948,219612704,way
+65th Street Substation,substation,40.6237933,-73.9974021,249085666,way
+38th Street Substation,substation,40.6522654,-74.0035573,249606926,way
+IRT Substation,substation,40.7361135,-74.0010761,250474177,way
+Greenwich Substation,substation,40.7389964,-74.0022369,250490727,way
+IRT Substation #41,substation,40.7393796,-73.9981313,264635236,way
+West 19th Street,substation,40.741258,-73.9973235,264644824,way
+substation facility,substation,40.7657031,-73.995197,265356034,way
+substation facility,substation,40.7661943,-73.9962254,265356062,way
+IRT Substation #40,substation,40.7148866,-74.0106523,277890489,way
+Cliff Street Substation,substation,40.7084033,-74.0042179,278079574,way
+Peck Slip Substation,substation,40.7079104,-74.000778,278084890,way
+IRT Substation #11,substation,40.7130981,-74.0019872,278112870,way
+substation facility,substation,40.8630452,-74.1994535,313028542,way
+Union City Substation,substation,40.7695328,-74.0415675,370575194,way
+Goethals Substation,substation,40.6170961,-74.1963086,383102699,way
+Fox Hill Substation,substation,40.6102422,-74.0776939,383102712,way
+Fresh Kills Substation,substation,40.5892442,-74.1969022,383102717,way
+Gowanus Substation,substation,40.6621638,-74.002531,383102723,way
+Clifton Substation,substation,40.6197037,-74.0714448,383585974,way
+substation facility,substation,40.6258112,-74.1523631,383590979,way
+substation facility,substation,40.6448528,-74.1093037,383590980,way
+Clove Lakes Substation,substation,40.6136999,-74.1175196,383590981,way
+Howland Hook Substation,substation,40.6412553,-74.1822074,383590983,way
+Port Richmond Substation,substation,40.638959,-74.1303888,383590987,way
+Silver Lake Substation,substation,40.6321263,-74.0864864,383590989,way
+Wadsworth Substation,substation,40.6055207,-74.0664953,383590990,way
+Westerleigh Substation,substation,40.627945,-74.1312517,383590991,way
+South Waterfront Substation,substation,40.7162437,-74.0540955,400029476,way
+Cedar Grove Substation,substation,40.86842,-74.2214417,412191877,way
+Federal Sqaure Substation,substation,40.7265658,-74.174649,416510301,way
+New Brighton Substation,substation,40.6451249,-74.0931048,447778008,way
+Harrison Substation,substation,40.7450323,-74.1542912,448158711,way
+Hoboken Substation,substation,40.7571004,-74.0302047,450937498,way
+Clark Substation,substation,40.6297758,-74.3069431,525678550,way
+Madison Substation,substation,40.7517705,-74.0357302,534259819,way
+substation facility,substation,40.6627703,-73.9995124,538972056,way
+substation facility,substation,40.6553201,-74.3012776,543978352,way
+Briant Park Substation,substation,40.7167422,-74.3339951,547954483,way
+Waverly Substation,substation,40.7040196,-74.3151195,579350517,way
+Tosco Substation,substation,40.6304466,-74.2144872,614235824,way
+substation facility,substation,40.6551987,-74.1009279,625837583,way
+Kearny Station Sub,substation,40.7377934,-74.1031751,648758877,way
+Hudson 230kV Substation,substation,40.7493953,-74.0721623,648758879,way
+Essex Substation,substation,40.7385852,-74.1210577,648758891,way
+substation facility,substation,40.7358963,-74.1210431,648758892,way
+Marion 345 kV Substation,substation,40.7481286,-74.0703704,648762808,way
+Bergen Substation,substation,40.83406,-74.0160892,648762809,way
+ECRRF,substation,40.7376605,-74.1254981,648762810,way
+Waverly Sub,substation,40.6902321,-74.1984516,648774562,way
+Warinanco Substation,substation,40.6416685,-74.2341273,671321271,way
+Bayonne Switching Station,substation,40.6940411,-74.105572,674003296,way
+Linden 345kv Substation,substation,40.6238766,-74.2111726,676379451,way
+New Jersey Transit Orange Substation,substation,40.7713807,-74.2355445,727542355,way
+Foundry Street Substation,substation,40.7293437,-74.1329122,767624510,way
+Hasbrouck Heights Substation,substation,40.8651438,-74.0631159,795536017,way
+Linden 230kv Substation,substation,40.6215109,-74.2105871,814576253,way
+Bayway Substation,substation,40.6446983,-74.2060375,814576258,way
+Linden Substation,substation,40.6217045,-74.2086342,814577846,way
+Bergen Point Substation,substation,40.6538506,-74.125116,861169940,way
+Aldene Substation,substation,40.6562444,-74.2852916,896271688,way
+Rahway Sub,substation,40.6004334,-74.2828823,902172062,way
+McCarter Switching Station,substation,40.7463695,-74.1936185,974465277,way
+substation facility,substation,40.6807048,-74.014283,986763103,way
+North Ave Substation,substation,40.6693981,-74.1745945,996322657,way
+substation facility,substation,40.7249389,-74.3082645,1015998430,way
+Westfield Substation,substation,40.6269681,-74.324207,1150431455,way
+Caldwell Susbstation,substation,40.83656,-74.2769975,1161395377,way
+Orange Heights Switching Station,substation,40.7655628,-74.245379,1161567623,way
+Springfield Road Substation,substation,40.6959131,-74.300574,1163135558,way
+Stanley Terrace Substation,substation,40.712743,-74.2664984,1163135560,way
+substation facility,substation,40.6755112,-74.2786383,1164744362,way
+Doremus Place Substation,substation,40.6967241,-74.2229492,1164744363,way
+Greenville Substation,substation,40.6875409,-74.0988521,1164744364,way
+Great Notch Substation,substation,40.8752865,-74.2017987,1168862710,way
+Great Notch Substation,substation,40.8725577,-74.1974612,1168865774,way
+substation facility,substation,40.8070238,-74.2092856,1169333233,way
+Saddle Brook Substation,substation,40.8890385,-74.1010473,1169738255,way
+substation facility,substation,40.8401686,-74.0241937,1169738256,way
+River Road Substation,substation,40.7959004,-73.9956193,1169738257,way
+Kingsland Substation,substation,40.7919665,-74.1189835,1169738258,way
+Carlstadt Substation,substation,40.8197475,-74.0643508,1169738259,way
+Van Winkle Substation,substation,40.8285571,-74.0989504,1169738260,way
+Passaic Substation,substation,40.8624779,-74.1204499,1169738261,way
+Kuller Road Substation,substation,40.8854919,-74.1635775,1169738262,way
+Hackensack Substation,substation,40.8722631,-74.0385,1169738273,way
+Lodi Substation,substation,40.8812095,-74.076284,1169738275,way
+Newport Substation,substation,40.7329086,-74.0482453,1169738276,way
+Fairmount Substation,substation,40.7185482,-74.0625442,1169738277,way
+Garfield Avenue Substation,substation,40.7142923,-74.0677877,1169738278,way
+East Rutherford Substation,substation,40.8413943,-74.1069414,1169786226,way
+St Pauls Substation,substation,40.7442691,-74.0742778,1169786230,way
+Newark Bay Substation,substation,40.720359,-74.1308822,1169786231,way
+Clay Street Substation,substation,40.75041,-74.1670659,1169786233,way
+Passaic Valley Sewerage Commission Substation,substation,40.7118124,-74.1317032,1169786234,way
+Newark Energy Center,substation,40.7077532,-74.1281715,1169786235,way
+Ironbound Substation,substation,40.7221579,-74.1611048,1169786236,way
+Port Street Substation,substation,40.7034652,-74.1463471,1169786237,way
+New Newark Switching Station,substation,40.7333151,-74.1773507,1169786241,way
+Newark Airport Metering and Regulating Station,substation,40.7039736,-74.1499084,1169786242,way
+Tonnelle Avenue Substation,substation,40.8062858,-74.0166718,1171068475,way
+substation facility,substation,40.7086043,-74.3421464,1173846217,way
+Chapin Road Substation,substation,40.8580775,-74.3389335,1175805066,way
+Chamor Substation,substation,40.8566462,-74.3329552,1175805067,way
+substation facility,substation,40.7452818,-74.1008321,1176090289,way
+substation facility,substation,40.7453858,-74.1014574,1176090290,way
+VFT Station Substation,substation,40.6341181,-74.2121165,1181024916,way
+First Street Substation,substation,40.6463375,-74.1915309,1181024989,way
+substation facility,substation,40.6091309,-74.2406629,1181226173,way
+substation facility,substation,40.6078927,-74.2412674,1181226174,way
+Rahway Substation,substation,40.6086273,-74.2724753,1181226175,way
+substation facility,substation,40.6009639,-74.2671392,1181226176,way
+Elizabeth Substation,substation,40.6643741,-74.2183895,1181451347,way
+Roselle Substation,substation,40.6481852,-74.2595096,1181451348,way
+Short Hills Substation,substation,40.7481119,-74.3356639,1197253837,way
+substation facility,substation,40.7807582,-74.1908885,1200996714,way
+Branch Brook Substation,substation,40.7795249,-74.1854478,1200996731,way
+Toney's Brook Substation,substation,40.7939056,-74.2010624,1202585918,way
+South 5th Street Substation,substation,40.7431021,-74.1534721,1205940012,way
+William Substation,substation,40.8224295,-74.3287536,1207232105,way
+Constable Hook Substation,substation,40.6589626,-74.100718,1207232111,way
+Bayonne Energy Center,substation,40.6525592,-74.0905825,1207232112,way
+Nye Avenue Substation,substation,40.7223868,-74.221715,1207919163,way
+Vauxhall Substation,substation,40.6968963,-74.2508494,1207919164,way
+Oak Street Substation,substation,40.8581183,-74.1401334,1207919166,way
+Van Houten Substation,substation,40.8573796,-74.1463638,1207919167,way
+Pleasant Street Substation,substation,40.6203399,-74.2601902,1207919171,way
+Orange Valley Substation,substation,40.7644015,-74.2462752,1207919172,way
+substation facility,substation,40.7423067,-74.2630901,1207919173,way
+Lakeside Substation,substation,40.7802508,-74.2268976,1207919174,way
+19th Ave Substation,substation,40.7310247,-74.2096603,1207919176,way
+substation facility,substation,40.7361781,-74.0980787,1220414556,way
+230 kV Switchgear,substation,40.8332826,-74.0160445,1220642780,way
+345 kV Switchgear,substation,40.8330723,-74.0143548,1220647299,way
+Newark Airport Substation,substation,40.6818638,-74.1915784,1221198865,way
+Fadem Road Substation,substation,40.6824673,-74.3143008,1226602360,way
+Star Ledger Substation,substation,40.8544369,-74.3389741,1228291728,way
+New Washington Substation,substation,40.8050001,-74.1482045,1263945436,way
+69 kV switchgear,substation,40.8345678,-74.0161379,1265561963,way
+substation facility,substation,40.6767859,-74.2824327,1384019589,way
+substation facility,substation,40.7479644,-74.1749244,1421186613,way
+substation facility,substation,40.7529057,-74.237195,1442912040,way
+substation facility,substation,40.7381211,-74.2673032,1442912041,way
+Livingston Avenue Substation,substation,40.813011,-74.3135266,1452524744,way
+substation facility,substation,40.8210075,-74.1347129,1462058168,way
+New Lakeside Avenue Substation,substation,40.7808712,-74.2194729,1469664446,way
+Willowbrook Substation,substation,40.6108003,-74.1455821,1472076552,way
+substation facility,substation,40.6539097,-74.1173764,1485112630,way
+substation facility,substation,40.8542875,-74.2963898,1485112631,way
+substation facility,substation,40.8831289,-74.2289698,1485112632,way
+substation facility,substation,40.8384184,-74.0217463,1485112635,way
+substation facility,substation,40.7533751,-74.1999127,1485112636,way
+substation facility,substation,40.67296,-74.1975007,1485112638,way
+substation facility,substation,40.620888,-74.2078293,1485112639,way
+water_works facility,water_works,40.805979,-74.2095439,6914077744,node
+Wastewater Treatment Plant,water_works,40.7573554,-74.0318095,27081372,way
+Owls Head Water Pollution Control Plant,water_works,40.6417173,-74.0336207,222907763,way
+water_works facility,water_works,40.641685,-74.2014908,274651550,way
+water_works facility,water_works,40.6583413,-74.06466,354558759,way
+water_works facility,water_works,40.7989338,-74.0488653,359204627,way
+water_works facility,water_works,40.834186,-74.0331483,475790502,way
+water_works facility,water_works,40.8071555,-74.341795,551490366,way
+water_works facility,water_works,40.8519772,-74.0701903,625585257,way
+Parsippany-Troy Hills Sewage Treatment Plant,water_works,40.8474082,-74.3457331,755696984,way
+water_works facility,water_works,40.6527873,-74.1181968,861169848,way
+water_works facility,water_works,40.6301713,-74.2255703,911137850,way
+water_works facility,water_works,40.6301479,-74.2262969,911137851,way
+water_works facility,water_works,40.6304362,-74.2259536,911137852,way
+water_works facility,water_works,40.5998505,-74.2576229,947855041,way
+water_works facility,water_works,40.8658805,-74.2237952,1092212006,way
+water_works facility,water_works,40.7112994,-74.1265282,1126601637,way
+water_works facility,water_works,40.7114354,-74.1349095,1126601638,way
+Linden Roselle Sewerage Authority,water_works,40.6090163,-74.2187186,1133978207,way
+water_works facility,water_works,40.8432481,-74.2352463,1165521333,way
+Port Richmond Water Pollution Control Plant,water_works,40.6383962,-74.1254665,1307773535,way

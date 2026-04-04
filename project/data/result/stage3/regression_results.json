@@ -1,0 +1,82 @@
+{
+  "model1_ols": {
+    "r_squared": 0.475,
+    "adj_r_squared": 0.4632,
+    "fac_density_coef": 0.096,
+    "fac_density_se": 0.0058,
+    "fac_density_p": 9.562198405329264e-54,
+    "n": 1002
+  },
+  "model2_morans_i": {
+    "event": "Isaias_Newark",
+    "n": 145,
+    "I": 0.3289,
+    "EI": -0.0069,
+    "p_value": 0.001,
+    "significant": true
+  },
+  "model3_spatial": {
+    "type": "Spatial Error Model (GM_Error_Het)",
+    "lambda": 0.6477,
+    "fac_density_coef": 0.0966,
+    "pseudo_r2": 0.2362
+  },
+  "model4_subgroup": {
+    "large": {
+      "n": 687,
+      "r_squared": 0.358,
+      "fac_density_coef": 0.1028,
+      "fac_density_p": 4.046382909367541e-38,
+      "with_fac_mean": 0.48,
+      "without_fac_mean": 0.31
+    },
+    "medium": {
+      "n": 241,
+      "r_squared": 0.284,
+      "fac_density_coef": 0.0789,
+      "fac_density_p": 1.813496875141068e-15,
+      "with_fac_mean": 0.271,
+      "without_fac_mean": 0.129
+    },
+    "small": {
+      "n": 74,
+      "r_squared": 0.3256,
+      "fac_density_coef": 0.5982,
+      "fac_density_p": 8.275706606054255e-06,
+      "with_fac_mean": 0.229,
+      "without_fac_mean": 0.064
+    }
+  },
+  "by_disaster_type": {
+    "hurricane": {
+      "n": 554,
+      "with_mean": 0.403,
+      "without_mean": 0.233,
+      "delta": 0.171
+    },
+    "winter_storm": {
+      "n": 234,
+      "with_mean": 0.435,
+      "without_mean": 0.274,
+      "delta": 0.161
+    },
+    "derecho": {
+      "n": 74,
+      "with_mean": 0.534,
+      "without_mean": 0.263,
+      "delta": 0.271
+    },
+    "severe_storm": {
+      "n": 90,
+      "with_mean": 0.397,
+      "without_mean": 0.127,
+      "delta": 0.27
+    },
+    "ice_storm": {
+      "n": 50,
+      "with_mean": 0.296,
+      "without_mean": 0.077,
+      "delta": 0.219
+    }
+  }
+}

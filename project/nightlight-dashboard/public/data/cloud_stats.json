@@ -8460,5 +8460,7071 @@
       }
     ],
     "event_id": "irma-savannah"
+  },
+  "matthew-nc": {
+    "event_id": "matthew-nc",
+    "pre": [
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-01",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.19,
+        "median_ntl": 0.33,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-02",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.24,
+        "median_ntl": 0.43,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-03",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.24,
+        "median_ntl": 0.43,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-04",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.27,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-05",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.13,
+        "median_ntl": 0.32,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-06",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.38,
+        "median_ntl": 0.45,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-07",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.11,
+        "median_ntl": 0.36,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-08",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.96,
+        "median_ntl": 0.25,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-09",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.95,
+        "median_ntl": 0.24,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-10",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.2,
+        "median_ntl": 0.39,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-11",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.2,
+        "median_ntl": 0.62,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-12",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.38,
+        "median_ntl": 0.55,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-13",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.03,
+        "median_ntl": 0.35,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-14",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.96,
+        "median_ntl": 0.28,
+        "valid_pixels": 4380,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-15",
+        "cloud_free_pct": 96.0,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.36,
+        "valid_pixels": 4374,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-16",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.21,
+        "median_ntl": 0.48,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-17",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.23,
+        "median_ntl": 0.47,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-18",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.01,
+        "median_ntl": 0.36,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-19",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.49,
+        "valid_pixels": 4364,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-20",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.21,
+        "median_ntl": 0.48,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-21",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.21,
+        "median_ntl": 0.49,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-22",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.12,
+        "median_ntl": 0.43,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-23",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.21,
+        "median_ntl": 0.48,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-24",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.92,
+        "median_ntl": 0.27,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-25",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.93,
+        "median_ntl": 0.26,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-26",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.2,
+        "median_ntl": 0.49,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-27",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.16,
+        "median_ntl": 0.52,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-28",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.22,
+        "median_ntl": 0.49,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-29",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.22,
+        "median_ntl": 0.49,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-09-30",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.07,
+        "median_ntl": 0.43,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-01",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.35,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-02",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.23,
+        "median_ntl": 0.42,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-03",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.24,
+        "median_ntl": 0.48,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-04",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.24,
+        "median_ntl": 0.5,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-05",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.88,
+        "median_ntl": 0.21,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-06",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.95,
+        "median_ntl": 0.32,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_pre_2016-10-07",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.14,
+        "median_ntl": 0.41,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      }
+    ],
+    "post": [
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-08",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.14,
+        "median_ntl": 0.41,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-09",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.14,
+        "median_ntl": 0.41,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-10",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.8,
+        "median_ntl": 0.13,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-11",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.86,
+        "median_ntl": 0.17,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-12",
+        "cloud_free_pct": 91.9,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.29,
+        "valid_pixels": 4184,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-13",
+        "cloud_free_pct": 94.0,
+        "mean_ntl": 1.25,
+        "median_ntl": 0.37,
+        "valid_pixels": 4283,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-14",
+        "cloud_free_pct": 94.3,
+        "mean_ntl": 1.08,
+        "median_ntl": 0.3,
+        "valid_pixels": 4293,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-15",
+        "cloud_free_pct": 95.2,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.31,
+        "valid_pixels": 4336,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.3,
+        "valid_pixels": 4359,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-17",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.88,
+        "median_ntl": 0.17,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-18",
+        "cloud_free_pct": 96.0,
+        "mean_ntl": 1.06,
+        "median_ntl": 0.25,
+        "valid_pixels": 4371,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-19",
+        "cloud_free_pct": 94.0,
+        "mean_ntl": 1.14,
+        "median_ntl": 0.32,
+        "valid_pixels": 4280,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-20",
+        "cloud_free_pct": 95.0,
+        "mean_ntl": 0.99,
+        "median_ntl": 0.33,
+        "valid_pixels": 4325,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-21",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.92,
+        "median_ntl": 0.22,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-22",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.22,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-23",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.07,
+        "median_ntl": 0.27,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-24",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.19,
+        "median_ntl": 0.33,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-25",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.03,
+        "median_ntl": 0.29,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-26",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.95,
+        "median_ntl": 0.23,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-27",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.05,
+        "median_ntl": 0.32,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-28",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.06,
+        "median_ntl": 0.31,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-29",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.25,
+        "median_ntl": 0.34,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-30",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.14,
+        "median_ntl": 0.35,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-10-31",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.27,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-01",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.14,
+        "median_ntl": 0.37,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-02",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.0,
+        "median_ntl": 0.3,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-03",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.21,
+        "median_ntl": 0.42,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-04",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.16,
+        "median_ntl": 0.4,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-05",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.0,
+        "median_ntl": 0.26,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-06",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.9,
+        "median_ntl": 0.23,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-07",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.95,
+        "median_ntl": 0.23,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-08",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.11,
+        "median_ntl": 0.3,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-09",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.11,
+        "median_ntl": 0.37,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-10",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.3,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-11",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.98,
+        "median_ntl": 0.29,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-12",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.13,
+        "median_ntl": 0.37,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-13",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.24,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-14",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.37,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-15",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.27,
+        "median_ntl": 0.37,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-16",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.96,
+        "median_ntl": 0.25,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-17",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.93,
+        "median_ntl": 0.21,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-18",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 1.0,
+        "median_ntl": 0.24,
+        "valid_pixels": 4383,
+        "total_pixels": 4554
+      },
+      {
+        "date": "Matthew_Fayetteville_post_2016-11-19",
+        "cloud_free_pct": 96.1,
+        "mean_ntl": 1.21,
+        "median_ntl": 0.33,
+        "valid_pixels": 4376,
+        "total_pixels": 4554
+      }
+    ],
+    "summary": {
+      "total_days": 80,
+      "pre_days": 37,
+      "post_days": 43,
+      "pre_mean_ntl": 1.13,
+      "post_mean_ntl": 1.05,
+      "usable_days": 52,
+      "excluded_days": 28,
+      "avg_cloud_pct": 29.9
+    }
+  },
+  "florence-sc": {
+    "event_id": "florence-sc",
+    "pre": [
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-01",
+        "cloud_free_pct": 83.1,
+        "mean_ntl": 0.91,
+        "median_ntl": 0.3,
+        "valid_pixels": 3841,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-02",
+        "cloud_free_pct": 87.8,
+        "mean_ntl": 0.79,
+        "median_ntl": 0.27,
+        "valid_pixels": 4059,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-03",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.23,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-04",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.62,
+        "median_ntl": 0.11,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-05",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.14,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-06",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.78,
+        "median_ntl": 0.23,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-07",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.66,
+        "median_ntl": 0.16,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-08",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.67,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-09",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.22,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-10",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.22,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-11",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.75,
+        "median_ntl": 0.23,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-12",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.76,
+        "median_ntl": 0.18,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-13",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.77,
+        "median_ntl": 0.22,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-14",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.65,
+        "median_ntl": 0.17,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-15",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.74,
+        "median_ntl": 0.23,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-16",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.82,
+        "median_ntl": 0.34,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-17",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.83,
+        "median_ntl": 0.18,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-18",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.7,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-19",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.81,
+        "median_ntl": 0.22,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-20",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.79,
+        "median_ntl": 0.19,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-21",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.75,
+        "median_ntl": 0.21,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-22",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.89,
+        "median_ntl": 0.22,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-23",
+        "cloud_free_pct": 94.4,
+        "mean_ntl": 0.84,
+        "median_ntl": 0.23,
+        "valid_pixels": 4366,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-24",
+        "cloud_free_pct": 86.4,
+        "mean_ntl": 0.78,
+        "median_ntl": 0.17,
+        "valid_pixels": 3995,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-25",
+        "cloud_free_pct": 89.7,
+        "mean_ntl": 0.75,
+        "median_ntl": 0.1,
+        "valid_pixels": 4149,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-26",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.06,
+        "valid_pixels": 4420,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-27",
+        "cloud_free_pct": 95.4,
+        "mean_ntl": 0.86,
+        "median_ntl": 0.08,
+        "valid_pixels": 4409,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-28",
+        "cloud_free_pct": 95.2,
+        "mean_ntl": 0.74,
+        "median_ntl": 0.08,
+        "valid_pixels": 4402,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-29",
+        "cloud_free_pct": 93.3,
+        "mean_ntl": 0.71,
+        "median_ntl": 0.1,
+        "valid_pixels": 4313,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-30",
+        "cloud_free_pct": 94.2,
+        "mean_ntl": 0.71,
+        "median_ntl": 0.07,
+        "valid_pixels": 4356,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-08-31",
+        "cloud_free_pct": 92.0,
+        "mean_ntl": 0.78,
+        "median_ntl": 0.1,
+        "valid_pixels": 4251,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-01",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.83,
+        "median_ntl": 0.13,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-02",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.8,
+        "median_ntl": 0.21,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-03",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.72,
+        "median_ntl": 0.11,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-04",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.83,
+        "median_ntl": 0.22,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-05",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.72,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-06",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.81,
+        "median_ntl": 0.14,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-07",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.93,
+        "median_ntl": 0.19,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-08",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.76,
+        "median_ntl": 0.14,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-09",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.66,
+        "median_ntl": 0.09,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-10",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.7,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-11",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.16,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-12",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.72,
+        "median_ntl": 0.17,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_pre_2018-09-13",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.71,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      }
+    ],
+    "post": [
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-14",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.78,
+        "median_ntl": 0.15,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-15",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.78,
+        "median_ntl": 0.15,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-16",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.78,
+        "median_ntl": 0.15,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-17",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.69,
+        "median_ntl": 0.19,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-18",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.64,
+        "median_ntl": 0.24,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-19",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.65,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-20",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.69,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-21",
+        "cloud_free_pct": 88.9,
+        "mean_ntl": 0.76,
+        "median_ntl": 0.2,
+        "valid_pixels": 4109,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-22",
+        "cloud_free_pct": 75.0,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.27,
+        "valid_pixels": 3465,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-23",
+        "cloud_free_pct": 75.1,
+        "mean_ntl": 1.12,
+        "median_ntl": 0.28,
+        "valid_pixels": 3470,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-24",
+        "cloud_free_pct": 81.7,
+        "mean_ntl": 0.8,
+        "median_ntl": 0.17,
+        "valid_pixels": 3776,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-25",
+        "cloud_free_pct": 87.2,
+        "mean_ntl": 0.77,
+        "median_ntl": 0.13,
+        "valid_pixels": 4033,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-26",
+        "cloud_free_pct": 85.2,
+        "mean_ntl": 0.73,
+        "median_ntl": 0.08,
+        "valid_pixels": 3938,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-27",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 0.74,
+        "median_ntl": 0.13,
+        "valid_pixels": 4418,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-28",
+        "cloud_free_pct": 92.2,
+        "mean_ntl": 0.85,
+        "median_ntl": 0.18,
+        "valid_pixels": 4262,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-29",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.76,
+        "median_ntl": 0.13,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-09-30",
+        "cloud_free_pct": 96.1,
+        "mean_ntl": 0.76,
+        "median_ntl": 0.13,
+        "valid_pixels": 4444,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-01",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.69,
+        "median_ntl": 0.09,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-02",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.71,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-03",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.86,
+        "median_ntl": 0.15,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-04",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.83,
+        "median_ntl": 0.14,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-05",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.72,
+        "median_ntl": 0.1,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-06",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.72,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-07",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.71,
+        "median_ntl": 0.11,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-08",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.8,
+        "median_ntl": 0.17,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-09",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.9,
+        "median_ntl": 0.26,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-10",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.82,
+        "median_ntl": 0.18,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-11",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.82,
+        "median_ntl": 0.18,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-12",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.67,
+        "median_ntl": 0.08,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-13",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.76,
+        "median_ntl": 0.14,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-14",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.2,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-15",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.75,
+        "median_ntl": 0.14,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-16",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.64,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-17",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.81,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-18",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.81,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-19",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.19,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-20",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.84,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-21",
+        "cloud_free_pct": 71.1,
+        "mean_ntl": 1.02,
+        "median_ntl": 0.28,
+        "valid_pixels": 3287,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-22",
+        "cloud_free_pct": 79.5,
+        "mean_ntl": 0.9,
+        "median_ntl": 0.15,
+        "valid_pixels": 3673,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-23",
+        "cloud_free_pct": 94.7,
+        "mean_ntl": 0.8,
+        "median_ntl": 0.14,
+        "valid_pixels": 4377,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-24",
+        "cloud_free_pct": 89.2,
+        "mean_ntl": 0.86,
+        "median_ntl": 0.1,
+        "valid_pixels": 4124,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-25",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 0.84,
+        "median_ntl": 0.14,
+        "valid_pixels": 4431,
+        "total_pixels": 4623
+      },
+      {
+        "date": "Florence_MyrtleBeach_post_2018-10-26",
+        "cloud_free_pct": 96.2,
+        "mean_ntl": 0.84,
+        "median_ntl": 0.12,
+        "valid_pixels": 4449,
+        "total_pixels": 4623
+      }
+    ],
+    "summary": {
+      "total_days": 87,
+      "pre_days": 44,
+      "post_days": 43,
+      "pre_mean_ntl": 0.76,
+      "post_mean_ntl": 0.8,
+      "usable_days": 55,
+      "excluded_days": 32,
+      "avg_cloud_pct": 33.6
+    }
+  },
+  "isaias-ny": {
+    "event_id": "isaias-ny",
+    "pre": [
+      {
+        "date": "Isaias_Westchester_pre_2020-07-01",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-02",
+        "cloud_free_pct": 95.3,
+        "mean_ntl": 0.89,
+        "median_ntl": 0.37,
+        "valid_pixels": 4011,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.08,
+        "median_ntl": 0.51,
+        "valid_pixels": 4026,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-04",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.55,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-05",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.53,
+        "valid_pixels": 4032,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-06",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 1.01,
+        "median_ntl": 0.45,
+        "valid_pixels": 4034,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-07",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.04,
+        "median_ntl": 0.5,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-08",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.08,
+        "median_ntl": 0.53,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 0.88,
+        "median_ntl": 0.38,
+        "valid_pixels": 4030,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-10",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.08,
+        "median_ntl": 0.5,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-11",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-12",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.85,
+        "median_ntl": 0.32,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-13",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-14",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.38,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-15",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.42,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-16",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-17",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-18",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.86,
+        "median_ntl": 0.34,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-19",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.98,
+        "median_ntl": 0.45,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-20",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.07,
+        "median_ntl": 0.5,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-21",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.18,
+        "median_ntl": 0.5,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-22",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-23",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.06,
+        "median_ntl": 0.47,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-24",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.52,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-25",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.06,
+        "median_ntl": 0.54,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-26",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.12,
+        "median_ntl": 0.47,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-27",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.18,
+        "median_ntl": 0.5,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-28",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.93,
+        "median_ntl": 0.39,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-29",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.1,
+        "median_ntl": 0.53,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-30",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.98,
+        "median_ntl": 0.39,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-07-31",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-08-01",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.03,
+        "median_ntl": 0.41,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-08-02",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_pre_2020-08-03",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.38,
+        "valid_pixels": 4032,
+        "total_pixels": 4209
+      }
+    ],
+    "post": [
+      {
+        "date": "Isaias_Westchester_post_2020-08-04",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-05",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.95,
+        "median_ntl": 0.43,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-06",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.03,
+        "median_ntl": 0.46,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-07",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-08",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 0.84,
+        "median_ntl": 0.43,
+        "valid_pixels": 4022,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.38,
+        "valid_pixels": 4029,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-10",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.37,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-11",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.07,
+        "median_ntl": 0.46,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-12",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.06,
+        "median_ntl": 0.57,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-13",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.07,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-14",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.08,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-15",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.93,
+        "median_ntl": 0.38,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-16",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.09,
+        "median_ntl": 0.51,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-17",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.35,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-18",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.07,
+        "median_ntl": 0.49,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-19",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.91,
+        "median_ntl": 0.41,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-20",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.89,
+        "median_ntl": 0.34,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-21",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.04,
+        "median_ntl": 0.46,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-22",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.05,
+        "median_ntl": 0.48,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-23",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.92,
+        "median_ntl": 0.39,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-24",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.04,
+        "median_ntl": 0.48,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-25",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.36,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-26",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.95,
+        "median_ntl": 0.35,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-27",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.04,
+        "median_ntl": 0.47,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-28",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.99,
+        "median_ntl": 0.44,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-29",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.45,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-30",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 0.99,
+        "median_ntl": 0.35,
+        "valid_pixels": 4033,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-08-31",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 0.9,
+        "median_ntl": 0.33,
+        "valid_pixels": 4032,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-01",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 1.03,
+        "median_ntl": 0.48,
+        "valid_pixels": 4034,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-02",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.04,
+        "median_ntl": 0.48,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-03",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.49,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-04",
+        "cloud_free_pct": 95.8,
+        "mean_ntl": 0.96,
+        "median_ntl": 0.41,
+        "valid_pixels": 4032,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-05",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.46,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-06",
+        "cloud_free_pct": 95.2,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.35,
+        "valid_pixels": 4005,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-07",
+        "cloud_free_pct": 95.2,
+        "mean_ntl": 0.97,
+        "median_ntl": 0.5,
+        "valid_pixels": 4006,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-08",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.88,
+        "median_ntl": 0.4,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-09",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.94,
+        "median_ntl": 0.45,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-10",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.04,
+        "median_ntl": 0.48,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-11",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.84,
+        "median_ntl": 0.44,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-12",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 1.03,
+        "median_ntl": 0.45,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      },
+      {
+        "date": "Isaias_Westchester_post_2020-09-13",
+        "cloud_free_pct": 95.9,
+        "mean_ntl": 0.98,
+        "median_ntl": 0.56,
+        "valid_pixels": 4035,
+        "total_pixels": 4209
+      }
+    ],
+    "summary": {
+      "total_days": 75,
+      "pre_days": 34,
+      "post_days": 41,
+      "pre_mean_ntl": 1.04,
+      "post_mean_ntl": 0.99,
+      "usable_days": 37,
+      "excluded_days": 38,
+      "avg_cloud_pct": 46.5
+    }
+  },
+  "uri-houston": {
+    "event_id": "uri-houston",
+    "pre": [
+      {
+        "date": "Uri_Houston_pre_2021-01-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.07,
+        "median_ntl": 5.05,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.17,
+        "median_ntl": 5.19,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.72,
+        "median_ntl": 5.58,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.57,
+        "median_ntl": 6.5,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.18,
+        "median_ntl": 4.99,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.02,
+        "median_ntl": 5.18,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-07",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.71,
+        "median_ntl": 4.49,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-08",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.25,
+        "median_ntl": 5.08,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.74,
+        "median_ntl": 6.41,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-10",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.4,
+        "median_ntl": 5.51,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-11",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.0,
+        "median_ntl": 5.27,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-12",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.9,
+        "median_ntl": 4.42,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-13",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.19,
+        "median_ntl": 5.13,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-14",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.02,
+        "median_ntl": 5.76,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-15",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.19,
+        "median_ntl": 5.87,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.05,
+        "median_ntl": 5.02,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-17",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.33,
+        "median_ntl": 5.12,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-18",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.98,
+        "median_ntl": 4.8,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-19",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.5,
+        "median_ntl": 5.75,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-20",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.5,
+        "median_ntl": 5.56,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-21",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.97,
+        "median_ntl": 5.08,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-22",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.32,
+        "median_ntl": 5.41,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-23",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.25,
+        "median_ntl": 5.41,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-24",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.5,
+        "median_ntl": 5.56,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-25",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.5,
+        "median_ntl": 5.56,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-26",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.64,
+        "median_ntl": 5.93,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-27",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.96,
+        "median_ntl": 5.2,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-28",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.03,
+        "median_ntl": 4.66,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-29",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.4,
+        "median_ntl": 5.47,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-30",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.19,
+        "median_ntl": 5.29,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-01-31",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.27,
+        "median_ntl": 5.57,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.92,
+        "median_ntl": 4.75,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.49,
+        "median_ntl": 5.55,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.91,
+        "median_ntl": 4.73,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.18,
+        "median_ntl": 5.37,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.14,
+        "median_ntl": 5.13,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.07,
+        "median_ntl": 5.22,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-07",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.7,
+        "median_ntl": 4.5,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-08",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.01,
+        "median_ntl": 5.03,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.1,
+        "median_ntl": 5.33,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-10",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.8,
+        "median_ntl": 5.01,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-11",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.81,
+        "median_ntl": 5.0,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-12",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.99,
+        "median_ntl": 5.18,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-13",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.3,
+        "median_ntl": 5.44,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_pre_2021-02-14",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.48,
+        "median_ntl": 5.54,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      }
+    ],
+    "post": [
+      {
+        "date": "Uri_Houston_post_2021-02-15",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.07,
+        "median_ntl": 4.03,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.37,
+        "median_ntl": 3.68,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-17",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.9,
+        "median_ntl": 4.78,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-18",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.01,
+        "median_ntl": 3.71,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-19",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.55,
+        "median_ntl": 4.51,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-20",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.81,
+        "median_ntl": 5.38,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-21",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.67,
+        "median_ntl": 6.39,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-22",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.22,
+        "median_ntl": 5.39,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-23",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.67,
+        "median_ntl": 4.52,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-24",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.58,
+        "median_ntl": 4.48,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-25",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.2,
+        "median_ntl": 5.32,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-26",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.08,
+        "median_ntl": 4.93,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-27",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.41,
+        "median_ntl": 5.47,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-02-28",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.46,
+        "median_ntl": 5.51,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.46,
+        "median_ntl": 5.51,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.38,
+        "median_ntl": 5.4,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.31,
+        "median_ntl": 6.0,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.14,
+        "median_ntl": 5.82,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.87,
+        "median_ntl": 4.85,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.09,
+        "median_ntl": 5.26,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-07",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.96,
+        "median_ntl": 4.84,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-08",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.2,
+        "median_ntl": 5.84,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.19,
+        "median_ntl": 6.09,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-10",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.65,
+        "median_ntl": 5.72,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-11",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.44,
+        "median_ntl": 5.64,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-12",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.36,
+        "median_ntl": 4.33,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-13",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.67,
+        "median_ntl": 5.52,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-14",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.36,
+        "median_ntl": 4.46,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-15",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.44,
+        "median_ntl": 5.65,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.43,
+        "median_ntl": 5.69,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-17",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 4.72,
+        "median_ntl": 3.52,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-18",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.04,
+        "median_ntl": 4.79,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-19",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.3,
+        "median_ntl": 5.91,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-20",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.4,
+        "median_ntl": 6.16,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-21",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.3,
+        "median_ntl": 5.3,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-22",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.17,
+        "median_ntl": 5.02,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-23",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.8,
+        "median_ntl": 5.92,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-24",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.61,
+        "median_ntl": 5.57,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-25",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.62,
+        "median_ntl": 5.7,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-26",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.27,
+        "median_ntl": 5.08,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-27",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.49,
+        "median_ntl": 5.63,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-28",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.53,
+        "median_ntl": 5.5,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-29",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.55,
+        "median_ntl": 4.51,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-30",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 4.55,
+        "median_ntl": 2.99,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-03-31",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.31,
+        "median_ntl": 5.46,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.15,
+        "median_ntl": 5.38,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.76,
+        "median_ntl": 4.4,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 5.48,
+        "median_ntl": 4.65,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.49,
+        "median_ntl": 5.38,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 7.6,
+        "median_ntl": 6.42,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.86,
+        "median_ntl": 5.94,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      },
+      {
+        "date": "Uri_Houston_post_2021-04-07",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 6.93,
+        "median_ntl": 6.05,
+        "valid_pixels": 4623,
+        "total_pixels": 4830
+      }
+    ],
+    "summary": {
+      "total_days": 97,
+      "pre_days": 45,
+      "post_days": 52,
+      "pre_mean_ntl": 6.28,
+      "post_mean_ntl": 6.27,
+      "usable_days": 45,
+      "excluded_days": 52,
+      "avg_cloud_pct": 45.4
+    }
+  },
+  "derecho-chicago": {
+    "event_id": "derecho-chicago",
+    "pre": [
+      {
+        "date": "Derecho_Chicago_pre_2020-07-01",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.3,
+        "median_ntl": 4.77,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-02",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.13,
+        "median_ntl": 5.48,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-03",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.15,
+        "median_ntl": 5.66,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-04",
+        "cloud_free_pct": 98.8,
+        "mean_ntl": 4.94,
+        "median_ntl": 4.05,
+        "valid_pixels": 3964,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-05",
+        "cloud_free_pct": 97.5,
+        "mean_ntl": 5.31,
+        "median_ntl": 4.47,
+        "valid_pixels": 3911,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-06",
+        "cloud_free_pct": 97.9,
+        "mean_ntl": 5.33,
+        "median_ntl": 4.62,
+        "valid_pixels": 3927,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-07",
+        "cloud_free_pct": 98.8,
+        "mean_ntl": 5.99,
+        "median_ntl": 5.34,
+        "valid_pixels": 3963,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-08",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.15,
+        "median_ntl": 5.66,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-09",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.9,
+        "median_ntl": 4.17,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-10",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.13,
+        "median_ntl": 5.55,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-11",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.09,
+        "median_ntl": 4.31,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-12",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.96,
+        "median_ntl": 5.13,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-13",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.15,
+        "median_ntl": 5.66,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-14",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.98,
+        "median_ntl": 4.22,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-15",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.15,
+        "median_ntl": 5.66,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-16",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.89,
+        "median_ntl": 3.67,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-17",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.5,
+        "median_ntl": 4.79,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-18",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.82,
+        "median_ntl": 5.1,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-19",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.83,
+        "median_ntl": 4.19,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-20",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.92,
+        "median_ntl": 4.12,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-21",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.99,
+        "median_ntl": 5.48,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-22",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.39,
+        "median_ntl": 4.44,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-23",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 6.16,
+        "median_ntl": 5.0,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-24",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.77,
+        "median_ntl": 5.07,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-25",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.02,
+        "median_ntl": 4.27,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-26",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.47,
+        "median_ntl": 4.1,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-27",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.85,
+        "median_ntl": 5.3,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-28",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.49,
+        "median_ntl": 4.87,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-29",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.33,
+        "median_ntl": 4.57,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-30",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.8,
+        "median_ntl": 5.26,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-07-31",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 4.92,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-01",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.8,
+        "median_ntl": 5.26,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-02",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.8,
+        "median_ntl": 5.26,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-03",
+        "cloud_free_pct": 98.8,
+        "mean_ntl": 5.43,
+        "median_ntl": 4.99,
+        "valid_pixels": 3965,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-04",
+        "cloud_free_pct": 98.5,
+        "mean_ntl": 5.36,
+        "median_ntl": 4.52,
+        "valid_pixels": 3952,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-05",
+        "cloud_free_pct": 97.9,
+        "mean_ntl": 5.14,
+        "median_ntl": 4.31,
+        "valid_pixels": 3928,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-06",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.8,
+        "median_ntl": 5.26,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-07",
+        "cloud_free_pct": 98.5,
+        "mean_ntl": 5.22,
+        "median_ntl": 4.63,
+        "valid_pixels": 3950,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-08",
+        "cloud_free_pct": 98.5,
+        "mean_ntl": 5.97,
+        "median_ntl": 5.29,
+        "valid_pixels": 3952,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_pre_2020-08-09",
+        "cloud_free_pct": 98.7,
+        "mean_ntl": 5.44,
+        "median_ntl": 4.86,
+        "valid_pixels": 3958,
+        "total_pixels": 4012
+      }
+    ],
+    "post": [
+      {
+        "date": "Derecho_Chicago_post_2020-08-10",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.03,
+        "median_ntl": 4.12,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-11",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.37,
+        "median_ntl": 4.44,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-12",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.28,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-13",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.47,
+        "median_ntl": 4.59,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-14",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.38,
+        "median_ntl": 4.43,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-15",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.93,
+        "median_ntl": 4.55,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-16",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.92,
+        "median_ntl": 4.23,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-17",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.02,
+        "median_ntl": 4.14,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-18",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.37,
+        "median_ntl": 4.72,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-19",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.89,
+        "median_ntl": 5.02,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-20",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.96,
+        "median_ntl": 4.11,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-21",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.77,
+        "median_ntl": 3.86,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-22",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.99,
+        "median_ntl": 4.03,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-23",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.34,
+        "median_ntl": 4.82,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-24",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.69,
+        "median_ntl": 5.02,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-25",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.65,
+        "median_ntl": 5.6,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-26",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.98,
+        "median_ntl": 4.69,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-27",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.67,
+        "median_ntl": 4.4,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-28",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.15,
+        "median_ntl": 4.53,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-29",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 4.61,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-30",
+        "cloud_free_pct": 98.7,
+        "mean_ntl": 5.43,
+        "median_ntl": 4.65,
+        "valid_pixels": 3959,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-08-31",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.15,
+        "median_ntl": 4.63,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-01",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.3,
+        "median_ntl": 4.75,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-02",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.78,
+        "median_ntl": 3.97,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-03",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.03,
+        "median_ntl": 4.18,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-04",
+        "cloud_free_pct": 98.3,
+        "mean_ntl": 5.72,
+        "median_ntl": 4.8,
+        "valid_pixels": 3942,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-05",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.0,
+        "median_ntl": 4.43,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-06",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 5.09,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-07",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.34,
+        "median_ntl": 4.77,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-08",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 5.09,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-09",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 5.09,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-10",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 5.09,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-11",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.31,
+        "median_ntl": 4.37,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-12",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 5.09,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-13",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 5.09,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-14",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 3.32,
+        "median_ntl": 3.54,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-15",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.79,
+        "median_ntl": 4.99,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-16",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.63,
+        "median_ntl": 4.75,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-17",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.82,
+        "median_ntl": 4.83,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-18",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.89,
+        "median_ntl": 4.59,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-19",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.07,
+        "median_ntl": 4.43,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-20",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.41,
+        "median_ntl": 4.64,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-21",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.74,
+        "median_ntl": 4.68,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-22",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.81,
+        "median_ntl": 4.77,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-23",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.05,
+        "median_ntl": 4.49,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-24",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.05,
+        "median_ntl": 4.61,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-25",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.29,
+        "median_ntl": 4.97,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-26",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.79,
+        "median_ntl": 4.58,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-27",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 4.72,
+        "median_ntl": 4.15,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-28",
+        "cloud_free_pct": 99.0,
+        "mean_ntl": 5.15,
+        "median_ntl": 5.08,
+        "valid_pixels": 3973,
+        "total_pixels": 4012
+      },
+      {
+        "date": "Derecho_Chicago_post_2020-09-29",
+        "cloud_free_pct": 98.2,
+        "mean_ntl": 5.01,
+        "median_ntl": 4.23,
+        "valid_pixels": 3939,
+        "total_pixels": 4012
+      }
+    ],
+    "summary": {
+      "total_days": 91,
+      "pre_days": 40,
+      "post_days": 51,
+      "pre_mean_ntl": 5.56,
+      "post_mean_ntl": 5.14,
+      "usable_days": 61,
+      "excluded_days": 30,
+      "avg_cloud_pct": 30.8
+    }
+  },
+  "severe-detroit": {
+    "event_id": "severe-detroit",
+    "pre": [
+      {
+        "date": "Severe_Detroit_pre_2019-06-15",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-16",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-17",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-18",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.22,
+        "median_ntl": 2.58,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-19",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-20",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-21",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-22",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-23",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.5,
+        "median_ntl": 2.58,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-24",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-25",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.43,
+        "median_ntl": 2.85,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-26",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.11,
+        "median_ntl": 3.68,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-27",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.88,
+        "median_ntl": 4.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-28",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.06,
+        "median_ntl": 2.41,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-29",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.47,
+        "median_ntl": 3.72,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-06-30",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.46,
+        "median_ntl": 2.98,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-01",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.76,
+        "median_ntl": 4.54,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-02",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.77,
+        "median_ntl": 4.53,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-03",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.76,
+        "median_ntl": 4.52,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-04",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.18,
+        "median_ntl": 2.55,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-05",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.21,
+        "median_ntl": 3.63,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-06",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.55,
+        "median_ntl": 4.29,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-07",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.55,
+        "median_ntl": 4.27,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-08",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.51,
+        "median_ntl": 2.89,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-09",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.36,
+        "median_ntl": 3.16,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-10",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.52,
+        "median_ntl": 3.04,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-11",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.24,
+        "median_ntl": 3.84,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-12",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.34,
+        "median_ntl": 3.94,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-13",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.38,
+        "median_ntl": 2.79,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-14",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.17,
+        "median_ntl": 3.77,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-15",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.14,
+        "median_ntl": 2.49,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-16",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.04,
+        "median_ntl": 2.56,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-17",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.17,
+        "median_ntl": 3.78,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-18",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.34,
+        "median_ntl": 2.73,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_pre_2019-07-19",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.01,
+        "median_ntl": 2.67,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      }
+    ],
+    "post": [
+      {
+        "date": "Severe_Detroit_post_2019-07-20",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.17,
+        "median_ntl": 3.78,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-21",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.1,
+        "median_ntl": 2.53,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-22",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.17,
+        "median_ntl": 3.78,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-23",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.4,
+        "median_ntl": 2.9,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-24",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.3,
+        "median_ntl": 2.67,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-25",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.1,
+        "median_ntl": 3.6,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-26",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.47,
+        "median_ntl": 3.05,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-27",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.24,
+        "median_ntl": 3.68,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-28",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.16,
+        "median_ntl": 3.86,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-29",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.41,
+        "median_ntl": 2.81,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-30",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.23,
+        "median_ntl": 3.45,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-07-31",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.49,
+        "median_ntl": 3.06,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-01",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.74,
+        "median_ntl": 3.23,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-02",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.12,
+        "median_ntl": 3.46,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-03",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.61,
+        "median_ntl": 3.05,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-04",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.41,
+        "median_ntl": 2.96,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-05",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.38,
+        "median_ntl": 2.55,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-06",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.19,
+        "median_ntl": 2.95,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-07",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.61,
+        "median_ntl": 3.35,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-08",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.67,
+        "median_ntl": 3.23,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-09",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.46,
+        "median_ntl": 2.88,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-10",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.64,
+        "median_ntl": 2.8,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-11",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.16,
+        "median_ntl": 2.72,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-12",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.6,
+        "median_ntl": 3.14,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-13",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.59,
+        "median_ntl": 3.22,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-14",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.46,
+        "median_ntl": 3.11,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-15",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.57,
+        "median_ntl": 3.16,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-16",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.24,
+        "median_ntl": 2.93,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-17",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.69,
+        "median_ntl": 3.21,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-18",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.58,
+        "median_ntl": 3.16,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-19",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.14,
+        "median_ntl": 2.71,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-20",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.12,
+        "median_ntl": 2.62,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-21",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.29,
+        "median_ntl": 2.84,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-22",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.56,
+        "median_ntl": 3.15,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-23",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.09,
+        "median_ntl": 3.5,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-24",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.94,
+        "median_ntl": 3.32,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-25",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.91,
+        "median_ntl": 2.94,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-26",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.45,
+        "median_ntl": 2.65,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-27",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.43,
+        "median_ntl": 3.13,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-28",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.01,
+        "median_ntl": 3.52,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-29",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.89,
+        "median_ntl": 3.59,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-30",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.14,
+        "median_ntl": 2.6,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-08-31",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.26,
+        "median_ntl": 2.67,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-01",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.59,
+        "median_ntl": 3.19,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-02",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.57,
+        "median_ntl": 3.23,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-03",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 4.06,
+        "median_ntl": 3.59,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-04",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 2.87,
+        "median_ntl": 2.25,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-05",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.31,
+        "median_ntl": 2.76,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-06",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.21,
+        "median_ntl": 2.61,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-07",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.92,
+        "median_ntl": 3.43,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-08",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.81,
+        "median_ntl": 3.4,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-09",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.59,
+        "median_ntl": 3.12,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-10",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.55,
+        "median_ntl": 3.12,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-11",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.71,
+        "median_ntl": 3.24,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-12",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.71,
+        "median_ntl": 3.24,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-13",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.59,
+        "median_ntl": 3.15,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-14",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.69,
+        "median_ntl": 3.0,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-15",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.06,
+        "median_ntl": 2.54,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Severe_Detroit_post_2019-09-16",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 3.7,
+        "median_ntl": 3.23,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      }
+    ],
+    "summary": {
+      "total_days": 94,
+      "pre_days": 35,
+      "post_days": 59,
+      "pre_mean_ntl": 4.09,
+      "post_mean_ntl": 3.6,
+      "usable_days": 52,
+      "excluded_days": 42,
+      "avg_cloud_pct": 39.0
+    }
+  },
+  "noreaster-boston": {
+    "event_id": "noreaster-boston",
+    "pre": [
+      {
+        "date": "Noreaster_Boston_pre_2021-09-15",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.06,
+        "median_ntl": 1.05,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.36,
+        "median_ntl": 1.21,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-17",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.88,
+        "median_ntl": 1.04,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-18",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.27,
+        "median_ntl": 1.19,
+        "valid_pixels": 3961,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-19",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.35,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-20",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 2.04,
+        "median_ntl": 0.9,
+        "valid_pixels": 3959,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-21",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.18,
+        "median_ntl": 0.94,
+        "valid_pixels": 3962,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-22",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.14,
+        "median_ntl": 1.18,
+        "valid_pixels": 3962,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-23",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 1.98,
+        "median_ntl": 0.89,
+        "valid_pixels": 3956,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-24",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.27,
+        "median_ntl": 1.13,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-25",
+        "cloud_free_pct": 95.6,
+        "mean_ntl": 2.15,
+        "median_ntl": 1.19,
+        "valid_pixels": 3958,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-26",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.24,
+        "median_ntl": 1.15,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-27",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.21,
+        "median_ntl": 1.01,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-28",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.12,
+        "median_ntl": 1.13,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-29",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 0.88,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-09-30",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.36,
+        "median_ntl": 1.21,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.16,
+        "median_ntl": 1.03,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.48,
+        "median_ntl": 1.18,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.05,
+        "median_ntl": 1.0,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.34,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.34,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.9,
+        "median_ntl": 0.85,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-07",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.28,
+        "median_ntl": 1.09,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-08",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.11,
+        "median_ntl": 0.96,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.15,
+        "median_ntl": 1.17,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-10",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.29,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-11",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.13,
+        "median_ntl": 1.17,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-12",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.95,
+        "median_ntl": 0.98,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-13",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.09,
+        "median_ntl": 1.09,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-14",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.0,
+        "median_ntl": 0.93,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-15",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.24,
+        "median_ntl": 1.14,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-17",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-18",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.21,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-19",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.12,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-20",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.21,
+        "median_ntl": 1.06,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-21",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.2,
+        "median_ntl": 1.1,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-22",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.07,
+        "median_ntl": 0.95,
+        "valid_pixels": 3960,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-23",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.19,
+        "median_ntl": 1.21,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-24",
+        "cloud_free_pct": 95.5,
+        "mean_ntl": 2.16,
+        "median_ntl": 1.0,
+        "valid_pixels": 3953,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-25",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_pre_2021-10-26",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      }
+    ],
+    "post": [
+      {
+        "date": "Noreaster_Boston_post_2021-10-27",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-10-28",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.62,
+        "median_ntl": 0.83,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-10-29",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.19,
+        "median_ntl": 1.08,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-10-30",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.23,
+        "median_ntl": 1.1,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-10-31",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.84,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.23,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.37,
+        "median_ntl": 1.18,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.19,
+        "median_ntl": 1.03,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.23,
+        "median_ntl": 0.95,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.27,
+        "median_ntl": 0.96,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-07",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.19,
+        "median_ntl": 1.03,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-08",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.29,
+        "median_ntl": 1.17,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-09",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.17,
+        "median_ntl": 1.05,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-10",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.18,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-11",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.18,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-12",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.18,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-13",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.0,
+        "median_ntl": 1.04,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-14",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.29,
+        "median_ntl": 1.15,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-15",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-16",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.56,
+        "median_ntl": 1.05,
+        "valid_pixels": 3961,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-17",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.22,
+        "median_ntl": 1.04,
+        "valid_pixels": 3961,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-18",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.27,
+        "median_ntl": 1.18,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-19",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-20",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.29,
+        "median_ntl": 1.11,
+        "valid_pixels": 3962,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-21",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-22",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-23",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.47,
+        "median_ntl": 1.3,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-24",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.53,
+        "median_ntl": 1.31,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-25",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.37,
+        "median_ntl": 1.15,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-26",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.2,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-27",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.41,
+        "median_ntl": 1.15,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-28",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.37,
+        "median_ntl": 1.16,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-29",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.27,
+        "median_ntl": 1.42,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-11-30",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.45,
+        "median_ntl": 1.28,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-12-01",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.24,
+        "median_ntl": 1.19,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-12-02",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.24,
+        "median_ntl": 1.19,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-12-03",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 1.77,
+        "median_ntl": 0.86,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-12-04",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.93,
+        "median_ntl": 1.64,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-12-05",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.37,
+        "median_ntl": 1.31,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      },
+      {
+        "date": "Noreaster_Boston_post_2021-12-06",
+        "cloud_free_pct": 95.7,
+        "mean_ntl": 2.35,
+        "median_ntl": 1.31,
+        "valid_pixels": 3964,
+        "total_pixels": 4140
+      }
+    ],
+    "summary": {
+      "total_days": 83,
+      "pre_days": 42,
+      "post_days": 41,
+      "pre_mean_ntl": 2.18,
+      "post_mean_ntl": 2.27,
+      "usable_days": 41,
+      "excluded_days": 42,
+      "avg_cloud_pct": 45.3
+    }
+  },
+  "icestorm-okc": {
+    "event_id": "icestorm-okc",
+    "pre": [
+      {
+        "date": "IceStorm_OKC_pre_2020-09-15",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.79,
+        "median_ntl": 2.11,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-16",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.68,
+        "median_ntl": 1.75,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-17",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.98,
+        "median_ntl": 2.12,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-18",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.81,
+        "median_ntl": 2.62,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-19",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.83,
+        "median_ntl": 2.55,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-20",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.76,
+        "median_ntl": 2.22,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-21",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.79,
+        "median_ntl": 1.75,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-22",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.55,
+        "median_ntl": 1.84,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-23",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.49,
+        "median_ntl": 1.81,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-24",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.21,
+        "median_ntl": 2.19,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-25",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.86,
+        "median_ntl": 1.96,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-26",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.63,
+        "median_ntl": 1.59,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-27",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.57,
+        "median_ntl": 1.6,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-28",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.34,
+        "median_ntl": 2.44,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-29",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.32,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-09-30",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.93,
+        "median_ntl": 1.83,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-01",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.65,
+        "median_ntl": 1.79,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-02",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.61,
+        "median_ntl": 1.62,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-03",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.05,
+        "median_ntl": 2.26,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-04",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.32,
+        "median_ntl": 2.2,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-05",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.01,
+        "median_ntl": 2.01,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-06",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.74,
+        "median_ntl": 1.78,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-07",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.77,
+        "median_ntl": 1.65,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-08",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.75,
+        "median_ntl": 1.94,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-09",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.21,
+        "median_ntl": 2.42,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-10",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.5,
+        "median_ntl": 2.47,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-11",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.83,
+        "median_ntl": 1.87,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-12",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.55,
+        "median_ntl": 1.63,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-13",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.57,
+        "median_ntl": 1.51,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-14",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.88,
+        "median_ntl": 1.89,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-15",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.21,
+        "median_ntl": 2.33,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-16",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.85,
+        "median_ntl": 1.9,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-17",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.61,
+        "median_ntl": 1.56,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-18",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.6,
+        "median_ntl": 1.63,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-19",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.01,
+        "median_ntl": 2.18,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-20",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.8,
+        "median_ntl": 1.95,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-21",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.12,
+        "median_ntl": 2.42,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-22",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.67,
+        "median_ntl": 1.68,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-23",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.03,
+        "median_ntl": 2.23,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-24",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.02,
+        "median_ntl": 2.22,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-25",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.0,
+        "median_ntl": 2.07,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_pre_2020-10-26",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.06,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      }
+    ],
+    "post": [
+      {
+        "date": "IceStorm_OKC_post_2020-10-27",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.06,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-10-28",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.06,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-10-29",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.84,
+        "median_ntl": 1.98,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-10-30",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.61,
+        "median_ntl": 1.47,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-10-31",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.99,
+        "median_ntl": 1.86,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-01",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.7,
+        "median_ntl": 1.64,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-02",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.57,
+        "median_ntl": 1.43,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-03",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.66,
+        "median_ntl": 1.5,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-04",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.73,
+        "median_ntl": 1.68,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-05",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.07,
+        "median_ntl": 2.04,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-06",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.96,
+        "median_ntl": 1.95,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-07",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.84,
+        "median_ntl": 1.82,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-08",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.87,
+        "median_ntl": 1.6,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-09",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.8,
+        "median_ntl": 1.88,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-10",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.91,
+        "median_ntl": 2.1,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-11",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.3,
+        "median_ntl": 2.2,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-12",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.84,
+        "median_ntl": 1.76,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-13",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.83,
+        "median_ntl": 1.62,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-14",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.04,
+        "median_ntl": 2.2,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-15",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.03,
+        "median_ntl": 1.94,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-16",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.47,
+        "median_ntl": 2.44,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-17",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.97,
+        "median_ntl": 1.91,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-18",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.76,
+        "median_ntl": 1.7,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-19",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.77,
+        "median_ntl": 1.82,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-20",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.96,
+        "median_ntl": 1.94,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-21",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.08,
+        "median_ntl": 2.23,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-22",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.03,
+        "median_ntl": 2.08,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-23",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.07,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-24",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.1,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-25",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.89,
+        "median_ntl": 2.23,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-26",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.22,
+        "median_ntl": 2.21,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-27",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.13,
+        "median_ntl": 2.3,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-28",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.9,
+        "median_ntl": 1.92,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-29",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.96,
+        "median_ntl": 2.26,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-11-30",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.1,
+        "median_ntl": 2.25,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-01",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.17,
+        "median_ntl": 2.17,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-02",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.32,
+        "median_ntl": 2.36,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-03",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.1,
+        "median_ntl": 2.24,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-04",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.74,
+        "median_ntl": 1.82,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-05",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.81,
+        "median_ntl": 1.71,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-06",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.99,
+        "median_ntl": 2.01,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-07",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.48,
+        "median_ntl": 2.46,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-08",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.37,
+        "median_ntl": 2.45,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-09",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.99,
+        "median_ntl": 1.99,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-10",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.02,
+        "median_ntl": 1.83,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-11",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.1,
+        "median_ntl": 2.21,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-12",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.67,
+        "median_ntl": 2.72,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-13",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.21,
+        "median_ntl": 2.33,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-14",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 4.95,
+        "median_ntl": 3.04,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-15",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.45,
+        "median_ntl": 2.51,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-16",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.46,
+        "median_ntl": 2.55,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-17",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 4.34,
+        "median_ntl": 2.88,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-18",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.5,
+        "median_ntl": 2.53,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-19",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.16,
+        "median_ntl": 2.3,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-20",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.73,
+        "median_ntl": 1.82,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-21",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 2.88,
+        "median_ntl": 1.82,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-22",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.1,
+        "median_ntl": 2.14,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-23",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.65,
+        "median_ntl": 2.98,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      },
+      {
+        "date": "IceStorm_OKC_post_2020-12-24",
+        "cloud_free_pct": 97.0,
+        "mean_ntl": 3.49,
+        "median_ntl": 2.59,
+        "valid_pixels": 4350,
+        "total_pixels": 4485
+      }
+    ],
+    "summary": {
+      "total_days": 101,
+      "pre_days": 42,
+      "post_days": 59,
+      "pre_mean_ntl": 2.88,
+      "post_mean_ntl": 3.1,
+      "usable_days": 73,
+      "excluded_days": 28,
+      "avg_cloud_pct": 24.4
+    }
+  },
+  "severe-nashville": {
+    "event_id": "severe-nashville",
+    "pre": [
+      {
+        "date": "Severe_Nashville_pre_2023-06-01",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.34,
+        "median_ntl": 1.41,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-02",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.49,
+        "median_ntl": 1.46,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-03",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.49,
+        "median_ntl": 1.38,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-04",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.77,
+        "median_ntl": 1.66,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-05",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.51,
+        "median_ntl": 1.59,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-06",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.43,
+        "median_ntl": 1.6,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-07",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.48,
+        "median_ntl": 1.52,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-08",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.36,
+        "median_ntl": 1.44,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-09",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.79,
+        "median_ntl": 1.77,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-10",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 3.01,
+        "median_ntl": 1.94,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-11",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.91,
+        "median_ntl": 1.89,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-12",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.87,
+        "median_ntl": 1.85,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-13",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.29,
+        "median_ntl": 1.31,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-14",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.41,
+        "median_ntl": 1.38,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-15",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.65,
+        "median_ntl": 1.71,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-16",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.3,
+        "median_ntl": 1.55,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-17",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.75,
+        "median_ntl": 1.8,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-19",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.78,
+        "median_ntl": 1.81,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-20",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.28,
+        "median_ntl": 1.46,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-21",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.4,
+        "median_ntl": 1.47,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-22",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.76,
+        "median_ntl": 1.8,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-23",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.63,
+        "median_ntl": 1.43,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-24",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.42,
+        "median_ntl": 1.45,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-25",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.82,
+        "median_ntl": 1.67,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-26",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.8,
+        "median_ntl": 1.67,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-27",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.34,
+        "median_ntl": 1.31,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-28",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.46,
+        "median_ntl": 1.4,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-29",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.27,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-06-30",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.44,
+        "median_ntl": 1.45,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-01",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.65,
+        "median_ntl": 1.71,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-02",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.29,
+        "median_ntl": 1.43,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-03",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.59,
+        "median_ntl": 1.61,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-04",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.59,
+        "median_ntl": 1.62,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-05",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.71,
+        "median_ntl": 1.73,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-06",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.63,
+        "median_ntl": 1.65,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-07",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.71,
+        "median_ntl": 1.73,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-08",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.33,
+        "median_ntl": 1.4,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-09",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.64,
+        "median_ntl": 1.66,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-10",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.12,
+        "median_ntl": 1.22,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-11",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.59,
+        "median_ntl": 1.42,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-12",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.79,
+        "median_ntl": 1.55,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-13",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.62,
+        "median_ntl": 1.67,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-14",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.15,
+        "median_ntl": 1.23,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-15",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.66,
+        "median_ntl": 1.7,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_pre_2023-07-16",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.83,
+        "median_ntl": 1.82,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      }
+    ],
+    "post": [
+      {
+        "date": "Severe_Nashville_post_2023-07-18",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.28,
+        "median_ntl": 1.41,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-19",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.69,
+        "median_ntl": 1.75,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-20",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.68,
+        "median_ntl": 1.75,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-21",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.42,
+        "median_ntl": 1.47,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-22",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.74,
+        "median_ntl": 1.86,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-23",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.73,
+        "median_ntl": 1.64,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-24",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.26,
+        "median_ntl": 1.44,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-25",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.64,
+        "median_ntl": 1.46,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-26",
+        "cloud_free_pct": 0.0,
+        "mean_ntl": 0,
+        "median_ntl": 0,
+        "valid_pixels": 0,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-27",
+        "cloud_free_pct": 0.0,
+        "mean_ntl": 0,
+        "median_ntl": 0,
+        "valid_pixels": 0,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-28",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.62,
+        "median_ntl": 1.72,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-29",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.38,
+        "median_ntl": 1.36,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-30",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.15,
+        "median_ntl": 1.31,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-07-31",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.39,
+        "median_ntl": 1.29,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-01",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.38,
+        "median_ntl": 1.23,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-02",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.54,
+        "median_ntl": 1.4,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-03",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.62,
+        "median_ntl": 1.7,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-04",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.62,
+        "median_ntl": 1.7,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-05",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.25,
+        "median_ntl": 1.29,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-06",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.62,
+        "median_ntl": 1.7,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-07",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.65,
+        "median_ntl": 1.69,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      },
+      {
+        "date": "Severe_Nashville_post_2023-08-08",
+        "cloud_free_pct": 99.5,
+        "mean_ntl": 2.57,
+        "median_ntl": 1.61,
+        "valid_pixels": 4268,
+        "total_pixels": 4288
+      }
+    ],
+    "summary": {
+      "total_days": 67,
+      "pre_days": 45,
+      "post_days": 22,
+      "pre_mean_ntl": 2.56,
+      "post_mean_ntl": 2.51,
+      "usable_days": 44,
+      "excluded_days": 23,
+      "avg_cloud_pct": 31.3
+    }
+  },
+  "atmos-seattle": {
+    "event_id": "atmos-seattle",
+    "pre": [
+      {
+        "date": "Atmos_Seattle_pre_2022-09-15",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.97,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-16",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.99,
+        "median_ntl": 0.97,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-17",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 2.01,
+        "median_ntl": 0.96,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-18",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 2.01,
+        "median_ntl": 0.96,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-19",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.8,
+        "median_ntl": 0.85,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-20",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.76,
+        "median_ntl": 0.79,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-21",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 2.03,
+        "median_ntl": 0.84,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-22",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.88,
+        "median_ntl": 0.97,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-23",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.84,
+        "median_ntl": 0.92,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-24",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.95,
+        "median_ntl": 1.0,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-25",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.79,
+        "median_ntl": 0.84,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-26",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.81,
+        "median_ntl": 0.84,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-27",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.79,
+        "median_ntl": 0.81,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-28",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.69,
+        "median_ntl": 0.9,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-29",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.98,
+        "median_ntl": 0.97,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-09-30",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.91,
+        "median_ntl": 0.99,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-01",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.72,
+        "median_ntl": 0.89,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-02",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.84,
+        "median_ntl": 0.82,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-03",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.74,
+        "median_ntl": 0.86,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-04",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.79,
+        "median_ntl": 0.92,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-05",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.7,
+        "median_ntl": 0.9,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-06",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.8,
+        "median_ntl": 0.96,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-07",
+        "cloud_free_pct": 97.9,
+        "mean_ntl": 1.97,
+        "median_ntl": 0.94,
+        "valid_pixels": 3595,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-08",
+        "cloud_free_pct": 97.8,
+        "mean_ntl": 1.81,
+        "median_ntl": 0.97,
+        "valid_pixels": 3590,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-09",
+        "cloud_free_pct": 97.7,
+        "mean_ntl": 1.87,
+        "median_ntl": 0.89,
+        "valid_pixels": 3588,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-10",
+        "cloud_free_pct": 97.9,
+        "mean_ntl": 1.83,
+        "median_ntl": 0.89,
+        "valid_pixels": 3594,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-11",
+        "cloud_free_pct": 97.2,
+        "mean_ntl": 1.73,
+        "median_ntl": 0.78,
+        "valid_pixels": 3571,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-12",
+        "cloud_free_pct": 97.1,
+        "mean_ntl": 1.81,
+        "median_ntl": 0.8,
+        "valid_pixels": 3565,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-13",
+        "cloud_free_pct": 97.2,
+        "mean_ntl": 1.81,
+        "median_ntl": 0.84,
+        "valid_pixels": 3569,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-14",
+        "cloud_free_pct": 96.8,
+        "mean_ntl": 1.82,
+        "median_ntl": 0.9,
+        "valid_pixels": 3553,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-15",
+        "cloud_free_pct": 98.0,
+        "mean_ntl": 1.81,
+        "median_ntl": 1.06,
+        "valid_pixels": 3600,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-16",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.86,
+        "median_ntl": 0.95,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-17",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.79,
+        "median_ntl": 0.85,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-18",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.82,
+        "median_ntl": 0.88,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-19",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.77,
+        "median_ntl": 0.95,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-20",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 0.93,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-21",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.89,
+        "median_ntl": 0.93,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-22",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.79,
+        "median_ntl": 0.93,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-23",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.79,
+        "median_ntl": 0.92,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-24",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.93,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-25",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.91,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-26",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.74,
+        "median_ntl": 0.96,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-27",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.93,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-28",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.93,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-29",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.72,
+        "median_ntl": 0.87,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-30",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.93,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-10-31",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-11-01",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-11-02",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.82,
+        "median_ntl": 0.94,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_pre_2022-11-03",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 0.95,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      }
+    ],
+    "post": [
+      {
+        "date": "Atmos_Seattle_post_2022-11-04",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-05",
+        "cloud_free_pct": 97.3,
+        "mean_ntl": 1.8,
+        "median_ntl": 0.84,
+        "valid_pixels": 3574,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-06",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-07",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-08",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-09",
+        "cloud_free_pct": 97.6,
+        "mean_ntl": 1.8,
+        "median_ntl": 0.82,
+        "valid_pixels": 3584,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-10",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.89,
+        "median_ntl": 1.05,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-11",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-12",
+        "cloud_free_pct": 97.1,
+        "mean_ntl": 1.78,
+        "median_ntl": 0.85,
+        "valid_pixels": 3567,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-13",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-14",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.94,
+        "median_ntl": 1.02,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-15",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.82,
+        "median_ntl": 0.88,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-16",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.89,
+        "median_ntl": 0.97,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-17",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.76,
+        "median_ntl": 0.94,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-18",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 0.91,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-19",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.95,
+        "median_ntl": 0.92,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-20",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.8,
+        "median_ntl": 0.93,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-21",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.84,
+        "median_ntl": 0.95,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-22",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.93,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-23",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.75,
+        "median_ntl": 0.88,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-24",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.8,
+        "median_ntl": 0.85,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-25",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.92,
+        "median_ntl": 0.98,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-26",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.46,
+        "median_ntl": 0.9,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-27",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.75,
+        "median_ntl": 0.89,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-28",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.78,
+        "median_ntl": 0.95,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-29",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.88,
+        "median_ntl": 1.02,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-11-30",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.68,
+        "median_ntl": 1.06,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-01",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.97,
+        "median_ntl": 1.09,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-02",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.91,
+        "median_ntl": 1.28,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-03",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 1.04,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-04",
+        "cloud_free_pct": 97.2,
+        "mean_ntl": 2.09,
+        "median_ntl": 1.1,
+        "valid_pixels": 3571,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-05",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.88,
+        "median_ntl": 1.06,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-06",
+        "cloud_free_pct": 98.0,
+        "mean_ntl": 1.7,
+        "median_ntl": 1.15,
+        "valid_pixels": 3600,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-07",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.59,
+        "median_ntl": 1.41,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-08",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 1.04,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-09",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 1.04,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      },
+      {
+        "date": "Atmos_Seattle_post_2022-12-10",
+        "cloud_free_pct": 98.1,
+        "mean_ntl": 1.9,
+        "median_ntl": 1.04,
+        "valid_pixels": 3602,
+        "total_pixels": 3672
+      }
+    ],
+    "summary": {
+      "total_days": 87,
+      "pre_days": 50,
+      "post_days": 37,
+      "pre_mean_ntl": 1.85,
+      "post_mean_ntl": 1.85,
+      "usable_days": 38,
+      "excluded_days": 49,
+      "avg_cloud_pct": 47.9
+    }
   }
 }

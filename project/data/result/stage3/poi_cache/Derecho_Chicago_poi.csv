@@ -1,0 +1,533 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Action Behavior Centers - ABA Therapy for Autism,hospital,41.9534467,-87.6888233,13282428791,node
+Action Behavior Centers - ABA Therapy for Autism,hospital,41.8838635,-87.6598548,13284382305,node
+Saint Mary of Nazareth Hospital,hospital,41.9030846,-87.683373,31125521,way
+Saint Francis Hospital Evanston,hospital,42.0244685,-87.6834209,32052949,way
+Ann & Robert H. Lurie Children's Hospital,hospital,41.8962599,-87.622027,47055764,way
+Thorek Memorial Hospital Andersonville,hospital,41.973141,-87.6710508,134578632,way
+Loretto Hospital,hospital,41.8721259,-87.7635298,162513176,way
+RML Specialty Hospital,hospital,41.8756198,-87.7119398,208808881,way
+Kindred Hospital Chicago (North Campus),hospital,41.961547,-87.6929705,209479030,way
+Swedish Covenant Hospital,hospital,41.9753672,-87.6994118,209730046,way
+"John H. Stroger, Jr. Hospital of Cook County",hospital,41.8727873,-87.6738758,209825215,way
+University of Illinois at Chicago Hospital,hospital,41.8696745,-87.6704532,209879623,way
+Kindered Lakeshore Hospital,hospital,41.9933965,-87.6559366,210395866,way
+Insight Hospital & Medical Center,hospital,41.846578,-87.6225104,210570610,way
+Saint Joseph Hospital,hospital,41.9345085,-87.6378063,211090327,way
+Louis A. Weiss Memorial Hospital,hospital,41.9671462,-87.6494891,211323371,way
+Shriners Hospitals for Children,hospital,41.9197285,-87.7933491,217925219,way
+Jackson Park Hospital,hospital,41.7569501,-87.5848067,222831338,way
+Holy Cross Hospital,hospital,41.7691196,-87.6922202,228663039,way
+University of Chicago Medicine Campus,hospital,41.7901902,-87.6036927,229438623,way
+Chicago Lakeshore Hospital,hospital,41.9703296,-87.6506917,231185703,way
+Saint Bernard Hospital,hospital,41.7786014,-87.6333894,231354242,way
+Rush University Medical Center,hospital,41.8734187,-87.6667076,239001073,way
+Mount Sinai Hospital,hospital,41.8618114,-87.6941992,242228765,way
+Provident Hospital of Cook County,hospital,41.8030644,-87.6137653,244945457,way
+Hartgrove Behavioral Health System,hospital,41.8663413,-87.7674657,384156599,way
+MacNeal Hospital,hospital,41.832102,-87.7921818,406072957,way
+Rush Oak Park Hospital,hospital,41.8784852,-87.8030832,406075701,way
+Community First Medical Center,hospital,41.9456753,-87.7679738,428373899,way
+Jesse Brown VA Medical Center,hospital,41.8702819,-87.6777937,537392585,way
+Chicago-Read Mental Health Center,hospital,41.9556661,-87.7999303,550956279,way
+West Suburban Medical Center,hospital,41.8916193,-87.7762713,551062630,way
+Garfield Park Behavioral Hospital,hospital,41.8906204,-87.7204294,551092377,way
+Schwab Rehabilitation Hospital,hospital,41.86206,-87.6951374,551141093,way
+Saint Anthony Hospital,hospital,41.855046,-87.6973844,551141105,way
+South Shore Hospital,hospital,41.7489755,-87.5692426,551155326,way
+Saint Elizabeth Hospital,hospital,41.9074616,-87.6853336,692254839,way
+La Rabida Children's Hospital,hospital,41.7773307,-87.5712893,1446950437,way
+Thorek Memorial Hospital,hospital,41.9545579,-87.6522935,14685787,relation
+Northwestern Memorial Hospital,hospital,41.8950816,-87.6219152,17607255,relation
+Advocate Illinois Masonic Hospital,hospital,41.9372095,-87.6515963,18239404,relation
+Humboldt Park Health,hospital,41.9013299,-87.6999191,18907604,relation
+Chicago Midway International Airport,aerodrome,41.7862383,-87.7522948,17896207,relation
+Forest View Fire Department,fire_station,41.8088479,-87.7979528,7262555849,node
+Chicago Fire Department Engine Company 1,fire_station,41.8762426,-87.6333587,74269533,way
+Chicago Fire Department Engine Company 98,fire_station,41.8970782,-87.6226403,143762100,way
+Chicago Fire Department Engine Company 60,fire_station,41.7954212,-87.5976265,144458837,way
+Chicago Fire Department Engine Company 5,fire_station,41.877188,-87.6443087,150857069,way
+Chicago Fire Department Engine Company 42,fire_station,41.8905725,-87.6300598,153291613,way
+Chicago Fire Academy,fire_station,41.8693636,-87.6417205,155559107,way
+Chicago Fire Department Survive Alive House,fire_station,41.8694355,-87.6410954,155559121,way
+Chicago Fire Department Engine Company 112,fire_station,41.9507657,-87.6783136,156494972,way
+Chicago Fire Department Engine Company 99,fire_station,41.8373236,-87.7283208,162292468,way
+Chicago Fire Department Engine Company 95,fire_station,41.883016,-87.7262981,162314599,way
+Chicago Fire Department Engine Company 76,fire_station,41.9132323,-87.7261046,162386447,way
+Chicago Fire Department Engine Company 91,fire_station,41.9325793,-87.7266561,162433688,way
+Chicago Fire Department Engine Company 69,fire_station,41.954138,-87.7336407,162446838,way
+Chicago Fire Department Engine Company 89,fire_station,41.9898589,-87.7280491,162472394,way
+Chicago Fire Department Engine Company 127,fire_station,41.7786107,-87.7525448,162498452,way
+Chicago Fire Department Engine Company 113,fire_station,41.8731854,-87.7554801,162512428,way
+Chicago Fire Department Engine Company 96,fire_station,41.8884111,-87.7674064,162514324,way
+Chicago Fire Department Engine Company 117,fire_station,41.8952739,-87.7487038,162520968,way
+Chicago Fire Department Engine Company 68,fire_station,41.9175879,-87.7580999,162547035,way
+Chicago Fire Department Engine Company 7,fire_station,41.9385245,-87.749937,162624577,way
+Chicago Fire Department Engine Company 108,fire_station,41.9646877,-87.7576004,162702301,way
+Chicago Fire Department Engine Company 79,fire_station,41.9981703,-87.7665359,162836508,way
+Chicago Fire Department Engine Company 32,fire_station,41.790744,-87.7814063,162849214,way
+Chicago Fire Department Engine Company 125,fire_station,41.9225994,-87.7875357,163043284,way
+Chicago Fire Department Engine Company 94,fire_station,41.9496992,-87.7715722,163162993,way
+Chicago Fire Department Engine Company 119,fire_station,41.9907531,-87.7985243,163331053,way
+Chicago Fire Department Engine Company 64,fire_station,41.7530451,-87.7215852,163526812,way
+Chicago Fire Department Engine Company 34,fire_station,41.8081384,-87.7251947,163667476,way
+Chicago Fire Department Engine Company 38,fire_station,41.8586287,-87.7243302,163773530,way
+Chicago Fire Department Engine Company 44,fire_station,41.88881,-87.7066483,163779320,way
+Chicago Fire Department Engine Company 124,fire_station,41.962068,-87.7086078,163944074,way
+Chicago Fire Department Engine Company 15,fire_station,41.7471426,-87.7026925,165098011,way
+Chicago Fire Department Engine Company 65,fire_station,41.8175389,-87.6996983,165150816,way
+Chicago Fire Department Engine Company 63,fire_station,41.7735655,-87.5899278,187916237,way
+Skokie Fire Department Station #16,fire_station,42.0160046,-87.7612736,194573970,way
+Niles Fire Department Station #3,fire_station,42.0146606,-87.7921188,201512184,way
+Chicago Fire Department Engine Company 107,fire_station,41.868108,-87.6956403,209357209,way
+Chicago Fire Department Engine Company 57,fire_station,41.9045657,-87.687445,209388181,way
+Chicago Fire Department Engine Company 43,fire_station,41.920933,-87.696461,209401152,way
+Chicago Fire Department Engine Company 56,fire_station,41.93791,-87.6838463,209453596,way
+Chicago Fire Department Engine Company 106,fire_station,41.9430726,-87.703233,209463961,way
+Chicago Fire Department Engine Company 110,fire_station,41.9761585,-87.6877574,209484037,way
+Chicago Fire Department Engine Company 71,fire_station,41.9951386,-87.6992481,209569695,way
+Chicago Fire Department Engine Company 129,fire_station,41.7460082,-87.663703,209633337,way
+Chicago Fire Department Engine Company 101,fire_station,41.768649,-87.6801297,209652928,way
+Chicago Fire Department Engine Company 116,fire_station,41.7851883,-87.6639872,209672515,way
+Chicago Fire Department Engine Company 123,fire_station,41.8008946,-87.6801401,209700474,way
+Chicago Fire Department Engine Company 49,fire_station,41.8137592,-87.6647051,209708306,way
+Chicago Fire Department Special Operations Section,fire_station,41.8218731,-87.6717804,209709735,way
+Chicago Fire Department Engine Company 39,fire_station,41.8334805,-87.6663567,209711089,way
+Chicago Fire Department Engine Company 23,fire_station,41.855218,-87.6756066,209782346,way
+Chicago Fire Department Engine Company 103,fire_station,41.8807265,-87.6641394,209828486,way
+Chicago Fire Department Engine Company 26,fire_station,41.881519,-87.6818716,209828487,way
+Chicago Fire Department Engine Company 30,fire_station,41.9023126,-87.6671317,209846174,way
+Chicago Fire Department  Engine Company 35,fire_station,41.916231,-87.6772235,209863934,way
+Chicago Fire Department Engine Company 70,fire_station,41.9916096,-87.6705501,209950678,way
+Chicago Fire Department Engine Company 102,fire_station,42.0149657,-87.6754007,209956863,way
+Chicago Fire Department Engine Company 73,fire_station,41.7368362,-87.6427222,210063056,way
+Chicago Fire Department Engine Company 88,fire_station,41.7858125,-87.714739,210150842,way
+Chicago Fire Department Engine Company 50,fire_station,41.803264,-87.6433023,210159117,way
+Chicago Fire Department Engine Company 29,fire_station,41.8305264,-87.6421555,210167418,way
+Chicago Fire Department Engine Company 28,fire_station,41.8455807,-87.6563362,210221626,way
+Chicago Fire Department Engine Company 18,fire_station,41.8645088,-87.6560346,210257144,way
+Chicago Fire Department EMS & Paramedic Office,fire_station,41.8644296,-87.6411388,210257875,way
+Chicago Fire Department Engine Company 14,fire_station,41.8959954,-87.6562525,210306940,way
+Chicago Fire Department Engine Company 4,fire_station,41.9039753,-87.6429423,210306941,way
+Chicago Fire Department Engine Company 22,fire_station,41.9179294,-87.6439844,210314886,way
+Chicago Fire Department Engine Company 55,fire_station,41.9320879,-87.6493387,210320783,way
+Chicago Fire Department Engine Company 78,fire_station,41.9492454,-87.6565258,210328543,way
+Chicago Fire Department Engine Company 83,fire_station,41.965643,-87.6599928,210381667,way
+Chicago Fire Department Engine Company 122,fire_station,41.7507918,-87.6209815,210500611,way
+Chicago Fire Department Engine Company 54,fire_station,41.7651501,-87.6379898,210514472,way
+Chicago Fire Department Engine Company 84,fire_station,41.7871009,-87.6263445,210520301,way
+Chicago Fire Department Engine Company 8,fire_station,41.8531498,-87.6323635,210537355,way
+Chicago Fire Department - Air Mask Services,fire_station,41.9018896,-87.6376798,210680506,way
+Chicago Fire Department Engine Company 47,fire_station,41.773238,-87.6138719,210873503,way
+Chicago Fire Department Engine Company 45,fire_station,41.8112113,-87.6069408,210913124,way
+Chicago Fire Department Engine Comnpany 19,fire_station,41.832292,-87.6178068,210962158,way
+Chicago Fire Department Engine Company 72,fire_station,41.7496622,-87.5835915,211120469,way
+Chicago Fire Department Engine Company 126,fire_station,41.7622749,-87.5635971,211317558,way
+Chicago Fire Department Engine Company 13,fire_station,41.8868794,-87.6200926,220467875,way
+Chicago Fire Department Engine Company 109,fire_station,41.8485407,-87.7047944,315399187,way
+Chicago Fire Department Engine Company 16,fire_station,41.8232211,-87.6243335,315575450,way
+Oak Park Fire Department Station #2,fire_station,41.8985642,-87.7807964,345087693,way
+Oak Park Fire Department Station #3,fire_station,41.8713272,-87.7886964,371404645,way
+Berwyn Fire Department Station #2,fire_station,41.8582121,-87.7893905,418264962,way
+Berwyn Fire Department Station #3,fire_station,41.842922,-87.7915319,424472229,way
+Bedford Park Fire Department Station #2,fire_station,41.770729,-87.7497796,425265085,way
+Central Stickney Fire Department,fire_station,41.8020777,-87.7585034,425279552,way
+Bedford Park Fire Department Station #3,fire_station,41.7588894,-87.7899522,426347832,way
+Evergreen Park Fire Department,fire_station,41.7299593,-87.7026192,440555191,way
+Cicero Fire Department Station #2,fire_station,41.8453708,-87.7568538,446039767,way
+Cicero Fire Department Station #1,fire_station,41.8581799,-87.7637403,446039768,way
+Cicero Fire Department Station #3,fire_station,41.8313871,-87.7592518,446039769,way
+Skokie Fire Department Station #17,fire_station,42.0296386,-87.7179354,446055689,way
+Lincolnwood Fire Department,fire_station,42.0074191,-87.734559,455246335,way
+Oak Park Fire Department Station #1,fire_station,41.8875747,-87.7923116,477503574,way
+Berwyn Fire Department Station #1,fire_station,41.8347722,-87.7850357,601285793,way
+Stickney Fire Department,fire_station,41.8140044,-87.7842168,897885986,way
+Chicago Fire Department Headquarters,fire_station,41.8301006,-87.6238606,951253544,way
+Burbank Fire Department,fire_station,41.7379871,-87.7681192,1162973778,way
+Burbank Fire Department,fire_station,41.748702,-87.7834873,1351668736,way
+Oak Park Police Department,police,41.8793127,-87.7788958,3549337313,node
+University of Chicago Police Department,police,41.7842623,-87.6047199,5243129567,node
+Metra Police Department,police,41.8753949,-87.6322279,7210820784,node
+Forest View Police Department,police,41.8088619,-87.7975612,7262555848,node
+Cook County Sheriff's Police Substation,police,41.8950734,-87.7574475,10233568510,node
+U.S. Postal Inspection Service,police,41.8737524,-87.6373635,10873822336,node
+Chicago Police Department,police,41.7889676,-87.7419422,12001509253,node
+Illinois Conservation Police,police,41.8875129,-87.6102107,13019363309,node
+Chicago Police Department 18th District,police,41.9031181,-87.6435763,107248003,way
+Chicago Police Department 17th District,police,41.9661266,-87.7282947,162470404,way
+Chicago Police Department 15th District Station,police,41.8798723,-87.76883,162519902,way
+Chicago Police Department 25th District Station,police,41.9179936,-87.7650968,162557205,way
+Chicago Police Department 16th District,police,41.974356,-87.7660672,162809709,way
+Chicago Police Department 10th District Station,police,41.8564176,-87.7083965,163764677,way
+Homan Square,police,41.8684508,-87.7093968,163773534,way
+Chicago Police Department 11th District,police,41.8732633,-87.7053681,163777978,way
+Chicago Police Department 12th District Station,police,41.8629019,-87.6572917,203172561,way
+Chicago Police Department 9th District,police,41.8369554,-87.6466039,203207231,way
+Skokie Police Department,police,42.0140144,-87.7626017,203684258,way
+Chicago Police Department 14th District,police,41.9212618,-87.6978141,209410027,way
+Chicago Police Department Area North Detective Bureau,police,41.9399687,-87.6894073,209453595,way
+Chicago Police Department 20th District,police,41.9800696,-87.6930626,209489854,way
+Cook County Sheriff's Central Warrants Division,police,41.8988208,-87.6720315,209851485,way
+Chicago Police Department 24th District,police,41.9995869,-87.6718142,209955734,way
+Chicago Police Department 6th District,police,41.7519495,-87.6444378,210087016,way
+Chicago Police Department 7th District,police,41.7797658,-87.660113,210133314,way
+Chicago Police Department 8th District,police,41.7791707,-87.7087243,210150068,way
+UIC Police Department,police,41.8644992,-87.6506662,210259450,way
+Chicago Police Department 2nd District,police,41.8011747,-87.6300923,210525606,way
+Chicago Police Department Headquarters,police,41.8306382,-87.6238784,210533142,way
+Cook County Sheriff's Police Substation,police,41.8672028,-87.6271487,210542636,way
+Chicago Police Department 1st District,police,41.8584977,-87.628024,210542860,way
+Chicago Police Department 3rd District,police,41.7668929,-87.6063085,210880349,way
+Chicago Marine Safety Station,police,41.8876465,-87.610205,210969054,way
+Chicago Police Department 19th District,police,41.9475379,-87.6512263,238492218,way
+Chicago Police Department Mounted Unit Horse Stables,police,41.7665466,-87.5648348,311111541,way
+Niles Police Department,police,42.0122576,-87.8021761,375193475,way
+Cicero Police Department,police,41.850747,-87.7473088,424471710,way
+Berwyn Police Department,police,41.8364499,-87.7853461,424472233,way
+Amtrak Police Department,police,41.8787437,-87.6389736,443259144,way
+Lincolnwood Police Department,police,42.0071281,-87.7342981,455246331,way
+Burbank Police Department,police,41.7559815,-87.7628088,1168798847,way
+Stickey Police Department,police,41.821134,-87.7869979,1280357029,way
+Lyola Campus Police,police,41.9944026,-87.658992,1466838045,way
+Cook County Sherrif's Office,police,41.8381791,-87.6962014,6532739,relation
+Fisk Street Generating Station,power_plant,41.8502924,-87.6550586,157657590,way
+UIC Co-Generation Facility,power_plant,41.8673917,-87.6524166,210259449,way
+power_plant facility,power_plant,41.8704155,-87.75998,211297964,way
+power_plant facility,power_plant,41.8752343,-87.6358495,746733960,way
+power_plant facility,power_plant,41.841322,-87.6294072,1018621512,way
+power_plant facility,power_plant,41.8398369,-87.6294088,1018621513,way
+University of Illinois Cogen Facility,power_plant,41.8676043,-87.6524202,1083639401,way
+power_plant facility,power_plant,41.8381082,-87.6994685,1119488627,way
+power_plant facility,power_plant,41.8547819,-87.6182642,1286946882,way
+FedEx Chicago Solar Facility,power_plant,41.753237,-87.7888772,15687585,relation
+"ESIL-PFCHICAGO 2, LLC",power_plant,41.8171395,-87.7352848,15695106,relation
+ESIL-PFCHICAGO 3,power_plant,41.8491528,-87.669536,17393788,relation
+ComEd-Chicago North,power_plant,41.9447247,-87.7006348,18859441,relation
+Cook County Courthouse,government,41.8839576,-87.6304433,368066005,node
+Forest View Village Hall,government,41.8088409,-87.7973606,368071783,node
+Chicago 13th Ward Office,government,41.7747419,-87.7229309,368074879,node
+35th Ward Service Office,government,41.9307926,-87.7093968,3554570910,node
+Cook County Municipal Court,government,41.8730641,-87.70555,3888695980,node
+Illinois Secretary of State Diversey Express,government,41.9321074,-87.743666,5623248680,node
+Cook County Circuit Court Branches 23 & 29,government,41.9178034,-87.7651184,6315479804,node
+FPDCC - North Branch Division Headquarters,government,42.0108306,-87.7932881,6346208172,node
+Mathew Bieszczat Volunteer Resource Center,government,41.9921511,-87.7685627,6346213199,node
+Illinois Appellate Court 1st District,government,41.8849636,-87.6329065,6361664120,node
+Skokie Chamber of Commerce,government,42.0264217,-87.7525572,6550738765,node
+U.S. Immigration and Customs Enforcement,government,41.8753081,-87.6313705,7428868293,node
+Social Security Administration,government,41.9690038,-87.7607541,7456883872,node
+Chicago 29th Ward Aldermanic Office,government,41.9093571,-87.7829295,7505548616,node
+Social Security Administration,government,41.9098112,-87.7543642,7505577054,node
+Chicago 37th Ward Aldermanic Office,government,41.8951468,-87.7492817,7505577082,node
+Chicago City Clerk South Side Satellite Office,government,41.797466,-87.7534244,7698484725,node
+Oak Park Township,government,41.8866013,-87.7946248,9215134807,node
+City of Chicago Service Center,government,41.8060727,-87.7054759,9215446475,node
+Cook County State's Attorney,government,41.8829237,-87.6297681,9364845174,node
+44th Ward Service Office,government,41.9407713,-87.6539539,9675505315,node
+U.S. Department of Homeland Security,government,41.8752118,-87.6312258,9816614999,node
+City of Chicago Service Center,government,41.9624498,-87.7276228,9899427660,node
+Chicago Passport Agency,government,41.8751781,-87.6313718,10284734632,node
+Railroad Retirement Board,government,41.89807,-87.6265635,10866585747,node
+Chicago Fire Prevention Bureau,government,41.8904595,-87.6298509,10873203094,node
+U.S. Citizenship and Immigration Services,government,41.874925,-87.6313812,10873822330,node
+IRS Taxpayer Assistance Center,government,41.8785323,-87.6302001,10873822331,node
+DEA Chicago Field Office,government,41.8783735,-87.630203,10873822332,node
+US Senator Dick Durbin,government,41.87838,-87.629627,10873822333,node
+U.S. Marshals Service Chicago Office,government,41.8791968,-87.6289699,10873822334,node
+US Senator Tammy Duckworth,government,41.878533,-87.6296233,10873822335,node
+Chicago Park District Headquarters,government,41.8057583,-87.6855038,10883038715,node
+Chicago Office of Police Accountability (COPA),government,41.8957975,-87.6679261,11279519569,node
+Illinois DHS Family Community Resource Center,government,41.910021,-87.6966631,11279857817,node
+Uptown Chamber of Commerce,government,41.9659961,-87.6576058,11638855143,node
+22nd Ward Office,government,41.8461065,-87.7126123,11766727670,node
+Cook County States Attorney,government,41.884128,-87.6299062,11961806427,node
+Illinois Secretary of State Index Department,government,41.8826421,-87.6275355,11969459569,node
+Illinois Secretary of State Bridgeview Facility,government,41.7348273,-87.803136,12195469840,node
+Illinois Secretary of State Chinatown Facility,government,41.8512825,-87.638664,12212751540,node
+North Center Chamber of Commerce,government,41.95557,-87.6799767,12229012042,node
+USCIS Application Support Center,government,41.7465201,-87.7423812,12285783796,node
+U.S. Army Corps of Engineers - Chicago District,government,41.878578,-87.6318352,12291664955,node
+Chicago 5th Ward Office,government,41.7663955,-87.5700563,12445561803,node
+Chicago Administration Hearings Department,government,41.8957922,-87.6387807,12586145550,node
+Chicago Office of the Inspector General,government,41.8959171,-87.6388238,12586145553,node
+Chicago Department of Finance,government,41.8957516,-87.6388929,12586145556,node
+Flagship Center Secretary of State Facility,government,41.8804411,-87.6317681,12817008812,node
+Social Security Administration,government,41.751387,-87.6073561,12817460499,node
+US Secret Service: Chicago Field Office,government,41.8761619,-87.64019,13018367524,node
+Chicago Immigration Court,government,41.8801622,-87.6256493,13018367525,node
+Chicago 47th Ward Office,government,41.9589188,-87.6819285,13165868401,node
+40th Ward Office,government,41.983838,-87.6898409,13673010601,node
+Office of the Attorney General - Chicago West Regional,government,41.8857787,-87.7261492,13695852185,node
+Skokie Village Hall,government,42.0259193,-87.7561013,26226917,way
+Kluczynski Federal Building,government,41.8784548,-87.6298984,64391487,way
+Federal Reserve Bank of Chicago,government,41.8784509,-87.6330275,64888136,way
+Richard J. Daley Center,government,41.8840956,-87.630206,64888389,way
+Dirksen Federal Building and US Courthouse,government,41.8788181,-87.628962,73693773,way
+Ralph H. Metcalfe Federal Building,government,41.8776965,-87.6304358,73696288,way
+Chicago City Hall,government,41.8838449,-87.6319527,108240964,way
+Cook County Building,government,41.8838487,-87.6313954,108240968,way
+George W. Dunne Cook County Administration Building,government,41.8828632,-87.6299532,124865434,way
+Michael A. Bilandic Building,government,41.8848158,-87.6329204,147013781,way
+government facility,government,41.8786197,-87.6283494,147613443,way
+Chicago Federal Building,government,41.875022,-87.6312456,148803802,way
+Harold Washington Social Security Center,government,41.8824444,-87.6434038,148910678,way
+Illinois Department of Human Services,government,41.8763453,-87.6406885,149372370,way
+U.S. Customs House,government,41.873977,-87.6400143,149730605,way
+Illinois Department of Human Services,government,41.8687353,-87.626366,151216584,way
+Cook County Domestic Violence Courthouse,government,41.87389,-87.641676,151571146,way
+Illinois DHS Family Community Resource Center,government,41.8946908,-87.7292176,162336091,way
+Dept. of Streets & Sanitation,government,41.9678051,-87.7431201,162462274,way
+Chicago Department of Aviation - Central Field Office,government,41.7894204,-87.7624282,162499268,way
+Chiccago 23rd Ward Streets And Sanitation Yard,government,41.7912216,-87.7624765,162501521,way
+Illinois Secretary of State Chicago West Facility,government,41.8707005,-87.7583707,162512954,way
+45th Ward Alderman James M. Gardiner,government,41.9675324,-87.7636252,162713388,way
+City Clerk of Chicago,government,41.9703686,-87.7644124,162713422,way
+Illinois Secretary of State Chicago North Facility,government,41.979883,-87.7586683,162806393,way
+Department of Streets & Sanitation Yard Office,government,41.9573855,-87.7906498,163293152,way
+National Archives & Records Administration,government,41.759168,-87.7247337,163529943,way
+CDOT Bureau Of Signs and Markings,government,41.8301822,-87.7175262,163703921,way
+Social Security Administration,government,41.8474007,-87.7251063,163767031,way
+Garfield Community Service Center,government,41.8804262,-87.706654,163779329,way
+Social Security Administration Office,government,41.9250027,-87.7096408,163896118,way
+Chicago 14th Ward Office,government,41.8012961,-87.6910936,165146409,way
+CHA Voucher Office,government,41.8559556,-87.7032511,165241273,way
+Cook County: George N. Leighton Criminal Courthouse,government,41.8439768,-87.6959505,165243633,way
+Criminal Court Administration Building,government,41.8432903,-87.696022,165244382,way
+Niles Village Hall,government,42.026047,-87.8015854,183247458,way
+CTA Transpotation Office,government,41.8518049,-87.7605492,194662928,way
+Niles Public Works,government,42.0120475,-87.798153,201512943,way
+Niles Park District Golf Maintenance Building,government,42.0194408,-87.7959845,202053765,way
+33rd Ward Sanitation Office,government,41.939032,-87.6927113,209457518,way
+Chicago 33rd Ward Office,government,41.953717,-87.7033436,209464699,way
+Social Security Administration,government,41.9684247,-87.6828649,209474029,way
+Illinois Department of Employment Services,government,41.9689614,-87.6908076,209475186,way
+Illinois DHS Family Community Resource Center,government,41.7870456,-87.6662552,209672545,way
+Social Security Administration,government,41.8097455,-87.6640046,209709572,way
+Chicago Bureau of Electricity,government,41.8497589,-87.6666055,209782343,way
+City Water Pipe Extension Department,government,41.8494224,-87.6668498,209782344,way
+Cook County Juvenile Court,government,41.8675993,-87.6816074,209809779,way
+Illinois DCFS Cook Central Office,government,41.8682889,-87.6767361,209809800,way
+Illinois Central Management Services,government,41.8673985,-87.6768876,209810624,way
+government facility,government,41.8710576,-87.6788655,209810643,way
+Federal Bureau of Investigation Chicago Field Office,government,41.8657673,-87.6798045,209810647,way
+Veteran Affairs Regional Office,government,41.8695893,-87.6796122,209810651,way
+West Side Center for Disease Control,government,41.8696993,-87.680605,209810687,way
+311 Call Center,government,41.8719054,-87.6798387,209811935,way
+government facility,government,41.8828806,-87.6783088,209829366,way
+Office of Emergency Management & Communications,government,41.881079,-87.6625608,209830386,way
+Goldblatt Bouilding,government,41.8957878,-87.6679271,209838467,way
+Chicago Department of Streets and Sanitation,government,41.9993132,-87.6742038,209953149,way
+Illinois Deparmnet of Child & Family Services Emerald City Office,government,41.7811155,-87.6432667,210132173,way
+Chicago Deptartment of Streets & Sanitation Garage,government,41.8246788,-87.6599081,210164390,way
+Chicago 11th Ward Office,government,41.8272624,-87.6457725,210171973,way
+Maxwell Street Market Permit Center,government,41.8717685,-87.6440286,210258749,way
+Chicago Housing Authority,government,41.9623685,-87.6579426,210381911,way
+Illinois Department of Transportation Emergency Traffic Patrol,government,41.8301685,-87.6381038,210534600,way
+State of Illinois Offices,government,41.856366,-87.6218617,210539628,way
+State of Illinois Offices,government,41.856093,-87.6218523,210539629,way
+Chicago Department of Streets and Sanitation,government,41.8583481,-87.6305396,210542530,way
+government facility,government,41.8784551,-87.6280703,210671542,way
+Metropolitan Water Reclamation District of Greater Chicago,government,41.8944225,-87.6250999,210679166,way
+Social Security Administration,government,41.7790719,-87.6063048,210905201,way
+Illinois Department of Human Services,government,41.7801872,-87.6022755,210906292,way
+Illinois Department of Employment Security,government,41.7657546,-87.5881994,211173925,way
+Oak Park Village Hall,government,41.8795271,-87.7788968,304320607,way
+Cicero Town Hall,government,41.85082,-87.7485013,424471707,way
+Berwyn City Hall,government,41.8430215,-87.7912907,424472234,way
+Lincolnwood Village Hall,government,42.0067318,-87.7338296,455246301,way
+Stickney Village Hall,government,41.8211628,-87.7866291,582556332,way
+Riverside School District 96,government,41.8307505,-87.8032623,624346603,way
+Burbank City Hall,government,41.7487086,-87.7832241,648603642,way
+Central Stickney Sanitary Distirct,government,41.8022838,-87.753099,648612314,way
+State of Illinois Department of Transportation Traffic System Center,government,41.872341,-87.7863039,1005840713,way
+Summit Village Hall,government,41.784229,-87.8046468,1228520245,way
+Chicago Department of Aviation,government,41.7926446,-87.7546034,1460137439,way
+Bronzeville Community Microgrid Substation,substation,41.8216582,-87.6106891,12360623313,node
+ComEd Devon 138kV Substation,substation,41.9993466,-87.7391249,24885939,way
+substation facility,substation,42.0249155,-87.7471819,24886001,way
+substation facility,substation,42.0196049,-87.7456313,24886129,way
+ComEd Niles 138kV Substation,substation,42.0218798,-87.7760115,24888067,way
+DC S32,substation,42.0222701,-87.7322783,24888435,way
+ComEd Skokie-Oakton Street 138kV Substation,substation,42.0234979,-87.7137814,24888554,way
+ComEd Northwest 138kV Substation,substation,41.9451859,-87.6969101,28084754,way
+substation facility,substation,41.9464513,-87.695485,28520698,way
+Clybourn Substation,substation,41.9138469,-87.6561285,35799001,way
+ComEd Bedford 138kV-345kV Substation,substation,41.7614054,-87.7660398,52007676,way
+CTA Franklin Substation,substation,41.8775845,-87.63486,74268298,way
+Hayford Substation,substation,41.7564078,-87.713398,95063618,way
+ComEd Taylor 138kV-345kV Substation,substation,41.8709016,-87.6365871,95357393,way
+Dearborn Street  Substation,substation,41.8837701,-87.629166,124865475,way
+Harper Avenue Substation,substation,41.7929448,-87.5886243,144479779,way
+CTA East Lake Substation,substation,41.8861136,-87.6273705,144846550,way
+LaSalle Substation,substation,41.8728501,-87.631379,148803815,way
+DeKoven Substation,substation,41.8689811,-87.6427867,148903010,way
+Plymouth Court Substation,substation,41.8752557,-87.6284038,149119621,way
+CTA State Substation,substation,41.8665498,-87.6269736,153273214,way
+Ontario Street Substation,substation,41.8930095,-87.6300277,158621273,way
+substation facility,substation,41.882194,-87.6447069,160719248,way
+CTA Keeler Substation,substation,41.7989644,-87.7278462,162165865,way
+CTA Midway Substation,substation,41.7876389,-87.7386434,162230895,way
+CTA Kedvale Substation,substation,41.954272,-87.7302337,162451414,way
+substation facility,substation,41.8699948,-87.7623599,162513333,way
+CTA Edmunds Substation,substation,41.9718314,-87.7659012,162716504,way
+School Street Substation,substation,41.9399228,-87.786474,163086993,way
+CTA Nagle Substation,substation,41.9826998,-87.7845152,163219745,way
+CTA Harding Substation,substation,41.8541669,-87.7238889,163765624,way
+CTA Kedzie Substation,substation,41.8738529,-87.7063528,163776950,way
+CTA Springfield Substation,substation,41.8856053,-87.7241042,163780999,way
+CTA Kimball Substation,substation,41.9663381,-87.7116943,163953564,way
+Transformer Building,substation,41.9862609,-87.719684,164021885,way
+CTA Kedzie Substation,substation,41.8045891,-87.7050913,165147423,way
+CTA Archer Substation,substation,41.8260833,-87.6863771,165233922,way
+CTA Douglas Substation,substation,41.8542675,-87.6852884,165241378,way
+CTA 54th Avenue Substation,substation,41.8540339,-87.760879,194662991,way
+CTA Hamlin Substation,substation,42.0230595,-87.7218412,197208029,way
+substation facility,substation,42.0243477,-87.7217119,197208030,way
+Jackson Substation,substation,41.8786606,-87.6226349,199560762,way
+Congress Substation,substation,41.8744004,-87.6909009,209359404,way
+CTA Western Substation,substation,41.8848725,-87.6861284,209381065,way
+Humboldt Park Substation,substation,41.9008469,-87.6873531,209388403,way
+CTA Sacramento Substation,substation,41.9254286,-87.7027961,209454153,way
+substation facility,substation,41.9660727,-87.6864126,209477942,way
+CTA Ravenswood Substation,substation,41.9660868,-87.6872898,209477965,way
+CTA 48th Place Substation,substation,41.8050817,-87.6816187,209701308,way
+CTA Ashland Substation,substation,41.8382666,-87.6652362,209711676,way
+CTA 17th Street Substation,substation,41.8584241,-87.6693202,209810391,way
+substation facility,substation,41.8718572,-87.6733859,209810590,way
+CTA Milwaukee Substation,substation,41.9013174,-87.6637493,209846697,way
+ComEd Diversey Substation,substation,41.930761,-87.6759467,209884169,way
+CTA Grace Substation,substation,41.9499577,-87.6745826,209909149,way
+CTA Calvary Substation,substation,42.0212559,-87.677016,210205660,way
+CTA Haymarket Substation,substation,41.8840722,-87.6438745,210268946,way
+Lakeview Substation,substation,41.9319526,-87.656639,210320778,way
+ComEd Clifton Substation,substation,41.9620028,-87.6577161,210381897,way
+CTA Clifton Substation,substation,41.9623706,-87.6573817,210383238,way
+CTA Broadway Substation,substation,41.9881928,-87.6596229,210392127,way
+CTA 79th Street Substation,substation,41.7511607,-87.6273229,210500615,way
+CTA Princeton Substation,substation,41.7801323,-87.6324053,210520370,way
+CTA 50th Street Substation,substation,41.8032497,-87.6324688,210524122,way
+Former CTA 42nd Street Substation,substation,41.8181415,-87.6251712,210527005,way
+CTA 35th Street Substation,substation,41.8303277,-87.6260937,210534626,way
+CTA 27th Street Substation,substation,41.8440126,-87.6302194,210537359,way
+CTA Canal Substation,substation,41.8523902,-87.6380957,210538007,way
+substation facility,substation,41.8629256,-87.6269346,210541837,way
+16th Street Substation,substation,41.8596053,-87.6211789,210542510,way
+CTA 18th Street Substation,substation,41.8586854,-87.6261869,210542548,way
+Jefferson Street Substation,substation,41.8708331,-87.6430491,210665969,way
+substation facility,substation,41.8709095,-87.6415718,210665974,way
+CTA Illinois Substation,substation,41.8911049,-87.6331915,210679603,way
+Kingsbury Substation,substation,41.8917733,-87.6384342,210679946,way
+CTA Prairie Substation,substation,41.7870769,-87.618623,210904309,way
+62nd Street Substation,substation,41.7824997,-87.6055406,210906244,way
+CTA Cottage Grove Substation,substation,41.7808098,-87.6031602,210906282,way
+University Substation,substation,41.8036342,-87.6069572,210910677,way
+CTA Calumet Substation,substation,41.8089261,-87.6185634,210915183,way
+Brookdale Substation,substation,41.7692495,-87.5919999,211173325,way
+Brookdale Substation,substation,41.7694398,-87.591961,211173326,way
+ComEd Garfield 345kV Substation,substation,41.7957576,-87.6281376,214219069,way
+ComEd Natoma Substation,substation,41.9252156,-87.7909031,217817024,way
+Crawford Substation,substation,41.827119,-87.7263238,229431907,way
+Crawford 138kV-345kV Substation,substation,41.8290712,-87.7268334,229431908,way
+ComEd Rockwell 138kV Substation,substation,41.8918634,-87.6922771,241490186,way
+substation facility,substation,41.8946751,-87.8047686,327700181,way
+CTA Ridgeland Substation,substation,41.8709841,-87.7832822,371408276,way
+ComEd 138kV-345kV West Loop Substation,substation,41.9011706,-87.6537938,403683305,way
+Cicero Substation,substation,41.8515342,-87.75461,449369701,way
+ComEd Galewood Substation,substation,41.9231687,-87.7857887,449369704,way
+Hanson Park Substation,substation,41.9164634,-87.7539034,449369705,way
+Portage Substation,substation,41.9482827,-87.7413103,449369706,way
+Washington Park Substation,substation,41.7820558,-87.6194003,449369707,way
+Ford City Substation,substation,41.7619861,-87.7333558,449872367,way
+ComEd Rosehill Substation,substation,41.9870802,-87.6741928,449872373,way
+substation facility,substation,41.8661304,-87.7403043,449889481,way
+Berwyn Substation,substation,41.8357649,-87.7846948,449889485,way
+Ridgeland Substation,substation,41.8113449,-87.7852812,449889487,way
+Hawthorne Substation,substation,41.8424857,-87.7480946,449950599,way
+Wallace Substation,substation,41.7466648,-87.639718,450081265,way
+substation facility,substation,41.7827184,-87.6261637,450130903,way
+Sayre Substation,substation,41.7530419,-87.7931478,489966009,way
+Clearing Substation,substation,41.7709502,-87.7763996,489994413,way
+ComEd Sawyer Substation,substation,41.8047583,-87.713162,489998639,way
+substation facility,substation,41.8116411,-87.7751985,490006936,way
+Oak Park Substation,substation,41.8876532,-87.7916606,490631449,way
+substation facility,substation,41.8263107,-87.7187925,628830987,way
+substation facility,substation,41.8438953,-87.6668122,714521524,way
+substation facility,substation,41.8288214,-87.7175307,750291221,way
+CTA Farwell Substation,substation,42.0063463,-87.6657592,822069758,way
+CTA Kolmar Substation,substation,41.8727229,-87.7394307,852583601,way
+substation facility,substation,41.735723,-87.5416091,924579624,way
+CTA Chicago/Austin Susbstation,substation,41.8949401,-87.7746206,953290008,way
+CTA Navy Pier Substation,substation,41.8928083,-87.6103672,953291457,way
+CTA Hermitage Substation,substation,41.8733938,-87.6698318,976195732,way
+Metra 51st Street Substation,substation,41.8039096,-87.5881512,984992673,way
+Metra 31st Street Substation,substation,41.8377616,-87.6108398,984992704,way
+Quarry TDC,substation,41.8473079,-87.6540466,992584924,way
+CTA Armitage Substation,substation,41.9175368,-87.6526194,1001298612,way
+ComEd Hyde Park Substation,substation,41.8033226,-87.6054961,1049138672,way
+substation facility,substation,41.8891806,-87.6619319,1060129955,way
+substation facility,substation,41.7560266,-87.5581493,1088262811,way
+Cheltenham Substation,substation,41.7503367,-87.5520432,1088651828,way
+substation facility,substation,42.0048969,-87.7410426,1128359365,way
+substation facility,substation,41.750473,-87.7612354,1159409277,way
+substation facility,substation,41.733525,-87.7621982,1164893104,way
+substation facility,substation,41.8253081,-87.6226939,1173851387,way
+substation facility,substation,41.7497732,-87.7422062,1174894271,way
+CTA Substation,substation,41.8830853,-87.670184,1180582798,way
+Irving Park Substation,substation,41.9537904,-87.7452864,1305986866,way
+substation facility,substation,41.9011871,-87.6474785,1316224936,way
+substation facility,substation,41.9622122,-87.6575346,1317255148,way
+substation facility,substation,41.8507717,-87.6564499,1323951497,way
+substation facility,substation,41.8500166,-87.6550759,1323951498,way
+CTA Lincoln Substation,substation,41.9281983,-87.653127,1330210707,way
+CTA Substation,substation,41.9268495,-87.6529378,1330210715,way
+substation facility,substation,41.9268647,-87.6529383,1330210716,way
+CTA Substation,substation,41.9214259,-87.652879,1331173053,way
+CTA Sedgwick Substation,substation,41.9103932,-87.6394353,1332831214,way
+CTA Hill Substation,substation,41.9018298,-87.6366374,1333101516,way
+CTA Chicago Substation,substation,41.8968472,-87.6361113,1333108781,way
+CTA Clark Substation,substation,41.9431927,-87.6536129,1333477689,way
+substation facility,substation,42.0224323,-87.6909725,1339872192,way
+substation facility,substation,41.8076021,-87.7924203,1356178484,way
+substation facility,substation,42.0053012,-87.7608173,1366707410,way
+substation facility,substation,41.8792443,-87.622597,1425661240,way
+substation facility,substation,42.0183911,-87.8023825,1432089511,way
+substation facility,substation,41.8105376,-87.7845135,1445275607,way
+substation facility,substation,41.736918,-87.6017949,1447193552,way
+substation facility,substation,41.9493346,-87.6537749,1451201023,way
+substation facility,substation,41.9187333,-87.6406248,1452413313,way
+substation facility,substation,42.0255142,-87.7204064,1462141386,way
+East 63rd Street CTA Substation,substation,41.7805943,-87.6184229,1462641671,way
+CTA Loomis Substation,substation,41.7787026,-87.6597003,1462666467,way
+substation facility,substation,42.0152236,-87.7220655,1468622660,way
+substation facility,substation,41.8228381,-87.719347,1475354753,way
+substation facility,substation,41.8498316,-87.6546646,1476168603,way
+substation facility,substation,41.8514919,-87.654426,1476168604,way
+substation facility,substation,41.8510172,-87.6539859,1476168605,way
+substation facility,substation,41.8487291,-87.6545794,1476168609,way
+substation facility,substation,41.8674865,-87.7554212,1485092327,way
+substation facility,substation,41.803967,-87.7630828,1490287179,way
+substation facility,substation,41.86756,-87.7551785,1492307028,way
+CTA Lotus Substation,substation,41.8870771,-87.7621006,1493475847,way
+Ohio Substation,substation,41.8920894,-87.6388688,18052331,relation
+ComEd Crosby 138kV Substation,substation,41.90232,-87.6461948,18055904,relation
+Terrence J. O'Brien Water Reclamation Plant,water_works,42.0209152,-87.7167502,24888793,way
+Wilson Avenue Crib,water_works,41.966014,-87.5912017,196810770,way
+Eugene Sawyer Water Purification Plant,water_works,41.7568294,-87.544345,200454108,way
+Four Mile Crib,water_works,41.8728013,-87.5455276,293082262,way
+Jardine Water Purification Plant,water_works,41.8945122,-87.6068611,427537797,way
+water_works facility,water_works,41.8519755,-87.7752,482082483,way
+William E. Dever Crib,water_works,41.9164817,-87.5721134,537484580,way
+Carter H. Harrison Crib,water_works,41.916285,-87.5727219,753810825,way
+Mayfair Pumping Station,water_works,41.9652446,-87.7493094,753810837,way
+Edward F. Dunne Crib,water_works,41.7856563,-87.5315337,753820101,way
+Lakeview Pumping Station,water_works,41.9650343,-87.649237,753820107,way
+Jefferson Pumping Station,water_works,41.9661774,-87.6857529,753821020,way
+Chicago Avenue Pumping Station,water_works,41.8971865,-87.6234237,753825655,way
+Stickney Water Reclamation Plant,water_works,41.8159811,-87.7655141,762359579,way
+water_works facility,water_works,41.7314375,-87.7003001,1083293707,way
+Cicero Water Works,water_works,41.8654516,-87.7547745,1147819726,way
+McCormick Place Water Tower,water_works,41.852711,-87.6181328,1286946858,way
+Webster Street Instream Aeration Station (MWRDGC),water_works,41.9212124,-87.6681875,1319135536,way
+North Branch Pumping Station,water_works,41.9693733,-87.7009494,1323561434,way
+Devon Avenue Instream Aeration Station (MWRDGC),water_works,41.9964058,-87.7103197,6005123,relation
+Western Avenue Pumping Station,water_works,41.8037063,-87.6825531,19943359,relation

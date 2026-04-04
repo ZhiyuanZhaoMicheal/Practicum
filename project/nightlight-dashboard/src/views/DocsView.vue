@@ -73,13 +73,13 @@ const sections = [
   {
     id: 'overview', num: '01',
     title: 'Project Overview',
-    summary: 'When hurricanes and earthquakes knock out the power grid, hospitals and airports rely on backup generators to keep the lights on. We use NASA satellite imagery that captures nighttime lights to detect which critical facilities actually maintained power during 15 major disasters across 17 U.S. states and Turkey (2016–2023). The key insight: areas near facilities with generators stay brighter than their surroundings — we call this the "Resilience Advantage."',
-    tags: ['VIIRS VNP46A2', '15 Events', 'Resilience Advantage'],
+    summary: 'When hurricanes and earthquakes knock out the power grid, hospitals and airports rely on backup generators to keep the lights on. We use NASA satellite imagery that captures nighttime lights to detect which critical facilities actually maintained power during 25 major disasters across 17 U.S. states and Turkey (2016–2023). The key insight: areas near facilities with generators stay brighter than their surroundings — we call this the "Resilience Advantage."',
+    tags: ['VIIRS VNP46A2', '25 Events', 'Resilience Advantage'],
   },
   {
     id: 'data', num: '02',
     title: 'Data Collection & Processing',
-    summary: 'No public database of backup generators exists — so we turn to satellite imagery to detect them indirectly. We combine daily nighttime light images from NASA\'s Black Marble (500m resolution), power outage records from EAGLE-I, and critical facility locations from OpenStreetMap. Each pixel is labeled by its proximity to facilities (buffer zones at 750m/1250m), creating a panel of ~33,700 pixels across 15 events. This section also covers cloud masking, GEE data acquisition, and data quality challenges.',
+    summary: 'No public database of backup generators exists — so we turn to satellite imagery to detect them indirectly. We combine daily nighttime light images from NASA\'s Black Marble (500m resolution), power outage records from EAGLE-I, and critical facility locations from OpenStreetMap. Each pixel is labeled by its proximity to facilities (buffer zones at 750m/1250m), creating a panel of ~33,700 pixels across 25 events. This section also covers cloud masking, GEE data acquisition, and data quality challenges.',
     tags: ['VNP46A2', 'EAGLE-I', 'OSM', 'Buffer Zones', 'Cloud QC'],
   },
   {
@@ -103,7 +103,7 @@ const sections = [
   {
     id: 'models', num: '06',
     title: 'Predictive Models',
-    summary: 'Four model variants (A–D) systematically test what drives prediction: Model A uses all features (AUC 0.969), Model B removes pre-NTL (AUC 0.970), Model C adds building footprints (AUC 0.968), and Model D uses pure NTL behavior only (AUC 0.700). The +0.269 AUC gap between A and D quantifies the spatial vs. behavioral signal. 15-fold LOEO cross-validation across 15 events confirms robust generalization.',
+    summary: 'Four model variants (A–D) systematically test what drives prediction: Model A uses all features (AUC 0.969), Model B removes pre-NTL (AUC 0.970), Model C adds building footprints (AUC 0.968), and Model D uses pure NTL behavior only (AUC 0.700). The +0.269 AUC gap between A and D quantifies the spatial vs. behavioral signal. 25-fold LOEO cross-validation across 25 events confirms robust generalization.',
     tags: ['RF + XGB', 'LOEO', '4 Model Variants', 'AUC 0.969'],
   },
   {

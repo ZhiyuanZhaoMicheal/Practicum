@@ -1,0 +1,103 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Watercrest Senior Living,hospital,33.7452201,-78.843208,9808902356,node
+Conway Medical Center,hospital,33.7850492,-79.0007228,51357838,way
+Grand Strand Regional Medical Center,hospital,33.7581283,-78.8206144,452337849,way
+South Strand Medical Center,hospital,33.6675603,-78.9710297,452337850,way
+hospital facility,hospital,33.5605293,-79.0427177,452337851,way
+McLeod Health Carolina Forest,hospital,33.7574914,-78.8525664,603137036,way
+Lighthouse Behavioral Health Hospital,hospital,33.7869136,-78.998022,693161764,way
+Grand Strand Regional Medical Center,hospital,33.7593263,-78.8188591,12577432,relation
+Grand Strand Airport,aerodrome,33.8112835,-78.7233511,368395105,node
+Myrtle Beach International Airport,aerodrome,33.6805182,-78.9297071,224517472,way
+Myrtle Beach Fire Department Station 2,fire_station,33.7268652,-78.8420957,367805327,node
+Horry County Fire / Rescue Station 23 University,fire_station,33.7743276,-79.0202835,367805349,node
+Conway Fire Department Station 1,fire_station,33.8396235,-79.0589911,367805520,node
+Murrells Inlet - Garden City Fire District Station 1 Headquarters,fire_station,33.569191,-79.0263608,367805546,node
+Horry County Fire / Rescue Station 7 Lake Arrowhead,fire_station,33.781505,-78.7705123,367805561,node
+Horry County Fire / Rescue Station 12 Nixonville,fire_station,33.8365115,-78.87727,367805669,node
+Horry County Fire / Rescue Station 4 Forestbrook,fire_station,33.725797,-78.954587,367805707,node
+North Myrtle Beach Fire / Rescue Station 5,fire_station,33.8068508,-78.7460343,367805729,node
+Horry County Fire / Rescue Station 43 Lees Landing,fire_station,33.8227956,-78.9579473,367805770,node
+Myrtle Beach Fire Department Station 4,fire_station,33.6727491,-78.9398572,367805814,node
+Myrtle Beach Fire Department Station 6,fire_station,33.7229563,-78.8645667,367805824,node
+Horry County Fire / Rescue Station 30 Myrtle Beach,fire_station,33.708126,-78.8807962,43805014,way
+Myrtle Beach Fire Department Station 1,fire_station,33.7012895,-78.8866543,43812978,way
+Horry County Fire / Rescue Station 39 Carolina Forest,fire_station,33.7593331,-78.9422741,45412523,way
+Horry County Fire / Rescue Station 1 Socastee,fire_station,33.6777387,-79.000082,292352741,way
+Station 77,fire_station,33.5768315,-78.9997504,451461208,way
+Horry County Fire Rescue - Carolina Bays Station - Station 45,fire_station,33.7645954,-78.8626521,608457927,way
+North Myrtle Beach Fire / Rescue Station 3,fire_station,33.8036963,-78.72144,632181338,way
+Murrells Inlet- Garden City Fire Station 79,fire_station,33.5818914,-79.0350996,632183148,way
+Horry County Fire & Rescue Station 20,fire_station,33.6328279,-79.0118088,632185806,way
+Station 23 – University,fire_station,33.7743222,-79.0202793,632186849,way
+Surfside Beach Fire Department,fire_station,33.6118614,-78.9799362,632187281,way
+fire_station facility,fire_station,33.6847175,-78.9251256,882198230,way
+Myrtle Beach Fire Department Station 5,fire_station,33.7546276,-78.8220618,1279110281,way
+Horry County Fire / Rescue Station 36 South Myrtle,fire_station,33.6726167,-78.9110051,1284260261,way
+Atlantic Beach Town Hall,government,33.805217,-78.7186003,367807462,node
+Conway City Hall,government,33.8349714,-79.0461319,367807463,node
+Myrtle Beach City Hall,government,33.6954656,-78.8817437,367807464,node
+Horry County Unemployment Office,government,33.7914856,-79.0028553,4475126606,node
+SC Department of Revenue,government,33.6706811,-78.9459131,5742156458,node
+Myrtle Beach City Services Building,government,33.6965977,-78.8831825,43812922,way
+government facility,government,33.8326045,-79.0476198,93122704,way
+Horry County Court House,government,33.8333242,-79.0484494,93122723,way
+Horry County Government & Justice Center,government,33.8319344,-79.0482768,93122733,way
+Surfside Beach Public Works,government,33.6380366,-79.010796,604000187,way
+Horry County South Strand Complex,government,33.634029,-79.0112435,632185805,way
+government facility,government,33.6120296,-78.9805357,794619219,way
+government facility,government,33.6118809,-78.9804703,794619220,way
+Surfside Beach Town Hall,government,33.6126214,-78.9803825,795001606,way
+Surfside Beach Government Building,government,33.6117847,-78.982943,798189881,way
+Myrtle Beach Procurement Office,government,33.7209212,-78.9041584,925628720,way
+substation facility,substation,33.7909482,-79.0008754,51318630,way
+substation facility,substation,33.7656371,-78.9620884,51754696,way
+substation facility,substation,33.8145069,-78.7788886,120310413,way
+substation facility,substation,33.7752251,-78.9156256,184856181,way
+substation facility,substation,33.7481549,-78.9897258,184856203,way
+Nixonville Substation,substation,33.8367745,-78.8762343,263276273,way
+Surfside Substation,substation,33.632145,-78.96321,264248055,way
+substation facility,substation,33.7318906,-79.0335191,265281672,way
+Socastee Substation,substation,33.6777957,-79.0014835,292352757,way
+substation facility,substation,33.7651555,-78.8326076,298893092,way
+Briarcliffe Substation,substation,33.7918362,-78.7716391,308481186,way
+Dunes Substation,substation,33.7554132,-78.8222645,308485976,way
+Jones Road Substation,substation,33.6971814,-79.0159655,322597396,way
+Konig Substation,substation,33.7091805,-78.9225467,322675712,way
+Caropines Substation,substation,33.60842,-78.9886019,342088844,way
+substation facility,substation,33.5596555,-79.0386012,342088846,way
+substation facility,substation,33.613473,-79.0195674,342148469,way
+Garden City Beach Substation,substation,33.5917631,-79.0112583,342148470,way
+Burgess Substation,substation,33.6301197,-79.0327133,357572070,way
+Burroughs Road Substation,substation,33.7730354,-78.870619,603522903,way
+Carolina Forest Substation,substation,33.7812511,-78.8869651,605922392,way
+Island Green Substation,substation,33.659242,-79.0520606,605922395,way
+Hurl Rock Substation,substation,33.6765167,-78.9074773,605922396,way
+Withers Swash Substation,substation,33.6923398,-78.8935884,605922397,way
+Cane Patch Substation,substation,33.7414119,-78.8400956,605922400,way
+Windy Hill Substation,substation,33.8015955,-78.7391643,605922401,way
+Burcale Road Substation,substation,33.721436,-78.943622,605953754,way
+Oil Engine Substation,substation,33.6955637,-78.8849819,670759533,way
+substation facility,substation,33.5410215,-79.0521772,977999391,way
+substation facility,substation,33.7767387,-78.7889194,1052120453,way
+McDowell Shortcut Substation,substation,33.5778883,-79.0371114,1078768295,way
+Collins Creek Substation,substation,33.5880725,-79.0499859,1078768297,way
+Queens Harbor Substation,substation,33.6374656,-78.9953361,1078768308,way
+Azalea Lakes Substation,substation,33.6586877,-78.9946804,1078768310,way
+substation facility,substation,33.620267,-78.9756814,1078768317,way
+substation facility,substation,33.6623954,-78.9475316,1078768320,way
+substation facility,substation,33.6883492,-78.9509876,1078768322,way
+Watsons Riverside Substation,substation,33.6870124,-78.9789599,1078768326,way
+substation facility,substation,33.7008383,-78.9118107,1078855173,way
+substation facility,substation,33.7109077,-78.8703771,1078855177,way
+substation facility,substation,33.7308127,-78.8529438,1078855180,way
+substation facility,substation,33.7191071,-78.896158,1078855182,way
+River Oaks Substation,substation,33.7488929,-78.8880706,1078855184,way
+East Conway Substation,substation,33.8303557,-79.0510616,1078964213,way
+substation facility,substation,33.7814056,-79.0258197,1078964216,way
+Pine Island Substation,substation,33.7271736,-78.9528528,14355880,relation
+Murrells Inlet Wastewater Treatment Plant,water_works,33.5628235,-79.0551572,342103448,way
+Myrtle Beach Water & Wastewater Treatment Plant,water_works,33.7236087,-78.898846,604000185,way
+George R Vereen Wastewater Treatment Plant,water_works,33.8412388,-78.7276259,1103558630,way
+Conway Wastewater Treatment Plant,water_works,33.819376,-79.0651003,1225439041,way
+Schwartz Wastewater Treatment Plant,water_works,33.6428485,-79.0435218,1393099186,way

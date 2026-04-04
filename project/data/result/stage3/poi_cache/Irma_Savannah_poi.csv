@@ -1,0 +1,345 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Mary Telfair Women's Hospital,hospital,32.0277204,-81.1002568,358705881,node
+Encompass Health Rehab Hospital Of Savannah,hospital,32.0075433,-81.0937438,10834480633,node
+Georgia Regional Hospital,hospital,31.9997438,-81.0823247,121858462,way
+Saint Joseph's Hospital,hospital,31.9855124,-81.1555743,491240458,way
+Coastal Harbor Treatment Center,hospital,32.0123409,-81.0955535,491243527,way
+Candler Hospital,hospital,32.0279999,-81.0998297,491501092,way
+Memorial University Medical Center,hospital,32.0301839,-81.0887807,491501094,way
+The Rehabilitation Institute,hospital,32.0289147,-81.0869484,638244099,way
+"Dr. Carlton R. Kemp Jr, MD",hospital,32.0282791,-81.0886047,638244100,way
+Memorial Health University Medical Center,hospital,32.0298823,-81.089059,638244101,way
+Medical Center Pharmacy,hospital,32.0312469,-81.0883519,638244102,way
+Curtis and Elizabeth Anderson Cancer Institute,hospital,32.030495,-81.0874829,638244103,way
+Coastal Harbor Behavioral Health,hospital,32.009726,-81.1018936,658249107,way
+Hodges Airpark,aerodrome,31.9862156,-81.248117,368997604,node
+Savannah/Hilton Head International Airport,aerodrome,32.1239987,-81.2030994,224524339,way
+Hunter Army Airfield,aerodrome,32.0091485,-81.1561102,4843744,relation
+Savannah Airport Police Department,police,32.137204,-81.209902,367914269,node
+police facility,police,32.1160186,-81.2501795,1311560016,node
+Savannah Metropolitan Police Department Headquarters,police,32.0754703,-81.088849,5178773358,node
+Chatham County Police Department - West Chatham Precinct,police,32.059908,-81.1667373,8743118913,node
+. Georgia Southern Police,police,31.9789798,-81.1596858,10586513581,node
+Savannah Police Street,police,32.0756061,-81.0887233,10709211503,node
+Savannah Police Department Training Unit (3401 Edwin St),police,32.0522186,-81.121394,12007329432,node
+U.S. Customs and Border Protection,police,32.0806229,-81.0910067,208324777,way
+Savannah Chatham Metropolitan Police,police,32.0843565,-81.1113553,638235651,way
+Chatham County Islands Precint formerly SCMPD Precinct,police,32.0355225,-81.0074985,916874413,way
+Georgia Ports Authority Police Department,police,32.1170297,-81.1483049,942705650,way
+"Federal Bureau Investigation, Savannah, GA",police,32.0697975,-81.156121,944307536,way
+Savannah Police Central Precinct,police,32.0614055,-81.1038726,985574766,way
+Elba Island LNG Facility,power_plant,32.0891557,-81.0040585,1028151404,way
+IKEA Savannah 490,power_plant,32.1767475,-81.1727324,1158873159,way
+Lift Station,power_plant,32.0696167,-81.0493407,1177861063,way
+Derst Baking Company,power_plant,32.0492896,-81.1229872,1184527054,way
+International Paper Savannah Mill Power Station,power_plant,32.1035112,-81.1255754,1192475666,way
+Chatham County Building Safety and Regulatory Services,government,32.005624,-81.099783,367914514,node
+Thunderbolt City Hall,government,32.0312775,-81.0508836,367914542,node
+Port Wentworth City Hall,government,32.1449255,-81.1631681,367914697,node
+Pete Liakakis Government Building,government,32.0779773,-81.0956798,3690645049,node
+Chatham County Juvenile Court,government,32.0613886,-81.166608,8743118912,node
+Chatham County Parks and Recreation,government,31.9927228,-81.0795595,8864434999,node
+Chatham County Snack Bar,government,32.0792613,-81.0972321,8864438034,node
+Chatham County Law Library,government,32.079469,-81.0972047,8864438036,node
+Chatham County,government,32.0790194,-81.097057,8864438037,node
+Tom Coleman Chatham County Judicial Courthouse,government,32.0793333,-81.0971368,8864438038,node
+Chatham County Information and Communication Services Department,government,32.0779162,-81.0957769,8864438039,node
+Chatham County Tax Commissioners Office,government,32.0779413,-81.0955114,8864438040,node
+Chatham County Board of Assessors,government,32.0780853,-81.0959001,8864438041,node
+FKA Commerce Building,government,32.0778916,-81.0956844,8864438042,node
+Chatham County Superior Court,government,32.0791848,-81.0971672,8864438044,node
+Chatham County Magistrate Court,government,32.0794077,-81.0970797,8864438046,node
+Chatham County Tax Assessor,government,32.0781109,-81.0958848,8864438047,node
+Chatham County Jury Services,government,32.0793043,-81.0972501,8864438048,node
+Chatham County Parking Garage,government,32.0797493,-81.0965973,8864438049,node
+Chatham County Manager Office,government,32.0776243,-81.0919171,8864443295,node
+Chatham County Government,government,32.0776158,-81.091613,8864443296,node
+Chatham County Department of Engineering,government,32.0775739,-81.0914698,8864443297,node
+Chatham County Clerk,government,32.0777553,-81.0918671,8864443298,node
+Chatham County Right of Way Acquisition,government,32.0776047,-81.0919296,8864443299,node
+Chatham County Finance Department,government,32.077622,-81.0913409,8864443300,node
+Chatham Emergency Management Agency,government,32.0774704,-81.0913633,8864443301,node
+Chatham County Human Resources,government,32.0778105,-81.0906239,8864443302,node
+Green Room,government,32.0776002,-81.0913138,8864443303,node
+Chatham County Commission,government,32.0777255,-81.0917099,8864443305,node
+Chatham County Internal Audit Department,government,32.0777464,-81.0917959,8864443306,node
+Chatham County Public Information Office,government,32.0775361,-81.0913274,8864443307,node
+Chatham County Occupational Safety,government,32.0776144,-81.0913119,8864443308,node
+Chatham County Project Management Department,government,32.0777011,-81.0916207,8864443310,node
+Metropolitan Planning Commission,government,32.0778571,-81.0903858,8864472670,node
+Customs,government,32.1376289,-81.2064103,8865917724,node
+City of Savannah - Emergency Operations Center,government,32.1501857,-81.1847108,9428301022,node
+Chatham County Recycle Center,government,32.004979,-81.0957427,9756161840,node
+Former Chatham County Juvenile Detention,government,32.005215,-81.0975554,9756161889,node
+Thunderbot Municipal Court,government,32.0312923,-81.0509417,10251446632,node
+Chatham County Fuel Depot,government,31.9911522,-81.0802665,10718773202,node
+Chatham County Public Works,government,31.9920908,-81.0810761,11527817644,node
+Chatham County Courthouse - Judicial Center,government,32.0792316,-81.0971324,130207481,way
+Tomochichi United States Court House,government,32.0781514,-81.0930966,130209213,way
+County Government Complex,government,32.0776035,-81.0916129,130209218,way
+Savannah City Hall,government,32.0811415,-81.091113,208324776,way
+Thunderbolt Town Hall,government,32.0312742,-81.0509516,636002740,way
+US Internal Revenue Service Savannah,government,32.0651625,-81.1615373,638213811,way
+Georgia Department of Labor,government,32.0254942,-81.1108863,658249268,way
+NOAA - Grays Reef National Marine Sanctuary Headquarters and Office,government,31.9833258,-81.0230333,826208262,way
+Chatham County Department of Public Works,government,31.9920341,-81.0810515,882135306,way
+Garden City City Hall,government,32.0636925,-81.205235,944677350,way
+Pooler Town Hall,government,32.116047,-81.2501658,962490651,way
+Eugene H. Gadsden Courthouse,government,32.0786747,-81.0973465,1172209517,way
+Georgia Ports Authority Credentialing Center,government,32.1168846,-81.1483597,1320384928,way
+Dean Forest Substation,substation,32.0835097,-81.1887223,121674829,way
+Grove Point Road Substation,substation,32.0019033,-81.2448582,121701187,way
+Little Ogeechee Substation,substation,32.0067859,-81.2531513,121701191,way
+White Bluff Substation,substation,31.9516501,-81.1442618,121702086,way
+Dutchtown Substation,substation,31.9812983,-81.2231838,121702088,way
+Grove Point Road Substation,substation,31.9496531,-81.1069409,121702516,way
+substation facility,substation,32.1477068,-81.1527608,121710556,way
+Magnolia Substation,substation,32.0226869,-81.0861807,121857248,way
+substation facility,substation,32.038048,-81.0629534,121885110,way
+Skidaway Substation,substation,31.9585503,-81.0309053,121886494,way
+Grange Road Substation,substation,32.1398377,-81.151139,121986364,way
+Simpson Lumber Substation,substation,32.1018724,-81.1271019,121986366,way
+Georgia Ports Authority Substation,substation,32.1390492,-81.1502657,121986367,way
+substation facility,substation,32.1037453,-81.1297391,121986373,way
+Kraft Substation,substation,32.1481353,-81.1459835,121986375,way
+Hutchinson Island Substation,substation,32.0944921,-81.0907083,121986959,way
+52nd Street Substation,substation,32.0469138,-81.1106939,122004701,way
+Deptford Substation,substation,32.0668279,-81.0483845,122007500,way
+Godley Tract Substation,substation,32.1621235,-81.2404416,193440181,way
+Riverside Substation,substation,32.0845586,-81.0970116,365721244,way
+Boulevard Substation,substation,32.0412308,-81.1444637,381797798,way
+substation facility,substation,32.0755448,-81.0821514,400317005,way
+Cherokee Substation,substation,32.1492085,-81.1801135,423218220,way
+substation facility,substation,32.1516264,-81.1738373,423222141,way
+substation facility,substation,31.9852337,-81.1582312,491240459,way
+substation facility,substation,32.1555121,-81.2318596,550757887,way
+Coleman Substation,substation,32.1077199,-81.226912,608270486,way
+substation facility,substation,32.0809761,-81.2143909,824447354,way
+substation facility,substation,32.2088617,-81.2082109,897598553,way
+substation facility,substation,31.9932785,-81.0819624,905020324,way
+Whitemarsh Island Substation,substation,32.0412635,-81.0012046,930764581,way
+substation facility,substation,32.1129212,-81.2485468,942698705,way
+substation facility,substation,32.1072427,-81.1476101,942705607,way
+Southern LNG Substation,substation,32.0865877,-81.0007611,943989070,way
+substation facility,substation,32.1540346,-81.1580745,963465881,way
+Bolton Street Substation,substation,32.0641747,-81.0889497,964045266,way
+substation facility,substation,32.0822031,-81.0318336,964045354,way
+Wilmington Island Substation,substation,32.0214359,-80.9704212,964216495,way
+Gulfstream Hangar Substation,substation,32.1208622,-81.2064371,1011846543,way
+Newell Recycling Substation,substation,32.1021911,-81.1749298,1011846546,way
+Georgia Power Substation,substation,32.0961204,-81.1463399,1011846547,way
+substation facility,substation,32.0952576,-81.1231676,1011846551,way
+Coleman Substation,substation,32.0973197,-81.116077,1011846565,way
+Herty Substation,substation,32.1113174,-81.1437453,1011846567,way
+Gulfstream 1 Substation,substation,32.1384585,-81.1966034,1011846572,way
+Gulfstream 3 Substation,substation,32.1367372,-81.1909653,1011846573,way
+Gulfstream 2 Substation,substation,32.1369518,-81.1932891,1011846575,way
+EMD Chemicals Substation,substation,32.2006307,-81.1712911,1015932076,way
+substation facility,substation,31.9941841,-81.132718,1027421685,way
+Oakdale Substation,substation,32.0114259,-81.0966287,1027488587,way
+Hunter Field Substation,substation,32.0312185,-81.1296314,1027488597,way
+Silk Hope Substation,substation,32.0354301,-81.215049,1027495919,way
+substation facility,substation,32.0866217,-81.0022024,1028151433,way
+Georgia Pacific Gypsum Substation,substation,32.0752195,-81.0544467,1028278736,way
+BASF Substation,substation,32.0709667,-81.0587784,1028278740,way
+President Street Sewage Substation,substation,32.0745734,-81.0697093,1028278742,way
+Imperial Sugar Substation,substation,32.1447631,-81.1464362,1028283109,way
+substation facility,substation,32.2040499,-81.1803602,1058253998,way
+substation facility,substation,32.1721955,-81.0240447,1062495969,way
+Savannah - Travis Field Water Pollution Control Plant,water_works,32.1133281,-81.1892294,367915598,node
+Savannah Wilshire - Windsor Water Pollution Control Plant,water_works,31.9904,-81.1498,367915777,node
+Garden City Lift Station #12,water_works,32.0982709,-81.1587369,11990237347,node
+Sewage Treatment Plant,water_works,32.1111572,-81.2639729,116361692,way
+water_works facility,water_works,32.1474584,-81.1884639,288252545,way
+City of Pooler Wastewater Treatment Plant,water_works,32.1100427,-81.2628185,347778980,way
+Georgetown Water Pollution Control Plant,water_works,31.98253,-81.2327603,417099178,way
+water_works facility,water_works,32.0240202,-81.236763,557419281,way
+Savannah - Georgetown Water Pollution Control Plant,water_works,32.0742417,-81.068708,620947041,way
+water_works facility,water_works,32.0311864,-81.1373236,705940122,way
+water_works facility,water_works,31.9790258,-81.0805366,899907512,way
+water_works facility,water_works,31.9843412,-81.1063573,899908137,way
+City of Savannah Lift Station,water_works,32.000984,-81.0637445,905184302,way
+water_works facility,water_works,31.9883356,-81.0472984,905571506,way
+water_works facility,water_works,32.0414748,-81.2389902,905882755,way
+water_works facility,water_works,32.0271855,-81.2281526,905888449,way
+water_works facility,water_works,32.0255622,-81.2130352,905888460,way
+water_works facility,water_works,32.0083834,-81.0319952,909186114,way
+water_works facility,water_works,32.0779025,-81.0806353,910661320,way
+Lift Station,water_works,32.0120081,-80.9589635,912755970,way
+Lift Station,water_works,32.0060918,-80.9688626,912871013,way
+Lift Station,water_works,32.029532,-80.995645,916875593,way
+water_works facility,water_works,31.9582349,-81.0251813,916935556,way
+Sanitary Sewer - Lift Station,water_works,32.0702435,-81.2344135,918494154,way
+Lift Station,water_works,32.0547435,-81.2343535,918496406,way
+Lift Station,water_works,31.9911689,-81.2078394,926213958,way
+Lift Station,water_works,32.1358363,-81.2381517,929680571,way
+Lift Station,water_works,32.0356669,-80.9994141,930762295,way
+Lift Station,water_works,32.0418778,-80.9999488,930764586,way
+Lift Station,water_works,32.0628754,-81.0345114,931156864,way
+water_works facility,water_works,32.0092246,-81.2267654,938440734,way
+Lift Station,water_works,32.014001,-81.2383964,938470684,way
+water_works facility,water_works,32.0248173,-81.2377266,938470695,way
+Lift Station,water_works,32.0494997,-81.2525438,938472141,way
+water_works facility,water_works,32.1826897,-81.2231738,942533226,way
+Lift Station,water_works,32.1862158,-81.2290701,942534559,way
+Lift Station,water_works,32.2253536,-81.1984205,942623334,way
+Lift Station,water_works,32.113961,-81.254015,942698699,way
+Lift Station,water_works,32.0438545,-81.0519318,943974973,way
+Lift Station,water_works,32.0519677,-81.0505509,943978735,way
+lift station,water_works,32.0117678,-80.9767669,944169366,way
+Lift Station,water_works,32.1651644,-81.2554258,944217100,way
+Lift Station,water_works,32.0936521,-81.2131847,946561549,way
+water_works facility,water_works,32.2008729,-81.1713642,947944293,way
+water_works facility,water_works,32.2058786,-81.17392,947944295,way
+lift station,water_works,32.0401812,-81.2235907,948565335,way
+lift station,water_works,32.0515306,-81.2452122,948680287,way
+Lift Station,water_works,32.171164,-81.222999,949384953,way
+water_works facility,water_works,32.041922,-80.9952479,951574999,way
+Lift Station,water_works,31.9851295,-81.1194252,952311208,way
+willow lakes lift station,water_works,32.0468453,-81.2564934,952500352,way
+lift station,water_works,32.0897128,-81.234889,952586966,way
+Lift Station,water_works,32.0178889,-81.0621144,952655673,way
+Nordic Lift Station,water_works,32.1652003,-81.2465069,952669231,way
+lift station,water_works,32.2101566,-81.1939139,956434123,way
+Lift Station,water_works,32.2159798,-81.1960718,956693422,way
+Lift Station,water_works,32.1624381,-81.210523,956694965,way
+Lift Station,water_works,32.1486119,-81.2230904,956694969,way
+Lift Station,water_works,32.0908907,-81.0935631,957794441,way
+Lift Station,water_works,32.1727785,-81.2415115,957847658,way
+Lift Station,water_works,32.0637787,-81.120209,957924529,way
+Easthaven Blvd Lift Station,water_works,32.0672045,-81.2562566,958486926,way
+Lift Station,water_works,32.0621301,-81.0514276,958886517,way
+Lift Station,water_works,32.1462301,-81.1540998,958949476,way
+Lift Station,water_works,32.1318674,-81.2626695,958949521,way
+Lift Station,water_works,32.1317096,-81.2625273,958949522,way
+Lift Station,water_works,32.0869754,-81.0808272,958959127,way
+Lift Station,water_works,32.0289399,-80.9631894,960062541,way
+Lift Station,water_works,32.0788335,-81.2501361,962258315,way
+Chatham County Hunter's Ridge Wastewater Treatment Plant and Application Spray Field,water_works,32.0814521,-81.2530635,962258319,way
+Lift Station,water_works,32.1415165,-81.1678591,962757445,way
+Lift Station,water_works,32.0672178,-81.1698795,963180058,way
+Lift Station,water_works,32.0679048,-81.1603479,963205777,way
+Garden City Lift Station #1,water_works,32.1174676,-81.1584874,964020059,way
+Lift Station,water_works,32.1055502,-81.1652881,964027034,way
+Garden City Pollution Control Plant,water_works,32.1173226,-81.169089,964030205,way
+Wastewater Treatment Plant,water_works,32.1131921,-81.1862415,964033361,way
+Garden City - Lift Station #11,water_works,32.0861613,-81.1654896,964033390,way
+lift station,water_works,32.0219845,-81.2121069,964154289,way
+Lift Station,water_works,32.0361541,-81.0842365,964262036,way
+Lift Station,water_works,32.197284,-81.1933542,965264169,way
+Lift Station,water_works,32.2077329,-81.20689,965352700,way
+Chatham County - Runaway Point Lift Station,water_works,32.0640133,-81.0411172,965733215,way
+lift station,water_works,32.0238328,-81.0621621,967912666,way
+Lift Station,water_works,32.0377022,-81.0567741,968237886,way
+Lift Station,water_works,32.0003654,-81.1563807,974064512,way
+Lift Station,water_works,32.0025914,-81.1446222,974064519,way
+Lift Station,water_works,32.1068963,-81.2382715,975977752,way
+Lift Station,water_works,32.1001714,-81.2187085,983905663,way
+Lift Station,water_works,32.0532107,-81.1249931,985113462,way
+Lift Station,water_works,32.0431423,-81.137608,985114808,way
+Lift Station,water_works,32.0333614,-81.14178,985122643,way
+Lift Station,water_works,32.0753388,-81.078782,993713631,way
+Lift Station,water_works,32.0302411,-81.0609352,996640394,way
+Lift Station,water_works,32.0135782,-81.0613676,997218355,way
+Lift Station,water_works,31.9611021,-81.2526232,1005560777,way
+water_works facility,water_works,32.0714996,-81.1887336,1008200234,way
+Lift Station,water_works,31.9896776,-80.9912122,1009620946,way
+Lift Station,water_works,32.0568909,-81.1191731,1009697078,way
+Lift Station,water_works,32.0483441,-81.0668857,1013703196,way
+City of Savannah Lift Station,water_works,32.0652763,-81.2138238,1013723951,way
+Lift Station,water_works,32.021784,-81.2191371,1018641164,way
+Lift Station,water_works,32.1358345,-81.2583433,1020580322,way
+Lift Station,water_works,31.9851357,-81.2325791,1022349664,way
+Long Point Lift Station,water_works,32.0330339,-81.0255586,1022549565,way
+Lift Station,water_works,32.0425625,-81.0555088,1022580991,way
+Lift Station,water_works,32.0424484,-81.1153812,1022585710,way
+Lift Station,water_works,32.0228833,-80.9954868,1022947880,way
+Lift Station,water_works,32.00538,-80.9768023,1027525161,way
+water_works facility,water_works,32.0864839,-81.1470432,1038099698,way
+Wastewater Treatment Plant,water_works,32.0869758,-81.1493798,1038099699,way
+City of Savannah Wastewater Treatment Plant,water_works,31.9896417,-81.1486304,1039216622,way
+Lift Station,water_works,31.9898063,-81.145357,1039216702,way
+Lift Station,water_works,32.0041334,-80.9976217,1042611721,way
+Lift Station,water_works,31.9608337,-81.2283029,1043256732,way
+Lift Station,water_works,32.0813713,-81.2620372,1046503924,way
+water_works facility,water_works,32.1132584,-81.1862241,1049356275,way
+Central Avenue Lift Station,water_works,31.9858355,-81.0698676,1049658356,way
+water_works facility,water_works,31.988749,-81.1471579,1049658368,way
+Walmart Lift Station,water_works,31.9855981,-81.0820035,1052649670,way
+water_works facility,water_works,32.1417127,-81.1497055,1055302149,way
+Lift Station,water_works,32.0940914,-81.0827005,1057645278,way
+Lift Station,water_works,32.0763901,-81.2236587,1058660957,way
+water_works facility,water_works,32.1376194,-81.2275821,1058661161,way
+Wastewater Lift Station,water_works,32.0110983,-81.2617048,1063242239,way
+Lift Station,water_works,31.9733033,-81.2360566,1063298509,way
+Lift Station,water_works,32.0387693,-81.05604,1063433973,way
+water_works facility,water_works,32.2052732,-81.1733958,1067994921,way
+water_works facility,water_works,32.0728599,-81.0591488,1073682625,way
+Lift Station,water_works,32.1534556,-81.2420042,1073736291,way
+Wastewater Lift Station,water_works,32.0400647,-81.2444299,1080312884,way
+Lift Station,water_works,32.0529557,-81.144259,1081157187,way
+Lift Station,water_works,32.0536623,-81.2125649,1081188010,way
+Lift Staion,water_works,32.055298,-81.2191138,1081188015,way
+water_works facility,water_works,32.0124074,-81.0866897,1081747490,way
+Wastewater Lift Station,water_works,31.9760042,-81.0581399,1082189600,way
+Lift Station,water_works,32.141732,-81.1553607,1082986398,way
+Nassau Woods Wastewater Treatment Plant,water_works,32.0782699,-81.1853609,1084512025,way
+Wastewater Lift Station,water_works,32.2185244,-81.1753183,1085177871,way
+Hopecrest Pump Station,water_works,31.9894423,-81.0553708,1155791474,way
+City of Savannah Lift Station,water_works,32.0648731,-81.2442165,1168245412,way
+Former Chatham County Sanitary Sewerage Lift Station Site,water_works,31.9759658,-81.0581542,1210045969,way
+Lift Station,water_works,31.9835148,-81.2121243,1211236846,way
+Lift Station,water_works,32.0607569,-81.2297727,1224634670,way
+Lift Station,water_works,32.0928938,-81.077348,1232493766,way
+Former City of Savannah Wastewater Treatment Plant,water_works,31.9891245,-80.9920405,1238603417,way
+Wastewater Lift Station,water_works,32.07494,-81.1103509,1250547632,way
+Lift Station,water_works,32.1040446,-81.24606,1255405193,way
+Lift Station,water_works,31.9769463,-81.2367967,1266808623,way
+Lift Station,water_works,31.9977835,-80.9904706,1268150006,way
+Wastewater Lift Station,water_works,32.1871816,-81.1828753,1275055389,way
+Lift Station,water_works,32.047506,-81.2519185,1278541663,way
+Garden City Lift Station #12,water_works,32.0982508,-81.1587458,1293437804,way
+Lift Station,water_works,32.0397532,-81.1534172,1298500124,way
+Lift Station,water_works,31.9780174,-81.2626169,1300281573,way
+Wastewater Lift Station,water_works,32.0545294,-81.2573648,1331692977,way
+Lift Station,water_works,32.1043023,-81.2627245,1350906072,way
+water_works facility,water_works,32.0633124,-81.2063877,1350968996,way
+water_works facility,water_works,32.047547,-81.1649123,1351561607,way
+Garden City Lift Station #4,water_works,32.0884894,-81.1748396,1354187305,way
+water_works facility,water_works,32.0675339,-81.1690546,1355000343,way
+lift station,water_works,32.1836087,-81.1764202,1360069565,way
+Lift Station,water_works,32.0908606,-81.1902581,1362846041,way
+Lift Station,water_works,32.0605377,-81.1593223,1365672147,way
+Lift Station,water_works,32.095302,-81.2564343,1368740823,way
+Lift Station,water_works,32.1547546,-81.2522171,1368744327,way
+Lift Station,water_works,32.2159798,-81.1960718,1368789372,way
+Lift Station,water_works,32.2280027,-81.2193001,1375636067,way
+Lift Station,water_works,32.1916234,-81.2029759,1375861502,way
+Lift Statioin,water_works,32.0705739,-81.1797898,1385785400,way
+Lift Station,water_works,32.2153859,-81.1850328,1395706149,way
+Wastewater Lift Station,water_works,32.109973,-81.2518847,1413020832,way
+Wastewater Lift Station,water_works,32.0880757,-81.2473215,1413480088,way
+Wastewater Lift Station,water_works,32.0752814,-81.2616576,1413526905,way
+lift station,water_works,32.2276408,-81.1833204,1414217700,way
+Sanitary Sewer Lift Station,water_works,32.0856677,-81.2594968,1418046254,way
+Lift Station,water_works,32.1031452,-81.2595961,1422005444,way
+Lift Station,water_works,32.0089537,-81.0735481,1423289272,way
+Lift Station,water_works,32.1493679,-81.1736473,1423923286,way
+Lift Station,water_works,32.1594166,-81.1629297,1424978179,way
+lift station,water_works,32.0672178,-81.1698795,1425107273,way
+Lift Station,water_works,32.0288956,-81.182475,1434348748,way
+Lift Station,water_works,32.0460998,-81.1216575,1436658268,way
+Lift Station,water_works,32.0716549,-81.1482825,1436710763,way
+Lift Station,water_works,32.0716758,-81.1537444,1436713596,way
+City of Savannah Lift Station # 25,water_works,32.0719059,-81.1262394,1443669766,way
+water_works facility,water_works,32.0629003,-81.0608235,1443724044,way
+City of Savannah Lift Station 53,water_works,32.0472984,-81.1269328,1445741034,way
+Lift Station,water_works,32.2114475,-81.2026561,1455539374,way
+lift station,water_works,32.1918028,-81.1770588,1456053736,way
+Wastewater Lift Station,water_works,32.1024559,-81.2523219,1466483088,way
+City of Savannah Lift Station Parcel LS #217,water_works,32.080818,-81.2397868,1467043686,way
+Lift Station,water_works,32.1282841,-81.1752696,1467081178,way
+Lift Station,water_works,32.0973583,-81.2078171,1468780155,way
+Lift Station,water_works,32.1870319,-81.1936858,1475543960,way
+Lift Station,water_works,32.0054466,-81.2558992,1480680152,way
+lift station,water_works,32.1981781,-81.2052746,1493282080,way

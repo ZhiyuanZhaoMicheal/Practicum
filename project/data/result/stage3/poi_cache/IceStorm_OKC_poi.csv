@@ -1,0 +1,229 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Oklahoma Center for Orthopaedic & Multi-Specialty Surgery,hospital,35.3852626,-97.5188434,5665100716,node
+OneCore Health,hospital,35.4203894,-97.5341561,5669431450,node
+Oakwood Springs,hospital,35.6023088,-97.5277574,10904116662,node
+Mercy Rehabilitation Hospital Oklahoma City,hospital,35.6107977,-97.6150409,10904129810,node
+Family Tree Chiropractic,hospital,35.5962191,-97.5679822,13621923638,node
+The Children's Hospital at OU Medical Center,hospital,35.4812864,-97.4974201,176910708,way
+OU Medical Center,hospital,35.4812706,-97.5011437,176911625,way
+Norman Regional Moore,hospital,35.3322695,-97.4933398,456781703,way
+Mercy Hospital Oklahoma City,hospital,35.6070562,-97.6003556,456851602,way
+Oklahoma Heart Hospital - North Campus,hospital,35.6072782,-97.5969791,456851603,way
+The Children’s Center Rehabilitation Hospital,hospital,35.5108798,-97.6337054,456883809,way
+INTEGRIS Baptist Medical Center,hospital,35.5294149,-97.5765507,456992433,way
+AllianceHealth Deaconess,hospital,35.5267377,-97.5846304,456992434,way
+Saint Anthony South,hospital,35.4071582,-97.5496732,457030485,way
+INTEGRIS Southwest Medical Center,hospital,35.4224407,-97.5323795,457058109,way
+Northwest Surgical Hospital,hospital,35.5640895,-97.5665693,466837211,way
+Oklahoma Heart Hospital - South Campus,hospital,35.3891765,-97.4265915,497383718,way
+Surgical Hospital of Oklahoma,hospital,35.4056331,-97.5094755,497524650,way
+INTEGRIS Mental Health Spencer,hospital,35.4958248,-97.3820729,497803326,way
+McBride Orthopedic Hospital,hospital,35.5680717,-97.5112084,584322708,way
+Lakeside Women's Hospital,hospital,35.584016,-97.5838186,593742472,way
+Community Hospital,hospital,35.3754468,-97.5710513,593753455,way
+Oklahoma Spine Hospital,hospital,35.6145065,-97.583191,593755379,way
+Cedar Ridge Hospital,hospital,35.5229086,-97.4119273,692957512,way
+Bethany Behavioral Health,hospital,35.4923505,-97.6484082,692959490,way
+INTEGRIS Community Hospital - Council Crossing,hospital,35.5651904,-97.6574772,723172227,way
+SSM Health St. Anthony Healthplex,hospital,35.3330581,-97.591097,735015120,way
+SSM Health St. Anthony Healthplex,hospital,35.6058669,-97.5328243,788064182,way
+hospital facility,hospital,35.4632572,-97.6358478,1053054930,way
+OCCHD Sequoyah Learning and Wellness Academy,hospital,35.5067669,-97.55504,1106083654,way
+Mercy Rehabilitation Hospital Oklahoma City South,hospital,35.3878386,-97.4115613,1173553998,way
+INTEGRIS Health Community Hospital - Del City,hospital,35.4501219,-97.4286687,1230952065,way
+Oklahoma City - County Health Department Campus North,hospital,35.5345788,-97.4666955,1262773878,way
+SSM Health Primary Care Moore,hospital,35.333795,-97.5063325,1444625383,way
+AllianceHealth Midwest,hospital,35.4672504,-97.3911309,7303934,relation
+SSM Health St. Anthony Hospital - Oklahoma City,hospital,35.4784211,-97.5238257,17958883,relation
+Wiley Post Airport,aerodrome,35.534144,-97.6455232,27851523,way
+Tinker Air Force Base,aerodrome,35.4121619,-97.3973012,523031498,way
+Will Rogers International Airport,aerodrome,35.3872547,-97.6033273,19728595,relation
+fire_station facility,fire_station,35.542594,-97.5980723,2365860751,node
+Nichols Hills Fire Department,fire_station,35.5373478,-97.5303529,4612331185,node
+Oklahoma City Fire Department Station 13,fire_station,35.3914971,-97.4054842,4654630828,node
+fire_station facility,fire_station,35.5425712,-97.5982878,11234901008,node
+fire_station facility,fire_station,35.5207931,-97.6226687,13030817245,node
+fire_station facility,fire_station,35.4718418,-97.5530159,132580099,way
+Oklahoma City Fire Station 10,fire_station,35.4863123,-97.5473377,133295505,way
+Oklahoma City Fire Station 14,fire_station,35.493482,-97.5714896,139894316,way
+Oklahoma City Fire Station 1,fire_station,35.4729075,-97.5264916,140048864,way
+Oklahoma City Firefighters Association Local 157,fire_station,35.4743076,-97.5158036,142434990,way
+Oklahoma City Fire Department Station 5,fire_station,35.4918585,-97.5136377,184518170,way
+Midwest City Fire Department Headquarters,fire_station,35.4645947,-97.3851212,247779709,way
+fire_station facility,fire_station,35.5220629,-97.5279799,268515758,way
+fire_station facility,fire_station,35.5220186,-97.5279146,268515766,way
+fire_station facility,fire_station,35.4845708,-97.6006974,284760596,way
+Oklahoma City Fire Station 17,fire_station,35.5217973,-97.5623872,318315905,way
+fire_station facility,fire_station,35.5593296,-97.6567131,323890067,way
+fire_station facility,fire_station,35.587568,-97.6211177,324886921,way
+fire_station facility,fire_station,35.5111656,-97.6370773,325081007,way
+fire_station facility,fire_station,35.3965277,-97.601514,404708988,way
+fire_station facility,fire_station,35.397029,-97.6019543,404708993,way
+OKC Fire Station No. 18,fire_station,35.5950558,-97.5652621,463976917,way
+fire_station facility,fire_station,35.4751442,-97.4059283,480501195,way
+fire_station facility,fire_station,35.4504691,-97.4368358,480944061,way
+fire_station facility,fire_station,35.4418625,-97.4083519,481137257,way
+fire_station facility,fire_station,35.4493601,-97.3745148,491011356,way
+Midwest City Fire Station,fire_station,35.4782679,-97.3757344,501247296,way
+Oklahoma City Fire Department Station 16,fire_station,35.3992714,-97.5033794,503072144,way
+fire_station facility,fire_station,35.3914885,-97.4054762,552425737,way
+Oklahoma City Fire Station 31,fire_station,35.4737023,-97.63617,591140375,way
+Oklahoma City Fire Station 6,fire_station,35.4674391,-97.5028375,788073844,way
+Bethany Municipal Court,police,35.5075172,-97.6313442,518945430,node
+Warr Acres Police Department,police,35.5153942,-97.6193405,859696403,node
+OU Police Department,police,35.4755149,-97.4954696,1044219447,node
+Oklahoma City Police Department,police,35.5941828,-97.5903815,1482830031,node
+Bricktown Police Substation,police,35.467526,-97.5074882,158957636,way
+Midwest City Police Department,police,35.4650095,-97.3861404,490625176,way
+Oklahoma City Police Deparment Santa Fe Division,police,35.3766757,-97.5113172,530917974,way
+Oklahoma City Police Department - Southwest Briefing Facility,police,35.4108011,-97.5842994,685513846,way
+Valley Brook Police Station,police,35.405994,-97.4830104,733333248,way
+Oklahoma City Police Department,police,35.4683303,-97.5252205,768572943,way
+Oklahoma Highway Patrol Troop YE,police,35.5798258,-97.6870851,963331943,way
+police facility,police,35.5126444,-97.4848335,1385679562,way
+police facility,police,35.5155483,-97.6193368,1417984107,way
+Frontier Power Plant,power_plant,35.4420673,-97.6482212,174360068,way
+Mustang power plant,power_plant,35.4738956,-97.6764903,636021170,way
+Tinker Power Plant,power_plant,35.4147181,-97.3731701,1070460937,way
+South Mustang Solar Farm,power_plant,35.4653964,-97.6748944,1070460994,way
+Warr Acres City Hall,government,35.5154309,-97.6105119,859696398,node
+Midwest City City Hall,government,35.4648726,-97.3868468,1559871000,node
+Oklahoma Governor's Mansion,government,35.4927285,-97.4975409,5035990132,node
+Oklahoma Department of Human Services,government,35.4945734,-97.4953104,9435131833,node
+Oklahoma Department of Emergency Management,government,35.4942662,-97.5041666,10681244833,node
+Express Tag Agency,government,35.5554571,-97.6338725,11380283383,node
+USCIS Oklahoma City Field Office,government,35.4237707,-97.5976263,11380706537,node
+USCIS Oklahoma City Application Support Center,government,35.4237838,-97.5975428,11380706538,node
+Internal Revenue Service,government,35.4673507,-97.5166972,12132962751,node
+Oklahoma Office of Management and Enterprise Services,government,35.4943242,-97.5042124,12781090175,node
+Greenway Plaza Tag Agency,government,35.3500328,-97.5314713,13058493316,node
+Downtown OKC Tag Agency,government,35.4683681,-97.5167131,13094904190,node
+Oklahoma State Capitol,government,35.4922059,-97.5033333,74042499,way
+Oklahoma Department of Transportation,government,35.4901679,-97.5075217,74042624,way
+Will Rogers State Office Building,government,35.4941253,-97.5041681,101821758,way
+Sequoyah State Office Building,government,35.4941187,-97.5024751,101821803,way
+Municipal Building (Oklahoma City City Hall),government,35.4689498,-97.5207335,113737412,way
+United States District Court for Western District of Oklahoma,government,35.4714294,-97.5171021,141694820,way
+Oklahoma County Courthouse,government,35.4693715,-97.518736,141957318,way
+Oliver Hodge Building,government,35.4956423,-97.5026264,180851043,way
+M.C. Connors Building,government,35.4956459,-97.5039971,180851046,way
+Jim Thorpe Memorial Building,government,35.4901846,-97.504777,180992734,way
+Oklahoma City County Healty Department,government,35.4937619,-97.4955301,184589877,way
+Oklahoma Judicial Center,government,35.4901762,-97.5017371,198864141,way
+Indian Health Service Oklahoma City Area Office,government,35.597386,-97.5004017,244441549,way
+Oklahoma City County Health Department,government,35.4066093,-97.5508556,255057938,way
+Federal Bureau of Investigation Oklahoma City Field Office,government,35.6112484,-97.577098,259298684,way
+Oklahoma City Federal Building,government,35.4746094,-97.5185552,277480679,way
+City of Nichols Hills Town Hall,government,35.5373801,-97.5304072,466437739,way
+government facility,government,35.5886138,-97.520004,469844801,way
+government facility,government,35.4659246,-97.3871073,490725905,way
+USCIS,government,35.4240194,-97.5976031,497675944,way
+US Customs and Border Protection - National Air Training Center,government,35.4149574,-97.5976049,500811609,way
+Denver N. Davison Building,government,35.4889348,-97.5062628,548245286,way
+Oklahoma Department of LIbraries,government,35.4876601,-97.5079077,548248675,way
+Del City City Hall,government,35.45024,-97.4473695,550513225,way
+Oklahoma City Municipal Court,government,35.4698337,-97.5251514,589140972,way
+Corporation Commission Lab,government,35.4929423,-97.5084755,625414122,way
+State of Oklahoma,government,35.492894,-97.5077872,625414124,way
+government facility,government,35.4924032,-97.5075791,625414127,way
+Office of Facilities Management,government,35.4922566,-97.5085648,625414129,way
+Department of Rehabilitation Services,government,35.4941071,-97.3978676,689577452,way
+South Oklahoma City Chamber of Commerce and Visitor Center,government,35.3921465,-97.5259844,724081065,way
+Valley Brook Court House,government,35.4059948,-97.4827735,733333249,way
+Oklahoma Department of Public Safety,government,35.3907494,-97.499436,867066407,way
+government facility,government,35.3385847,-97.4858628,946559973,way
+Oklahoma State Board of Pharmacy,government,35.4993056,-97.502577,991767524,way
+Association of County Commissioners,government,35.5227707,-97.5047745,1113502197,way
+Oklahoma State Medical Association,government,35.5228212,-97.5060188,1113502198,way
+Social Security Administration,government,35.3629357,-97.4918075,1225884830,way
+government facility,government,35.5154542,-97.6105143,1417984115,way
+government facility,government,35.464894,-97.3869057,7237219,relation
+Skyline Substation,substation,35.5953754,-97.5362611,99646776,way
+May Ave Substation,substation,35.4914943,-97.5661741,133405200,way
+substation facility,substation,35.4666047,-97.5451268,133923883,way
+Western Substation,substation,35.5011317,-97.5304046,136958017,way
+Southgate Substation,substation,35.3348515,-97.5171022,137372447,way
+Moore Substation,substation,35.3348745,-97.4774895,137372895,way
+Oklahoma Gas Electric,substation,35.4718806,-97.5283244,140050199,way
+Classen Substation,substation,35.4712481,-97.5282996,141693339,way
+Memorial Substation,substation,35.5955672,-97.5054444,159992497,way
+Elm Creek Substation,substation,35.3285106,-97.3700371,162035401,way
+substation facility,substation,35.3628661,-97.4418118,164944248,way
+Discovery Substation,substation,35.4049988,-97.4630676,165556230,way
+Foster Substation,substation,35.4074976,-97.4641608,165556231,way
+Oak Creek Substation,substation,35.3812203,-97.4762023,165556237,way
+substation facility,substation,35.3199615,-97.6190272,170347831,way
+General Motors Substation,substation,35.3980645,-97.3950761,170930726,way
+Wild Mary Substation,substation,35.3815179,-97.4399237,170930729,way
+Barnes Substation,substation,35.4200549,-97.3524862,170934705,way
+Tinker #3 Substation,substation,35.4248351,-97.4228157,171422152,way
+Sunnylane Substation,substation,35.4295324,-97.4407688,171422158,way
+Santa Fe Substation,substation,35.3846882,-97.5139296,171453616,way
+Westmoore Substation,substation,35.3452862,-97.546963,171791435,way
+Penn Substation,substation,35.385135,-97.5489565,171925092,way
+West Moore Substation,substation,35.3265229,-97.548479,172892047,way
+Mustang Substation,substation,35.4681817,-97.6770026,174342509,way
+substation facility,substation,35.4685835,-97.674881,174342513,way
+Dayton Substation,substation,35.4428313,-97.6491855,174342524,way
+Woodlawn Substation,substation,35.5167346,-97.6548352,174342527,way
+Council Substation,substation,35.4688041,-97.6537814,174343664,way
+Meridian Substation,substation,35.4792818,-97.5984854,174343666,way
+West Oaks Substation,substation,35.4793283,-97.63273,174343667,way
+McArthur Substation,substation,35.4274748,-97.6194639,174360077,way
+Will Rogers Substation,substation,35.3985179,-97.6267784,174360079,way
+Hobby Lobby Substation,substation,35.4346952,-97.6302504,174360102,way
+SW 64th Substation,substation,35.4028037,-97.5747633,174381632,way
+SE 15th Substation,substation,35.4489955,-97.3497851,174693653,way
+Reno Substation,substation,35.4624292,-97.4405622,174704415,way
+NE 30th Substation,substation,35.5008852,-97.4468138,174708398,way
+substation facility,substation,35.5329265,-97.4850747,174709245,way
+substation facility,substation,35.5314926,-97.4815373,174709247,way
+Lighting Creek Substation,substation,35.4449122,-97.5117241,175344851,way
+Glendale Substation,substation,35.4491045,-97.3854974,175354452,way
+substation facility,substation,35.4694662,-97.6749901,175659714,way
+substation facility,substation,35.5517399,-97.6684101,175659729,way
+SW 5th Substation,substation,35.4597237,-97.5669034,175946406,way
+Trosper Substation,substation,35.4410958,-97.4603166,176026598,way
+New Dominion Substation,substation,35.4286355,-97.4629952,176026601,way
+Stonewall Substation,substation,35.5045793,-97.4915258,176676766,way
+SW 22nd Substation,substation,35.4429006,-97.5486552,178419484,way
+Kentucky Substation,substation,35.4117271,-97.5439478,178423711,way
+substation facility,substation,35.4947825,-97.5070522,278931981,way
+Belle Island Substation,substation,35.5286215,-97.5386388,335517858,way
+WR Airport Substation,substation,35.409871,-97.5747006,338853912,way
+Bethany Substation,substation,35.5107439,-97.6144848,426246192,way
+Richards Substation,substation,35.5955091,-97.6822317,448905202,way
+Tennessee Substation,substation,35.57975,-97.5518674,464252198,way
+Quail Creek Substation,substation,35.5900197,-97.5857706,464559074,way
+Silver Lake Substation,substation,35.5734152,-97.6391685,464559084,way
+Kelly Avenue Substation,substation,35.5705191,-97.4966156,464752422,way
+Tulsa Substation,substation,35.5272958,-97.5929286,464963129,way
+Hefner Substation,substation,35.544868,-97.5927883,464963131,way
+Tinker #5 Substation,substation,35.4212959,-97.3750652,494220323,way
+Washington Park Substation,substation,35.4701414,-97.48976,496779254,way
+Sage Substation,substation,35.4137413,-97.5173233,500167293,way
+NE 10th Substation,substation,35.4790469,-97.3831789,524523810,way
+Air Dept. Substation,substation,35.4022507,-97.4043788,691454766,way
+Tinker #4 Substation,substation,35.4291896,-97.3945266,734549774,way
+Tinker #6 Substation,substation,35.414423,-97.3728809,734549775,way
+OU Med. Center Substation,substation,35.4780095,-97.4901609,997815601,way
+38th Substation,substation,35.5095585,-97.5638804,1060905437,way
+Lakeside Substation,substation,35.5503521,-97.6106908,1124515882,way
+Wilshire Substation,substation,35.5524777,-97.5729774,1124515885,way
+Braden Park Substation,substation,35.6066688,-97.6392228,1124575094,way
+Acorn Substation,substation,35.5597716,-97.4060453,1124650469,way
+Bryant Substation,substation,35.5758759,-97.462689,1124650476,way
+84th Street Substation,substation,35.5561264,-97.5281392,1124652232,way
+Park Place Substation,substation,35.47975,-97.5112323,1124801805,way
+Chemetron,substation,35.4324843,-97.6407458,1124817611,way
+Crosstown Substation,substation,35.4548668,-97.5095468,1124983121,way
+substation facility,substation,35.4439635,-97.6497735,1330724219,way
+substation facility,substation,35.4685021,-97.6457086,1365833091,way
+substation facility,substation,35.3347267,-97.6064419,1434203610,way
+substation facility,substation,35.4291899,-97.3940737,1492875360,way
+substation facility,substation,35.4422568,-97.6475432,1492875361,way
+Oklahoma City Water Works,water_works,35.4727963,-97.5522624,132580083,way
+Del City Water Treatment Plant,water_works,35.4215631,-97.4343862,497519192,way
+water_works facility,water_works,35.5214121,-97.6584137,497958661,way
+water_works facility,water_works,35.3276957,-97.3668212,734549766,way
+water_works facility,water_works,35.5850332,-97.59386,7087639,relation

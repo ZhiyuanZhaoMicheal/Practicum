@@ -1,0 +1,4892 @@
+[
+  {
+    "name": "Chicago Midway International Airport",
+    "type": "airport",
+    "coords": [
+      -87.75229,
+      41.78624
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Forest View Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.79795,
+      41.80885
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 1",
+    "type": "fire",
+    "coords": [
+      -87.63336,
+      41.87624
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 98",
+    "type": "fire",
+    "coords": [
+      -87.62264,
+      41.89708
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 60",
+    "type": "fire",
+    "coords": [
+      -87.59763,
+      41.79542
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 5",
+    "type": "fire",
+    "coords": [
+      -87.64431,
+      41.87719
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 42",
+    "type": "fire",
+    "coords": [
+      -87.63006,
+      41.89057
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Academy",
+    "type": "fire",
+    "coords": [
+      -87.64172,
+      41.86936
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Survive Alive House",
+    "type": "fire",
+    "coords": [
+      -87.6411,
+      41.86944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 112",
+    "type": "fire",
+    "coords": [
+      -87.67831,
+      41.95077
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 99",
+    "type": "fire",
+    "coords": [
+      -87.72832,
+      41.83732
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 95",
+    "type": "fire",
+    "coords": [
+      -87.7263,
+      41.88302
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 76",
+    "type": "fire",
+    "coords": [
+      -87.7261,
+      41.91323
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 91",
+    "type": "fire",
+    "coords": [
+      -87.72666,
+      41.93258
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 69",
+    "type": "fire",
+    "coords": [
+      -87.73364,
+      41.95414
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 89",
+    "type": "fire",
+    "coords": [
+      -87.72805,
+      41.98986
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 127",
+    "type": "fire",
+    "coords": [
+      -87.75254,
+      41.77861
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 113",
+    "type": "fire",
+    "coords": [
+      -87.75548,
+      41.87319
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 96",
+    "type": "fire",
+    "coords": [
+      -87.76741,
+      41.88841
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 117",
+    "type": "fire",
+    "coords": [
+      -87.7487,
+      41.89527
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 68",
+    "type": "fire",
+    "coords": [
+      -87.7581,
+      41.91759
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 7",
+    "type": "fire",
+    "coords": [
+      -87.74994,
+      41.93852
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 108",
+    "type": "fire",
+    "coords": [
+      -87.7576,
+      41.96469
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 79",
+    "type": "fire",
+    "coords": [
+      -87.76654,
+      41.99817
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 32",
+    "type": "fire",
+    "coords": [
+      -87.78141,
+      41.79074
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 125",
+    "type": "fire",
+    "coords": [
+      -87.78754,
+      41.9226
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 94",
+    "type": "fire",
+    "coords": [
+      -87.77157,
+      41.9497
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 119",
+    "type": "fire",
+    "coords": [
+      -87.79852,
+      41.99075
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 64",
+    "type": "fire",
+    "coords": [
+      -87.72159,
+      41.75305
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 34",
+    "type": "fire",
+    "coords": [
+      -87.72519,
+      41.80814
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 38",
+    "type": "fire",
+    "coords": [
+      -87.72433,
+      41.85863
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 44",
+    "type": "fire",
+    "coords": [
+      -87.70665,
+      41.88881
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 124",
+    "type": "fire",
+    "coords": [
+      -87.70861,
+      41.96207
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 15",
+    "type": "fire",
+    "coords": [
+      -87.70269,
+      41.74714
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 65",
+    "type": "fire",
+    "coords": [
+      -87.6997,
+      41.81754
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 63",
+    "type": "fire",
+    "coords": [
+      -87.58993,
+      41.77357
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Skokie Fire Department Station #16",
+    "type": "fire",
+    "coords": [
+      -87.76127,
+      42.016
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Niles Fire Department Station #3",
+    "type": "fire",
+    "coords": [
+      -87.79212,
+      42.01466
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 107",
+    "type": "fire",
+    "coords": [
+      -87.69564,
+      41.86811
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 57",
+    "type": "fire",
+    "coords": [
+      -87.68744,
+      41.90457
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 43",
+    "type": "fire",
+    "coords": [
+      -87.69646,
+      41.92093
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 56",
+    "type": "fire",
+    "coords": [
+      -87.68385,
+      41.93791
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 106",
+    "type": "fire",
+    "coords": [
+      -87.70323,
+      41.94307
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 110",
+    "type": "fire",
+    "coords": [
+      -87.68776,
+      41.97616
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 71",
+    "type": "fire",
+    "coords": [
+      -87.69925,
+      41.99514
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 129",
+    "type": "fire",
+    "coords": [
+      -87.6637,
+      41.74601
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 101",
+    "type": "fire",
+    "coords": [
+      -87.68013,
+      41.76865
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 116",
+    "type": "fire",
+    "coords": [
+      -87.66399,
+      41.78519
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 123",
+    "type": "fire",
+    "coords": [
+      -87.68014,
+      41.80089
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 49",
+    "type": "fire",
+    "coords": [
+      -87.66471,
+      41.81376
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Special Operations Section",
+    "type": "fire",
+    "coords": [
+      -87.67178,
+      41.82187
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 39",
+    "type": "fire",
+    "coords": [
+      -87.66636,
+      41.83348
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 23",
+    "type": "fire",
+    "coords": [
+      -87.67561,
+      41.85522
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 103",
+    "type": "fire",
+    "coords": [
+      -87.66414,
+      41.88073
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 26",
+    "type": "fire",
+    "coords": [
+      -87.68187,
+      41.88152
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 30",
+    "type": "fire",
+    "coords": [
+      -87.66713,
+      41.90231
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department  Engine Company 35",
+    "type": "fire",
+    "coords": [
+      -87.67722,
+      41.91623
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 70",
+    "type": "fire",
+    "coords": [
+      -87.67055,
+      41.99161
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 102",
+    "type": "fire",
+    "coords": [
+      -87.6754,
+      42.01497
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 73",
+    "type": "fire",
+    "coords": [
+      -87.64272,
+      41.73684
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 88",
+    "type": "fire",
+    "coords": [
+      -87.71474,
+      41.78581
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 50",
+    "type": "fire",
+    "coords": [
+      -87.6433,
+      41.80326
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 29",
+    "type": "fire",
+    "coords": [
+      -87.64216,
+      41.83053
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 28",
+    "type": "fire",
+    "coords": [
+      -87.65634,
+      41.84558
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 18",
+    "type": "fire",
+    "coords": [
+      -87.65603,
+      41.86451
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department EMS & Paramedic Office",
+    "type": "fire",
+    "coords": [
+      -87.64114,
+      41.86443
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 14",
+    "type": "fire",
+    "coords": [
+      -87.65625,
+      41.896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 4",
+    "type": "fire",
+    "coords": [
+      -87.64294,
+      41.90398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 22",
+    "type": "fire",
+    "coords": [
+      -87.64398,
+      41.91793
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 55",
+    "type": "fire",
+    "coords": [
+      -87.64934,
+      41.93209
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 78",
+    "type": "fire",
+    "coords": [
+      -87.65653,
+      41.94925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 83",
+    "type": "fire",
+    "coords": [
+      -87.65999,
+      41.96564
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 122",
+    "type": "fire",
+    "coords": [
+      -87.62098,
+      41.75079
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 54",
+    "type": "fire",
+    "coords": [
+      -87.63799,
+      41.76515
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 84",
+    "type": "fire",
+    "coords": [
+      -87.62634,
+      41.7871
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 8",
+    "type": "fire",
+    "coords": [
+      -87.63236,
+      41.85315
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department - Air Mask Services",
+    "type": "fire",
+    "coords": [
+      -87.63768,
+      41.90189
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 47",
+    "type": "fire",
+    "coords": [
+      -87.61387,
+      41.77324
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 45",
+    "type": "fire",
+    "coords": [
+      -87.60694,
+      41.81121
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Comnpany 19",
+    "type": "fire",
+    "coords": [
+      -87.61781,
+      41.83229
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 72",
+    "type": "fire",
+    "coords": [
+      -87.58359,
+      41.74966
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 126",
+    "type": "fire",
+    "coords": [
+      -87.5636,
+      41.76227
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 13",
+    "type": "fire",
+    "coords": [
+      -87.62009,
+      41.88688
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 109",
+    "type": "fire",
+    "coords": [
+      -87.70479,
+      41.84854
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Engine Company 16",
+    "type": "fire",
+    "coords": [
+      -87.62433,
+      41.82322
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Fire Department Station #2",
+    "type": "fire",
+    "coords": [
+      -87.7808,
+      41.89856
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Fire Department Station #3",
+    "type": "fire",
+    "coords": [
+      -87.7887,
+      41.87133
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Berwyn Fire Department Station #2",
+    "type": "fire",
+    "coords": [
+      -87.78939,
+      41.85821
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Berwyn Fire Department Station #3",
+    "type": "fire",
+    "coords": [
+      -87.79153,
+      41.84292
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bedford Park Fire Department Station #2",
+    "type": "fire",
+    "coords": [
+      -87.74978,
+      41.77073
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Central Stickney Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.7585,
+      41.80208
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bedford Park Fire Department Station #3",
+    "type": "fire",
+    "coords": [
+      -87.78995,
+      41.75889
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Evergreen Park Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.70262,
+      41.72996
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Fire Department Station #2",
+    "type": "fire",
+    "coords": [
+      -87.75685,
+      41.84537
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Fire Department Station #1",
+    "type": "fire",
+    "coords": [
+      -87.76374,
+      41.85818
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Fire Department Station #3",
+    "type": "fire",
+    "coords": [
+      -87.75925,
+      41.83139
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Skokie Fire Department Station #17",
+    "type": "fire",
+    "coords": [
+      -87.71794,
+      42.02964
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lincolnwood Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.73456,
+      42.00742
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Fire Department Station #1",
+    "type": "fire",
+    "coords": [
+      -87.79231,
+      41.88757
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Berwyn Fire Department Station #1",
+    "type": "fire",
+    "coords": [
+      -87.78504,
+      41.83477
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stickney Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.78422,
+      41.814
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Department Headquarters",
+    "type": "fire",
+    "coords": [
+      -87.62386,
+      41.8301
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burbank Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.76812,
+      41.73799
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burbank Fire Department",
+    "type": "fire",
+    "coords": [
+      -87.78349,
+      41.7487
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Police Department",
+    "type": "police",
+    "coords": [
+      -87.7789,
+      41.87931
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University of Chicago Police Department",
+    "type": "police",
+    "coords": [
+      -87.60472,
+      41.78426
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metra Police Department",
+    "type": "police",
+    "coords": [
+      -87.63223,
+      41.87539
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Forest View Police Department",
+    "type": "police",
+    "coords": [
+      -87.79756,
+      41.80886
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Sheriff's Police Substation",
+    "type": "police",
+    "coords": [
+      -87.75745,
+      41.89507
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Postal Inspection Service",
+    "type": "police",
+    "coords": [
+      -87.63736,
+      41.87375
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department",
+    "type": "police",
+    "coords": [
+      -87.74194,
+      41.78897
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Conservation Police",
+    "type": "police",
+    "coords": [
+      -87.61021,
+      41.88751
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 18th District",
+    "type": "police",
+    "coords": [
+      -87.64358,
+      41.90312
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 17th District",
+    "type": "police",
+    "coords": [
+      -87.72829,
+      41.96613
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 15th District Station",
+    "type": "police",
+    "coords": [
+      -87.76883,
+      41.87987
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 25th District Station",
+    "type": "police",
+    "coords": [
+      -87.7651,
+      41.91799
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 16th District",
+    "type": "police",
+    "coords": [
+      -87.76607,
+      41.97436
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 10th District Station",
+    "type": "police",
+    "coords": [
+      -87.7084,
+      41.85642
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Homan Square",
+    "type": "police",
+    "coords": [
+      -87.7094,
+      41.86845
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 11th District",
+    "type": "police",
+    "coords": [
+      -87.70537,
+      41.87326
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 12th District Station",
+    "type": "police",
+    "coords": [
+      -87.65729,
+      41.8629
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 9th District",
+    "type": "police",
+    "coords": [
+      -87.6466,
+      41.83696
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Skokie Police Department",
+    "type": "police",
+    "coords": [
+      -87.7626,
+      42.01401
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 14th District",
+    "type": "police",
+    "coords": [
+      -87.69781,
+      41.92126
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department Area North Detective Bureau",
+    "type": "police",
+    "coords": [
+      -87.68941,
+      41.93997
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 20th District",
+    "type": "police",
+    "coords": [
+      -87.69306,
+      41.98007
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Sheriff's Central Warrants Division",
+    "type": "police",
+    "coords": [
+      -87.67203,
+      41.89882
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 24th District",
+    "type": "police",
+    "coords": [
+      -87.67181,
+      41.99959
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 6th District",
+    "type": "police",
+    "coords": [
+      -87.64444,
+      41.75195
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 7th District",
+    "type": "police",
+    "coords": [
+      -87.66011,
+      41.77977
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 8th District",
+    "type": "police",
+    "coords": [
+      -87.70872,
+      41.77917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "UIC Police Department",
+    "type": "police",
+    "coords": [
+      -87.65067,
+      41.8645
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 2nd District",
+    "type": "police",
+    "coords": [
+      -87.63009,
+      41.80117
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department Headquarters",
+    "type": "police",
+    "coords": [
+      -87.62388,
+      41.83064
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Sheriff's Police Substation",
+    "type": "police",
+    "coords": [
+      -87.62715,
+      41.8672
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 1st District",
+    "type": "police",
+    "coords": [
+      -87.62802,
+      41.8585
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 3rd District",
+    "type": "police",
+    "coords": [
+      -87.60631,
+      41.76689
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Marine Safety Station",
+    "type": "police",
+    "coords": [
+      -87.6102,
+      41.88765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department 19th District",
+    "type": "police",
+    "coords": [
+      -87.65123,
+      41.94754
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Police Department Mounted Unit Horse Stables",
+    "type": "police",
+    "coords": [
+      -87.56483,
+      41.76655
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Niles Police Department",
+    "type": "police",
+    "coords": [
+      -87.80218,
+      42.01226
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Police Department",
+    "type": "police",
+    "coords": [
+      -87.74731,
+      41.85075
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Berwyn Police Department",
+    "type": "police",
+    "coords": [
+      -87.78535,
+      41.83645
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Amtrak Police Department",
+    "type": "police",
+    "coords": [
+      -87.63897,
+      41.87874
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lincolnwood Police Department",
+    "type": "police",
+    "coords": [
+      -87.7343,
+      42.00713
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burbank Police Department",
+    "type": "police",
+    "coords": [
+      -87.76281,
+      41.75598
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stickey Police Department",
+    "type": "police",
+    "coords": [
+      -87.787,
+      41.82113
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lyola Campus Police",
+    "type": "police",
+    "coords": [
+      -87.65899,
+      41.9944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Sherrif's Office",
+    "type": "police",
+    "coords": [
+      -87.6962,
+      41.83818
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fisk Street Generating Station",
+    "type": "power",
+    "coords": [
+      -87.65506,
+      41.85029
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "UIC Co-Generation Facility",
+    "type": "power",
+    "coords": [
+      -87.65242,
+      41.86739
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -87.75998,
+      41.87042
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -87.63585,
+      41.87523
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -87.62941,
+      41.84132
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -87.62941,
+      41.83984
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University of Illinois Cogen Facility",
+    "type": "power",
+    "coords": [
+      -87.65242,
+      41.8676
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -87.69947,
+      41.83811
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -87.61826,
+      41.85478
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FedEx Chicago Solar Facility",
+    "type": "power",
+    "coords": [
+      -87.78888,
+      41.75324
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ESIL-PFCHICAGO 2, LLC",
+    "type": "power",
+    "coords": [
+      -87.73528,
+      41.81714
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ESIL-PFCHICAGO 3",
+    "type": "power",
+    "coords": [
+      -87.66954,
+      41.84915
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd-Chicago North",
+    "type": "power",
+    "coords": [
+      -87.70063,
+      41.94472
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Courthouse",
+    "type": "government",
+    "coords": [
+      -87.63044,
+      41.88396
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Forest View Village Hall",
+    "type": "government",
+    "coords": [
+      -87.79736,
+      41.80884
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 13th Ward Office",
+    "type": "government",
+    "coords": [
+      -87.72293,
+      41.77474
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "35th Ward Service Office",
+    "type": "government",
+    "coords": [
+      -87.7094,
+      41.93079
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Municipal Court",
+    "type": "government",
+    "coords": [
+      -87.70555,
+      41.87306
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Secretary of State Diversey Express",
+    "type": "government",
+    "coords": [
+      -87.74367,
+      41.93211
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Circuit Court Branches 23 & 29",
+    "type": "government",
+    "coords": [
+      -87.76512,
+      41.9178
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FPDCC - North Branch Division Headquarters",
+    "type": "government",
+    "coords": [
+      -87.79329,
+      42.01083
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mathew Bieszczat Volunteer Resource Center",
+    "type": "government",
+    "coords": [
+      -87.76856,
+      41.99215
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Appellate Court 1st District",
+    "type": "government",
+    "coords": [
+      -87.63291,
+      41.88496
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Skokie Chamber of Commerce",
+    "type": "government",
+    "coords": [
+      -87.75256,
+      42.02642
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Immigration and Customs Enforcement",
+    "type": "government",
+    "coords": [
+      -87.63137,
+      41.87531
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.76075,
+      41.969
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 29th Ward Aldermanic Office",
+    "type": "government",
+    "coords": [
+      -87.78293,
+      41.90936
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.75436,
+      41.90981
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 37th Ward Aldermanic Office",
+    "type": "government",
+    "coords": [
+      -87.74928,
+      41.89515
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago City Clerk South Side Satellite Office",
+    "type": "government",
+    "coords": [
+      -87.75342,
+      41.79747
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Township",
+    "type": "government",
+    "coords": [
+      -87.79462,
+      41.8866
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Chicago Service Center",
+    "type": "government",
+    "coords": [
+      -87.70548,
+      41.80607
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County State's Attorney",
+    "type": "government",
+    "coords": [
+      -87.62977,
+      41.88292
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "44th Ward Service Office",
+    "type": "government",
+    "coords": [
+      -87.65395,
+      41.94077
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Department of Homeland Security",
+    "type": "government",
+    "coords": [
+      -87.63123,
+      41.87521
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Chicago Service Center",
+    "type": "government",
+    "coords": [
+      -87.72762,
+      41.96245
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Passport Agency",
+    "type": "government",
+    "coords": [
+      -87.63137,
+      41.87518
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Railroad Retirement Board",
+    "type": "government",
+    "coords": [
+      -87.62656,
+      41.89807
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Fire Prevention Bureau",
+    "type": "government",
+    "coords": [
+      -87.62985,
+      41.89046
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Citizenship and Immigration Services",
+    "type": "government",
+    "coords": [
+      -87.63138,
+      41.87492
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IRS Taxpayer Assistance Center",
+    "type": "government",
+    "coords": [
+      -87.6302,
+      41.87853
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DEA Chicago Field Office",
+    "type": "government",
+    "coords": [
+      -87.6302,
+      41.87837
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Senator Dick Durbin",
+    "type": "government",
+    "coords": [
+      -87.62963,
+      41.87838
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Marshals Service Chicago Office",
+    "type": "government",
+    "coords": [
+      -87.62897,
+      41.8792
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Senator Tammy Duckworth",
+    "type": "government",
+    "coords": [
+      -87.62962,
+      41.87853
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Park District Headquarters",
+    "type": "government",
+    "coords": [
+      -87.6855,
+      41.80576
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Office of Police Accountability (COPA)",
+    "type": "government",
+    "coords": [
+      -87.66793,
+      41.8958
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois DHS Family Community Resource Center",
+    "type": "government",
+    "coords": [
+      -87.69666,
+      41.91002
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Uptown Chamber of Commerce",
+    "type": "government",
+    "coords": [
+      -87.65761,
+      41.966
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "22nd Ward Office",
+    "type": "government",
+    "coords": [
+      -87.71261,
+      41.84611
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County States Attorney",
+    "type": "government",
+    "coords": [
+      -87.62991,
+      41.88413
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Secretary of State Index Department",
+    "type": "government",
+    "coords": [
+      -87.62754,
+      41.88264
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Secretary of State Bridgeview Facility",
+    "type": "government",
+    "coords": [
+      -87.80314,
+      41.73483
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Secretary of State Chinatown Facility",
+    "type": "government",
+    "coords": [
+      -87.63866,
+      41.85128
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Center Chamber of Commerce",
+    "type": "government",
+    "coords": [
+      -87.67998,
+      41.95557
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USCIS Application Support Center",
+    "type": "government",
+    "coords": [
+      -87.74238,
+      41.74652
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Army Corps of Engineers - Chicago District",
+    "type": "government",
+    "coords": [
+      -87.63184,
+      41.87858
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 5th Ward Office",
+    "type": "government",
+    "coords": [
+      -87.57006,
+      41.7664
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Administration Hearings Department",
+    "type": "government",
+    "coords": [
+      -87.63878,
+      41.89579
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Office of the Inspector General",
+    "type": "government",
+    "coords": [
+      -87.63882,
+      41.89592
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Department of Finance",
+    "type": "government",
+    "coords": [
+      -87.63889,
+      41.89575
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Flagship Center Secretary of State Facility",
+    "type": "government",
+    "coords": [
+      -87.63177,
+      41.88044
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.60736,
+      41.75139
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Secret Service: Chicago Field Office",
+    "type": "government",
+    "coords": [
+      -87.64019,
+      41.87616
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Immigration Court",
+    "type": "government",
+    "coords": [
+      -87.62565,
+      41.88016
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 47th Ward Office",
+    "type": "government",
+    "coords": [
+      -87.68193,
+      41.95892
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "40th Ward Office",
+    "type": "government",
+    "coords": [
+      -87.68984,
+      41.98384
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Office of the Attorney General - Chicago West Regional",
+    "type": "government",
+    "coords": [
+      -87.72615,
+      41.88578
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Skokie Village Hall",
+    "type": "government",
+    "coords": [
+      -87.7561,
+      42.02592
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kluczynski Federal Building",
+    "type": "government",
+    "coords": [
+      -87.6299,
+      41.87845
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Reserve Bank of Chicago",
+    "type": "government",
+    "coords": [
+      -87.63303,
+      41.87845
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Richard J. Daley Center",
+    "type": "government",
+    "coords": [
+      -87.63021,
+      41.8841
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dirksen Federal Building and US Courthouse",
+    "type": "government",
+    "coords": [
+      -87.62896,
+      41.87882
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ralph H. Metcalfe Federal Building",
+    "type": "government",
+    "coords": [
+      -87.63044,
+      41.8777
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago City Hall",
+    "type": "government",
+    "coords": [
+      -87.63195,
+      41.88384
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Building",
+    "type": "government",
+    "coords": [
+      -87.6314,
+      41.88385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "George W. Dunne Cook County Administration Building",
+    "type": "government",
+    "coords": [
+      -87.62995,
+      41.88286
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Michael A. Bilandic Building",
+    "type": "government",
+    "coords": [
+      -87.63292,
+      41.88482
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -87.62835,
+      41.87862
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Federal Building",
+    "type": "government",
+    "coords": [
+      -87.63125,
+      41.87502
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harold Washington Social Security Center",
+    "type": "government",
+    "coords": [
+      -87.6434,
+      41.88244
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Department of Human Services",
+    "type": "government",
+    "coords": [
+      -87.64069,
+      41.87635
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Customs House",
+    "type": "government",
+    "coords": [
+      -87.64001,
+      41.87398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Department of Human Services",
+    "type": "government",
+    "coords": [
+      -87.62637,
+      41.86874
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Domestic Violence Courthouse",
+    "type": "government",
+    "coords": [
+      -87.64168,
+      41.87389
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois DHS Family Community Resource Center",
+    "type": "government",
+    "coords": [
+      -87.72922,
+      41.89469
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dept. of Streets & Sanitation",
+    "type": "government",
+    "coords": [
+      -87.74312,
+      41.96781
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Department of Aviation - Central Field Office",
+    "type": "government",
+    "coords": [
+      -87.76243,
+      41.78942
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chiccago 23rd Ward Streets And Sanitation Yard",
+    "type": "government",
+    "coords": [
+      -87.76248,
+      41.79122
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Secretary of State Chicago West Facility",
+    "type": "government",
+    "coords": [
+      -87.75837,
+      41.8707
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "45th Ward Alderman James M. Gardiner",
+    "type": "government",
+    "coords": [
+      -87.76363,
+      41.96753
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City Clerk of Chicago",
+    "type": "government",
+    "coords": [
+      -87.76441,
+      41.97037
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Secretary of State Chicago North Facility",
+    "type": "government",
+    "coords": [
+      -87.75867,
+      41.97988
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Streets & Sanitation Yard Office",
+    "type": "government",
+    "coords": [
+      -87.79065,
+      41.95739
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "National Archives & Records Administration",
+    "type": "government",
+    "coords": [
+      -87.72473,
+      41.75917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CDOT Bureau Of Signs and Markings",
+    "type": "government",
+    "coords": [
+      -87.71753,
+      41.83018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.72511,
+      41.8474
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Garfield Community Service Center",
+    "type": "government",
+    "coords": [
+      -87.70665,
+      41.88043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration Office",
+    "type": "government",
+    "coords": [
+      -87.70964,
+      41.925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 14th Ward Office",
+    "type": "government",
+    "coords": [
+      -87.69109,
+      41.8013
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CHA Voucher Office",
+    "type": "government",
+    "coords": [
+      -87.70325,
+      41.85596
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County: George N. Leighton Criminal Courthouse",
+    "type": "government",
+    "coords": [
+      -87.69595,
+      41.84398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Criminal Court Administration Building",
+    "type": "government",
+    "coords": [
+      -87.69602,
+      41.84329
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Niles Village Hall",
+    "type": "government",
+    "coords": [
+      -87.80159,
+      42.02605
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Transpotation Office",
+    "type": "government",
+    "coords": [
+      -87.76055,
+      41.8518
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Niles Public Works",
+    "type": "government",
+    "coords": [
+      -87.79815,
+      42.01205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Niles Park District Golf Maintenance Building",
+    "type": "government",
+    "coords": [
+      -87.79598,
+      42.01944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "33rd Ward Sanitation Office",
+    "type": "government",
+    "coords": [
+      -87.69271,
+      41.93903
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 33rd Ward Office",
+    "type": "government",
+    "coords": [
+      -87.70334,
+      41.95372
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.68286,
+      41.96842
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Department of Employment Services",
+    "type": "government",
+    "coords": [
+      -87.69081,
+      41.96896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois DHS Family Community Resource Center",
+    "type": "government",
+    "coords": [
+      -87.66626,
+      41.78705
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.664,
+      41.80975
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Bureau of Electricity",
+    "type": "government",
+    "coords": [
+      -87.66661,
+      41.84976
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City Water Pipe Extension Department",
+    "type": "government",
+    "coords": [
+      -87.66685,
+      41.84942
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook County Juvenile Court",
+    "type": "government",
+    "coords": [
+      -87.68161,
+      41.8676
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois DCFS Cook Central Office",
+    "type": "government",
+    "coords": [
+      -87.67674,
+      41.86829
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Central Management Services",
+    "type": "government",
+    "coords": [
+      -87.67689,
+      41.8674
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -87.67887,
+      41.87106
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Bureau of Investigation Chicago Field Office",
+    "type": "government",
+    "coords": [
+      -87.6798,
+      41.86577
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Veteran Affairs Regional Office",
+    "type": "government",
+    "coords": [
+      -87.67961,
+      41.86959
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Side Center for Disease Control",
+    "type": "government",
+    "coords": [
+      -87.6806,
+      41.8697
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "311 Call Center",
+    "type": "government",
+    "coords": [
+      -87.67984,
+      41.87191
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -87.67831,
+      41.88288
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Office of Emergency Management & Communications",
+    "type": "government",
+    "coords": [
+      -87.66256,
+      41.88108
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Goldblatt Bouilding",
+    "type": "government",
+    "coords": [
+      -87.66793,
+      41.89579
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Department of Streets and Sanitation",
+    "type": "government",
+    "coords": [
+      -87.6742,
+      41.99931
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Deparmnet of Child & Family Services Emerald City Office",
+    "type": "government",
+    "coords": [
+      -87.64327,
+      41.78112
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Deptartment of Streets & Sanitation Garage",
+    "type": "government",
+    "coords": [
+      -87.65991,
+      41.82468
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago 11th Ward Office",
+    "type": "government",
+    "coords": [
+      -87.64577,
+      41.82726
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Maxwell Street Market Permit Center",
+    "type": "government",
+    "coords": [
+      -87.64403,
+      41.87177
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Housing Authority",
+    "type": "government",
+    "coords": [
+      -87.65794,
+      41.96237
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Department of Transportation Emergency Traffic Patrol",
+    "type": "government",
+    "coords": [
+      -87.6381,
+      41.83017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "State of Illinois Offices",
+    "type": "government",
+    "coords": [
+      -87.62186,
+      41.85637
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "State of Illinois Offices",
+    "type": "government",
+    "coords": [
+      -87.62185,
+      41.85609
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Department of Streets and Sanitation",
+    "type": "government",
+    "coords": [
+      -87.63054,
+      41.85835
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -87.62807,
+      41.87846
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metropolitan Water Reclamation District of Greater Chicago",
+    "type": "government",
+    "coords": [
+      -87.6251,
+      41.89442
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -87.6063,
+      41.77907
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Department of Human Services",
+    "type": "government",
+    "coords": [
+      -87.60228,
+      41.78019
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Illinois Department of Employment Security",
+    "type": "government",
+    "coords": [
+      -87.5882,
+      41.76575
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Village Hall",
+    "type": "government",
+    "coords": [
+      -87.7789,
+      41.87953
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Town Hall",
+    "type": "government",
+    "coords": [
+      -87.7485,
+      41.85082
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Berwyn City Hall",
+    "type": "government",
+    "coords": [
+      -87.79129,
+      41.84302
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lincolnwood Village Hall",
+    "type": "government",
+    "coords": [
+      -87.73383,
+      42.00673
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stickney Village Hall",
+    "type": "government",
+    "coords": [
+      -87.78663,
+      41.82116
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Riverside School District 96",
+    "type": "government",
+    "coords": [
+      -87.80326,
+      41.83075
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burbank City Hall",
+    "type": "government",
+    "coords": [
+      -87.78322,
+      41.74871
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Central Stickney Sanitary Distirct",
+    "type": "government",
+    "coords": [
+      -87.7531,
+      41.80228
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "State of Illinois Department of Transportation Traffic System Center",
+    "type": "government",
+    "coords": [
+      -87.7863,
+      41.87234
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Summit Village Hall",
+    "type": "government",
+    "coords": [
+      -87.80465,
+      41.78423
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Department of Aviation",
+    "type": "government",
+    "coords": [
+      -87.7546,
+      41.79264
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bronzeville Community Microgrid Substation",
+    "type": "substation",
+    "coords": [
+      -87.61069,
+      41.82166
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Devon 138kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.73912,
+      41.99935
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.74718,
+      42.02492
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.74563,
+      42.0196
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Niles 138kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.77601,
+      42.02188
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DC S32",
+    "type": "substation",
+    "coords": [
+      -87.73228,
+      42.02227
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Skokie-Oakton Street 138kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.71378,
+      42.0235
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Northwest 138kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.69691,
+      41.94519
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.69549,
+      41.94645
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clybourn Substation",
+    "type": "substation",
+    "coords": [
+      -87.65613,
+      41.91385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Bedford 138kV-345kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.76604,
+      41.76141
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Franklin Substation",
+    "type": "substation",
+    "coords": [
+      -87.63486,
+      41.87758
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hayford Substation",
+    "type": "substation",
+    "coords": [
+      -87.7134,
+      41.75641
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Taylor 138kV-345kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.63659,
+      41.8709
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dearborn Street  Substation",
+    "type": "substation",
+    "coords": [
+      -87.62917,
+      41.88377
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harper Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -87.58862,
+      41.79294
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA East Lake Substation",
+    "type": "substation",
+    "coords": [
+      -87.62737,
+      41.88611
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "LaSalle Substation",
+    "type": "substation",
+    "coords": [
+      -87.63138,
+      41.87285
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKoven Substation",
+    "type": "substation",
+    "coords": [
+      -87.64279,
+      41.86898
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Plymouth Court Substation",
+    "type": "substation",
+    "coords": [
+      -87.6284,
+      41.87526
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA State Substation",
+    "type": "substation",
+    "coords": [
+      -87.62697,
+      41.86655
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ontario Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.63003,
+      41.89301
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.64471,
+      41.88219
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Keeler Substation",
+    "type": "substation",
+    "coords": [
+      -87.72785,
+      41.79896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Midway Substation",
+    "type": "substation",
+    "coords": [
+      -87.73864,
+      41.78764
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Kedvale Substation",
+    "type": "substation",
+    "coords": [
+      -87.73023,
+      41.95427
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.76236,
+      41.86999
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Edmunds Substation",
+    "type": "substation",
+    "coords": [
+      -87.7659,
+      41.97183
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "School Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.78647,
+      41.93992
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Nagle Substation",
+    "type": "substation",
+    "coords": [
+      -87.78452,
+      41.9827
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Harding Substation",
+    "type": "substation",
+    "coords": [
+      -87.72389,
+      41.85417
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Kedzie Substation",
+    "type": "substation",
+    "coords": [
+      -87.70635,
+      41.87385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Springfield Substation",
+    "type": "substation",
+    "coords": [
+      -87.7241,
+      41.88561
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Kimball Substation",
+    "type": "substation",
+    "coords": [
+      -87.71169,
+      41.96634
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Transformer Building",
+    "type": "substation",
+    "coords": [
+      -87.71968,
+      41.98626
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Kedzie Substation",
+    "type": "substation",
+    "coords": [
+      -87.70509,
+      41.80459
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Archer Substation",
+    "type": "substation",
+    "coords": [
+      -87.68638,
+      41.82608
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Douglas Substation",
+    "type": "substation",
+    "coords": [
+      -87.68529,
+      41.85427
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 54th Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -87.76088,
+      41.85403
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Hamlin Substation",
+    "type": "substation",
+    "coords": [
+      -87.72184,
+      42.02306
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.72171,
+      42.02435
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jackson Substation",
+    "type": "substation",
+    "coords": [
+      -87.62263,
+      41.87866
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Congress Substation",
+    "type": "substation",
+    "coords": [
+      -87.6909,
+      41.8744
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Western Substation",
+    "type": "substation",
+    "coords": [
+      -87.68613,
+      41.88487
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Humboldt Park Substation",
+    "type": "substation",
+    "coords": [
+      -87.68735,
+      41.90085
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Sacramento Substation",
+    "type": "substation",
+    "coords": [
+      -87.7028,
+      41.92543
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.68641,
+      41.96607
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Ravenswood Substation",
+    "type": "substation",
+    "coords": [
+      -87.68729,
+      41.96609
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 48th Place Substation",
+    "type": "substation",
+    "coords": [
+      -87.68162,
+      41.80508
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Ashland Substation",
+    "type": "substation",
+    "coords": [
+      -87.66524,
+      41.83827
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 17th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.66932,
+      41.85842
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.67339,
+      41.87186
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Milwaukee Substation",
+    "type": "substation",
+    "coords": [
+      -87.66375,
+      41.90132
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Diversey Substation",
+    "type": "substation",
+    "coords": [
+      -87.67595,
+      41.93076
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Grace Substation",
+    "type": "substation",
+    "coords": [
+      -87.67458,
+      41.94996
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Calvary Substation",
+    "type": "substation",
+    "coords": [
+      -87.67702,
+      42.02126
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Haymarket Substation",
+    "type": "substation",
+    "coords": [
+      -87.64387,
+      41.88407
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lakeview Substation",
+    "type": "substation",
+    "coords": [
+      -87.65664,
+      41.93195
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Clifton Substation",
+    "type": "substation",
+    "coords": [
+      -87.65772,
+      41.962
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Clifton Substation",
+    "type": "substation",
+    "coords": [
+      -87.65738,
+      41.96237
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Broadway Substation",
+    "type": "substation",
+    "coords": [
+      -87.65962,
+      41.98819
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 79th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.62732,
+      41.75116
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Princeton Substation",
+    "type": "substation",
+    "coords": [
+      -87.63241,
+      41.78013
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 50th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.63247,
+      41.80325
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Former CTA 42nd Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.62517,
+      41.81814
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 35th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.62609,
+      41.83033
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 27th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.63022,
+      41.84401
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Canal Substation",
+    "type": "substation",
+    "coords": [
+      -87.6381,
+      41.85239
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.62693,
+      41.86293
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "16th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.62118,
+      41.85961
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA 18th Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.62619,
+      41.85869
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jefferson Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.64305,
+      41.87083
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.64157,
+      41.87091
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Illinois Substation",
+    "type": "substation",
+    "coords": [
+      -87.63319,
+      41.8911
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kingsbury Substation",
+    "type": "substation",
+    "coords": [
+      -87.63843,
+      41.89177
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Prairie Substation",
+    "type": "substation",
+    "coords": [
+      -87.61862,
+      41.78708
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "62nd Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.60554,
+      41.7825
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Cottage Grove Substation",
+    "type": "substation",
+    "coords": [
+      -87.60316,
+      41.78081
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University Substation",
+    "type": "substation",
+    "coords": [
+      -87.60696,
+      41.80363
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Calumet Substation",
+    "type": "substation",
+    "coords": [
+      -87.61856,
+      41.80893
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Brookdale Substation",
+    "type": "substation",
+    "coords": [
+      -87.592,
+      41.76925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Brookdale Substation",
+    "type": "substation",
+    "coords": [
+      -87.59196,
+      41.76944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Garfield 345kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.62814,
+      41.79576
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Natoma Substation",
+    "type": "substation",
+    "coords": [
+      -87.7909,
+      41.92522
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Crawford Substation",
+    "type": "substation",
+    "coords": [
+      -87.72632,
+      41.82712
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Crawford 138kV-345kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.72683,
+      41.82907
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Rockwell 138kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.69228,
+      41.89186
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.80477,
+      41.89468
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Ridgeland Substation",
+    "type": "substation",
+    "coords": [
+      -87.78328,
+      41.87098
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd 138kV-345kV West Loop Substation",
+    "type": "substation",
+    "coords": [
+      -87.65379,
+      41.90117
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Substation",
+    "type": "substation",
+    "coords": [
+      -87.75461,
+      41.85153
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Galewood Substation",
+    "type": "substation",
+    "coords": [
+      -87.78579,
+      41.92317
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hanson Park Substation",
+    "type": "substation",
+    "coords": [
+      -87.7539,
+      41.91646
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Portage Substation",
+    "type": "substation",
+    "coords": [
+      -87.74131,
+      41.94828
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington Park Substation",
+    "type": "substation",
+    "coords": [
+      -87.6194,
+      41.78206
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ford City Substation",
+    "type": "substation",
+    "coords": [
+      -87.73336,
+      41.76199
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Rosehill Substation",
+    "type": "substation",
+    "coords": [
+      -87.67419,
+      41.98708
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.7403,
+      41.86613
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Berwyn Substation",
+    "type": "substation",
+    "coords": [
+      -87.78469,
+      41.83576
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ridgeland Substation",
+    "type": "substation",
+    "coords": [
+      -87.78528,
+      41.81134
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hawthorne Substation",
+    "type": "substation",
+    "coords": [
+      -87.74809,
+      41.84249
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wallace Substation",
+    "type": "substation",
+    "coords": [
+      -87.63972,
+      41.74666
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.62616,
+      41.78272
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sayre Substation",
+    "type": "substation",
+    "coords": [
+      -87.79315,
+      41.75304
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clearing Substation",
+    "type": "substation",
+    "coords": [
+      -87.7764,
+      41.77095
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Sawyer Substation",
+    "type": "substation",
+    "coords": [
+      -87.71316,
+      41.80476
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.7752,
+      41.81164
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Park Substation",
+    "type": "substation",
+    "coords": [
+      -87.79166,
+      41.88765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.71879,
+      41.82631
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.66681,
+      41.8439
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.71753,
+      41.82882
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Farwell Substation",
+    "type": "substation",
+    "coords": [
+      -87.66576,
+      42.00635
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Kolmar Substation",
+    "type": "substation",
+    "coords": [
+      -87.73943,
+      41.87272
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.54161,
+      41.73572
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Chicago/Austin Susbstation",
+    "type": "substation",
+    "coords": [
+      -87.77462,
+      41.89494
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Navy Pier Substation",
+    "type": "substation",
+    "coords": [
+      -87.61037,
+      41.89281
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Hermitage Substation",
+    "type": "substation",
+    "coords": [
+      -87.66983,
+      41.87339
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metra 51st Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.58815,
+      41.80391
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Metra 31st Street Substation",
+    "type": "substation",
+    "coords": [
+      -87.61084,
+      41.83776
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Quarry TDC",
+    "type": "substation",
+    "coords": [
+      -87.65405,
+      41.84731
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Armitage Substation",
+    "type": "substation",
+    "coords": [
+      -87.65262,
+      41.91754
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Hyde Park Substation",
+    "type": "substation",
+    "coords": [
+      -87.6055,
+      41.80332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.66193,
+      41.88918
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.55815,
+      41.75603
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cheltenham Substation",
+    "type": "substation",
+    "coords": [
+      -87.55204,
+      41.75034
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.74104,
+      42.0049
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.76124,
+      41.75047
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.7622,
+      41.73353
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.62269,
+      41.82531
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.74221,
+      41.74977
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Substation",
+    "type": "substation",
+    "coords": [
+      -87.67018,
+      41.88309
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Irving Park Substation",
+    "type": "substation",
+    "coords": [
+      -87.74529,
+      41.95379
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.64748,
+      41.90119
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65753,
+      41.96221
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65645,
+      41.85077
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65508,
+      41.85002
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Lincoln Substation",
+    "type": "substation",
+    "coords": [
+      -87.65313,
+      41.9282
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Substation",
+    "type": "substation",
+    "coords": [
+      -87.65294,
+      41.92685
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65294,
+      41.92686
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Substation",
+    "type": "substation",
+    "coords": [
+      -87.65288,
+      41.92143
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Sedgwick Substation",
+    "type": "substation",
+    "coords": [
+      -87.63944,
+      41.91039
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Hill Substation",
+    "type": "substation",
+    "coords": [
+      -87.63664,
+      41.90183
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Chicago Substation",
+    "type": "substation",
+    "coords": [
+      -87.63611,
+      41.89685
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Clark Substation",
+    "type": "substation",
+    "coords": [
+      -87.65361,
+      41.94319
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.69097,
+      42.02243
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.79242,
+      41.8076
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.76082,
+      42.0053
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.6226,
+      41.87924
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.80238,
+      42.01839
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.78451,
+      41.81054
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.60179,
+      41.73692
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65377,
+      41.94933
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.64062,
+      41.91873
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.72041,
+      42.02551
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East 63rd Street CTA Substation",
+    "type": "substation",
+    "coords": [
+      -87.61842,
+      41.78059
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Loomis Substation",
+    "type": "substation",
+    "coords": [
+      -87.6597,
+      41.7787
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.72207,
+      42.01522
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.71935,
+      41.82284
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65466,
+      41.84983
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65443,
+      41.85149
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65399,
+      41.85102
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.65458,
+      41.84873
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.75542,
+      41.86749
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.76308,
+      41.80397
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -87.75518,
+      41.86756
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CTA Lotus Substation",
+    "type": "substation",
+    "coords": [
+      -87.7621,
+      41.88708
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ohio Substation",
+    "type": "substation",
+    "coords": [
+      -87.63887,
+      41.89209
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ComEd Crosby 138kV Substation",
+    "type": "substation",
+    "coords": [
+      -87.64619,
+      41.90232
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Terrence J. O'Brien Water Reclamation Plant",
+    "type": "water",
+    "coords": [
+      -87.71675,
+      42.02092
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wilson Avenue Crib",
+    "type": "water",
+    "coords": [
+      -87.5912,
+      41.96601
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Eugene Sawyer Water Purification Plant",
+    "type": "water",
+    "coords": [
+      -87.54435,
+      41.75683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Four Mile Crib",
+    "type": "water",
+    "coords": [
+      -87.54553,
+      41.8728
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jardine Water Purification Plant",
+    "type": "water",
+    "coords": [
+      -87.60686,
+      41.89451
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -87.7752,
+      41.85198
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "William E. Dever Crib",
+    "type": "water",
+    "coords": [
+      -87.57211,
+      41.91648
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carter H. Harrison Crib",
+    "type": "water",
+    "coords": [
+      -87.57272,
+      41.91629
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mayfair Pumping Station",
+    "type": "water",
+    "coords": [
+      -87.74931,
+      41.96524
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lakeview Pumping Station",
+    "type": "water",
+    "coords": [
+      -87.64924,
+      41.96503
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jefferson Pumping Station",
+    "type": "water",
+    "coords": [
+      -87.68575,
+      41.96618
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chicago Avenue Pumping Station",
+    "type": "water",
+    "coords": [
+      -87.62342,
+      41.89719
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stickney Water Reclamation Plant",
+    "type": "water",
+    "coords": [
+      -87.76551,
+      41.81598
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -87.7003,
+      41.73144
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cicero Water Works",
+    "type": "water",
+    "coords": [
+      -87.75477,
+      41.86545
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "McCormick Place Water Tower",
+    "type": "water",
+    "coords": [
+      -87.61813,
+      41.85271
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Webster Street Instream Aeration Station (MWRDGC)",
+    "type": "water",
+    "coords": [
+      -87.66819,
+      41.92121
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Branch Pumping Station",
+    "type": "water",
+    "coords": [
+      -87.70095,
+      41.96937
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Devon Avenue Instream Aeration Station (MWRDGC)",
+    "type": "water",
+    "coords": [
+      -87.71032,
+      41.99641
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Western Avenue Pumping Station",
+    "type": "water",
+    "coords": [
+      -87.68255,
+      41.80371
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  }
+]

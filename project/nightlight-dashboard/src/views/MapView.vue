@@ -227,12 +227,13 @@ import { loadProbabilityGeoJSON, loadFacilityGeoJSON } from '@/data/loader.js'
 
 // Display order: chronological, grouped by region
 const EVENT_ORDER = [
-  'matthew-jax', 'maria', 'irma', 'irma-savannah',
-  'michael', 'eq-pr', 'florence-wilm',
-  'laura', 'isaias-nj',
-  'zeta-atlanta', 'zeta-birmingham',
-  'ida', 'ian-charlotte', 'ian-fortmyers',
-  'eq-hatay',
+  'matthew-jax', 'matthew-nc', 'maria', 'irma', 'irma-savannah',
+  'michael', 'florence-wilm', 'florence-sc', 'eq-pr',
+  'laura', 'isaias-nj', 'isaias-ny', 'icestorm-okc',
+  'zeta-atlanta', 'zeta-birmingham', 'derecho-chicago', 'severe-detroit',
+  'uri-houston', 'ida', 'noreaster-boston',
+  'ian-charlotte', 'ian-fortmyers', 'atmos-seattle',
+  'severe-nashville', 'eq-hatay',
 ]
 const EVENTS = EVENT_ORDER.map(id => RAW_EVENTS.find(e => e.id === id)).filter(Boolean)
 

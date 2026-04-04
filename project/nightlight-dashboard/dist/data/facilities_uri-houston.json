@@ -1,0 +1,2512 @@
+[
+  {
+    "name": "William P. Hobby Airport",
+    "type": "airport",
+    "coords": [
+      -95.27796,
+      29.6454
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Police Helicopter Patrol Heliport",
+    "type": "airport",
+    "coords": [
+      -95.27028,
+      29.6492
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Pasadena Fire Chief",
+    "type": "fire",
+    "coords": [
+      -95.20174,
+      29.7133
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 9",
+    "type": "fire",
+    "coords": [
+      -95.36045,
+      29.77623
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Southside Place Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.43359,
+      29.71466
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pasadena Fire Department Station 2",
+    "type": "fire",
+    "coords": [
+      -95.20138,
+      29.70363
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pasadena Fire Protection Service",
+    "type": "fire",
+    "coords": [
+      -95.20779,
+      29.6875
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park Fire Department Station 1",
+    "type": "fire",
+    "coords": [
+      -95.23877,
+      29.73415
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Houston Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.23887,
+      29.66549
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jacinto Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.24787,
+      29.76905
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pasadena Fire Department Station 4",
+    "type": "fire",
+    "coords": [
+      -95.20798,
+      29.68386
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 34",
+    "type": "fire",
+    "coords": [
+      -95.33885,
+      29.84019
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 35",
+    "type": "fire",
+    "coords": [
+      -95.338,
+      29.6741
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 38",
+    "type": "fire",
+    "coords": [
+      -95.46774,
+      29.79019
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 40",
+    "type": "fire",
+    "coords": [
+      -95.32086,
+      29.71016
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 25",
+    "type": "fire",
+    "coords": [
+      -95.35337,
+      29.71865
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 29",
+    "type": "fire",
+    "coords": [
+      -95.25371,
+      29.684
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 17",
+    "type": "fire",
+    "coords": [
+      -95.34135,
+      29.75699
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 19",
+    "type": "fire",
+    "coords": [
+      -95.33612,
+      29.77722
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 20",
+    "type": "fire",
+    "coords": [
+      -95.30085,
+      29.74412
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 6",
+    "type": "fire",
+    "coords": [
+      -95.39426,
+      29.76958
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 12",
+    "type": "fire",
+    "coords": [
+      -95.35287,
+      29.79464
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West University Place Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.43805,
+      29.71496
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pasadena Fire Marshal's Office",
+    "type": "fire",
+    "coords": [
+      -95.20174,
+      29.7133
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Missouri City Fire and Rescue Services Station 2",
+    "type": "fire",
+    "coords": [
+      -95.51885,
+      29.63033
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 55",
+    "type": "fire",
+    "coords": [
+      -95.35617,
+      29.63756
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 41",
+    "type": "fire",
+    "coords": [
+      -95.2819,
+      29.7739
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 42",
+    "type": "fire",
+    "coords": [
+      -95.2727,
+      29.74359
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 46",
+    "type": "fire",
+    "coords": [
+      -95.36434,
+      29.68593
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 66",
+    "type": "fire",
+    "coords": [
+      -95.53989,
+      29.85197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 67",
+    "type": "fire",
+    "coords": [
+      -95.43605,
+      29.86375
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 60",
+    "type": "fire",
+    "coords": [
+      -95.52484,
+      29.73318
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 61",
+    "type": "fire",
+    "coords": [
+      -95.26708,
+      29.62538
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 77",
+    "type": "fire",
+    "coords": [
+      -95.54382,
+      29.82235
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 81",
+    "type": "fire",
+    "coords": [
+      -95.27851,
+      29.64146
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Houston Fire Station",
+    "type": "fire",
+    "coords": [
+      -95.2391,
+      29.666
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Jacinto Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.2477,
+      29.7691
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Piney Point Village Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.5129,
+      29.7821
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Station Number 2",
+    "type": "fire",
+    "coords": [
+      -95.5208,
+      29.6308
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park Fire Station",
+    "type": "fire",
+    "coords": [
+      -95.2383,
+      29.7341
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Station Number 38",
+    "type": "fire",
+    "coords": [
+      -95.4677,
+      29.79019
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Station Number 41",
+    "type": "fire",
+    "coords": [
+      -95.2826,
+      29.7733
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Station Number 55",
+    "type": "fire",
+    "coords": [
+      -95.3568,
+      29.6402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little York Volunteer Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.4001,
+      29.8894
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Houston Fire Station 24",
+    "type": "fire",
+    "coords": [
+      -95.38997,
+      29.65803
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "The Roberts Family Training Field",
+    "type": "fire",
+    "coords": [
+      -95.39978,
+      29.90763
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Station Number 36;Houston Fire Department Station 36",
+    "type": "fire",
+    "coords": [
+      -95.28005,
+      29.6571
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -95.2785,
+      29.64145
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sheldon Community Volunteer Fire / Rescue Station 1",
+    "type": "fire",
+    "coords": [
+      -95.21449,
+      29.84426
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 50",
+    "type": "fire",
+    "coords": [
+      -95.48987,
+      29.83446
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 8",
+    "type": "fire",
+    "coords": [
+      -95.37282,
+      29.7513
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 4",
+    "type": "fire",
+    "coords": [
+      -95.48951,
+      29.86627
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cy - Fair Volunteer Fire Department Station 1",
+    "type": "fire",
+    "coords": [
+      -95.5369,
+      29.89651
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellaire Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.46839,
+      29.70175
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 49",
+    "type": "fire",
+    "coords": [
+      -95.54424,
+      29.79114
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 5",
+    "type": "fire",
+    "coords": [
+      -95.50626,
+      29.81027
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 68",
+    "type": "fire",
+    "coords": [
+      -95.52875,
+      29.67702
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 2",
+    "type": "fire",
+    "coords": [
+      -95.48109,
+      29.76233
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Station 18",
+    "type": "fire",
+    "coords": [
+      -95.33146,
+      29.73554
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 37",
+    "type": "fire",
+    "coords": [
+      -95.44067,
+      29.70174
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 33",
+    "type": "fire",
+    "coords": [
+      -95.40139,
+      29.70018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Village Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.51429,
+      29.78086
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 16",
+    "type": "fire",
+    "coords": [
+      -95.40235,
+      29.7346
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Houston Fire Department - Arson",
+    "type": "fire",
+    "coords": [
+      -95.36962,
+      29.7696
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 7",
+    "type": "fire",
+    "coords": [
+      -95.37361,
+      29.73925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 23",
+    "type": "fire",
+    "coords": [
+      -95.27923,
+      29.71604
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -95.51429,
+      29.78099
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 21",
+    "type": "fire",
+    "coords": [
+      -95.43283,
+      29.67043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 30",
+    "type": "fire",
+    "coords": [
+      -95.36079,
+      29.81917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 15",
+    "type": "fire",
+    "coords": [
+      -95.38668,
+      29.80284
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 31",
+    "type": "fire",
+    "coords": [
+      -95.40246,
+      29.82852
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 58",
+    "type": "fire",
+    "coords": [
+      -95.38352,
+      29.85708
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department - Arson Division",
+    "type": "fire",
+    "coords": [
+      -95.43071,
+      29.7913
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 22",
+    "type": "fire",
+    "coords": [
+      -95.28464,
+      29.73057
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little York Fire Department - Station 81",
+    "type": "fire",
+    "coords": [
+      -95.40162,
+      29.90712
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 11",
+    "type": "fire",
+    "coords": [
+      -95.41766,
+      29.77938
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 28",
+    "type": "fire",
+    "coords": [
+      -95.47687,
+      29.7339
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 27",
+    "type": "fire",
+    "coords": [
+      -95.30458,
+      29.7769
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 13",
+    "type": "fire",
+    "coords": [
+      -95.45138,
+      29.83223
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 62",
+    "type": "fire",
+    "coords": [
+      -95.43773,
+      29.79808
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 39",
+    "type": "fire",
+    "coords": [
+      -95.31864,
+      29.81279
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 26",
+    "type": "fire",
+    "coords": [
+      -95.30502,
+      29.68181
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 82",
+    "type": "fire",
+    "coords": [
+      -95.51142,
+      29.65793
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Heights Fire Department",
+    "type": "fire",
+    "coords": [
+      -95.39875,
+      29.79236
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 51",
+    "type": "fire",
+    "coords": [
+      -95.50489,
+      29.70529
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 45",
+    "type": "fire",
+    "coords": [
+      -95.26391,
+      29.80521
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 56",
+    "type": "fire",
+    "coords": [
+      -95.30581,
+      29.8709
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 32",
+    "type": "fire",
+    "coords": [
+      -95.26545,
+      29.84966
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 44",
+    "type": "fire",
+    "coords": [
+      -95.21813,
+      29.7781
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 43",
+    "type": "fire",
+    "coords": [
+      -95.28403,
+      29.82827
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Station Number 48",
+    "type": "fire",
+    "coords": [
+      -95.48108,
+      29.65337
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 59",
+    "type": "fire",
+    "coords": [
+      -95.4648,
+      29.62524
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 47",
+    "type": "fire",
+    "coords": [
+      -95.41371,
+      29.63173
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 3",
+    "type": "fire",
+    "coords": [
+      -95.43836,
+      29.73791
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Fire Department Station 52",
+    "type": "fire",
+    "coords": [
+      -95.22966,
+      29.6351
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park Police Substation",
+    "type": "police",
+    "coords": [
+      -95.21387,
+      29.75782
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Eastside Patrol",
+    "type": "police",
+    "coords": [
+      -95.29061,
+      29.73443
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department Mykawa Substation",
+    "type": "police",
+    "coords": [
+      -95.31644,
+      29.65751
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Fondren Patrol",
+    "type": "police",
+    "coords": [
+      -95.50996,
+      29.65875
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Palm Center",
+    "type": "police",
+    "coords": [
+      -95.33406,
+      29.69582
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Acres Home",
+    "type": "police",
+    "coords": [
+      -95.42168,
+      29.85748
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Sheriff's Office",
+    "type": "police",
+    "coords": [
+      -95.35693,
+      29.76436
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jacinto City Police Department",
+    "type": "police",
+    "coords": [
+      -95.24474,
+      29.76809
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Hobby Airport",
+    "type": "police",
+    "coords": [
+      -95.28021,
+      29.65706
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Sheriff's Office - DARE Program",
+    "type": "police",
+    "coords": [
+      -95.33425,
+      29.84342
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Southside Place Police Department",
+    "type": "police",
+    "coords": [
+      -95.43345,
+      29.71466
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Near Town",
+    "type": "police",
+    "coords": [
+      -95.38989,
+      29.74501
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Ana Maria Lopez",
+    "type": "police",
+    "coords": [
+      -95.35867,
+      29.78197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Sheriff's Office",
+    "type": "police",
+    "coords": [
+      -95.3573,
+      29.76281
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Northwest Patrol",
+    "type": "police",
+    "coords": [
+      -95.53971,
+      29.85706
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Leija",
+    "type": "police",
+    "coords": [
+      -95.25397,
+      29.68511
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department",
+    "type": "police",
+    "coords": [
+      -95.36745,
+      29.75589
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Houston Police Department",
+    "type": "police",
+    "coords": [
+      -95.23936,
+      29.66533
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Sheriff's Office - Economic Crime",
+    "type": "police",
+    "coords": [
+      -95.35772,
+      29.76208
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Telephone Road",
+    "type": "police",
+    "coords": [
+      -95.28492,
+      29.61936
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Gulfton",
+    "type": "police",
+    "coords": [
+      -95.48535,
+      29.71699
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pasadena Police Department",
+    "type": "police",
+    "coords": [
+      -95.19602,
+      29.69341
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Ranchester",
+    "type": "police",
+    "coords": [
+      -95.54406,
+      29.70662
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Sheriff's Office - Recruiting",
+    "type": "police",
+    "coords": [
+      -95.32278,
+      29.7535
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Jensen Street",
+    "type": "police",
+    "coords": [
+      -95.34362,
+      29.84512
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Houston Police Station",
+    "type": "police",
+    "coords": [
+      -95.2394,
+      29.6658
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jacinto City Police Station",
+    "type": "police",
+    "coords": [
+      -95.2453,
+      29.7679
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park Police Station",
+    "type": "police",
+    "coords": [
+      -95.2416,
+      29.732
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Heights",
+    "type": "police",
+    "coords": [
+      -95.41139,
+      29.78605
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Sheriff's Office",
+    "type": "police",
+    "coords": [
+      -95.35684,
+      29.76168
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Station",
+    "type": "police",
+    "coords": [
+      -95.37062,
+      29.76494
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Public Safety",
+    "type": "police",
+    "coords": [
+      -95.35118,
+      29.71992
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - South Central Patrol",
+    "type": "police",
+    "coords": [
+      -95.36278,
+      29.74283
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Community College Police",
+    "type": "police",
+    "coords": [
+      -95.37753,
+      29.73556
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hedwig Village Police Department",
+    "type": "police",
+    "coords": [
+      -95.5104,
+      29.78284
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Spring Valley Village Police Department",
+    "type": "police",
+    "coords": [
+      -95.51534,
+      29.78824
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Broadway Square",
+    "type": "police",
+    "coords": [
+      -95.27678,
+      29.67585
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Gessner Patrol Station",
+    "type": "police",
+    "coords": [
+      -95.52842,
+      29.64953
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Memorial Village Police Department",
+    "type": "police",
+    "coords": [
+      -95.53884,
+      29.76206
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - North Patrol",
+    "type": "police",
+    "coords": [
+      -95.44683,
+      29.87927
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Hiram Clarke",
+    "type": "police",
+    "coords": [
+      -95.4422,
+      29.61383
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Heights Police Station",
+    "type": "police",
+    "coords": [
+      -95.40286,
+      29.80361
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Spring Branch",
+    "type": "police",
+    "coords": [
+      -95.49622,
+      29.80358
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Navigation",
+    "type": "police",
+    "coords": [
+      -95.32747,
+      29.75272
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Northeast Patrol",
+    "type": "police",
+    "coords": [
+      -95.27316,
+      29.83223
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park Police",
+    "type": "police",
+    "coords": [
+      -95.24593,
+      29.73292
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park Police Department",
+    "type": "police",
+    "coords": [
+      -95.24553,
+      29.73204
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department",
+    "type": "police",
+    "coords": [
+      -95.45717,
+      29.63706
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Sunnyside",
+    "type": "police",
+    "coords": [
+      -95.37167,
+      29.65854
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Police Department - Richmond",
+    "type": "police",
+    "coords": [
+      -95.49416,
+      29.73224
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Thermal Energy Cooporation Central Plant",
+    "type": "power",
+    "coords": [
+      -95.39778,
+      29.70369
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Central Power Plant",
+    "type": "power",
+    "coords": [
+      -95.34162,
+      29.72197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Satelite Thermal Plant",
+    "type": "power",
+    "coords": [
+      -95.36364,
+      29.724
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Channel Energy Center",
+    "type": "power",
+    "coords": [
+      -95.23269,
+      29.71882
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Friendswood Energy",
+    "type": "power",
+    "coords": [
+      -95.45192,
+      29.64707
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -95.20264,
+      29.86088
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "HO Clarke Generating",
+    "type": "power",
+    "coords": [
+      -95.45188,
+      29.64492
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rentech Nitrogen Pasadena Cogeneration Power Station",
+    "type": "power",
+    "coords": [
+      -95.1961,
+      29.73993
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -95.29331,
+      29.62927
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lantana Point Reserve Peakshaving Unit",
+    "type": "power",
+    "coords": [
+      -95.49388,
+      29.62842
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -95.38656,
+      29.70092
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Crockett BESS",
+    "type": "power",
+    "coords": [
+      -95.37897,
+      29.77545
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Callisto I Energy Center",
+    "type": "power",
+    "coords": [
+      -95.45078,
+      29.64966
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Greens Bayou Electric Generating Station",
+    "type": "power",
+    "coords": [
+      -95.22078,
+      29.82062
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pasadena City Hall",
+    "type": "government",
+    "coords": [
+      -95.1962,
+      29.69167
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jacinto City Hall",
+    "type": "government",
+    "coords": [
+      -95.2469,
+      29.7669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Galena Park City Hall",
+    "type": "government",
+    "coords": [
+      -95.2416,
+      29.7321
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "United States Customhouse",
+    "type": "government",
+    "coords": [
+      -95.36151,
+      29.75765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West University City Hall",
+    "type": "government",
+    "coords": [
+      -95.43771,
+      29.71495
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Southside Place City Hall",
+    "type": "government",
+    "coords": [
+      -95.43366,
+      29.71472
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Army Navy Air Force",
+    "type": "government",
+    "coords": [
+      -95.29604,
+      29.70004
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Armed Forces Career Center",
+    "type": "government",
+    "coords": [
+      -95.29681,
+      29.70398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ft Bend County Tax Assessor",
+    "type": "government",
+    "coords": [
+      -95.53608,
+      29.61738
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Texas Department of Public Safety Driver License Mega Center",
+    "type": "government",
+    "coords": [
+      -95.52936,
+      29.64399
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IdentoGO",
+    "type": "government",
+    "coords": [
+      -95.26609,
+      29.75001
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Armed Forces Career Center",
+    "type": "government",
+    "coords": [
+      -95.40239,
+      29.84615
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Texas Department of Health and Human Services",
+    "type": "government",
+    "coords": [
+      -95.37815,
+      29.82115
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Bureau of Investigation Houston Field Office",
+    "type": "government",
+    "coords": [
+      -95.48137,
+      29.83607
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "BARC animal shelter and adoptions",
+    "type": "government",
+    "coords": [
+      -95.34473,
+      29.79214
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston BARC administration",
+    "type": "government",
+    "coords": [
+      -95.34377,
+      29.79111
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oficina de empadronamiento electoral de Bolivia en el exterior",
+    "type": "government",
+    "coords": [
+      -95.48446,
+      29.74169
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Texas Health and Human Services Office",
+    "type": "government",
+    "coords": [
+      -95.36426,
+      29.8718
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Social Security Administration",
+    "type": "government",
+    "coords": [
+      -95.30984,
+      29.90171
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Civil Courthouse",
+    "type": "government",
+    "coords": [
+      -95.35737,
+      29.76078
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Herbert W. Gee Municipal Courthouse",
+    "type": "government",
+    "coords": [
+      -95.37144,
+      29.76561
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bob Casey United States Courthouse",
+    "type": "government",
+    "coords": [
+      -95.36738,
+      29.76108
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston City Hall",
+    "type": "government",
+    "coords": [
+      -95.36937,
+      29.76018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hattie Mae White Educational Support Center",
+    "type": "government",
+    "coords": [
+      -95.45425,
+      29.8026
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris Central Appraisal District",
+    "type": "government",
+    "coords": [
+      -95.49992,
+      29.8447
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Criminal Justice Center",
+    "type": "government",
+    "coords": [
+      -95.35775,
+      29.76204
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Courthouse Annex",
+    "type": "government",
+    "coords": [
+      -95.47695,
+      29.71576
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Justice of the Peace for Precinct 7",
+    "type": "government",
+    "coords": [
+      -95.34866,
+      29.70536
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellaire City Hall",
+    "type": "government",
+    "coords": [
+      -95.4684,
+      29.70341
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bellaire Municipal Court Clerk's Office",
+    "type": "government",
+    "coords": [
+      -95.46904,
+      29.7023
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Customs and Border Protection",
+    "type": "government",
+    "coords": [
+      -95.29119,
+      29.70123
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Prevention Office/ Arson",
+    "type": "government",
+    "coords": [
+      -95.47874,
+      29.6793
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Parks and Recreation Department - Green Space Management",
+    "type": "government",
+    "coords": [
+      -95.42967,
+      29.76278
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Texas Department of Criminal Justice",
+    "type": "government",
+    "coords": [
+      -95.45382,
+      29.80737
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston Emergency Center",
+    "type": "government",
+    "coords": [
+      -95.40955,
+      29.84352
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Courthouse Annex 31",
+    "type": "government",
+    "coords": [
+      -95.41189,
+      29.86754
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Spring Valley Village City Hall",
+    "type": "government",
+    "coords": [
+      -95.51515,
+      29.78814
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -95.47497,
+      29.84959
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -95.32482,
+      29.75042
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hilshire Village City Hall",
+    "type": "government",
+    "coords": [
+      -95.49316,
+      29.79454
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harris County Tax AssessorCollector Office",
+    "type": "government",
+    "coords": [
+      -95.49596,
+      29.80101
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hunters Creek Village City Hall",
+    "type": "government",
+    "coords": [
+      -95.50518,
+      29.77888
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -95.23883,
+      29.6649
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Armed Forces Career Center",
+    "type": "government",
+    "coords": [
+      -95.51715,
+      29.73503
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -95.33963,
+      29.7626
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston City Hall Annex",
+    "type": "government",
+    "coords": [
+      -95.37025,
+      29.76071
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.5279,
+      29.8675
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Houston East Water Purification Plant",
+    "type": "water",
+    "coords": [
+      -95.21762,
+      29.7408
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.46665,
+      29.89359
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.52454,
+      29.82271
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.45038,
+      29.68679
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.45015,
+      29.69016
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.42004,
+      29.69645
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.43177,
+      29.89598
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.26685,
+      29.69956
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.54309,
+      29.6689
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.25895,
+      29.71018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.45419,
+      29.61683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.51667,
+      29.82043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rolling Fork Water #1",
+    "type": "water",
+    "coords": [
+      -95.53342,
+      29.89258
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.33903,
+      29.6457
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.43347,
+      29.70499
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FWSD23 Wastewater Treatment Plant",
+    "type": "water",
+    "coords": [
+      -95.27462,
+      29.84489
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.19614,
+      29.77201
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.43057,
+      29.89409
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.30131,
+      29.75537
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.49702,
+      29.87733
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.51385,
+      29.87722
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.54498,
+      29.90104
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.23997,
+      29.66412
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Vince Bayou Wastewater Treatment Plant",
+    "type": "water",
+    "coords": [
+      -95.20838,
+      29.71543
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.51228,
+      29.87897
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.44552,
+      29.90994
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.45035,
+      29.72833
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rolling Fork Water #2",
+    "type": "water",
+    "coords": [
+      -95.53379,
+      29.89094
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.26706,
+      29.73672
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.22259,
+      29.76567
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.33285,
+      29.71934
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.35305,
+      29.76463
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.32022,
+      29.75998
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westbery #1 Plant & #1 Well",
+    "type": "water",
+    "coords": [
+      -95.47587,
+      29.66203
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.50737,
+      29.74706
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.52087,
+      29.61563
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.2072,
+      29.71567
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.20674,
+      29.71567
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.20719,
+      29.71527
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.20674,
+      29.71527
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.45173,
+      29.68525
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.23535,
+      29.66945
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Haven Wastewater Treatment Plant",
+    "type": "water",
+    "coords": [
+      -95.26333,
+      29.64391
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.29388,
+      29.80711
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -95.22244,
+      29.64833
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  }
+]
