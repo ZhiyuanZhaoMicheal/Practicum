@@ -516,6 +516,7 @@ onMounted(() => {
     style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
     center: [-40, 33],
     zoom: 1.3,
+    maxZoom: 17,
     attributionControl: false,
   })
 
@@ -523,6 +524,7 @@ onMounted(() => {
   map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-left')
 
   map.on('load', async () => {
+    map.getCanvas().focus()
     addFacilityIcons(map)
 
     // ── Overview markers: one dot per unique city (visible when zoomed out) ──
@@ -571,14 +573,74 @@ onMounted(() => {
       },
     })
 
+    // Highlight ring for selected event
+    map.addSource('overview-highlight', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: [] },
+    })
+    map.addLayer({
+      id: 'overview-highlight-ring',
+      type: 'circle',
+      source: 'overview-highlight',
+      maxzoom: DETAIL_ZOOM,
+      paint: {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 14, 7, 22],
+        'circle-color': 'transparent',
+        'circle-stroke-width': 3,
+        'circle-stroke-color': '#ffffff',
+        'circle-stroke-opacity': 0.8,
+      },
+    })
+
     // Click overview marker → fly to event
     map.on('click', 'overview-dots', (e) => {
       const f = e.features[0]
       const ev = EVENTS.find(ev => ev.id === f.properties.id)
       if (ev) flyToEvent(ev)
     })
-    map.on('mouseenter', 'overview-dots', () => { map.getCanvas().style.cursor = 'pointer' })
-    map.on('mouseleave', 'overview-dots', () => { map.getCanvas().style.cursor = '' })
+    // Click/hover for dots + labels
+    for (const layerId of ['overview-dots', 'overview-labels']) {
+      map.on('click', layerId, (e) => {
+        const f = e.features[0]
+        const ev = EVENTS.find(ev => ev.id === f.properties.id)
+        if (ev) flyToEvent(ev)
+      })
+      map.on('mouseenter', layerId, (e) => {
+        map.getCanvas().style.cursor = 'pointer'
+        const f = e.features[0]
+        if (f) {
+          const hoverId = f.properties.id
+          if (map.getSource('overview-highlight')) {
+            map.getSource('overview-highlight').setData({
+              type: 'FeatureCollection',
+              features: [{
+                type: 'Feature',
+                geometry: { type: 'Point', coordinates: f.geometry.coordinates },
+                properties: {},
+              }],
+            })
+          }
+          // Highlight label text
+          map.setPaintProperty('overview-labels', 'text-color', [
+            'case', ['==', ['get', 'id'], hoverId], '#ffffff', '#e0e8f0'
+          ])
+          map.setLayoutProperty('overview-labels', 'text-size', [
+            'case', ['==', ['get', 'id'], hoverId],
+            ['interpolate', ['linear'], ['zoom'], 3, 13, 7, 17],
+            ['interpolate', ['linear'], ['zoom'], 3, 10, 7, 14]
+          ])
+        }
+      })
+      map.on('mouseleave', layerId, () => {
+        map.getCanvas().style.cursor = ''
+        // Reset label style
+        map.setPaintProperty('overview-labels', 'text-color', '#e0e8f0')
+        map.setLayoutProperty('overview-labels', 'text-size', ['interpolate', ['linear'], ['zoom'], 3, 10, 7, 14])
+        if (!activeEventId.value && map.getSource('overview-highlight')) {
+          map.getSource('overview-highlight').setData({ type: 'FeatureCollection', features: [] })
+        }
+      })
+    }
 
     // Lazy load: only load detail layers when needed (not all 15 at once)
     const qEvent = route.query.event
@@ -766,8 +828,8 @@ async function addEventLayers(ev) {
         4,  0.6,
         10, 1.5,
         12, 2.5,
-        14, 2.0,
-        16, 1.2,
+        14, 2.5,
+        17, 2.0,
       ],
       'heatmap-color': light ? HEATMAP_COLORS_LIGHT : HEATMAP_COLORS_DARK,
       'heatmap-radius': ['interpolate', ['linear'], ['zoom'],
@@ -781,10 +843,7 @@ async function addEventLayers(ev) {
         15, 80,
         17, 160,
       ],
-      'heatmap-opacity': ['interpolate', ['linear'], ['zoom'],
-        10, 0.85,
-        15, 0.6,
-      ],
+      'heatmap-opacity': 0.85,
     },
     layout: { visibility: 'visible' },
   })
@@ -989,6 +1048,7 @@ function switchBasemap(id) {
       style: bm.url,
       center: [center.lng, center.lat],
       zoom,
+      maxZoom: 17,
       attributionControl: false,
     })
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
@@ -1103,6 +1163,18 @@ async function flyToEvent(ev) {
   activeEvent.value   = ev
   popup.value.visible = false
 
+  // Update highlight ring
+  if (map && map.getSource('overview-highlight')) {
+    map.getSource('overview-highlight').setData({
+      type: 'FeatureCollection',
+      features: [{
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: ev.center },
+        properties: {},
+      }],
+    })
+  }
+
   // Lazy load: add layers if not already loaded
   if (map && !map.getSource(`prob-${ev.id}`)) {
     await addEventLayers(ev)
@@ -1121,6 +1193,10 @@ function backToOverview() {
   activeEvent.value   = null
   popup.value.visible = false
   pixelTip.value.visible = false
+
+  if (map && map.getSource('overview-highlight')) {
+    map.getSource('overview-highlight').setData({ type: 'FeatureCollection', features: [] })
+  }
 
   map?.flyTo({
     center: [-82, 33],
@@ -1399,8 +1475,9 @@ function backToOverview() {
 }
 .event-pill.active {
   border-color: var(--ec, var(--cyan));
-  background: rgba(0,212,255,.08);
+  background: rgba(0,212,255,.12);
   color: var(--text-bright);
+  box-shadow: inset 3px 0 0 var(--ec, var(--cyan));
 }
 .event-pill__dot {
   width: 7px; height: 7px;
@@ -1572,12 +1649,7 @@ function backToOverview() {
   color: var(--text-bright) !important;
 }
 :deep(.maplibregl-ctrl-attrib) {
-  background: rgba(3,13,26,0.7) !important;
-  color: var(--text-dim) !important;
-  font-size: 10px !important;
-}
-:deep(.maplibregl-ctrl-attrib a) {
-  color: var(--text-muted) !important;
+  display: none !important;
 }
 
 /* ── Chart panel ── */
