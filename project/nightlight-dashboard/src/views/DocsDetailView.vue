@@ -3260,7 +3260,7 @@ tr:hover td { background: var(--bg-3); }
 }
 
 @media (max-width: 600px) {
-  .detail-inner { padding: 16px 12px 60px; }
+  .detail-inner { padding: 16px 12px 60px; max-width: 100vw; overflow-x: hidden; }
   .detail-header h1 { font-size: 20px; }
   .detail-content h2 { font-size: 16px; }
   .detail-content p { font-size: 13px; }
@@ -3270,13 +3270,16 @@ tr:hover td { background: var(--bg-3); }
   .formula { font-size: 12px; word-break: break-all; }
   .ntl-player__panels { grid-template-columns: 1fr; }
   .ntl-player__legends { flex-direction: column; gap: 12px; }
-  .data-table { margin: 8px -12px; }
-  .data-table table { font-size: 11px; }
+  .data-table { margin: 8px -12px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .data-table table { font-size: 11px; min-width: 400px; }
   th, td { padding: 6px 8px; }
   .feature-grid { grid-template-columns: 1fr; }
   .code-block pre { padding: 10px; }
   .code-block code { font-size: 11px; }
   .callout { flex-direction: column; gap: 6px; }
   .detail-toc__link { font-size: 11px; padding: 4px 8px; }
+  .ntl-charts-grid { grid-template-columns: 1fr; }
+  .feature-link { flex-direction: column; gap: 8px; }
+  .chart-modal__card { padding: 16px; }
 }
 </style>
