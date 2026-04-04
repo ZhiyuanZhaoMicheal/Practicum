@@ -1989,7 +1989,11 @@ for h in hospitals[:3]:
             </p>
           </div>
 
-          <h2>Overall Conclusions</h2>
+        </template>
+
+        <!-- Conclusions & Future Work -->
+        <template v-if="sectionId === 'conclusions'">
+          <h2 id="sec-c-1">Conclusions</h2>
           <p>
             Across three stages of analysis — interpretive modeling, predictive modeling, and
             zip-code spatial regression — several conclusions emerge:
@@ -2015,7 +2019,7 @@ for h in hospitals[:3]:
               — is itself the strongest motivation for satellite-based approaches.</li>
           </ul>
 
-          <h2>Limitations</h2>
+          <h2 id="sec-c-2">Limitations</h2>
           <ul class="detail-list">
             <li><strong>Resolution.</strong> 500m pixels mix multiple land uses; the method detects
               neighborhood-level patterns, not individual buildings. Higher-resolution sensors
@@ -2032,7 +2036,7 @@ for h in hospitals[:3]:
               run during peak demand hours.</li>
           </ul>
 
-          <h2>Future Directions</h2>
+          <h2 id="sec-c-3">Future Directions</h2>
           <ul class="detail-list">
             <li><strong>Higher-resolution imagery.</strong> Commercial satellite constellations
               now offer sub-meter nighttime imagery. Combining VIIRS's daily temporal coverage
@@ -2054,7 +2058,7 @@ for h in hospitals[:3]:
 
         <!-- 09 Dashboard Development -->
         <template v-if="sectionId === 'web'">
-          <h2 id="sec-8-1">8.1 Architecture</h2>
+          <h2 id="sec-8-1">9.1 Architecture</h2>
           <p>
             This dashboard is a single-page application built with <strong>Vue 3</strong> (Composition API)
             and <strong>Vite</strong> as the build tool. The project uses Vue Router (hash history mode
@@ -2073,7 +2077,7 @@ for h in hospitals[:3]:
             </table>
           </div>
 
-          <h2 id="sec-8-2">8.2 Map Engine</h2>
+          <h2 id="sec-8-2">9.2 Map Engine</h2>
           <p>
             The interactive map uses <strong>MapLibre GL JS</strong> with multiple layer types per event:
           </p>
@@ -2090,7 +2094,7 @@ for h in hospitals[:3]:
             keeping initial page load fast even with 25 events.
           </p>
 
-          <h2 id="sec-8-3">8.3 Responsive Design</h2>
+          <h2 id="sec-8-3">9.3 Responsive Design</h2>
           <p>
             The dashboard adapts to mobile devices with:
           </p>
@@ -2101,7 +2105,7 @@ for h in hospitals[:3]:
             <li><strong>Docs/Charts</strong> — horizontal-scrolling tables, reduced padding, stacked layouts</li>
           </ul>
 
-          <h2 id="sec-8-4">8.4 Deployment</h2>
+          <h2 id="sec-8-4">9.4 Deployment</h2>
           <p>
             Automated via <strong>GitHub Actions</strong>: every push to <code>main</code> that modifies
             <code>project/nightlight-dashboard/**</code> triggers a build + deploy workflow. The Vite
@@ -2502,8 +2506,9 @@ const allSections = [
   { id: 'features',     num: '05', title: 'Feature Engineering', tags: ['17 features'] },
   { id: 'models',       num: '06', title: 'Predictive Models & Probability Maps', tags: ['RF + XGB', 'LOEO', '4 Variants'] },
   { id: 'stage3',       num: '07', title: 'Zip-Code Analysis', tags: ['EAGLE-I', 'Spatial Regression'] },
-  { id: 'web',          num: '08', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
-  { id: 'repro',        num: '09', title: 'Reproducibility', tags: ['Open data'] },
+  { id: 'conclusions',  num: '08', title: 'Conclusions & Future Work', tags: ['Limitations', 'Future Directions'] },
+  { id: 'web',          num: '09', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
+  { id: 'repro',        num: '10', title: 'Reproducibility', tags: ['Open data'] },
 ]
 
 const sectionData = computed(() => allSections.find(s => s.id === sectionId.value))
@@ -2604,11 +2609,16 @@ const SUB_SECTIONS = {
     { id: 'sec-8-3', label: '7.3 Sample' },
     { id: 'sec-8-4', label: '7.4 Models & Results' },
   ],
+  conclusions: [
+    { id: 'sec-c-1', label: 'Conclusions' },
+    { id: 'sec-c-2', label: 'Limitations' },
+    { id: 'sec-c-3', label: 'Future Directions' },
+  ],
   web: [
-    { id: 'sec-8-1', label: '8.1 Architecture' },
-    { id: 'sec-8-2', label: '8.2 Map Engine' },
-    { id: 'sec-8-3', label: '8.3 Responsive Design' },
-    { id: 'sec-8-4', label: '8.4 Deployment' },
+    { id: 'sec-8-1', label: '9.1 Architecture' },
+    { id: 'sec-8-2', label: '9.2 Map Engine' },
+    { id: 'sec-8-3', label: '9.3 Responsive Design' },
+    { id: 'sec-8-4', label: '9.4 Deployment' },
   ],
 }
 

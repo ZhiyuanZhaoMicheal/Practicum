@@ -113,13 +113,19 @@ const sections = [
     tags: ['1,002 Zip Codes', 'Spatial Regression', 'OLS + SEM'],
   },
   {
-    id: 'web', num: '08',
+    id: 'conclusions', num: '08',
+    title: 'Conclusions & Future Work',
+    summary: 'Pure nighttime light behavior achieves AUC 0.704 for generator detection — a real but modest signal. Spatial context raises this to 0.967. The effect is universal across 25 events, 5 disaster types, and 3 city sizes. Commercial generators are detectable; residential are not. This section discusses limitations (resolution, weak labels, gap-filling) and future directions (higher-resolution sensors, utility integration, emission estimation, real-time monitoring).',
+    tags: ['Conclusions', 'Limitations', 'Future Work'],
+  },
+  {
+    id: 'web', num: '09',
     title: 'Dashboard Development',
     summary: 'This interactive dashboard is built with Vue 3 + Vite, featuring MapLibre GL JS for WebGL-accelerated map rendering with per-event probability heatmaps, canvas-rendered facility icons, and satellite/vector basemap switching. The site supports mobile responsive layouts, scroll-triggered animations, and is deployed via GitHub Actions to GitHub Pages.',
     tags: ['Vue 3', 'Vite', 'MapLibre GL', 'GitHub Pages'],
   },
   {
-    id: 'repro', num: '09',
+    id: 'repro', num: '10',
     title: 'Reproducibility',
     summary: 'All data sources are publicly available (NASA, OpenStreetMap, DOE), and the full analysis pipeline is implemented in Jupyter notebooks. This section provides the exact data product IDs, API endpoints, and key academic references needed to reproduce or extend the analysis.',
     tags: ['GEE', 'Jupyter', 'Open data'],
