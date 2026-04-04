@@ -146,6 +146,64 @@
         <!-- 02 Data Collection -->
         <template v-if="sectionId === 'data'">
 
+          <div class="data-table" style="margin-bottom:28px">
+            <table>
+              <thead>
+                <tr><th>Dataset</th><th>Role</th><th>Resolution</th><th>Access</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>NASA Black Marble VNP46A2</strong></td>
+                  <td>Daily nighttime light imagery</td>
+                  <td class="mono">500m, daily</td>
+                  <td><a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2" class="inline-link" target="_blank">Google Earth Engine</a></td>
+                </tr>
+                <tr>
+                  <td><strong>EAGLE-I</strong></td>
+                  <td>Power outage records (event selection)</td>
+                  <td class="mono">County, hourly</td>
+                  <td><a href="https://eagle-i.doe.gov" class="inline-link" target="_blank">DOE EAGLE-I</a></td>
+                </tr>
+                <tr>
+                  <td><strong>OpenStreetMap</strong></td>
+                  <td>Critical facility locations (hospitals, airports, etc.)</td>
+                  <td class="mono">Point / polygon</td>
+                  <td><a href="https://overpass-api.de" class="inline-link" target="_blank">Overpass API</a></td>
+                </tr>
+                <tr>
+                  <td><strong>IBTrACS v4</strong></td>
+                  <td>Hurricane tracks + wind radii</td>
+                  <td class="mono">6-hourly</td>
+                  <td><a href="https://www.ncei.noaa.gov/products/international-best-track-archive" class="inline-link" target="_blank">NCEI / NOAA</a></td>
+                </tr>
+                <tr>
+                  <td><strong>Census ACS</strong></td>
+                  <td>Population density, median income (Stage 3)</td>
+                  <td class="mono">Zip code / tract</td>
+                  <td><a href="https://data.census.gov" class="inline-link" target="_blank">Census Bureau</a></td>
+                </tr>
+                <tr>
+                  <td><strong>NLCD</strong></td>
+                  <td>Land cover + impervious surface</td>
+                  <td class="mono">30m</td>
+                  <td><a href="https://www.mrlc.gov/data/nlcd-land-cover-conus-all-years" class="inline-link" target="_blank">MRLC</a></td>
+                </tr>
+                <tr>
+                  <td><strong>ZCTA Boundaries</strong></td>
+                  <td>Zip code spatial units (Stage 3)</td>
+                  <td class="mono">Polygon</td>
+                  <td><a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP+Code+Tabulation+Areas" class="inline-link" target="_blank">TIGER/Line</a></td>
+                </tr>
+                <tr>
+                  <td><strong>Miami-Dade Permits</strong></td>
+                  <td>Generator ground truth validation</td>
+                  <td class="mono">Address-level</td>
+                  <td><a href="https://gis-mdc.opendata.arcgis.com" class="inline-link" target="_blank">Miami-Dade Open Data</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 1: What is Black Marble?                -->
           <!-- ════════════════════════════════════════════════ -->
