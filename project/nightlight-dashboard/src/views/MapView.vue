@@ -89,18 +89,6 @@
               <span class="fac-legend__icon" style="color:#60a5fa">&#x1F6E1;</span>
               <span>Police</span>
             </div>
-            <div class="fac-legend__item">
-              <span class="fac-legend__icon" style="color:#f97316">&#x1F3DB;</span>
-              <span>Government</span>
-            </div>
-            <div class="fac-legend__item">
-              <span class="fac-legend__icon" style="color:#f59e0b">&#x1F50C;</span>
-              <span>Substation</span>
-            </div>
-            <div class="fac-legend__item">
-              <span class="fac-legend__icon" style="color:#38bdf8">&#x1F4A7;</span>
-              <span>Water Works</span>
-            </div>
           </div>
         </div>
 
@@ -119,7 +107,6 @@
             <div class="event-info__stats">
               <div><span class="lbl">Affected</span><span class="val mono">{{ activeEvent.affectedUsers }}</span></div>
               <div><span class="lbl">Outage</span><span class="val mono">{{ activeEvent.outageDuration }}</span></div>
-              <div><span class="lbl">Facilities</span><span class="val mono">{{ activeEvent.facilities.length }}</span></div>
             </div>
           </div>
         </div>
@@ -905,15 +892,13 @@ async function addEventLayers(ev) {
         'fire',        'fac-fire',
         'power',       'fac-power',
         'police',      'fac-police',
-        'government',  'fac-government',
-        'substation',  'fac-substation',
-        'water_works', 'fac-water_works',
         'fac-_default',
       ],
       'icon-size': ['interpolate', ['linear'], ['zoom'], 8, 0.4, 12, 0.7, 14, 1],
       'icon-allow-overlap': true,
       visibility: 'visible',
     },
+    filter: ['!', ['in', ['get', 'type'], ['literal', ['government', 'substation', 'water', 'water_works']]]],
   })
 
   // Facility labels
@@ -921,6 +906,7 @@ async function addEventLayers(ev) {
     id: `facilities-label-${ev.id}`,
     type: 'symbol',
     source: `facilities-${ev.id}`,
+    filter: ['!', ['in', ['get', 'type'], ['literal', ['government', 'substation', 'water', 'water_works']]]],
     minzoom: 12,
     layout: {
       'text-field': ['get', 'name'],
