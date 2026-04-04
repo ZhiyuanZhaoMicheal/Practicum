@@ -514,8 +514,8 @@ onMounted(() => {
   map = new maplibregl.Map({
     container: mapContainer.value,
     style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
-    center: [-40, 30],
-    zoom: 1.5,
+    center: [-40, 33],
+    zoom: 1.3,
     attributionControl: false,
   })
 

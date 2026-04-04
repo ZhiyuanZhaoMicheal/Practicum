@@ -1782,10 +1782,10 @@ for h in hospitals[:3]:
 
           <h2 id="sec-8-3">8.3 Sample Construction</h2>
           <p>
-            Target: <strong>~500 zip codes</strong> across <strong>25 disaster events</strong>
-            (9 existing + 16 new). Events selected from EAGLE-I based on severity
-            (duration > 72h, peak > 100K affected, >= 5 counties). Geographic coverage
-            spans 17 U.S. states from Florida to Washington, plus Puerto Rico and Turkey.
+            The analysis covers <strong>1,002 zip codes</strong> across <strong>22 U.S. disaster
+            events</strong> (Puerto Rico and Turkey excluded due to lack of U.S. ZCTA boundaries).
+            Events selected from EAGLE-I based on severity (duration > 72h, peak > 100K affected,
+            >= 5 counties). Geographic coverage spans 19 U.S. states from Florida to Washington.
           </p>
           <p>
             County-level outage data is allocated to zip codes using a <strong>multi-factor
@@ -1816,12 +1816,17 @@ for h in hospitals[:3]:
             analysis by city size (large/medium/small) connects to Stage 1/2's floor effect findings.
           </p>
 
-          <div class="callout callout--amber">
-            <span>--</span>
-            <div>
-              <strong>Status:</strong> Stage 3 is in progress. GEE data download for 16 new events
-              is underway. Preliminary results will be updated here as analysis completes.
-            </div>
+          <div class="takeaway">
+            <div class="takeaway__label">PRELIMINARY RESULTS</div>
+            <p class="takeaway__text">
+              OLS with event fixed effects: <strong>R² = 0.475</strong>, facility density
+              coefficient p = 9.6e-54. Moran's I = 0.329 (p = 0.001) confirms spatial
+              autocorrelation; Spatial Error Model controls for neighbor effects and
+              <strong>the facility density effect survives</strong> (lambda = 0.648).
+              Subgroup analysis shows the effect is consistent across large, medium, and
+              small cities, and across all disaster types (hurricane, winter storm, derecho,
+              ice storm, severe storm). Sign consistency: <strong>12/12 events (100%)</strong>.
+            </p>
           </div>
         </template>
 

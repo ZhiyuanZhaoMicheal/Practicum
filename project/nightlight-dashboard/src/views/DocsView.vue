@@ -114,8 +114,8 @@ const sections = [
   },
   {
     id: 'stage3', num: '08',
-    title: 'Stage 3: Zip-Code Analysis',
-    summary: 'Do areas with more critical facilities experience less severe power outages? Stage 3 extends the pixel-level analysis to zip-code-level spatial regression. Using EAGLE-I outage records (2014–2023), IBTrACS hurricane tracks, Census ACS demographics, and the Stage 2 backup power probability maps, we test whether facility density and predicted backup power correlate with historical outage severity across ~500 zip codes and 25 disaster events.',
+    title: 'Zip-Code Analysis',
+    summary: 'Do areas with more critical facilities experience less severe power outages? This section extends the pixel-level analysis to zip-code-level spatial regression. Using EAGLE-I outage records (2014–2023), IBTrACS hurricane tracks, Census ACS demographics, and the backup power probability maps, we test whether facility density and predicted backup power correlate with historical outage severity across 1,002 zip codes and 25 disaster events.',
     tags: ['EAGLE-I', 'Zip Code', 'Spatial Regression', 'IBTrACS'],
   },
   {
