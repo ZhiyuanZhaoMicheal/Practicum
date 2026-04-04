@@ -1,0 +1,5902 @@
+[
+  {
+    "name": "Lenox Health Greenwich Village",
+    "type": "hospital",
+    "coords": [
+      -74.00083,
+      40.73778
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Essex County Isolation Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.17183,
+      40.7957
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Back to health",
+    "type": "hospital",
+    "coords": [
+      -73.99652,
+      40.59967
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Girling Health Care",
+    "type": "hospital",
+    "coords": [
+      -74.02444,
+      40.61657
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Hudson Community Action Corporation",
+    "type": "hospital",
+    "coords": [
+      -74.11845,
+      40.86402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Willowbrook Pediatrics",
+    "type": "hospital",
+    "coords": [
+      -74.24922,
+      40.88904
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hudson County Meadowview Psychiatric Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.05748,
+      40.78528
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Alantic Health Patient Transport Center",
+    "type": "hospital",
+    "coords": [
+      -74.34313,
+      40.81052
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Liberty Endoscopy Center",
+    "type": "hospital",
+    "coords": [
+      -74.00587,
+      40.71005
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hospital for Special Surgery",
+    "type": "hospital",
+    "coords": [
+      -74.01171,
+      40.65558
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Urgent Care West Orange",
+    "type": "hospital",
+    "coords": [
+      -74.24999,
+      40.80344
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken University Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.03401,
+      40.74136
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "VA New York Harbor Healthcare System Brooklyn Campus",
+    "type": "hospital",
+    "coords": [
+      -74.02412,
+      40.6079
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hackensack University Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.05531,
+      40.88372
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Holy Name Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.01002,
+      40.88299
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "St Joseph Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.24921,
+      40.88907
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jersey City Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.05086,
+      40.71525
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Saint Michael's Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.17425,
+      40.74403
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "VA New Jersey Health Care System",
+    "type": "hospital",
+    "coords": [
+      -74.23536,
+      40.75244
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kessler Institute for Rehabilitation",
+    "type": "hospital",
+    "coords": [
+      -74.27772,
+      40.78481
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Beth Israel Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.21254,
+      40.71013
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clara Maass Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.17689,
+      40.78578
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Columbus Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.18665,
+      40.77265
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Richmond University Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.10548,
+      40.6361
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayley Seton Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.07575,
+      40.62239
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hudson Regional Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.07356,
+      40.79141
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Palisades Medical Center",
+    "type": "hospital",
+    "coords": [
+      -73.99572,
+      40.79412
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Trinitas Regional Medical Center Williamson Campus",
+    "type": "hospital",
+    "coords": [
+      -74.21426,
+      40.65894
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "St. Mary's General Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.13799,
+      40.85939
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mountainside Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.20457,
+      40.81125
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Christ Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.04995,
+      40.73402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange General Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.21354,
+      40.75451
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Saint Barnabas Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.30511,
+      40.76348
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Medical Center",
+    "type": "hospital",
+    "coords": [
+      -74.11263,
+      40.66813
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Trinitas Regional Medical Center New Point Campus",
+    "type": "hospital",
+    "coords": [
+      -74.19762,
+      40.65925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Robert Wood Johnson University Hospital At Rahway",
+    "type": "hospital",
+    "coords": [
+      -74.29091,
+      40.61314
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Maimonides Medical Center",
+    "type": "hospital",
+    "coords": [
+      -73.99878,
+      40.63946
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.19043,
+      40.74036
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYU Langone Hospital \u2013 Brooklyn",
+    "type": "hospital",
+    "coords": [
+      -74.02112,
+      40.64668
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NewYork-Presbyterian Lower Manhattan Hospital",
+    "type": "hospital",
+    "coords": [
+      -74.00497,
+      40.71031
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carmel Richmond",
+    "type": "hospital",
+    "coords": [
+      -74.09059,
+      40.59546
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Alantic Health Transport Center",
+    "type": "hospital",
+    "coords": [
+      -74.34321,
+      40.81055
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Essex County Hospital Center",
+    "type": "hospital",
+    "coords": [
+      -74.23481,
+      40.85197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Passaic River Seaplane Base",
+    "type": "airport",
+    "coords": [
+      -74.12098,
+      40.8296
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Newark Liberty International Airport",
+    "type": "airport",
+    "coords": [
+      -74.17269,
+      40.68914
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "West 30th Street Heliport",
+    "type": "airport",
+    "coords": [
+      -74.00707,
+      40.755
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Teterboro Airport",
+    "type": "airport",
+    "coords": [
+      -74.06468,
+      40.84913
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Linden Airport",
+    "type": "airport",
+    "coords": [
+      -74.24464,
+      40.61647
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Essex County Airport",
+    "type": "airport",
+    "coords": [
+      -74.2826,
+      40.87262
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Hoboken Fire Dept Ladder 2 Engine 5",
+    "type": "fire",
+    "coords": [
+      -74.03961,
+      40.73693
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Hazardous Materials Company 1",
+    "type": "fire",
+    "coords": [
+      -74.11715,
+      40.66865
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carteret Fire Company Number 3",
+    "type": "fire",
+    "coords": [
+      -74.24323,
+      40.59262
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Washington Park Hose Company Number 2",
+    "type": "fire",
+    "coords": [
+      -74.04732,
+      40.84084
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Rutherford Engine Company Number 2",
+    "type": "fire",
+    "coords": [
+      -74.11386,
+      40.84627
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Passaic Truck Company Number 2",
+    "type": "fire",
+    "coords": [
+      -74.11592,
+      40.86406
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Passaic Engine Company Number 2",
+    "type": "fire",
+    "coords": [
+      -74.11591,
+      40.86406
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rahway Engine Company Number 5",
+    "type": "fire",
+    "coords": [
+      -74.2907,
+      40.60713
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange Fire Company Number 1",
+    "type": "fire",
+    "coords": [
+      -74.21487,
+      40.7651
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Engine Company Number 7",
+    "type": "fire",
+    "coords": [
+      -74.21848,
+      40.67205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Engine Company Number 4",
+    "type": "fire",
+    "coords": [
+      -74.19126,
+      40.64816
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Engine Company Number 5",
+    "type": "fire",
+    "coords": [
+      -74.18939,
+      40.65319
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Engine Company Number 2",
+    "type": "fire",
+    "coords": [
+      -74.21652,
+      40.64805
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Engine Company Number 3",
+    "type": "fire",
+    "coords": [
+      -74.20098,
+      40.65899
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Hook and Ladder Company Number 3",
+    "type": "fire",
+    "coords": [
+      -74.20101,
+      40.65899
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Engine Company 3",
+    "type": "fire",
+    "coords": [
+      -74.11711,
+      40.6687
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Engine Company 2",
+    "type": "fire",
+    "coords": [
+      -74.13169,
+      40.64974
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Grove Street Fire House",
+    "type": "fire",
+    "coords": [
+      -74.2159,
+      40.73529
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Coit Street Fire House",
+    "type": "fire",
+    "coords": [
+      -74.22391,
+      40.72173
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Ladder Company 3",
+    "type": "fire",
+    "coords": [
+      -74.10386,
+      40.68918
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Engine Company 6",
+    "type": "fire",
+    "coords": [
+      -74.10384,
+      40.68921
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Engine Company 5",
+    "type": "fire",
+    "coords": [
+      -74.11087,
+      40.67414
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little Ferry Hose Company Number 1",
+    "type": "fire",
+    "coords": [
+      -74.03861,
+      40.84806
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little Ferry Hook and Ladder Company Number 1",
+    "type": "fire",
+    "coords": [
+      -74.03812,
+      40.85085
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Tower Ladder Company 2",
+    "type": "fire",
+    "coords": [
+      -74.1171,
+      40.66874
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Tower Ladder Company 1",
+    "type": "fire",
+    "coords": [
+      -74.13166,
+      40.64973
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange Truck Company Number 3",
+    "type": "fire",
+    "coords": [
+      -74.20626,
+      40.77343
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Ladder Company Number 2",
+    "type": "fire",
+    "coords": [
+      -74.03858,
+      40.73815
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange Hose Company Number 3",
+    "type": "fire",
+    "coords": [
+      -74.21557,
+      40.78145
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange Engine Company Number 4",
+    "type": "fire",
+    "coords": [
+      -74.20623,
+      40.77343
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Engine Company Number 1",
+    "type": "fire",
+    "coords": [
+      -74.0386,
+      40.7381
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Ladder Company Number 1;Hoboken Engine Company Number 3",
+    "type": "fire",
+    "coords": [
+      -74.02595,
+      40.75276
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 77 & Engine Company 153",
+    "type": "fire",
+    "coords": [
+      -74.0777,
+      40.62505
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 78",
+    "type": "fire",
+    "coords": [
+      -74.08775,
+      40.63767
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 80",
+    "type": "fire",
+    "coords": [
+      -74.13539,
+      40.6362
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 83",
+    "type": "fire",
+    "coords": [
+      -74.13083,
+      40.61529
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 166",
+    "type": "fire",
+    "coords": [
+      -74.158,
+      40.61425
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 86",
+    "type": "fire",
+    "coords": [
+      -74.15802,
+      40.61422
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Foam Company 83",
+    "type": "fire",
+    "coords": [
+      -74.07055,
+      40.61138
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Rescue Company 5",
+    "type": "fire",
+    "coords": [
+      -74.08918,
+      40.60735
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 160",
+    "type": "fire",
+    "coords": [
+      -74.08917,
+      40.60734
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 163",
+    "type": "fire",
+    "coords": [
+      -74.13082,
+      40.61523
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 81",
+    "type": "fire",
+    "coords": [
+      -74.06987,
+      40.59679
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 161",
+    "type": "fire",
+    "coords": [
+      -74.06992,
+      40.59679
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 155",
+    "type": "fire",
+    "coords": [
+      -74.08779,
+      40.63765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 157",
+    "type": "fire",
+    "coords": [
+      -74.13538,
+      40.63628
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 156",
+    "type": "fire",
+    "coords": [
+      -74.11722,
+      40.63278
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 159",
+    "type": "fire",
+    "coords": [
+      -74.1006,
+      40.59072
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 247",
+    "type": "fire",
+    "coords": [
+      -73.99768,
+      40.62807
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 4/Ladder 15",
+    "type": "fire",
+    "coords": [
+      -74.00754,
+      40.70362
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carlstadt Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.09487,
+      40.84165
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.14403,
+      40.77049
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ames Avenue Fire House",
+    "type": "fire",
+    "coords": [
+      -74.10284,
+      40.82919
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Mortimer Avenue Fire House",
+    "type": "fire",
+    "coords": [
+      -74.11424,
+      40.82396
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West End Fire House",
+    "type": "fire",
+    "coords": [
+      -74.1148,
+      40.83718
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Springfield Fire Station",
+    "type": "fire",
+    "coords": [
+      -74.31682,
+      40.70568
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Park Row Hose Company No. 3",
+    "type": "fire",
+    "coords": [
+      -74.1034,
+      40.85596
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wallington Engine Company No.2",
+    "type": "fire",
+    "coords": [
+      -74.10484,
+      40.84452
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wallington FD - Truck Company No. 1",
+    "type": "fire",
+    "coords": [
+      -74.11424,
+      40.8538
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.24773,
+      40.62823
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.32038,
+      40.62177
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clark Fire HQ",
+    "type": "fire",
+    "coords": [
+      -74.29989,
+      40.62555
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden FD",
+    "type": "fire",
+    "coords": [
+      -74.26811,
+      40.63382
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.02652,
+      40.86228
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Orange Township Fire House",
+    "type": "fire",
+    "coords": [
+      -74.23904,
+      40.7678
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.29093,
+      40.84925
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine No. 15",
+    "type": "fire",
+    "coords": [
+      -74.06891,
+      40.73181
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Newark Fire House",
+    "type": "fire",
+    "coords": [
+      -74.15904,
+      40.75217
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.3303,
+      40.64279
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire HQ",
+    "type": "fire",
+    "coords": [
+      -74.31548,
+      40.79369
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "LFD Northfield Firehouse",
+    "type": "fire",
+    "coords": [
+      -74.32751,
+      40.77197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "WO Engine 2",
+    "type": "fire",
+    "coords": [
+      -74.23043,
+      40.78645
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine 11 Ladder 11 Hazmat",
+    "type": "fire",
+    "coords": [
+      -74.20035,
+      40.73878
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine 26 Ladder 12 BC6",
+    "type": "fire",
+    "coords": [
+      -74.23176,
+      40.74718
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine 18 BC4 NFD",
+    "type": "fire",
+    "coords": [
+      -74.2078,
+      40.72728
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "E10 L5 R1 Arson HQ",
+    "type": "fire",
+    "coords": [
+      -74.19319,
+      40.7214
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Department",
+    "type": "fire",
+    "coords": [
+      -73.99829,
+      40.84825
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jersey City Fire Dept Training Academy",
+    "type": "fire",
+    "coords": [
+      -74.05738,
+      40.74016
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Rescue Squad",
+    "type": "fire",
+    "coords": [
+      -74.07191,
+      40.71722
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.08971,
+      40.70374
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.02715,
+      40.76045
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Department of Jersey City",
+    "type": "fire",
+    "coords": [
+      -74.04114,
+      40.71583
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Verona Volunteer Fire Department Engine Co. No. 1",
+    "type": "fire",
+    "coords": [
+      -74.25673,
+      40.83499
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Center Fire Company No. 1",
+    "type": "fire",
+    "coords": [
+      -74.22887,
+      40.85145
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ridgefield Park Heavy Rescue",
+    "type": "fire",
+    "coords": [
+      -74.02672,
+      40.85104
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ridgefield Park Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.02632,
+      40.85092
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Station 4",
+    "type": "fire",
+    "coords": [
+      -74.25637,
+      40.81568
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.29086,
+      40.87907
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Fire Station 4",
+    "type": "fire",
+    "coords": [
+      -74.1103,
+      40.72562
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.1814,
+      40.78163
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cranford Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.30223,
+      40.65692
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Rutherford Fire Dept. (HQ)",
+    "type": "fire",
+    "coords": [
+      -74.10095,
+      40.83545
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.15059,
+      40.74434
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 224",
+    "type": "fire",
+    "coords": [
+      -73.99716,
+      40.69311
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 154",
+    "type": "fire",
+    "coords": [
+      -74.18047,
+      40.59787
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Ladder Company 79",
+    "type": "fire",
+    "coords": [
+      -74.12198,
+      40.6344
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 156",
+    "type": "fire",
+    "coords": [
+      -74.11676,
+      40.63098
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 158",
+    "type": "fire",
+    "coords": [
+      -74.15995,
+      40.63526
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 152 & Battalion 21",
+    "type": "fire",
+    "coords": [
+      -74.07041,
+      40.61165
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Ladder 20/Division 1",
+    "type": "fire",
+    "coords": [
+      -73.99652,
+      40.72295
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 55",
+    "type": "fire",
+    "coords": [
+      -73.99576,
+      40.71984
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 279/Ladder 131",
+    "type": "fire",
+    "coords": [
+      -73.99961,
+      40.67216
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 201;Ladder 114;Battalion 40",
+    "type": "fire",
+    "coords": [
+      -74.0132,
+      40.64539
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 241/Ladder 109",
+    "type": "fire",
+    "coords": [
+      -74.02514,
+      40.63815
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 242",
+    "type": "fire",
+    "coords": [
+      -74.02942,
+      40.61735
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 284 and Ladder Company 149",
+    "type": "fire",
+    "coords": [
+      -74.01252,
+      40.61994
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 243 & Ladder 168",
+    "type": "fire",
+    "coords": [
+      -74.00347,
+      40.60605
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Engine Company 247",
+    "type": "fire",
+    "coords": [
+      -73.99773,
+      40.62802
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 228",
+    "type": "fire",
+    "coords": [
+      -74.0053,
+      40.65182
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Squad 18",
+    "type": "fire",
+    "coords": [
+      -74.00036,
+      40.73443
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 24/Ladder 5/Battalion 2",
+    "type": "fire",
+    "coords": [
+      -74.00343,
+      40.72803
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Ladder 8",
+    "type": "fire",
+    "coords": [
+      -74.00662,
+      40.71956
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 7/Ladder 1/Battalion 1",
+    "type": "fire",
+    "coords": [
+      -74.00616,
+      40.71535
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rutherford Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.1142,
+      40.82398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Millburn Fire Station",
+    "type": "fire",
+    "coords": [
+      -74.31211,
+      40.72396
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 3/Ladder 12/Battalion 7",
+    "type": "fire",
+    "coords": [
+      -73.99688,
+      40.74117
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne FD Rescue Co.1 Engine Co.4",
+    "type": "fire",
+    "coords": [
+      -74.12882,
+      40.66202
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 34/Ladder 21",
+    "type": "fire",
+    "coords": [
+      -73.99651,
+      40.75654
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Rescue 1",
+    "type": "fire",
+    "coords": [
+      -73.99659,
+      40.76071
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDJC Palisade Ave. Firehouse",
+    "type": "fire",
+    "coords": [
+      -74.04154,
+      40.7489
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little Falls Engine Company 2",
+    "type": "fire",
+    "coords": [
+      -74.22705,
+      40.88191
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little Falls Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.22249,
+      40.87841
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Singac Fire Station 3",
+    "type": "fire",
+    "coords": [
+      -74.24569,
+      40.88505
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clifton Fire Department Station 5",
+    "type": "fire",
+    "coords": [
+      -74.1596,
+      40.84683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clifton Fire Department Station 4",
+    "type": "fire",
+    "coords": [
+      -74.14058,
+      40.83188
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 10/Ladder 10",
+    "type": "fire",
+    "coords": [
+      -74.01257,
+      40.70983
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 6",
+    "type": "fire",
+    "coords": [
+      -74.0054,
+      40.70995
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Engine 202/Ladder 101/Battalion 32",
+    "type": "fire",
+    "coords": [
+      -74.00635,
+      40.6803
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Montclair Fire Department Headquarters",
+    "type": "fire",
+    "coords": [
+      -74.20942,
+      40.80739
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Marine 1",
+    "type": "fire",
+    "coords": [
+      -74.01182,
+      40.74065
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rahway Fire Department Headquarters",
+    "type": "fire",
+    "coords": [
+      -74.27601,
+      40.60395
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.20825,
+      40.84041
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Department of Jersey City Engine 7 Ladder 3",
+    "type": "fire",
+    "coords": [
+      -74.05736,
+      40.74018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jersey City Gong Club Car 26",
+    "type": "fire",
+    "coords": [
+      -74.05858,
+      40.73766
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Fighters Memorial Station",
+    "type": "fire",
+    "coords": [
+      -74.04066,
+      40.72619
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.05233,
+      40.72546
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jesey City Fire Department Engine 9",
+    "type": "fire",
+    "coords": [
+      -74.07036,
+      40.72409
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.17696,
+      40.74803
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine 7 NFD",
+    "type": "fire",
+    "coords": [
+      -74.18663,
+      40.74358
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine 18 BC 4",
+    "type": "fire",
+    "coords": [
+      -74.20869,
+      40.72757
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.23008,
+      40.73962
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.1932,
+      40.7214
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.15626,
+      40.7203
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.16197,
+      40.731
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Fire Department-Engine 13",
+    "type": "fire",
+    "coords": [
+      -74.1655,
+      40.7769
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Fire Department Engine 28",
+    "type": "fire",
+    "coords": [
+      -74.17914,
+      40.77327
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Montclair Fire Dept.",
+    "type": "fire",
+    "coords": [
+      -74.22559,
+      40.80017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.15732,
+      40.74694
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Rescue Company Number 1",
+    "type": "fire",
+    "coords": [
+      -74.03245,
+      40.74692
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Fire Department Engine 3",
+    "type": "fire",
+    "coords": [
+      -74.0376,
+      40.74013
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Roselle Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.26125,
+      40.65179
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.10484,
+      40.84452
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clifton Fire Station 6",
+    "type": "fire",
+    "coords": [
+      -74.1692,
+      40.86977
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.20506,
+      40.67027
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Engine Company Number 1",
+    "type": "fire",
+    "coords": [
+      -74.21483,
+      40.6612
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Garwood Volunteer Fire Station",
+    "type": "fire",
+    "coords": [
+      -74.32578,
+      40.65109
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bergen Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.02643,
+      40.77914
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.33037,
+      40.64278
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Squad Co. 23, Teaneck FD",
+    "type": "fire",
+    "coords": [
+      -74.01329,
+      40.87303
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bogota FD Engine 1, Ladder 1",
+    "type": "fire",
+    "coords": [
+      -74.02965,
+      40.87929
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bogota FD Engine 3",
+    "type": "fire",
+    "coords": [
+      -74.03115,
+      40.86906
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDRP Truck 2",
+    "type": "fire",
+    "coords": [
+      -74.01926,
+      40.8625
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Hudson Regional Fire & Rescue",
+    "type": "fire",
+    "coords": [
+      -74.04498,
+      40.76064
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kenilworth Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.2931,
+      40.67786
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine Co. 1, HFD",
+    "type": "fire",
+    "coords": [
+      -74.04201,
+      40.87239
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine Co. 2, HFD",
+    "type": "fire",
+    "coords": [
+      -74.06281,
+      40.88117
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hackensack Fire Headquarters",
+    "type": "fire",
+    "coords": [
+      -74.04461,
+      40.88514
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bloomfield Fire Station #4",
+    "type": "fire",
+    "coords": [
+      -74.18797,
+      40.80944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.23253,
+      40.66417
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Belleville Fire Station #2",
+    "type": "fire",
+    "coords": [
+      -74.14887,
+      40.7955
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.11386,
+      40.84628
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.14148,
+      40.7929
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Engine Co. 2, Rescue Co. 1, Secaucus FD",
+    "type": "fire",
+    "coords": [
+      -74.05878,
+      40.79991
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.26115,
+      40.86039
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.13363,
+      40.8776
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "FDNY Marine 9",
+    "type": "fire",
+    "coords": [
+      -74.07242,
+      40.62994
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Fire Station 5",
+    "type": "fire",
+    "coords": [
+      -74.10267,
+      40.67289
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -74.34042,
+      40.79492
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Roseland Volunteer Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.30865,
+      40.82041
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Colonia Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.31305,
+      40.60027
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Verona Volunteer Fire Department Company No. 2",
+    "type": "fire",
+    "coords": [
+      -74.23536,
+      40.82612
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South End Fire Company Station 3",
+    "type": "fire",
+    "coords": [
+      -74.22797,
+      40.8386
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union Township Station No. 3",
+    "type": "fire",
+    "coords": [
+      -74.24092,
+      40.68695
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union Township Fire Headquarters",
+    "type": "fire",
+    "coords": [
+      -74.26888,
+      40.69403
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bloomfield Fire Station No. 2",
+    "type": "fire",
+    "coords": [
+      -74.19408,
+      40.78332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Nutley Fire Department",
+    "type": "fire",
+    "coords": [
+      -74.15803,
+      40.819
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union Township Station No. 2",
+    "type": "fire",
+    "coords": [
+      -74.28024,
+      40.71078
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Great Notch Fire Company",
+    "type": "fire",
+    "coords": [
+      -74.20699,
+      40.87299
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Police Headquarters",
+    "type": "police",
+    "coords": [
+      -74.20923,
+      40.6632
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York City Police Headquarters",
+    "type": "police",
+    "coords": [
+      -74.00225,
+      40.71198
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Roselle Police Department",
+    "type": "police",
+    "coords": [
+      -74.26374,
+      40.6583
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.28936,
+      40.67596
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carlstadt Police Department",
+    "type": "police",
+    "coords": [
+      -74.09459,
+      40.84172
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Police Department",
+    "type": "police",
+    "coords": [
+      -74.13793,
+      40.77199
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "SpringField PD",
+    "type": "police",
+    "coords": [
+      -74.31459,
+      40.70891
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cranford PD",
+    "type": "police",
+    "coords": [
+      -74.30148,
+      40.65726
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.2746,
+      40.6046
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ridgefield Park Police",
+    "type": "police",
+    "coords": [
+      -74.02538,
+      40.85815
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little Ferry Police Station",
+    "type": "police",
+    "coords": [
+      -74.04448,
+      40.85033
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NJIT Public Safety",
+    "type": "police",
+    "coords": [
+      -74.17889,
+      40.74029
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD 5 PCT",
+    "type": "police",
+    "coords": [
+      -73.99746,
+      40.71618
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD 1 PCT",
+    "type": "police",
+    "coords": [
+      -74.00704,
+      40.72035
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD 10 PCT",
+    "type": "police",
+    "coords": [
+      -73.99838,
+      40.74269
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD 6 PCT",
+    "type": "police",
+    "coords": [
+      -74.00545,
+      40.73404
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD Special Victims Division",
+    "type": "police",
+    "coords": [
+      -74.00078,
+      40.71724
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "JCPD North District",
+    "type": "police",
+    "coords": [
+      -74.05024,
+      40.74444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Little Falls Police Department",
+    "type": "police",
+    "coords": [
+      -74.23479,
+      40.88255
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Orange Police",
+    "type": "police",
+    "coords": [
+      -74.24632,
+      40.76938
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Police Complex",
+    "type": "police",
+    "coords": [
+      -74.16589,
+      40.76562
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.15882,
+      40.75217
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Garwood Police",
+    "type": "police",
+    "coords": [
+      -74.32546,
+      40.65118
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "JCPD East District",
+    "type": "police",
+    "coords": [
+      -74.0427,
+      40.72589
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Police Crime Prevention",
+    "type": "police",
+    "coords": [
+      -74.23067,
+      40.78697
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Teaneck Police Department",
+    "type": "police",
+    "coords": [
+      -74.00689,
+      40.88668
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD 68th Precinct",
+    "type": "police",
+    "coords": [
+      -74.02265,
+      40.63894
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Police Department",
+    "type": "police",
+    "coords": [
+      -73.99811,
+      40.84804
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stevens Campus Police",
+    "type": "police",
+    "coords": [
+      -74.02638,
+      40.74358
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cedar Grove Police Station",
+    "type": "police",
+    "coords": [
+      -74.22863,
+      40.85152
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union City Police Department",
+    "type": "police",
+    "coords": [
+      -74.02492,
+      40.7742
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Orange Police Dept.",
+    "type": "police",
+    "coords": [
+      -74.2256,
+      40.77136
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rutgers Public Safety and Security",
+    "type": "police",
+    "coords": [
+      -74.17421,
+      40.74032
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD Emergency Service Unit Squad 6",
+    "type": "police",
+    "coords": [
+      -74.02238,
+      40.63878
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Verona Police Department",
+    "type": "police",
+    "coords": [
+      -74.24669,
+      40.83243
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Guttenberg Police Department",
+    "type": "police",
+    "coords": [
+      -74.00379,
+      40.79159
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Police department: 1st precinct",
+    "type": "police",
+    "coords": [
+      -74.19075,
+      40.73043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lyndhurst Police Department",
+    "type": "police",
+    "coords": [
+      -74.12452,
+      40.81268
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Hackensack Police Department",
+    "type": "police",
+    "coords": [
+      -74.04578,
+      40.86019
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port Authority Police - NJMT Command",
+    "type": "police",
+    "coords": [
+      -74.16276,
+      40.66865
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Police - Office of Professional Standards",
+    "type": "police",
+    "coords": [
+      -74.16973,
+      40.7454
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Police Department Sub-Precinct Community Resource Center",
+    "type": "police",
+    "coords": [
+      -74.17123,
+      40.7355
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York State Police - SP Staten Island",
+    "type": "police",
+    "coords": [
+      -74.06419,
+      40.60148
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.01048,
+      40.71217
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "MTA Police Department District 9",
+    "type": "police",
+    "coords": [
+      -74.07502,
+      40.63465
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harrison Police Riverbend Station",
+    "type": "police",
+    "coords": [
+      -74.15587,
+      40.73972
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Livingston Police Station",
+    "type": "police",
+    "coords": [
+      -74.3143,
+      40.7827
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Rutherford Police Dept.",
+    "type": "police",
+    "coords": [
+      -74.10124,
+      40.83555
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "University Police",
+    "type": "police",
+    "coords": [
+      -74.20139,
+      40.86004
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York Police Department 76th Precinct",
+    "type": "police",
+    "coords": [
+      -74.00025,
+      40.68385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "120 Precinct Police Station",
+    "type": "police",
+    "coords": [
+      -74.07746,
+      40.64464
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Waterfront Commission Police",
+    "type": "police",
+    "coords": [
+      -74.00162,
+      40.68827
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NYPD Harbor Unit",
+    "type": "police",
+    "coords": [
+      -74.02876,
+      40.64408
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York City Police Department - 62nd Precinct",
+    "type": "police",
+    "coords": [
+      -74.00308,
+      40.60258
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New York City Police Department 72nd Precinct",
+    "type": "police",
+    "coords": [
+      -74.00106,
+      40.65819
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rutherford Police",
+    "type": "police",
+    "coords": [
+      -74.109,
+      40.82576
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Millburn Law Enforcement",
+    "type": "police",
+    "coords": [
+      -74.31163,
+      40.72411
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union County Police Department",
+    "type": "police",
+    "coords": [
+      -74.34069,
+      40.65086
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Police Headquarters",
+    "type": "police",
+    "coords": [
+      -74.11689,
+      40.66841
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Manhattan South Task Force",
+    "type": "police",
+    "coords": [
+      -73.99676,
+      40.75988
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "1 Police Plaza",
+    "type": "police",
+    "coords": [
+      -74.00185,
+      40.7122
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Montclair Police Department",
+    "type": "police",
+    "coords": [
+      -74.22092,
+      40.81694
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "121st Precinct",
+    "type": "police",
+    "coords": [
+      -74.15069,
+      40.6236
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "JCPD South District",
+    "type": "police",
+    "coords": [
+      -74.08498,
+      40.70909
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "JCPD West District",
+    "type": "police",
+    "coords": [
+      -74.07416,
+      40.71693
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.19982,
+      40.72111
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "3rd Precinct - Newark Police Department",
+    "type": "police",
+    "coords": [
+      -74.14925,
+      40.73074
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Police Division Roseville Section - 7th Precinct",
+    "type": "police",
+    "coords": [
+      -74.18536,
+      40.76977
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.15717,
+      40.74668
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Police Station",
+    "type": "police",
+    "coords": [
+      -74.03002,
+      40.73772
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.0947,
+      40.82976
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bergan Police department",
+    "type": "police",
+    "coords": [
+      -74.02751,
+      40.77973
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union City Police Department",
+    "type": "police",
+    "coords": [
+      -74.03979,
+      40.75659
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bogota Police Department",
+    "type": "police",
+    "coords": [
+      -74.02992,
+      40.87931
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Orange Police Department",
+    "type": "police",
+    "coords": [
+      -74.25329,
+      40.74549
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clifton Police",
+    "type": "police",
+    "coords": [
+      -74.13822,
+      40.87367
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hackensack Police Department",
+    "type": "police",
+    "coords": [
+      -74.04409,
+      40.88575
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Security and Police Substation",
+    "type": "police",
+    "coords": [
+      -74.03855,
+      40.72653
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange Police Department",
+    "type": "police",
+    "coords": [
+      -74.2113,
+      40.75874
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.26135,
+      40.86053
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.17853,
+      40.83753
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kean Police",
+    "type": "police",
+    "coords": [
+      -74.23283,
+      40.67683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.15603,
+      40.70729
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Police Department",
+    "type": "police",
+    "coords": [
+      -74.21272,
+      40.6669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union Township Police Department",
+    "type": "police",
+    "coords": [
+      -74.27686,
+      40.69691
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.1579,
+      40.81914
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -74.23434,
+      40.72493
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Irvington Police Department",
+    "type": "police",
+    "coords": [
+      -74.23434,
+      40.72716
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Garfield Police Station",
+    "type": "police",
+    "coords": [
+      -74.10289,
+      40.87858
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Caldwell Police Department",
+    "type": "police",
+    "coords": [
+      -74.29227,
+      40.8506
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Essex County Sheriff\u2019s Patrol Division H.Q.",
+    "type": "police",
+    "coords": [
+      -74.19376,
+      40.75245
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bloomfield Station Troop 10",
+    "type": "police",
+    "coords": [
+      -74.17862,
+      40.83736
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Generating Station",
+    "type": "power",
+    "coords": [
+      -74.09878,
+      40.73729
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bergen Generating Station",
+    "type": "power",
+    "coords": [
+      -74.02369,
+      40.83749
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Xchange Solar Field",
+    "type": "power",
+    "coords": [
+      -74.08334,
+      40.76703
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearney Solar Farm",
+    "type": "power",
+    "coords": [
+      -74.10997,
+      40.75099
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Joseph J. Seymour Power Project",
+    "type": "power",
+    "coords": [
+      -73.99985,
+      40.66301
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Generating Station",
+    "type": "power",
+    "coords": [
+      -74.20962,
+      40.62353
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rutgers Health Sciences Power Plant",
+    "type": "power",
+    "coords": [
+      -74.18724,
+      40.73936
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Narrows Gas Turbines Generating",
+    "type": "power",
+    "coords": [
+      -74.0254,
+      40.65105
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Solar Farm",
+    "type": "power",
+    "coords": [
+      -74.21478,
+      40.61955
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.33996,
+      40.75669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Energy Center",
+    "type": "power",
+    "coords": [
+      -74.0916,
+      40.65289
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Covanta Essex Company",
+    "type": "power",
+    "coords": [
+      -74.12635,
+      40.7385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pouch",
+    "type": "power",
+    "coords": [
+      -74.06833,
+      40.6182
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Energy Center",
+    "type": "power",
+    "coords": [
+      -74.12754,
+      40.70708
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Gowanus Power Plant",
+    "type": "power",
+    "coords": [
+      -74.00544,
+      40.66325
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Cogeneration Plant",
+    "type": "power",
+    "coords": [
+      -74.21461,
+      40.63236
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Arthur Kill Power Plant",
+    "type": "power",
+    "coords": [
+      -74.2007,
+      40.59135
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wilzig Associates, LLC",
+    "type": "power",
+    "coords": [
+      -74.09596,
+      40.82184
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union County Resource Recovery Facility",
+    "type": "power",
+    "coords": [
+      -74.26679,
+      40.60142
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IOS - ERW9",
+    "type": "power",
+    "coords": [
+      -74.22505,
+      40.59565
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Orange Solar",
+    "type": "power",
+    "coords": [
+      -74.33811,
+      40.75145
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Garfield Solar",
+    "type": "power",
+    "coords": [
+      -74.12246,
+      40.88861
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.12235,
+      40.88679
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Allied Beverages Elizabeth",
+    "type": "power",
+    "coords": [
+      -74.17521,
+      40.66575
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "46 Meadowlands Parkway",
+    "type": "power",
+    "coords": [
+      -74.0715,
+      40.78977
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "WEA Texas Bayonne",
+    "type": "power",
+    "coords": [
+      -74.09246,
+      40.67757
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hartz Way",
+    "type": "power",
+    "coords": [
+      -74.07273,
+      40.78251
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Royal Wine Corp Solar Power Plant",
+    "type": "power",
+    "coords": [
+      -74.10027,
+      40.66362
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Goya Foods, Inc- Secaucus Solar",
+    "type": "power",
+    "coords": [
+      -74.07739,
+      40.77298
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "77 Metro Way",
+    "type": "power",
+    "coords": [
+      -74.07245,
+      40.77031
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Caldwell Wastewater Treatment Plant Hybrid",
+    "type": "power",
+    "coords": [
+      -74.31189,
+      40.83944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DG Infineum",
+    "type": "power",
+    "coords": [
+      -74.23572,
+      40.63941
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "435A Bergen Avenue",
+    "type": "power",
+    "coords": [
+      -74.13113,
+      40.75197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Hawk Rise Solar CSG",
+    "type": "power",
+    "coords": [
+      -74.24505,
+      40.60259
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.19865,
+      40.87232
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.19861,
+      40.87217
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.19845,
+      40.87204
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hackensack Solar Farm",
+    "type": "power",
+    "coords": [
+      -74.03818,
+      40.87175
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kenilworth Energy Facility",
+    "type": "power",
+    "coords": [
+      -74.27498,
+      40.67691
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.33701,
+      40.79756
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fox Hills Battery Station",
+    "type": "power",
+    "coords": [
+      -74.07777,
+      40.60948
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union Solar LLC",
+    "type": "power",
+    "coords": [
+      -74.24852,
+      40.70811
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne MUA- Leitner-Poma Wind Turbine",
+    "type": "power",
+    "coords": [
+      -74.11766,
+      40.65284
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "BBB Corporate Headquarters",
+    "type": "power",
+    "coords": [
+      -74.30484,
+      40.69773
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westside Avenue",
+    "type": "power",
+    "coords": [
+      -74.0211,
+      40.81544
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bergen Solar",
+    "type": "power",
+    "coords": [
+      -74.01756,
+      40.81836
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Goya Foods, Inc- Jersey City Solar",
+    "type": "power",
+    "coords": [
+      -74.06479,
+      40.75976
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Prudential 80 Livingston Roseland Solar",
+    "type": "power",
+    "coords": [
+      -74.29724,
+      40.81226
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Prudential 55 Livingston Roseland Solar",
+    "type": "power",
+    "coords": [
+      -74.29656,
+      40.81537
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CCG Marketing",
+    "type": "power",
+    "coords": [
+      -74.29939,
+      40.85897
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Jersey City DWP",
+    "type": "power",
+    "coords": [
+      -74.09005,
+      40.68886
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hudson County Solar",
+    "type": "power",
+    "coords": [
+      -74.1075,
+      40.72722
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Community Foodbank of NJ",
+    "type": "power",
+    "coords": [
+      -74.21383,
+      40.69741
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.13268,
+      40.71603
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -74.03353,
+      40.79478
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "River Terminal Development Solar",
+    "type": "power",
+    "coords": [
+      -74.11576,
+      40.72683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port Richmond WWT Solar",
+    "type": "power",
+    "coords": [
+      -74.12605,
+      40.63815
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Substation",
+    "type": "substation",
+    "coords": [
+      -74.09848,
+      40.73786
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Turnpike Substation",
+    "type": "substation",
+    "coords": [
+      -74.11712,
+      40.76063
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Grove Street Traction & Signal Substation",
+    "type": "substation",
+    "coords": [
+      -74.04326,
+      40.73584
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Roseland Substation",
+    "type": "substation",
+    "coords": [
+      -74.33062,
+      40.81986
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Laurel Ave Substation",
+    "type": "substation",
+    "coords": [
+      -74.29135,
+      40.80335
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Marion Drive Substation",
+    "type": "substation",
+    "coords": [
+      -74.25826,
+      40.79198
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Orange Substation",
+    "type": "substation",
+    "coords": [
+      -74.25694,
+      40.79002
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West Caldwell Substation",
+    "type": "substation",
+    "coords": [
+      -74.29055,
+      40.85419
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cedar Substation",
+    "type": "substation",
+    "coords": [
+      -74.21759,
+      40.86724
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Athenia Switching Station",
+    "type": "substation",
+    "coords": [
+      -74.15847,
+      40.86185
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clifton Substation",
+    "type": "substation",
+    "coords": [
+      -74.16402,
+      40.85604
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Belleville Substation",
+    "type": "substation",
+    "coords": [
+      -74.14221,
+      40.80282
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harvey Future",
+    "type": "substation",
+    "coords": [
+      -74.1694,
+      40.8269
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cook Road Substation",
+    "type": "substation",
+    "coords": [
+      -74.17829,
+      40.81177
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kingsland Landfill Substation",
+    "type": "substation",
+    "coords": [
+      -74.11705,
+      40.79192
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "49th Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.03585,
+      40.78875
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Homestead Substation",
+    "type": "substation",
+    "coords": [
+      -74.04226,
+      40.77886
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Penhorn Substation",
+    "type": "substation",
+    "coords": [
+      -74.05532,
+      40.76329
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Bergen Substation",
+    "type": "substation",
+    "coords": [
+      -74.02558,
+      40.80432
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Minue Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.23795,
+      40.59099
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Substation",
+    "type": "substation",
+    "coords": [
+      -74.22667,
+      40.61229
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "HVDC B2B Station Hudson",
+    "type": "substation",
+    "coords": [
+      -74.01257,
+      40.83197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West 49th Street Substation",
+    "type": "substation",
+    "coords": [
+      -73.99588,
+      40.766
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.11036,
+      40.74483
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "NJT Meadowlands Substaion",
+    "type": "substation",
+    "coords": [
+      -74.10295,
+      40.74563
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.1211,
+      40.74334
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Amtrak Substation 4",
+    "type": "substation",
+    "coords": [
+      -74.12148,
+      40.74422
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Sub",
+    "type": "substation",
+    "coords": [
+      -74.11857,
+      40.74495
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hackensack Sub",
+    "type": "substation",
+    "coords": [
+      -74.04387,
+      40.77182
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Leonard Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.00649,
+      40.7184
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "65th Street Substation",
+    "type": "substation",
+    "coords": [
+      -73.9974,
+      40.62379
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "38th Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.00356,
+      40.65227
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IRT Substation",
+    "type": "substation",
+    "coords": [
+      -74.00108,
+      40.73611
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Greenwich Substation",
+    "type": "substation",
+    "coords": [
+      -74.00224,
+      40.739
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IRT Substation #41",
+    "type": "substation",
+    "coords": [
+      -73.99813,
+      40.73938
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "West 19th Street",
+    "type": "substation",
+    "coords": [
+      -73.99732,
+      40.74126
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -73.9952,
+      40.7657
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -73.99623,
+      40.76619
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IRT Substation #40",
+    "type": "substation",
+    "coords": [
+      -74.01065,
+      40.71489
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cliff Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.00422,
+      40.7084
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Peck Slip Substation",
+    "type": "substation",
+    "coords": [
+      -74.00078,
+      40.70791
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IRT Substation #11",
+    "type": "substation",
+    "coords": [
+      -74.00199,
+      40.7131
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.19945,
+      40.86305
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Union City Substation",
+    "type": "substation",
+    "coords": [
+      -74.04157,
+      40.76953
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Goethals Substation",
+    "type": "substation",
+    "coords": [
+      -74.19631,
+      40.6171
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fox Hill Substation",
+    "type": "substation",
+    "coords": [
+      -74.07769,
+      40.61024
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fresh Kills Substation",
+    "type": "substation",
+    "coords": [
+      -74.1969,
+      40.58924
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Gowanus Substation",
+    "type": "substation",
+    "coords": [
+      -74.00253,
+      40.66216
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clifton Substation",
+    "type": "substation",
+    "coords": [
+      -74.07144,
+      40.6197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.15236,
+      40.62581
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.1093,
+      40.64485
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clove Lakes Substation",
+    "type": "substation",
+    "coords": [
+      -74.11752,
+      40.6137
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Howland Hook Substation",
+    "type": "substation",
+    "coords": [
+      -74.18221,
+      40.64126
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port Richmond Substation",
+    "type": "substation",
+    "coords": [
+      -74.13039,
+      40.63896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Silver Lake Substation",
+    "type": "substation",
+    "coords": [
+      -74.08649,
+      40.63213
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wadsworth Substation",
+    "type": "substation",
+    "coords": [
+      -74.0665,
+      40.60552
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westerleigh Substation",
+    "type": "substation",
+    "coords": [
+      -74.13125,
+      40.62794
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Waterfront Substation",
+    "type": "substation",
+    "coords": [
+      -74.0541,
+      40.71624
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cedar Grove Substation",
+    "type": "substation",
+    "coords": [
+      -74.22144,
+      40.86842
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Sqaure Substation",
+    "type": "substation",
+    "coords": [
+      -74.17465,
+      40.72657
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New Brighton Substation",
+    "type": "substation",
+    "coords": [
+      -74.0931,
+      40.64512
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Harrison Substation",
+    "type": "substation",
+    "coords": [
+      -74.15429,
+      40.74503
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hoboken Substation",
+    "type": "substation",
+    "coords": [
+      -74.0302,
+      40.7571
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clark Substation",
+    "type": "substation",
+    "coords": [
+      -74.30694,
+      40.62978
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Madison Substation",
+    "type": "substation",
+    "coords": [
+      -74.03573,
+      40.75177
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -73.99951,
+      40.66277
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.30128,
+      40.65532
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Briant Park Substation",
+    "type": "substation",
+    "coords": [
+      -74.334,
+      40.71674
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Waverly Substation",
+    "type": "substation",
+    "coords": [
+      -74.31512,
+      40.70402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tosco Substation",
+    "type": "substation",
+    "coords": [
+      -74.21449,
+      40.63045
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.10093,
+      40.6552
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kearny Station Sub",
+    "type": "substation",
+    "coords": [
+      -74.10318,
+      40.73779
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hudson 230kV Substation",
+    "type": "substation",
+    "coords": [
+      -74.07216,
+      40.7494
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Essex Substation",
+    "type": "substation",
+    "coords": [
+      -74.12106,
+      40.73859
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.12104,
+      40.7359
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Marion 345 kV Substation",
+    "type": "substation",
+    "coords": [
+      -74.07037,
+      40.74813
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bergen Substation",
+    "type": "substation",
+    "coords": [
+      -74.01609,
+      40.83406
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "ECRRF",
+    "type": "substation",
+    "coords": [
+      -74.1255,
+      40.73766
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Waverly Sub",
+    "type": "substation",
+    "coords": [
+      -74.19845,
+      40.69023
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Warinanco Substation",
+    "type": "substation",
+    "coords": [
+      -74.23413,
+      40.64167
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Switching Station",
+    "type": "substation",
+    "coords": [
+      -74.10557,
+      40.69404
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden 345kv Substation",
+    "type": "substation",
+    "coords": [
+      -74.21117,
+      40.62388
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New Jersey Transit Orange Substation",
+    "type": "substation",
+    "coords": [
+      -74.23554,
+      40.77138
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Foundry Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.13291,
+      40.72934
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hasbrouck Heights Substation",
+    "type": "substation",
+    "coords": [
+      -74.06312,
+      40.86514
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden 230kv Substation",
+    "type": "substation",
+    "coords": [
+      -74.21059,
+      40.62151
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayway Substation",
+    "type": "substation",
+    "coords": [
+      -74.20604,
+      40.6447
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Substation",
+    "type": "substation",
+    "coords": [
+      -74.20863,
+      40.6217
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bergen Point Substation",
+    "type": "substation",
+    "coords": [
+      -74.12512,
+      40.65385
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Aldene Substation",
+    "type": "substation",
+    "coords": [
+      -74.28529,
+      40.65624
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rahway Sub",
+    "type": "substation",
+    "coords": [
+      -74.28288,
+      40.60043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "McCarter Switching Station",
+    "type": "substation",
+    "coords": [
+      -74.19362,
+      40.74637
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.01428,
+      40.6807
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Ave Substation",
+    "type": "substation",
+    "coords": [
+      -74.17459,
+      40.6694
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.30826,
+      40.72494
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westfield Substation",
+    "type": "substation",
+    "coords": [
+      -74.32421,
+      40.62697
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Caldwell Susbstation",
+    "type": "substation",
+    "coords": [
+      -74.277,
+      40.83656
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Orange Heights Switching Station",
+    "type": "substation",
+    "coords": [
+      -74.24538,
+      40.76556
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Springfield Road Substation",
+    "type": "substation",
+    "coords": [
+      -74.30057,
+      40.69591
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Stanley Terrace Substation",
+    "type": "substation",
+    "coords": [
+      -74.2665,
+      40.71274
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.27864,
+      40.67551
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Doremus Place Substation",
+    "type": "substation",
+    "coords": [
+      -74.22295,
+      40.69672
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Greenville Substation",
+    "type": "substation",
+    "coords": [
+      -74.09885,
+      40.68754
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Great Notch Substation",
+    "type": "substation",
+    "coords": [
+      -74.2018,
+      40.87529
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Great Notch Substation",
+    "type": "substation",
+    "coords": [
+      -74.19746,
+      40.87256
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.20929,
+      40.80702
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Saddle Brook Substation",
+    "type": "substation",
+    "coords": [
+      -74.10105,
+      40.88904
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.02419,
+      40.84017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "River Road Substation",
+    "type": "substation",
+    "coords": [
+      -73.99562,
+      40.7959
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kingsland Substation",
+    "type": "substation",
+    "coords": [
+      -74.11898,
+      40.79197
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Carlstadt Substation",
+    "type": "substation",
+    "coords": [
+      -74.06435,
+      40.81975
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Van Winkle Substation",
+    "type": "substation",
+    "coords": [
+      -74.09895,
+      40.82856
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Passaic Substation",
+    "type": "substation",
+    "coords": [
+      -74.12045,
+      40.86248
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Kuller Road Substation",
+    "type": "substation",
+    "coords": [
+      -74.16358,
+      40.88549
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hackensack Substation",
+    "type": "substation",
+    "coords": [
+      -74.0385,
+      40.87226
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lodi Substation",
+    "type": "substation",
+    "coords": [
+      -74.07628,
+      40.88121
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newport Substation",
+    "type": "substation",
+    "coords": [
+      -74.04825,
+      40.73291
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fairmount Substation",
+    "type": "substation",
+    "coords": [
+      -74.06254,
+      40.71855
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Garfield Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -74.06779,
+      40.71429
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Rutherford Substation",
+    "type": "substation",
+    "coords": [
+      -74.10694,
+      40.84139
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "St Pauls Substation",
+    "type": "substation",
+    "coords": [
+      -74.07428,
+      40.74427
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Bay Substation",
+    "type": "substation",
+    "coords": [
+      -74.13088,
+      40.72036
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clay Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.16707,
+      40.75041
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Passaic Valley Sewerage Commission Substation",
+    "type": "substation",
+    "coords": [
+      -74.1317,
+      40.71181
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Energy Center",
+    "type": "substation",
+    "coords": [
+      -74.12817,
+      40.70775
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ironbound Substation",
+    "type": "substation",
+    "coords": [
+      -74.1611,
+      40.72216
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.14635,
+      40.70347
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New Newark Switching Station",
+    "type": "substation",
+    "coords": [
+      -74.17735,
+      40.73332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Airport Metering and Regulating Station",
+    "type": "substation",
+    "coords": [
+      -74.14991,
+      40.70397
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Tonnelle Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -74.01667,
+      40.80629
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.34215,
+      40.7086
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chapin Road Substation",
+    "type": "substation",
+    "coords": [
+      -74.33893,
+      40.85808
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chamor Substation",
+    "type": "substation",
+    "coords": [
+      -74.33296,
+      40.85665
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.10083,
+      40.74528
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.10146,
+      40.74539
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "VFT Station Substation",
+    "type": "substation",
+    "coords": [
+      -74.21212,
+      40.63412
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "First Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.19153,
+      40.64634
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.24066,
+      40.60913
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.24127,
+      40.60789
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Rahway Substation",
+    "type": "substation",
+    "coords": [
+      -74.27248,
+      40.60863
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.26714,
+      40.60096
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Elizabeth Substation",
+    "type": "substation",
+    "coords": [
+      -74.21839,
+      40.66437
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Roselle Substation",
+    "type": "substation",
+    "coords": [
+      -74.25951,
+      40.64819
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Short Hills Substation",
+    "type": "substation",
+    "coords": [
+      -74.33566,
+      40.74811
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.19089,
+      40.78076
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Branch Brook Substation",
+    "type": "substation",
+    "coords": [
+      -74.18545,
+      40.77952
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Toney's Brook Substation",
+    "type": "substation",
+    "coords": [
+      -74.20106,
+      40.79391
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South 5th Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.15347,
+      40.7431
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "William Substation",
+    "type": "substation",
+    "coords": [
+      -74.32875,
+      40.82243
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Constable Hook Substation",
+    "type": "substation",
+    "coords": [
+      -74.10072,
+      40.65896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Bayonne Energy Center",
+    "type": "substation",
+    "coords": [
+      -74.09058,
+      40.65256
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Nye Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -74.22172,
+      40.72239
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Vauxhall Substation",
+    "type": "substation",
+    "coords": [
+      -74.25085,
+      40.6969
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Oak Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.14013,
+      40.85812
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Van Houten Substation",
+    "type": "substation",
+    "coords": [
+      -74.14636,
+      40.85738
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Pleasant Street Substation",
+    "type": "substation",
+    "coords": [
+      -74.26019,
+      40.62034
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Orange Valley Substation",
+    "type": "substation",
+    "coords": [
+      -74.24628,
+      40.7644
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.26309,
+      40.74231
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lakeside Substation",
+    "type": "substation",
+    "coords": [
+      -74.2269,
+      40.78025
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "19th Ave Substation",
+    "type": "substation",
+    "coords": [
+      -74.20966,
+      40.73102
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.09808,
+      40.73618
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "230 kV Switchgear",
+    "type": "substation",
+    "coords": [
+      -74.01604,
+      40.83328
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "345 kV Switchgear",
+    "type": "substation",
+    "coords": [
+      -74.01435,
+      40.83307
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Newark Airport Substation",
+    "type": "substation",
+    "coords": [
+      -74.19158,
+      40.68186
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fadem Road Substation",
+    "type": "substation",
+    "coords": [
+      -74.3143,
+      40.68247
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Star Ledger Substation",
+    "type": "substation",
+    "coords": [
+      -74.33897,
+      40.85444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New Washington Substation",
+    "type": "substation",
+    "coords": [
+      -74.1482,
+      40.805
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "69 kV switchgear",
+    "type": "substation",
+    "coords": [
+      -74.01614,
+      40.83457
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.28243,
+      40.67679
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.17492,
+      40.74796
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.23719,
+      40.75291
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.2673,
+      40.73812
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Livingston Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -74.31353,
+      40.81301
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.13471,
+      40.82101
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "New Lakeside Avenue Substation",
+    "type": "substation",
+    "coords": [
+      -74.21947,
+      40.78087
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Willowbrook Substation",
+    "type": "substation",
+    "coords": [
+      -74.14558,
+      40.6108
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.11738,
+      40.65391
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.29639,
+      40.85429
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.22897,
+      40.88313
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.02175,
+      40.83842
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.19991,
+      40.75338
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.1975,
+      40.67296
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -74.20783,
+      40.62089
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.20954,
+      40.80598
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wastewater Treatment Plant",
+    "type": "water",
+    "coords": [
+      -74.03181,
+      40.75736
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Owls Head Water Pollution Control Plant",
+    "type": "water",
+    "coords": [
+      -74.03362,
+      40.64172
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.20149,
+      40.64169
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.06466,
+      40.65834
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.04887,
+      40.79893
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.03315,
+      40.83419
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.3418,
+      40.80716
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.07019,
+      40.85198
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Parsippany-Troy Hills Sewage Treatment Plant",
+    "type": "water",
+    "coords": [
+      -74.34573,
+      40.84741
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.1182,
+      40.65279
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.22557,
+      40.63017
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.2263,
+      40.63015
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.22595,
+      40.63044
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.25762,
+      40.59985
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.2238,
+      40.86588
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.12653,
+      40.7113
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.13491,
+      40.71144
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Linden Roselle Sewerage Authority",
+    "type": "water",
+    "coords": [
+      -74.21872,
+      40.60902
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -74.23525,
+      40.84325
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Port Richmond Water Pollution Control Plant",
+    "type": "water",
+    "coords": [
+      -74.12547,
+      40.6384
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  }
+]

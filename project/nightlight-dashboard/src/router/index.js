@@ -14,12 +14,6 @@ const routes = [
     meta: { title: 'NightLight — Interactive Map' },
   },
   {
-    path: '/charts',
-    name: 'Charts',
-    component: () => import('@/views/ChartsView.vue'),
-    meta: { title: 'NightLight — Results' },
-  },
-  {
     path: '/docs',
     name: 'Docs',
     component: () => import('@/views/DocsView.vue'),

@@ -1,0 +1,4032 @@
+[
+  {
+    "name": "Ridgeview Institute - Smyrna",
+    "type": "hospital",
+    "coords": [
+      -84.51308,
+      33.85792
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Regional Hospital Atlanta",
+    "type": "hospital",
+    "coords": [
+      -84.27652,
+      33.6967
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Charter BHC at Laurel Heights",
+    "type": "hospital",
+    "coords": [
+      -84.34492,
+      33.77988
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta VA Medical Center",
+    "type": "hospital",
+    "coords": [
+      -84.3117,
+      33.8018
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "hospital facility",
+    "type": "hospital",
+    "coords": [
+      -84.32886,
+      33.89413
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory Wesley Woods Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.33117,
+      33.80482
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Select Specialty Hospital - Midtown Atlanta",
+    "type": "hospital",
+    "coords": [
+      -84.38275,
+      33.77378
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ridgeview Institute",
+    "type": "hospital",
+    "coords": [
+      -84.51105,
+      33.85644
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory Musculoskeletal Institute",
+    "type": "hospital",
+    "coords": [
+      -84.33513,
+      33.82849
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Inspire Hospice Atlanta",
+    "type": "hospital",
+    "coords": [
+      -84.36691,
+      33.84669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory Decatur",
+    "type": "hospital",
+    "coords": [
+      -84.28259,
+      33.79092
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Piedmont Atlanta Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.39547,
+      33.80915
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb Medical L-TAC",
+    "type": "hospital",
+    "coords": [
+      -84.29292,
+      33.77744
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory University Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.32217,
+      33.79214
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hughes Spalding Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.38185,
+      33.7538
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "WellStar Windy Hill Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.48043,
+      33.89934
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Laurel Heights Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.34568,
+      33.78043
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Anchor Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.45188,
+      33.60935
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Talbott Recovery Campus",
+    "type": "hospital",
+    "coords": [
+      -84.5424,
+      33.61397
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory University Orthopaedic and Spine Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.24814,
+      33.82604
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Children's Healthcare of Atlanta",
+    "type": "hospital",
+    "coords": [
+      -84.32729,
+      33.83462
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Children's Healthcare of Atlanta Arthur M. Blank Hospital",
+    "type": "hospital",
+    "coords": [
+      -84.33043,
+      33.83178
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "VA Medical Center",
+    "type": "hospital",
+    "coords": [
+      -84.31132,
+      33.80163
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory University Hospital Midtown",
+    "type": "hospital",
+    "coords": [
+      -84.3863,
+      33.76899
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Grady Health System",
+    "type": "hospital",
+    "coords": [
+      -84.38186,
+      33.75205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb-Peachtree Airport",
+    "type": "airport",
+    "coords": [
+      -84.30188,
+      33.8758
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Hartsfield\u2013Jackson Atlanta International Airport",
+    "type": "airport",
+    "coords": [
+      -84.42728,
+      33.63739
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Fulton County Airport-Brown Field",
+    "type": "airport",
+    "coords": [
+      -84.5203,
+      33.77646
+    ],
+    "probability": 0.5,
+    "radiusM": 1250
+  },
+  {
+    "name": "Hapeville Station 2 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.418,
+      33.6631
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Henry County Station 6 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.2219,
+      33.6069
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 24",
+    "type": "fire",
+    "coords": [
+      -84.22062,
+      33.76423
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 23",
+    "type": "fire",
+    "coords": [
+      -84.23059,
+      33.81992
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hapeville Station 1 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.40809,
+      33.6595
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 9",
+    "type": "fire",
+    "coords": [
+      -84.502,
+      33.75783
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Station 3 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.26735,
+      33.77722
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 9",
+    "type": "fire",
+    "coords": [
+      -84.27559,
+      33.81157
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Decatur Fire Station Two",
+    "type": "fire",
+    "coords": [
+      -84.30257,
+      33.75941
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 2",
+    "type": "fire",
+    "coords": [
+      -84.33529,
+      33.8606
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 19",
+    "type": "fire",
+    "coords": [
+      -84.25623,
+      33.87534
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Station 19 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.5162,
+      33.7745
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna Fire Station #4",
+    "type": "fire",
+    "coords": [
+      -84.4979,
+      33.84216
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Headquarters Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.5188,
+      33.7739
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna Fire Station #1",
+    "type": "fire",
+    "coords": [
+      -84.51686,
+      33.88935
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 8",
+    "type": "fire",
+    "coords": [
+      -84.43568,
+      33.80213
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna Station 4 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4942,
+      33.8489
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 16",
+    "type": "fire",
+    "coords": [
+      -84.42191,
+      33.76315
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Station 26 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4211,
+      33.8373
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Station 17 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4368,
+      33.7425
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 20",
+    "type": "fire",
+    "coords": [
+      -84.40691,
+      33.71803
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 30",
+    "type": "fire",
+    "coords": [
+      -84.38938,
+      33.68072
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Station 13 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.34766,
+      33.74205
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 20",
+    "type": "fire",
+    "coords": [
+      -84.26985,
+      33.70472
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 26",
+    "type": "fire",
+    "coords": [
+      -84.28667,
+      33.73219
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sandy Spring Fire Station 4 (Formerly Atlanta Station 39)",
+    "type": "fire",
+    "coords": [
+      -84.38156,
+      33.87628
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Station 19",
+    "type": "fire",
+    "coords": [
+      -84.35429,
+      33.78359
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 29",
+    "type": "fire",
+    "coords": [
+      -84.3691,
+      33.8106
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Station 12 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.34534,
+      33.7615
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Station 4 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4619,
+      33.6752
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Station 3 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4286,
+      33.669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Station 2 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4289,
+      33.669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Training Center",
+    "type": "fire",
+    "coords": [
+      -84.40263,
+      33.70574
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department -  Fire Station 5",
+    "type": "fire",
+    "coords": [
+      -84.48107,
+      33.70022
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 15",
+    "type": "fire",
+    "coords": [
+      -84.30096,
+      33.88501
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 31",
+    "type": "fire",
+    "coords": [
+      -84.51125,
+      33.68909
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Fire Station 2",
+    "type": "fire",
+    "coords": [
+      -84.5231,
+      33.7299
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Station 1 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.5257,
+      33.6152
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clayton County Station 2 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.303,
+      33.6059
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Forest Park Station 2 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.3647,
+      33.6122
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fire Station No. 6",
+    "type": "fire",
+    "coords": [
+      -84.31105,
+      33.72039
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Station 10",
+    "type": "fire",
+    "coords": [
+      -84.36849,
+      33.74224
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Fire Station 2",
+    "type": "fire",
+    "coords": [
+      -84.38135,
+      33.71033
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 22",
+    "type": "fire",
+    "coords": [
+      -84.25613,
+      33.83737
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 7",
+    "type": "fire",
+    "coords": [
+      -84.25872,
+      33.73919
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 4",
+    "type": "fire",
+    "coords": [
+      -84.23046,
+      33.65451
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 1",
+    "type": "fire",
+    "coords": [
+      -84.32771,
+      33.80032
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 23",
+    "type": "fire",
+    "coords": [
+      -84.23061,
+      33.81998
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Decatur Fire Station 1",
+    "type": "fire",
+    "coords": [
+      -84.29364,
+      33.77234
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Atlanta Fire Rescue Department - Station 18",
+    "type": "fire",
+    "coords": [
+      -84.32211,
+      33.75052
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Station 35",
+    "type": "fire",
+    "coords": [
+      -84.40711,
+      33.63901
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Historic Fire Station Number 6",
+    "type": "fire",
+    "coords": [
+      -84.3719,
+      33.75534
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Station 19",
+    "type": "fire",
+    "coords": [
+      -84.35423,
+      33.7836
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Station 15",
+    "type": "fire",
+    "coords": [
+      -84.38174,
+      33.78214
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 22",
+    "type": "fire",
+    "coords": [
+      -84.25613,
+      33.83731
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna Fire Station #3",
+    "type": "fire",
+    "coords": [
+      -84.48363,
+      33.88386
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 27",
+    "type": "fire",
+    "coords": [
+      -84.40858,
+      33.87098
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sandy Springs Fire Department - Station 4",
+    "type": "fire",
+    "coords": [
+      -84.38151,
+      33.87632
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 21",
+    "type": "fire",
+    "coords": [
+      -84.37841,
+      33.84256
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 8",
+    "type": "fire",
+    "coords": [
+      -84.43562,
+      33.80213
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 11",
+    "type": "fire",
+    "coords": [
+      -84.3928,
+      33.79036
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 23;Atlanta Fire Rescue Department - Fire Station 23",
+    "type": "fire",
+    "coords": [
+      -84.41583,
+      33.79766
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 38",
+    "type": "fire",
+    "coords": [
+      -84.48343,
+      33.78196
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 22",
+    "type": "fire",
+    "coords": [
+      -84.45056,
+      33.7776
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 16",
+    "type": "fire",
+    "coords": [
+      -84.42194,
+      33.76305
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Station 4",
+    "type": "fire",
+    "coords": [
+      -84.37772,
+      33.75392
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue Department - Station 1",
+    "type": "fire",
+    "coords": [
+      -84.39852,
+      33.75257
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 25",
+    "type": "fire",
+    "coords": [
+      -84.46451,
+      33.72305
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 30",
+    "type": "fire",
+    "coords": [
+      -84.38941,
+      33.68067
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Station 5 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.4912,
+      33.64761
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Station 24 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.41027,
+      33.65248
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 34;Atlanta Fire Rescue Department - Fire Station 34",
+    "type": "fire",
+    "coords": [
+      -84.37476,
+      33.65515
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "College Park Station 2 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.46593,
+      33.62436
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cobb County Fire Station #5",
+    "type": "fire",
+    "coords": [
+      -84.46617,
+      33.86581
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cobb County Fire Station #4",
+    "type": "fire",
+    "coords": [
+      -84.48417,
+      33.84944
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna Fire Station #2",
+    "type": "fire",
+    "coords": [
+      -84.53439,
+      33.8712
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Rescue - Station 28;Atlanta Fire Rescue Department - Fire Station 28",
+    "type": "fire",
+    "coords": [
+      -84.47167,
+      33.80865
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 3",
+    "type": "fire",
+    "coords": [
+      -84.26743,
+      33.77737
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 4",
+    "type": "fire",
+    "coords": [
+      -84.23048,
+      33.65444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 2",
+    "type": "fire",
+    "coords": [
+      -84.33524,
+      33.86067
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 5",
+    "type": "fire",
+    "coords": [
+      -84.21745,
+      33.84971
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 8",
+    "type": "fire",
+    "coords": [
+      -84.31088,
+      33.83598
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 9",
+    "type": "fire",
+    "coords": [
+      -84.27564,
+      33.8116
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 10",
+    "type": "fire",
+    "coords": [
+      -84.32112,
+      33.68923
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 15",
+    "type": "fire",
+    "coords": [
+      -84.30099,
+      33.88495
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 19",
+    "type": "fire",
+    "coords": [
+      -84.25635,
+      33.87535
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 20",
+    "type": "fire",
+    "coords": [
+      -84.26984,
+      33.70464
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue - Station 24",
+    "type": "fire",
+    "coords": [
+      -84.22061,
+      33.76421
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Station 40",
+    "type": "fire",
+    "coords": [
+      -84.43168,
+      33.62927
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clayton County Fire Station 9",
+    "type": "fire",
+    "coords": [
+      -84.39,
+      33.63683
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Forest Park Station 1 Fire Station",
+    "type": "fire",
+    "coords": [
+      -84.35719,
+      33.63092
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Fire Station 3",
+    "type": "fire",
+    "coords": [
+      -84.36234,
+      33.85353
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "fire_station facility",
+    "type": "fire",
+    "coords": [
+      -84.44883,
+      33.63709
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Police Department Zone 6 Precinct",
+    "type": "police",
+    "coords": [
+      -84.32135,
+      33.75091
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Old National Precinct Police Station",
+    "type": "police",
+    "coords": [
+      -84.4737,
+      33.6039
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Station Patrol Post 47 Police Station",
+    "type": "police",
+    "coords": [
+      -84.4013,
+      33.6179
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Precinct Number 5 Police Station",
+    "type": "police",
+    "coords": [
+      -84.38923,
+      33.75984
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Forest Park Police Station",
+    "type": "police",
+    "coords": [
+      -84.3794,
+      33.6086
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Precinct Number 6 Police Station",
+    "type": "police",
+    "coords": [
+      -84.3346,
+      33.7471
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cumberland Mall Police Station Number 3",
+    "type": "police",
+    "coords": [
+      -84.4703,
+      33.8802
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Decatur Police Station",
+    "type": "police",
+    "coords": [
+      -84.30153,
+      33.77332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Police Station Headquarters",
+    "type": "police",
+    "coords": [
+      -84.39435,
+      33.74821
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Central Precinct Police Station",
+    "type": "police",
+    "coords": [
+      -84.2423,
+      33.777
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clarkston Police Station",
+    "type": "police",
+    "coords": [
+      -84.2395,
+      33.809
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County South Precinct Police Station",
+    "type": "police",
+    "coords": [
+      -84.55,
+      33.6014
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Lake City Police Station",
+    "type": "police",
+    "coords": [
+      -84.3312,
+      33.604
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chamblee Police Station",
+    "type": "police",
+    "coords": [
+      -84.299,
+      33.8954
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Precinct Number 4 Police Station",
+    "type": "police",
+    "coords": [
+      -84.45016,
+      33.72518
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "College Park Police Station",
+    "type": "police",
+    "coords": [
+      -84.45,
+      33.653
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Avondale Estates Police Station",
+    "type": "police",
+    "coords": [
+      -84.26676,
+      33.77635
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Precinct Number 2 Police Station",
+    "type": "police",
+    "coords": [
+      -84.36174,
+      33.82327
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Emory Police Department",
+    "type": "police",
+    "coords": [
+      -84.31828,
+      33.79059
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Police Headquarters",
+    "type": "police",
+    "coords": [
+      -84.44201,
+      33.68048
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "GSU Police Department",
+    "type": "police",
+    "coords": [
+      -84.38903,
+      33.75439
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Police Department Zone 2 Precinct",
+    "type": "police",
+    "coords": [
+      -84.37316,
+      33.84011
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Sherrif's Office",
+    "type": "police",
+    "coords": [
+      -84.39135,
+      33.75138
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Police Department Path Force Unit Precinct",
+    "type": "police",
+    "coords": [
+      -84.35835,
+      33.74676
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Police Department Zone 5",
+    "type": "police",
+    "coords": [
+      -84.39357,
+      33.78636
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Agnes Scott Public Safety",
+    "type": "police",
+    "coords": [
+      -84.2967,
+      33.76829
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Sheriff Department",
+    "type": "police",
+    "coords": [
+      -84.42535,
+      33.77623
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Capitol Police Division",
+    "type": "police",
+    "coords": [
+      -84.39195,
+      33.74673
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna Police Station",
+    "type": "police",
+    "coords": [
+      -84.51669,
+      33.88816
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Precinct Number 1 Police Station",
+    "type": "police",
+    "coords": [
+      -84.46072,
+      33.77726
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Zone 1 Mini Police Precinct",
+    "type": "police",
+    "coords": [
+      -84.40769,
+      33.75796
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Campus Police Mini Precinct",
+    "type": "police",
+    "coords": [
+      -84.41643,
+      33.75001
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "GSP Vehicle Center",
+    "type": "police",
+    "coords": [
+      -84.35556,
+      33.72302
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Mounted Patrol Facility",
+    "type": "police",
+    "coords": [
+      -84.37442,
+      33.72676
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cobb County Police Precinct #3",
+    "type": "police",
+    "coords": [
+      -84.48417,
+      33.84914
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "De Kalb County Public Safety",
+    "type": "police",
+    "coords": [
+      -84.24582,
+      33.8409
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Tech Police",
+    "type": "police",
+    "coords": [
+      -84.40332,
+      33.78122
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Campus Police Headquarters / Robert Hall Annex",
+    "type": "police",
+    "coords": [
+      -84.41553,
+      33.74819
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia State Patrol",
+    "type": "police",
+    "coords": [
+      -84.35557,
+      33.72347
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -84.37397,
+      33.60932
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "CJ: Georgia State University Police",
+    "type": "police",
+    "coords": [
+      -84.23686,
+      33.79511
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "College Park Police Department",
+    "type": "police",
+    "coords": [
+      -84.45183,
+      33.65398
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "police facility",
+    "type": "police",
+    "coords": [
+      -84.2969,
+      33.87079
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Plant McDonough-Atkinson",
+    "type": "power",
+    "coords": [
+      -84.47142,
+      33.82548
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Laredo Bus Facility Solar Canopies",
+    "type": "power",
+    "coords": [
+      -84.2672,
+      33.78332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "MAS ASB Cogen Plant",
+    "type": "power",
+    "coords": [
+      -84.39431,
+      33.65493
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Hickory Ridge Landfill Solar Project",
+    "type": "power",
+    "coords": [
+      -84.33547,
+      33.66331
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "power_plant facility",
+    "type": "power",
+    "coords": [
+      -84.40093,
+      33.76447
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Falcons Solar",
+    "type": "power",
+    "coords": [
+      -84.39889,
+      33.75526
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Courthouse",
+    "type": "government",
+    "coords": [
+      -84.39073,
+      33.75
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Fire Rescue Administration",
+    "type": "government",
+    "coords": [
+      -84.24505,
+      33.84129
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Chamblee City Hall",
+    "type": "government",
+    "coords": [
+      -84.29925,
+      33.89507
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point City Hall",
+    "type": "government",
+    "coords": [
+      -84.44215,
+      33.67955
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta City Hall Annex",
+    "type": "government",
+    "coords": [
+      -84.4292,
+      33.6699
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clarkston City Hall",
+    "type": "government",
+    "coords": [
+      -84.2395,
+      33.8086
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb Service Center",
+    "type": "government",
+    "coords": [
+      -84.29545,
+      33.77391
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Decatur Special Events Office",
+    "type": "government",
+    "coords": [
+      -84.29424,
+      33.78004
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Fish and Wildlife Service Southeast Regional Office",
+    "type": "government",
+    "coords": [
+      -84.31246,
+      33.84584
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Municipal Court",
+    "type": "government",
+    "coords": [
+      -84.39305,
+      33.74756
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Aviation Administration",
+    "type": "government",
+    "coords": [
+      -84.44509,
+      33.65308
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Regional Commission",
+    "type": "government",
+    "coords": [
+      -84.38455,
+      33.75508
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "State Road & Tollway Authority",
+    "type": "government",
+    "coords": [
+      -84.38567,
+      33.7611
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "MARTA Headquarters",
+    "type": "government",
+    "coords": [
+      -84.36866,
+      33.82391
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Tax Office",
+    "type": "government",
+    "coords": [
+      -84.49306,
+      33.68801
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Division of Family and Children Services",
+    "type": "government",
+    "coords": [
+      -84.28225,
+      33.77085
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Decatur Public Works Department",
+    "type": "government",
+    "coords": [
+      -84.28255,
+      33.77045
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Centers for Disease Control",
+    "type": "government",
+    "coords": [
+      -84.3267,
+      33.79976
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Environmental Protection Division",
+    "type": "government",
+    "coords": [
+      -84.39375,
+      33.63852
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta City Studio - Hotel Row Pop-Up",
+    "type": "government",
+    "coords": [
+      -84.39519,
+      33.75255
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "The Georgia Building Authority",
+    "type": "government",
+    "coords": [
+      -84.38748,
+      33.74972
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Housing & Urban Development Department",
+    "type": "government",
+    "coords": [
+      -84.39117,
+      33.75513
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Emergency Management Agency",
+    "type": "government",
+    "coords": [
+      -84.35691,
+      33.72536
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Department of Transportation",
+    "type": "government",
+    "coords": [
+      -84.35704,
+      33.72488
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Tucker, GA City Hall",
+    "type": "government",
+    "coords": [
+      -84.23993,
+      33.84199
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Internal Revenue Service",
+    "type": "government",
+    "coords": [
+      -84.29185,
+      33.88326
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Clarkston City Hall Annex",
+    "type": "government",
+    "coords": [
+      -84.23836,
+      33.80907
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Bureau of Investigation Atlanta Field Office",
+    "type": "government",
+    "coords": [
+      -84.2677,
+      33.87298
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb Watershed Managment",
+    "type": "government",
+    "coords": [
+      -84.24123,
+      33.78072
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb County Tax Commisioner",
+    "type": "government",
+    "coords": [
+      -84.24584,
+      33.77784
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb County Voter Registration & Elections Office",
+    "type": "government",
+    "coords": [
+      -84.24664,
+      33.77787
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb County Driver Services",
+    "type": "government",
+    "coords": [
+      -84.24674,
+      33.77757
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb County Medical Examiners' Office",
+    "type": "government",
+    "coords": [
+      -84.24483,
+      33.77207
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb County Sheriff's Office",
+    "type": "government",
+    "coords": [
+      -84.24346,
+      33.77585
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb Roads & Drainage",
+    "type": "government",
+    "coords": [
+      -84.24205,
+      33.77521
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Police Department - Office of Professional Standards",
+    "type": "government",
+    "coords": [
+      -84.39797,
+      33.74966
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Enterprise Asset Management",
+    "type": "government",
+    "coords": [
+      -84.398,
+      33.74961
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta - Ted Turner Drive Immigration Court",
+    "type": "government",
+    "coords": [
+      -84.3975,
+      33.74943
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Atlanta Office of the Inspector General",
+    "type": "government",
+    "coords": [
+      -84.39804,
+      33.74956
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "US Immigration & Customs Enforcement - Atlanta Field Office",
+    "type": "government",
+    "coords": [
+      -84.39735,
+      33.74938
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Brookhaven City Centre",
+    "type": "government",
+    "coords": [
+      -84.34034,
+      33.85868
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Public Schools Instructional Service Center",
+    "type": "government",
+    "coords": [
+      -84.42157,
+      33.74341
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "USCIS Atlanta Field Office",
+    "type": "government",
+    "coords": [
+      -84.2499,
+      33.84821
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "IRS Taxpayer Assistance Center",
+    "type": "government",
+    "coords": [
+      -84.27153,
+      33.87655
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Federal Reserve Bank of Atlanta",
+    "type": "government",
+    "coords": [
+      -84.38536,
+      33.7824
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Richard B. Russell Federal Building & US Courthouse",
+    "type": "government",
+    "coords": [
+      -84.39586,
+      33.75332
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Decatur City Hall",
+    "type": "government",
+    "coords": [
+      -84.29618,
+      33.77372
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Eloise T. Leveritt Building",
+    "type": "government",
+    "coords": [
+      -84.28273,
+      33.77026
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Shirley A. Trussell Building",
+    "type": "government",
+    "coords": [
+      -84.28156,
+      33.77153
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -84.28193,
+      33.77058
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Westchester Elementary School",
+    "type": "government",
+    "coords": [
+      -84.30642,
+      33.78327
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Courthouse",
+    "type": "government",
+    "coords": [
+      -84.29722,
+      33.77407
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "DeKalb County Courthouse",
+    "type": "government",
+    "coords": [
+      -84.29766,
+      33.77406
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia State Health Building",
+    "type": "government",
+    "coords": [
+      -84.38907,
+      33.74761
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Municipal Court",
+    "type": "government",
+    "coords": [
+      -84.3934,
+      33.74748
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Public Service Commission",
+    "type": "government",
+    "coords": [
+      -84.38949,
+      33.748
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Paul D. Coverdell Legislative Office Building",
+    "type": "government",
+    "coords": [
+      -84.38867,
+      33.74804
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia State Judicial Building",
+    "type": "government",
+    "coords": [
+      -84.3892,
+      33.74846
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Charles L. Carnes Justice Center",
+    "type": "government",
+    "coords": [
+      -84.39127,
+      33.75036
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Smyrna City Hall",
+    "type": "government",
+    "coords": [
+      -84.51682,
+      33.88395
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -84.2467,
+      33.77794
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "The Georgia State Capitol",
+    "type": "government",
+    "coords": [
+      -84.38814,
+      33.74905
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta City Hall",
+    "type": "government",
+    "coords": [
+      -84.39059,
+      33.74862
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of South Fulton City Hall",
+    "type": "government",
+    "coords": [
+      -84.56414,
+      33.73785
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "U.S. Court of Appeals for the 11th Circuit",
+    "type": "government",
+    "coords": [
+      -84.39027,
+      33.75645
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Governor's Mansion",
+    "type": "government",
+    "coords": [
+      -84.39915,
+      33.84638
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Consuelate General of Hati",
+    "type": "government",
+    "coords": [
+      -84.36752,
+      33.83461
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta Housing Authority",
+    "type": "government",
+    "coords": [
+      -84.37984,
+      33.75781
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Government Center",
+    "type": "government",
+    "coords": [
+      -84.39249,
+      33.7509
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -84.39806,
+      33.74973
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Martin Luther King Jr. Federal Building",
+    "type": "government",
+    "coords": [
+      -84.39444,
+      33.75276
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fulton County Government Center",
+    "type": "government",
+    "coords": [
+      -84.39189,
+      33.7512
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Department of Public Safety",
+    "type": "government",
+    "coords": [
+      -84.38974,
+      33.74995
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Department of Agriculture",
+    "type": "government",
+    "coords": [
+      -84.38766,
+      33.75009
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City of Atlanta Sanitation",
+    "type": "government",
+    "coords": [
+      -84.35979,
+      33.74446
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "GDPS Motor Carrier Compliance",
+    "type": "government",
+    "coords": [
+      -84.35876,
+      33.74448
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "WorkSource Atlanta",
+    "type": "government",
+    "coords": [
+      -84.39015,
+      33.73263
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -84.44214,
+      33.68063
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Brawner Hall",
+    "type": "government",
+    "coords": [
+      -84.50737,
+      33.8752
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "North Fulton Training Center",
+    "type": "government",
+    "coords": [
+      -84.38063,
+      33.89226
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "The Fulton County Department of Community Development",
+    "type": "government",
+    "coords": [
+      -84.39336,
+      33.75085
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "State of Georgia Building",
+    "type": "government",
+    "coords": [
+      -84.39054,
+      33.75412
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -84.3973,
+      33.74958
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Brookhaven City Hall",
+    "type": "government",
+    "coords": [
+      -84.33377,
+      33.87062
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Godbold Federal Building",
+    "type": "government",
+    "coords": [
+      -84.39066,
+      33.75684
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia Environmental Protection Division",
+    "type": "government",
+    "coords": [
+      -84.39431,
+      33.63876
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Nathan Deal Judicial Center",
+    "type": "government",
+    "coords": [
+      -84.38698,
+      33.74623
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Avondale Estates City Hall",
+    "type": "government",
+    "coords": [
+      -84.26674,
+      33.77643
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "John C. Godbold Federal Building",
+    "type": "government",
+    "coords": [
+      -84.39067,
+      33.75718
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Sam Nunn Atlanta Federal Center",
+    "type": "government",
+    "coords": [
+      -84.39329,
+      33.75346
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "government facility",
+    "type": "government",
+    "coords": [
+      -84.35819,
+      33.72363
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Department of Juvenile Justice",
+    "type": "government",
+    "coords": [
+      -84.2518,
+      33.77015
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Forest Park City Hall",
+    "type": "government",
+    "coords": [
+      -84.36597,
+      33.62008
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "GSFC",
+    "type": "government",
+    "coords": [
+      -84.24209,
+      33.8445
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "College Park City Hall",
+    "type": "government",
+    "coords": [
+      -84.44979,
+      33.65503
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point City Hall",
+    "type": "government",
+    "coords": [
+      -84.44269,
+      33.67992
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Robert T. \"Bobby\" Burgess Building",
+    "type": "government",
+    "coords": [
+      -84.24158,
+      33.77669
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Dekalb Housing Authority",
+    "type": "government",
+    "coords": [
+      -84.30276,
+      33.77368
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Atlanta International Airport Air Traffic Control",
+    "type": "government",
+    "coords": [
+      -84.42116,
+      33.64199
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Administration/Classroom Building",
+    "type": "government",
+    "coords": [
+      -84.33629,
+      33.69378
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Administration/Classroom Building",
+    "type": "government",
+    "coords": [
+      -84.33604,
+      33.69444
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Historic Fulton County Courthouse",
+    "type": "government",
+    "coords": [
+      -84.39069,
+      33.75049
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.27168,
+      33.79097
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.29162,
+      33.77086
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.37981,
+      33.75664
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.52625,
+      33.61438
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point 12kV Switching Station",
+    "type": "substation",
+    "coords": [
+      -84.4622,
+      33.67545
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Morrow Substation",
+    "type": "substation",
+    "coords": [
+      -84.33346,
+      33.60593
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.37272,
+      33.72657
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.23472,
+      33.65093
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.35047,
+      33.71061
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fort Gillem Substation",
+    "type": "substation",
+    "coords": [
+      -84.3266,
+      33.62732
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Water Works Substation",
+    "type": "substation",
+    "coords": [
+      -84.45217,
+      33.69044
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.46815,
+      33.81765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Cascade Heights Substation",
+    "type": "substation",
+    "coords": [
+      -84.46542,
+      33.72322
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.4985,
+      33.74917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.49189,
+      33.81625
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.49062,
+      33.69317
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.48426,
+      33.82174
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.24496,
+      33.88503
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.36506,
+      33.78009
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Argos Cement Substation",
+    "type": "substation",
+    "coords": [
+      -84.46898,
+      33.82424
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.45976,
+      33.8299
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47469,
+      33.82638
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47297,
+      33.82552
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47668,
+      33.82268
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.32745,
+      33.78896
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.32821,
+      33.79111
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.23,
+      33.78822
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.3663,
+      33.79099
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.407,
+      33.78813
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Wabash",
+    "type": "substation",
+    "coords": [
+      -84.37143,
+      33.76536
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.3783,
+      33.74527
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.39475,
+      33.81151
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.48945,
+      33.90068
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Burbank Substation",
+    "type": "substation",
+    "coords": [
+      -84.42892,
+      33.75624
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.5151,
+      33.85831
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.31808,
+      33.79132
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.35286,
+      33.80951
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47037,
+      33.86426
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.40892,
+      33.74232
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.42931,
+      33.8466
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Colonial Substation",
+    "type": "substation",
+    "coords": [
+      -84.47571,
+      33.882
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.40908,
+      33.64036
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.40727,
+      33.63866
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.35104,
+      33.64279
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43336,
+      33.78189
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.46781,
+      33.82844
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.46932,
+      33.82839
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.45501,
+      33.82593
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47031,
+      33.88572
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.32704,
+      33.75932
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.39715,
+      33.6376
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.38537,
+      33.61488
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.34969,
+      33.75884
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.33149,
+      33.83485
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.28012,
+      33.87874
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.30352,
+      33.85848
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.3029,
+      33.85894
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.27073,
+      33.88623
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.38997,
+      33.78521
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Ellenwood Substation",
+    "type": "substation",
+    "coords": [
+      -84.30212,
+      33.60861
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Fairview Substation",
+    "type": "substation",
+    "coords": [
+      -84.22429,
+      33.60314
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.28109,
+      33.6753
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.32922,
+      33.70267
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.25701,
+      33.82635
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.4044,
+      33.76302
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.39389,
+      33.765
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Six Flags Substation",
+    "type": "substation",
+    "coords": [
+      -84.55388,
+      33.76555
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.23512,
+      33.73593
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.29592,
+      33.81206
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.28163,
+      33.73918
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.26838,
+      33.70927
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.46443,
+      33.63038
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.45001,
+      33.61834
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.44909,
+      33.61289
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.44887,
+      33.61258
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43063,
+      33.61643
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.42965,
+      33.61533
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.38745,
+      33.6078
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.3946,
+      33.65493
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.40716,
+      33.65322
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.42901,
+      33.66619
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43537,
+      33.66796
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43236,
+      33.68814
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.4076,
+      33.70119
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.40634,
+      33.7357
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "QTS Substation #1",
+    "type": "substation",
+    "coords": [
+      -84.42102,
+      33.7803
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43337,
+      33.80997
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.41043,
+      33.78744
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.39717,
+      33.78589
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.3677,
+      33.82702
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.36823,
+      33.83871
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.38361,
+      33.8561
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.38079,
+      33.87648
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.21934,
+      33.85156
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.23782,
+      33.80967
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.25946,
+      33.85117
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.25293,
+      33.7662
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.54721,
+      33.74738
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.55095,
+      33.68089
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.5115,
+      33.68539
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "UPS Substation",
+    "type": "substation",
+    "coords": [
+      -84.50699,
+      33.7917
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.55055,
+      33.79177
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47556,
+      33.88098
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.45655,
+      33.88797
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.54044,
+      33.89491
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.33209,
+      33.89402
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "QTS Substation #2",
+    "type": "substation",
+    "coords": [
+      -84.41862,
+      33.77648
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.55699,
+      33.82998
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.45202,
+      33.65286
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.36192,
+      33.60725
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.48846,
+      33.65021
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Georgia World Congress Substation",
+    "type": "substation",
+    "coords": [
+      -84.40035,
+      33.76327
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.4071,
+      33.77246
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Center Hill Substation",
+    "type": "substation",
+    "coords": [
+      -84.47399,
+      33.77868
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.47835,
+      33.8023
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43086,
+      33.77694
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43089,
+      33.779
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.43106,
+      33.65638
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.41992,
+      33.66641
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.42886,
+      33.70397
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "substation facility",
+    "type": "substation",
+    "coords": [
+      -84.42008,
+      33.78032
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "East Point Primary Substation",
+    "type": "substation",
+    "coords": [
+      -84.46297,
+      33.67635
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "City Pumping Station Number 1",
+    "type": "water",
+    "coords": [
+      -84.40909,
+      33.78677
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -84.55379,
+      33.74217
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "South Cobb Water Reclamation Facility",
+    "type": "water",
+    "coords": [
+      -84.53801,
+      33.77477
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Intrenchment Creek Pollution Control Plant",
+    "type": "water",
+    "coords": [
+      -84.3341,
+      33.70324
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -84.45403,
+      33.82378
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -84.46032,
+      33.82253
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -84.45892,
+      33.83153
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "Flint River Wastewater Pump Station",
+    "type": "water",
+    "coords": [
+      -84.41742,
+      33.62616
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  },
+  {
+    "name": "water_works facility",
+    "type": "water",
+    "coords": [
+      -84.4186,
+      33.64437
+    ],
+    "probability": 0.5,
+    "radiusM": 750
+  }
+]

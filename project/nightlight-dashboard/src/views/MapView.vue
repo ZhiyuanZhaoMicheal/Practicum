@@ -29,13 +29,6 @@
             <span class="layer-toggle__label">Facility Labels</span>
           </label>
 
-          <hr class="divider" style="margin:10px 0 6px" />
-          <div class="sidebar__section-title" style="font-size:9px; margin-bottom:6px">Ground Truth (Miami only)</div>
-          <label class="layer-toggle">
-            <input type="checkbox" :checked="showGenerators" @change="toggleGenerators" />
-            <span class="layer-toggle__box" :style="{ '--lc': '#ff0' }" />
-            <span class="layer-toggle__label">Real Generators</span>
-          </label>
         </div>
 
         <hr class="divider" style="margin:16px 0" />
@@ -108,14 +101,6 @@
               <span class="fac-legend__icon" style="color:#38bdf8">&#x1F4A7;</span>
               <span>Water Works</span>
             </div>
-            <div class="fac-legend__item" v-if="showGenerators" style="margin-top:6px; border-top:1px solid var(--border); padding-top:6px">
-              <span class="fac-legend__icon" style="color:#ffe600">&#x25C6;</span>
-              <span>Real Generator (Commercial)</span>
-            </div>
-            <div class="fac-legend__item" v-if="showGenerators">
-              <span class="fac-legend__icon" style="color:#ff8c00">&#x25CF;</span>
-              <span>Real Generator (Residential)</span>
-            </div>
           </div>
         </div>
 
@@ -147,18 +132,18 @@
         {{ eventPanelCollapsed ? '‹' : '›' }}
       </button>
       <div class="event-panel__inner" v-show="!eventPanelCollapsed">
-        <div class="event-panel__label">EVENTS</div>
+        <div class="event-panel__label">LOCATIONS</div>
         <button
-          v-for="ev in EVENTS"
-          :key="ev.id"
+          v-for="loc in uniqueLocations"
+          :key="loc.id"
           class="event-pill"
-          :class="{ active: activeEventId === ev.id }"
-          :style="{ '--ec': ev.color }"
-          @click="flyToEvent(ev)"
+          :class="{ active: activeEventId === loc.id }"
+          :style="{ '--ec': loc.color }"
+          @click="flyToEvent(loc.event)"
         >
           <span class="event-pill__dot" />
-          <span class="event-pill__text">{{ ev.subtitle.split(',')[0] }}</span>
-          <span class="event-pill__type mono">{{ ev.type === 'hurricane' ? 'Hurricane' : 'Earthquake' }} {{ ev.year }}</span>
+          <span class="event-pill__text">{{ loc.city }}</span>
+          <span class="event-pill__type mono">{{ loc.year }}</span>
         </button>
       </div>
     </aside>
@@ -207,6 +192,15 @@
       </div>
     </div>
 
+    <!-- ── Back to overview button ── -->
+    <button
+      v-if="zoomLevel >= DETAIL_ZOOM"
+      class="overview-btn btn btn--ghost"
+      @click="backToOverview"
+    >
+      ← All Events
+    </button>
+
     <!-- ── Bottom status bar ── -->
     <div class="status-bar">
       <span class="mono" style="font-size:10px; color:var(--text-muted)">
@@ -231,8 +225,15 @@ import {
 } from '@/data/events.js'
 import { loadProbabilityGeoJSON, loadFacilityGeoJSON } from '@/data/loader.js'
 
-// Custom display order: San Juan events first, Miami last
-const EVENT_ORDER = ['maria', 'eq-pr', 'ida', 'laura', 'michael', 'ian-charlotte', 'ian-fortmyers', 'eq-hatay', 'irma']
+// Display order: chronological, grouped by region
+const EVENT_ORDER = [
+  'matthew-jax', 'maria', 'irma', 'irma-savannah',
+  'michael', 'eq-pr', 'florence-wilm',
+  'laura', 'isaias-nj',
+  'zeta-atlanta', 'zeta-birmingham',
+  'ida', 'ian-charlotte', 'ian-fortmyers',
+  'eq-hatay',
+]
 const EVENTS = EVENT_ORDER.map(id => RAW_EVENTS.find(e => e.id === id)).filter(Boolean)
 
 // Build buffer polygons from real loaded facility GeoJSON
@@ -278,6 +279,25 @@ let generatorsLoaded = false
 const pixelTip = ref({ visible: false, x: 0, y: 0, prob: 0, inBuffer: false })
 const activeBasemap = ref('dark')
 
+// Deduplicate events by city for the sidebar list
+const uniqueLocations = (() => {
+  const seen = new Set()
+  return EVENTS.filter(ev => {
+    const city = ev.subtitle.split(',')[0]
+    if (seen.has(city)) return false
+    seen.add(city)
+    return true
+  }).map(ev => ({
+    id: ev.id,
+    city: ev.subtitle.split(',')[0],
+    year: ev.year,
+    color: ev.color,
+    event: ev,
+  }))
+})()
+const zoomLevel = ref(4)
+const DETAIL_ZOOM = 8  // threshold: overview markers vs detail layers
+
 // ── Layer definitions ──
 const layers = ref([
   { id: 'heatmap',   label: 'Probability Heatmap', visible: true,  color: '#ff6b35' },
@@ -286,10 +306,32 @@ const layers = ref([
 ])
 
 // ── Basemap options ──
+// Satellite uses ESRI World Imagery (free, no API key needed)
+const SATELLITE_STYLE = {
+  version: 8,
+  sources: {
+    'esri-satellite': {
+      type: 'raster',
+      tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+      tileSize: 256,
+      attribution: 'Esri, Maxar, Earthstar Geographics',
+      maxzoom: 18,
+    },
+  },
+  layers: [{
+    id: 'satellite-tiles',
+    type: 'raster',
+    source: 'esri-satellite',
+    minzoom: 0,
+    maxzoom: 18,
+  }],
+}
+
 const basemaps = [
-  { id: 'dark',       label: 'Dark Matter',   url: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' },
-  { id: 'positron',   label: 'Positron',      url: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json' },
-  { id: 'voyager',    label: 'Voyager',       url: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json' },
+  { id: 'dark',       label: 'Dark Matter',      url: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json' },
+  { id: 'satellite',  label: 'Satellite',        url: SATELLITE_STYLE },
+  { id: 'positron',   label: 'Positron',         url: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json' },
+  { id: 'voyager',    label: 'Voyager',          url: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json' },
   { id: 'dark-nolbl', label: 'Dark (No Labels)', url: 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json' },
 ]
 
@@ -471,8 +513,8 @@ onMounted(() => {
   map = new maplibregl.Map({
     container: mapContainer.value,
     style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
-    center: [-88, 27],
-    zoom: 4.5,
+    center: [-40, 30],
+    zoom: 1.5,
     attributionControl: false,
   })
 
@@ -481,22 +523,109 @@ onMounted(() => {
 
   map.on('load', async () => {
     addFacilityIcons(map)
-    // Add all event layers (async, loads real data if available)
-    await Promise.all(EVENTS.map(ev => addEventLayers(ev)))
 
-    // If route has an event query param, fly there
+    // ── Overview markers: one dot per unique city (visible when zoomed out) ──
+    const overviewFeatures = uniqueLocations.map(loc => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: loc.event.center },
+      properties: { id: loc.id, label: loc.city, color: loc.color },
+    }))
+    map.addSource('overview-markers', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: overviewFeatures },
+    })
+    // Colored dot
+    map.addLayer({
+      id: 'overview-dots',
+      type: 'circle',
+      source: 'overview-markers',
+      maxzoom: DETAIL_ZOOM,
+      paint: {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 6, 7, 12],
+        'circle-color': ['get', 'color'],
+        'circle-stroke-width': 2,
+        'circle-stroke-color': 'rgba(3,13,26,0.8)',
+        'circle-opacity': 0.95,
+      },
+    })
+    // Label
+    map.addLayer({
+      id: 'overview-labels',
+      type: 'symbol',
+      source: 'overview-markers',
+      maxzoom: DETAIL_ZOOM,
+      layout: {
+        'text-field': ['get', 'label'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 7, 14],
+        'text-offset': [0, 1.6],
+        'text-anchor': 'top',
+        'text-font': ['Noto Sans Regular'],
+        'text-allow-overlap': true,
+        'text-ignore-placement': true,
+      },
+      paint: {
+        'text-color': '#e0e8f0',
+        'text-halo-color': 'rgba(3,13,26,0.9)',
+        'text-halo-width': 2,
+      },
+    })
+
+    // Click overview marker → fly to event
+    map.on('click', 'overview-dots', (e) => {
+      const f = e.features[0]
+      const ev = EVENTS.find(ev => ev.id === f.properties.id)
+      if (ev) flyToEvent(ev)
+    })
+    map.on('mouseenter', 'overview-dots', () => { map.getCanvas().style.cursor = 'pointer' })
+    map.on('mouseleave', 'overview-dots', () => { map.getCanvas().style.cursor = '' })
+
+    // Lazy load: only load detail layers when needed (not all 15 at once)
     const qEvent = route.query.event
     if (qEvent) {
+      // Direct link to event — fly there
       const ev = EVENTS.find(e => e.id === qEvent)
-      if (ev) flyToEvent(ev)
+      if (ev) {
+        await addEventLayers(ev)
+        flyToEvent(ev)
+      }
     } else {
-      flyToEvent(EVENTS[0])
+      // Opening animation: zoom from globe to US overview
+      setTimeout(() => {
+        map.flyTo({
+          center: [-82, 33],
+          zoom: 4,
+          duration: 2500,
+          curve: 1.5,
+          essential: true,
+        })
+      }, 300)
     }
+  })
+
+  // Track zoom level + auto-load visible events
+  map.on('zoom', () => {
+    zoomLevel.value = map.getZoom()
+  })
+
+  // Auto-load events whose center is visible in viewport (when zoomed in enough)
+  let loadingVisible = false
+  map.on('moveend', async () => {
+    if (loadingVisible || !map || map.getZoom() < DETAIL_ZOOM) return
+    loadingVisible = true
+    const bounds = map.getBounds()
+    for (const ev of EVENTS) {
+      if (map.getSource(`prob-${ev.id}`)) continue  // already loaded
+      const [lng, lat] = ev.center
+      if (bounds.contains([lng, lat])) {
+        await addEventLayers(ev)
+      }
+    }
+    loadingVisible = false
   })
 
   // Click handler on facilities
   map.on('click', (e) => {
-    // Check all facility layers (only query existing ones)
+    // Check loaded facility layers only
     const facilityLayerIds = EVENTS.map(ev => `facilities-${ev.id}`).filter(id => map.getLayer(id))
     if (!facilityLayerIds.length) return
     const features = map.queryRenderedFeatures(e.point, { layers: facilityLayerIds })
@@ -558,7 +687,7 @@ const dataCache = {}
 
 // ── Heatmap color ramps ──
 function isLightBasemap() {
-  return activeBasemap.value === 'positron' || activeBasemap.value === 'voyager'
+  return activeBasemap.value === 'positron' || activeBasemap.value === 'voyager' || activeBasemap.value === 'satellite'
 }
 
 const HEATMAP_COLORS_DARK = [
@@ -622,6 +751,7 @@ async function addEventLayers(ev) {
     id: `heatmap-${ev.id}`,
     type: 'heatmap',
     source: `prob-${ev.id}`,
+    minzoom: DETAIL_ZOOM,
     paint: {
       // Quantile-stretch: spread the color range across actual data distribution
       'heatmap-weight': ['interpolate', ['linear'], ['get', 'probability'],
@@ -663,6 +793,7 @@ async function addEventLayers(ev) {
     id: `prob-hit-${ev.id}`,
     type: 'circle',
     source: `prob-${ev.id}`,
+    minzoom: DETAIL_ZOOM,
     paint: {
       'circle-radius': ['interpolate', ['linear'], ['zoom'], 8, 3, 12, 8, 14, 14],
       'circle-opacity': 0,
@@ -678,6 +809,7 @@ async function addEventLayers(ev) {
     id: `buffers-fill-${ev.id}`,
     type: 'fill',
     source: `buffers-${ev.id}`,
+    minzoom: DETAIL_ZOOM,
     paint: {
       'fill-color': bufColor,
       'fill-opacity': light ? 0.06 : 0.08,
@@ -688,6 +820,7 @@ async function addEventLayers(ev) {
     id: `buffers-line-${ev.id}`,
     type: 'line',
     source: `buffers-${ev.id}`,
+    minzoom: DETAIL_ZOOM,
     paint: {
       'line-color': bufColor,
       'line-width': 1,
@@ -703,6 +836,7 @@ async function addEventLayers(ev) {
     id: `facilities-${ev.id}`,
     type: 'symbol',
     source: `facilities-${ev.id}`,
+    minzoom: DETAIL_ZOOM,
     layout: {
       'icon-image': [
         'match', ['get', 'type'],
@@ -844,10 +978,8 @@ function switchBasemap(id) {
   const zoom = map.getZoom()
   const container = mapContainer.value
 
-  // Fade out
-  mapFading.value = true
-
-  setTimeout(() => {
+  // Direct switch — no fade
+  {
     // Remove old map and recreate
     map.remove()
 
@@ -863,7 +995,47 @@ function switchBasemap(id) {
 
     map.on('load', async () => {
       addFacilityIcons(map)
-      await Promise.all(EVENTS.map(ev => addEventLayers(ev)))
+
+      // Re-add overview markers (deduplicated by city)
+      const overviewFeatures = uniqueLocations.map(loc => ({
+        type: 'Feature',
+        geometry: { type: 'Point', coordinates: loc.event.center },
+        properties: { id: loc.id, label: loc.city, color: loc.color },
+      }))
+      map.addSource('overview-markers', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: overviewFeatures },
+      })
+      map.addLayer({
+        id: 'overview-dots', type: 'circle', source: 'overview-markers', maxzoom: DETAIL_ZOOM,
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 6, 7, 12],
+          'circle-color': ['get', 'color'],
+          'circle-stroke-width': 2, 'circle-stroke-color': 'rgba(3,13,26,0.8)', 'circle-opacity': 0.95,
+        },
+      })
+      map.addLayer({
+        id: 'overview-labels', type: 'symbol', source: 'overview-markers', maxzoom: DETAIL_ZOOM,
+        layout: {
+          'text-field': ['get', 'label'], 'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 7, 14],
+          'text-offset': [0, 1.6], 'text-anchor': 'top', 'text-font': ['Noto Sans Regular'],
+          'text-allow-overlap': true, 'text-ignore-placement': true,
+        },
+        paint: { 'text-color': '#e0e8f0', 'text-halo-color': 'rgba(3,13,26,0.9)', 'text-halo-width': 2 },
+      })
+      map.on('click', 'overview-dots', (e) => {
+        const f = e.features[0]
+        const ev = EVENTS.find(ev => ev.id === f.properties.id)
+        if (ev) flyToEvent(ev)
+      })
+      map.on('mouseenter', 'overview-dots', () => { map.getCanvas().style.cursor = 'pointer' })
+      map.on('mouseleave', 'overview-dots', () => { map.getCanvas().style.cursor = '' })
+
+      // Re-add only previously loaded event layers (lazy load preserved)
+      const loadedIds = Object.keys(dataCache)
+      await Promise.all(
+        EVENTS.filter(ev => loadedIds.includes(ev.id)).map(ev => addEventLayers(ev))
+      )
 
       // Restore layer visibility
       EVENTS.forEach(ev => {
@@ -881,9 +1053,11 @@ function switchBasemap(id) {
         safeSetVisibility(`facilities-label-${ev.id}`, showLabels.value ? 'visible' : 'none')
       })
 
-      // Fade in
       mapFading.value = false
     })
+
+    // Re-add zoom tracking
+    map.on('zoom', () => { zoomLevel.value = map.getZoom() })
 
     // Re-add click/hover handlers
     map.on('click', (e) => {
@@ -919,19 +1093,38 @@ function switchBasemap(id) {
       }
       pixelTip.value.visible = false
     })
-  }, 350) // wait for fade-out to finish
+  }
 }
 
 // ── Fly to event ──
-function flyToEvent(ev) {
+async function flyToEvent(ev) {
   activeEventId.value = ev.id
   activeEvent.value   = ev
   popup.value.visible = false
+
+  // Lazy load: add layers if not already loaded
+  if (map && !map.getSource(`prob-${ev.id}`)) {
+    await addEventLayers(ev)
+  }
 
   map?.flyTo({
     center: ev.center,
     zoom:   ev.zoom,
     duration: 1800,
+    essential: true,
+  })
+}
+
+function backToOverview() {
+  activeEventId.value = null
+  activeEvent.value   = null
+  popup.value.visible = false
+  pixelTip.value.visible = false
+
+  map?.flyTo({
+    center: [-82, 33],
+    zoom:   4,
+    duration: 1400,
     essential: true,
   })
 }
@@ -950,10 +1143,15 @@ function flyToEvent(ev) {
   width: 100%;
   height: 100%;
   opacity: 1;
-  transition: opacity 0.35s ease;
+  transition: opacity 0.5s ease;
+  animation: mapFadeIn 0.6s ease both;
+}
+@keyframes mapFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 .map-container--fading {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 /* ── Sidebar ── */
@@ -1163,8 +1361,12 @@ function flyToEvent(ev) {
   flex-direction: column;
   gap: 4px;
   overflow-y: auto;
-  max-height: calc(100vh - var(--nav-h) - 80px);
+  max-height: min(480px, calc(100vh - var(--nav-h) - 80px));
 }
+.event-panel__inner::-webkit-scrollbar { width: 4px; }
+.event-panel__inner::-webkit-scrollbar-track { background: transparent; }
+.event-panel__inner::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+.event-panel__inner::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
 .event-panel__label {
   font-family: var(--font-head);
   font-size: 10px;
@@ -1327,7 +1529,33 @@ function flyToEvent(ev) {
   backdrop-filter: blur(8px);
 }
 
+/* ── Overview button ── */
+.overview-btn {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  background: rgba(3, 13, 26, 0.92);
+  backdrop-filter: blur(10px);
+  border-color: var(--border-2);
+  color: var(--cyan);
+  cursor: pointer;
+  transition: all var(--t-fast);
+}
+.overview-btn:hover {
+  border-color: var(--cyan);
+  background: rgba(0, 212, 255, 0.1);
+}
+
 /* Override MapLibre controls styling */
+:deep(.maplibregl-ctrl-bottom-right) {
+  bottom: 30px !important;  /* above status bar */
+}
 :deep(.maplibregl-ctrl-group) {
   background: rgba(7, 21, 37, 0.95) !important;
   border: 1px solid var(--border) !important;

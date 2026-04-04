@@ -34,61 +34,78 @@
 
         <!-- 01 Overview -->
         <template v-if="sectionId === 'overview'">
-          <h2 id="sec-1-1">1.1 Motivation</h2>
+          <h2 id="sec-1-1">1.1 The Data Gap</h2>
           <p>
-            When hurricanes and earthquakes strike, power grids fail — sometimes for days, sometimes
-            for months. Critical facilities like hospitals, airports, and fire stations rely on backup
-            generators to maintain operations during these blackouts. But <strong>no public database
-            tracks which buildings have generators or whether they actually activated</strong>. Emergency
-            managers, utility companies, and researchers lack a systematic, scalable way to assess
-            infrastructure resilience after disasters.
+            Backup generators are everywhere — in hospital basements, airport terminals, fire stations,
+            cell towers, data centers, and millions of homes and businesses. They form a massive,
+            distributed layer of energy resilience that activates during grid failures. Yet
+            <strong>no unified, public database records where these generators are, who operates them,
+            or whether they actually function when needed</strong>.
           </p>
           <p>
-            This project addresses that gap using an unconventional data source: <strong>nighttime
-            satellite imagery</strong>. NASA's Black Marble product captures how bright every 500-meter
-            patch of Earth is at night. During a power outage, most of a city goes dark — but
-            facilities with backup generators keep their lights on. By comparing nighttime brightness
-            near critical infrastructure before and after a disaster, we can detect this "resilience
-            signal" from space.
+            This gap has real consequences. Emergency managers cannot assess which neighborhoods will
+            retain power during a hurricane. Environmental regulators cannot track diesel generator
+            emissions during prolonged outages. Energy equity researchers cannot measure whether
+            low-income communities have less backup power access. The information simply does not exist
+            at scale.
           </p>
 
-          <h2 id="sec-1-2">1.2 Core Hypothesis</h2>
+          <h2 id="sec-1-2">1.2 Can Satellites Help?</h2>
           <p>
-            The central hypothesis is straightforward: <strong>pixels near facilities with backup
-            generators maintain higher nighttime light levels during power outages</strong> compared to
-            surrounding areas without backup power. We formalize this as the <em>Resilience
-            Advantage (RA)</em> — the difference in NTL recovery ratios between buffer zones around
-            critical facilities and non-buffer areas. A positive RA indicates that infrastructure
-            buffers recover faster or maintain brightness better, consistent with generator activation.
+            We propose an unconventional approach: <strong>using nighttime satellite imagery to detect
+            backup generators indirectly</strong>. NASA's Black Marble product (VIIRS VNP46A2) captures
+            the brightness of every 500-meter patch of Earth's surface each night. During a power
+            outage, most of a city goes dark — but locations with backup generators keep their lights on.
+            This brightness anomaly is visible from space.
+          </p>
+          <p>
+            The core idea is simple: if we compare nighttime brightness before and after a disaster,
+            areas that stay anomalously bright during a blackout likely have backup power. We formalize
+            this as the <em>Resilience Advantage (RA)</em> — the difference in brightness retention
+            between areas near known facilities and the surrounding grid-dependent zones.
+          </p>
+          <p>
+            This is an <strong>exploratory project</strong>. We are not claiming to have solved generator
+            detection — we are testing how far satellite remote sensing can take us, what it can and
+            cannot reveal, and where the fundamental limitations lie.
           </p>
 
-          <h2 id="sec-1-3">1.3 Collaboration</h2>
-          <div class="callout callout--cyan">
-            <span>🛰️</span>
-            <div>
-              <strong>Temple University</strong> (PI: Prof. Li Xiaojiang) × <strong>Arizona State
-              University</strong>. The study began with six primary events across Puerto Rico, Florida,
-              and Louisiana, and has been extended to 9 events including Hurricane Ian (2022) and the
-              Turkey–Syria Earthquake (2023) to test cross-event generalizability.
-            </div>
-          </div>
-
-          <h2 id="sec-1-4">1.4 Study Events</h2>
+          <h2 id="sec-1-3">1.3 Approach</h2>
           <p>
-            We analyze 9 major disasters spanning 2017–2023, covering 7 hurricanes and 2 earthquakes
-            across the United States, Puerto Rico, and Turkey. Events are ordered chronologically below.
-            Each was selected based on outage severity (>100K affected users), duration (>5 days),
-            and satellite data availability (≥15 cloud-free post-disaster days).
+            We use critical infrastructure locations (hospitals, airports, fire stations) from
+            OpenStreetMap as a <strong>weak supervision signal</strong> — these facilities are likely
+            to have generators, so nearby pixels serve as positive training labels. The analysis
+            proceeds in three stages:
+          </p>
+          <ul class="detail-list">
+            <li><strong>Stage 1 — Interpretive modeling:</strong> Four statistical models (OLS, MixedLM, Logistic, Cox PH) test whether the resilience signal is real and statistically significant.</li>
+            <li><strong>Stage 2 — Predictive modeling:</strong> Random Forest + XGBoost models predict pixel-level backup power probability, validated with Leave-One-Event-Out cross-validation across 15 events.</li>
+            <li><strong>Stage 3 — Zip-code analysis:</strong> Extending from pixels to policy-relevant geographic units, testing whether facility density correlates with historical outage severity.</li>
+          </ul>
+          <p>
+            The best model (RF + XGBoost ensemble) achieves <strong>LOEO AUC 0.969</strong> with
+            spatial features — strong enough to produce useful probability maps. However, an ablation
+            removing all facility-location features drops AUC to <strong>0.700</strong>, revealing
+            that most predictive power comes from knowing <em>where facilities are</em>, not from
+            the satellite signal alone. The pure NTL behavioral signal is real but modest — sufficient
+            for exploratory screening at 500m resolution, not yet reliable enough for individual
+            building-level detection.
+          </p>
+
+          <h2 id="sec-1-4">1.4 Study Areas</h2>
+          <p>
+            We analyze {{ sortedEvents.length }} disaster events spanning 2016–2023 across 17 U.S. states,
+            Puerto Rico, and Turkey. Events were selected based on outage severity (duration > 48 hours,
+            > 50K affected), geographic diversity, and satellite data availability.
           </p>
           <div class="data-table">
             <table>
-              <thead><tr><th>Event</th><th>Location</th><th>Date</th><th>Type</th><th>Affected</th></tr></thead>
+              <thead><tr><th>Location</th><th>Event</th><th>Date</th><th>Affected</th></tr></thead>
               <tbody>
                 <tr v-for="ev in sortedEvents" :key="ev.id">
-                  <td><span class="dot" :style="{ background: ev.color }" />{{ ev.name }}</td>
-                  <td>{{ ev.subtitle }}</td>
+                  <td><span class="dot" :style="{ background: ev.color }" />{{ ev.subtitle }}</td>
+                  <td>{{ ev.name }}</td>
                   <td class="mono">{{ ev.date }}</td>
-                  <td><span class="tag" :class="`tag--${ev.type}`" style="font-size:10px">{{ ev.type }}</span></td>
                   <td class="mono">{{ ev.affectedUsers }}</td>
                 </tr>
               </tbody>
@@ -97,18 +114,30 @@
 
           <h2 id="sec-1-5">1.5 Research Questions</h2>
           <ul class="detail-list">
-            <li><strong>Detection:</strong> Can nighttime light satellite imagery detect backup generator activation at critical facilities during power outages?</li>
-            <li><strong>Statistical signal:</strong> Do buffer zones around critical infrastructure show statistically higher NTL recovery ratios than surrounding non-buffer areas?</li>
-            <li><strong>Generalization:</strong> Can a predictive model trained on multiple disaster events generalize to unseen events through cross-event transfer learning?</li>
+            <li><strong>Detection:</strong> Can nighttime satellite imagery detect backup generator activation during power outages?</li>
+            <li><strong>Signal decomposition:</strong> How much of the predictive signal comes from genuine NTL behavior versus spatial proximity to known facilities?</li>
+            <li><strong>Generalization:</strong> Can a model trained on one set of cities predict backup power in unseen cities?</li>
+            <li><strong>Limitations:</strong> What spatial resolution, temporal coverage, and data quality constraints bound this approach?</li>
           </ul>
+
+          <div class="callout callout--cyan">
+            <span>--</span>
+            <div>
+              <strong>Collaboration:</strong> Temple University (PI: Prof. Xiaojiang Li) and
+              Arizona State University. The project began with 6 events in Puerto Rico, Florida,
+              and Louisiana, and has expanded to 15 events across the continental U.S. and Turkey.
+            </div>
+          </div>
 
           <div class="takeaway">
             <div class="takeaway__label">KEY TAKEAWAY</div>
             <p class="takeaway__text">
-              This is fundamentally a <strong>remote sensing + machine learning</strong> project that
-              turns a data gap (no generator records) into a detection problem (can we see generators
-              from space?). The answer, as the following sections demonstrate, is a qualified yes —
-              with important caveats about resolution, cloud cover, and cross-event variability.
+              This project turns a data gap — no generator records — into a detection problem:
+              <strong>can we see generators from space?</strong> The answer is a qualified yes.
+              Pure nighttime light behavior achieves <strong>AUC 0.700</strong> (above random but
+              modest); adding spatial context raises this to <strong>0.969</strong>. The gap between
+              these numbers tells us exactly how much the satellite signal contributes versus
+              what we already know from facility locations.
             </p>
           </div>
         </template>
@@ -125,6 +154,24 @@
             which provides daily, gap-filled nighttime light (NTL) imagery at 500-meter resolution.
             The data comes from the VIIRS Day/Night Band sensor aboard the Suomi NPP satellite,
             which orbits Earth ~14 times per day and captures visible-band light emission after sunset.
+          </p>
+          <p>
+            The <strong>daily temporal resolution is critical</strong> for this project. Power outages
+            unfold over days to weeks — generators activate within hours of a blackout and may run for
+            days before grid power returns. A monthly or annual composite would blur this timeline
+            into invisibility. Daily imagery lets us track the exact onset, duration, and spatial
+            pattern of brightness anomalies as they evolve, day by day, through the disaster and
+            recovery cycle.
+          </p>
+          <p>
+            However, the <strong>500-meter spatial resolution is a significant limitation</strong>.
+            A single pixel covers roughly 25 hectares — an area that may contain a hospital,
+            surrounding parking lots, residential blocks, and a park. The generator signal from one
+            building is mixed with ambient light (or darkness) from everything else in that pixel.
+            This means we are detecting aggregate brightness patterns in the neighborhood of a
+            facility, not the facility itself. Small generators (residential, single-business) are
+            effectively invisible at this resolution; only large institutional generators that
+            meaningfully change a 500m pixel's total radiance are detectable.
           </p>
           <p>
             The VNP46A2 product is not raw sensor output — it undergoes extensive processing by
@@ -159,13 +206,14 @@
             tells us which disasters caused significant, sustained power outages worth studying
             with satellite imagery.
           </p>
-          <p>Our event selection criteria ensure each study event is both significant enough
-            to produce a detectable NTL signal and has sufficient satellite coverage for analysis:</p>
+          <p>We screened all severe weather events in EAGLE-I (2014–2023) and ranked them by a
+            severity score (peak affected customers × max outage duration). Final selection criteria:</p>
           <ul class="detail-list">
-            <li><strong>Outage duration</strong> > 5 days — sustained enough for daily NTL to detect</li>
-            <li><strong>Affected users</strong> > 100,000 — significant spatial extent of blackout</li>
-            <li><strong>Post-disaster clear days</strong> ≥ 15 — sufficient cloud-free satellite observations</li>
-            <li><strong>Geographic diversity</strong> — events across different U.S. regions and disaster types (hurricanes + earthquakes)</li>
+            <li><strong>Outage duration</strong> > 72 hours — sustained enough for daily NTL to capture the outage-recovery arc</li>
+            <li><strong>Peak affected</strong> > 100,000 customers — large enough to produce a spatially detectable NTL signal</li>
+            <li><strong>County coverage</strong> ≥ 5 counties reporting — ensures the event is not a localized utility failure</li>
+            <li><strong>Geographic diversity</strong> — events spanning different U.S. regions (Southeast, Northeast, Midwest, Southern Plains, Pacific Northwest) and disaster types (hurricanes, earthquakes, winter storms, derechos, ice storms)</li>
+            <li><strong>Hurricane track verification</strong> — for hurricane events, IBTrACS v4 track data confirms the study area falls within the storm's wind field (R34 radius)</li>
           </ul>
 
           <!-- ════════════════════════════════════════════════ -->
@@ -174,8 +222,18 @@
           <h2 id="sec-2-3">2.3 What Does a Disaster Look Like in NTL?</h2>
           <p>
             Hurricane Maria made landfall in Puerto Rico on September 20, 2017 as a Category 5 storm,
-            causing the longest blackout in U.S. history. It is the ideal case study for our method
-            because the NTL signal is dramatic and unambiguous: the entire island went dark.
+            causing the longest blackout in U.S. history. <strong>Maria is the closest to an ideal
+            case study for our method</strong>: the entire island went dark (near-total outage),
+            recovery took months (long observation window), and Puerto Rico's tropical latitude
+            means relatively low cloud cover compared to mid-latitude events. The NTL signal is
+            dramatic and unambiguous — a best-case scenario for satellite detection.
+          </p>
+          <p>
+            The other 14 events present progressively harder challenges: shorter outages (days
+            instead of months), partial rather than total blackouts, higher cloud cover in winter
+            storms, and urban areas where baseline brightness is so high that generator light
+            is a small fraction of the pixel. How well the method transfers from Maria's ideal
+            conditions to these harder cases is a key question this project aims to answer.
           </p>
           <p>
             The player below shows daily satellite imagery of the San Juan metropolitan area.
@@ -242,7 +300,7 @@
 
           <p>
             This pattern — a sudden NTL collapse followed by gradual, spatially uneven recovery — is
-            what we observe across all nine study events, though the severity and duration vary
+            what we observe across all 15 study events, though the severity and duration vary
             significantly. The bar charts below summarize the daily spatial-mean NTL for each event,
             with <strong style="color:var(--green)">green bars = pre-disaster</strong> and
             <strong style="color:var(--red, #ff6b6b)">red bars = post-disaster</strong>.
@@ -251,11 +309,11 @@
           <div v-if="cloudStats" class="collapsible" :class="{ expanded: ntlExpanded }">
             <div class="collapsible__content">
               <div class="ntl-charts-grid">
-                <div v-for="ev in cloudEvents" :key="ev.id" class="ntl-chart-card">
+                <div v-for="ev in cloudEvents" :key="ev.id" class="ntl-chart-card" @click="chartModal = { type: 'ntl', ev }" style="cursor:pointer">
                   <div class="ntl-chart-card__header">
                     <span class="dot" :style="{ background: ev.color }" />
-                    <strong>{{ ev.name }}</strong>
-                    <span class="mono" style="color:var(--text-muted); font-size:11px">{{ ev.subtitle }}</span>
+                    <strong>{{ ev.subtitle.split(',')[0] }}</strong>
+                    <span class="mono" style="color:var(--text-dim); font-size:9px; margin-left:auto">{{ ev.year }}</span>
                   </div>
                   <svg :viewBox="`0 0 ${ntlChartW} ${ntlChartH}`" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
                     <line v-for="y in [0.25, 0.5, 0.75, 1.0]" :key="y"
@@ -265,20 +323,12 @@
                     <line :x1="ntlX(ev.id, 'split')" :x2="ntlX(ev.id, 'split')"
                       :y1="ntlPad.t" :y2="ntlChartH - ntlPad.b"
                       stroke="rgba(255,100,100,0.6)" stroke-width="1" stroke-dasharray="3 2" />
-                    <text :x="ntlX(ev.id, 'split') + 3" :y="ntlPad.t + 10" fill="rgba(255,120,120,0.8)" font-size="8" font-family="monospace">DISASTER</text>
-                    <rect v-for="(d, i) in getPreDays(ev.id)" :key="'pre'+i"
-                      :x="ntlBarX(ev.id, i, 'pre')" :y="ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
-                      :width="ntlBarW(ev.id)" :height="ntlChartH - ntlPad.b - ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
-                      fill="rgba(0,229,160,0.6)" rx="1" />
-                    <rect v-for="(d, i) in getPostDays(ev.id)" :key="'post'+i"
-                      :x="ntlBarX(ev.id, i, 'post')" :y="ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
-                      :width="ntlBarW(ev.id)" :height="ntlChartH - ntlPad.b - ntlY(d.mean_ntl / ntlMax(ev.id), ev.id)"
-                      fill="rgba(255,107,107,0.6)" rx="1" />
-                    <text :x="ntlPad.l" :y="ntlChartH - 2" fill="var(--text-dim)" font-size="8" font-family="monospace">Pre</text>
-                    <text :x="ntlX(ev.id, 'split') + 3" :y="ntlChartH - 2" fill="var(--text-dim)" font-size="8" font-family="monospace">Post</text>
-                    <text :x="ntlChartW - ntlPad.r" :y="ntlPad.t + 10" fill="var(--text-muted)" font-size="8" font-family="monospace" text-anchor="end">
-                      Pre avg: {{ cloudStats[ev.dashId]?.summary.pre_mean_ntl }} · Post avg: {{ cloudStats[ev.dashId]?.summary.post_mean_ntl }} nW/cm²/sr
-                    </text>
+                    <polyline :points="ntlLinePath(ev.id, 'pre')" fill="none" stroke="rgba(0,229,160,0.8)" stroke-width="1.5" />
+                    <polyline :points="ntlLinePath(ev.id, 'post')" fill="none" stroke="rgba(255,107,107,0.8)" stroke-width="1.5" />
+                    <polygon :points="ntlAreaPath(ev.id, 'pre')" fill="rgba(0,229,160,0.12)" />
+                    <polygon :points="ntlAreaPath(ev.id, 'post')" fill="rgba(255,107,107,0.12)" />
+                    <text :x="ntlPad.l + 2" :y="ntlChartH - 2" fill="rgba(0,229,160,0.7)" font-size="7" font-family="monospace">Pre</text>
+                    <text :x="ntlX(ev.id, 'split') + 3" :y="ntlChartH - 2" fill="rgba(255,107,107,0.7)" font-size="7" font-family="monospace">Post</text>
                   </svg>
                 </div>
               </div>
@@ -308,14 +358,20 @@
             after download.
           </p>
           <div class="callout callout--cyan">
-            <span>🌥️</span>
+            <span>--</span>
             <div>
-              <strong>Our cloud masking strategy:</strong> For each daily GeoTIFF, we compute the fraction
-              of pixels with valid (non-zero, non-NaN) values. Days where this fraction falls below
-              <strong>30%</strong> are excluded entirely from the analysis. Pixels with NTL ≤ 0 within
-              retained days are still masked individually. This two-stage approach (NASA's gap-filling +
-              our post-download QC) maximizes the number of usable observation days while ensuring
-              that included days have sufficient spatial coverage for meaningful statistics.
+              <strong>Two data strategies:</strong> In the exploratory phase (EDA), we applied
+              strict QA-pixel-band masking during GEE export — only retaining genuinely cloud-free
+              pixels and excluding cloudy days entirely (threshold: 30% cloud cover). This ensures
+              the EDA statistics reflect real observations, not interpolations.
+              <br /><br />
+              For the predictive modeling phase, we expanded to 15 events using <strong>gap-filled
+              imagery</strong> (VNP46A2) to maximize geographic coverage. Gap-filling uses temporal
+              interpolation from neighboring days, which may slightly inflate post-disaster brightness
+              for days with cloud cover (the algorithm borrows from pre-disaster values). However,
+              since our models use <strong>pre/post period averages</strong> rather than single-day
+              values, a few interpolated days within a 30–45 day window have minimal impact on the
+              aggregate statistics.
             </div>
           </div>
 
@@ -359,13 +415,11 @@
           <div v-if="cloudFrac" class="collapsible" :class="{ expanded: cloudExpanded }">
             <div class="collapsible__content">
               <div class="ntl-charts-grid">
-                <div v-for="ev in cloudEvents" :key="'cloud-'+ev.id" class="ntl-chart-card">
+                <div v-for="ev in cloudEvents" :key="'cloud-'+ev.id" class="ntl-chart-card" @click="chartModal = { type: 'cloud', ev }" style="cursor:pointer">
                   <div class="ntl-chart-card__header">
                     <span class="dot" :style="{ background: ev.color }" />
-                    <strong>{{ ev.name }}</strong>
-                    <span class="mono" style="color:var(--text-muted); font-size:11px">
-                      Avg cloud: {{ cloudFrac[ev.dashId]?.summary.avg_cloud_pct }}% · {{ cloudFrac[ev.dashId]?.summary.excluded_days }} days excluded
-                    </span>
+                    <strong>{{ ev.subtitle.split(',')[0] }}</strong>
+                    <span class="mono" style="color:var(--text-dim); font-size:9px; margin-left:auto">{{ cloudFrac[ev.dashId]?.summary.avg_cloud_pct }}%</span>
                   </div>
                   <svg :viewBox="`0 0 ${ntlChartW} ${ntlChartH}`" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
                     <!-- 30% threshold -->
@@ -462,9 +516,74 @@ for img in pre_col.toList(pre_col.size()).getInfo():
           </div>
 
           <!-- ════════════════════════════════════════════════ -->
-          <!-- SECTION 6: OSM Facilities                       -->
+          <!-- SECTION 7: Generator Permit Data                -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-6">2.6 Critical Infrastructure from OpenStreetMap</h2>
+          <h2 id="sec-2-6">2.6 Generator Permit Records — The Ground Truth Gap</h2>
+          <p>
+            While no unified generator database exists, many U.S. jurisdictions do require permits
+            for generator installation — but these records are fragmented, inconsistent, and hard
+            to access. The permit type varies by jurisdiction and generator size:
+          </p>
+          <ul class="detail-list">
+            <li><strong>Air quality permits</strong> — Large diesel generators (typically >50 kW)
+              require emissions permits from state environmental agencies (e.g., EPA Title V,
+              state-level "minor source" permits). These track fuel type and rated capacity but
+              rarely include exact coordinates.</li>
+            <li><strong>Building/electrical permits</strong> — Smaller generators require local
+              building permits for installation. Miami-Dade County, for example, issues electrical
+              permits tagged with "GENERATOR" in the work description. These include precise
+              addresses but miss generators installed during original construction.</li>
+            <li><strong>Fire department permits</strong> — Some jurisdictions require fire safety
+              permits for fuel storage associated with generators, tracked separately from
+              building permits.</li>
+            <li><strong>Utility interconnection agreements</strong> — Generators capable of
+              back-feeding the grid require utility approval, but these records are proprietary.</li>
+          </ul>
+
+          <p>Two fundamental challenges prevent assembling a comprehensive generator database:</p>
+
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Challenge</th><th>Description</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td style="font-weight:600">Historical data loss</td>
+                  <td>Many jurisdictions only digitized permit records in the 2000s–2010s.
+                    Generators installed in the 1990s or earlier — including large institutional
+                    units at hospitals and airports — often have no digital record. The permit
+                    captures <em>installation</em>, not <em>existence</em>.</td>
+                </tr>
+                <tr>
+                  <td style="font-weight:600">Inconsistent classification</td>
+                  <td>A hospital generator might appear as an "electrical permit," an "air permit,"
+                    or a "mechanical permit" depending on the jurisdiction. Residential portable
+                    generators may require no permit at all. There is no standard code or category
+                    that means "backup generator" across all U.S. counties.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            Our collaborators at <strong>Arizona State University</strong> and <strong>Temple
+            University</strong> have been manually collecting generator permit data from county
+            open data portals across our study areas. To date, <strong>Miami-Dade County</strong>
+            (Florida) is the only jurisdiction with sufficiently complete, geocoded permit data
+            for quantitative validation — yielding 592 generator permits (499 residential,
+            93 commercial). This dataset is used in Section 6.7 to validate the predictive model's
+            output against real generator locations.
+          </p>
+          <p>
+            Collection efforts for additional counties (Harris County TX, Duval County FL,
+            Fulton County GA) are ongoing. The difficulty of assembling this data is itself
+            a key motivation for our satellite-based detection approach — if generator locations
+            were easy to compile, there would be less need for remote sensing.
+          </p>
+
+          <!-- ════════════════════════════════════════════════ -->
+          <!-- SECTION 6: Generator Permit Data                -->
+          <!-- ════════════════════════════════════════════════ -->
+          <h2 id="sec-2-7">2.7 Critical Infrastructure from OpenStreetMap</h2>
           <p>
             A core challenge of this project is that <strong>no public dataset of backup generator
             locations exists</strong>. We cannot simply look up which buildings have generators — this
@@ -500,13 +619,18 @@ for img in pre_col.toList(pre_col.size()).getInfo():
               </tbody>
             </table>
           </div>
+          <p>
+            Airports receive a larger buffer radius (1,250m vs 750m) because their physical
+            footprint spans multiple 500m pixels — runways, terminals, and support buildings
+            spread across a much larger area than a single hospital or fire station. The buffer
+            must encompass the facility's entire lighting footprint, not just its centroid.
+          </p>
           <div class="callout callout--amber">
-            <span>⚠️</span>
+            <span>--</span>
             <div>
-              <strong>Excluded facility types:</strong> Clinics, schools, government offices, and
-              substations are queried but excluded from the primary "strict" buffer label. These
-              facilities either don't operate at night or don't typically have backup generators
-              capable of producing a detectable NTL signal at 500m resolution.
+              <strong>Excluded facility types:</strong> Government offices, substations, and
+              water treatment plants are queried but excluded from the primary "strict" buffer
+              label — they either lack backup generators or don't operate at night.
             </div>
           </div>
 
@@ -568,65 +692,18 @@ for h in hospitals[:3]:
           </div>
 
           <!-- ════════════════════════════════════════════════ -->
-          <!-- SECTION 7: Data Quality Challenges              -->
+          <!-- SECTION 8: Cross-Event Heterogeneity            -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-7">2.7 Data Quality Considerations</h2>
+          <h2 id="sec-2-8">2.8 Cross-Event Heterogeneity</h2>
           <p>
-            While NASA Black Marble provides the best available daily NTL product, several data
-            quality challenges must be acknowledged. These limitations directly affect our modeling
-            choices and the interpretability of results.
-          </p>
-
-          <h3>No Ground Truth for Backup Generators</h3>
-          <p>
-            The most fundamental limitation is the <strong>absence of direct backup generator
-            data</strong>. There is no public, georeferenced database of which buildings have
-            generators, their capacity, or whether they were actually activated during a given
-            disaster. Generator installations are tracked by individual utilities, building
-            management companies, and local emergency agencies — but this information is
-            fragmented, proprietary, and rarely available to researchers.
-          </p>
-          <p>
-            This is why our approach uses critical infrastructure locations as a <em>proxy</em>.
-            We assume that hospitals, airports, and power plants are highly likely to have
-            backup generators based on regulatory requirements (e.g., Joint Commission standards
-            for hospitals, FAA requirements for airports). But this assumption introduces noise:
-            not every facility may have a functioning generator, and some non-critical buildings
-            (hotels, data centers) may also have backup power without appearing in our facility
-            dataset. Our model therefore predicts a <em>probability of backup power presence</em>
-            rather than a definitive yes/no classification.
-          </p>
-
-          <h3>Spatial Resolution (500m)</h3>
-          <p>
-            Each pixel covers a 500m × 500m area — roughly 25 hectares. A single pixel may contain
-            a hospital, its parking lot, surrounding residential blocks, and a park. This
-            "mixed-pixel" problem means the NTL value we observe is an area-weighted average of
-            all light sources within that footprint. A hospital's backup generator illuminating
-            its campus may only produce a modest increase in the pixel's total NTL if the
-            surrounding area is dark. Our buffer zone approach (750m–1250m radii) is designed
-            to capture this diffuse signal by aggregating across multiple pixels near each facility.
-          </p>
-
-          <h3>Cloud Cover Variability</h3>
-          <p>
-            As shown in the cloud coverage analysis above, observation quality varies substantially
-            across events. Hurricane Michael (Panama City) averages only ~83% cloud-free pixels —
-            the lowest in our dataset — because the storm's remnants lingered over the Florida
-            Panhandle. In contrast, the Turkey earthquake occurred in winter under relatively
-            clear skies (97% cloud-free). This variability means some events have denser temporal
-            sampling than others, which affects the reliability of daily NTL ratios.
-          </p>
-
-          <h3>Cross-Event Heterogeneity</h3>
-          <p>
-            Our nine events span different geographies (Caribbean islands, Gulf Coast, Florida
-            peninsula, southeastern Turkey), city sizes (Lake Charles ~80K population vs. Miami
-            ~6M metro), disaster types (hurricanes vs. earthquakes), and recovery timelines
-            (Irma recovered in ~2 weeks; Maria took 11 months). This heterogeneity is both a
-            strength (testing generalizability) and a challenge (the "generator signature" may
-            manifest differently in each context). The cross-event modeling in later sections
-            directly addresses whether a universal signal exists despite these differences.
+            Our 15 events span very different contexts — geographies from Caribbean islands to
+            the U.S. Midwest, city sizes from Lake Charles (~80K) to Atlanta (~6M metro),
+            disaster types (hurricanes, earthquakes, winter storms, derechos), and recovery
+            timelines from 2 weeks (Irma) to 11 months (Maria). This heterogeneity is both
+            a strength for testing generalizability and a challenge: the "generator signature"
+            may manifest differently across these conditions. The LOEO cross-validation in
+            Section 6 directly tests whether a universal detection model can work despite
+            these differences.
           </p>
 
           <div class="takeaway">
@@ -1061,18 +1138,36 @@ for h in hospitals[:3]:
         <!-- 05 Interpretive Modeling -->
         <template v-if="sectionId === 'interpretive'">
 
-          <!-- ═══ 5.1 Why Four Models ═══ -->
-          <h2 id="sec-5-1">4.1 Why Four Models?</h2>
+          <!-- ═══ 5.0 Why Interpretive Modeling ═══ -->
+          <h2 id="sec-5-1">4.1 Why Interpretive Modeling First?</h2>
           <p>
-            The four models are not redundant repetitions — they attack the same hypothesis
-            from four different angles: <em>"Can backup generators at critical infrastructure
-            leave a detectable resilience signal in satellite nighttime light data?"</em>
+            Before building a predictive model, we need to answer a more fundamental question:
+            <strong>is there actually a detectable signal?</strong> The EDA shows that buffer
+            zones near facilities have higher resilience ratios on average — but is that
+            difference statistically significant, or could it be explained by confounding
+            variables like urban brightness and land use?
           </p>
           <p>
-            No single model is sufficient. OLS alone assumes pixel independence (biased SEs).
-            Logit alone discards the continuous NTL change information. Both OLS and Logit ignore
-            the <em>time</em> dimension of recovery. Only when all four models point in the same
-            direction — <strong>triangulation</strong> — can we confidently say the signal is real.
+            Interpretive modeling serves three purposes in our pipeline:
+          </p>
+          <ul class="detail-list">
+            <li><strong>Validate the signal exists</strong> — If four different statistical
+              models all find a significant effect in the same direction, the signal is unlikely
+              to be an artifact of any single model's assumptions.</li>
+            <li><strong>Understand what drives it</strong> — OLS interaction terms reveal that
+              the effect depends on baseline brightness (floor effect). MixedLM shows the
+              effect survives event-level clustering. Logistic regression gives intuitive
+              odds ratios. Cox PH adds the time dimension.</li>
+            <li><strong>Guide feature engineering</strong> — The confounds and interactions
+              discovered here directly inform which features we engineer for the predictive
+              models in Stage 2. The floor effect motivates city-level normalization; the
+              land-use confound motivates NLCD controls; the facility-type variation
+              motivates group-level features.</li>
+          </ul>
+          <p>
+            This is the <strong>triangulation</strong> approach: four models, same hypothesis,
+            different angles. Only when all four point in the same direction can we confidently
+            proceed to prediction.
           </p>
           <div class="data-table">
             <table>
@@ -1308,18 +1403,46 @@ for h in hospitals[:3]:
 
         <!-- 06 Feature Engineering -->
         <template v-if="sectionId === 'features'">
-          <h3>Floor Effect</h3>
-          <div class="callout callout--amber">
-            <span>🔍</span>
-            <div>
-              In smaller cities (Lake Charles, Panama City), critical infrastructure sits in darker
-              urban cores. Raw buffer comparisons are confounded.
-              Two features address this: <code>below_city_median</code> and
-              <code>below_median_x_group</code> (interaction with facility group).
-            </div>
+          <h2 id="sec-6-floor">5.1 From Findings to Features</h2>
+          <p>
+            The interpretive modeling phase uncovered several key patterns that directly
+            shape how we engineer features for prediction:
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Interpretive Finding</th><th>Predictive Feature(s)</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><strong>Floor effect</strong> — facilities in darker areas appear less resilient because NTL can't drop much further</td>
+                  <td class="mono">below_city_median, below_median_x_group</td>
+                </tr>
+                <tr>
+                  <td><strong>City size matters</strong> — large cities (Miami) vs small cities (Lake Charles) show systematically different resilience patterns</td>
+                  <td class="mono">city_size_code, log_city_pre_mean, ntl_relative</td>
+                </tr>
+                <tr>
+                  <td><strong>Facility type variation</strong> — hospitals and airports show stronger signals than fire stations and police</td>
+                  <td class="mono">fac_group, ntl_x_group</td>
+                </tr>
+                <tr>
+                  <td><strong>Land-use confounding</strong> — NLCD categories partially explain the buffer effect (commercial land use ≈ facilities)</td>
+                  <td class="mono">near_excluded (controls for non-signal facility types)</td>
+                </tr>
+                <tr>
+                  <td><strong>Spatial proximity is informative</strong> — distance to nearest facility predicts buffer membership</td>
+                  <td class="mono">log_dist</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+          <p>
+            Without the interpretive phase, we would have built a naive feature set that ignores
+            floor effects and city-size confounds — leading to a model that works in Miami but
+            fails in Lake Charles. Each feature below has a direct lineage to an interpretive
+            finding.
+          </p>
 
-          <h3>Full Feature Set — 17 features</h3>
+          <h2 id="sec-6-features">5.2 Full Feature Set — 17 features</h2>
           <div class="feature-grid">
             <div v-for="f in features17" :key="f.name" class="feature-item">
               <div class="feature-item__name mono">{{ f.name }}</div>
@@ -1344,55 +1467,182 @@ for h in hospitals[:3]:
 
         <!-- 05 Models -->
         <template v-if="sectionId === 'models'">
-          <p>
-            Three model variants evaluated with
-            <strong>Leave-One-Event-Out (LOEO)</strong> cross-validation.
-            Pixels within the same event share spatial autocorrelation and must not
-            leak across train/test splits.
-          </p>
-          <div class="model-cards">
-            <div v-for="m in modelVariants" :key="m.id" class="model-card">
-              <div class="model-card__label mono">{{ m.id }}</div>
-              <div class="model-card__name">{{ m.name }}</div>
-              <div class="model-card__desc">{{ m.desc }}</div>
-            </div>
-          </div>
 
-          <h3>Algorithms</h3>
+          <h2 id="sec-5-intro">6.1 From Interpretation to Prediction</h2>
+          <p>
+            The interpretive phase (Stage 1) validated <code>in_buffer</code> as a meaningful
+            weak-supervision label: buffer pixels consistently show higher resilience ratios across
+            all events. Now we flip the direction: instead of testing whether buffer zones are
+            resilient, we <strong>predict which pixels have backup power</strong> from their NTL
+            behavior and spatial context.
+          </p>
+          <p>
+            We design <strong>four model variants (A–D)</strong> as a systematic ablation study.
+            Each variant removes a category of features to isolate what drives prediction accuracy.
+            All four are evaluated with <strong>Leave-One-Event-Out (LOEO)</strong> cross-validation
+            across 15 disaster events — ensuring that the model never trains and tests on the same
+            geographic area.
+          </p>
+
           <div class="data-table">
             <table>
-              <thead><tr><th>Algorithm</th><th>Key Hyperparameters</th><th>Role</th></tr></thead>
+              <thead><tr><th>Model</th><th>Features</th><th>Hypothesis Tested</th><th>LOEO AUC (RF)</th></tr></thead>
               <tbody>
-                <tr><td>Random Forest</td><td class="mono">max_depth=5, min_samples_leaf=20, n=500</td><td>Primary (more discriminative)</td></tr>
-                <tr><td>XGBoost</td><td class="mono">max_depth=4, lr=0.05, min_child=20</td><td>Ensemble: RF×0.7 + XGB×0.3</td></tr>
-                <tr><td>Logistic Regression</td><td class="mono">C=1.0, class_weight=balanced</td><td>Linear baseline</td></tr>
+                <tr><td style="font-weight:600">Model A</td><td>All 17 features</td><td>Full predictive power with spatial + NTL</td><td class="mono" style="color:var(--green)">0.969</td></tr>
+                <tr><td style="font-weight:600">Model B</td><td>Remove pre-disaster NTL</td><td>Is post-disaster behavior alone sufficient?</td><td class="mono" style="color:var(--green)">0.970</td></tr>
+                <tr><td style="font-weight:600">Model C</td><td>Model A + building footprints</td><td>Does OSM building coverage add signal?</td><td class="mono" style="color:var(--green)">0.968</td></tr>
+                <tr><td style="font-weight:600">Model D</td><td>Pure NTL behavior only</td><td>Can lights alone detect generators?</td><td class="mono" style="color:var(--cyan)">0.700</td></tr>
               </tbody>
             </table>
           </div>
 
-          <div class="callout callout--amber">
-            <span>⚠️</span>
+          <h2 id="sec-5-algo">6.2 Model A — Full Feature Set</h2>
+          <p>
+            Model A is the primary model, using all <strong>17 engineered features</strong> spanning
+            four categories: NTL behavior (6 features), spatial proximity (4), city/disaster controls
+            (3), and interaction terms (4). Three algorithms are compared:
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Algorithm</th><th>Key Hyperparameters</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td>Random Forest</td><td class="mono">n=200, max_depth=8, min_samples_leaf=20, balanced</td><td>Primary classifier</td></tr>
+                <tr><td>XGBoost</td><td class="mono">n=200, max_depth=5, lr=0.05, early stopping</td><td>Gradient boosting</td></tr>
+                <tr><td>Logistic Regression</td><td class="mono">C=1.0, class_weight=balanced</td><td>Linear baseline</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The final ensemble combines RF and XGBoost: <code>P = 0.7 × P_RF + 0.3 × P_XGB</code>.
+            RF receives higher weight because it shows more consistent cross-event performance.
+          </p>
+          <div class="formula-block">
+            <div class="formula">LOEO AUC: RF = 0.969 (±0.023), XGB = 0.973, Logit = 0.948</div>
+            <div class="formula__caption">Mean across 15 held-out events, strict buffer label</div>
+          </div>
+          <p>
+            Feature importance reveals <strong><code>log_dist</code></strong> (distance to nearest
+            facility) as the dominant predictor (39% average importance), followed by facility type
+            indicators. NTL behavior features (<code>log_pre_ntl</code>, <code>delta_ntl</code>)
+            contribute modestly but consistently.
+          </p>
+
+          <h3>Why AUC, Not Precision/Recall?</h3>
+          <p>
+            Classification metrics like precision, recall, and F1 require choosing a probability
+            threshold (e.g., P > 0.5 = "has generator"). But our goal is not binary classification
+            — it's <strong>spatial ranking</strong>: which areas are more likely to have backup power?
+            The threshold choice is arbitrary and application-dependent.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Metric</th><th>Model A (RF)</th><th>Why It Matters (or Doesn't)</th></tr></thead>
+              <tbody>
+                <tr><td style="font-weight:600">LOEO AUC</td><td class="mono" style="color:var(--green)">0.969</td>
+                  <td>Threshold-free. Measures whether the model ranks generator areas above non-generator areas in <em>unseen cities</em>. This is what we care about.</td></tr>
+                <tr><td style="font-weight:600">PR-AUC</td><td class="mono" style="color:var(--green)">0.949</td>
+                  <td>More informative than ROC-AUC when classes are imbalanced (22% positive). High PR-AUC confirms the model isn't just predicting "no generator" everywhere.</td></tr>
+                <tr><td>Precision @0.5</td><td class="mono">0.822</td>
+                  <td style="color:var(--text-muted)">Depends on arbitrary threshold. Would change entirely at 0.3 or 0.7.</td></tr>
+                <tr><td>Recall @0.5</td><td class="mono">0.887</td>
+                  <td style="color:var(--text-muted)">Same issue. High recall at 0.5 but meaningless without context of threshold choice.</td></tr>
+                <tr><td>F1 @0.5</td><td class="mono">0.853</td>
+                  <td style="color:var(--text-muted)">Harmonic mean of two threshold-dependent metrics. Reported for completeness only.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            An AUC of 0.969 means: if you randomly pick one pixel from a generator area and one
+            from a non-generator area, the model assigns a higher probability to the generator
+            pixel <strong>96.9% of the time</strong>. This holds across 15 completely unseen cities
+            — a strong indicator of genuine cross-city generalization.
+          </p>
+
+          <h3>6.3 Model B — Post-Disaster Only</h3>
+          <p>
+            Model B removes all pre-disaster NTL features (<code>log_pre_ntl</code>,
+            <code>ntl_relative</code>, <code>log_city_pre_mean</code>, <code>below_city_median</code>).
+            This tests whether the generator detection signal comes from <strong>post-disaster
+            behavior</strong> (lights staying on during outage) or <strong>pre-disaster urban
+            structure</strong> (brighter areas = more infrastructure).
+          </p>
+          <div class="formula-block">
+            <div class="formula">Model B AUC = 0.970 vs Model A AUC = 0.969 → Delta = +0.001</div>
+            <div class="formula__caption">Pre-disaster brightness contributes negligibly</div>
+          </div>
+          <p>
+            The near-identical AUC confirms that <strong>pre-disaster NTL is not necessary</strong>
+            for prediction. The model relies primarily on spatial proximity features and post-disaster
+            NTL changes. This is methodologically important: it means the model is not simply learning
+            "bright areas have generators" but detecting genuine behavioral signals.
+          </p>
+
+          <h3>6.4 Model C — With Building Footprints</h3>
+          <p>
+            Model C augments Model A with four features derived from <strong>OSM building footprint
+            coverage</strong> within each pixel: total coverage ratio, log-transformed coverage,
+            coverage × pre-NTL interaction, and a binary indicator for meaningful building presence
+            (>1% coverage).
+          </p>
+          <div class="formula-block">
+            <div class="formula">Model C AUC = 0.968 vs Model A AUC = 0.969 → Delta = -0.001</div>
+            <div class="formula__caption">Building footprints do not improve prediction</div>
+          </div>
+          <p>
+            The null result makes sense: building footprints correlate strongly with existing features
+            (<code>log_pre_ntl</code>, <code>log_dist</code>) and add no independent signal. At 500m
+            resolution, individual building outlines are too fine-grained to help pixel-level prediction.
+          </p>
+
+          <h3>6.5 Model D — Pure NTL Behavior</h3>
+          <p>
+            Model D is the most restrictive ablation: it removes <strong>all spatial proximity
+            features</strong> (<code>log_dist</code>, <code>near_fire_station</code>,
+            <code>near_police</code>, <code>near_excluded</code>, <code>fac_group</code>) and
+            all interaction terms. Only 10 features remain, all derived from NTL magnitude
+            and change.
+          </p>
+          <div class="formula-block">
+            <div class="formula">Model D AUC = 0.700 vs Model A AUC = 0.969 → Delta = -0.269</div>
+            <div class="formula__caption">Spatial features contribute +0.269 AUC</div>
+          </div>
+          <p>
+            This is the key finding: <strong>pure nighttime light behavior achieves AUC 0.700</strong>
+            — significantly above random (0.5), confirming that NTL changes carry a genuine backup
+            power detection signal. But spatial context (knowing where facilities are) adds +0.269 AUC,
+            nearly doubling the model's discriminative power.
+          </p>
+          <div class="callout callout--cyan">
+            <span>--</span>
             <div>
-              <strong>Cross-event generalization:</strong> Strong within-sample AUC but near-random
-              LOEO AUC (~0.49), driven by city size confound, recovery duration variation, and
-              earthquake events coupled only to San Juan. Dataset expansion to 9–12 balanced events
-              is underway.
+              <strong>Interpretation:</strong> The 0.700 AUC from Model D represents the "pure remote
+              sensing" capability — detecting generators solely from satellite observations without any
+              ground-truth facility locations. This is the answer to the core research question: yes,
+              nighttime light changes can detect backup generators from space, but spatial context
+              dramatically improves accuracy.
             </div>
           </div>
 
-          <h3>LOEO Cross-Validation</h3>
+          <h2 id="sec-5-loeo">6.6 LOEO Cross-Validation Design</h2>
+          <p>
+            Standard k-fold cross-validation is invalid for spatially autocorrelated disaster data:
+            pixels within the same event are highly correlated, and random splitting would leak
+            spatial information. LOEO addresses this by holding out <strong>entire events</strong>:
+          </p>
           <div class="collapsible collapsible--code" :class="{ expanded: codeExpanded.loeo }">
             <div class="collapsible__content">
               <div class="code-block">
-                <div class="code-block__header"><span class="mono">Python · LOEO skeleton</span></div>
-                <pre><code>for held_out in events:
-    train_ev = [e for e in events if e != held_out]
-    X_tr = df[df.event_id.isin(train_ev)][features]
-    y_tr = df[df.event_id.isin(train_ev)][label]
-    X_te = df[df.event_id == held_out][features]
-    y_te = df[df.event_id == held_out][label]
-    rf.fit(X_tr, y_tr)
-    auc = roc_auc_score(y_te, rf.predict_proba(X_te)[:,1])</code></pre>
+                <div class="code-block__header"><span class="mono">Python · LOEO cross-validation</span></div>
+                <pre><code>for held_out in events:  # 15 events
+    train = df[df.event_id != held_out]  # 14 events
+    test  = df[df.event_id == held_out]  # 1 event (unseen city)
+
+    rf = RandomForestClassifier(**params)
+    rf.fit(X_train, y_train)
+
+    # Test on completely unseen geographic area
+    auc = roc_auc_score(y_test, rf.predict_proba(X_test)[:, 1])
+    # → Tests cross-city generalization, not just spatial interpolation</code></pre>
               </div>
             </div>
             <div class="collapsible__fade" v-if="!codeExpanded.loeo" />
@@ -1400,6 +1650,75 @@ for h in hospitals[:3]:
               {{ codeExpanded.loeo ? 'Collapse Code' : 'Expand Full Code' }}
             </button>
           </div>
+          <p>
+            With 15 events spanning 17 U.S. states, 2 disaster types (hurricane, earthquake),
+            and 3 city size categories (large/medium/small), LOEO tests whether a model trained on
+            Miami and New Orleans can predict Jacksonville and Atlanta — a genuinely challenging
+            generalization task.
+          </p>
+
+          <h2>6.7 Ground Truth Validation — Miami-Dade Generator Permits</h2>
+          <p>
+            To validate the model's predictions against real-world data, we obtained
+            <strong>building permit records</strong> from Miami-Dade County that identify
+            properties with generator installations. Of 592 permits county-wide, 148 fall
+            within our Irma study area (30 commercial, 118 residential).
+          </p>
+
+          <div class="eda-chart-card" style="text-align:center">
+            <img :src="`${base}data/miami_generator_validation.png`"
+                 alt="Miami probability map with generator permit locations"
+                 style="width:100%; max-width:700px; border-radius:var(--radius)" />
+            <p style="font-size:11px; color:var(--text-dim); margin-top:8px">
+              Yellow diamonds = commercial generator permits, orange dots = residential.
+              Background: Model A predicted backup power probability.
+            </p>
+          </div>
+
+          <p>
+            <strong>Commercial generators</strong> (yellow diamonds) show a statistically
+            significant correlation with predicted probability: Mann-Whitney rank correlation
+            = 0.684 (p = 0.0005). These are large institutional units at hospitals, hotels,
+            and office buildings — exactly the type of generator that would change a 500m pixel's
+            brightness.
+          </p>
+          <p>
+            <strong>Residential generators</strong> (orange dots) show no correlation (rank = 0.340,
+            p = 0.41). This is expected: a single home generator produces too little light to
+            detectably change a 25-hectare pixel's total radiance. This confirms the
+            <strong>500m resolution limitation</strong> — the method detects aggregate
+            infrastructure-scale backup power, not individual household units.
+          </p>
+
+          <div class="callout callout--amber">
+            <span>--</span>
+            <div>
+              <strong>Data caveat:</strong> Miami-Dade permits capture only post-construction
+              generator installations, not generators built as part of original construction.
+              Major facilities (airport, hospital, port) likely had generators from the start
+              and are absent from permit records. The true commercial generator count is
+              therefore higher than 30, making the validation conservative.
+            </div>
+          </div>
+
+          <div class="takeaway">
+            <div class="takeaway__label">KEY FINDINGS</div>
+            <p class="takeaway__text">
+              <strong>Model A achieves 0.969 mean LOEO AUC</strong> across 15 held-out events —
+              strong cross-city generalization. <strong>Pre-NTL features are unnecessary</strong>
+              (Model B matches Model A). <strong>Building footprints add nothing</strong> (Model C).
+              <strong>Pure NTL behavior gives 0.700 AUC</strong> (Model D) — a genuine but modest
+              remote sensing signal that spatial context amplifies by +0.269. Ground truth validation
+              with Miami-Dade generator permits confirms that <strong>commercial generators are
+              detectable</strong> (rank = 0.684) while <strong>residential generators are not</strong>
+              — a physical limitation of 500m resolution.
+            </p>
+          </div>
+
+          <RouterLink to="/map" class="feature-link reveal">
+            <span class="feature-link__text">Explore the probability maps for all 15 events on the interactive map</span>
+            <span class="feature-link__cta">Open Map →</span>
+          </RouterLink>
         </template>
 
         <!-- 06 Probability Maps -->
@@ -1434,7 +1753,138 @@ for h in hospitals[:3]:
           </p>
         </template>
 
-        <!-- 07 Reproducibility -->
+        <!-- 08 Stage 3: Zip-Code Analysis -->
+        <template v-if="sectionId === 'stage3'">
+          <h2 id="sec-8-1">8.1 Research Question</h2>
+          <p>
+            Stage 2 answers "can we detect backup generators from space?" at the <strong>pixel level</strong>.
+            Stage 3 asks a policy-relevant follow-up: <strong>do areas with more critical facilities
+            experience less severe power outages historically?</strong> We shift from 500m pixels to
+            zip-code-level analysis, connecting facility density with EAGLE-I outage records.
+          </p>
+
+          <h2 id="sec-8-2">8.2 Data Sources</h2>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Dataset</th><th>Source</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td>Power outages</td><td class="mono">EAGLE-I (2014–2023)</td><td>Dependent variable: outage severity</td></tr>
+                <tr><td>Facility density</td><td class="mono">OSM Overpass API</td><td>Key independent variable</td></tr>
+                <tr><td>Backup power prob.</td><td class="mono">Stage 2 Model C output</td><td>Aggregated to zip code level</td></tr>
+                <tr><td>Hurricane tracks</td><td class="mono">IBTrACS v4</td><td>Wind exposure + track-weighted outage allocation</td></tr>
+                <tr><td>Demographics</td><td class="mono">Census ACS</td><td>Population density, income controls</td></tr>
+                <tr><td>Land use</td><td class="mono">NLCD</td><td>Urban fraction control</td></tr>
+                <tr><td>Zip boundaries</td><td class="mono">ZCTA shapefiles</td><td>Spatial unit</td></tr>
+                <tr><td>ZIP-County crosswalk</td><td class="mono">HUD USPS</td><td>County outage → zip allocation</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="sec-8-3">8.3 Sample Construction</h2>
+          <p>
+            Target: <strong>~500 zip codes</strong> across <strong>25 disaster events</strong>
+            (9 existing + 16 new). Events selected from EAGLE-I based on severity
+            (duration > 72h, peak > 100K affected, >= 5 counties). Geographic coverage
+            spans 17 U.S. states from Florida to Washington, plus Puerto Rico and Turkey.
+          </p>
+          <p>
+            County-level outage data is allocated to zip codes using a <strong>multi-factor
+            weighting scheme</strong>: population density (Census), NTL drop magnitude
+            (Stage 2 pixel panel), and wind field exposure (IBTrACS Holland model for
+            hurricane events). This is more accurate than simple area-weighted HUD crosswalk
+            allocation.
+          </p>
+
+          <h2 id="sec-8-4">8.4 Model Design</h2>
+          <p>The dependent variable is a composite outage severity index per zip code:</p>
+          <div class="formula-block">
+            <div class="formula">outage_severity = frequency × intensity × duration</div>
+          </div>
+          <p>Independent variables include:</p>
+          <ul class="detail-list">
+            <li><strong>facility_density</strong> — critical facilities per km² (core variable)</li>
+            <li><strong>mean_backup_prob</strong> — Stage 2 Model C probability aggregated to zip code</li>
+            <li><strong>ntl_drop_pct</strong> — mean NTL decline during disaster</li>
+            <li><strong>pop_density, median_income</strong> — Census ACS controls</li>
+            <li><strong>urban_pct</strong> — NLCD land cover classification</li>
+            <li><strong>impervious_pct</strong> — NLCD impervious surface fraction (building/road density proxy)</li>
+            <li><strong>disaster_exposure</strong> — IBTrACS historical hurricane track density</li>
+          </ul>
+          <p>
+            Modeling approach: OLS baseline → Moran's I spatial autocorrelation test → spatial
+            error model (SEM) or spatial lag model (SLM) depending on test results. Subgroup
+            analysis by city size (large/medium/small) connects to Stage 1/2's floor effect findings.
+          </p>
+
+          <div class="callout callout--amber">
+            <span>--</span>
+            <div>
+              <strong>Status:</strong> Stage 3 is in progress. GEE data download for 16 new events
+              is underway. Preliminary results will be updated here as analysis completes.
+            </div>
+          </div>
+        </template>
+
+        <!-- 09 Dashboard Development -->
+        <template v-if="sectionId === 'web'">
+          <h2 id="sec-9-1">9.1 Architecture</h2>
+          <p>
+            This dashboard is a single-page application built with <strong>Vue 3</strong> (Composition API)
+            and <strong>Vite</strong> as the build tool. The project uses Vue Router (hash history mode
+            for GitHub Pages compatibility) with lazy-loaded route components to minimize initial bundle size.
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Technology</th><th>Role</th></tr></thead>
+              <tbody>
+                <tr><td class="mono">Vue 3 + Vite</td><td>SPA framework + dev/build toolchain</td></tr>
+                <tr><td class="mono">Vue Router</td><td>Client-side routing (hash mode)</td></tr>
+                <tr><td class="mono">MapLibre GL JS</td><td>WebGL map rendering engine</td></tr>
+                <tr><td class="mono">GitHub Actions</td><td>CI/CD pipeline for deployment</td></tr>
+                <tr><td class="mono">GitHub Pages</td><td>Static hosting</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 id="sec-9-2">9.2 Map Engine</h2>
+          <p>
+            The interactive map uses <strong>MapLibre GL JS</strong> with multiple layer types per event:
+          </p>
+          <ul class="detail-list">
+            <li><strong>Heatmap layer</strong> — per-event quantile-normalized probability overlay with adaptive color ramp</li>
+            <li><strong>Symbol layer</strong> — canvas-rendered facility icons (hospital, airport, fire station, etc.)</li>
+            <li><strong>Circle layer</strong> — invisible hit targets for pixel-level probability tooltips</li>
+            <li><strong>Fill + line layers</strong> — optional buffer zone visualization</li>
+            <li><strong>Overview markers</strong> — colored dots with labels at low zoom, transitioning to detail layers at zoom >= 8</li>
+          </ul>
+          <p>
+            Basemap options include CARTO Dark Matter, Positron, Voyager, and ESRI World Imagery satellite.
+            Event data is <strong>lazy-loaded</strong> on demand — only the selected event's GeoJSON is fetched,
+            keeping initial page load fast even with 25 events.
+          </p>
+
+          <h2 id="sec-9-3">9.3 Responsive Design</h2>
+          <p>
+            The dashboard adapts to mobile devices with:
+          </p>
+          <ul class="detail-list">
+            <li><strong>NavBar</strong> — hamburger menu below 768px with slide-down navigation</li>
+            <li><strong>Map page</strong> — sidebars auto-collapse on mobile, scroll-limited event panel</li>
+            <li><strong>Home page</strong> — compact event chips grid, stacked CTAs, single-column pipeline</li>
+            <li><strong>Docs/Charts</strong> — horizontal-scrolling tables, reduced padding, stacked layouts</li>
+          </ul>
+
+          <h2 id="sec-9-4">9.4 Deployment</h2>
+          <p>
+            Automated via <strong>GitHub Actions</strong>: every push to <code>main</code> that modifies
+            <code>project/nightlight-dashboard/**</code> triggers a build + deploy workflow. The Vite
+            build outputs to <code>dist/</code> with <code>base: '/Practicum/'</code> for correct
+            GitHub Pages path resolution. Data files (GeoJSON, facility JSON) are bundled in
+            <code>public/data/</code> and served statically.
+          </p>
+        </template>
+
+        <!-- 10 Reproducibility -->
         <template v-if="sectionId === 'repro'">
           <div class="data-table">
             <table>
@@ -1496,6 +1946,67 @@ google-earth-engine (GEE API)</code></pre>
         <RouterLink to="/docs" class="back-link">← Back to Documentation</RouterLink>
       </div>
     </div>
+
+    <!-- ── Chart modal (click to enlarge) ── -->
+    <Teleport to="body">
+      <div v-if="chartModal" class="chart-modal" @click.self="chartModal = null">
+        <div class="chart-modal__card">
+          <button class="chart-modal__close" @click="chartModal = null">&times;</button>
+          <div class="chart-modal__header">
+            <span class="dot" :style="{ background: chartModal.ev.color }" />
+            <strong>{{ chartModal.ev.name }}</strong>
+            <span style="color:var(--text-muted)">{{ chartModal.ev.subtitle }}</span>
+            <span class="mono" style="color:var(--text-dim); font-size:11px">{{ chartModal.ev.year }}</span>
+          </div>
+
+          <!-- NTL line chart (large) -->
+          <template v-if="chartModal.type === 'ntl'">
+            <div style="font-size:12px; color:var(--text-muted); margin-bottom:8px">
+              Pre avg: {{ cloudStats[chartModal.ev.dashId]?.summary.pre_mean_ntl }} ·
+              Post avg: {{ cloudStats[chartModal.ev.dashId]?.summary.post_mean_ntl }} nW/cm²/sr
+            </div>
+            <svg :viewBox="`0 0 ${modalW} ${modalH}`" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
+              <line v-for="y in [0.25, 0.5, 0.75, 1.0]" :key="y"
+                :x1="modalPad.l" :x2="modalW - modalPad.r"
+                :y1="modalNtlY(y, chartModal.ev.id)" :y2="modalNtlY(y, chartModal.ev.id)"
+                stroke="rgba(255,255,255,0.08)" stroke-width="0.5" />
+              <line :x1="modalSplitX(chartModal.ev.id)" :x2="modalSplitX(chartModal.ev.id)"
+                :y1="modalPad.t" :y2="modalH - modalPad.b"
+                stroke="rgba(255,100,100,0.6)" stroke-width="1.5" stroke-dasharray="4 3" />
+              <text :x="modalSplitX(chartModal.ev.id) + 5" :y="modalPad.t + 14" fill="rgba(255,120,120,0.8)" font-size="11" font-family="monospace">DISASTER</text>
+              <polyline :points="modalLinePath(chartModal.ev.id, 'pre')" fill="none" stroke="rgba(0,229,160,0.9)" stroke-width="2" />
+              <polyline :points="modalLinePath(chartModal.ev.id, 'post')" fill="none" stroke="rgba(255,107,107,0.9)" stroke-width="2" />
+              <polygon :points="modalAreaPath(chartModal.ev.id, 'pre')" fill="rgba(0,229,160,0.15)" />
+              <polygon :points="modalAreaPath(chartModal.ev.id, 'post')" fill="rgba(255,107,107,0.15)" />
+              <text :x="modalPad.l + 4" :y="modalH - 4" fill="rgba(0,229,160,0.8)" font-size="10" font-family="monospace">Pre-disaster</text>
+              <text :x="modalSplitX(chartModal.ev.id) + 5" :y="modalH - 4" fill="rgba(255,107,107,0.8)" font-size="10" font-family="monospace">Post-disaster</text>
+            </svg>
+          </template>
+
+          <!-- Cloud fraction chart (large) -->
+          <template v-if="chartModal.type === 'cloud'">
+            <div style="font-size:12px; color:var(--text-muted); margin-bottom:8px">
+              Avg cloud: {{ cloudFrac[chartModal.ev.dashId]?.summary.avg_cloud_pct }}% ·
+              {{ cloudFrac[chartModal.ev.dashId]?.summary.excluded_days }} days excluded
+            </div>
+            <svg :viewBox="`0 0 ${modalW} ${modalH}`" class="ntl-svg" preserveAspectRatio="xMidYMid meet">
+              <line :x1="modalPad.l" :x2="modalW - modalPad.r"
+                :y1="modalCloudY(30)" :y2="modalCloudY(30)"
+                stroke="rgba(255,170,0,0.6)" stroke-width="1" stroke-dasharray="4 2" />
+              <text :x="modalW - modalPad.r - 4" :y="modalCloudY(30) - 4" fill="rgba(255,170,0,0.8)" font-size="10" font-family="monospace" text-anchor="end">30% threshold</text>
+              <line :x1="modalCfSplitX(chartModal.ev.dashId)" :x2="modalCfSplitX(chartModal.ev.dashId)"
+                :y1="modalPad.t" :y2="modalH - modalPad.b"
+                stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="3 2" />
+              <rect v-for="(d, i) in getCfDays(chartModal.ev.dashId)" :key="'mcf'+i"
+                :x="modalCfBarX(chartModal.ev.dashId, i)" :y="modalCloudY(d.cloud_pct)"
+                :width="modalCfBarW(chartModal.ev.dashId)" :height="modalH - modalPad.b - modalCloudY(d.cloud_pct)"
+                :fill="d.usable ? 'rgba(0,180,255,0.55)' : 'rgba(255,80,80,0.6)'"
+                rx="1" />
+            </svg>
+          </template>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
@@ -1555,6 +2066,71 @@ onUnmounted(() => { clearInterval(playInterval); tocObserver?.disconnect(); reve
 
 // ── Collapsible state ──
 const ntlExpanded = ref(false)
+const chartModal = ref(null)
+
+// Modal chart dimensions (larger)
+const modalW = 720
+const modalH = 240
+const modalPad = { t: 20, b: 18, l: 12, r: 12 }
+
+function modalNtlY(frac, dashId) {
+  return modalPad.t + (modalH - modalPad.t - modalPad.b) * (1 - Math.min(frac, 1))
+}
+function modalSplitX(dashId) {
+  const all = getAllDays(dashId)
+  const pre = getPreDays(dashId).length
+  if (!all.length) return modalPad.l
+  const w = (modalW - modalPad.l - modalPad.r) / all.length
+  return modalPad.l + pre * w
+}
+function modalLinePath(dashId, phase) {
+  const days = phase === 'pre' ? getPreDays(dashId) : getPostDays(dashId)
+  const total = getAllDays(dashId).length
+  if (!days.length || !total) return ''
+  const w = (modalW - modalPad.l - modalPad.r) / total
+  const offset = phase === 'post' ? getPreDays(dashId).length : 0
+  const mx = ntlMax(dashId)
+  return days.map((d, i) => {
+    const x = modalPad.l + (offset + i) * w + w / 2
+    const y = modalNtlY(d.mean_ntl / mx, dashId)
+    return `${x},${y}`
+  }).join(' ')
+}
+function modalAreaPath(dashId, phase) {
+  const days = phase === 'pre' ? getPreDays(dashId) : getPostDays(dashId)
+  const total = getAllDays(dashId).length
+  if (!days.length || !total) return ''
+  const w = (modalW - modalPad.l - modalPad.r) / total
+  const offset = phase === 'post' ? getPreDays(dashId).length : 0
+  const mx = ntlMax(dashId)
+  const baseline = modalH - modalPad.b
+  const pts = days.map((d, i) => {
+    const x = modalPad.l + (offset + i) * w + w / 2
+    return `${x},${modalNtlY(d.mean_ntl / mx, dashId)}`
+  })
+  const firstX = modalPad.l + offset * w + w / 2
+  const lastX = modalPad.l + (offset + days.length - 1) * w + w / 2
+  return `${firstX},${baseline} ${pts.join(' ')} ${lastX},${baseline}`
+}
+function modalCloudY(pct) {
+  return modalPad.t + (modalH - modalPad.t - modalPad.b) * (1 - pct / 100)
+}
+function modalCfSplitX(dashId) {
+  const days = getCfDays(dashId)
+  const preCount = days.filter(d => d.period === 'pre').length
+  if (!days.length) return modalPad.l
+  const w = (modalW - modalPad.l - modalPad.r) / days.length
+  return modalPad.l + preCount * w
+}
+function modalCfBarW(dashId) {
+  const total = getCfDays(dashId).length
+  return total > 0 ? Math.max((modalW - modalPad.l - modalPad.r) / total - 1, 1) : 2
+}
+function modalCfBarX(dashId, i) {
+  const total = getCfDays(dashId).length
+  const w = (modalW - modalPad.l - modalPad.r) / total
+  return modalPad.l + i * w + 0.5
+}
 const cloudExpanded = ref(false)
 const codeExpanded = ref({
   gee: false,
@@ -1627,6 +2203,38 @@ function ntlBarX(dashId, i, phase) {
   return ntlPad.l + (offset + i) * w + 0.5
 }
 
+function ntlLinePath(dashId, phase) {
+  const days = phase === 'pre' ? getPreDays(dashId) : getPostDays(dashId)
+  const total = getAllDays(dashId).length
+  if (!days.length || !total) return ''
+  const w = (ntlChartW - ntlPad.l - ntlPad.r) / total
+  const offset = phase === 'post' ? getPreDays(dashId).length : 0
+  const mx = ntlMax(dashId)
+  return days.map((d, i) => {
+    const x = ntlPad.l + (offset + i) * w + w / 2
+    const y = ntlY(d.mean_ntl / mx, dashId)
+    return `${x},${y}`
+  }).join(' ')
+}
+
+function ntlAreaPath(dashId, phase) {
+  const days = phase === 'pre' ? getPreDays(dashId) : getPostDays(dashId)
+  const total = getAllDays(dashId).length
+  if (!days.length || !total) return ''
+  const w = (ntlChartW - ntlPad.l - ntlPad.r) / total
+  const offset = phase === 'post' ? getPreDays(dashId).length : 0
+  const mx = ntlMax(dashId)
+  const baseline = ntlChartH - ntlPad.b
+  const pts = days.map((d, i) => {
+    const x = ntlPad.l + (offset + i) * w + w / 2
+    const y = ntlY(d.mean_ntl / mx, dashId)
+    return `${x},${y}`
+  })
+  const firstX = ntlPad.l + offset * w + w / 2
+  const lastX = ntlPad.l + (offset + days.length - 1) * w + w / 2
+  return `${firstX},${baseline} ${pts.join(' ')} ${lastX},${baseline}`
+}
+
 function ntlX(dashId, type) {
   if (type === 'split') {
     const pre = getPreDays(dashId).length
@@ -1664,9 +2272,11 @@ const allSections = [
   { id: 'eda',          num: '03', title: 'Exploratory Data Analysis', tags: ['Resilience Ratio', 'Floor Effect'] },
   { id: 'interpretive', num: '04', title: 'Interpretive Modeling', tags: ['OLS', 'MixedLM', 'Logit', 'Cox'] },
   { id: 'features',     num: '05', title: 'Feature Engineering', tags: ['17 features'] },
-  { id: 'models',       num: '06', title: 'Predictive Models', tags: ['RF + XGB', 'LOEO'] },
+  { id: 'models',       num: '06', title: 'Predictive Models', tags: ['RF + XGB', 'LOEO', '4 Variants'] },
   { id: 'maps',         num: '07', title: 'Probability Maps', tags: ['GeoJSON'] },
-  { id: 'repro',        num: '08', title: 'Reproducibility', tags: ['Open data'] },
+  { id: 'stage3',       num: '08', title: 'Zip-Code Analysis', tags: ['EAGLE-I', 'Spatial Regression'] },
+  { id: 'web',          num: '09', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
+  { id: 'repro',        num: '10', title: 'Reproducibility', tags: ['Open data'] },
 ]
 
 const sectionData = computed(() => allSections.find(s => s.id === sectionId.value))
@@ -1719,10 +2329,10 @@ const sortedEdaEvents = computed(() => {
 // ── Sub-section TOC per detail page ──
 const SUB_SECTIONS = {
   overview: [
-    { id: 'sec-1-1', label: '1.1 Motivation' },
-    { id: 'sec-1-2', label: '1.2 Core Hypothesis' },
-    { id: 'sec-1-3', label: '1.3 Collaboration' },
-    { id: 'sec-1-4', label: '1.4 Study Events' },
+    { id: 'sec-1-1', label: '1.1 The Data Gap' },
+    { id: 'sec-1-2', label: '1.2 Can Satellites Help?' },
+    { id: 'sec-1-3', label: '1.3 Approach' },
+    { id: 'sec-1-4', label: '1.4 Study Areas' },
     { id: 'sec-1-5', label: '1.5 Research Questions' },
   ],
   data: [
@@ -1731,8 +2341,9 @@ const SUB_SECTIONS = {
     { id: 'sec-2-3', label: '2.3 Disaster in NTL' },
     { id: 'sec-2-4', label: '2.4 Cloud & QC' },
     { id: 'sec-2-5', label: '2.5 GEE Acquisition' },
-    { id: 'sec-2-6', label: '2.6 OSM Facilities' },
-    { id: 'sec-2-7', label: '2.7 Data Quality' },
+    { id: 'sec-2-6', label: '2.6 Generator Permits' },
+    { id: 'sec-2-7', label: '2.7 OSM Facilities' },
+    { id: 'sec-2-8', label: '2.8 Data Quality' },
   ],
   eda: [
     { id: 'sec-4-1', label: '3.1 Key Definitions' },
@@ -1756,9 +2367,21 @@ const SUB_SECTIONS = {
     { id: 'sec-6-features', label: '5.2 Feature Set' },
   ],
   models: [
-    { id: 'sec-5-intro', label: '6.1 Model Variants' },
-    { id: 'sec-5-algo', label: '6.2 Algorithms' },
-    { id: 'sec-5-loeo', label: '6.3 LOEO Validation' },
+    { id: 'sec-5-intro', label: '6.1 Interpretation → Prediction' },
+    { id: 'sec-5-algo', label: '6.2 Model A — Full' },
+    { id: 'sec-5-loeo', label: '6.6 LOEO Design' },
+  ],
+  stage3: [
+    { id: 'sec-8-1', label: '8.1 Research Question' },
+    { id: 'sec-8-2', label: '8.2 Data Sources' },
+    { id: 'sec-8-3', label: '8.3 Sample Construction' },
+    { id: 'sec-8-4', label: '8.4 Model Design' },
+  ],
+  web: [
+    { id: 'sec-9-1', label: '9.1 Architecture' },
+    { id: 'sec-9-2', label: '9.2 Map Engine' },
+    { id: 'sec-9-3', label: '9.3 Responsive Design' },
+    { id: 'sec-9-4', label: '9.4 Deployment' },
   ],
 }
 
@@ -1983,8 +2606,9 @@ const modelVariants = [
 .detail-content em { color: var(--cyan); font-style: normal; }
 code {
   font-family: var(--font-mono); font-size: 12px;
-  background: var(--bg-3); border: 1px solid var(--border);
-  border-radius: 3px; padding: 1px 5px; color: var(--green);
+  background: rgba(0,229,160,0.1); border: 1px solid rgba(0,229,160,0.2);
+  border-radius: 3px; padding: 2px 6px; color: var(--green);
+  white-space: nowrap;
 }
 .inline-link { color: var(--cyan); text-decoration: none; }
 .inline-link:hover { text-decoration: underline; }
@@ -2295,8 +2919,8 @@ tr:hover td { background: var(--bg-3); }
 /* NTL / Cloud chart cards */
 .ntl-charts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   margin: 16px 0;
 }
 .ntl-chart-card {
@@ -2319,6 +2943,75 @@ tr:hover td { background: var(--bg-3); }
   display: block;
 }
 
+/* Feature link (map/docs cross-link) */
+.feature-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 24px 0;
+  padding: 16px 20px;
+  background: var(--cyan-dim);
+  border: 1px solid rgba(0,212,255,0.2);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  transition: all var(--t-fast);
+}
+.feature-link:hover {
+  border-color: var(--cyan);
+  background: rgba(0,212,255,0.12);
+}
+.feature-link__text {
+  font-size: 14px;
+  color: var(--text-bright);
+}
+.feature-link__cta {
+  font-family: var(--font-head);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cyan);
+  white-space: nowrap;
+}
+
+/* Chart modal */
+.chart-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.15s ease;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.chart-modal__card {
+  background: var(--bg-2);
+  border: 1px solid var(--border-2);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  max-width: 780px;
+  width: 100%;
+  position: relative;
+}
+.chart-modal__close {
+  position: absolute;
+  top: 12px; right: 16px;
+  background: none; border: none;
+  color: var(--text-muted); font-size: 22px;
+  cursor: pointer;
+}
+.chart-modal__close:hover { color: var(--text-bright); }
+.chart-modal__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
 @media (max-width: 900px) {
   .detail-page { flex-direction: column; }
   .detail-toc { position: static; width: 100%; padding: 16px 16px 0; }
@@ -2326,7 +3019,7 @@ tr:hover td { background: var(--bg-3); }
   .detail-inner { padding: 24px 16px 60px; }
   .model-cards { grid-template-columns: 1fr; }
   .detail-nav { flex-direction: column; }
-  .ntl-charts-grid { grid-template-columns: 1fr; }
+  .ntl-charts-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 600px) {

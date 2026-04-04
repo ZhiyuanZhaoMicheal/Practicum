@@ -1,5 +1,5 @@
 <template>
-  <div id="layout">
+  <div id="layout" :class="{ 'no-earth-bg': isHomePage }">
     <NavBar />
     <main class="main-content">
       <RouterView v-slot="{ Component, route }">
@@ -12,7 +12,12 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 import NavBar from '@/components/NavBar.vue'
+
+const route = useRoute()
+const isHomePage = computed(() => route.path === '/')
 </script>
 
 <style>
@@ -20,6 +25,12 @@ import NavBar from '@/components/NavBar.vue'
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(3,13,26,0.15) 0%, rgba(3,13,26,0.55) 100%),
+    url('/earth-night.jpg') center center / cover no-repeat fixed;
+}
+#layout.no-earth-bg {
+  background: var(--bg);
 }
 
 .main-content {
@@ -28,21 +39,17 @@ import NavBar from '@/components/NavBar.vue'
   flex-direction: column;
   padding-top: var(--nav-h);
   position: relative;
-  background:
-    linear-gradient(180deg, rgba(3,13,26,0.15) 0%, rgba(3,13,26,0.55) 100%),
-    url('/earth-night.jpg') center center / cover no-repeat fixed;
 }
 
-/* Page transition — smooth crossfade */
+/* Page transition — synchronized fade for bg + content */
 .page-enter-active {
-  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.4s ease;
 }
 .page-leave-active {
-  transition: opacity 0.25s ease;
+  transition: opacity 0.4s ease;
 }
 .page-enter-from {
   opacity: 0;
-  transform: translateY(20px);
 }
 .page-leave-to {
   opacity: 0;

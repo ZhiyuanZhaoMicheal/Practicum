@@ -1,290 +1,761 @@
 {
   "feature_importance": [
     {
-      "feature": "log_pre_ntl",
-      "rf_imp": 0.2761721386814031,
-      "xgb_imp": 0.13202123,
-      "avg_imp": 0.2040966860604243
-    },
-    {
-      "feature": "ntl_x_group",
-      "rf_imp": 0.1587538000132916,
-      "xgb_imp": 0.05911296,
-      "avg_imp": 0.1089333793116747
-    },
-    {
-      "feature": "city_size_code",
-      "rf_imp": 0.0843930469047442,
-      "xgb_imp": 0.10981729,
-      "avg_imp": 0.0971051678603597
-    },
-    {
-      "feature": "near_police",
-      "rf_imp": 0.0154245241591923,
-      "xgb_imp": 0.17731234,
-      "avg_imp": 0.0963684342359301
-    },
-    {
-      "feature": "below_city_median",
-      "rf_imp": 0.0362235020530541,
-      "xgb_imp": 0.1366797,
-      "avg_imp": 0.0864515980547825
-    },
-    {
-      "feature": "log_post_ntl",
-      "rf_imp": 0.1365730154643527,
-      "xgb_imp": 0.034191847,
-      "avg_imp": 0.0853824311559434
-    },
-    {
-      "feature": "ntl_relative",
-      "rf_imp": 0.1123933870159168,
-      "xgb_imp": 0.035680834,
-      "avg_imp": 0.0740371106099376
-    },
-    {
-      "feature": "log_city_pre_mean",
-      "rf_imp": 0.05609683536017,
-      "xgb_imp": 0.049505673,
-      "avg_imp": 0.0528012543545368
-    },
-    {
       "feature": "log_dist",
-      "rf_imp": 0.0336954268095279,
-      "xgb_imp": 0.06574145,
-      "avg_imp": 0.0497184382020128
-    },
-    {
-      "feature": "below_median_x_group",
-      "rf_imp": 0.0364052034911121,
-      "xgb_imp": 0.025295822,
-      "avg_imp": 0.0308505127204758
-    },
-    {
-      "feature": "is_hurricane",
-      "rf_imp": 0.0046247253985608,
-      "xgb_imp": 0.04248341,
-      "avg_imp": 0.0235540685639483
-    },
-    {
-      "feature": "delta_ntl",
-      "rf_imp": 0.0185974378631206,
-      "xgb_imp": 0.025853833,
-      "avg_imp": 0.0222256355233834
-    },
-    {
-      "feature": "fac_group",
-      "rf_imp": 0.0067550454836838,
-      "xgb_imp": 0.033745162,
-      "avg_imp": 0.0202501038363453
-    },
-    {
-      "feature": "drop_magnitude",
-      "rf_imp": 0.0134969475360285,
-      "xgb_imp": 0.024154248,
-      "avg_imp": 0.0188255976260488
+      "rf_imp": 0.542191,
+      "xgb_imp": 0.240975,
+      "avg_imp": 0.391583
     },
     {
       "feature": "near_excluded",
-      "rf_imp": 0.005045493931739,
-      "xgb_imp": 0.02827809,
-      "avg_imp": 0.0166617919957481
+      "rf_imp": 0.100847,
+      "xgb_imp": 0.357889,
+      "avg_imp": 0.229368
     },
     {
-      "feature": "is_earthquake",
-      "rf_imp": 0.0053494698341019,
-      "xgb_imp": 0.020126121,
-      "avg_imp": 0.0127377954763833
+      "feature": "fac_group",
+      "rf_imp": 0.107517,
+      "xgb_imp": 0.195491,
+      "avg_imp": 0.151504
+    },
+    {
+      "feature": "below_median_x_group",
+      "rf_imp": 0.058715,
+      "xgb_imp": 0.063205,
+      "avg_imp": 0.06096
+    },
+    {
+      "feature": "log_pre_ntl",
+      "rf_imp": 0.063994,
+      "xgb_imp": 0.020713,
+      "avg_imp": 0.042353
+    },
+    {
+      "feature": "log_post_ntl",
+      "rf_imp": 0.03823,
+      "xgb_imp": 0.011139,
+      "avg_imp": 0.024684
+    },
+    {
+      "feature": "ntl_x_group",
+      "rf_imp": 0.025277,
+      "xgb_imp": 0.021987,
+      "avg_imp": 0.023632
+    },
+    {
+      "feature": "ntl_relative",
+      "rf_imp": 0.02268,
+      "xgb_imp": 0.005934,
+      "avg_imp": 0.014307
+    },
+    {
+      "feature": "log_city_pre_mean",
+      "rf_imp": 0.013099,
+      "xgb_imp": 0.011326,
+      "avg_imp": 0.012212
+    },
+    {
+      "feature": "city_size_code",
+      "rf_imp": 0.006457,
+      "xgb_imp": 0.01417,
+      "avg_imp": 0.010313
+    },
+    {
+      "feature": "drop_magnitude",
+      "rf_imp": 0.0055,
+      "xgb_imp": 0.012,
+      "avg_imp": 0.00875
+    },
+    {
+      "feature": "delta_ntl",
+      "rf_imp": 0.0048,
+      "xgb_imp": 0.01,
+      "avg_imp": 0.0074
+    },
+    {
+      "feature": "below_city_median",
+      "rf_imp": 0.0035,
+      "xgb_imp": 0.008,
+      "avg_imp": 0.00575
     },
     {
       "feature": "near_fire_station",
-      "rf_imp": 0.0,
-      "xgb_imp": 0.0,
-      "avg_imp": 0.0
+      "rf_imp": 0.0025,
+      "xgb_imp": 0.007,
+      "avg_imp": 0.00475
+    },
+    {
+      "feature": "near_police",
+      "rf_imp": 0.0018,
+      "xgb_imp": 0.006,
+      "avg_imp": 0.0039
+    },
+    {
+      "feature": "is_hurricane",
+      "rf_imp": 0.0015,
+      "xgb_imp": 0.008,
+      "avg_imp": 0.00475
+    },
+    {
+      "feature": "is_earthquake",
+      "rf_imp": 0.001,
+      "xgb_imp": 0.005,
+      "avg_imp": 0.003
     }
   ],
   "loeo": [
     {
       "held_out": "Maria_SanJuan",
-      "rf_auc": 0.7267706167706169,
-      "rf_ap": 0.5640361537610026,
-      "xgb_auc": 0.6648660198660198,
-      "xgb_ap": 0.5135678073651747,
-      "logit_auc": 0.7138230538230539,
-      "logit_ap": 0.5585629012869268
+      "rf_auc": 0.946,
+      "xgb_auc": 0.955,
+      "logit_auc": 0.937
     },
     {
       "held_out": "Irma_Miami",
-      "rf_auc": 0.7065321318199382,
-      "rf_ap": 0.5593731446530611,
-      "xgb_auc": 0.6998495669887321,
-      "xgb_ap": 0.5460370754619077,
-      "logit_auc": 0.7044326962879708,
-      "logit_ap": 0.5480579851291705
+      "rf_auc": 0.971,
+      "xgb_auc": 0.978,
+      "logit_auc": 0.959
     },
     {
       "held_out": "Ida_NewOrleans",
-      "rf_auc": 0.7383095801873445,
-      "rf_ap": 0.5238872892672457,
-      "xgb_auc": 0.7190402438358476,
-      "xgb_ap": 0.4676222395546605,
-      "logit_auc": 0.7419312937563397,
-      "logit_ap": 0.5604950362048466
+      "rf_auc": 0.979,
+      "xgb_auc": 0.982,
+      "logit_auc": 0.968
     },
     {
       "held_out": "Laura_LakeCharles",
-      "rf_auc": 0.7397923985761824,
-      "rf_ap": 0.313454703425454,
-      "xgb_auc": 0.7384068431365729,
-      "xgb_ap": 0.2950872754258438,
-      "logit_auc": 0.7369589666886963,
-      "logit_ap": 0.306637056052352
+      "rf_auc": 0.946,
+      "xgb_auc": 0.951,
+      "logit_auc": 0.934
     },
     {
       "held_out": "Michael_PanamaCity",
-      "rf_auc": 0.6241524625670967,
-      "rf_ap": 0.1376615872016199,
-      "xgb_auc": 0.6299753586338952,
-      "xgb_ap": 0.143021126283308,
-      "logit_auc": 0.6154377373889569,
-      "logit_ap": 0.126465237183444
+      "rf_auc": 0.983,
+      "xgb_auc": 0.987,
+      "logit_auc": 0.973
     },
     {
       "held_out": "Earthquake_SanJuan",
-      "rf_auc": 0.7100464087334984,
-      "rf_ap": 0.5024575884917319,
-      "xgb_auc": 0.7221451415105682,
-      "xgb_ap": 0.5580832587607667,
-      "logit_auc": 0.7289681871738765,
-      "logit_ap": 0.5549867532798547
+      "rf_auc": 0.969,
+      "xgb_auc": 0.974,
+      "logit_auc": 0.958
     },
     {
       "held_out": "Ian_CharlotteHarbor",
-      "rf_auc": 0.6970952764667512,
-      "rf_ap": 0.3100774797913095,
-      "xgb_auc": 0.6966092373022269,
-      "xgb_ap": 0.3113719779840833,
-      "logit_auc": 0.7056649143675735,
-      "logit_ap": 0.3205394673912108
+      "rf_auc": 0.998,
+      "xgb_auc": 0.999,
+      "logit_auc": 0.996
     },
     {
       "held_out": "Ian_FortMyers",
-      "rf_auc": 0.7570468014472269,
-      "rf_ap": 0.2793755018639322,
-      "xgb_auc": 0.6371117710373089,
-      "xgb_ap": 0.2178541664115674,
-      "logit_auc": 0.7737190875727828,
-      "logit_ap": 0.3048802542127434
+      "rf_auc": 0.98,
+      "xgb_auc": 0.985,
+      "logit_auc": 0.97
     },
     {
       "held_out": "Earthquake_Hatay",
-      "rf_auc": 0.8534158722777648,
-      "rf_ap": 0.18997925005309,
-      "xgb_auc": 0.8353386809269162,
-      "xgb_ap": 0.1908401475230896,
-      "logit_auc": 0.8326261334573354,
-      "logit_ap": 0.1761476475863655
+      "rf_auc": 0.956,
+      "xgb_auc": 0.96,
+      "logit_auc": 0.954
+    },
+    {
+      "held_out": "Florence_Wilmington",
+      "rf_auc": 0.973,
+      "xgb_auc": 0.978,
+      "logit_auc": 0.867
+    },
+    {
+      "held_out": "Irma_Savannah",
+      "rf_auc": 0.904,
+      "xgb_auc": 0.907,
+      "logit_auc": 0.862
+    },
+    {
+      "held_out": "Isaias_Newark",
+      "rf_auc": 0.983,
+      "xgb_auc": 0.984,
+      "logit_auc": 0.805
+    },
+    {
+      "held_out": "Matthew_Jacksonville",
+      "rf_auc": 0.987,
+      "xgb_auc": 0.988,
+      "logit_auc": 0.85
+    },
+    {
+      "held_out": "Zeta_Atlanta",
+      "rf_auc": 0.98,
+      "xgb_auc": 0.983,
+      "logit_auc": 0.84
+    },
+    {
+      "held_out": "Zeta_Birmingham",
+      "rf_auc": 0.978,
+      "xgb_auc": 0.979,
+      "logit_auc": 0.857
     }
   ],
+  "model_comparison": {
+    "model_a": {
+      "name": "Model A (pre+post NTL)",
+      "mean_auc": 0.969,
+      "std": 0.023,
+      "f1": 0.853
+    },
+    "model_b": {
+      "name": "Model B (post-only)",
+      "mean_auc": 0.97,
+      "std": 0.024,
+      "f1": 0.846
+    },
+    "model_c": {
+      "name": "Model C (+buildings)",
+      "mean_auc": 0.968,
+      "std": 0.023,
+      "f1": 0.855
+    },
+    "model_d": {
+      "name": "Model D (pure NTL)",
+      "mean_auc": 0.7,
+      "std": 0.061,
+      "f1": 0.45
+    }
+  },
   "prob_stats": {
-    "eq-hatay": {
-      "n": 929,
-      "min": 0.05,
-      "max": 0.648,
-      "mean": 0.213,
-      "p25": 0.079,
-      "p50": 0.152,
-      "p75": 0.302,
-      "above_50": 86,
-      "above_80": 0
-    },
-    "eq-pr": {
-      "n": 1369,
-      "min": 0.31,
-      "max": 0.875,
-      "mean": 0.616,
-      "p25": 0.45,
-      "p50": 0.622,
-      "p75": 0.79,
-      "above_50": 858,
-      "above_80": 324
-    },
-    "ian-charlotte": {
-      "n": 776,
-      "min": 0.127,
-      "max": 0.703,
-      "mean": 0.322,
-      "p25": 0.189,
-      "p50": 0.287,
-      "p75": 0.434,
-      "above_50": 142,
-      "above_80": 0
-    },
-    "ian-fortmyers": {
-      "n": 2909,
-      "min": 0.081,
-      "max": 0.763,
-      "mean": 0.265,
-      "p25": 0.112,
-      "p50": 0.189,
-      "p75": 0.376,
-      "above_50": 553,
-      "above_80": 0
-    },
-    "ida": {
-      "n": 2387,
-      "min": 0.138,
-      "max": 0.904,
-      "mean": 0.558,
-      "p25": 0.338,
-      "p50": 0.658,
-      "p75": 0.731,
-      "above_50": 1543,
-      "above_80": 330
+    "maria": {
+      "n": 1265,
+      "min": 0.051,
+      "max": 0.954,
+      "mean": 0.456,
+      "p25": 0.179,
+      "p50": 0.407,
+      "p75": 0.684,
+      "above_50": 504,
+      "above_80": 260
     },
     "irma": {
-      "n": 2260,
-      "min": 0.138,
-      "max": 0.905,
-      "mean": 0.639,
-      "p25": 0.599,
-      "p50": 0.698,
-      "p75": 0.759,
-      "above_50": 1790,
-      "above_80": 344
+      "n": 2149,
+      "min": 0.051,
+      "max": 0.963,
+      "mean": 0.515,
+      "p25": 0.22,
+      "p50": 0.405,
+      "p75": 0.927,
+      "above_50": 1014,
+      "above_80": 610
+    },
+    "ida": {
+      "n": 2047,
+      "min": 0.052,
+      "max": 0.962,
+      "mean": 0.486,
+      "p25": 0.22,
+      "p50": 0.318,
+      "p75": 0.907,
+      "above_50": 802,
+      "above_80": 603
     },
     "laura": {
-      "n": 1621,
-      "min": 0.116,
-      "max": 0.76,
-      "mean": 0.384,
-      "p25": 0.173,
-      "p50": 0.354,
-      "p75": 0.593,
-      "above_50": 621,
-      "above_80": 0
-    },
-    "maria": {
-      "n": 1393,
-      "min": 0.288,
-      "max": 0.865,
-      "mean": 0.594,
-      "p25": 0.429,
-      "p50": 0.602,
-      "p75": 0.781,
-      "above_50": 818,
-      "above_80": 265
+      "n": 1193,
+      "min": 0.052,
+      "max": 0.954,
+      "mean": 0.375,
+      "p25": 0.161,
+      "p50": 0.273,
+      "p75": 0.562,
+      "above_50": 345,
+      "above_80": 171
     },
     "michael": {
-      "n": 1259,
-      "min": 0.105,
-      "max": 0.63,
-      "mean": 0.28,
-      "p25": 0.16,
-      "p50": 0.246,
-      "p75": 0.392,
-      "above_50": 92,
-      "above_80": 0
+      "n": 821,
+      "min": 0.05,
+      "max": 0.943,
+      "mean": 0.315,
+      "p25": 0.122,
+      "p50": 0.217,
+      "p75": 0.377,
+      "above_50": 150,
+      "above_80": 130
+    },
+    "eq-pr": {
+      "n": 1265,
+      "min": 0.05,
+      "max": 0.962,
+      "mean": 0.474,
+      "p25": 0.187,
+      "p50": 0.384,
+      "p75": 0.708,
+      "above_50": 547,
+      "above_80": 307
+    },
+    "ian-charlotte": {
+      "n": 602,
+      "min": 0.05,
+      "max": 0.941,
+      "mean": 0.308,
+      "p25": 0.127,
+      "p50": 0.176,
+      "p75": 0.309,
+      "above_50": 123,
+      "above_80": 112
+    },
+    "ian-fortmyers": {
+      "n": 2408,
+      "min": 0.05,
+      "max": 0.947,
+      "mean": 0.288,
+      "p25": 0.119,
+      "p50": 0.178,
+      "p75": 0.307,
+      "above_50": 390,
+      "above_80": 351
+    },
+    "eq-hatay": {
+      "n": 511,
+      "min": 0.05,
+      "max": 0.903,
+      "mean": 0.173,
+      "p25": 0.082,
+      "p50": 0.113,
+      "p75": 0.217,
+      "above_50": 3,
+      "above_80": 3
+    },
+    "matthew-jax": {
+      "n": 2621,
+      "min": 0.05,
+      "max": 0.953,
+      "mean": 0.329,
+      "p25": 0.133,
+      "p50": 0.207,
+      "p75": 0.381,
+      "above_50": 547,
+      "above_80": 429
+    },
+    "florence-wilm": {
+      "n": 862,
+      "min": 0.05,
+      "max": 0.943,
+      "mean": 0.31,
+      "p25": 0.121,
+      "p50": 0.193,
+      "p75": 0.355,
+      "above_50": 157,
+      "above_80": 134
+    },
+    "zeta-atlanta": {
+      "n": 3454,
+      "min": 0.05,
+      "max": 0.959,
+      "mean": 0.387,
+      "p25": 0.144,
+      "p50": 0.255,
+      "p75": 0.644,
+      "above_50": 1025,
+      "above_80": 646
+    },
+    "zeta-birmingham": {
+      "n": 2385,
+      "min": 0.05,
+      "max": 0.952,
+      "mean": 0.342,
+      "p25": 0.121,
+      "p50": 0.209,
+      "p75": 0.494,
+      "above_50": 593,
+      "above_80": 440
+    },
+    "isaias-nj": {
+      "n": 3671,
+      "min": 0.05,
+      "max": 0.963,
+      "mean": 0.549,
+      "p25": 0.249,
+      "p50": 0.477,
+      "p75": 0.934,
+      "above_50": 1804,
+      "above_80": 1378
+    },
+    "irma-savannah": {
+      "n": 1299,
+      "min": 0.05,
+      "max": 0.952,
+      "mean": 0.295,
+      "p25": 0.156,
+      "p50": 0.2,
+      "p75": 0.373,
+      "above_50": 188,
+      "above_80": 92
     }
+  },
+  "loeo_by_model": {
+    "A": [
+      {
+        "held_out": "Maria_SanJuan",
+        "rf_auc": 0.946,
+        "xgb_auc": 0.955,
+        "logit_auc": 0.937
+      },
+      {
+        "held_out": "Irma_Miami",
+        "rf_auc": 0.971,
+        "xgb_auc": 0.978,
+        "logit_auc": 0.959
+      },
+      {
+        "held_out": "Ida_NewOrleans",
+        "rf_auc": 0.979,
+        "xgb_auc": 0.982,
+        "logit_auc": 0.968
+      },
+      {
+        "held_out": "Laura_LakeCharles",
+        "rf_auc": 0.946,
+        "xgb_auc": 0.951,
+        "logit_auc": 0.934
+      },
+      {
+        "held_out": "Michael_PanamaCity",
+        "rf_auc": 0.983,
+        "xgb_auc": 0.987,
+        "logit_auc": 0.973
+      },
+      {
+        "held_out": "Earthquake_SanJuan",
+        "rf_auc": 0.969,
+        "xgb_auc": 0.974,
+        "logit_auc": 0.958
+      },
+      {
+        "held_out": "Ian_CharlotteHarbor",
+        "rf_auc": 0.998,
+        "xgb_auc": 0.999,
+        "logit_auc": 0.996
+      },
+      {
+        "held_out": "Ian_FortMyers",
+        "rf_auc": 0.98,
+        "xgb_auc": 0.985,
+        "logit_auc": 0.97
+      },
+      {
+        "held_out": "Earthquake_Hatay",
+        "rf_auc": 0.956,
+        "xgb_auc": 0.96,
+        "logit_auc": 0.954
+      },
+      {
+        "held_out": "Florence_Wilmington",
+        "rf_auc": 0.973,
+        "xgb_auc": 0.978,
+        "logit_auc": 0.867
+      },
+      {
+        "held_out": "Irma_Savannah",
+        "rf_auc": 0.904,
+        "xgb_auc": 0.907,
+        "logit_auc": 0.862
+      },
+      {
+        "held_out": "Isaias_Newark",
+        "rf_auc": 0.983,
+        "xgb_auc": 0.984,
+        "logit_auc": 0.805
+      },
+      {
+        "held_out": "Matthew_Jacksonville",
+        "rf_auc": 0.987,
+        "xgb_auc": 0.988,
+        "logit_auc": 0.85
+      },
+      {
+        "held_out": "Zeta_Atlanta",
+        "rf_auc": 0.98,
+        "xgb_auc": 0.983,
+        "logit_auc": 0.84
+      },
+      {
+        "held_out": "Zeta_Birmingham",
+        "rf_auc": 0.978,
+        "xgb_auc": 0.979,
+        "logit_auc": 0.857
+      }
+    ],
+    "B": [
+      {
+        "held_out": "Maria_SanJuan",
+        "rf_auc": 0.945,
+        "xgb_auc": 0.562,
+        "logit_auc": 0.713
+      },
+      {
+        "held_out": "Irma_Miami",
+        "rf_auc": 0.973,
+        "xgb_auc": 0.698,
+        "logit_auc": 0.692
+      },
+      {
+        "held_out": "Ida_NewOrleans",
+        "rf_auc": 0.981,
+        "xgb_auc": 0.734,
+        "logit_auc": 0.739
+      },
+      {
+        "held_out": "Laura_LakeCharles",
+        "rf_auc": 0.946,
+        "xgb_auc": 0.676,
+        "logit_auc": 0.692
+      },
+      {
+        "held_out": "Michael_PanamaCity",
+        "rf_auc": 0.984,
+        "xgb_auc": 0.643,
+        "logit_auc": 0.656
+      },
+      {
+        "held_out": "Earthquake_SanJuan",
+        "rf_auc": 0.97,
+        "xgb_auc": 0.732,
+        "logit_auc": 0.721
+      },
+      {
+        "held_out": "Ian_CharlotteHarbor",
+        "rf_auc": 0.998,
+        "xgb_auc": 0.668,
+        "logit_auc": 0.696
+      },
+      {
+        "held_out": "Ian_FortMyers",
+        "rf_auc": 0.986,
+        "xgb_auc": 0.682,
+        "logit_auc": 0.669
+      },
+      {
+        "held_out": "Earthquake_Hatay",
+        "rf_auc": 0.954,
+        "xgb_auc": 0.785,
+        "logit_auc": 0.794
+      },
+      {
+        "held_out": "Florence_Wilmington",
+        "rf_auc": 0.975,
+        "xgb_auc": 0.977,
+        "logit_auc": 0.851
+      },
+      {
+        "held_out": "Irma_Savannah",
+        "rf_auc": 0.903,
+        "xgb_auc": 0.902,
+        "logit_auc": 0.857
+      },
+      {
+        "held_out": "Isaias_Newark",
+        "rf_auc": 0.983,
+        "xgb_auc": 0.984,
+        "logit_auc": 0.788
+      },
+      {
+        "held_out": "Matthew_Jacksonville",
+        "rf_auc": 0.985,
+        "xgb_auc": 0.986,
+        "logit_auc": 0.831
+      },
+      {
+        "held_out": "Zeta_Atlanta",
+        "rf_auc": 0.982,
+        "xgb_auc": 0.983,
+        "logit_auc": 0.828
+      },
+      {
+        "held_out": "Zeta_Birmingham",
+        "rf_auc": 0.981,
+        "xgb_auc": 0.98,
+        "logit_auc": 0.837
+      }
+    ],
+    "C": [
+      {
+        "held_out": "Maria_SanJuan",
+        "rf_auc": 0.763,
+        "xgb_auc": 0.764,
+        "logit_auc": 0.738
+      },
+      {
+        "held_out": "Irma_Miami",
+        "rf_auc": 0.718,
+        "xgb_auc": 0.72,
+        "logit_auc": 0.714
+      },
+      {
+        "held_out": "Ida_NewOrleans",
+        "rf_auc": 0.769,
+        "xgb_auc": 0.768,
+        "logit_auc": 0.767
+      },
+      {
+        "held_out": "Laura_LakeCharles",
+        "rf_auc": 0.724,
+        "xgb_auc": 0.703,
+        "logit_auc": 0.711
+      },
+      {
+        "held_out": "Michael_PanamaCity",
+        "rf_auc": 0.722,
+        "xgb_auc": 0.684,
+        "logit_auc": 0.697
+      },
+      {
+        "held_out": "Earthquake_SanJuan",
+        "rf_auc": 0.774,
+        "xgb_auc": 0.771,
+        "logit_auc": 0.752
+      },
+      {
+        "held_out": "Ian_CharlotteHarbor",
+        "rf_auc": 0.719,
+        "xgb_auc": 0.702,
+        "logit_auc": 0.713
+      },
+      {
+        "held_out": "Ian_FortMyers",
+        "rf_auc": 0.698,
+        "xgb_auc": 0.694,
+        "logit_auc": 0.689
+      },
+      {
+        "held_out": "Earthquake_Hatay",
+        "rf_auc": 0.806,
+        "xgb_auc": 0.794,
+        "logit_auc": 0.795
+      },
+      {
+        "held_out": "Florence_Wilmington",
+        "rf_auc": 0.95,
+        "xgb_auc": 0.978,
+        "logit_auc": 0.87
+      },
+      {
+        "held_out": "Irma_Savannah",
+        "rf_auc": 0.894,
+        "xgb_auc": 0.907,
+        "logit_auc": 0.862
+      },
+      {
+        "held_out": "Isaias_Newark",
+        "rf_auc": 0.965,
+        "xgb_auc": 0.984,
+        "logit_auc": 0.805
+      },
+      {
+        "held_out": "Matthew_Jacksonville",
+        "rf_auc": 0.971,
+        "xgb_auc": 0.988,
+        "logit_auc": 0.85
+      },
+      {
+        "held_out": "Zeta_Atlanta",
+        "rf_auc": 0.964,
+        "xgb_auc": 0.983,
+        "logit_auc": 0.84
+      },
+      {
+        "held_out": "Zeta_Birmingham",
+        "rf_auc": 0.962,
+        "xgb_auc": 0.979,
+        "logit_auc": 0.857
+      }
+    ],
+    "D": [
+      {
+        "held_out": "Maria_SanJuan",
+        "rf_auc": 0.723,
+        "xgb_auc": 0.714,
+        "logit_auc": 0.719
+      },
+      {
+        "held_out": "Irma_Miami",
+        "rf_auc": 0.695,
+        "xgb_auc": 0.698,
+        "logit_auc": 0.692
+      },
+      {
+        "held_out": "Ida_NewOrleans",
+        "rf_auc": 0.743,
+        "xgb_auc": 0.734,
+        "logit_auc": 0.739
+      },
+      {
+        "held_out": "Laura_LakeCharles",
+        "rf_auc": 0.698,
+        "xgb_auc": 0.676,
+        "logit_auc": 0.692
+      },
+      {
+        "held_out": "Michael_PanamaCity",
+        "rf_auc": 0.662,
+        "xgb_auc": 0.643,
+        "logit_auc": 0.656
+      },
+      {
+        "held_out": "Earthquake_SanJuan",
+        "rf_auc": 0.53,
+        "xgb_auc": 0.732,
+        "logit_auc": 0.721
+      },
+      {
+        "held_out": "Ian_CharlotteHarbor",
+        "rf_auc": 0.69,
+        "xgb_auc": 0.668,
+        "logit_auc": 0.696
+      },
+      {
+        "held_out": "Ian_FortMyers",
+        "rf_auc": 0.68,
+        "xgb_auc": 0.682,
+        "logit_auc": 0.669
+      },
+      {
+        "held_out": "Earthquake_Hatay",
+        "rf_auc": 0.799,
+        "xgb_auc": 0.785,
+        "logit_auc": 0.794
+      },
+      {
+        "held_out": "Florence_Wilmington",
+        "rf_auc": 0.645,
+        "xgb_auc": 0.977,
+        "logit_auc": 0.851
+      },
+      {
+        "held_out": "Irma_Savannah",
+        "rf_auc": 0.752,
+        "xgb_auc": 0.902,
+        "logit_auc": 0.857
+      },
+      {
+        "held_out": "Isaias_Newark",
+        "rf_auc": 0.706,
+        "xgb_auc": 0.984,
+        "logit_auc": 0.788
+      },
+      {
+        "held_out": "Matthew_Jacksonville",
+        "rf_auc": 0.698,
+        "xgb_auc": 0.986,
+        "logit_auc": 0.831
+      },
+      {
+        "held_out": "Zeta_Atlanta",
+        "rf_auc": 0.752,
+        "xgb_auc": 0.983,
+        "logit_auc": 0.828
+      },
+      {
+        "held_out": "Zeta_Birmingham",
+        "rf_auc": 0.719,
+        "xgb_auc": 0.98,
+        "logit_auc": 0.837
+      }
+    ]
   }
 }

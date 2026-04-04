@@ -286,7 +286,7 @@
       36.11293,
       36.20514
     ],
-    "probability": 0.43,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -296,7 +296,7 @@
       36.11085,
       36.20376
     ],
-    "probability": 0.43,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -306,7 +306,7 @@
       36.13926,
       36.18783
     ],
-    "probability": 0.43,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -316,7 +316,7 @@
       36.16251,
       36.26413
     ],
-    "probability": 0.43,
+    "probability": 0.5,
     "radiusM": 750
   }
 ]

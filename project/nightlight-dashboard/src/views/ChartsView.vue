@@ -17,9 +17,18 @@
       <!-- ═══ LOEO AUC Table ═══ -->
       <div class="result-section reveal">
         <h2>LOEO Cross-Validation — AUC by Event</h2>
-        <p style="color:var(--text-muted); font-size:14px; margin-bottom:16px">
-          Each row = one held-out event (trained on the other 8). Higher AUC = better discrimination.
+        <p style="color:var(--text-muted); font-size:14px; margin-bottom:10px">
+          Each row = one held-out event. Switch models to compare feature ablation effects.
         </p>
+        <div class="model-tabs" v-if="results && results.loeo_by_model">
+          <button
+            v-for="m in modelOptions"
+            :key="m.key"
+            class="model-tab"
+            :class="{ active: activeModel === m.key }"
+            @click="activeModel = m.key"
+          >{{ m.label }}</button>
+        </div>
         <div class="data-table" v-if="results">
           <table>
             <thead>
@@ -31,7 +40,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="r in results.loeo" :key="r.held_out">
+              <tr v-for="r in activeLoeo" :key="r.held_out">
                 <td>{{ r.held_out.replace('_', ' ') }}</td>
                 <td class="mono" :style="{ color: aucColor(r.rf_auc) }">{{ r.rf_auc.toFixed(3) }}</td>
                 <td class="mono" :style="{ color: aucColor(r.xgb_auc) }">{{ r.xgb_auc.toFixed(3) }}</td>
@@ -152,16 +161,48 @@
         </div>
       </div>
 
+      <!-- ═══ Model Comparison ═══ -->
+      <div class="result-section reveal" v-if="results && results.model_comparison">
+        <h2>Model Comparison — 4 Ablation Variants</h2>
+        <p style="color:var(--text-muted); font-size:14px; margin-bottom:16px">
+          Each variant tests a different hypothesis about what drives prediction accuracy.
+          Model D (pure NTL) isolates the nighttime light behavioral signal from spatial proximity.
+        </p>
+        <div class="data-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Description</th>
+                <th>LOEO AUC</th>
+                <th>Std</th>
+                <th>F1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(m, key) in results.model_comparison" :key="key">
+                <td style="font-weight:600">{{ m.name }}</td>
+                <td style="color:var(--text-muted); font-size:12px">{{ modelDesc[key] }}</td>
+                <td class="mono" :style="{ color: aucColor(m.mean_auc), fontWeight: 600 }">{{ m.mean_auc.toFixed(3) }}</td>
+                <td class="mono">{{ m.std.toFixed(3) }}</td>
+                <td class="mono">{{ m.f1.toFixed(3) }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <!-- ═══ Takeaway ═══ -->
       <div class="takeaway reveal" v-if="results">
         <div class="takeaway__label">KEY RESULTS</div>
         <p class="takeaway__text">
-          The ensemble model achieves <strong>mean LOEO AUC of {{ meanAuc('rf_auc') }}</strong>
-          (RF) across 9 held-out events — substantially above random (0.5) and consistent across
-          most events. <strong>log_pre_ntl</strong> (baseline brightness) is the dominant feature,
-          confirming that the model primarily learns urban brightness patterns as a proxy for
-          infrastructure density. Events with strong floor effects (Michael, Charlotte Harbor)
-          show lower AUC, while well-separated events (Hatay, Fort Myers) achieve AUC > 0.75.
+          With CRS-corrected spatial features, the full model achieves <strong>mean LOEO AUC of
+          {{ meanAuc('rf_auc') }}</strong> (RF) across {{ results.loeo.length }} held-out events.
+          <strong>log_dist</strong> (distance to nearest facility) is the dominant feature,
+          contributing +0.269 AUC over the pure NTL model.
+          Model D (pure NTL behavior, no spatial features) achieves <strong>AUC 0.700</strong>,
+          confirming that nighttime light changes alone carry a genuine backup power detection
+          signal — above random but requiring spatial context for high accuracy.
         </p>
       </div>
 
@@ -175,6 +216,13 @@ import { EVENTS } from '@/data/events.js'
 
 const BASE = import.meta.env.BASE_URL
 const results = ref(null)
+const activeModel = ref('A')
+const modelOptions = [
+  { key: 'A', label: 'Model A — Full' },
+  { key: 'B', label: 'Model B — Post-only' },
+  { key: 'C', label: 'Model C — +Buildings' },
+  { key: 'D', label: 'Model D — Pure NTL' },
+]
 
 onMounted(async () => {
   try {
@@ -193,6 +241,21 @@ onMounted(async () => {
 let revealObs
 onUnmounted(() => revealObs?.disconnect())
 
+const modelDesc = {
+  model_a: 'All 17 features: NTL behavior + spatial proximity + city controls',
+  model_b: 'Removes pre-disaster NTL (tests post-disaster signal alone)',
+  model_c: 'Adds OSM building footprint coverage features',
+  model_d: 'Only NTL magnitude/change features — no spatial proximity at all',
+}
+
+const activeLoeo = computed(() => {
+  if (!results.value) return []
+  if (results.value.loeo_by_model && results.value.loeo_by_model[activeModel.value]) {
+    return results.value.loeo_by_model[activeModel.value]
+  }
+  return results.value.loeo
+})
+
 const maxImp = computed(() => {
   if (!results.value) return 1
   return Math.max(...results.value.feature_importance.map(f => Math.max(f.rf_imp, f.xgb_imp)))
@@ -203,8 +266,8 @@ const sortedProbEvents = computed(() =>
 )
 
 function meanAuc(key) {
-  if (!results.value) return '—'
-  const vals = results.value.loeo.map(r => r[key])
+  if (!activeLoeo.value.length) return '—'
+  const vals = activeLoeo.value.map(r => r[key])
   return (vals.reduce((a, b) => a + b, 0) / vals.length).toFixed(3)
 }
 
@@ -246,6 +309,36 @@ function aucColor(v) {
 .result-section h2 {
   font-size: 18px; font-weight: 700; color: var(--text-bright);
   margin-bottom: 8px;
+}
+
+/* Model tabs */
+.model-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.model-tab {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-head);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: all var(--t-fast);
+}
+.model-tab:hover {
+  color: var(--text-bright);
+  border-color: var(--border-2);
+}
+.model-tab.active {
+  color: var(--cyan);
+  background: var(--cyan-dim);
+  border-color: rgba(0,212,255,0.3);
 }
 
 /* Tables */

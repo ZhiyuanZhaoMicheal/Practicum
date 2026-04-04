@@ -256,7 +256,7 @@
       -82.04667,
       26.93353
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -266,7 +266,7 @@
       -81.97684,
       26.9535
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -276,7 +276,7 @@
       -82.0353,
       27.0182
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -286,7 +286,7 @@
       -81.97792,
       26.9553
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -296,7 +296,7 @@
       -82.07405,
       26.96732
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -306,7 +306,7 @@
       -82.03844,
       26.91223
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -316,7 +316,7 @@
       -82.0469,
       26.93438
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -326,12 +326,12 @@
       -82.02437,
       26.85902
     ],
-    "probability": 0.452,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.93421,
       26.97324

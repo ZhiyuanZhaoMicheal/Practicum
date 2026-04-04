@@ -6,7 +6,7 @@
       -81.91197,
       26.50708
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -16,7 +16,7 @@
       -81.87406,
       26.62821
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -26,7 +26,7 @@
       -81.84781,
       26.53952
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -36,7 +36,7 @@
       -81.82005,
       26.60971
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -46,7 +46,7 @@
       -81.80295,
       26.63041
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -56,7 +56,7 @@
       -81.99621,
       26.51756
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -66,7 +66,7 @@
       -81.91989,
       26.68549
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -76,7 +76,7 @@
       -81.91316,
       26.50719
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -86,7 +86,7 @@
       -81.90946,
       26.51045
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -96,7 +96,7 @@
       -81.85033,
       26.54364
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -106,7 +106,7 @@
       -81.94328,
       26.63952
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -116,7 +116,7 @@
       -81.87403,
       26.62793
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -126,7 +126,7 @@
       -81.84791,
       26.53958
     ],
-    "probability": 0.488,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -1201,7 +1201,7 @@
   },
   {
     "name": "City of Cape Coral Everest Water Reclamation Facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.9356,
       26.6043
@@ -1211,7 +1211,7 @@
   },
   {
     "name": "City Of Cape Coral",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.93893,
       26.62432
@@ -1221,7 +1221,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.82674,
       26.62806
@@ -1231,7 +1231,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.85929,
       26.64012
@@ -1241,7 +1241,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.72552,
       26.51339
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.72254,
       26.51282
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.75698,
       26.51038
@@ -1271,7 +1271,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -81.79143,
       26.73028

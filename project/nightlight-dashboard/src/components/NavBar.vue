@@ -70,7 +70,6 @@ watch(() => route.path, () => { mobileOpen.value = false })
 const links = [
   { to: '/',       label: 'Overview' },
   { to: '/map',    label: 'Map'      },
-  { to: '/charts', label: 'Charts'   },
   { to: '/docs',   label: 'Docs'     },
 ]
 </script>

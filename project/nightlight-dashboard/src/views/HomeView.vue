@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <!-- Fixed background for entire page -->
+    <!-- Fixed animated background -->
     <div class="home__bg" aria-hidden="true">
       <div class="hero__earth" />
       <div class="hero__overlay" />
@@ -9,33 +9,22 @@
 
     <!-- ═══ Full-screen hero ═══ -->
     <section class="hero">
-
-      <!-- Content -->
       <div class="hero__content">
-        <div class="hero__label">NASA Black Marble · VIIRS VNP46A2</div>
         <h1 class="hero__title">
-          Critical Infrastructure<br />
-          <span class="hero__accent">Resilience Detection</span>
+          Can We See Generators<br />
+          <span class="hero__accent">from Space?</span>
         </h1>
         <p class="hero__sub">
-          Detecting backup generator activation at hospitals, airports, and power plants
-          during major disasters — using nighttime satellite imagery from space.
+          Detecting backup power from nighttime satellite imagery during disasters.
         </p>
         <p class="hero__authors">
-          <strong>Zhiyuan Zhao</strong> · University of Pennsylvania
+          Zhiyuan Zhao · <span style="opacity:0.6">University of Pennsylvania</span>
         </p>
-        <p class="hero__collab">
-          Temple University &times; Arizona State University
-        </p>
-        <div class="hero__ctas">
-          <RouterLink to="/map" class="btn btn--primary">Interactive Map</RouterLink>
-          <RouterLink to="/docs" class="btn btn--outline">Technical Docs</RouterLink>
-        </div>
       </div>
 
       <!-- Scroll indicator -->
-      <div class="hero__scroll" @click="scrollToEvents">
-        <span class="hero__scroll-text">Explore Events</span>
+      <div class="hero__scroll" @click="scrollToIntro">
+        <span class="hero__scroll-text">Learn More</span>
         <div class="hero__scroll-arrow">
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path d="M4 8L10 14L16 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -44,79 +33,102 @@
       </div>
     </section>
 
-    <!-- ═══ Stats bar ═══ -->
-    <section class="stats reveal">
-      <div class="stats__inner">
-        <div v-for="(s, i) in stats" :key="s.label" class="stat reveal" :style="{ transitionDelay: `${i * 0.08}s` }">
-          <span class="stat__value">{{ s.value }}</span>
-          <span class="stat__label">{{ s.label }}</span>
+    <!-- ═══ What We Did ═══ -->
+    <section id="intro" class="intro-section">
+      <div class="intro-inner">
+        <div class="section-header reveal" style="transition-delay:0.15s">
+          <h2 class="section-title">The Problem</h2>
         </div>
+        <p class="intro-text reveal" style="transition-delay:0.25s">
+          Millions of backup generators power hospitals, businesses, and homes during
+          blackouts — yet <strong>no unified database records where they are, who owns them,
+          or whether they actually work</strong>. This data gap touches energy security,
+          environmental justice, and disaster preparedness. We asked a simple question:
+          <strong>can satellite imagery fill this gap?</strong>
+        </p>
       </div>
     </section>
 
-    <!-- ═══ Event cards ═══ -->
-    <section id="events" class="events-section">
-      <div class="section-header reveal">
-        <h2 class="section-title">Study Events</h2>
-        <span class="tag tag--amber">{{ EVENTS.length }} Disasters · 2017–2023</span>
-      </div>
-
-      <div class="events-grid">
-        <div
-          v-for="(ev, i) in EVENTS"
-          :key="ev.id"
-          class="event-card reveal"
-          :style="{ transitionDelay: `${i * 0.06}s` }"
-          @click="goToMap(ev.id)"
-        >
-          <div class="event-card__accent" :style="{ background: ev.color }" />
-          <div class="event-card__top">
-            <span class="tag" :class="`tag--${ev.type}`">{{ ev.type }}</span>
-            <span class="event-card__year mono">{{ ev.year }}</span>
-          </div>
-          <h3 class="event-card__name">{{ ev.name }}</h3>
-          <p class="event-card__location">{{ ev.subtitle }}</p>
-          <p class="event-card__desc">{{ ev.description }}</p>
-          <div class="event-card__stats">
-            <div class="event-card__stat">
-              <span class="event-card__stat-label">Affected</span>
-              <span class="event-card__stat-value mono">{{ ev.affectedUsers }}</span>
-            </div>
-            <div class="event-card__stat">
-              <span class="event-card__stat-label">Outage</span>
-              <span class="event-card__stat-value mono">{{ ev.outageDuration }}</span>
-            </div>
-            <div class="event-card__stat">
-              <span class="event-card__stat-label">Facilities</span>
-              <span class="event-card__stat-value mono">{{ ev.facilities.length }}</span>
-            </div>
-          </div>
-          <div class="event-card__cta">View on Map →</div>
+    <!-- ═══ Our Approach ═══ -->
+    <section class="approach-section">
+      <div class="approach-inner">
+        <div class="section-header reveal">
+          <h2 class="section-title">Our Approach</h2>
         </div>
-      </div>
-    </section>
+        <p class="intro-text reveal">
+          During power outages, areas with backup generators stay brighter at night.
+          Using daily NASA Black Marble imagery (VIIRS VNP46A2), we analyze this
+          brightness anomaly across {{ stateCount }} U.S. states — from statistical
+          validation to pixel-level prediction. The satellite signal alone can distinguish
+          generator-powered areas from the surrounding blackout, though spatial context
+          significantly improves accuracy. This is an early proof of concept — showing
+          what remote sensing can reveal, and where higher resolution or ground truth
+          would be needed to go further.
+        </p>
 
-    <!-- ═══ Pipeline ═══ -->
-    <section class="pipeline-section">
-      <div class="section-header reveal">
-        <h2 class="section-title">Analysis Pipeline</h2>
-        <span class="tag tag--cyan">8 Stages</span>
-      </div>
-      <div class="pipeline-grid">
-        <RouterLink
-          v-for="(step, i) in pipeline"
-          :key="step.id"
-          :to="`/docs/${step.id}`"
-          class="pipeline-card reveal"
-          :style="{ transitionDelay: `${i * 0.06}s` }"
-        >
-          <div class="pipeline-card__num mono">{{ step.num }}</div>
-          <div class="pipeline-card__title">{{ step.title }}</div>
-          <div class="pipeline-card__desc">{{ step.desc }}</div>
-          <div class="pipeline-card__cta">Read Docs →</div>
+        <div class="stats reveal">
+          <div class="stats__inner">
+            <div v-for="(s, i) in stats" :key="s.label" class="stat" :style="{ transitionDelay: `${i * 0.08}s` }">
+              <span class="stat__value">{{ s.value }}</span>
+              <span class="stat__label">{{ s.label }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Docs card first -->
+        <RouterLink to="/docs" class="feature-card reveal" style="margin-top:24px">
+          <div class="feature-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              <line x1="9" y1="7" x2="17" y2="7"/>
+              <line x1="9" y1="11" x2="17" y2="11"/>
+              <line x1="9" y1="15" x2="13" y2="15"/>
+            </svg>
+          </div>
+          <div class="feature-card__content">
+            <h3 class="feature-card__title">Methodology & Results</h3>
+            <p class="feature-card__desc">
+              How far can nighttime lights take us? Follow the full pipeline from raw satellite
+              data to predictive models. Four model variants isolate what the algorithm actually
+              learns versus spatial shortcuts.
+            </p>
+            <div class="feature-card__details">
+              <span class="tag tag--cyan">10 Sections</span>
+              <span class="tag tag--dim">4 Model Variants</span>
+            </div>
+          </div>
+          <div class="feature-card__cta">Read Docs →</div>
+        </RouterLink>
+
+        <!-- Map card — left text, right screenshot -->
+        <RouterLink to="/map" class="map-card reveal" style="margin-top:16px; transition-delay:0.08s">
+          <div class="map-card__text">
+            <div class="map-card__icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/>
+                <path d="M8 2v16"/>
+                <path d="M16 6v16"/>
+              </svg>
+            </div>
+            <h3 class="map-card__title">Interactive Probability Map</h3>
+            <p class="map-card__desc">
+              Explore prediction results across {{ stateCount }} states. Pixel-level backup
+              power probability with facility overlays.
+            </p>
+            <div class="map-card__tags">
+              <span class="tag tag--cyan">{{ uniqueCities }} Locations</span>
+              <span class="tag tag--dim">5 Basemaps</span>
+            </div>
+            <span class="map-card__cta">Explore Map →</span>
+          </div>
+          <div class="map-card__img">
+            <img :src="`${base}map_preview.png`" alt="Map preview" />
+          </div>
         </RouterLink>
       </div>
     </section>
+
   </div>
 </template>
 
@@ -126,39 +138,41 @@ import { onMounted, onUnmounted } from 'vue'
 import { EVENTS } from '@/data/events.js'
 
 const router = useRouter()
+const base = import.meta.env.BASE_URL
 
-function goToMap(eventId) {
-  router.push({ path: '/map', query: { event: eventId } })
+function scrollToIntro() {
+  document.getElementById('intro')?.scrollIntoView({ behavior: 'smooth' })
 }
 
-function scrollToEvents() {
-  document.getElementById('events')?.scrollIntoView({ behavior: 'smooth' })
-}
 
-const totalFacilities = EVENTS.reduce((sum, ev) => sum + ev.facilities.length, 0)
+const stateCount = 17
+const uniqueCities = new Set(EVENTS.map(ev => ev.subtitle.split(',')[0])).size
 const stats = [
+  { value: String(uniqueCities),  label: 'Study Areas' },
   { value: String(EVENTS.length), label: 'Disaster Events' },
-  { value: String(totalFacilities), label: 'Critical Facilities' },
-  { value: '2017–23',             label: 'Study Period' },
-  { value: 'VIIRS',               label: 'Satellite Sensor' },
-  { value: '500m',                label: 'Resolution' },
-  { value: 'LOEO',                label: 'Cross-Validation' },
+  { value: '2016–23',             label: 'Study Period' },
+  { value: 'VIIRS VNP46A2',      label: 'Data Source' },
 ]
 
-const pipeline = [
-  { id: 'overview',     num: '01', title: 'Project Overview',           desc: 'Research motivation, hypothesis, and study events' },
-  { id: 'data',         num: '02', title: 'Data Collection',            desc: 'NASA Black Marble, EAGLE-I outages, OSM facilities' },
-  { id: 'eda',          num: '03', title: 'Exploratory Analysis',       desc: 'Resilience ratio, floor effect, facility type comparison' },
-  { id: 'interpretive', num: '04', title: 'Interpretive Modeling',      desc: 'OLS, MixedLM, Logistic, Cox PH — triangulation' },
-  { id: 'features',     num: '05', title: 'Feature Engineering',        desc: '17 features addressing floor effect and city size' },
-  { id: 'models',       num: '06', title: 'Predictive Models',          desc: 'RF + XGBoost ensemble, LOEO cross-validation' },
-  { id: 'maps',         num: '07', title: 'Probability Maps',           desc: 'Per-pixel backup power probability heatmaps' },
-  { id: 'repro',        num: '08', title: 'Reproducibility',            desc: 'Data sources, code, and references' },
-]
-
-// Scroll-triggered animations — reversible (re-animate on every scroll in/out)
+// Scroll-driven hero fade + reveal animations
 let observer
+let scrollHandler
+
 onMounted(() => {
+  const heroContent = document.querySelector('.hero__content')
+  const heroScroll = document.querySelector('.hero__scroll')
+
+  // Hero fade on scroll
+  scrollHandler = () => {
+    const scrollY = window.scrollY
+    const fadeEnd = window.innerHeight * 0.4
+    const opacity = Math.max(0, 1 - scrollY / fadeEnd)
+    if (heroContent) heroContent.style.opacity = opacity
+    if (heroScroll) heroScroll.style.opacity = opacity
+  }
+  window.addEventListener('scroll', scrollHandler, { passive: true })
+
+  // Reveal observer — threshold 0.15 means element must be 15% visible
   observer = new IntersectionObserver(
     entries => {
       entries.forEach(entry => {
@@ -169,11 +183,14 @@ onMounted(() => {
         }
       })
     },
-    { threshold: 0.1 }
+    { threshold: 0.15 }
   )
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el))
 })
-onUnmounted(() => observer?.disconnect())
+onUnmounted(() => {
+  observer?.disconnect()
+  if (scrollHandler) window.removeEventListener('scroll', scrollHandler)
+})
 </script>
 
 <style scoped>
@@ -374,16 +391,6 @@ onUnmounted(() => observer?.disconnect())
   color: var(--text-muted);
 }
 
-/* ═══════════════════════════════════════════ */
-/* Events section                              */
-/* ═══════════════════════════════════════════ */
-.events-section {
-  padding: 56px 80px 80px;
-  max-width: 1280px;
-  margin: 0 auto;
-  width: 100%;
-  scroll-margin-top: var(--nav-h);
-}
 .section-header {
   display: flex;
   align-items: center;
@@ -397,130 +404,198 @@ onUnmounted(() => observer?.disconnect())
   text-transform: uppercase;
   color: var(--text-bright);
 }
-.events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 16px;
-}
-.event-card {
-  position: relative;
-  background: rgba(7,21,37,0.6);
-  backdrop-filter: blur(6px);
-  border: 1px solid rgba(18,42,69,0.5);
-  border-radius: var(--radius-lg);
-  padding: 20px;
-  cursor: pointer;
-  overflow: hidden;
-  transition: all var(--t-med);
-}
-.event-card:hover {
-  border-color: rgba(28,58,90,0.7);
-  background: rgba(12,30,53,0.7);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-}
-.event-card__accent {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 2px;
-  opacity: 0.7;
-}
-.event-card__top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
-}
-.event-card__year { font-size: 12px; color: var(--text-muted); }
-.event-card__name { font-size: 16px; font-weight: 600; margin-bottom: 3px; }
-.event-card__location { font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
-.event-card__desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px; }
-.event-card__stats {
-  display: flex;
-  gap: 16px;
-  padding-top: 12px;
-  border-top: 1px solid rgba(18,42,69,0.5);
-  margin-bottom: 12px;
-}
-.event-card__stat { display: flex; flex-direction: column; gap: 2px; }
-.event-card__stat-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); }
-.event-card__stat-value { font-size: 13px; font-weight: 500; color: var(--text-bright); }
-.event-card__cta {
-  font-family: var(--font-head);
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  color: var(--cyan);
-  opacity: 0;
-  transform: translateX(-4px);
-  transition: all var(--t-fast);
-}
-.event-card:hover .event-card__cta {
-  opacity: 1;
-  transform: translateX(0);
-}
 
 /* ═══════════════════════════════════════════ */
-/* Pipeline                                    */
+/* Intro + Approach sections                   */
 /* ═══════════════════════════════════════════ */
-.pipeline-section {
-  padding: 32px 80px 80px;
+.intro-section {
+  padding: 80px 80px 20px;
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
 }
-.pipeline-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+.intro-inner {
+  max-width: 760px;
+  margin: 0 auto;
 }
-.pipeline-card {
+.approach-section {
+  padding: 0 80px 60px;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+.approach-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.intro-text {
+  font-size: 17px;
+  color: #9cb3c9;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+.intro-text strong {
+  color: var(--text-bright);
+}
+
+/* ═══════════════════════════════════════════ */
+/* Feature cards (Map + Docs)                  */
+/* ═══════════════════════════════════════════ */
+.feature-card {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 18px;
-  background: rgba(7,21,37,0.5);
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px 32px;
+  background: rgba(7,21,37,0.6);
   backdrop-filter: blur(6px);
-  border: 1px solid rgba(18,42,69,0.4);
+  border: 1px solid rgba(18,42,69,0.5);
   border-radius: var(--radius-lg);
   text-decoration: none;
   color: inherit;
-  transition: all var(--t-med);
   cursor: pointer;
+  transition: all var(--t-med);
+  position: relative;
 }
-.pipeline-card:hover {
+.feature-card:hover {
   border-color: rgba(0,212,255,0.3);
-  background: rgba(12,30,53,0.6);
+  background: rgba(12,30,53,0.7);
   transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
-.pipeline-card__num {
-  font-size: 11px;
+.feature-card__icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cyan-dim);
+  border-radius: var(--radius);
   color: var(--cyan);
-  letter-spacing: 0.14em;
-  font-weight: 600;
 }
-.pipeline-card__title {
-  font-family: var(--font-head);
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-bright);
-}
-.pipeline-card__desc {
-  font-size: 12px;
-  color: var(--text-muted);
-  line-height: 1.5;
+.feature-card__content {
   flex: 1;
+  min-width: 0;
 }
-.pipeline-card__cta {
+.feature-card__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.feature-card__desc {
+  font-size: 14px;
+  color: #9cb3c9;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.feature-card__details {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.feature-card__cta {
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
   font-family: var(--font-head);
-  font-size: 11px;
+  font-size: 13px;
+  font-weight: 600;
   letter-spacing: 0.06em;
   color: var(--cyan);
   opacity: 0;
   transition: opacity var(--t-fast);
-  margin-top: 4px;
 }
-.pipeline-card:hover .pipeline-card__cta {
+.feature-card:hover .feature-card__cta {
   opacity: 1;
+}
+
+/* Map card — left/right layout */
+.map-card {
+  display: flex;
+  background: rgba(7,21,37,0.6);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(18,42,69,0.5);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all var(--t-med);
+}
+.map-card:hover {
+  border-color: rgba(0,212,255,0.3);
+  background: rgba(12,30,53,0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.map-card__text {
+  flex: 1;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.map-card__icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cyan-dim);
+  border-radius: var(--radius);
+  color: var(--cyan);
+  flex-shrink: 0;
+}
+.map-card__title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.map-card__desc {
+  font-size: 13px;
+  color: #9cb3c9;
+  line-height: 1.6;
+}
+.map-card__tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.map-card__cta {
+  font-family: var(--font-head);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cyan);
+  opacity: 0;
+  transition: opacity var(--t-fast);
+  margin-top: auto;
+}
+.map-card:hover .map-card__cta {
+  opacity: 1;
+}
+.map-card__img {
+  width: 280px;
+  flex-shrink: 0;
+  border-left: 1px solid rgba(18,42,69,0.4);
+}
+.map-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.8;
+  transition: opacity var(--t-fast);
+}
+.map-card:hover .map-card__img img {
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .map-card { flex-direction: column; }
+  .map-card__img { width: 100%; height: 180px; border-left: none; border-top: 1px solid rgba(18,42,69,0.4); }
+  .map-card__text { padding: 20px 16px; }
+  .map-card__cta { opacity: 1; }
 }
 
 /* ═══════════════════════════════════════════ */
@@ -548,12 +623,13 @@ onUnmounted(() => observer?.disconnect())
   .stat__value { font-size: 16px; }
 
   .events-section { padding: 32px 16px; }
-  .events-grid { grid-template-columns: 1fr; gap: 12px; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 8px; }
 
-  .pipeline-section { padding: 20px 16px 60px; }
-  .pipeline-grid { grid-template-columns: 1fr; gap: 10px; }
-
-  .event-card__stats { flex-wrap: wrap; gap: 10px; }
+  .intro-section { padding: 40px 16px 16px; }
+  .approach-section { padding: 0 16px 40px; }
+  .intro-text { font-size: 14px; }
+  .feature-card { flex-direction: column; gap: 12px; padding: 20px; }
+  .feature-card__title { font-size: 17px; }
+  .feature-card__cta { position: static; opacity: 1; margin-top: 8px; }
 }
 </style>

@@ -496,7 +496,7 @@
       -66.11249,
       18.42966
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -506,7 +506,7 @@
       -66.10434,
       18.4672
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -516,7 +516,7 @@
       -66.08369,
       18.4459
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -526,7 +526,7 @@
       -66.03529,
       18.39509
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -536,7 +536,7 @@
       -66.07552,
       18.45435
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -546,7 +546,7 @@
       -66.06338,
       18.42006
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -556,7 +556,7 @@
       -66.13577,
       18.47094
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -566,7 +566,7 @@
       -66.14769,
       18.41649
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -576,7 +576,7 @@
       -65.98877,
       18.40196
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -586,7 +586,7 @@
       -65.99377,
       18.40288
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -596,7 +596,7 @@
       -66.11098,
       18.46468
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -606,7 +606,7 @@
       -66.11735,
       18.39261
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -616,7 +616,7 @@
       -66.11352,
       18.37521
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -626,7 +626,7 @@
       -66.04159,
       18.43663
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -636,7 +636,7 @@
       -66.0517,
       18.39733
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -646,7 +646,7 @@
       -66.09676,
       18.46259
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -656,7 +656,7 @@
       -66.11199,
       18.36221
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -666,7 +666,7 @@
       -66.09768,
       18.36091
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -676,7 +676,7 @@
       -66.08175,
       18.44845
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -686,7 +686,7 @@
       -66.14511,
       18.41816
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -696,7 +696,7 @@
       -66.14753,
       18.4154
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -706,7 +706,7 @@
       -66.15572,
       18.39946
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -716,7 +716,7 @@
       -66.15015,
       18.39369
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -726,7 +726,7 @@
       -66.14986,
       18.36339
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -736,7 +736,7 @@
       -66.07259,
       18.38499
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -746,7 +746,7 @@
       -66.07995,
       18.38543
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -756,7 +756,7 @@
       -66.09142,
       18.40047
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -766,7 +766,7 @@
       -66.04155,
       18.43671
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -776,7 +776,7 @@
       -66.05141,
       18.44084
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -786,7 +786,7 @@
       -66.04168,
       18.43685
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -796,7 +796,7 @@
       -66.07786,
       18.41721
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -806,7 +806,7 @@
       -66.05014,
       18.41391
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -816,7 +816,7 @@
       -66.02326,
       18.36733
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -826,7 +826,7 @@
       -66.06126,
       18.41922
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -836,7 +836,7 @@
       -66.06148,
       18.42009
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -846,7 +846,7 @@
       -65.96097,
       18.3799
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -856,7 +856,7 @@
       -65.98368,
       18.45552
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -866,7 +866,7 @@
       -66.19437,
       18.43806
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -876,7 +876,7 @@
       -65.97954,
       18.38261
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -886,7 +886,7 @@
       -66.12627,
       18.44141
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -896,7 +896,7 @@
       -66.00524,
       18.35657
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -906,7 +906,7 @@
       -66.00638,
       18.35599
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -916,7 +916,7 @@
       -66.1227,
       18.39735
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -926,7 +926,7 @@
       -66.03432,
       18.41475
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -936,7 +936,7 @@
       -66.0156,
       18.39658
     ],
-    "probability": 0.701,
+    "probability": 0.5,
     "radiusM": 750
   },
   {
@@ -3241,7 +3241,7 @@
   },
   {
     "name": "water_works facility",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -66.11972,
       18.37585
@@ -3251,7 +3251,7 @@
   },
   {
     "name": "AAA",
-    "type": "water_works",
+    "type": "water",
     "coords": [
       -66.19049,
       18.43717
