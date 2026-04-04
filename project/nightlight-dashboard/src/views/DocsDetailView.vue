@@ -1988,6 +1988,68 @@ for h in hospitals[:3]:
               measurably higher predicted resilience during power outages.
             </p>
           </div>
+
+          <h2>Overall Conclusions</h2>
+          <p>
+            Across three stages of analysis — interpretive modeling, predictive modeling, and
+            zip-code spatial regression — several conclusions emerge:
+          </p>
+          <ul class="detail-list">
+            <li><strong>The satellite signal is real but modest.</strong> Pure nighttime light
+              behavior (Model D) achieves AUC 0.704 — above random, confirming that brightness
+              anomalies during outages carry genuine information about backup power. But this
+              signal alone is insufficient for reliable detection at 500m resolution.</li>
+            <li><strong>Spatial context is the dominant predictor.</strong> Knowing where critical
+              facilities are located adds +0.263 AUC, raising performance to 0.967. The model
+              primarily learns that areas near hospitals and airports tend to stay brighter — a
+              useful but less novel finding.</li>
+            <li><strong>The effect generalizes across geography and disaster type.</strong> 25/25
+              events show consistent positive resilience advantage for facility buffer zones.
+              The zip-code analysis confirms this at a coarser scale: 22/22 U.S. events, all
+              5 disaster types, all 3 city size categories.</li>
+            <li><strong>Commercial generators are detectable; residential are not.</strong>
+              Miami-Dade ground truth validation shows the method works for large institutional
+              generators (rank = 0.684) but cannot resolve individual household units at 500m.</li>
+            <li><strong>No unified generator database exists, and building one from permits is
+              impractical.</strong> This data gap — confirmed through our permit collection effort
+              — is itself the strongest motivation for satellite-based approaches.</li>
+          </ul>
+
+          <h2>Limitations</h2>
+          <ul class="detail-list">
+            <li><strong>Resolution.</strong> 500m pixels mix multiple land uses; the method detects
+              neighborhood-level patterns, not individual buildings. Higher-resolution sensors
+              (e.g., Jilin-1, EROS) could improve building-level detection but lack daily global
+              coverage.</li>
+            <li><strong>Weak supervision label.</strong> We assume facilities near OSM-listed
+              infrastructure have generators — a reasonable but imperfect proxy. Some facilities
+              may lack generators; some generators exist at unlisted locations.</li>
+            <li><strong>Gap-filled imagery.</strong> The expanded 25-event dataset uses NASA's
+              gap-filled VNP46A2, where cloudy days are interpolated from neighbors. This may
+              slightly attenuate the outage signal during storm periods.</li>
+            <li><strong>Temporal resolution.</strong> Daily imagery captures overnight brightness
+              but misses daytime generator operation, load fluctuations, and generators that only
+              run during peak demand hours.</li>
+          </ul>
+
+          <h2>Future Directions</h2>
+          <ul class="detail-list">
+            <li><strong>Higher-resolution imagery.</strong> Commercial satellite constellations
+              now offer sub-meter nighttime imagery. Combining VIIRS's daily temporal coverage
+              with occasional high-resolution snapshots could bridge the resolution gap.</li>
+            <li><strong>Integration with utility data.</strong> Where smart meter or SCADA data
+              is available, supervised learning with actual outage/restoration timestamps could
+              replace the weak-supervision buffer approach.</li>
+            <li><strong>Emission estimation.</strong> Detected generator locations could be combined
+              with fuel type databases and runtime estimates to model backup generator emissions
+              — relevant for environmental justice and air quality assessment.</li>
+            <li><strong>Real-time monitoring.</strong> As NTL products approach near-real-time
+              delivery, the method could support emergency response: identifying which areas
+              have activated backup power within hours of a blackout.</li>
+            <li><strong>Cross-country extension.</strong> The method is sensor-agnostic and
+              transferable. Applying it to non-U.S. disasters (where outage records are even
+              scarcer) could provide first-of-its-kind resilience mapping in data-poor regions.</li>
+          </ul>
         </template>
 
         <!-- 09 Dashboard Development -->
