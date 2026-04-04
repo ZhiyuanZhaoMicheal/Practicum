@@ -123,9 +123,10 @@
           <div class="callout callout--cyan">
             <span>--</span>
             <div>
-              <strong>Collaboration:</strong> Temple University (PI: Prof. Xiaojiang Li) and
-              Arizona State University. The project began with 6 events in Puerto Rico, Florida,
-              and Louisiana, and has expanded to 25 events across the continental U.S. and Turkey.
+              <strong>Advisor:</strong> Prof. Xiaojiang Li (University of Pennsylvania).
+              In collaboration with Temple University and Arizona State University. The project
+              began with 6 events in Puerto Rico, Florida, and Louisiana, and has expanded to
+              25 events across the continental U.S. and Turkey.
             </div>
           </div>
 
