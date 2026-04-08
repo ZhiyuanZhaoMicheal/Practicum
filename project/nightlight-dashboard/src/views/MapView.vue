@@ -227,10 +227,13 @@ const EVENTS = EVENT_ORDER.map(id => RAW_EVENTS.find(e => e.id === id)).filter(B
 
 // Build buffer polygons from real loaded facility GeoJSON
 // (replaces generateBufferGeoJSON which used hardcoded ev.facilities)
+const EXCLUDED_FAC_TYPES = new Set(['government', 'substation', 'water', 'water_works'])
+
 function buildBufferFromGeoJSON(facilityGeoJSON) {
   const features = []
   for (const f of facilityGeoJSON.features) {
     const type     = f.properties.type
+    if (EXCLUDED_FAC_TYPES.has(type)) continue
     const radiusM  = BUFFER_RADII[type] ?? 750
     const radiusDeg = radiusM / 111320
     const [lon, lat] = f.geometry.coordinates
