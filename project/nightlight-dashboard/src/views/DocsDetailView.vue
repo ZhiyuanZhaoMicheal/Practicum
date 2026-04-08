@@ -1852,116 +1852,104 @@ for h in hospitals[:3]:
             philosophy from Stage 1: start simple, then progressively address statistical concerns.
           </p>
 
-          <h3>Dependent Variable</h3>
-          <p>
-            For each zip code within a study area, we compute <code>mean_backup_prob</code> — the
-            average predicted backup power probability from Stage 2's ensemble model, aggregated
-            from all pixels within the zip code boundary via spatial join with ZCTA shapefiles.
-          </p>
-
-          <h3>Independent Variables</h3>
-          <div class="data-table">
-            <table>
-              <thead><tr><th>Variable</th><th>Source</th><th>Role</th></tr></thead>
-              <tbody>
-                <tr><td><strong><code>facility_density</code></strong></td><td>OSM / ZCTA area</td><td>Core predictor: critical facilities per km²</td></tr>
-                <tr><td><code>mean_backup_prob</code></td><td>Stage 2 Model C</td><td>Pixel-level probability aggregated to zip code</td></tr>
-                <tr><td><code>ntl_drop_pct</code></td><td>pixel_panel</td><td>Mean NTL decline during disaster</td></tr>
-                <tr><td><code>pop_density</code></td><td>Census ACS</td><td>Control: urbanization proxy</td></tr>
-                <tr><td><code>median_income</code></td><td>Census ACS</td><td>Control: socioeconomic status</td></tr>
-                <tr><td><code>urban_pct</code></td><td>NLCD</td><td>Control: land cover classification</td></tr>
-                <tr><td><code>impervious_pct</code></td><td>NLCD</td><td>Control: building/road density proxy</td></tr>
-                <tr><td><code>disaster_exposure</code></td><td>IBTrACS</td><td>Control: historical hurricane track density</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <h3>Model 1: OLS with Event Fixed Effects</h3>
+          <h3>Model 1: OLS Baseline</h3>
           <div class="formula-block">
             <div class="formula">mean_prob<sub>iz</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; fac_density<sub>z</sub> + &gamma;<sub>i</sub> + &epsilon;<sub>iz</sub></div>
             <div class="formula__caption">i = event, z = zip code, &gamma;<sub>i</sub> = event fixed effect</div>
           </div>
-          <p>
-            The baseline model tests the core relationship while absorbing event-level variation
-            (different cities, disaster types, severity) through fixed effects. This ensures we are
-            comparing zip codes <em>within</em> the same disaster, not across events with different
-            baseline brightness levels.
-          </p>
           <div class="data-table">
             <table>
               <thead><tr><th>Metric</th><th>Value</th></tr></thead>
               <tbody>
                 <tr><td>N</td><td class="mono">1,002 zip-event observations</td></tr>
                 <tr><td>R²</td><td class="mono" style="color:var(--green)">0.475</td></tr>
-                <tr><td>fac_density coefficient</td><td class="mono">+0.096 (se = 0.006)</td></tr>
-                <tr><td>fac_density p-value</td><td class="mono" style="color:var(--green)">9.56 × 10⁻⁵⁴</td></tr>
+                <tr><td>fac_density</td><td class="mono">+0.096 (p = 9.56 × 10⁻⁵⁴)</td></tr>
                 <tr><td>Interpretation</td><td>+1 facility/km² → +9.6% backup power probability</td></tr>
               </tbody>
             </table>
           </div>
 
-          <h3>Model 2: Moran's I Spatial Autocorrelation Test</h3>
+          <h3>Diagnostic: Moran's I</h3>
           <p>
-            OLS assumes independent observations, but neighboring zip codes are spatially
-            correlated — a hospital's backup power benefits adjacent zip codes too. Moran's I
-            tests whether OLS residuals cluster spatially:
-          </p>
-          <div class="formula-block">
-            <div class="formula">Moran's I = 0.329, E[I] = -0.007, p = 0.001</div>
-            <div class="formula__caption">Tested on Newark NJ (n=145 zips), KNN weights (k=5)</div>
-          </div>
-          <p>
-            <strong>Significant spatial autocorrelation</strong> — OLS standard errors are
-            underestimated. We need a spatial regression model to correct for this.
+            Moran's I = 0.329 (p = 0.001) on OLS residuals — <strong>significant spatial
+            autocorrelation</strong>. Neighboring zip codes share unobserved factors, so OLS
+            standard errors are underestimated.
           </p>
 
-          <h3>Model 3: Spatial Error Model (SEM)</h3>
-          <p>
-            The Spatial Error Model accounts for spatially correlated error terms. If a zip code's
-            residual is positive (model under-predicts), its neighbors' residuals tend to be positive
-            too — captured by the spatial autoregressive parameter &lambda;:
-          </p>
+          <h3>Model 2: Spatial Error Model</h3>
           <div class="formula-block">
             <div class="formula">y = X&beta; + u, &nbsp; u = &lambda;Wu + &epsilon;</div>
-            <div class="formula__caption">W = spatial weights matrix (KNN, k=5), &lambda; = spatial error parameter</div>
+            <div class="formula__caption">W = KNN spatial weights (k=5), &lambda; = spatial error parameter</div>
           </div>
           <div class="data-table">
             <table>
               <thead><tr><th>Parameter</th><th>Value</th><th>Interpretation</th></tr></thead>
               <tbody>
-                <tr><td>&lambda;</td><td class="mono" style="color:var(--cyan)">0.648</td><td>Strong spatial error dependence — neighbors' errors are 65% correlated</td></tr>
-                <tr><td>fac_density</td><td class="mono" style="color:var(--green)">0.097</td><td>Effect <strong>survives</strong> spatial correction (virtually unchanged from OLS)</td></tr>
-                <tr><td>Pseudo R²</td><td class="mono">0.236</td><td>Lower than OLS R² because spatial effects absorb variance</td></tr>
+                <tr><td>&lambda;</td><td class="mono" style="color:var(--cyan)">0.648</td><td>Neighbors' errors are 65% correlated</td></tr>
+                <tr><td>fac_density</td><td class="mono" style="color:var(--green)">0.097</td><td>Effect <strong>survives</strong> spatial correction (unchanged from OLS)</td></tr>
               </tbody>
             </table>
           </div>
-          <p>
-            The key finding: <strong>facility density's effect is real, not a spatial artifact</strong>.
-            The coefficient barely changes from OLS (0.096 → 0.097) after controlling for spatial
-            autocorrelation. The high &lambda; (0.648) means neighboring zip codes share unobserved
-            factors (urban form, utility infrastructure), but the facility density signal is
-            independent of this spatial structure.
-          </p>
 
-          <h3>Model 4: Subgroup Analysis</h3>
+          <h3>Model 3: Wind Exposure Control (Hurricane Events)</h3>
           <p>
-            Does the facility density effect vary by city size or disaster type? This connects
-            to the floor effect discovered in Stage 1 — smaller cities might show different patterns.
+            For hurricane events, we compute wind field exposure from IBTrACS v4 using a
+            simplified Holland decay:
           </p>
+          <div class="formula-block">
+            <div class="formula">wind_exposure = exp(-(d / R<sub>34</sub>)²)</div>
+            <div class="formula__caption">d = distance to hurricane track (km), R<sub>34</sub> = tropical storm wind radius</div>
+          </div>
           <div class="data-table">
             <table>
-              <thead><tr><th>City Size</th><th>N</th><th>R²</th><th>With Facilities</th><th>Without</th><th>Delta</th></tr></thead>
+              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
               <tbody>
-                <tr><td>Large</td><td class="mono">687</td><td class="mono">0.358</td><td class="mono">0.480</td><td class="mono">0.310</td><td class="mono" style="color:var(--green)">+0.170</td></tr>
-                <tr><td>Medium</td><td class="mono">241</td><td class="mono">0.284</td><td class="mono">0.271</td><td class="mono">0.129</td><td class="mono" style="color:var(--green)">+0.142</td></tr>
-                <tr><td>Small</td><td class="mono">74</td><td class="mono">0.326</td><td class="mono">0.229</td><td class="mono">0.064</td><td class="mono" style="color:var(--green)">+0.165</td></tr>
+                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.094</td><td class="mono" style="color:var(--green)">1.7 × 10⁻²³</td></tr>
+                <tr><td><code>wind_exposure</code></td><td class="mono" style="color:#ff6b6b">-1.126</td><td class="mono" style="color:var(--green)">0.010</td></tr>
               </tbody>
             </table>
           </div>
-          <div class="data-table" style="margin-top:12px">
+          <p>
+            Stronger wind exposure <strong>reduces</strong> predicted backup power (p = 0.010) —
+            severe storms overwhelm even generator-equipped areas. Facility density remains
+            significant after this control.
+          </p>
+
+          <h3>Model 4: EAGLE-I Outage Severity Validation</h3>
+          <p>
+            The key validation: do zip codes with higher predicted backup power actually
+            experience less severe outages? We construct zip-level outage severity from
+            EAGLE-I county data using weighted allocation:
+          </p>
+          <div class="formula-block">
+            <div class="formula">severity<sub>zip</sub> = severity<sub>county</sub> × w<sub>zip</sub> / &Sigma;w<sub>j</sub></div>
+            <div class="formula__caption">w = wind_exposure × (1 + |ntl_drop|) for hurricanes; w = 1 + |ntl_drop| otherwise</div>
+          </div>
+          <div class="data-table">
             <table>
-              <thead><tr><th>Disaster Type</th><th>N</th><th>With Facilities</th><th>Without</th><th>Delta</th></tr></thead>
+              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
               <tbody>
+                <tr><td><code>mean_prob</code></td><td class="mono" style="color:var(--green)">-32.8</td><td class="mono" style="color:var(--green)">0.0002</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            <strong>Predicted backup probability is significantly negatively correlated with
+            real outage severity.</strong> This closes the validation loop: what the satellite
+            model predicts as resilient areas genuinely experience lighter outages in the
+            independently collected EAGLE-I record.
+          </p>
+
+          <h3>Subgroup Consistency</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Subgroup</th><th>N</th><th>With Fac.</th><th>Without</th><th>Delta</th></tr></thead>
+              <tbody>
+                <tr><td colspan="5" style="font-weight:600; color:var(--text-muted); font-size:10px; letter-spacing:0.1em">BY CITY SIZE</td></tr>
+                <tr><td>Large</td><td class="mono">687</td><td class="mono">0.480</td><td class="mono">0.310</td><td class="mono" style="color:var(--green)">+0.170</td></tr>
+                <tr><td>Medium</td><td class="mono">241</td><td class="mono">0.271</td><td class="mono">0.129</td><td class="mono" style="color:var(--green)">+0.142</td></tr>
+                <tr><td>Small</td><td class="mono">74</td><td class="mono">0.229</td><td class="mono">0.064</td><td class="mono" style="color:var(--green)">+0.165</td></tr>
+                <tr><td colspan="5" style="font-weight:600; color:var(--text-muted); font-size:10px; letter-spacing:0.1em; padding-top:8px">BY DISASTER TYPE</td></tr>
                 <tr><td>Hurricane</td><td class="mono">554</td><td class="mono">0.403</td><td class="mono">0.233</td><td class="mono" style="color:var(--green)">+0.171</td></tr>
                 <tr><td>Winter Storm</td><td class="mono">234</td><td class="mono">0.435</td><td class="mono">0.274</td><td class="mono" style="color:var(--green)">+0.161</td></tr>
                 <tr><td>Derecho</td><td class="mono">74</td><td class="mono">0.534</td><td class="mono">0.263</td><td class="mono" style="color:var(--green)">+0.271</td></tr>
@@ -1971,103 +1959,17 @@ for h in hospitals[:3]:
             </table>
           </div>
           <p>
-            The effect is <strong>universally positive</strong> across all city sizes and all
-            disaster types — no exceptions. Derechos and severe storms show the largest deltas
-            (+0.27), possibly because these events cause more localized, patchy outages where
-            generator-powered facilities stand out more clearly against the surrounding blackout.
-          </p>
-
-          <h2>7.5 Wind Field Exposure</h2>
-          <p>
-            For the 15 hurricane events, we compute a <strong>wind field exposure</strong>
-            variable for each zip code using IBTrACS v4 track data. For each zip centroid,
-            we find the closest track point within &plusmn;2 days of landfall, retrieve the
-            R34 (tropical storm force) wind radius, and apply a simplified Holland decay:
-          </p>
-          <div class="formula-block">
-            <div class="formula">wind_exposure = exp(-(d / R<sub>34</sub>)²)</div>
-            <div class="formula__caption">d = distance to track (km), R<sub>34</sub> = tropical storm wind radius (km)</div>
-          </div>
-          <p>
-            This yields a 0–1 score: 1.0 at the eye, decaying to near-zero outside the wind field.
-            Non-hurricane events (Uri, Derecho, Ice Storm, etc.) receive no wind exposure value.
-          </p>
-
-          <h3>Model 5: Adding Wind Exposure (Hurricane Only)</h3>
-          <div class="data-table">
-            <table>
-              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
-              <tbody>
-                <tr><td><code>fac_density</code></td><td class="mono">+0.094</td><td class="mono" style="color:var(--green)">1.7 × 10⁻²³</td></tr>
-                <tr><td><code>wind_exposure</code></td><td class="mono" style="color:#ff6b6b">-1.126</td><td class="mono" style="color:var(--green)">0.010</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p>
-            Wind exposure is <strong>significantly negative</strong>: zip codes closer to the
-            hurricane track have lower predicted backup power probability. This makes physical
-            sense — stronger winds cause more severe damage, overwhelming even generator-equipped
-            facilities. Critically, <strong>facility density remains significant</strong> after
-            controlling for wind exposure (coefficient barely changes: 0.096 → 0.094).
-          </p>
-
-          <h2>7.6 Outage Severity Validation</h2>
-          <p>
-            The ultimate policy question: <strong>do zip codes with higher predicted backup power
-            actually experience less severe outages?</strong> We construct a zip-level outage
-            severity index by allocating EAGLE-I county-level data to zip codes using a
-            multi-factor weighting scheme:
-          </p>
-          <div class="formula-block">
-            <div class="formula">severity<sub>zip</sub> = severity<sub>county</sub> × w<sub>zip</sub> / &Sigma;w<sub>j</sub></div>
-            <div class="formula__caption">w = wind_exposure × (1 + |ntl_drop|) for hurricanes; w = 1 + |ntl_drop| otherwise</div>
-          </div>
-
-          <h3>Model 8: Outage Severity ~ Facility Density + Backup Probability</h3>
-          <div class="data-table">
-            <table>
-              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th><th>Interpretation</th></tr></thead>
-              <tbody>
-                <tr><td><code>fac_density</code></td><td class="mono">+0.689</td><td class="mono">0.705</td><td>Not significant — absorbed by mean_prob</td></tr>
-                <tr><td><code>mean_prob</code></td><td class="mono" style="color:var(--green)">-32.8</td><td class="mono" style="color:var(--green)">0.0002</td><td>Higher backup probability → less severe outage</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p>
-            The predicted backup power probability (<code>mean_prob</code>) is
-            <strong>significantly negatively correlated with actual outage severity</strong>.
-            Facility density's direct effect is absorbed because <code>mean_prob</code> already
-            encodes facility proximity — this is expected and confirms that the Stage 2 probability
-            maps capture meaningful resilience information.
-          </p>
-
-          <h3>T-Test: Outage Severity With vs. Without Facilities</h3>
-          <div class="data-table">
-            <table>
-              <thead><tr><th></th><th>Mean Severity</th><th>N</th></tr></thead>
-              <tbody>
-                <tr><td>Zip codes <strong>with</strong> facilities</td><td class="mono" style="color:var(--green)">17.0</td><td class="mono">799</td></tr>
-                <tr><td>Zip codes <strong>without</strong> facilities</td><td class="mono" style="color:#ff6b6b">37.9</td><td class="mono">126</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p>
-            <strong>t = -4.39, p &lt; 0.0001</strong> — Zip codes with critical facilities
-            experience <strong>55% less severe outages</strong> than those without. This closes the
-            validation loop: Stage 2's satellite-derived predictions align with independently
-            collected EAGLE-I outage records.
+            Universally positive across all subgroups — no exceptions.
           </p>
 
           <div class="takeaway">
             <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              <strong>Facility density predicts backup power probability</strong> (R² = 0.475,
-              p = 9.6e-54), survives spatial error correction, and is consistent across all
-              city sizes and disaster types. <strong>Wind field exposure is significant</strong>
-              for hurricane events (p = 0.010) — stronger storms reduce resilience.
-              Most importantly, <strong>predicted backup probability correlates with real outage
-              severity</strong> (p = 0.0002): zip codes the model identifies as resilient
-              actually experience 55% lighter outages in EAGLE-I records.
+              Facility density predicts backup power at the zip code level (<strong>R² = 0.475</strong>),
+              survives spatial error correction, and holds after controlling for hurricane wind
+              exposure. Most importantly, <strong>predicted backup probability correlates with real
+              EAGLE-I outage severity</strong> (p = 0.0002) — closing the validation loop between
+              satellite predictions and independently recorded outage data.
             </p>
           </div>
 
