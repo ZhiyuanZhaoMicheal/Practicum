@@ -48,9 +48,6 @@ Encompass Health Rehabilitation Hospital of New England,hospital,42.4635211,-71.
 Boston Medical Center,hospital,42.3341717,-71.0740135,63951,relation
 Brigham and Women's Hospital,hospital,42.3359419,-71.105671,3061383,relation
 Boston Children's Hospital,hospital,42.3373009,-71.1055298,18981281,relation
-Boston Harbor Seaplane Base (Cape Air Seaplanes),aerodrome,42.361055,-71.0283123,7831158519,node
-Tailwind Boston Seaplane Base,aerodrome,42.3604396,-71.0289574,7831158520,node
-Logan International Airport,aerodrome,42.3631431,-71.009697,291828579,way
 Westwood Fire Department,fire_station,42.2266732,-71.2224468,257494327,node
 Milton Fire Department,fire_station,42.2393847,-71.1089328,257494338,node
 Tower Hill Fire Station,fire_station,42.4632533,-70.9792377,257494408,node

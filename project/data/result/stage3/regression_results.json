@@ -78,5 +78,55 @@
       "without_mean": 0.077,
       "delta": 0.219
     }
+  },
+  "model5_wind": {
+    "r_squared": 0.5079,
+    "n": 554,
+    "fac_density_coef": 0.0943,
+    "fac_density_p": 1.6852648357908235e-23,
+    "wind_exposure_coef": -1.1263,
+    "wind_exposure_p": 0.00972336573113275
+  },
+  "model6_ntldrop": {
+    "r_squared": 0.475,
+    "n": 1002,
+    "fac_density_coef": 0.096,
+    "fac_density_p": 9.562198405340454e-54,
+    "ntl_drop_coef": 0.0071,
+    "ntl_drop_p": 0.8305034766290229
+  },
+  "model7_full_hurricane": {
+    "r_squared": 0.5079,
+    "n": 554,
+    "fac_density_coef": 0.0943,
+    "fac_density_p": 1.6852648357910292e-23,
+    "wind_exposure_coef": -1.1263,
+    "wind_exposure_p": 0.009723365731132586,
+    "ntl_drop_coef": -0.0995,
+    "ntl_drop_p": 0.2348382892248945
+  },
+  "model8_severity": {
+    "r_squared": 0.2247,
+    "n": 925,
+    "fac_density_coef": 0.6885,
+    "fac_density_p": 0.7045963429983746,
+    "mean_prob_coef": -32.8051,
+    "mean_prob_p": 0.0002432715511767471
+  },
+  "model9_severity_wind": {
+    "r_squared": 0.2151,
+    "n": 477,
+    "fac_density_coef": -0.0313,
+    "fac_density_p": 0.99271779881695,
+    "mean_prob_coef": -33.0853,
+    "mean_prob_p": 0.026820313762876448,
+    "wind_exposure_coef": -163.0814,
+    "wind_exposure_p": 0.29859929916286004
+  },
+  "severity_ttest": {
+    "with_mean": 17.0,
+    "without_mean": 37.9,
+    "t": -4.39,
+    "p": 1.2718500313988473e-05
   }
 }

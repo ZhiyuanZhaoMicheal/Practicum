@@ -1977,15 +1977,97 @@ for h in hospitals[:3]:
             generator-powered facilities stand out more clearly against the surrounding blackout.
           </p>
 
+          <h2>7.5 Wind Field Exposure</h2>
+          <p>
+            For the 15 hurricane events, we compute a <strong>wind field exposure</strong>
+            variable for each zip code using IBTrACS v4 track data. For each zip centroid,
+            we find the closest track point within &plusmn;2 days of landfall, retrieve the
+            R34 (tropical storm force) wind radius, and apply a simplified Holland decay:
+          </p>
+          <div class="formula-block">
+            <div class="formula">wind_exposure = exp(-(d / R<sub>34</sub>)²)</div>
+            <div class="formula__caption">d = distance to track (km), R<sub>34</sub> = tropical storm wind radius (km)</div>
+          </div>
+          <p>
+            This yields a 0–1 score: 1.0 at the eye, decaying to near-zero outside the wind field.
+            Non-hurricane events (Uri, Derecho, Ice Storm, etc.) receive no wind exposure value.
+          </p>
+
+          <h3>Model 5: Adding Wind Exposure (Hurricane Only)</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
+              <tbody>
+                <tr><td><code>fac_density</code></td><td class="mono">+0.094</td><td class="mono" style="color:var(--green)">1.7 × 10⁻²³</td></tr>
+                <tr><td><code>wind_exposure</code></td><td class="mono" style="color:#ff6b6b">-1.126</td><td class="mono" style="color:var(--green)">0.010</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Wind exposure is <strong>significantly negative</strong>: zip codes closer to the
+            hurricane track have lower predicted backup power probability. This makes physical
+            sense — stronger winds cause more severe damage, overwhelming even generator-equipped
+            facilities. Critically, <strong>facility density remains significant</strong> after
+            controlling for wind exposure (coefficient barely changes: 0.096 → 0.094).
+          </p>
+
+          <h2>7.6 Outage Severity Validation</h2>
+          <p>
+            The ultimate policy question: <strong>do zip codes with higher predicted backup power
+            actually experience less severe outages?</strong> We construct a zip-level outage
+            severity index by allocating EAGLE-I county-level data to zip codes using a
+            multi-factor weighting scheme:
+          </p>
+          <div class="formula-block">
+            <div class="formula">severity<sub>zip</sub> = severity<sub>county</sub> × w<sub>zip</sub> / &Sigma;w<sub>j</sub></div>
+            <div class="formula__caption">w = wind_exposure × (1 + |ntl_drop|) for hurricanes; w = 1 + |ntl_drop| otherwise</div>
+          </div>
+
+          <h3>Model 8: Outage Severity ~ Facility Density + Backup Probability</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th><th>Interpretation</th></tr></thead>
+              <tbody>
+                <tr><td><code>fac_density</code></td><td class="mono">+0.689</td><td class="mono">0.705</td><td>Not significant — absorbed by mean_prob</td></tr>
+                <tr><td><code>mean_prob</code></td><td class="mono" style="color:var(--green)">-32.8</td><td class="mono" style="color:var(--green)">0.0002</td><td>Higher backup probability → less severe outage</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The predicted backup power probability (<code>mean_prob</code>) is
+            <strong>significantly negatively correlated with actual outage severity</strong>.
+            Facility density's direct effect is absorbed because <code>mean_prob</code> already
+            encodes facility proximity — this is expected and confirms that the Stage 2 probability
+            maps capture meaningful resilience information.
+          </p>
+
+          <h3>T-Test: Outage Severity With vs. Without Facilities</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th></th><th>Mean Severity</th><th>N</th></tr></thead>
+              <tbody>
+                <tr><td>Zip codes <strong>with</strong> facilities</td><td class="mono" style="color:var(--green)">17.0</td><td class="mono">799</td></tr>
+                <tr><td>Zip codes <strong>without</strong> facilities</td><td class="mono" style="color:#ff6b6b">37.9</td><td class="mono">126</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            <strong>t = -4.39, p &lt; 0.0001</strong> — Zip codes with critical facilities
+            experience <strong>55% less severe outages</strong> than those without. This closes the
+            validation loop: Stage 2's satellite-derived predictions align with independently
+            collected EAGLE-I outage records.
+          </p>
+
           <div class="takeaway">
             <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              Facility density is a <strong>robust predictor of backup power probability</strong>
-              at the zip code level: OLS R² = 0.475 (p = 9.6e-54), effect survives spatial
-              error correction (&lambda; = 0.648), and is consistent across all city sizes
-              and all 5 disaster types. The +9.6% per facility/km² effect translates to
-              meaningful policy insight: zip codes with denser critical infrastructure have
-              measurably higher predicted resilience during power outages.
+              <strong>Facility density predicts backup power probability</strong> (R² = 0.475,
+              p = 9.6e-54), survives spatial error correction, and is consistent across all
+              city sizes and disaster types. <strong>Wind field exposure is significant</strong>
+              for hurricane events (p = 0.010) — stronger storms reduce resilience.
+              Most importantly, <strong>predicted backup probability correlates with real outage
+              severity</strong> (p = 0.0002): zip codes the model identifies as resilient
+              actually experience 55% lighter outages in EAGLE-I records.
             </p>
           </div>
 
@@ -2604,10 +2686,10 @@ const SUB_SECTIONS = {
     { id: 'sec-5-loeo', label: '6.6 LOEO Design' },
   ],
   stage3: [
-    { id: 'sec-8-1', label: '7.1 Research Question' },
-    { id: 'sec-8-2', label: '7.2 Data Sources' },
-    { id: 'sec-8-3', label: '7.3 Sample' },
-    { id: 'sec-8-4', label: '7.4 Models & Results' },
+    { id: 'sec-7-1', label: '7.1 Research Question' },
+    { id: 'sec-7-2', label: '7.2 Data Sources' },
+    { id: 'sec-7-3', label: '7.3 Sample' },
+    { id: 'sec-7-4', label: '7.4 Models 1–4' },
   ],
   conclusions: [
     { id: 'sec-c-1', label: 'Conclusions' },

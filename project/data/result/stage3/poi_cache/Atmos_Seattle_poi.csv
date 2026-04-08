@@ -24,6 +24,94 @@ Seattle-Tacoma International Airport,aerodrome,47.4474579,-122.3083543,50898115,
 Kenmore Air Harbor Seaplane Base,aerodrome,47.7571204,-122.2579166,369168334,way
 Renton Municipal Airport,aerodrome,47.4928298,-122.2146325,660420771,way
 Boeing Field,aerodrome,47.5297822,-122.3034331,537472,relation
+fire_station facility,fire_station,47.7564327,-122.1592104,293832246,node
+Seattle City Fire Station Number 16,fire_station,47.67913,-122.32322,366028265,node
+Seattle City Fire Station Number 18,fire_station,47.6683895,-122.3773838,366028269,node
+Seattle City Fire Station Number 35,fire_station,47.6932941,-122.3771241,366028364,node
+Fire Headquarters - Station 91,fire_station,47.5828466,-122.2331427,703816644,node
+Seattle Fire Department,fire_station,47.5998689,-122.331918,2351712246,node
+Fire Station 31,fire_station,47.7053575,-122.340929,11593082171,node
+Fire Station 30,fire_station,47.5755836,-122.2948393,4712941,way
+Fire Station No.10,fire_station,47.6012037,-122.328507,26421087,way
+Bellevue Fire Station One,fire_station,47.6031158,-122.200839,30071436,way
+Bellevue Fire Station #7,fire_station,47.6037805,-122.1813495,32359925,way
+Seattle City Fire Station Number 41,fire_station,47.6401242,-122.4005088,38654607,way
+Lake Forest Park - Station #57,fire_station,47.7525983,-122.2815968,75498231,way
+fire_station facility,fire_station,47.7212841,-122.2972994,85632065,way
+Seattle Fire Station No. 17,fire_station,47.6652875,-122.3167013,99765600,way
+fire_station facility,fire_station,47.5417964,-122.2239362,111733415,way
+Fire Station #39,fire_station,47.7213222,-122.2973315,124955232,way
+Renton Fire Department Station No. 11,fire_station,47.4808309,-122.2033599,160037605,way
+Seattle City Fire Station Number 25,fire_station,47.6155618,-122.3151464,160553204,way
+Seattle City Fire Station Number 24,fire_station,47.7230108,-122.3538229,219479238,way
+Fire Station 38,fire_station,47.6687373,-122.2845054,220817651,way
+Seattle City Fire Station Number 40,fire_station,47.6967803,-122.2909259,221155714,way
+Seattle City Fire Station Number 21,fire_station,47.6820424,-122.3549924,222408413,way
+Bellevue Fire Station #5,fire_station,47.6317155,-122.2115882,223755234,way
+Seattle City Fire Station Number 26,fire_station,47.5267097,-122.3223949,224021576,way
+Fire Station 34,fire_station,47.6259909,-122.2912766,224066270,way
+Seattle City Fire Station Number 8,fire_station,47.6311632,-122.3549912,226129395,way
+Seattle Fire Station 14,fire_station,47.5746237,-122.328545,226181071,way
+Seattle Fire Station #13,fire_station,47.5716968,-122.3087244,228728572,way
+Seattle Fire Department Station #6,fire_station,47.5989927,-122.297776,228737166,way
+Seattle City Fire Station Number 36,fire_station,47.5710416,-122.3617155,228915096,way
+Fire Station 11,fire_station,47.5339541,-122.3547351,231276908,way
+Georgetown Fire Station,fire_station,47.5396405,-122.3199209,231289048,way
+Seattle Fire Station #5,fire_station,47.6036461,-122.3387811,232088563,way
+Seattle City Fire Station Number 28,fire_station,47.548618,-122.2763745,234837701,way
+Seattle City Fire Station Number 33,fire_station,47.5158909,-122.2686637,236667430,way
+Northshore Fire District HQ - Station 51,fire_station,47.759507,-122.2444014,297779972,way
+Shoreline Fire Department Station #61 - Training & Support Facility,fire_station,47.7566539,-122.3464625,309273891,way
+Fire Station 25,fire_station,47.7087994,-122.2385939,326100745,way
+Forbes Creek Fire Station 21,fire_station,47.6955454,-122.2092407,326676267,way
+Fire Station 26,fire_station,47.6891807,-122.1749061,327195101,way
+Totem Lake Fire Station 27,fire_station,47.7189106,-122.1914705,327823559,way
+Bellevue Fire Station 6,fire_station,47.6261034,-122.1638416,330766559,way
+Seattle Fire Station No 2,fire_station,47.6161228,-122.3446089,359629973,way
+Renton Fire Station 14,fire_station,47.4623701,-122.2224555,410974080,way
+Seattle City Fire Station Number 9,fire_station,47.6535717,-122.3489253,461241005,way
+Station 63,fire_station,47.7598565,-122.3143865,538382990,way
+Seattle City Fire Station Number 37,fire_station,47.533466,-122.3762097,541644915,way
+Station 65,fire_station,47.7409306,-122.3278236,549225440,way
+Seattle City Fire Station Number 32,fire_station,47.5608004,-122.3797005,570544409,way
+King County Fire Protection District 2 Station 28 Headquarters,fire_station,47.4727005,-122.3455973,626827919,way
+Tukwila Fire Station,fire_station,47.4716241,-122.2595155,651653166,way
+Skyway Fire Station #22,fire_station,47.4914066,-122.2386423,651811124,way
+Puget Sound Fire Station 54,fire_station,47.4737887,-122.2792922,652153721,way
+Renton Fire & Emergency Services Station 12,fire_station,47.5034479,-122.1791073,652248432,way
+Puget Sound Fire Station 53,fire_station,47.5008722,-122.2806479,652996149,way
+King County Fire DIstrict 2 Station 19,fire_station,47.4888427,-122.3123902,676970158,way
+King County Fire Station,fire_station,47.529244,-122.3044231,690939313,way
+Seattle City Fire Station Number 20,fire_station,47.6450596,-122.3758131,730946937,way
+Seattle Fire Station #22,fire_station,47.6429734,-122.3210342,731238736,way
+Renton Fire Station 15,fire_station,47.5187555,-122.200339,819982471,way
+Puget Sound Fire Station 52,fire_station,47.463948,-122.2542893,869951136,way
+Station Nine,fire_station,47.5413476,-122.174565,904556054,way
+King County Fire District 2 Station 18,fire_station,47.5023697,-122.3516715,1008786989,way
+North Juanita Fire Station 24,fire_station,47.7189311,-122.2101285,1100710560,way
+Kirkland Fire Station #27,fire_station,47.7181474,-122.178585,1279984974,way
+fire_station facility,fire_station,47.4619624,-122.2225677,1292450068,way
+Kirkland Fire Station #22,fire_station,47.6653595,-122.195582,1304572980,way
+police facility,police,47.7527293,-122.1620051,287496174,node
+King County Sheriff West Precinct,police,47.4692422,-122.3421138,1837028234,node
+Kirkland Police Station,police,47.7069031,-122.1849156,2910162657,node
+Lake Forest Park Police Department,police,47.7538887,-122.2776273,3019170217,node
+Bellevue Police Department,police,47.5750574,-122.1720434,6524767829,node
+Medina Police Department,police,47.6154298,-122.2391224,6668747396,node
+King County Sheriff,police,47.4903154,-122.2392431,9443689942,node
+White Center Storefront,police,47.5117161,-122.3527838,11114488343,node
+Shoreline Police Headquarters,police,47.7562112,-122.3431891,12138323200,node
+Kirkland Justice Center,police,47.7068435,-122.1855477,31884063,way
+North Precinct,police,47.7029079,-122.334781,34744244,way
+West Precinct,police,47.6162398,-122.3365843,37546711,way
+East Precinct,police,47.6149279,-122.3172656,37546712,way
+South Precinct,police,47.5385807,-122.2933204,37546713,way
+Seattle North Detachment,police,47.64295,-122.3216044,217698235,way
+Clyde Hill Police Department,police,47.6316816,-122.2120618,223755235,way
+Seattle Police Department,police,47.6043855,-122.3293418,226321775,way
+University of Washington Police Department,police,47.6544176,-122.3126079,430647912,way
+Washington State Patrol - South King Detachment,police,47.4626425,-122.2897215,647567455,way
+Seattle Police Department,police,47.5361403,-122.3620497,1284123208,way
 University of Washington Power Plant,power_plant,47.6537362,-122.3036345,54216361,way
 University of Washington West Campus Utility Plant,power_plant,47.653926,-122.3129945,499392301,way
 Seattle School District Office,government,47.5242196,-122.271419,356552256,node

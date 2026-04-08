@@ -59,7 +59,8 @@
               <span>50%</span>
               <span>100%</span>
             </div>
-            <div class="legend__caption">Predicted resilience probability</div>
+            <div class="legend__caption">Predicted backup power probability</div>
+            <div class="legend__caption" style="font-size:9px; margin-top:2px">Heatmap at low zoom · Exact colors at high zoom</div>
           </div>
         </div>
 
@@ -797,13 +798,14 @@ async function addEventLayers(ev) {
 
   // ── Heatmap source + layer ──
   map.addSource(`prob-${ev.id}`, { type: 'geojson', data: probGeoJSON })
+  // Heatmap layer (visible at zoom 8–13, fades out)
   map.addLayer({
     id: `heatmap-${ev.id}`,
     type: 'heatmap',
     source: `prob-${ev.id}`,
     minzoom: DETAIL_ZOOM,
+    maxzoom: 14,
     paint: {
-      // Quantile-stretch: spread the color range across actual data distribution
       'heatmap-weight': ['interpolate', ['linear'], ['get', 'probability'],
         probStats.min, 0,
         probStats.p10, 0.15,
@@ -815,8 +817,7 @@ async function addEventLayers(ev) {
         4,  0.6,
         10, 1.5,
         12, 2.5,
-        14, 2.5,
-        17, 2.0,
+        13, 2.5,
       ],
       'heatmap-color': light ? HEATMAP_COLORS_LIGHT : HEATMAP_COLORS_DARK,
       'heatmap-radius': ['interpolate', ['linear'], ['zoom'],
@@ -826,11 +827,58 @@ async function addEventLayers(ev) {
         11, 12,
         12, 18,
         13, 30,
-        14, 50,
-        15, 80,
-        17, 160,
       ],
-      'heatmap-opacity': 0.85,
+      'heatmap-opacity': ['interpolate', ['linear'], ['zoom'],
+        12, 0.85,
+        14, 0,
+      ],
+    },
+    layout: { visibility: 'visible' },
+  })
+
+  // Circle layer (visible at zoom > 12, fades in — exact probability colors)
+  const circleColor = light
+    ? ['interpolate', ['linear'], ['get', 'probability'],
+        0,   '#000078',
+        0.2, '#003cb4',
+        0.4, '#0082c8',
+        0.6, '#c80050',
+        0.8, '#dc3200',
+        1,   '#8c0000']
+    : ['interpolate', ['linear'], ['get', 'probability'],
+        0,   '#410082',
+        0.2, '#b4003c',
+        0.4, '#ff5000',
+        0.6, '#ffaa00',
+        0.8, '#b4ff64',
+        1,   '#ffffff']
+  // Outer glow ring
+  map.addLayer({
+    id: `prob-glow-${ev.id}`,
+    type: 'circle',
+    source: `prob-${ev.id}`,
+    minzoom: 10,
+    paint: {
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 14, 12, 67, 14, 157, 16, 269, 17, 403],
+      'circle-color': circleColor,
+      'circle-opacity': ['interpolate', ['linear'], ['zoom'], 10, 0, 12, 0.1],
+      'circle-blur': 1,
+      'circle-stroke-width': 0,
+    },
+    layout: { visibility: 'visible' },
+  })
+  // Core circle
+  map.addLayer({
+    id: `prob-circles-${ev.id}`,
+    type: 'circle',
+    source: `prob-${ev.id}`,
+    minzoom: 10,
+    paint: {
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 3, 12, 14, 14, 34, 16, 68, 17, 100],
+      'circle-color': circleColor,
+      'circle-opacity': ['interpolate', ['linear'], ['zoom'], 10, 0, 12, 0.85],
+      'circle-blur': 0.6,
+      'circle-stroke-width': 0,
     },
     layout: { visibility: 'visible' },
   })
@@ -933,6 +981,8 @@ function toggleLayer(layer) {
     const vis = layer.visible ? 'visible' : 'none'
     if (layer.id === 'heatmap') {
       safeSetVisibility(`heatmap-${ev.id}`, vis)
+      safeSetVisibility(`prob-glow-${ev.id}`, vis)
+      safeSetVisibility(`prob-circles-${ev.id}`, vis)
       safeSetVisibility(`prob-hit-${ev.id}`, vis)
     } else if (layer.id === 'buffers') {
       safeSetVisibility(`buffers-fill-${ev.id}`, vis)
@@ -1090,6 +1140,7 @@ function switchBasemap(id) {
           const vis = layer.visible ? 'visible' : 'none'
           if (layer.id === 'heatmap') {
             safeSetVisibility(`heatmap-${ev.id}`, vis)
+            safeSetVisibility(`prob-circles-${ev.id}`, vis)
             safeSetVisibility(`prob-hit-${ev.id}`, vis)
           } else if (layer.id === 'buffers') {
             safeSetVisibility(`buffers-fill-${ev.id}`, vis)
