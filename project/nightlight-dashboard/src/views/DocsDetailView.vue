@@ -2128,41 +2128,192 @@ for h in hospitals[:3]:
               — is itself the strongest motivation for satellite-based approaches.</li>
           </ul>
 
-          <h2 id="sec-c-2">Limitations</h2>
+          <h2 id="sec-c-2">Limitations: Sensor Constraints</h2>
+          <p>
+            The most fundamental limitation of this project is <strong>spatial resolution</strong>.
+            The entire analysis rests on NASA's Black Marble VNP46A2, which provides 500m pixels.
+            To understand why this matters — and what alternatives exist — we compare the two
+            primary nighttime light satellite platforms:
+          </p>
+
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Parameter</th><th>VIIRS Black Marble (VNP46A2)</th><th>Luojia-1 (LJ1-01)</th></tr></thead>
+              <tbody>
+                <tr><td>Operator</td><td>NASA / NOAA</td><td>Wuhan University (China)</td></tr>
+                <tr><td>Resolution</td><td class="mono">500 m</td><td class="mono" style="color:var(--green)">130 m</td></tr>
+                <tr><td>Revisit period</td><td class="mono" style="color:var(--green)">Daily (global)</td><td class="mono" style="color:#ff6b6b">15 days</td></tr>
+                <tr><td>Swath width</td><td class="mono">3,000 km</td><td class="mono">250 km</td></tr>
+                <tr><td>Orbit</td><td>Sun-synchronous, 824 km</td><td>Sun-synchronous, 645 km</td></tr>
+                <tr><td>Overpass time</td><td class="mono">~01:30 local</td><td class="mono">~22:30 local</td></tr>
+                <tr><td>Radiometric</td><td>14-bit, calibrated</td><td>14-bit, calibrated</td></tr>
+                <tr><td>Coverage</td><td>Global, continuous since 2012</td><td>Experimental, 2018–2022</td></tr>
+                <tr><td>Data availability</td><td>GEE, LAADS DAAC (free)</td><td>CRESDA (limited access)</td></tr>
+                <tr><td>Pixel area</td><td class="mono">25 hectares</td><td class="mono" style="color:var(--green)">1.7 hectares</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Why 500m is insufficient</h3>
+          <p>
+            At 500m, a single pixel covers ~25 hectares — an area that may contain a hospital,
+            its parking lot, three apartment blocks, a park, and a gas station. A hospital's
+            backup generator illuminating its campus produces perhaps 5–10% of the pixel's total
+            radiance. This signal is comparable to the ~9.4% daily NTL fluctuation reported by
+            Zhang et al. (2023), making individual generator detection statistically unreliable.
+          </p>
+          <p>
+            Our Stage 3 analysis confirmed this: controlling for population density absorbs
+            the generator signal entirely. At 500m, "detecting a generator" is statistically
+            indistinguishable from "detecting an urban center."
+          </p>
+
+          <h3>Why Luojia-1 is not the answer (yet)</h3>
+          <p>
+            Luojia-1's 130m resolution (~1.7 hectares per pixel) is a ~15× improvement in area
+            over VIIRS. At this scale, a hospital campus would occupy multiple pixels, potentially
+            allowing the generator-lit area to be distinguished from the surrounding darkness.
+            However, Luojia-1 has critical limitations for disaster applications:
+          </p>
           <ul class="detail-list">
-            <li><strong>Resolution.</strong> 500m pixels mix multiple land uses; the method detects
-              neighborhood-level patterns, not individual buildings. Higher-resolution sensors
-              (e.g., Jilin-1, EROS) could improve building-level detection but lack daily global
-              coverage.</li>
-            <li><strong>Weak supervision label.</strong> We assume facilities near OSM-listed
-              infrastructure have generators — a reasonable but imperfect proxy. Some facilities
-              may lack generators; some generators exist at unlisted locations.</li>
-            <li><strong>Gap-filled imagery.</strong> The expanded 25-event dataset uses NASA's
-              gap-filled VNP46A2, where cloudy days are interpolated from neighbors. This may
-              slightly attenuate the outage signal during storm periods.</li>
-            <li><strong>Temporal resolution.</strong> Daily imagery captures overnight brightness
-              but misses daytime generator operation, load fluctuations, and generators that only
-              run during peak demand hours.</li>
+            <li><strong>15-day revisit.</strong> Power outages evolve over hours to days. A 15-day
+              gap means the satellite might miss the entire outage event, or only catch the
+              recovery phase. VIIRS's daily coverage is essential for temporal tracking.</li>
+            <li><strong>250 km swath.</strong> Hurricanes affect areas spanning 500–1,000 km.
+              Luojia-1's narrow swath would require multiple passes (15+ days) to cover a single
+              event — by which time recovery would be underway.</li>
+            <li><strong>Experimental status.</strong> Luojia-1 was a technology demonstrator
+              (2018–2022), not an operational mission. Data access is limited and not integrated
+              into standard geospatial platforms like GEE.</li>
           </ul>
 
-          <h2 id="sec-c-3">Future Directions</h2>
+          <h3>Other limitations</h3>
           <ul class="detail-list">
-            <li><strong>Higher-resolution imagery.</strong> Commercial satellite constellations
-              now offer sub-meter nighttime imagery. Combining VIIRS's daily temporal coverage
-              with occasional high-resolution snapshots could bridge the resolution gap.</li>
-            <li><strong>Integration with utility data.</strong> Where smart meter or SCADA data
-              is available, supervised learning with actual outage/restoration timestamps could
-              replace the weak-supervision buffer approach.</li>
-            <li><strong>Emission estimation.</strong> Detected generator locations could be combined
-              with fuel type databases and runtime estimates to model backup generator emissions
-              — relevant for environmental justice and air quality assessment.</li>
-            <li><strong>Real-time monitoring.</strong> As NTL products approach near-real-time
-              delivery, the method could support emergency response: identifying which areas
-              have activated backup power within hours of a blackout.</li>
-            <li><strong>Cross-country extension.</strong> The method is sensor-agnostic and
-              transferable. Applying it to non-U.S. disasters (where outage records are even
-              scarcer) could provide first-of-its-kind resilience mapping in data-poor regions.</li>
+            <li><strong>Weak supervision label.</strong> OSM facility locations are a proxy for
+              generator presence. Some facilities lack generators; some non-listed buildings
+              (hotels, data centers) have them.</li>
+            <li><strong>Gap-filled imagery.</strong> The 16 newer events use NASA's gap-filled
+              product, where cloudy days are temporally interpolated — potentially attenuating
+              the outage signal during storm periods.</li>
+            <li><strong>EAGLE-I granularity.</strong> Outage data is county-level, requiring
+              weighted disaggregation to zip codes that introduces uncertainty.</li>
+            <li><strong>Overpass timing.</strong> VIIRS crosses at ~01:30 local time. Generators
+              that run only during evening peak hours (18:00–23:00) may have shut down by the
+              time the satellite passes overhead.</li>
           </ul>
+
+          <h2 id="sec-c-3">Future Directions: Sensor Requirements</h2>
+          <p>
+            Based on our findings, we can specify what a purpose-built nighttime light sensor
+            for backup power detection would need:
+          </p>
+
+          <h3>Resolution requirement</h3>
+          <p>
+            To isolate individual facility generator signals from surrounding urban background,
+            the pixel must be smaller than the facility footprint. A typical hospital campus is
+            200–400m across; a fire station is 30–50m. To detect hospital-scale generators with
+            at least 4 pixels on target:
+          </p>
+          <div class="formula-block">
+            <div class="formula">Required resolution ≤ 100m (ideally 50m)</div>
+            <div class="formula__caption">At 50m, a hospital occupies ~16 pixels; at 100m, ~4 pixels</div>
+          </div>
+          <p>
+            At 100m, the pixel area is 1 hectare — a 25× improvement over VIIRS. This would
+            allow the facility campus to be spatially resolved from adjacent land uses, making
+            the generator signal detectable above the urban background.
+          </p>
+
+          <h3>Temporal requirement</h3>
+          <p>
+            Power outages from hurricanes typically last 3–14 days. To capture the onset,
+            peak outage, and recovery arc:
+          </p>
+          <div class="formula-block">
+            <div class="formula">Required revisit ≤ 1 day</div>
+            <div class="formula__caption">Daily coverage essential for outage temporal dynamics</div>
+          </div>
+
+          <h3>Constellation architecture options</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Approach</th><th>Resolution</th><th>Revisit</th><th>Tradeoff</th></tr></thead>
+              <tbody>
+                <tr>
+                  <td><strong>Constellation (6–12 small sats)</strong></td>
+                  <td class="mono">50–100m</td>
+                  <td class="mono" style="color:var(--green)">1–4 hours</td>
+                  <td>Highest cost, best capability. Similar to Planet Labs' daytime constellation.</td>
+                </tr>
+                <tr>
+                  <td><strong>Wide-swath single sat</strong></td>
+                  <td class="mono">100–200m</td>
+                  <td class="mono">1–2 days</td>
+                  <td>Balanced. A single satellite with 1,500km swath at 100m could provide
+                    near-daily global nighttime coverage.</td>
+                </tr>
+                <tr>
+                  <td><strong>VIIRS-II (next generation)</strong></td>
+                  <td class="mono">250–500m</td>
+                  <td class="mono" style="color:var(--green)">Daily</td>
+                  <td>Incremental improvement. Planned for JPSS-3/4, but resolution may remain
+                    at 500m due to swath requirements.</td>
+                </tr>
+                <tr>
+                  <td><strong>Multi-source fusion</strong></td>
+                  <td class="mono">50–500m</td>
+                  <td class="mono">Daily</td>
+                  <td>Combine VIIRS daily coverage with occasional Luojia/Jilin-1 high-res snapshots.
+                    Super-resolution ML could bridge the gap.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Orbit considerations</h3>
+          <p>
+            Sun-synchronous orbit (SSO) is standard for NTL sensors because it provides
+            consistent local overpass times. However, the overpass time matters:
+          </p>
+          <ul class="detail-list">
+            <li><strong>~01:30 (VIIRS):</strong> Late night — minimal human activity, but
+              generators may have shut down after evening peak.</li>
+            <li><strong>~22:00–23:00 (Luojia-1):</strong> More likely to catch active generators
+              during evening operations, but higher background light from traffic and
+              commercial activity.</li>
+            <li><strong>Ideal: dual-pass (21:00 + 03:00)</strong> — one pass catches peak
+              generator activity, another catches the quiet background for baseline comparison.</li>
+          </ul>
+
+          <h3>Beyond sensors: data integration</h3>
+          <ul class="detail-list">
+            <li><strong>Smart meter fusion.</strong> Where utility smart meter data is available,
+              supervised learning with actual outage timestamps could replace the weak-supervision
+              buffer approach — providing building-level ground truth.</li>
+            <li><strong>Emission estimation.</strong> Detected generator locations + fuel type
+              databases + runtime estimates → backup generator emission modeling, relevant for
+              environmental justice and air quality assessment during prolonged outages.</li>
+            <li><strong>Real-time alerting.</strong> As NTL products approach near-real-time
+              delivery (NASA Black Marble NRT is in development), the method could support
+              emergency response: identifying which facilities have activated backup power
+              within hours of a blackout.</li>
+            <li><strong>Cross-country transfer.</strong> The method is sensor-agnostic and
+              transferable. Applying it to non-U.S. disasters — where outage records are
+              even scarcer — could provide first-of-its-kind resilience mapping.</li>
+          </ul>
+
+          <div class="callout callout--cyan">
+            <span>--</span>
+            <div>
+              <strong>Bottom line for sensor manufacturers:</strong> A nighttime light sensor
+              at <strong>≤100m resolution</strong> with <strong>daily revisit</strong> and
+              <strong>≥1,000 km swath</strong> would enable the transition from "detecting
+              urban centers" to "detecting individual generators." This requires either a
+              6-satellite constellation or a single wide-swath platform with advanced optics —
+              technically feasible with current technology but not yet funded by any space agency.
+            </div>
+          </div>
         </template>
 
         <!-- 09 Dashboard Development -->
