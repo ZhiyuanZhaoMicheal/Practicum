@@ -237,7 +237,7 @@
             A growing body of literature examines energy equity and infrastructure resilience
             from a social science perspective. Studies have documented that low-income communities
             and communities of color experience longer power outages during disasters
-            (Mitsova et al. 2018, Reno & Harp 2022). Our Stage 3 zip-code analysis connects
+            Our Stage 3 zip-code analysis connects
             to this literature by showing that the most outage-vulnerable communities have
             significantly fewer critical facilities (38% of the density in low-outage areas),
             though this disparity is driven by urban spatial structure rather than income alone.
@@ -2287,32 +2287,6 @@ google-earth-engine (GEE API)</code></pre>
               NASA's Black Marble nighttime lights product suite.
               <em>Remote Sensing of Environment</em>, 210, 113–143.
               <a href="https://doi.org/10.1016/j.rse.2018.03.017" class="inline-link" target="_blank">doi:10.1016/j.rse.2018.03.017</a>
-            </li>
-            <li style="margin-bottom:16px">
-              <strong>Elvidge, C. D., Baugh, K. E., Kihn, E. A., Kroehl, H. W., & Davis, E. R.</strong> (1997).
-              Mapping city lights with nighttime data from the DMSP Operational Linescan System.
-              <em>Photogrammetric Engineering and Remote Sensing</em>, 63(6), 727–734.
-            </li>
-            <li style="margin-bottom:16px">
-              <strong>Mitsova, D., Esnard, A.-M., Sapat, A., & Lai, B. S.</strong> (2018).
-              Socioeconomic vulnerability and electric power restoration timelines in Florida.
-              <em>Natural Hazards</em>, 94, 689–709.
-              <a href="https://doi.org/10.1007/s11069-018-3413-x" class="inline-link" target="_blank">doi:10.1007/s11069-018-3413-x</a>
-            </li>
-            <li style="margin-bottom:16px">
-              <strong>Skoufias, E., Strobl, E., & Tveit, T.</strong> (2021).
-              Can we rely on VIIRS nighttime lights to estimate the short-term impacts of natural hazards?
-              <em>World Development</em>, 146, 105527.
-            </li>
-            <li style="margin-bottom:16px">
-              <strong>Chen, X., & Nordhaus, W. D.</strong> (2015).
-              A test of the new VIIRS lights data set: Population and economic output in Africa.
-              <em>Remote Sensing</em>, 7(4), 4937–4947.
-            </li>
-            <li style="margin-bottom:16px">
-              <strong>Lee, S., Liang, C. K., & Xiong, X.</strong> (2015).
-              VIIRS Day-Night Band (DNB) calibration: Performance and stability analysis.
-              <em>SPIE Conference Series</em>, 9607.
             </li>
           </ol>
 
