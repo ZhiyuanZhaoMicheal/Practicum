@@ -2857,6 +2857,7 @@ const sortedEdaEvents = computed(() => {
 
 // ── Sub-section TOC per detail page ──
 const SUB_SECTIONS = {
+  // 01 Overview
   overview: [
     { id: 'sec-1-1', label: '1.1 The Data Gap' },
     { id: 'sec-1-2', label: '1.2 Can Satellites Help?' },
@@ -2864,11 +2865,13 @@ const SUB_SECTIONS = {
     { id: 'sec-1-4', label: '1.4 Study Areas' },
     { id: 'sec-1-5', label: '1.5 Research Questions' },
   ],
+  // 02 Literature Review
   litreview: [
-    { id: 'sec-lr-1', label: 'NTL for Disaster Monitoring' },
-    { id: 'sec-lr-2', label: 'Gap in the Literature' },
-    { id: 'sec-lr-3', label: 'Resilience & Equity' },
+    { id: 'sec-lr-1', label: '2.1 NTL for Disasters' },
+    { id: 'sec-lr-2', label: '2.2 Gap in Literature' },
+    { id: 'sec-lr-3', label: '2.3 Resilience & Equity' },
   ],
+  // 03 Data Collection
   data: [
     { id: 'sec-2-1', label: '3.1 NASA Black Marble' },
     { id: 'sec-2-2', label: '3.2 EAGLE-I Outages' },
@@ -2879,6 +2882,7 @@ const SUB_SECTIONS = {
     { id: 'sec-2-7', label: '3.7 OSM Facilities' },
     { id: 'sec-2-8', label: '3.8 Data Quality' },
   ],
+  // 04 EDA
   eda: [
     { id: 'sec-4-1', label: '4.1 Key Definitions' },
     { id: 'sec-4-2', label: '4.2 Buffer vs Non-Buffer' },
@@ -2887,39 +2891,45 @@ const SUB_SECTIONS = {
     { id: 'sec-4-5', label: '4.5 City Size Effects' },
     { id: 'sec-4-6', label: '4.6 Key Findings' },
   ],
+  // 05 Interpretive Modeling
   interpretive: [
-    { id: 'sec-5-1', label: '5.1 Why Four Models?' },
+    { id: 'sec-5-1', label: '5.1 Why Interpretive?' },
     { id: 'sec-5-2', label: '5.2 Specification' },
     { id: 'sec-5-3', label: '5.3 OLS' },
     { id: 'sec-5-4', label: '5.4 MixedLM' },
     { id: 'sec-5-5', label: '5.5 Logistic' },
     { id: 'sec-5-6', label: '5.6 Cox PH' },
-    { id: 'sec-5-7', label: '4.7 Land-Use Confound' },
+    { id: 'sec-5-7', label: '5.7 Land-Use Confound' },
   ],
+  // 06 Feature Engineering
   features: [
-    { id: 'sec-6-floor', label: '6.1 Floor Effect' },
+    { id: 'sec-6-floor', label: '6.1 Findings → Features' },
     { id: 'sec-6-features', label: '6.2 Feature Set' },
   ],
+  // 07 Predictive Models
   models: [
-    { id: 'sec-5-intro', label: '6.1 Interpretation → Prediction' },
-    { id: 'sec-5-algo', label: '6.2 Model A — Full' },
-    { id: 'sec-5-loeo', label: '6.6 LOEO Design' },
+    { id: 'sec-5-intro', label: '7.1 From Interpretation' },
+    { id: 'sec-5-algo', label: '7.2 Model A' },
+    { id: 'sec-5-loeo', label: '7.3 LOEO Design' },
   ],
+  // 08 Zip-Code Analysis
   stage3: [
     { id: 'sec-7-1', label: '8.1 Research Question' },
     { id: 'sec-7-2', label: '8.2 Data Sources' },
     { id: 'sec-7-3', label: '8.3 Sample' },
-    { id: 'sec-7-4', label: '7.4 Models 1–4' },
+    { id: 'sec-7-4', label: '8.4 Models' },
   ],
+  // 09 Conclusions
   conclusions: [
-    { id: 'sec-c-1', label: 'Conclusions' },
-    { id: 'sec-c-2', label: 'Limitations' },
-    { id: 'sec-c-3', label: 'Future Directions' },
+    { id: 'sec-c-1', label: '9.1 Conclusions' },
+    { id: 'sec-c-2', label: '9.2 Sensor Constraints' },
+    { id: 'sec-c-3', label: '9.3 Future Directions' },
   ],
+  // 10 Dashboard
   web: [
     { id: 'sec-8-1', label: '10.1 Architecture' },
     { id: 'sec-8-2', label: '10.2 Map Engine' },
-    { id: 'sec-8-3', label: '9.3 Responsive Design' },
+    { id: 'sec-8-3', label: '10.3 Responsive' },
     { id: 'sec-8-4', label: '10.4 Deployment' },
   ],
 }
