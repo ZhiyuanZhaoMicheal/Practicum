@@ -1807,8 +1807,10 @@ for h in hospitals[:3]:
         <template v-if="sectionId === 'stage3'">
           <h2 id="sec-7-1">7.1 Research Question</h2>
           <p>
-            Stage 2 answers "can we detect backup generators from space?" at the <strong>pixel level</strong>.
-            Stage 3 asks a policy-relevant follow-up: <strong>do areas with more critical facilities
+            Stage 2 demonstrates that nighttime light behavior can detect backup power at the
+            pixel level (Model D AUC = 0.704). Stage 3 asks: <strong>does this signal hold up
+            at the zip-code level when we control for socioeconomic factors?</strong> And more
+            broadly: <strong>do areas with more critical facilities
             experience less severe power outages historically?</strong> We shift from 500m pixels to
             zip-code-level analysis, connecting facility density with EAGLE-I outage records.
           </p>
@@ -1852,124 +1854,146 @@ for h in hospitals[:3]:
             philosophy from Stage 1: start simple, then progressively address statistical concerns.
           </p>
 
-          <h3>Model 1: OLS Baseline</h3>
+          <h3>Model 1: OLS + Census Controls + Event Fixed Effects</h3>
           <div class="formula-block">
-            <div class="formula">mean_prob<sub>iz</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; fac_density<sub>z</sub> + &gamma;<sub>i</sub> + &epsilon;<sub>iz</sub></div>
-            <div class="formula__caption">i = event, z = zip code, &gamma;<sub>i</sub> = event fixed effect</div>
-          </div>
-          <div class="data-table">
-            <table>
-              <thead><tr><th>Metric</th><th>Value</th></tr></thead>
-              <tbody>
-                <tr><td>N</td><td class="mono">1,002 zip-event observations</td></tr>
-                <tr><td>R²</td><td class="mono" style="color:var(--green)">0.475</td></tr>
-                <tr><td>fac_density</td><td class="mono">+0.096 (p = 9.56 × 10⁻⁵⁴)</td></tr>
-                <tr><td>Interpretation</td><td>+1 facility/km² → +9.6% backup power probability</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <h3>Diagnostic: Moran's I</h3>
-          <p>
-            Moran's I = 0.329 (p = 0.001) on OLS residuals — <strong>significant spatial
-            autocorrelation</strong>. Neighboring zip codes share unobserved factors, so OLS
-            standard errors are underestimated.
-          </p>
-
-          <h3>Model 2: Spatial Error Model</h3>
-          <div class="formula-block">
-            <div class="formula">y = X&beta; + u, &nbsp; u = &lambda;Wu + &epsilon;</div>
-            <div class="formula__caption">W = KNN spatial weights (k=5), &lambda; = spatial error parameter</div>
-          </div>
-          <div class="data-table">
-            <table>
-              <thead><tr><th>Parameter</th><th>Value</th><th>Interpretation</th></tr></thead>
-              <tbody>
-                <tr><td>&lambda;</td><td class="mono" style="color:var(--cyan)">0.648</td><td>Neighbors' errors are 65% correlated</td></tr>
-                <tr><td>fac_density</td><td class="mono" style="color:var(--green)">0.097</td><td>Effect <strong>survives</strong> spatial correction (unchanged from OLS)</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <h3>Model 3: Wind Exposure Control (Hurricane Events)</h3>
-          <p>
-            For hurricane events, we compute wind field exposure from IBTrACS v4 using a
-            simplified Holland decay:
-          </p>
-          <div class="formula-block">
-            <div class="formula">wind_exposure = exp(-(d / R<sub>34</sub>)²)</div>
-            <div class="formula__caption">d = distance to hurricane track (km), R<sub>34</sub> = tropical storm wind radius</div>
+            <div class="formula">mean_prob<sub>iz</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; fac_density<sub>z</sub> + &beta;<sub>2</sub> &middot; log(pop_density<sub>z</sub>) + &beta;<sub>3</sub> &middot; log(income<sub>z</sub>) + &gamma;<sub>i</sub> + &epsilon;<sub>iz</sub></div>
+            <div class="formula__caption">i = event, z = zip code, &gamma;<sub>i</sub> = event fixed effect. Census ACS 2022 controls.</div>
           </div>
           <div class="data-table">
             <table>
               <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
               <tbody>
-                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.094</td><td class="mono" style="color:var(--green)">1.7 × 10⁻²³</td></tr>
-                <tr><td><code>wind_exposure</code></td><td class="mono" style="color:#ff6b6b">-1.126</td><td class="mono" style="color:var(--green)">0.010</td></tr>
+                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.094</td><td class="mono" style="color:var(--green)">3.9 × 10⁻⁴¹</td></tr>
+                <tr><td><code>log_pop_density</code></td><td class="mono" style="color:var(--green)">+0.074</td><td class="mono" style="color:var(--green)">8.5 × 10⁻⁴²</td></tr>
+                <tr><td><code>log_income</code></td><td class="mono" style="color:#ff6b6b">-0.075</td><td class="mono" style="color:var(--green)">5.7 × 10⁻¹¹</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            Stronger wind exposure <strong>reduces</strong> predicted backup power (p = 0.010) —
-            severe storms overwhelm even generator-equipped areas. Facility density remains
-            significant after this control.
+            N = 977, <strong>R² = 0.625</strong> (up from 0.475 without Census controls).
+            Facility density remains highly significant after controlling for population density
+            and income — it is not purely a proxy for urbanization. Income is negatively
+            associated: lower-income zip codes have higher predicted probability, likely because
+            they are located near large institutional facilities (hospitals, transit hubs).
+          </p>
+
+          <h3>Diagnostic: Moran's I</h3>
+          <div class="data-table">
+            <table>
+              <thead><tr><th></th><th>Without Controls</th><th>With Controls</th></tr></thead>
+              <tbody>
+                <tr><td>Moran's I</td><td class="mono">0.329 (p = 0.001)</td><td class="mono">0.099 (p = 0.022)</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Spatial autocorrelation drops substantially after adding Census variables — most of
+            the spatial clustering was driven by the spatial distribution of urbanization itself.
+          </p>
+
+          <h3>Model 2: Spatial Error Model + Controls</h3>
+          <div class="formula-block">
+            <div class="formula">y = X&beta; + u, &nbsp; u = &lambda;Wu + &epsilon;</div>
+            <div class="formula__caption">X = [fac_density, log(pop_density), log(income)], W = KNN (k=5)</div>
+          </div>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Parameter</th><th>Without Controls</th><th>With Controls</th></tr></thead>
+              <tbody>
+                <tr><td>&lambda;</td><td class="mono">0.648</td><td class="mono">0.337</td></tr>
+                <tr><td>fac_density</td><td class="mono">+0.097</td><td class="mono" style="color:var(--green)">+0.085</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Spatial error dependence halves after adding controls. Facility density coefficient
+            decreases slightly (0.097 → 0.085) but remains positive — the effect is real.
+          </p>
+
+          <h3>Model 3: + Wind Exposure (Hurricane Events)</h3>
+          <div class="formula-block">
+            <div class="formula">wind_exposure = exp(-(d / R<sub>34</sub>)²)</div>
+            <div class="formula__caption">d = distance to track (km), R<sub>34</sub> = tropical storm wind radius from IBTrACS v4</div>
+          </div>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
+              <tbody>
+                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.129</td><td class="mono" style="color:var(--green)">1.1 × 10⁻²³</td></tr>
+                <tr><td><code>wind_exposure</code></td><td class="mono">-0.433</td><td class="mono" style="color:var(--text-muted)">0.235</td></tr>
+                <tr><td><code>log_pop_density</code></td><td class="mono" style="color:var(--green)">+0.059</td><td class="mono" style="color:var(--green)">2.6 × 10⁻¹⁸</td></tr>
+                <tr><td><code>log_income</code></td><td class="mono" style="color:#ff6b6b">-0.075</td><td class="mono" style="color:var(--green)">1.8 × 10⁻⁶</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            N = 536 (hurricane zip codes), R² = 0.656. Wind exposure is <strong>not significant</strong>
+            after controlling for population density — the earlier "storm exposure effect" was
+            a proxy for urbanization (city centers are farther from coastlines and more populated).
+            Facility density actually strengthens (+0.129).
           </p>
 
           <h3>Model 4: EAGLE-I Outage Severity Validation</h3>
-          <p>
-            The key validation: do zip codes with higher predicted backup power actually
-            experience less severe outages? We construct zip-level outage severity from
-            EAGLE-I county data using weighted allocation:
-          </p>
           <div class="formula-block">
-            <div class="formula">severity<sub>zip</sub> = severity<sub>county</sub> × w<sub>zip</sub> / &Sigma;w<sub>j</sub></div>
+            <div class="formula">severity<sub>zip</sub> = severity<sub>county</sub> &times; w<sub>zip</sub> / &Sigma;w<sub>j</sub></div>
             <div class="formula__caption">w = wind_exposure × (1 + |ntl_drop|) for hurricanes; w = 1 + |ntl_drop| otherwise</div>
           </div>
           <div class="data-table">
             <table>
-              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
+              <thead><tr><th>Condition</th><th>mean_prob coef</th><th>p-value</th></tr></thead>
               <tbody>
-                <tr><td><code>mean_prob</code></td><td class="mono" style="color:var(--green)">-32.8</td><td class="mono" style="color:var(--green)">0.0002</td></tr>
+                <tr><td>Cross-city, no controls</td><td class="mono" style="color:var(--green)">-32.8</td><td class="mono" style="color:var(--green)">0.0002</td></tr>
+                <tr><td>Cross-city, + pop_density</td><td class="mono">-13.1</td><td class="mono" style="color:var(--text-muted)">0.184</td></tr>
+                <tr><td>Within-city demeaned, no controls</td><td class="mono" style="color:var(--green)">-32.3</td><td class="mono" style="color:var(--green)">0.0001</td></tr>
+                <tr><td>Within-city demeaned, + pop_density</td><td class="mono">-13.5</td><td class="mono" style="color:var(--text-muted)">0.157</td></tr>
+                <tr><td>Per-event sign consistency</td><td class="mono" colspan="2">17/19 negative (89%)</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            <strong>Predicted backup probability is significantly negatively correlated with
-            real outage severity.</strong> This closes the validation loop: what the satellite
-            model predicts as resilient areas genuinely experience lighter outages in the
-            independently collected EAGLE-I record.
+            Without controls, predicted backup probability strongly predicts real outage severity
+            (p = 0.0001). But after controlling for population density, the effect is absorbed —
+            both cross-city and within-city.
+          </p>
+          <p>
+            This does not mean the signal is fake. 17/19 events show the expected negative
+            direction. The issue is that <strong>detected generators are spatially co-located
+            with urban population density</strong> — large backup generators exist at hospitals,
+            airports, and fire stations, which are sited in dense urban cores by design. At 500m
+            resolution, "detecting a generator" and "detecting an urban center" are statistically
+            inseparable.
           </p>
 
-          <h3>Subgroup Consistency</h3>
+          <h3>Infrastructure Equity</h3>
           <div class="data-table">
             <table>
-              <thead><tr><th>Subgroup</th><th>N</th><th>With Fac.</th><th>Without</th><th>Delta</th></tr></thead>
+              <thead><tr><th>Outage Severity</th><th>N</th><th>Facility Density</th><th>Backup Prob</th></tr></thead>
               <tbody>
-                <tr><td colspan="5" style="font-weight:600; color:var(--text-muted); font-size:10px; letter-spacing:0.1em">BY CITY SIZE</td></tr>
-                <tr><td>Large</td><td class="mono">687</td><td class="mono">0.480</td><td class="mono">0.310</td><td class="mono" style="color:var(--green)">+0.170</td></tr>
-                <tr><td>Medium</td><td class="mono">241</td><td class="mono">0.271</td><td class="mono">0.129</td><td class="mono" style="color:var(--green)">+0.142</td></tr>
-                <tr><td>Small</td><td class="mono">74</td><td class="mono">0.229</td><td class="mono">0.064</td><td class="mono" style="color:var(--green)">+0.165</td></tr>
-                <tr><td colspan="5" style="font-weight:600; color:var(--text-muted); font-size:10px; letter-spacing:0.1em; padding-top:8px">BY DISASTER TYPE</td></tr>
-                <tr><td>Hurricane</td><td class="mono">554</td><td class="mono">0.403</td><td class="mono">0.233</td><td class="mono" style="color:var(--green)">+0.171</td></tr>
-                <tr><td>Winter Storm</td><td class="mono">234</td><td class="mono">0.435</td><td class="mono">0.274</td><td class="mono" style="color:var(--green)">+0.161</td></tr>
-                <tr><td>Derecho</td><td class="mono">74</td><td class="mono">0.534</td><td class="mono">0.263</td><td class="mono" style="color:var(--green)">+0.271</td></tr>
-                <tr><td>Severe Storm</td><td class="mono">90</td><td class="mono">0.397</td><td class="mono">0.127</td><td class="mono" style="color:var(--green)">+0.270</td></tr>
-                <tr><td>Ice Storm</td><td class="mono">50</td><td class="mono">0.296</td><td class="mono">0.077</td><td class="mono" style="color:var(--green)">+0.219</td></tr>
+                <tr><td>Low outage</td><td class="mono">301</td><td class="mono" style="color:var(--green)">0.53</td><td class="mono">0.425</td></tr>
+                <tr><td>Medium</td><td class="mono">300</td><td class="mono">0.32</td><td class="mono">0.403</td></tr>
+                <tr><td>High outage</td><td class="mono">300</td><td class="mono" style="color:#ff6b6b">0.20</td><td class="mono">0.310</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            Universally positive across all subgroups — no exceptions.
+            <strong>t = 5.12, p &lt; 0.0001</strong> — Zip codes with the most severe outages
+            have only <strong>38% of the facility density</strong> of the least-affected areas.
+            Infrastructure distribution is not aligned with disaster risk: facilities are sited
+            by daily service demand, not resilience need. This disparity is driven by urban
+            spatial structure (core vs. periphery), not income (Q1 vs Q4: p = 0.233).
           </p>
 
           <div class="takeaway">
             <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              Facility density predicts backup power at the zip code level (<strong>R² = 0.475</strong>),
-              survives spatial error correction, and holds after controlling for hurricane wind
-              exposure. Most importantly, <strong>predicted backup probability correlates with real
-              EAGLE-I outage severity</strong> (p = 0.0002) — closing the validation loop between
-              satellite predictions and independently recorded outage data.
+              Facility density predicts backup power probability even after controlling for
+              Census demographics (<strong>p &lt; 10⁻⁴¹, R² = 0.625</strong>). However,
+              the validation against EAGLE-I outage severity is absorbed by population density
+              — the generator signal is real (17/19 events consistent) but spatially inseparable
+              from urban structure at 500m resolution. The most policy-relevant finding:
+              <strong>the most outage-vulnerable communities have only 38% of the facility
+              density of the least vulnerable</strong>, highlighting a structural gap in
+              infrastructure resilience.
             </p>
           </div>
 
