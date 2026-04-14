@@ -143,7 +143,108 @@
           </div>
         </template>
 
-        <!-- 02 Data Collection -->
+        <!-- 02 Literature Review -->
+        <template v-if="sectionId === 'litreview'">
+          <h2 id="sec-lr-1">Nighttime Light Remote Sensing for Disaster Monitoring</h2>
+          <p>
+            The use of satellite nighttime light (NTL) data for disaster impact assessment has
+            grown substantially since the launch of the VIIRS Day/Night Band sensor in 2012.
+            Unlike its predecessor DMSP/OLS, VIIRS provides calibrated, daily global NTL
+            measurements at 500m resolution — enabling the first systematic temporal analyses
+            of power outage patterns from space.
+          </p>
+
+          <h3>Wang et al. (2018) — NASA Black Marble Team</h3>
+          <p>
+            The foundational work for our approach. Wang et al. demonstrated that the NASA Black
+            Marble product (VNP46) can systematically monitor power outages across all stages of
+            the disaster management cycle. Using Hurricane Sandy (2012) and Hurricane Maria (2017)
+            as case studies, they introduced the <em>percent normal</em> metric:
+          </p>
+          <div class="formula-block">
+            <div class="formula">Percent_normal = NTL<sub>post</sub> / NTL<sub>pre</sub></div>
+            <div class="formula__caption">Wang et al. (2018), ISPRS Archives XLII-3</div>
+          </div>
+          <p>
+            Key contributions relevant to our work:
+          </p>
+          <ul class="detail-list">
+            <li>Black Marble can detect daily NTL changes of 0.43 nW/cm²/sr — 7× better than the
+              JPSS requirement</li>
+            <li>Lunar BRDF correction is critical to avoid false recovery signals from moonlight
+              contamination</li>
+            <li>The paper explicitly mentions using Black Marble to <strong>"position diesel
+              generators in affected areas"</strong> — the exact application our project pursues</li>
+            <li>Short multi-day aggregation reduces cloud mask errors in spatial extent estimation</li>
+          </ul>
+
+          <h3>Zhang et al. (2023) — Damage Assessment with Black Marble</h3>
+          <p>
+            Zhang et al. extended NTL-based damage assessment to multiple disaster types
+            (hurricanes, tornadoes, earthquakes) and introduced a key methodological improvement:
+            using <strong>monthly VNP46A3 data as the pre-disaster baseline</strong> instead of
+            daily composites.
+          </p>
+          <div class="formula-block">
+            <div class="formula">NTL Change Ratio = (Rad<sub>pre</sub> - Rad<sub>post</sub>) / Rad<sub>pre</sub></div>
+            <div class="formula__caption">Zhang et al. (2023), Remote Sensing 15(17), 4257</div>
+          </div>
+          <p>
+            Findings directly relevant to our project:
+          </p>
+          <ul class="detail-list">
+            <li><strong>Daily NTL fluctuations average ~9.4%</strong> (range 3.6–15.2%) — this
+              defines the noise floor for generator detection. A generator must change a pixel's
+              brightness by more than ~10% to be detectable above normal variation.</li>
+            <li>NTL performs well for <strong>hurricane damage in well-lit areas</strong> but is
+              <strong>inconsistent for earthquakes and tornadoes</strong> — validating our
+              observation that Maria (island-wide blackout) is a near-ideal case while other
+              events present harder detection challenges.</li>
+            <li>The method detects <strong>damaged vs. undamaged areas</strong> reliably but
+              shows <strong>low correlation with degree of damage</strong> — consistent with
+              our finding that the signal is binary (lights on/off) rather than proportional.</li>
+          </ul>
+
+          <h2 id="sec-lr-2">Gap in the Literature</h2>
+          <p>
+            Both Wang et al. and Zhang et al. use NTL data to assess <em>outage extent and
+            recovery</em> — they ask "where did the lights go out and when did they come back?"
+            Our project asks a different question: <strong>"where did the lights stay on?"</strong>
+          </p>
+          <p>
+            The distinction matters. Existing work treats NTL decline as the signal of interest
+            (damage detection). We treat NTL <em>persistence</em> as the signal — areas that
+            remain anomalously bright during a blackout likely have backup power. This inversion
+            of the standard approach is, to our knowledge, the first systematic attempt to use
+            NTL data for distributed backup power detection rather than outage mapping.
+          </p>
+          <p>
+            Additionally, no prior work has:
+          </p>
+          <ul class="detail-list">
+            <li>Used critical facility locations as <strong>weak supervision labels</strong> for
+              predicting backup power from NTL behavior</li>
+            <li>Conducted <strong>ablation experiments</strong> (Models A–D) to quantify the
+              relative contribution of NTL behavioral signal vs. spatial proximity</li>
+            <li>Validated NTL-derived predictions against <strong>real generator permit
+              records</strong> (Miami-Dade)</li>
+            <li>Tested cross-event generalization with <strong>Leave-One-Event-Out</strong>
+              validation across 25 diverse disaster events</li>
+          </ul>
+
+          <h2 id="sec-lr-3">Resilience and Equity in Power Systems</h2>
+          <p>
+            A growing body of literature examines energy equity and infrastructure resilience
+            from a social science perspective. Studies have documented that low-income communities
+            and communities of color experience longer power outages during disasters
+            (Mitsova et al. 2018, Reno & Harp 2022). Our Stage 3 zip-code analysis connects
+            to this literature by showing that the most outage-vulnerable communities have
+            significantly fewer critical facilities (38% of the density in low-outage areas),
+            though this disparity is driven by urban spatial structure rather than income alone.
+          </p>
+        </template>
+
+        <!-- 03 Data Collection -->
         <template v-if="sectionId === 'data'">
 
           <div class="data-table" style="margin-bottom:28px">
@@ -2166,6 +2267,67 @@ google-earth-engine (GEE API)</code></pre>
           </div>
         </template>
 
+        <!-- 12 References -->
+        <template v-if="sectionId === 'references'">
+          <ol class="detail-list" style="list-style:decimal; padding-left:24px">
+            <li style="margin-bottom:16px">
+              <strong>Wang, Z., Román, M. O., Sun, Q., Molthan, A. L., Schultz, L. A., & Kalb, V. L.</strong> (2018).
+              Monitoring Disaster-Related Power Outages Using NASA Black Marble Nighttime Light Product.
+              <em>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences</em>, XLII-3, 1853–1856.
+              <a href="https://doi.org/10.5194/isprs-archives-XLII-3-1853-2018" class="inline-link" target="_blank">doi:10.5194/isprs-archives-XLII-3-1853-2018</a>
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Zhang, D., Huang, H., Roy, N., Roozbahani, M. M., & Frost, J. D.</strong> (2023).
+              Black Marble Nighttime Light Data for Disaster Damage Assessment.
+              <em>Remote Sensing</em>, 15(17), 4257.
+              <a href="https://doi.org/10.3390/rs15174257" class="inline-link" target="_blank">doi:10.3390/rs15174257</a>
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Román, M. O., Wang, Z., Sun, Q., et al.</strong> (2018).
+              NASA's Black Marble nighttime lights product suite.
+              <em>Remote Sensing of Environment</em>, 210, 113–143.
+              <a href="https://doi.org/10.1016/j.rse.2018.03.017" class="inline-link" target="_blank">doi:10.1016/j.rse.2018.03.017</a>
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Elvidge, C. D., Baugh, K. E., Kihn, E. A., Kroehl, H. W., & Davis, E. R.</strong> (1997).
+              Mapping city lights with nighttime data from the DMSP Operational Linescan System.
+              <em>Photogrammetric Engineering and Remote Sensing</em>, 63(6), 727–734.
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Mitsova, D., Esnard, A.-M., Sapat, A., & Lai, B. S.</strong> (2018).
+              Socioeconomic vulnerability and electric power restoration timelines in Florida.
+              <em>Natural Hazards</em>, 94, 689–709.
+              <a href="https://doi.org/10.1007/s11069-018-3413-x" class="inline-link" target="_blank">doi:10.1007/s11069-018-3413-x</a>
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Skoufias, E., Strobl, E., & Tveit, T.</strong> (2021).
+              Can we rely on VIIRS nighttime lights to estimate the short-term impacts of natural hazards?
+              <em>World Development</em>, 146, 105527.
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Chen, X., & Nordhaus, W. D.</strong> (2015).
+              A test of the new VIIRS lights data set: Population and economic output in Africa.
+              <em>Remote Sensing</em>, 7(4), 4937–4947.
+            </li>
+            <li style="margin-bottom:16px">
+              <strong>Lee, S., Liang, C. K., & Xiong, X.</strong> (2015).
+              VIIRS Day-Night Band (DNB) calibration: Performance and stability analysis.
+              <em>SPIE Conference Series</em>, 9607.
+            </li>
+          </ol>
+
+          <div class="callout callout--cyan">
+            <span>--</span>
+            <div>
+              All satellite data products referenced above are publicly available through
+              <a href="https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2" class="inline-link" target="_blank">Google Earth Engine</a>
+              or <a href="https://ladsweb.modaps.eosdis.nasa.gov" class="inline-link" target="_blank">NASA LAADS DAAC</a>.
+              EAGLE-I outage data is available from the
+              <a href="https://eagle-i.doe.gov" class="inline-link" target="_blank">U.S. Department of Energy</a>.
+            </div>
+          </div>
+        </template>
+
         <!-- Bottom navigation -->
         <div class="detail-nav">
           <RouterLink v-if="prevSection" :to="`/docs/${prevSection.id}`" class="detail-nav__link detail-nav__link--prev">
@@ -2508,15 +2670,17 @@ function cloudSplitX(dashId) {
 
 const allSections = [
   { id: 'overview',     num: '01', title: 'Project Overview', tags: ['VIIRS VNP46A2'] },
-  { id: 'data',         num: '02', title: 'Data Collection & Processing', tags: ['VNP46A2', 'OSM', 'EAGLE-I'] },
-  { id: 'eda',          num: '03', title: 'Exploratory Data Analysis', tags: ['Resilience Ratio', 'Floor Effect'] },
-  { id: 'interpretive', num: '04', title: 'Interpretive Modeling', tags: ['OLS', 'MixedLM', 'Logit', 'Cox'] },
-  { id: 'features',     num: '05', title: 'Feature Engineering', tags: ['17 features'] },
-  { id: 'models',       num: '06', title: 'Predictive Models & Probability Maps', tags: ['RF + XGB', 'LOEO', '4 Variants'] },
-  { id: 'stage3',       num: '07', title: 'Zip-Code Analysis', tags: ['EAGLE-I', 'Spatial Regression'] },
-  { id: 'conclusions',  num: '08', title: 'Conclusions & Future Work', tags: ['Limitations', 'Future Directions'] },
-  { id: 'web',          num: '09', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
-  { id: 'repro',        num: '10', title: 'Reproducibility', tags: ['Open data'] },
+  { id: 'litreview',    num: '02', title: 'Literature Review', tags: ['Wang 2018', 'Zhang 2023', 'NTL'] },
+  { id: 'data',         num: '03', title: 'Data Collection & Processing', tags: ['VNP46A2', 'OSM', 'EAGLE-I'] },
+  { id: 'eda',          num: '04', title: 'Exploratory Data Analysis', tags: ['Resilience Ratio', 'Floor Effect'] },
+  { id: 'interpretive', num: '05', title: 'Interpretive Modeling', tags: ['OLS', 'MixedLM', 'Logit', 'Cox'] },
+  { id: 'features',     num: '06', title: 'Feature Engineering', tags: ['17 features'] },
+  { id: 'models',       num: '07', title: 'Predictive Models & Probability Maps', tags: ['RF + XGB', 'LOEO', '4 Variants'] },
+  { id: 'stage3',       num: '08', title: 'Zip-Code Analysis', tags: ['EAGLE-I', 'Spatial Regression'] },
+  { id: 'conclusions',  num: '09', title: 'Conclusions & Future Work', tags: ['Limitations', 'Future Directions'] },
+  { id: 'web',          num: '10', title: 'Dashboard Development', tags: ['Vue 3', 'MapLibre'] },
+  { id: 'repro',        num: '11', title: 'Reproducibility', tags: ['Open data'] },
+  { id: 'references',   num: '12', title: 'References', tags: ['Bibliography'] },
 ]
 
 const sectionData = computed(() => allSections.find(s => s.id === sectionId.value))
@@ -2573,6 +2737,12 @@ const SUB_SECTIONS = {
     { id: 'sec-1-2', label: '1.2 Can Satellites Help?' },
     { id: 'sec-1-3', label: '1.3 Approach' },
     { id: 'sec-1-4', label: '1.4 Study Areas' },
+    { id: 'sec-1-5', label: '1.5 Research Questions' },
+  ],
+  litreview: [
+    { id: 'sec-lr-1', label: 'NTL for Disaster Monitoring' },
+    { id: 'sec-lr-2', label: 'Gap in the Literature' },
+    { id: 'sec-lr-3', label: 'Resilience & Equity' },
     { id: 'sec-1-5', label: '1.5 Research Questions' },
   ],
   data: [
