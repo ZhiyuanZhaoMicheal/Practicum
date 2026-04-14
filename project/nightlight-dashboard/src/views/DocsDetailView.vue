@@ -145,7 +145,7 @@
 
         <!-- 02 Literature Review -->
         <template v-if="sectionId === 'litreview'">
-          <h2 id="sec-lr-1">Nighttime Light Remote Sensing for Disaster Monitoring</h2>
+          <h2 id="sec-lr-1">2.1 Nighttime Light Remote Sensing for Disaster Monitoring</h2>
           <p>
             The use of satellite nighttime light (NTL) data for disaster impact assessment has
             grown substantially since the launch of the VIIRS Day/Night Band sensor in 2012.
@@ -205,7 +205,7 @@
               our finding that the signal is binary (lights on/off) rather than proportional.</li>
           </ul>
 
-          <h2 id="sec-lr-2">Gap in the Literature</h2>
+          <h2 id="sec-lr-2">2.2 Gap in the Literature</h2>
           <p>
             Both Wang et al. and Zhang et al. use NTL data to assess <em>outage extent and
             recovery</em> — they ask "where did the lights go out and when did they come back?"
@@ -232,7 +232,7 @@
               validation across 25 diverse disaster events</li>
           </ul>
 
-          <h2 id="sec-lr-3">Resilience and Equity in Power Systems</h2>
+          <h2 id="sec-lr-3">2.3 Resilience and Equity in Power Systems</h2>
           <p>
             A growing body of literature examines energy equity and infrastructure resilience
             from a social science perspective. Studies have documented that low-income communities
@@ -308,7 +308,7 @@
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 1: What is Black Marble?                -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-1">2.1 NASA Black Marble — Nighttime Lights from Space</h2>
+          <h2 id="sec-2-1">3.1 NASA Black Marble — Nighttime Lights from Space</h2>
           <p>
             Our primary data source is <strong>NASA's Black Marble</strong> product suite (VNP46A2),
             which provides daily, gap-filled nighttime light (NTL) imagery at 500-meter resolution.
@@ -357,7 +357,7 @@
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 2: EAGLE-I (moved up)                   -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-2">2.2 EAGLE-I Power Outage Records</h2>
+          <h2 id="sec-2-2">3.2 EAGLE-I Power Outage Records</h2>
           <p>
             The U.S. Department of Energy's EAGLE-I system provides county-level hourly power
             outage counts, which we use for event selection and temporal alignment. EAGLE-I
@@ -379,7 +379,7 @@
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 3: What does it look like? (Maria demo) -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-3">2.3 What Does a Disaster Look Like in NTL?</h2>
+          <h2 id="sec-2-3">3.3 What Does a Disaster Look Like in NTL?</h2>
           <p>
             Hurricane Maria made landfall in Puerto Rico on September 20, 2017 as a Category 5 storm,
             causing the longest blackout in U.S. history. <strong>Maria is the closest to an ideal
@@ -502,7 +502,7 @@
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 4: Cloud coverage                       -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-4">2.4 Cloud Contamination & Quality Control</h2>
+          <h2 id="sec-2-4">3.4 Cloud Contamination & Quality Control</h2>
           <p>
             A fundamental challenge of optical satellite remote sensing is cloud cover. When clouds
             obscure the ground, the sensor cannot measure surface-emitted light, and the resulting
@@ -618,7 +618,7 @@
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 5: GEE Download Pipeline                -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-5">2.5 Data Acquisition via Google Earth Engine</h2>
+          <h2 id="sec-2-5">3.5 Data Acquisition via Google Earth Engine</h2>
           <p>
             All NTL imagery is downloaded programmatically through the Google Earth Engine (GEE)
             Python API. For each event, we define a bounding box covering the study area, a
@@ -686,7 +686,7 @@ for img in pre_col.toList(pre_col.size()).getInfo():
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 7: Generator Permit Data                -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-6">2.6 Generator Permit Records — The Ground Truth Gap</h2>
+          <h2 id="sec-2-6">3.6 Generator Permit Records — The Ground Truth Gap</h2>
           <p>
             While no unified generator database exists, many U.S. jurisdictions do require permits
             for generator installation — but these records are fragmented, inconsistent, and hard
@@ -751,7 +751,7 @@ for img in pre_col.toList(pre_col.size()).getInfo():
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 6: Generator Permit Data                -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-7">2.7 Critical Infrastructure from OpenStreetMap</h2>
+          <h2 id="sec-2-7">3.7 Critical Infrastructure from OpenStreetMap</h2>
           <p>
             A core challenge of this project is that <strong>no public dataset of backup generator
             locations exists</strong>. We cannot simply look up which buildings have generators — this
@@ -862,7 +862,7 @@ for h in hospitals[:3]:
           <!-- ════════════════════════════════════════════════ -->
           <!-- SECTION 8: Cross-Event Heterogeneity            -->
           <!-- ════════════════════════════════════════════════ -->
-          <h2 id="sec-2-8">2.8 Cross-Event Heterogeneity</h2>
+          <h2 id="sec-2-8">3.8 Cross-Event Heterogeneity</h2>
           <p>
             Our 15 events span very different contexts — geographies from Caribbean islands to
             the U.S. Midwest, city sizes from Lake Charles (~80K) to Atlanta (~6M metro),
@@ -1307,7 +1307,7 @@ for h in hospitals[:3]:
         <template v-if="sectionId === 'interpretive'">
 
           <!-- ═══ 5.0 Why Interpretive Modeling ═══ -->
-          <h2 id="sec-5-1">4.1 Why Interpretive Modeling First?</h2>
+          <h2 id="sec-5-1">5.1 Why Interpretive Modeling First?</h2>
           <p>
             Before building a predictive model, we need to answer a more fundamental question:
             <strong>is there actually a detectable signal?</strong> The EDA shows that buffer
@@ -1350,7 +1350,7 @@ for h in hospitals[:3]:
           </div>
 
           <!-- ═══ 5.2 Specification ═══ -->
-          <h2 id="sec-5-2">4.2 Specification & Controls</h2>
+          <h2 id="sec-5-2">5.2 Specification & Controls</h2>
           <p>
             All models share a core specification (n = 10,306 pixels, 6 events) with two variants
             to test the impact of land-use confounding:
@@ -1365,7 +1365,7 @@ for h in hospitals[:3]:
           </ul>
 
           <!-- ═══ 5.3 Model Details (collapsible) ═══ -->
-          <h2 id="sec-5-3">4.3 OLS — Baseline Effect Size</h2>
+          <h2 id="sec-5-3">5.3 OLS — Baseline Effect Size</h2>
           <div class="formula-block">
             <div class="formula">delta_ntl<sub>i</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer<sub>i</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>i</sub> + &beta;<sub>3</sub> &middot; (in_buffer<sub>i</sub> &times; pre_mean_ntl<sub>i</sub>) + &gamma; &middot; NLCD<sub>i</sub> + &epsilon;<sub>i</sub></div>
             <div class="formula__caption">HC1 robust standard errors; &beta;<sub>1</sub> = average buffer effect; &beta;<sub>3</sub> = floor effect interaction</div>
@@ -1402,7 +1402,7 @@ for h in hospitals[:3]:
             </button>
           </div>
 
-          <h2 id="sec-5-4">4.4 MixedLM — Clustering Correction</h2>
+          <h2 id="sec-5-4">5.4 MixedLM — Clustering Correction</h2>
           <div class="formula-block">
             <div class="formula">delta_ntl<sub>ij</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer<sub>ij</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>ij</sub> + &gamma; &middot; NLCD<sub>ij</sub> + u<sub>j</sub> + &epsilon;<sub>ij</sub></div>
             <div class="formula__caption">i = pixel, j = event; u<sub>j</sub> ~ N(0, &sigma;²<sub>u</sub>) event-level random intercept</div>
@@ -1439,7 +1439,7 @@ for h in hospitals[:3]:
             </button>
           </div>
 
-          <h2 id="sec-5-5">4.5 Logistic Regression — Damage Probability</h2>
+          <h2 id="sec-5-5">5.5 Logistic Regression — Damage Probability</h2>
           <div class="formula-block">
             <div class="formula">log[P(damaged<sub>i</sub>=1) / (1 - P(damaged<sub>i</sub>=1))] = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; in_buffer<sub>i</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>i</sub> + &gamma; &middot; NLCD<sub>i</sub></div>
             <div class="formula__caption">damaged = 1 if delta_ntl &lt; -10%; OR = exp(&beta;<sub>1</sub>); OR &lt; 1 = protective effect</div>
@@ -1478,7 +1478,7 @@ for h in hospitals[:3]:
             </button>
           </div>
 
-          <h2 id="sec-5-6">4.6 Cox PH — Recovery Speed</h2>
+          <h2 id="sec-5-6">5.6 Cox PH — Recovery Speed</h2>
           <div class="formula-block">
             <div class="formula">h(t | x<sub>i</sub>) = h<sub>0</sub>(t) &middot; exp(&beta;<sub>1</sub> &middot; in_buffer<sub>i</sub> + &beta;<sub>2</sub> &middot; pre_mean_ntl<sub>i</sub> + &gamma; &middot; NLCD<sub>i</sub>)</div>
             <div class="formula__caption">h<sub>0</sub>(t) = nonparametric baseline hazard; HR = exp(&beta;<sub>1</sub>); HR &gt; 1 = faster recovery</div>
@@ -1525,7 +1525,7 @@ for h in hospitals[:3]:
           </div>
 
           <!-- ═══ 5.7 Land-use confound ═══ -->
-          <h2 id="sec-5-7">4.7 The Land-Use Confound</h2>
+          <h2 id="sec-5-7">5.7 The Land-Use Confound</h2>
           <p>
             The most important methodological finding: when NLCD land-use controls are added,
             the buffer coefficient <strong>reverses sign or loses significance</strong> in all models.
@@ -1636,7 +1636,7 @@ for h in hospitals[:3]:
         <!-- 05 Models -->
         <template v-if="sectionId === 'models'">
 
-          <h2 id="sec-5-intro">6.1 From Interpretation to Prediction</h2>
+          <h2 id="sec-5-intro">7.1 From Interpretation to Prediction</h2>
           <p>
             The interpretive phase (Stage 1) validated <code>in_buffer</code> as a meaningful
             weak-supervision label: buffer pixels consistently show higher resilience ratios across
@@ -1664,7 +1664,7 @@ for h in hospitals[:3]:
             </table>
           </div>
 
-          <h2 id="sec-5-algo">6.2 Model A — Full Feature Set</h2>
+          <h2 id="sec-5-algo">7.2 Model A — Full Feature Set</h2>
           <p>
             Model A is the primary model, using all <strong>17 engineered features</strong> spanning
             four categories: NTL behavior (6 features), spatial proximity (4), city/disaster controls
@@ -1726,7 +1726,7 @@ for h in hospitals[:3]:
             — a strong indicator of genuine cross-city generalization.
           </p>
 
-          <h3>6.3 Model B — Post-Disaster Only</h3>
+          <h3>7.3 Model B — Post-Disaster Only</h3>
           <p>
             Model B removes all pre-disaster NTL features (<code>log_pre_ntl</code>,
             <code>ntl_relative</code>, <code>log_city_pre_mean</code>, <code>below_city_median</code>).
@@ -1745,7 +1745,7 @@ for h in hospitals[:3]:
             "bright areas have generators" but detecting genuine behavioral signals.
           </p>
 
-          <h3>6.4 Model C — With Building Footprints</h3>
+          <h3>7.4 Model C — With Building Footprints</h3>
           <p>
             Model C augments Model A with four features derived from <strong>OSM building footprint
             coverage</strong> within each pixel: total coverage ratio, log-transformed coverage,
@@ -1762,7 +1762,7 @@ for h in hospitals[:3]:
             resolution, individual building outlines are too fine-grained to help pixel-level prediction.
           </p>
 
-          <h3>6.5 Model D — Pure NTL Behavior</h3>
+          <h3>7.5 Model D — Pure NTL Behavior</h3>
           <p>
             Model D is the most restrictive ablation: it removes <strong>all spatial proximity
             features</strong> (<code>log_dist</code>, <code>near_fire_station</code>,
@@ -1791,7 +1791,7 @@ for h in hospitals[:3]:
             </div>
           </div>
 
-          <h2 id="sec-5-loeo">6.6 LOEO Cross-Validation Design</h2>
+          <h2 id="sec-5-loeo">7.6 LOEO Cross-Validation Design</h2>
           <p>
             Standard k-fold cross-validation is invalid for spatially autocorrelated disaster data:
             pixels within the same event are highly correlated, and random splitting would leak
@@ -1825,7 +1825,7 @@ for h in hospitals[:3]:
             generalization task.
           </p>
 
-          <h2>6.7 Ground Truth Validation — Miami-Dade Generator Permits</h2>
+          <h2>7.7 Ground Truth Validation — Miami-Dade Generator Permits</h2>
           <p>
             To validate the model's predictions against real-world data, we obtained
             <strong>building permit records</strong> from Miami-Dade County that identify
@@ -1883,7 +1883,7 @@ for h in hospitals[:3]:
             </p>
           </div>
 
-          <h2>6.8 Probability Maps</h2>
+          <h2>7.8 Probability Maps</h2>
           <p>
             The final ensemble model generates <code>P(backup_power_present)</code> for every
             urban pixel in each study area:
@@ -1906,7 +1906,7 @@ for h in hospitals[:3]:
 
         <!-- 07 Zip-Code Analysis -->
         <template v-if="sectionId === 'stage3'">
-          <h2 id="sec-7-1">7.1 Research Question</h2>
+          <h2 id="sec-7-1">8.1 Research Question</h2>
           <p>
             Stage 2 demonstrates that nighttime light behavior can detect backup power at the
             pixel level (Model D AUC = 0.704). Stage 3 asks: <strong>does this signal hold up
@@ -1916,7 +1916,7 @@ for h in hospitals[:3]:
             zip-code-level analysis, connecting facility density with EAGLE-I outage records.
           </p>
 
-          <h2 id="sec-7-2">7.2 Data Sources</h2>
+          <h2 id="sec-7-2">8.2 Data Sources</h2>
           <div class="data-table">
             <table>
               <thead><tr><th>Dataset</th><th>Source</th><th>Role</th></tr></thead>
@@ -1933,7 +1933,7 @@ for h in hospitals[:3]:
             </table>
           </div>
 
-          <h2 id="sec-7-3">7.3 Sample Construction</h2>
+          <h2 id="sec-7-3">8.3 Sample Construction</h2>
           <p>
             The analysis covers <strong>1,002 zip codes</strong> across <strong>22 U.S. disaster
             events</strong> (Puerto Rico and Turkey excluded due to lack of U.S. ZCTA boundaries).
@@ -1948,7 +1948,7 @@ for h in hospitals[:3]:
             allocation.
           </p>
 
-          <h2 id="sec-7-4">7.4 Model Design</h2>
+          <h2 id="sec-7-4">8.4 Model Design</h2>
           <p>
             We test whether facility density predicts backup power probability at the zip code
             level, using a four-step modeling approach that mirrors the interpretive modeling
@@ -2318,7 +2318,7 @@ for h in hospitals[:3]:
 
         <!-- 09 Dashboard Development -->
         <template v-if="sectionId === 'web'">
-          <h2 id="sec-8-1">9.1 Architecture</h2>
+          <h2 id="sec-8-1">10.1 Architecture</h2>
           <p>
             This dashboard is a single-page application built with <strong>Vue 3</strong> (Composition API)
             and <strong>Vite</strong> as the build tool. The project uses Vue Router (hash history mode
@@ -2337,7 +2337,7 @@ for h in hospitals[:3]:
             </table>
           </div>
 
-          <h2 id="sec-8-2">9.2 Map Engine</h2>
+          <h2 id="sec-8-2">10.2 Map Engine</h2>
           <p>
             The interactive map uses <strong>MapLibre GL JS</strong> with multiple layer types per event:
           </p>
@@ -2354,7 +2354,7 @@ for h in hospitals[:3]:
             keeping initial page load fast even with 25 events.
           </p>
 
-          <h2 id="sec-8-3">9.3 Responsive Design</h2>
+          <h2 id="sec-8-3">10.3 Responsive Design</h2>
           <p>
             The dashboard adapts to mobile devices with:
           </p>
@@ -2365,7 +2365,7 @@ for h in hospitals[:3]:
             <li><strong>Docs/Charts</strong> — horizontal-scrolling tables, reduced padding, stacked layouts</li>
           </ul>
 
-          <h2 id="sec-8-4">9.4 Deployment</h2>
+          <h2 id="sec-8-4">10.4 Deployment</h2>
           <p>
             Automated via <strong>GitHub Actions</strong>: every push to <code>main</code> that modifies
             <code>project/nightlight-dashboard/**</code> triggers a build + deploy workflow. The Vite
