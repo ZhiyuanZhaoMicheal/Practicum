@@ -41,10 +41,11 @@
         </div>
         <p class="intro-text reveal" style="transition-delay:0.25s">
           Millions of backup generators power hospitals, businesses, and homes during
-          blackouts — yet <strong>no unified database records where they are, who owns them,
+          blackouts — yet <strong>no public database records where they are, who owns them,
           or whether they actually work</strong>. This data gap touches energy security,
-          environmental justice, and disaster preparedness. We asked a simple question:
-          <strong>can satellite imagery fill this gap?</strong>
+          environmental justice, and disaster preparedness. But without ground-truth labels,
+          a machine learning model can't simply learn "what a running generator looks like
+          from space." We need another way in.
         </p>
       </div>
     </section>
@@ -56,14 +57,16 @@
           <h2 class="section-title">Our Approach</h2>
         </div>
         <p class="intro-text reveal">
-          During power outages, areas with backup generators stay brighter at night.
-          Using daily NASA Black Marble imagery (VIIRS VNP46A2), we analyze this
-          brightness anomaly across {{ stateCount }} U.S. states — from statistical
-          validation to pixel-level prediction. The satellite signal alone can distinguish
-          generator-powered areas from the surrounding blackout, though spatial context
-          significantly improves accuracy. This is an early proof of concept — showing
-          what remote sensing can reveal, and where higher resolution or ground truth
-          would be needed to go further.
+          Hospitals, airports, and fire stations are <strong>legally required</strong> to
+          have backup generators — so we use them as <strong>proxy labels</strong>. If
+          satellite pixels near these facilities stay brighter during outages, the
+          brightness pattern itself becomes a learnable signal. Using daily NASA Black
+          Marble imagery (500 m resolution) across {{ stateCount }} U.S. states and 25
+          disaster events, we train models on these proxy labels and test whether the
+          nighttime light signal alone — without knowing facility locations — can
+          identify backup power. <strong>The answer: a real but modest signal (AUC 0.704),
+          showing what remote sensing can reveal at current resolution, and where
+          higher resolution or ground truth would be needed to go further.</strong>
         </p>
 
         <div class="stats reveal">
@@ -94,7 +97,7 @@
               learns versus spatial shortcuts.
             </p>
             <div class="feature-card__details">
-              <span class="tag tag--cyan">10 Sections</span>
+              <span class="tag tag--cyan">12 Sections</span>
               <span class="tag tag--dim">4 Model Variants</span>
             </div>
           </div>
