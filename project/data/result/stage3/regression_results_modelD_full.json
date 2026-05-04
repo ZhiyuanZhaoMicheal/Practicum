@@ -1,0 +1,108 @@
+{
+  "m1": {
+    "name": "M1 \u00b7 OLS  mean_prob ~ fac_density + FE",
+    "n": 1002,
+    "r_squared": 0.5564,
+    "adj_r_squared": 0.5464,
+    "coefs": {
+      "fac_density": [
+        0.0575,
+        0.0
+      ]
+    }
+  },
+  "m1_plus": {
+    "name": "M1+ \u00b7 OLS  + Census controls",
+    "n": 977,
+    "r_squared": 0.7472,
+    "adj_r_squared": 0.7408,
+    "coefs": {
+      "fac_density": [
+        0.0494,
+        0.0
+      ],
+      "log_pop_density": [
+        0.0644,
+        0.0
+      ],
+      "log_income": [
+        -0.0799,
+        0.0
+      ]
+    }
+  },
+  "m5_hurricane": {
+    "name": "M5 \u00b7 Hurricane subset  mean_prob ~ fac_density + FE",
+    "n": 554,
+    "r_squared": 0.5905,
+    "adj_r_squared": 0.5791,
+    "coefs": {
+      "fac_density": [
+        0.057,
+        7e-06
+      ]
+    }
+  },
+  "m5_plus_hurricane": {
+    "name": "M5+ \u00b7 Hurricane subset + Census",
+    "n": 536,
+    "r_squared": 0.773,
+    "adj_r_squared": 0.7655,
+    "coefs": {
+      "fac_density": [
+        0.0557,
+        3e-06
+      ],
+      "log_pop_density": [
+        0.0567,
+        0.0
+      ],
+      "log_income": [
+        -0.0923,
+        0.0
+      ]
+    }
+  },
+  "m3_sem": {
+    "name": "M3 \u00b7 Spatial Error Model (GM_Error_Het, KNN k=5)",
+    "type": "Spatial Error Model",
+    "n": 1002,
+    "lambda": 0.9022,
+    "intercept": 0.4225,
+    "fac_density_coef": 0.021,
+    "fac_density_p": 0.0,
+    "pseudo_r2": 0.1416
+  },
+  "m8": {
+    "name": "M8 \u00b7 severity ~ mean_prob + FE",
+    "n": 935,
+    "r_squared": 0.7636,
+    "adj_r_squared": 0.7582,
+    "coefs": {
+      "mean_prob": [
+        76.7584,
+        0.082366
+      ]
+    }
+  },
+  "m8_plus": {
+    "name": "M8+ \u00b7 severity ~ mean_prob + Census + FE",
+    "n": 911,
+    "r_squared": 0.7595,
+    "adj_r_squared": 0.7532,
+    "coefs": {
+      "mean_prob": [
+        123.8411,
+        0.01198
+      ],
+      "log_pop_density": [
+        -5.8704,
+        0.452756
+      ],
+      "log_income": [
+        11.6714,
+        0.359149
+      ]
+    }
+  }
+}

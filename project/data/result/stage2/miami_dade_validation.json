@@ -1,0 +1,121 @@
+{
+  "note": "Sanity check only. Ground truth incomplete (permits \u2282 all real generators).",
+  "n_total_permits": 592,
+  "n_within_study_bbox": 169,
+  "study_bbox": {
+    "lon": [
+      -80.4,
+      -80.1
+    ],
+    "lat": [
+      25.7,
+      25.9
+    ]
+  },
+  "rescomm_split": {
+    "R": 139,
+    "C": 30
+  },
+  "all_modelA": {
+    "model": "Model A \u00b7 ALL",
+    "n_total": 169,
+    "n_in_bbox": 169,
+    "n_sampled": 136,
+    "event_median": 0.3347,
+    "quartiles": [
+      0.0715,
+      0.1728,
+      0.2354,
+      0.6543,
+      0.9524
+    ],
+    "pct_above_0_5": 35.3,
+    "pct_above_0_7": 23.5,
+    "pct_above_event_median": 39.7
+  },
+  "all_modelD": {
+    "model": "Model D \u00b7 ALL",
+    "n_total": 169,
+    "n_in_bbox": 169,
+    "n_sampled": 136,
+    "event_median": 0.6722,
+    "quartiles": [
+      0.4303,
+      0.5871,
+      0.6125,
+      0.6937,
+      0.8077
+    ],
+    "pct_above_0_5": 90.4,
+    "pct_above_0_7": 19.1,
+    "pct_above_event_median": 29.4
+  },
+  "residential_modelA": {
+    "model": "Model A \u00b7 R",
+    "n_total": 139,
+    "n_in_bbox": 139,
+    "n_sampled": 106,
+    "event_median": 0.3347,
+    "quartiles": [
+      0.0715,
+      0.1647,
+      0.2279,
+      0.5445,
+      0.9483
+    ],
+    "pct_above_0_5": 27.4,
+    "pct_above_0_7": 21.7,
+    "pct_above_event_median": 32.1
+  },
+  "residential_modelD": {
+    "model": "Model D \u00b7 R",
+    "n_total": 139,
+    "n_in_bbox": 139,
+    "n_sampled": 106,
+    "event_median": 0.6722,
+    "quartiles": [
+      0.4303,
+      0.5823,
+      0.6064,
+      0.6273,
+      0.7398
+    ],
+    "pct_above_0_5": 87.7,
+    "pct_above_0_7": 6.6,
+    "pct_above_event_median": 14.2
+  },
+  "commercial_modelA": {
+    "model": "Model A \u00b7 C",
+    "n_total": 30,
+    "n_in_bbox": 30,
+    "n_sampled": 30,
+    "event_median": 0.3347,
+    "quartiles": [
+      0.0897,
+      0.2385,
+      0.6254,
+      0.9376,
+      0.9524
+    ],
+    "pct_above_0_5": 63.3,
+    "pct_above_0_7": 30.0,
+    "pct_above_event_median": 66.7
+  },
+  "commercial_modelD": {
+    "model": "Model D \u00b7 C",
+    "n_total": 30,
+    "n_in_bbox": 30,
+    "n_sampled": 30,
+    "event_median": 0.6722,
+    "quartiles": [
+      0.5871,
+      0.6929,
+      0.7221,
+      0.75,
+      0.8077
+    ],
+    "pct_above_0_5": 100.0,
+    "pct_above_0_7": 63.3,
+    "pct_above_event_median": 83.3
+  }
+}

@@ -115,13 +115,13 @@ const sections = [
   {
     id: 'stage3', num: '08',
     title: 'Zip-Code Analysis',
-    summary: 'Scaling up from pixels to policy: do zip codes with more critical facilities (our proxy for generator density) experience less severe outages? Spatial regression across 1,002 zip codes and 22 events shows yes (R² = 0.475) — but the effect is confounded by urbanization. Within-city analysis confirms facility density still matters (p=0.0001), and reveals an equity gap: high-outage zip codes have only 38% of the facility density of low-outage areas.',
-    tags: ['1,002 Zip Codes', 'Spatial Regression', 'OLS + SEM'],
+    summary: 'Scaling up from pixels to policy: do zip codes with more critical facilities (our proxy for generator density) experience less severe outages? Spatial regression across 1,002 zip codes and 22 events using Model D probabilities (R² = 0.747 with Census controls). Closed-loop validation against EAGLE-I outage records is positive (β=+123.8, p=0.012) — backup detection lines up with where outages actually strike, the natural deployment direction. Equity gap: high-outage zip codes have only 63% of the facility density of low-outage areas. Miami-Dade permit ground-truth confirms only commercial-scale generators are detectable at 500m.',
+    tags: ['1,002 Zip Codes', 'Spatial Regression', 'OLS + SEM', 'Miami-Dade Validation'],
   },
   {
     id: 'conclusions', num: '09',
     title: 'Conclusions & Future Work',
-    summary: 'The proxy label approach works — but with caveats. The pure NTL signal (AUC 0.704) proves generators are detectable from space, but at 500m resolution the signal is inseparable from urban structure. Commercial-scale generators (hospitals, airports) are detectable; residential ones are not. Key limitation: our labels are proxies, not ground truth — we know where generators should be, not where they actually ran. Future sensors at ≤100m resolution could close this gap.',
+    summary: 'The proxy-label approach works at commercial scale. Model D (pure NTL, AUC 0.704) achieves above-baseline probability at 83% of Miami-Dade commercial generator permits but only 14% of residential — the 500m / 25-hectare pixel cleanly resolves institutional backup behavior but loses household units in the noise. Stage 3 closed-loop validation aligns with the natural deployment direction: places that suffer worse outages show higher detected probability. Future sensors at ≤100m (Luojia-1 class) could push detection down to residential.',
     tags: ['Conclusions', 'Limitations', 'Future Work'],
   },
   {

@@ -25,6 +25,12 @@ const routes = [
     component: () => import('@/views/DocsDetailView.vue'),
     meta: { title: 'NightLight — Documentation' },
   },
+  {
+    path: '/slides',
+    name: 'Slides',
+    component: () => import('@/views/SlidesView.vue'),
+    meta: { title: 'NightLight — Presentation' },
+  },
 ]
 
 const router = createRouter({

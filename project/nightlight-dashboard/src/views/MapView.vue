@@ -55,11 +55,11 @@
           <div class="legend">
             <div class="legend__bar" :class="{ 'legend__bar--light': activeBasemap === 'positron' || activeBasemap === 'voyager' }" />
             <div class="legend__labels">
-              <span>0%</span>
-              <span>50%</span>
-              <span>100%</span>
+              <span>{{ activeProbStats ? (activeProbStats.min * 100).toFixed(0) + '%' : 'low' }}</span>
+              <span>{{ activeProbStats ? (activeProbStats.p50 * 100).toFixed(0) + '%' : 'med' }}</span>
+              <span>{{ activeProbStats ? (activeProbStats.max * 100).toFixed(0) + '%' : 'high' }}</span>
             </div>
-            <div class="legend__caption">Predicted backup power probability</div>
+            <div class="legend__caption">Predicted backup power probability (per-event quantile scale)</div>
             <div class="legend__caption" style="font-size:9px; margin-top:2px">Heatmap at low zoom · Exact colors at high zoom</div>
           </div>
         </div>
@@ -261,6 +261,7 @@ let map            = null
 
 const activeEventId    = ref(null)
 const activeEvent      = ref(null)
+const activeProbStats  = ref(null)   // { min, p10, p50, p90, max } of currently displayed event
 const sidebarCollapsed = ref(false)
 const eventPanelCollapsed = ref(false)
 const popup = ref({ visible: false, x: 0, y: 0, name: '', facilityType: '', probability: 0 })
@@ -840,21 +841,24 @@ async function addEventLayers(ev) {
   })
 
   // Circle layer (visible at zoom > 12, fades in — exact probability colors)
-  const circleColor = light
-    ? ['interpolate', ['linear'], ['get', 'probability'],
-        0,   '#000078',
-        0.2, '#003cb4',
-        0.4, '#0082c8',
-        0.6, '#c80050',
-        0.8, '#dc3200',
-        1,   '#8c0000']
-    : ['interpolate', ['linear'], ['get', 'probability'],
-        0,   '#410082',
-        0.2, '#b4003c',
-        0.4, '#ff5000',
-        0.6, '#ffaa00',
-        0.8, '#b4ff64',
-        1,   '#ffffff']
+  // Use per-event percentiles so the color range adapts to each event's distribution
+  // (Model D's mean_prob is concentrated around 0.5–0.7 so a fixed 0–1 ramp would look monochrome)
+  const stopsPalette = light
+    ? ['#000078', '#003cb4', '#0082c8', '#c80050', '#dc3200', '#8c0000']
+    : ['#410082', '#b4003c', '#ff5000', '#ffaa00', '#b4ff64', '#ffffff']
+  const cs = probStats
+  // Ensure strict monotonicity (MapLibre requires increasing stop values)
+  let rawStops = [cs.min, cs.p10, cs.p50, (cs.p50 + cs.p90) / 2, cs.p90, cs.max]
+  let prev = -Infinity
+  const stops = rawStops.map(v => { const x = v <= prev ? prev + 1e-6 : v; prev = x; return x })
+  const circleColor = ['interpolate', ['linear'], ['get', 'probability'],
+    stops[0], stopsPalette[0],
+    stops[1], stopsPalette[1],
+    stops[2], stopsPalette[2],
+    stops[3], stopsPalette[3],
+    stops[4], stopsPalette[4],
+    stops[5], stopsPalette[5],
+  ]
   // Outer glow ring
   map.addLayer({
     id: `prob-glow-${ev.id}`,
@@ -1220,6 +1224,9 @@ async function flyToEvent(ev) {
     await addEventLayers(ev)
   }
 
+  // Surface this event's prob distribution to the legend
+  activeProbStats.value = dataCache[ev.id]?.probStats ?? null
+
   map?.flyTo({
     center: ev.center,
     zoom:   ev.zoom,
@@ -1231,6 +1238,7 @@ async function flyToEvent(ev) {
 function backToOverview() {
   activeEventId.value = null
   activeEvent.value   = null
+  activeProbStats.value = null
   popup.value.visible = false
   pixelTip.value.visible = false
 

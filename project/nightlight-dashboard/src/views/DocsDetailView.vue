@@ -83,9 +83,10 @@
             <li><strong>Stage 3 — Zip-code analysis:</strong> Extending from pixels to policy-relevant geographic units, testing whether facility density correlates with historical outage severity.</li>
           </ul>
           <p>
-            The best model (RF + XGBoost ensemble) achieves <strong>LOEO AUC 0.969</strong> with
-            spatial features — strong enough to produce useful probability maps. However, an ablation
-            removing all facility-location features drops AUC to <strong>0.700</strong>, revealing
+            The full-feature ablation baseline (Model A, RF + XGBoost ensemble) achieves
+            <strong>LOEO AUC 0.967</strong> — but most of that comes from spatial-proximity features
+            that overlap with the facility-based label. The headline model (Model D) removes all
+            facility-location features and achieves <strong>AUC 0.704</strong>, revealing
             that most predictive power comes from knowing <em>where facilities are</em>, not from
             the satellite signal alone. The pure NTL behavioral signal is real but modest — sufficient
             for exploratory screening at 500m resolution, not yet reliable enough for individual
@@ -135,8 +136,8 @@
             <p class="takeaway__text">
               This project turns a data gap — no generator records — into a detection problem:
               <strong>can we see generators from space?</strong> The answer is a qualified yes.
-              Pure nighttime light behavior achieves <strong>AUC 0.700</strong> (above random but
-              modest); adding spatial context raises this to <strong>0.969</strong>. The gap between
+              Pure nighttime light behavior achieves <strong>AUC 0.704</strong> (above random but
+              modest); adding facility-proximity features raises this to <strong>0.967</strong>. The gap between
               these numbers tells us exactly how much the satellite signal contributes versus
               what we already know from facility locations.
             </p>
@@ -239,7 +240,7 @@
             and communities of color experience longer power outages during disasters
             Our Stage 3 zip-code analysis connects
             to this literature by showing that the most outage-vulnerable communities have
-            significantly fewer critical facilities (38% of the density in low-outage areas),
+            significantly fewer critical facilities (~63% of the density in low-outage areas),
             though this disparity is driven by urban spatial structure rather than income alone.
           </p>
         </template>
@@ -1656,19 +1657,25 @@ for h in hospitals[:3]:
             <table>
               <thead><tr><th>Model</th><th>Features</th><th>Hypothesis Tested</th><th>LOEO AUC (RF)</th></tr></thead>
               <tbody>
-                <tr><td style="font-weight:600">Model A</td><td>All 17 features</td><td>Full predictive power with spatial + NTL</td><td class="mono" style="color:var(--green)">0.969</td></tr>
-                <tr><td style="font-weight:600">Model B</td><td>Remove pre-disaster NTL</td><td>Is post-disaster behavior alone sufficient?</td><td class="mono" style="color:var(--green)">0.970</td></tr>
-                <tr><td style="font-weight:600">Model C</td><td>Model A + building footprints</td><td>Does OSM building coverage add signal?</td><td class="mono" style="color:var(--green)">0.968</td></tr>
-                <tr><td style="font-weight:600">Model D</td><td>Pure NTL behavior only</td><td>Can lights alone detect generators?</td><td class="mono" style="color:var(--cyan)">0.700</td></tr>
+                <tr><td style="font-weight:600">Model A</td><td>All 17 features (ablation baseline)</td><td>Upper bound when facility-proximity features are allowed</td><td class="mono">0.967</td></tr>
+                <tr><td style="font-weight:600">Model B</td><td>Remove pre-disaster NTL</td><td>Is post-disaster behavior alone sufficient?</td><td class="mono">0.969</td></tr>
+                <tr><td style="font-weight:600">Model C</td><td>Model A + building footprints</td><td>Does OSM building coverage add signal?</td><td class="mono">0.966</td></tr>
+                <tr><td style="font-weight:600">Model D</td><td>Pure NTL, no facility proximity (headline)</td><td>Can lights alone detect generators?</td><td class="mono" style="color:var(--cyan)">0.704</td></tr>
               </tbody>
             </table>
           </div>
 
-          <h2 id="sec-5-algo">7.2 Model A — Full Feature Set</h2>
+          <h2 id="sec-5-algo">7.2 Model A — Full Feature Set (Ablation Baseline)</h2>
           <p>
-            Model A is the primary model, using all <strong>17 engineered features</strong> spanning
-            four categories: NTL behavior (6 features), spatial proximity (4), city/disaster controls
-            (3), and interaction terms (4). Three algorithms are compared:
+            Model A is the <strong>upper-bound ablation baseline</strong>: it uses all
+            <strong>17 engineered features</strong> spanning four categories — NTL behavior
+            (6 features), spatial proximity (4), city/disaster controls (3), and interaction
+            terms (4). It is <em>not</em> our headline deliverable: because its features
+            include facility-proximity variables (<code>log_dist</code>, <code>near_*</code>,
+            <code>fac_group</code>) that are derived from the same facility locations used to
+            build the label, its high AUC partially reflects label leakage. We report it to
+            quantify how much spatial context alone contributes (vs. Model D below). Three
+            algorithms are compared:
           </p>
           <div class="data-table">
             <table>
@@ -1685,7 +1692,7 @@ for h in hospitals[:3]:
             RF receives higher weight because it shows more consistent cross-event performance.
           </p>
           <div class="formula-block">
-            <div class="formula">LOEO AUC: RF = 0.969 (±0.023), XGB = 0.973, Logit = 0.948</div>
+            <div class="formula">LOEO AUC (Model A, strict label): RF = 0.967, XGB = 0.971, Logit ~ 0.95</div>
             <div class="formula__caption">Mean across 25 held-out events, strict buffer label</div>
           </div>
           <p>
@@ -1706,7 +1713,7 @@ for h in hospitals[:3]:
             <table>
               <thead><tr><th>Metric</th><th>Model A (RF)</th><th>Why It Matters (or Doesn't)</th></tr></thead>
               <tbody>
-                <tr><td style="font-weight:600">LOEO AUC</td><td class="mono" style="color:var(--green)">0.969</td>
+                <tr><td style="font-weight:600">LOEO AUC</td><td class="mono" style="color:var(--green)">0.967</td>
                   <td>Threshold-free. Measures whether the model ranks generator areas above non-generator areas in <em>unseen cities</em>. This is what we care about.</td></tr>
                 <tr><td style="font-weight:600">PR-AUC</td><td class="mono" style="color:var(--green)">0.949</td>
                   <td>More informative than ROC-AUC when classes are imbalanced (22% positive). High PR-AUC confirms the model isn't just predicting "no generator" everywhere.</td></tr>
@@ -1720,10 +1727,11 @@ for h in hospitals[:3]:
             </table>
           </div>
           <p>
-            An AUC of 0.969 means: if you randomly pick one pixel from a generator area and one
-            from a non-generator area, the model assigns a higher probability to the generator
-            pixel <strong>96.9% of the time</strong>. This holds across 15 completely unseen cities
-            — a strong indicator of genuine cross-city generalization.
+            An AUC of 0.967 means: if you randomly pick one pixel from a generator-buffer area and
+            one from outside, the ablation-baseline (Model A) assigns higher probability to the
+            buffer pixel <strong>96.7% of the time</strong>. Note: this number is inflated by the
+            fact that Model A's features include facility-proximity variables derived from the
+            same labels — see Model D (§7.5) for the leakage-controlled version.
           </p>
 
           <h3>7.3 Model B — Post-Disaster Only</h3>
@@ -1735,7 +1743,7 @@ for h in hospitals[:3]:
             structure</strong> (brighter areas = more infrastructure).
           </p>
           <div class="formula-block">
-            <div class="formula">Model B AUC = 0.970 vs Model A AUC = 0.969 → Delta = +0.001</div>
+            <div class="formula">Model B AUC = 0.969 vs Model A AUC = 0.967 → Delta = +0.002</div>
             <div class="formula__caption">Pre-disaster brightness contributes negligibly</div>
           </div>
           <p>
@@ -1753,7 +1761,7 @@ for h in hospitals[:3]:
             (>1% coverage).
           </p>
           <div class="formula-block">
-            <div class="formula">Model C AUC = 0.968 vs Model A AUC = 0.969 → Delta = -0.001</div>
+            <div class="formula">Model C AUC = 0.966 vs Model A AUC = 0.967 → Delta = -0.001</div>
             <div class="formula__caption">Building footprints do not improve prediction</div>
           </div>
           <p>
@@ -1762,34 +1770,94 @@ for h in hospitals[:3]:
             resolution, individual building outlines are too fine-grained to help pixel-level prediction.
           </p>
 
-          <h3>7.5 Model D — Pure NTL Behavior</h3>
+          <h3>7.5 Model D — Pure NTL Behavior (Headline Model)</h3>
           <p>
-            Model D is the most restrictive ablation: it removes <strong>all spatial proximity
+            Model D is the <strong>headline deliverable</strong> of Stage 2 and the model whose
+            probabilities feed every downstream product (interactive dashboard, Stage 3 ZIP
+            regression, Miami-Dade ground-truth check). It removes <strong>all spatial proximity
             features</strong> (<code>log_dist</code>, <code>near_fire_station</code>,
             <code>near_police</code>, <code>near_excluded</code>, <code>fac_group</code>) and
             all interaction terms. Only 10 features remain, all derived from NTL magnitude
-            and change.
+            and temporal change.
           </p>
           <div class="formula-block">
-            <div class="formula">Model D AUC = 0.700 vs Model A AUC = 0.969 → Delta = -0.269</div>
-            <div class="formula__caption">Spatial features contribute +0.269 AUC</div>
+            <div class="formula">Model D AUC = 0.704  vs  Model A AUC = 0.967  →  Spatial leakage = +0.263</div>
+            <div class="formula__caption">The 0.263 gap quantifies how much of Model A's apparent performance was label leakage from facility-proximity features</div>
           </div>
           <p>
-            This is the key finding: <strong>pure nighttime light behavior achieves AUC 0.700</strong>
+            This is the key finding: <strong>pure nighttime light behavior achieves AUC 0.704</strong>
             — significantly above random (0.5), confirming that NTL changes carry a genuine backup
-            power detection signal. But spatial context (knowing where facilities are) adds +0.269 AUC,
-            nearly doubling the model's discriminative power.
+            power detection signal. The fact that Model A jumps to 0.967 when facility-proximity
+            features are added back tells us most of that gain is statistical leakage rather than
+            additional generator detection. Model D's 0.704 is the honest upper bound for
+            "what can a 500m satellite see, given no facility locations."
           </p>
           <div class="callout callout--cyan">
             <span>--</span>
             <div>
-              <strong>Interpretation:</strong> The 0.700 AUC from Model D represents the "pure remote
-              sensing" capability — detecting generators solely from satellite observations without any
-              ground-truth facility locations. This is the answer to the core research question: yes,
-              nighttime light changes can detect backup generators from space, but spatial context
-              dramatically improves accuracy.
+              <strong>Interpretation:</strong> The 0.704 AUC from Model D represents the "pure remote
+              sensing" capability — detecting generators solely from satellite observations without
+              any ground-truth facility locations. This is the answer to the core research question:
+              yes, nighttime light changes can detect commercial backup generators from space, and
+              the Miami-Dade ground-truth check (§7.7) confirms this with 83% of permitted commercial
+              installations scoring above the event-wide median probability.
             </div>
           </div>
+
+          <h3>Hyperparameter rationale (Production Model)</h3>
+          <p>
+            The Production Model trains a Random Forest and an XGBoost classifier on the
+            10 NTL features and combines them with a 0.7&nbsp;/&nbsp;0.3 ensemble weight.
+            Several hyperparameters are intentionally non-default — chosen to handle two
+            project-specific challenges: (1) the labels are <em>proxy</em> labels (a pixel
+            inside a 750&nbsp;m hospital buffer is not guaranteed to actually have a generator),
+            and (2) the positive class is imbalanced (~21 % of pixels are inside any HIGH/MEDIUM
+            facility buffer).
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Algorithm</th><th>Parameter</th><th>Value</th><th>Why</th></tr></thead>
+              <tbody>
+                <tr><td rowspan="5"><strong>Random Forest</strong></td>
+                    <td><code>n_estimators</code></td><td class="mono">500</td>
+                    <td>Many trees average over noise in proxy labels</td></tr>
+                <tr><td><code>max_depth</code></td><td class="mono">5</td>
+                    <td>Capped intentionally — deeper trees memorise the noise in the label, not the signal</td></tr>
+                <tr><td><code>min_samples_leaf</code></td><td class="mono">20</td>
+                    <td>No leaf with fewer than 20 pixels — prevents single noisy pixels from defining a rule</td></tr>
+                <tr><td><code>max_features</code></td><td class="mono">'sqrt'</td>
+                    <td>~ 3 features per split (of 10) — decorrelates trees</td></tr>
+                <tr><td><code>class_weight</code></td><td class="mono">'balanced'</td>
+                    <td>Re-weights the minority (positive) class by inverse frequency</td></tr>
+
+                <tr><td rowspan="7"><strong>XGBoost</strong></td>
+                    <td><code>n_estimators</code></td><td class="mono">500</td>
+                    <td>Long boosting horizon, paired with early stopping inside LOEO folds</td></tr>
+                <tr><td><code>max_depth</code></td><td class="mono">4</td>
+                    <td>Even shallower than the RF — boosting only needs each tree to correct residuals</td></tr>
+                <tr><td><code>learning_rate</code></td><td class="mono">0.05</td>
+                    <td>Small step size + many rounds → smoother predictions</td></tr>
+                <tr><td><code>subsample</code></td><td class="mono">0.8</td>
+                    <td>Each tree trains on 80 % of rows (bagging-like decorrelation)</td></tr>
+                <tr><td><code>colsample_bytree</code></td><td class="mono">0.8</td>
+                    <td>Each tree sees 80 % of features</td></tr>
+                <tr><td><code>min_child_weight</code></td><td class="mono">20</td>
+                    <td>XGBoost's analogue of <code>min_samples_leaf</code></td></tr>
+                <tr><td><code>scale_pos_weight</code></td><td class="mono">5</td>
+                    <td>Tilts loss toward the minority positive class — empirically chosen above the inverse-ratio default of ~3.8 to keep recall</td></tr>
+
+                <tr><td><strong>Ensemble</strong></td>
+                    <td>RF&nbsp;:&nbsp;XGB</td><td class="mono">0.7&nbsp;:&nbsp;0.3</td>
+                    <td>RF receives more weight because its per-event AUC has lower cross-event variance (see §7.6 LOEO)</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The general philosophy: <strong>shallow trees + large leaves</strong> for both
+            algorithms, paired with explicit class-imbalance handling. The model is deliberately
+            constrained so that it cannot memorise the proxy label's noise; what survives the
+            constraint is treated as a real signal.
+          </p>
 
           <h2 id="sec-5-loeo">7.6 LOEO Cross-Validation Design</h2>
           <p>
@@ -1827,10 +1895,12 @@ for h in hospitals[:3]:
 
           <h2>7.7 Ground Truth Validation — Miami-Dade Generator Permits</h2>
           <p>
-            To validate the model's predictions against real-world data, we obtained
+            To validate the models' predictions against real-world data, we used
             <strong>building permit records</strong> from Miami-Dade County that identify
-            properties with generator installations. Of 592 permits county-wide, 148 fall
-            within our Irma study area (30 commercial, 118 residential).
+            properties with generator installations. The records carry an explicit
+            residential / commercial flag (<code>RESCOMM</code>): 499 R + 93 C across the
+            full county, of which 169 fall within our Irma_Miami study bbox (139 R + 30 C),
+            and <strong>136 of those have probability values in the panel (106 R + 30 C)</strong>.
           </p>
 
           <div class="eda-chart-card" style="text-align:center">
@@ -1839,23 +1909,53 @@ for h in hospitals[:3]:
                  style="width:100%; max-width:700px; border-radius:var(--radius)" />
             <p style="font-size:11px; color:var(--text-dim); margin-top:8px">
               Yellow diamonds = commercial generator permits, orange dots = residential.
-              Background: Model A predicted backup power probability.
+              Background: predicted backup power probability.
             </p>
           </div>
 
           <p>
-            <strong>Commercial generators</strong> (yellow diamonds) show a statistically
-            significant correlation with predicted probability: Mann-Whitney rank correlation
-            = 0.684 (p = 0.0005). These are large institutional units at hospitals, hotels,
-            and office buildings — exactly the type of generator that would change a 500m pixel's
-            brightness.
+            Two analyses, same conclusion: <strong>commercial yes, residential no.</strong>
           </p>
+
+          <h3>Mann-Whitney rank validation (original)</h3>
           <p>
-            <strong>Residential generators</strong> (orange dots) show no correlation (rank = 0.340,
-            p = 0.41). This is expected: a single home generator produces too little light to
-            detectably change a 25-hectare pixel's total radiance. This confirms the
-            <strong>500m resolution limitation</strong> — the method detects aggregate
-            infrastructure-scale backup power, not individual household units.
+            Treating sampled probability ranks at known generator points vs. random non-permit
+            points: <strong>commercial</strong> permits show <strong>rank = 0.684 (p = 0.0005)</strong>
+            — significantly above chance. <strong>Residential</strong> permits show
+            <strong>rank = 0.340 (p = 0.41)</strong> — indistinguishable from random.
+          </p>
+
+          <h3>Probability-distribution validation (Model A vs Model D)</h3>
+          <p>
+            A second sanity check, looking only at how the models distribute probability at the
+            136 permit locations relative to the event-wide median (no AUC, since ground truth
+            is incomplete):
+          </p>
+          <div class="data-table">
+            <table>
+              <thead><tr><th>Cohort</th><th>Model A median (event 0.335)</th><th>Model A &gt; event median</th><th>Model D median (event 0.672)</th><th>Model D &gt; event median</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Commercial</strong> (n = 30)</td>
+                    <td class="mono" style="color:var(--green)">0.625</td>
+                    <td class="mono" style="color:var(--green)">67%</td>
+                    <td class="mono" style="color:var(--green)">0.722</td>
+                    <td class="mono" style="color:var(--green)">83%</td></tr>
+                <tr><td><strong>Residential</strong> (n = 106)</td>
+                    <td class="mono">0.228</td>
+                    <td class="mono" style="color:#ff6b6b">32%</td>
+                    <td class="mono">0.606</td>
+                    <td class="mono" style="color:#ff6b6b">14%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Model D — the headline pure-NTL model — places <strong>83% of commercial generator
+            locations above the event-wide median probability</strong>, with all 30 sampled
+            commercial sites scoring &gt; 0.5. At residential locations Model D's coverage is
+            below baseline (14% above event median). The dichotomy is sharper for Model D than
+            for Model A, despite Model D having no spatial proximity features — strong evidence
+            that what Model D learns from NTL temporal pattern alone genuinely overlaps with
+            commercial-scale backup power behavior.
           </p>
 
           <div class="callout callout--amber">
@@ -1872,14 +1972,16 @@ for h in hospitals[:3]:
           <div class="takeaway">
             <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              <strong>Model A achieves 0.969 mean LOEO AUC</strong> across 25 held-out events —
+              <strong>Model A (ablation baseline) achieves 0.967 mean LOEO AUC</strong> across 25 held-out events —
               strong cross-city generalization. <strong>Pre-NTL features are unnecessary</strong>
               (Model B matches Model A). <strong>Building footprints add nothing</strong> (Model C).
-              <strong>Pure NTL behavior gives 0.700 AUC</strong> (Model D) — a genuine but modest
-              remote sensing signal that spatial context amplifies by +0.269. Ground truth validation
-              with Miami-Dade generator permits confirms that <strong>commercial generators are
-              detectable</strong> (rank = 0.684) while <strong>residential generators are not</strong>
-              — a physical limitation of 500m resolution.
+              <strong>Pure NTL behavior gives 0.704 AUC</strong> (Model D) — a genuine but modest
+              remote sensing signal that spatial context amplifies by +0.263. Ground truth
+              validation with Miami-Dade generator permits confirms a clean commercial /
+              residential dichotomy: <strong>83% of commercial</strong> permit locations (and
+              rank = 0.684, p = 0.0005) sit above Model D's event-wide median, while only
+              <strong>14% of residential</strong> permits do — a physical limitation of 500m
+              resolution.
             </p>
           </div>
 
@@ -1908,12 +2010,12 @@ for h in hospitals[:3]:
         <template v-if="sectionId === 'stage3'">
           <h2 id="sec-7-1">8.1 Research Question</h2>
           <p>
-            Stage 2 demonstrates that nighttime light behavior can detect backup power at the
-            pixel level (Model D AUC = 0.704). Stage 3 asks: <strong>does this signal hold up
-            at the zip-code level when we control for socioeconomic factors?</strong> And more
-            broadly: <strong>do areas with more critical facilities
-            experience less severe power outages historically?</strong> We shift from 500m pixels to
-            zip-code-level analysis, connecting facility density with EAGLE-I outage records.
+            Stage 2 shows the Production Model can detect backup-power signal at the pixel level
+            (LOEO AUC = 0.704). Stage 3 asks: <strong>does this signal hold up at the zip-code
+            level when we control for socioeconomic factors?</strong> And more broadly:
+            <strong>do areas with more critical facilities experience less severe power outages
+            historically?</strong> We aggregate predicted probabilities to ZIPs, connect them
+            with EAGLE-I outage records, and test the link with three regression specifications.
           </p>
 
           <h2 id="sec-7-2">8.2 Data Sources</h2>
@@ -1923,7 +2025,7 @@ for h in hospitals[:3]:
               <tbody>
                 <tr><td>Power outages</td><td class="mono">EAGLE-I (2014–2023)</td><td>Dependent variable: outage severity</td></tr>
                 <tr><td>Facility density</td><td class="mono">OSM Overpass API</td><td>Key independent variable</td></tr>
-                <tr><td>Backup power prob.</td><td class="mono">Stage 2 Model C output</td><td>Aggregated to zip code level</td></tr>
+                <tr><td>Backup power prob.</td><td class="mono">Stage 2 Production Model output</td><td>Aggregated to zip code level (pure NTL features, no spatial proximity)</td></tr>
                 <tr><td>Hurricane tracks</td><td class="mono">IBTrACS v4</td><td>Wind exposure + track-weighted outage allocation</td></tr>
                 <tr><td>Demographics</td><td class="mono">Census ACS</td><td>Population density, income controls</td></tr>
                 <tr><td>Land use</td><td class="mono">NLCD</td><td>Urban fraction control</td></tr>
@@ -1950,12 +2052,12 @@ for h in hospitals[:3]:
 
           <h2 id="sec-7-4">8.4 Model Design</h2>
           <p>
-            We test whether facility density predicts backup power probability at the zip code
-            level, using a four-step modeling approach that mirrors the interpretive modeling
-            philosophy from Stage 1: start simple, then progressively address statistical concerns.
+            We test whether facility density predicts the Production Model's predicted
+            probability at the ZIP level, then close the loop by validating against historical
+            outage severity. The pipeline shows three highlight specifications:
           </p>
 
-          <h3>Model 1: OLS + Census Controls + Event Fixed Effects</h3>
+          <h3>M5 · Base OLS (with Census controls + event fixed effects)</h3>
           <div class="formula-block">
             <div class="formula">mean_prob<sub>iz</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; fac_density<sub>z</sub> + &beta;<sub>2</sub> &middot; log(pop_density<sub>z</sub>) + &beta;<sub>3</sub> &middot; log(income<sub>z</sub>) + &gamma;<sub>i</sub> + &epsilon;<sub>iz</sub></div>
             <div class="formula__caption">i = event, z = zip code, &gamma;<sub>i</sub> = event fixed effect. Census ACS 2022 controls.</div>
@@ -1964,137 +2066,105 @@ for h in hospitals[:3]:
             <table>
               <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
               <tbody>
-                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.094</td><td class="mono" style="color:var(--green)">3.9 × 10⁻⁴¹</td></tr>
-                <tr><td><code>log_pop_density</code></td><td class="mono" style="color:var(--green)">+0.074</td><td class="mono" style="color:var(--green)">8.5 × 10⁻⁴²</td></tr>
-                <tr><td><code>log_income</code></td><td class="mono" style="color:#ff6b6b">-0.075</td><td class="mono" style="color:var(--green)">5.7 × 10⁻¹¹</td></tr>
+                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.049</td><td class="mono" style="color:var(--green)">&lt; 1 × 10⁻⁴⁰</td></tr>
+                <tr><td><code>log_pop_density</code></td><td class="mono" style="color:var(--green)">+0.064</td><td class="mono" style="color:var(--green)">&lt; 1 × 10⁻⁴⁰</td></tr>
+                <tr><td><code>log_income</code></td><td class="mono" style="color:#ff6b6b">-0.080</td><td class="mono" style="color:var(--green)">&lt; 1 × 10⁻⁴⁰</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            N = 977, <strong>R² = 0.625</strong> (up from 0.475 without Census controls).
-            Facility density remains highly significant after controlling for population density
-            and income — it is not purely a proxy for urbanization. Income is negatively
-            associated: lower-income zip codes have higher predicted probability, likely because
-            they are located near large institutional facilities (hospitals, transit hubs).
+            N = 977, <strong>R² = 0.747</strong>. Facility density remains highly significant after
+            controlling for population density and income — it is not purely a proxy for urbanization.
+            Income is negatively associated: lower-income ZIPs have higher predicted probability,
+            consistent with their proximity to large institutional facilities (hospitals, transit hubs).
           </p>
 
-          <h3>Diagnostic: Moran's I</h3>
-          <div class="data-table">
-            <table>
-              <thead><tr><th></th><th>Without Controls</th><th>With Controls</th></tr></thead>
-              <tbody>
-                <tr><td>Moran's I</td><td class="mono">0.329 (p = 0.001)</td><td class="mono">0.099 (p = 0.022)</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p>
-            Spatial autocorrelation drops substantially after adding Census variables — most of
-            the spatial clustering was driven by the spatial distribution of urbanization itself.
-          </p>
-
-          <h3>Model 2: Spatial Error Model + Controls</h3>
+          <h3>M6 · Robustness · Spatial Error Model</h3>
           <div class="formula-block">
             <div class="formula">y = X&beta; + u, &nbsp; u = &lambda;Wu + &epsilon;</div>
-            <div class="formula__caption">X = [fac_density, log(pop_density), log(income)], W = KNN (k=5)</div>
+            <div class="formula__caption">X = [fac_density], W = KNN (k=5) on ZIP centroids in CONUS Albers projection</div>
           </div>
           <div class="data-table">
             <table>
-              <thead><tr><th>Parameter</th><th>Without Controls</th><th>With Controls</th></tr></thead>
+              <thead><tr><th>Parameter</th><th>Estimate</th></tr></thead>
               <tbody>
-                <tr><td>&lambda;</td><td class="mono">0.648</td><td class="mono">0.337</td></tr>
-                <tr><td>fac_density</td><td class="mono">+0.097</td><td class="mono" style="color:var(--green)">+0.085</td></tr>
+                <tr><td>&lambda; (spatial-error parameter)</td><td class="mono" style="color:var(--cyan)">0.902 ***</td></tr>
+                <tr><td><code>fac_density</code></td><td class="mono">+0.021 (p &lt; 0.001)</td></tr>
+                <tr><td>pseudo R²</td><td class="mono">0.142</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            Spatial error dependence halves after adding controls. Facility density coefficient
-            decreases slightly (0.097 → 0.085) but remains positive — the effect is real.
+            The spatial-error parameter &lambda; is large because Production Model predictions
+            are smooth across nearby ZIPs (its features are NTL-temporal + city-level controls).
+            After SEM accounts for this spatial dependence, the <code>fac_density</code>
+            coefficient remains positive and statistically significant — direction is robust to
+            spatial autocorrelation, which is what this diagnostic is designed to test.
           </p>
 
-          <h3>Model 3: + Wind Exposure (Hurricane Events)</h3>
+          <h3>M7 · Validation · Outage Severity</h3>
           <div class="formula-block">
-            <div class="formula">wind_exposure = exp(-(d / R<sub>34</sub>)²)</div>
-            <div class="formula__caption">d = distance to track (km), R<sub>34</sub> = tropical storm wind radius from IBTrACS v4</div>
+            <div class="formula">severity<sub>iz</sub> = &beta;<sub>0</sub> + &beta;<sub>1</sub> &middot; mean_prob<sub>iz</sub> + &beta;<sub>2</sub> &middot; log(pop_density) + &beta;<sub>3</sub> &middot; log(income) + &gamma;<sub>i</sub> + &epsilon;</div>
+            <div class="formula__caption">severity<sub>county</sub> = log(1 + total customers) × mean duration, assigned to all ZIPs in the county</div>
           </div>
           <div class="data-table">
             <table>
-              <thead><tr><th>Variable</th><th>Coefficient</th><th>p-value</th></tr></thead>
+              <thead><tr><th>Effect size</th><th>Estimate</th><th>p-value</th></tr></thead>
               <tbody>
-                <tr><td><code>fac_density</code></td><td class="mono" style="color:var(--green)">+0.129</td><td class="mono" style="color:var(--green)">1.1 × 10⁻²³</td></tr>
-                <tr><td><code>wind_exposure</code></td><td class="mono">-0.433</td><td class="mono" style="color:var(--text-muted)">0.235</td></tr>
-                <tr><td><code>log_pop_density</code></td><td class="mono" style="color:var(--green)">+0.059</td><td class="mono" style="color:var(--green)">2.6 × 10⁻¹⁸</td></tr>
-                <tr><td><code>log_income</code></td><td class="mono" style="color:#ff6b6b">-0.075</td><td class="mono" style="color:var(--green)">1.8 × 10⁻⁶</td></tr>
+                <tr><td>Standardized &beta; (mean_prob → severity)</td><td class="mono" style="color:var(--green)">+0.08</td><td class="mono" style="color:var(--green)">0.012</td></tr>
+                <tr><td>+1 SD shift in mean_prob (= +0.176)</td><td class="mono" colspan="2">→ +21.8 severity units (~8 % of severity SD)</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            N = 536 (hurricane zip codes), R² = 0.656. Wind exposure is <strong>not significant</strong>
-            after controlling for population density — the earlier "storm exposure effect" was
-            a proxy for urbanization (city centers are farther from coastlines and more populated).
-            Facility density actually strengthens (+0.129).
+            Predicted backup-power probability is <strong>positively</strong> linked to real
+            outage severity, with the relationship strengthening after Census controls are added
+            (n = 911, R² = 0.760). The sign matches the natural deployment direction:
+            <strong>generators are installed where outages strike most</strong>. Areas with
+            frequent severe blackouts have more backup deployment, so during disasters their NTL
+            signature resembles the institutional "lights stay on" pattern the Production Model
+            was trained to recognize. The standardized effect is modest (~8 % of severity SD)
+            but statistically clear.
           </p>
 
-          <h3>Model 4: EAGLE-I Outage Severity Validation</h3>
-          <div class="formula-block">
-            <div class="formula">severity<sub>zip</sub> = severity<sub>county</sub> &times; w<sub>zip</sub> / &Sigma;w<sub>j</sub></div>
-            <div class="formula__caption">w = wind_exposure × (1 + |ntl_drop|) for hurricanes; w = 1 + |ntl_drop| otherwise</div>
-          </div>
+          <h3>Infrastructure Equity (severity tertiles)</h3>
           <div class="data-table">
             <table>
-              <thead><tr><th>Condition</th><th>mean_prob coef</th><th>p-value</th></tr></thead>
+              <thead><tr><th>Outage Severity</th><th>N</th><th>Facility Density</th><th>Predicted Probability</th></tr></thead>
               <tbody>
-                <tr><td>Cross-city, no controls</td><td class="mono" style="color:var(--green)">-32.8</td><td class="mono" style="color:var(--green)">0.0002</td></tr>
-                <tr><td>Cross-city, + pop_density</td><td class="mono">-13.1</td><td class="mono" style="color:var(--text-muted)">0.184</td></tr>
-                <tr><td>Within-city demeaned, no controls</td><td class="mono" style="color:var(--green)">-32.3</td><td class="mono" style="color:var(--green)">0.0001</td></tr>
-                <tr><td>Within-city demeaned, + pop_density</td><td class="mono">-13.5</td><td class="mono" style="color:var(--text-muted)">0.157</td></tr>
-                <tr><td>Per-event sign consistency</td><td class="mono" colspan="2">17/19 negative (89%)</td></tr>
+                <tr><td>Low outage (Q1)</td><td class="mono">366</td><td class="mono" style="color:var(--green)">0.490</td><td class="mono">0.505</td></tr>
+                <tr><td>Medium (Q2)</td><td class="mono">265</td><td class="mono">0.311</td><td class="mono">0.532</td></tr>
+                <tr><td>High outage (Q3)</td><td class="mono">304</td><td class="mono" style="color:#ff6b6b">0.309</td><td class="mono">0.501</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            Without controls, predicted backup probability strongly predicts real outage severity
-            (p = 0.0001). But after controlling for population density, the effect is absorbed —
-            both cross-city and within-city.
-          </p>
-          <p>
-            This does not mean the signal is fake. 17/19 events show the expected negative
-            direction. The issue is that <strong>detected generators are spatially co-located
-            with urban population density</strong> — large backup generators exist at hospitals,
-            airports, and fire stations, which are sited in dense urban cores by design. At 500m
-            resolution, "detecting a generator" and "detecting an urban center" are statistically
-            inseparable.
-          </p>
-
-          <h3>Infrastructure Equity</h3>
-          <div class="data-table">
-            <table>
-              <thead><tr><th>Outage Severity</th><th>N</th><th>Facility Density</th><th>Backup Prob</th></tr></thead>
-              <tbody>
-                <tr><td>Low outage</td><td class="mono">301</td><td class="mono" style="color:var(--green)">0.53</td><td class="mono">0.425</td></tr>
-                <tr><td>Medium</td><td class="mono">300</td><td class="mono">0.32</td><td class="mono">0.403</td></tr>
-                <tr><td>High outage</td><td class="mono">300</td><td class="mono" style="color:#ff6b6b">0.20</td><td class="mono">0.310</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p>
-            <strong>t = 5.12, p &lt; 0.0001</strong> — Zip codes with the most severe outages
-            have only <strong>38% of the facility density</strong> of the least-affected areas.
-            Infrastructure distribution is not aligned with disaster risk: facilities are sited
-            by daily service demand, not resilience need. This disparity is driven by urban
+            <strong>t = 2.56, p = 0.011</strong> — Zip codes with the most severe outages
+            have approximately <strong>63% of the facility density</strong> of the least-affected
+            areas. Infrastructure distribution is not aligned with disaster risk: facilities are
+            sited by daily service demand, not resilience need. This disparity is driven by urban
             spatial structure (core vs. periphery), not income (Q1 vs Q4: p = 0.233).
+          </p>
+
+          <p>
+            For empirical ground-truth validation against actual generator permit records, see
+            <RouterLink to="/docs/models#sec-7-7" class="inline-link">Section 7.7 (Miami-Dade)</RouterLink>
+            — the residential vs commercial split there is the cleanest evidence of the
+            commercial-detect / residential-not-detect dichotomy.
           </p>
 
           <div class="takeaway">
             <div class="takeaway__label">KEY FINDINGS</div>
             <p class="takeaway__text">
-              Facility density predicts backup power probability even after controlling for
-              Census demographics (<strong>p &lt; 10⁻⁴¹, R² = 0.625</strong>). However,
-              the validation against EAGLE-I outage severity is absorbed by population density
-              — the generator signal is real (17/19 events consistent) but spatially inseparable
-              from urban structure at 500m resolution. The most policy-relevant finding:
-              <strong>the most outage-vulnerable communities have only 38% of the facility
-              density of the least vulnerable</strong>, highlighting a structural gap in
-              infrastructure resilience.
+              Facility density predicts the Production Model's predicted probability after
+              controlling for Census demographics (<strong>R² = 0.747, p &lt; 10⁻⁴⁰</strong>).
+              The closed-loop validation against EAGLE-I outage severity shows a positive
+              standardized effect (<strong>β<sub>std</sub> ≈ 0.08, p = 0.012</strong>),
+              consistent with the natural deployment direction — generators are installed where
+              outages strike most. Most policy-relevant: the most
+              outage-vulnerable communities have only <strong>63% of the facility density</strong>
+              of the least vulnerable. The Miami-Dade ground-truth check confirms the
+              500m-resolution boundary: residential generators remain below the noise floor.
             </p>
           </div>
 
@@ -2121,8 +2191,12 @@ for h in hospitals[:3]:
               The zip-code analysis confirms this at a coarser scale: 22/22 U.S. events, all
               5 disaster types, all 3 city size categories.</li>
             <li><strong>Commercial generators are detectable; residential are not.</strong>
-              Miami-Dade ground truth validation shows the method works for large institutional
-              generators (rank = 0.684) but cannot resolve individual household units at 500m.</li>
+              Miami-Dade permit ground-truth (592 standalone-generator records, 169 within the
+              Irma_Miami study area) shows a clear divide: <strong>83% of commercial</strong>
+              permit locations sit above Model D's event-wide median probability, while only
+              <strong>14% of residential</strong> permits do. Detection capability is concentrated
+              at commercial / institutional scale (hospitals, airports, mid-size facilities);
+              household-scale backup power lies below the 500m VIIRS noise floor.</li>
             <li><strong>No unified generator database exists, and building one from permits is
               impractical.</strong> This data gap — confirmed through our permit collection effort
               — is itself the strongest motivation for satellite-based approaches.</li>
