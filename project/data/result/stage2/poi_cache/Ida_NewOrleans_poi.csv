@@ -1,0 +1,251 @@
+facility_type,lon,lat,name
+hospital,-90.0959335,29.9260131,Community Care Hospital
+hospital,-90.0301286,29.8659914,United Medical Rehabilitation Hospitals
+hospital,-89.9478253,30.071367,Saint Catherine Memorial Hospital
+hospital,-90.0771038,29.9373014,Saint Charles Surgical Hospital
+hospital,-89.9756088,30.0292289,NOEH Emergency
+hospital,-90.1540213,29.961469,Ochsner Rehabilitation Hospital
+hospital,-90.1531322,29.9935673,Crescent City Surgical Centre
+hospital,-90.1244188,29.9253432,Children's Hospital Calhoun Campus
+hospital,-90.0921924,29.9260063,Touro Infirmary
+hospital,-90.1044117,29.9377578,Ochsner Baptist Medical Center
+hospital,-90.1455925,29.9609679,Ochsner Medical Center
+hospital,-90.0851361,29.9615183,Southeast Louisiana Veterans Health Care System
+hospital,-89.9748993,30.029192,New Orleans East Hospital
+hospital,-90.1866108,29.9972375,Tulane Lakeside Hospital for Women and Children
+hospital,-90.1811165,30.0137285,East Jefferson General Hospital
+hospital,-90.2023317,29.9623972,River Oaks Hospital
+hospital,-90.1842755,29.9632746,Ochsner Health Center - Elmwood
+hospital,-90.1276845,29.9177843,Childrens Hospital
+hospital,-90.0932279,29.924934,Seaside Behavioral Center
+hospital,-90.0821264,29.9594849,University Medical Center
+hospital,-90.0762701,29.9558065,Tulane Medical Center
+hospital,-90.0273339,29.8845972,Ochsner Medical Center - West Bank Campus
+hospital,-90.0944024,29.8917311,West Jefferson Medical Center
+hospital,-89.9886426,29.955125,Saint Bernard Parish Hospital
+hospital,-90.1592063,29.9991536,Omega Hospital
+aerodrome,-90.0206676,29.866889,Southern Seaplane Base
+aerodrome,-89.9247561,29.9412617,Fisher's Field
+aerodrome,-90.2644643,29.9939027,Louis Armstrong New Orleans International Airport
+aerodrome,-90.0251864,30.0425634,New Orleans Lakefront Airport
+aerodrome,-90.0694753,29.9030656,Jefferson Parish Sheriff's Office Heliport
+power_plant,-90.1483939,29.9461767,Nine Mile Point Power Plant
+power_plant,-89.9361608,30.0124567,New Orleans Power Station
+power_plant,-90.0237846,30.0111632,New Orleans Solar Power Plant
+power_plant,-90.0286101,29.9927789,TCI Alvar Solar Farm
+power_plant,-89.976945,29.9348957,CII Carbon LLC Oil Plant
+power_plant,-90.1622521,29.9241635,
+fire_station,-90.0577347,29.9621423,New Orleans Fire Department Engine 9
+fire_station,-90.176166,29.9300812,Bridge City Volunteer Fire Company
+fire_station,-90.12844,29.88551,Marrero - Ragusa Volunteer Fire Department
+fire_station,-90.09791,29.86317,Marrero - Estelle Volunteer Fire Department
+fire_station,-90.0726576,29.905419,Harvey Volunteer Fire Company
+fire_station,-90.0330128,29.911383,Terrytown Volunteer Fire Department
+fire_station,-90.11357,29.83092,Marrero - Estelle Volunteer Fire Department
+fire_station,-90.05506,29.8727,Harvey Volunteer Fire Company
+fire_station,-90.0318388,29.8856344,Terrytown Volunteer Fire Department
+fire_station,-90.0222384,29.8994903,Terrytown Volunteer Fire Department
+fire_station,-90.1091212,29.9849,New Orleans Fire Department Communications Division
+fire_station,-90.0472766,29.8969798,Gould Volunteer Fire Company
+fire_station,-90.20168,29.95379,Harahan Fire Department
+fire_station,-90.2254,29.96519,Jefferson Parish Third District Volunteer Fire Department
+fire_station,-90.0532403,29.9285484,Gould Volunteer Fire Company
+fire_station,-90.18949,29.96538,Eastbank Consolidated Fire Department
+fire_station,-90.03322,29.86296,Terrytown Volunteer Fire Department
+fire_station,-89.9292304,30.018969,New Orleans Fire Department Training Division
+fire_station,-90.2078186,29.8991764,Avondale Volunteer Fire Department
+fire_station,-90.1819609,29.9765163,Eastbank Consolidated Fire Department Station 16
+fire_station,-90.1816602,29.9765955,Eastbank Consolidated Fire Department Station 13
+fire_station,-90.1407606,29.9803678,Eastbank Consolidated Fire Department Station 14
+fire_station,-90.190679,29.9498077,Eastbank Consolidated Fire Department Station 19
+fire_station,-90.0842012,29.9249606,New Orleans Fire Department Engine 1
+fire_station,-90.1554264,30.0121772,Eastbank Consolidated Fire Department Station 18
+fire_station,-90.0713692,29.9626983,New Orleans Fire Department Haz Mat and Fire Rescue and Engine 7
+fire_station,-90.023588,30.0227648,New Orleans Fire Department Engine 4
+fire_station,-90.0949074,29.9349083,New Orleans Fire Department Engine 11
+fire_station,-90.0516875,30.0163482,New Orleans Fire Department Engine 12
+fire_station,-90.0358501,29.9835375,New Orleans Fire Department Engine 8
+fire_station,-90.0805322,29.9415185,New Orleans Fire Department Squirt 16 and Ladder 8
+fire_station,-90.1168014,29.9252685,New Orleans Fire Department Engine 15 and Ladder 5
+fire_station,-90.0776744,29.9572296,New Orleans Fire Department Squirt 14 and Ladder 2
+fire_station,-90.0516754,29.9484587,New Orleans Fire Department Engine 20
+fire_station,-90.1059702,30.0042732,New Orleans Fire Department Engine 18
+fire_station,-89.9934625,29.9133618,New Orleans Fire Department Engine 17
+fire_station,-90.0961363,29.9669384,New Orleans Fire Department Engine 26 and Ladder 9
+fire_station,-90.1200136,29.9568343,New Orleans Fire Department EngineNew Orleans Fire Department Engine 25 and Ladder 7
+fire_station,-90.0318362,29.9644188,New Orleans Fire Department Engine 24 and Ladder 4
+fire_station,-90.0140467,29.9655494,New Orleans Fire Department Engine 22
+fire_station,-90.0926621,29.9814122,New Orleans Fire Department Engine 35
+fire_station,-90.0204405,29.939908,New Orleans Fire Department Engine 33 and Ladder 6
+fire_station,-90.1394384,29.9630851,Eastbank Consolidated Fire Department Station 12
+fire_station,-90.0318841,29.9300822,New Orleans Fire Department Engine 40
+fire_station,-89.9685713,30.0273446,New Orleans Fire Department Squirt 36 and Ladder 13
+fire_station,-90.0139999,29.9656762,New Orleans Fire Department Engine 39
+fire_station,-90.1078652,29.9377172,New Orleans Fire Department Engine 38
+fire_station,-90.0696009,29.9448158,New Orleans Supply Division Fire Station
+fire_station,-90.0726773,29.9478138,New Orleans Second District Chief Office and Flying Squad Fire Station
+fire_station,-90.0956722,29.9012005,Marrero - Harvey Volunteer Fire Department
+fire_station,-90.0655128,29.9541504,New Orleans Fire Headquarters and Squirt 29 Fire Station
+fire_station,-90.2399856,30.028525,Kenner Fire Station 37
+fire_station,-90.0450137,29.8525541,Harvey Volunteer Fire Company
+fire_station,-89.9260801,30.0311371,New Orleans Fire Department Engine 37
+fire_station,-89.948739,30.0630172,New Orleans Fire Department Engine 10
+fire_station,-90.2398914,30.0175939,Kenner Fire Rescue 379
+fire_station,-90.218047,30.0119359,Eastbank Cosolidated Fire Department Station 17
+fire_station,-89.9840321,29.9561383,Saint Bernard Parish Fire Department
+fire_station,-90.0586198,29.9793169,New Orleans Fire Department Squirt 27
+fire_station,-90.2424063,29.9897321,Kenner Fire Station 35
+fire_station,-90.2408142,29.9969217,Chief William R. Mancuso Fire Headquarters
+fire_station,-90.1617586,29.9635158,Eastbank Consolidated Fire Department Station 11
+fire_station,-90.227979,29.9909342,Third District Volunteer Fire Department
+fire_station,-90.1347993,29.9972133,Jefferson Parish Fire Station 15
+fire_station,-90.1429052,29.9788882,East Bank Consolidated Fire Department
+fire_station,-90.22739,29.9121003,Herbert Wallace Memorial Volunteer Fire Department
+fire_station,-89.9905323,29.9583383,
+fire_station,-90.0740624,29.9979064,New Orleans Fire Department Engine 21
+fire_station,-90.0990329,30.0192073,New Orleans Fire Department Engine 13 and Ladder 12
+fire_station,-90.0359831,30.0034899,New Orleans Fire Department Engine 6 and Ladder 3
+police,-90.0862579,29.9437706,New Orleans Police Department
+police,-90.064315,29.9068556,Jefferson Parish Sheriff's Office
+police,-90.1430805,29.9087019,Westwego Police Station
+police,-90.0366164,29.9336253,Cresent City Connection Police Department
+police,-90.1933116,29.9386848,Harahan Police Department - Records
+police,-90.0346668,29.9705098,New Orleans Police Department Fifth District
+police,-90.1129405,29.8804125,Jefferson Parish Sheriff's Office
+police,-90.0656229,29.9480195,New Orleans Police Department - Gaming Division
+police,-90.1114508,29.8895886,Jefferson Parish Sheriff's Office
+police,-90.1540497,30.019143,Causeway Police Department
+police,-90.2315263,29.9737547,Jefferson Parish Sheriff's Office
+police,-90.069974,29.9592913,New Orleans Police Department First District
+police,-90.1006914,29.9210257,New Orleans Police Department Second District
+police,-90.1636644,30.0109281,Jefferson Parish Sheriff's Office
+police,-90.1581446,29.9753186,Jefferson Parish Sheriff's Office - Police Press Office
+police,-90.1097447,29.984862,New Orleans Police Department - Crime Prevention
+police,-89.9680772,30.0275188,New Orleans Police Department Seventh District
+police,-90.0586156,29.9177916,Gretna Police Department
+police,-90.0796307,29.9411458,New Orleans Police Department Sixth District
+police,-90.0754919,29.9210593,Maritime Security Operations Center
+police,-90.0668462,29.9553538,New Orleans Police Department Eighth District
+police,-90.0933391,29.9607397,New Orleans Police Department Headquarters
+police,-90.0318692,29.9497251,New Orleans Police Department 4th District Station
+police,-89.973643,29.9413712,Saint Bernard Parish Sheriff's Office
+police,-90.2391454,30.0112215,Louisiana State Police Troop B
+police,-90.0058676,29.9582861,Sherriff's Office
+police,-90.0611841,30.0299402,Orleans Levee District Police
+police,-90.0948302,29.960128,Orleans Parish Sheriff's Office
+police,-89.993023,29.8596236,Plaquemines Parish Sheriff's Office
+police,-90.0004791,29.9620325,
+government,-90.0668481,29.9172421,Jefferson Parish Second Parish Court - Criminal Records
+government,-90.0914425,29.9616767,Orleans Parish Criminal District Court - Clerk
+government,-90.0915691,29.9614587,Orleans Parish Criminal District Court - Records
+government,-90.0715094,29.9033277,Jefferson Parish Sheriff's Office Investigations Bureau
+government,-90.0678643,29.9157959,Jefferson Parish Sheriff's Office - Economic Crime Unit
+government,-90.0585211,29.9175413,Gretna Police Department - Records
+government,-90.058452,29.9175883,Gretna Police Department - Police Reports
+government,-90.0583779,29.9176338,Gretna Police Department - Taxi and Alcohol Permits
+government,-90.1073211,29.9834014,New Orleans Police Department - Education and Training
+government,-90.0843999,29.9639811,New Orleans Police Department - Public Integrity Division
+government,-90.18936,29.9653359,Jefferson Parish Criminal Justice Office
+government,-90.1934087,29.9388159,Harahan City Hall
+government,-90.0658216,29.9170267,Gretna City Hall
+government,-90.0647537,29.954883,Jean Lafitte Administration Office
+government,-90.0588257,29.960303,
+government,-90.2394272,30.0240943,U.S. Department of Labor Wage and Hour Division
+government,-90.0428015,30.0310689,Federal Bureau of Investigation New Orleans Field Office
+government,-90.0718469,29.9043935,Jefferson Parish Forensic Center
+government,-90.0642516,29.906152,Jefferson Parish Sheriff's Office Crime Laboratory
+government,-90.0760883,29.951227,Orleans Parish Civil Sheriff's Office
+government,-90.1696213,29.9227252,Louisiana Department of Transportation and Development - District 02
+government,-90.2113644,29.9784419,Jefferson Parish Juvenile Services
+government,-90.0663295,29.9520878,United States Custom House
+government,-90.0614384,29.9370917,Port of New Orleans
+government,-90.0932764,29.9620803,New Orleans District Attorney Office
+government,-90.045228,29.9872645,New Orleans Sewerage & Water Board
+government,-90.2423841,29.9900334,Kenner City Hall
+government,-90.1893643,29.9653854,Joseph S. Yenni Building
+government,-90.2106263,29.9816429,
+government,-89.9165651,30.0265587,Building 102
+government,-89.9167646,30.0267244,Building 101
+government,-90.0872245,29.9505887,New Orelans Coroners Office
+government,-90.0870724,29.9501799,Emergency Medical Services
+government,-90.0646235,29.9071924,Jefferson Parish Sheriff's Administrative Office
+government,-90.0928228,29.9614506,New Orleans Police Department Criminal Evidence Processing Complex
+government,-90.0660553,29.9153594,"Paul D. Connick, Sr. Emergency Operations and Communications Center"
+government,-90.0678315,29.916504,Parish of Jefferson Office of the District Attorney
+government,-89.983006,29.8565612,Plaquemines Parish Assessor's Office
+government,-89.9822324,29.8562027,District Attorney 25th Judicial District
+government,-89.9918845,29.859291,Plaquemines Parish Government Building
+government,-90.0040764,29.8281303,Plaquemines Parish Sheriff's Office - Detective Bureau
+government,-90.1696297,29.9227011,LaDOTD
+substation,-90.1373725,29.9554994,Southport Substation
+substation,-89.9377233,30.0097327,Michoud Station
+substation,-89.935555,29.9365407,
+substation,-89.9809795,29.9227792,
+substation,-90.0639742,29.9505101,Delta Substation
+substation,-90.0245944,30.0164541,
+substation,-89.9584706,30.0278177,Sherwood Forest Substation
+substation,-90.1477733,29.9470109,Ninemile Point Substation
+substation,-90.223861,30.0182239,
+substation,-90.209604,29.9786265,Snakefarm Substation
+substation,-90.1781972,29.9274916,Avondale Substation
+substation,-90.19306,29.9409371,Harahan Substation
+substation,-90.1722462,29.9919092,Cleary Substation
+substation,-90.1526768,29.972968,Labarre Substation
+substation,-90.2371999,29.9320425,Waggaman Subsation
+substation,-90.1144033,29.8317893,Barataria Substation
+substation,-90.0205272,29.8847527,Behrman Substation
+substation,-89.9631673,30.0559736,Curran Substation
+substation,-90.0598581,29.8567717,Peters Road Substation
+substation,-90.0159213,29.920953,Holiday Substation
+substation,-89.9767212,29.9388122,
+substation,-89.9748215,29.9387532,
+substation,-89.8680997,29.8684953,Poydras Substation
+substation,-90.051303,29.9214991,Gretna Substation
+substation,-90.0789184,29.8832103,Harvey Substation
+substation,-89.9764907,29.9394944,
+substation,-90.1402521,29.8943733,Westwego Substation
+substation,-90.0437913,29.9919258,Almonaster Substation
+substation,-90.1178965,30.0118553,Avenue C Substation
+substation,-90.0859544,29.9529231,Derbigny Substation
+substation,-90.0659032,29.9292774,Market Street 230 kV Substation
+substation,-90.1023985,29.9649776,Midtown Substation
+substation,-89.9915697,29.9722723,Arabi Substation
+substation,-89.8974705,30.0388883,Gentilly Road Substation
+substation,-89.9079129,30.0358509,NASA Substation
+substation,-90.0622452,30.0005642,Pauger Substation
+substation,-90.0457001,30.0140302,Pontchartrain Park Substation
+substation,-90.0023107,29.974592,Tricou Substation
+substation,-90.0557522,29.9622273,
+substation,-89.9575806,29.9534661,
+substation,-90.160966,30.0138614,Lakeshore Substation
+substation,-90.1497384,29.9462816,
+substation,-90.0317307,30.0152174,
+substation,-89.9775774,29.9227021,
+substation,-90.1185854,29.9644663,Joliet Substation
+substation,-90.0655661,29.9449283,
+substation,-89.9705923,29.8601622,Port Nickel Substation
+substation,-89.9012535,30.0278697,
+substation,-90.0993763,29.9168492,Napoleon Substation
+substation,-90.1253812,29.9990555,Paris Substation
+substation,-89.9007073,30.0303353,
+substation,-89.9007367,30.0299836,
+substation,-89.9039474,30.0274682,
+substation,-89.9372503,30.0110848,
+substation,-89.9719129,29.9385267,
+substation,-90.171194,29.8846011,
+substation,-89.9304503,29.9476203,
+substation,-90.033642,29.9252928,
+substation,-90.0563368,29.8377375,
+substation,-89.9154427,30.0280593,
+substation,-89.9648362,29.8586651,
+substation,-90.0648264,29.9290928,
+substation,-90.1790529,29.9272819,
+water_works,-90.1295207,29.9603263,
+water_works,-90.1306155,29.9620443,
+water_works,-90.1312719,29.961231,
+water_works,-90.1278482,29.9608457,
+water_works,-90.1265604,29.9598469,
+water_works,-90.1315923,29.9599959,
+water_works,-90.1310988,29.9600696,
+water_works,-90.131892,29.9596029,
+water_works,-89.9841577,29.8549853,Belle Chasse Water Plant

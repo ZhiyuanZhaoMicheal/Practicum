@@ -1,0 +1,138 @@
+facility_type,lon,lat,name
+hospital,-81.9119717,26.5070753,Golisano Children's Hospital of Southwest Florida
+hospital,-81.8740593,26.6282139,The Rehabilitation Hospital
+hospital,-81.8478064,26.5395198,Gulf Coast Medical Center Skilled Nursing Unit
+hospital,-81.8200511,26.6097116,John's Hopkins
+hospital,-81.8029506,26.6304105,Select Specialty Hospital - Fort Myers
+hospital,-81.9962107,26.5175605,Larsen Pavilion
+hospital,-81.9198923,26.6854929,Lee County VA Healthcare Center
+hospital,-81.9131607,26.5071924,HealthPark Medical Center
+hospital,-81.9094556,26.5104466,Park Royal Hospital
+hospital,-81.8503324,26.5436398,Gulf Coast Medical Center
+hospital,-81.9432762,26.6395173,Cape Coral Hospital
+hospital,-81.8740254,26.6279283,Lee Memorial Hospital
+hospital,-81.8479133,26.539582,Gulf Coast Medical Center Skilled Nursing Unit
+aerodrome,-81.9012149,26.7334883,Pine Shadows Airpark
+aerodrome,-81.7080039,26.6429712,Buckingham Field
+aerodrome,-81.8817524,26.6413815,Caloosa Downtown Seaplane Base
+aerodrome,-81.9962405,26.7050107,R/Sea Hawks R/C Airport
+aerodrome,-81.9954285,26.7038661,R/Sea Hawks R/C Seaplane Base
+aerodrome,-81.756408,26.5331099,Southwest Florida International Airport
+aerodrome,-81.8635803,26.5858699,Page Field
+power_plant,-81.7830277,26.4650696,FGCU Solar Field
+power_plant,-81.7824397,26.6966685,Fort Myers Plant
+power_plant,-81.7610076,26.6317692,Lee County Solid Waste Energy
+fire_station,-81.7523815,26.7030294,Fort Myers Shores Fire Department Station 81
+fire_station,-81.8025195,26.6720651,Tice Fire Department Station 201
+fire_station,-81.9098117,26.6712895,North Fort Myers Fire Department Station 2
+fire_station,-81.8232615,26.4682108,San Carlos Park Fire Department Station 51
+fire_station,-81.9095197,26.7349777,North Fort Myers Fire Department Station 1
+fire_station,-81.7577318,26.5550105,South Trail Fire / Rescue Station 64
+fire_station,-81.8705562,26.5641648,South Trail Fire / Rescue Station 61
+fire_station,-81.8171596,26.5464488,South Trail Fire / Rescue Station 62
+fire_station,-81.8734106,26.6072799,Fort Myers Fire Dept. Station 13
+fire_station,-81.8442361,26.65759,Fort Myers Fire Department Station 12
+fire_station,-81.866354,26.6392233,Fort Myers Fire Department Station 11
+fire_station,-81.9513588,26.683187,Cape Coral Fire Department Station 5
+fire_station,-81.9631639,26.6299479,Cape Coral Fire Department Station 2
+fire_station,-81.9562524,26.5619991,Cape Coral Fire Department Station 1
+fire_station,-81.8991092,26.5748258,Iona McGregor Fire Station 71
+fire_station,-81.8984394,26.5102941,Iona McGregor Fire Department Station 3
+fire_station,-81.7144189,26.6089986,Lehigh Acres Fire Dept Station 103
+fire_station,-81.8619209,26.5313154,South Trail Fire / Rescue Station 63
+fire_station,-81.8011254,26.716546,Bayshore Fire Department Station 131
+fire_station,-81.9480211,26.4816178,Fort Myers Beach Fire Department Station 2
+fire_station,-81.8211579,26.6423645,Fort Myers Fire Department Station 14
+fire_station,-81.7861429,26.6027829,Fort Myers Fire Department Station 15
+fire_station,-81.8523827,26.7010092,North Fort Myers Fire Station 3
+fire_station,-81.7319193,26.6587233,Tice Fire Department Station 203
+fire_station,-81.9048091,26.5547054,Iona McGregor Fire Station #74
+fire_station,-81.8404367,26.609831,City of Fort Myers Fire Department Station 16
+fire_station,-81.7452014,26.6091687,Lehigh Acres Fire Station 107
+fire_station,-81.8641601,26.5908893,Lee County Port Authority Fire Department Station 91
+fire_station,-81.9365069,26.513996,Iona McGregor Fire Department Station 5
+fire_station,-81.7805162,26.4574976,San Carlos Park Fire Department Station 53
+fire_station,-81.7480934,26.5323308,Lee County Port Authority Fire Department Station 92
+fire_station,-81.9631221,26.502347,Iona McGregor Fire Department Station 2
+fire_station,-81.9819888,26.5760365,Cape Coral Fire Station 9
+fire_station,-81.958462,26.5665969,Fire Station 1
+fire_station,-81.9390974,26.6068906,Cape Coral Fire Station #3
+fire_station,-81.9737082,26.6147745,Cape Coral Fire Station #4
+fire_station,-81.9892095,26.6506439,Cape Coral Fire Station #8
+fire_station,-81.9489689,26.7247275,Fire Rescue Station 10
+fire_station,-81.8579737,26.4978096,San Carlos Park Fire Department Station 52
+police,-81.8622799,26.52885,Lee County Sheriff's Office Main
+police,-81.8849077,26.6667533,Lee County Sheriff's Office Alpha North District
+police,-81.8697851,26.552402,Lee County Sheriff's Office Echo Central District
+police,-81.9365462,26.5138947,Lee County Sheriff's Office Charlie West District
+police,-81.9606629,26.6310603,Cape Coral Police Department
+police,-81.7780885,26.7170874,Lee County Sheriff's Posse
+police,-81.8709365,26.6419578,Lee County Sheriff's Office
+police,-81.8797543,26.637155,US Marshals Service
+police,-81.8712888,26.6434067,US Marshals Service
+police,-81.8682054,26.6395205,Fort Myers Police Department
+police,-81.7566141,26.5280713,Lee County Port Authority Police Department
+police,-81.8104303,26.633281,Lee County Sheriff's Office Community Programs Unit
+police,-81.8096661,26.6340665,Lee County Sheriff's Office Core Division
+police,-81.8705395,26.6411974,Lee County Sheriff's Office Corrections Bureau Jail
+police,-81.8100387,26.6332954,Lee County Sheriff's Office Stockade
+police,-81.8370177,26.6414453,Lee County Sheriff's Office Dunbar Community Policing Annex
+police,-81.7061229,26.6458875,Lee County Sheriff's Office
+police,-81.9608895,26.6307545,Cape Coral Police Department
+government,-81.8712672,26.6436986,City of Fort Myers Parking Office
+government,-81.8630941,26.6413684,Lee County Constitutional Complex
+government,-81.9322546,26.6081054,Mid-Point Bridge Toll Plaza
+government,-81.838729,26.5968589,Fort Myers Social Security Office
+government,-81.94573,26.5634128,Department of Children & Family Services
+government,-81.9487227,26.562891,Community Redevelopment Agency
+government,-81.7918383,26.553141,Florida Highway Patrol Regional Communication Center - Fort Myers
+government,-81.7514783,26.5624436,FBI Resident Agency
+government,-81.8685804,26.6473627,Florida Fish & Wildlife Conservation Commission
+government,-81.868898,26.6419443,"Oscar M. Corbin, Junior, City Hall"
+government,-81.8683037,26.641193,Fort Myers HR & Parks HQ
+government,-81.8677892,26.6414513,County/City Annex
+government,-81.8679621,26.6425527,Foundation for Lee County Public Schools
+government,-81.8640335,26.6413321,Lee County Human Services
+government,-81.8631554,26.6413534,Melvin Morgan Constitutional Complex
+government,-81.9361838,26.5131329,DMV Office
+government,-81.9584541,26.6327429,Cape Coral City Hall
+substation,-81.7690297,26.6728811,Orange River Substation FPL
+substation,-81.9436451,26.4865727,Iona Substation
+substation,-81.8481637,26.6041804,Winkler Substation
+substation,-81.8483941,26.6221829,Hanson Substation
+substation,-81.7792333,26.6968684,
+substation,-81.7803058,26.6989716,Fort Myers Switchyard
+substation,-81.7782368,26.7191572,Calusa Substation
+substation,-81.8551478,26.7096732,Slater Substation
+substation,-81.7840774,26.7117856,
+substation,-81.8290195,26.4953887,Alico Substation
+substation,-81.8287699,26.4936607,San Carlos Substation
+substation,-81.9169319,26.698381,Lee Substation
+substation,-81.7662618,26.6427664,Buckingham Substation
+substation,-81.7688468,26.6260192,Gateway Substation
+substation,-81.8479546,26.5714505,Metro Substation
+substation,-81.8795412,26.6009624,Colonial Substation
+substation,-81.8654407,26.6420056,Fort Myers Substation
+substation,-81.9749893,26.5770291,Cape Coral Substation
+substation,-81.9346938,26.6060461,Everest Substation
+substation,-81.9445091,26.6376397,Industrial Substation
+substation,-81.8897791,26.6685985,Piney Road Substation
+substation,-81.9555606,26.5641954,South Cape Substation
+substation,-81.9234778,26.6541181,Tropic Isle Substation
+substation,-81.9243184,26.6974133,Corbett Substation
+substation,-81.9002231,26.5576746,Edison Substation
+substation,-81.9014771,26.5104413,Gladiolus Substation
+substation,-81.7350309,26.5673585,Jetport Substation
+substation,-81.8146342,26.6513612,
+substation,-81.7609935,26.6315856,Lee County Solid Waste Substation
+substation,-81.9737034,26.6234714,
+substation,-81.7821757,26.6948405,
+water_works,-81.9356,26.6043,City of Cape Coral Everest Water Reclamation Facility
+water_works,-81.9389297,26.6243201,City Of Cape Coral
+water_works,-81.8267413,26.6280584,
+water_works,-81.8592853,26.6401194,
+water_works,-81.7255215,26.5133916,
+water_works,-81.7225359,26.5128207,
+water_works,-81.7569817,26.5103848,
+water_works,-81.8284488,26.4758738,
+water_works,-81.7914264,26.7302753,

@@ -1,0 +1,82 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Wilmington Treatment Center,hospital,34.194225,-77.92946,367908049,node
+Carolina Dunes Behavioral Health,hospital,34.2607578,-78.0637137,10832186226,node
+New Hanover Regional Medical Center,hospital,34.2053619,-77.9210283,351759668,way
+New Hanover Regional Medical Center Orthopedic Hospital,hospital,34.2130421,-77.8627311,392088732,way
+Winnabow Airport,aerodrome,34.152115,-78.1055495,369028003,node
+Carolina Beach Airport,aerodrome,34.1043384,-77.902486,369028022,node
+Wilmington International Airport,aerodrome,34.2727204,-77.9020479,939180640,way
+Leland Fire/Rescue Headquarters,fire_station,34.248643,-78.0274801,2000101199,node
+Navassa Fire Department,fire_station,34.2564336,-78.0097238,2000101403,node
+Winnabow Fire Department,fire_station,34.1488889,-78.088334,2000102294,node
+Leland Fire/Rescue Westport Fire Station 52,fire_station,34.1896176,-77.9877504,2002718027,node
+City of Wilmington Fire Department Headquarters,fire_station,34.2363306,-77.9387519,4808482474,node
+City of Wilmington Fire Station 2,fire_station,34.2199771,-77.9047417,4808514646,node
+City of Wilmington Fire Station 3,fire_station,34.2394979,-77.8940982,4808514647,node
+Station 17 Murrayville,fire_station,34.2921157,-77.8664274,328707511,way
+fire_station facility,fire_station,34.2686275,-77.9067075,332326373,way
+fire_station facility,fire_station,34.2199892,-77.9047286,899696997,way
+fire_station facility,fire_station,34.2394589,-77.8941224,976910669,way
+fire_station facility,fire_station,34.1896158,-77.9877762,980574536,way
+Wrightsville Beach Police Department,police,34.2149178,-77.8056661,367909561,node
+Navassa Police Department,police,34.2565347,-78.0097541,367909811,node
+Leland Town Police Department,police,34.2342976,-78.0115875,367909829,node
+Pinnacle Special Police,police,34.2322729,-77.8270157,367910037,node
+US Marshals Services,police,34.2363157,-77.9497628,367910175,node
+New Hanover County Sheriff's Office,police,34.2365118,-77.9457125,367910195,node
+Wilmington Police Department,police,34.24101,-77.94912,367910437,node
+North Carolina State Highway Patrol,police,34.2584101,-77.8326702,367910733,node
+Wilmington Police Department,police,34.2528885,-77.9416889,500284677,way
+SunEdison LV Sutton Plant Site,power_plant,34.2870816,-77.9805561,490414697,way
+Sutton Combined Cycle Plant,power_plant,34.282175,-77.9853143,1087797214,way
+AGA TAG Solar IV LLC,power_plant,34.2766033,-78.0614575,1130975400,way
+South Atlantic Services Solar Farm I,power_plant,34.2912367,-77.975769,14480803,relation
+"ATOOD Solar IV, LLC",power_plant,34.2776009,-78.0602339,17393668,relation
+Wilmington City Hall,government,34.2463128,-77.9495933,367910907,node
+Town of Leland,government,34.2361599,-78.0099533,4366335448,node
+Armed Forces Career Center,government,34.1745583,-77.8926679,11583596784,node
+New Hanover County Department of Social Services,government,34.2166352,-77.925911,392219908,way
+US Army Corps of Engineers Office,government,34.2393669,-77.9004734,617896104,way
+Alnton Lennon Federal Courthouse,government,34.2358478,-77.9496966,680389562,way
+"National Weather Service - Wilmington, NC",government,34.2762953,-77.9128928,1207943050,way
+substation facility,substation,34.3320138,-78.0121185,159455337,way
+substation facility,substation,34.2818167,-77.9839321,159455354,way
+substation facility,substation,34.283329,-77.9845303,159455398,way
+substation facility,substation,34.3174062,-77.9860303,184509745,way
+substation facility,substation,34.3284313,-77.8772318,184521717,way
+substation facility,substation,34.2688793,-77.8268403,184521739,way
+substation facility,substation,34.3286025,-77.8764068,184521740,way
+substation facility,substation,34.1597465,-77.8938297,184521741,way
+substation facility,substation,34.2255593,-77.828212,184521742,way
+substation facility,substation,34.2862469,-77.8724307,184521743,way
+substation facility,substation,34.2507862,-77.886472,184521746,way
+Duke Energy Wilmington Substation,substation,34.2544188,-77.8733656,184521748,way
+substation facility,substation,34.2001114,-77.8603925,184521750,way
+substation facility,substation,34.3301004,-77.8776248,236661453,way
+substation facility,substation,34.1923137,-78.0643454,387946574,way
+substation facility,substation,34.3109166,-77.9835525,490414044,way
+substation facility,substation,34.2331383,-77.9370536,581669230,way
+substation facility,substation,34.1283334,-78.1039612,592087430,way
+Sunset Park Substation,substation,34.1975276,-77.940399,592098813,way
+substation facility,substation,34.377298,-77.8483339,609324667,way
+substation facility,substation,34.1330099,-77.9137221,624113361,way
+substation facility,substation,34.3255458,-77.9373977,625115784,way
+substation facility,substation,34.2318275,-77.9975986,645156949,way
+substation facility,substation,34.2594311,-78.0745835,722729259,way
+substation facility,substation,34.2761428,-77.958909,742316765,way
+substation facility,substation,34.2291444,-77.9542817,793517894,way
+substation facility,substation,34.2776582,-77.9574897,852568739,way
+substation facility,substation,34.251533,-77.8669915,855658465,way
+substation facility,substation,34.3712681,-77.8581717,863414365,way
+substation facility,substation,34.2535098,-78.053038,1096692755,way
+substation facility,substation,34.1450238,-77.9621379,1096692804,way
+substation facility,substation,34.128685,-77.9881024,1096692805,way
+substation facility,substation,34.2162286,-77.8826873,1342957263,way
+substation facility,substation,34.1911935,-77.9491279,1492873191,way
+Barnard Creek Substation,substation,34.1540048,-77.9385201,14605484,relation
+water_works facility,water_works,34.1655381,-77.9457757,490405242,way
+Sweeney Water Treatment Plant,water_works,34.2571047,-77.9460165,589719063,way
+water_works facility,water_works,34.3032021,-78.1072162,794549204,way
+water_works facility,water_works,34.2631255,-77.9212954,1091087215,way
+water_works facility,water_works,34.2160919,-78.0305644,1340032254,way
+water_works facility,water_works,34.2175311,-78.0046976,1427748870,way

@@ -1,0 +1,157 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Westchester County Airport,aerodrome,41.0678,-73.7077244,224512238,way
+Fortyseventh Precinct Police Station,police,40.8875,-73.8475,368051738,node
+Jerome Avenue Gate House and Police Station,police,40.8875,-73.8772222,368051753,node
+Mount Vernon Police Station,police,40.912877,-73.8384675,368051832,node
+Scarsdale Police Department,police,41.0052573,-73.7847964,1931498921,node
+Irvington Police Department,police,41.0394007,-73.8680935,2553792534,node
+Town of Mamaroneck Police Department,police,40.9430098,-73.741799,2622870997,node
+police facility,police,41.0849498,-73.8596276,5175541423,node
+police facility,police,40.9171328,-73.9019341,7367372422,node
+police facility,police,40.9198277,-73.8958052,7369879697,node
+Braircliff Manor Police Department,police,41.1488867,-73.8287231,12284201765,node
+Greenburgh Police Department,police,41.0411792,-73.7885705,12288699419,node
+Port Chester Police Department,police,41.0068176,-73.6589274,229119002,way
+NYPD 50th Precinct,police,40.8835028,-73.9023604,276414619,way
+Harrison Police Department,police,40.9977851,-73.7241568,307969471,way
+police facility,police,41.099034,-73.8001581,321826806,way
+Westchester County Police,police,41.1083386,-73.8071823,322130181,way
+Greenwich Poilce Department,police,41.0256509,-73.6246736,504883761,way
+police facility,police,40.9388789,-73.8966722,802059166,way
+Pelham Police Dept,police,40.9117442,-73.8091609,885649889,way
+police facility,police,40.9648038,-73.6754271,1393093315,way
+Cos Cob Jet,power_plant,41.0290966,-73.5987305,564477926,way
+power_plant facility,power_plant,41.0164183,-73.7139213,962783901,way
+power_plant facility,power_plant,41.0283864,-73.7159574,972919952,way
+power_plant facility,power_plant,41.0982514,-73.7277912,1008182789,way
+power_plant facility,power_plant,41.1396964,-73.8537462,1433692448,way
+White Plains_RFP-Gedney Way Landfill,power_plant,41.0067631,-73.7573818,1454131635,way
+Mt Pleasant Community Center,power_plant,41.0999648,-73.7715051,15728648,relation
+Robert W Cacace Justice Center,government,40.9304161,-73.8968652,368046209,node
+Westchester County Courthouse,government,41.0297157,-73.769643,368046223,node
+Police Court Facility of Mount Vernon,government,40.9132186,-73.8384882,368051729,node
+Harrison Town Hall,government,40.9699586,-73.712158,368052257,node
+Irvington Justice Court,government,41.0394659,-73.8680818,2553792535,node
+Town of Mamaroneck Town Court,government,40.9428883,-73.7418205,2622870998,node
+Department of Motor Vehicles,government,40.9360206,-73.9009117,6703310686,node
+Weinberg Nature Center,government,40.9755416,-73.7544187,9335658496,node
+Village of Upper Nyack,government,41.101186,-73.9173231,9740413130,node
+Village of Nyack,government,41.0914042,-73.9179631,9740448637,node
+Village of Grand View-on-Hudson,government,41.0634836,-73.9210813,9741907040,node
+Village of Piermont,government,41.0403187,-73.9163968,9741949233,node
+Town of New Castle,government,41.1555347,-73.7746183,9750531880,node
+Town of Mount Pleasant,government,41.0962961,-73.77767,9753233105,node
+Village of Briarcliff Manor,government,41.1488003,-73.8286447,9753233451,node
+Village of Ossining,government,41.1629873,-73.8608775,9753233489,node
+Town of Ossining,government,41.1630731,-73.8607735,9753233490,node
+Village of Sleepy Hollow,government,41.0849767,-73.8595229,9753264041,node
+Town of Greenburgh,government,41.0469218,-73.7897064,9755749393,node
+Village of Tarrytown,government,41.0766049,-73.8634651,9755796239,node
+Village of Irvington,government,41.0393579,-73.8679491,9755814440,node
+Village of Dobbs Ferry,government,41.015116,-73.8747619,9755876934,node
+Village of Hastings-on-Hudson,government,40.9956965,-73.8834509,9755917509,node
+Village of Ardsley,government,41.0115443,-73.846078,9755922631,node
+Town/Village of Harrison,government,40.9698923,-73.7124655,9755922908,node
+Village of Elmsford,government,41.0538193,-73.8201575,9755993058,node
+City of White Plains,government,41.0333056,-73.7654934,9756047996,node
+Village of Scarsdale,government,40.9884269,-73.7973708,9759403522,node
+City of Yonkers,government,40.9322652,-73.8978678,9760033635,node
+Town of Eastchester,government,40.9555279,-73.8114537,9760089026,node
+Town of Tuckahoe,government,40.950502,-73.8267142,9760119872,node
+City of Mount Vernon,government,40.9121971,-73.8389665,9760697468,node
+Village of Larchmont,government,40.9271961,-73.7515453,9760840554,node
+Town of Mamaroneck,government,40.9427934,-73.7410122,9760840555,node
+Village of Mamaroneck,government,40.9493544,-73.7329857,9760840556,node
+Village of Port Chester,government,40.9896746,-73.6671609,9760840558,node
+Village of Rye Brook,government,41.0347487,-73.674698,9760840559,node
+Town of Rye,government,40.9897262,-73.667167,9760840560,node
+City of New Rochelle,government,40.9200269,-73.7861994,9763148298,node
+Village of Pelham Manor,government,40.8906706,-73.8041655,9763148423,node
+Town of Pelham,government,40.9117076,-73.8092878,9763148442,node
+Village of Pelham,government,40.9089852,-73.8116515,9763148443,node
+Village of Lattingtown,government,40.8875745,-73.6054029,9834749815,node
+Greenburgh Town Court,government,41.0412313,-73.7885866,12288699418,node
+Westchester County Justice Court (Town of Rye),government,41.0008473,-73.6662076,229835709,way
+Mount Pleasant Town Hall,government,41.096372,-73.7775648,326533810,way
+White Plains City Hall,government,41.0333647,-73.7655073,329210180,way
+Pleasantville Village Hall,government,41.1338593,-73.7916901,330522966,way
+Tarrytown Village Hall,government,41.0766437,-73.8638593,331952380,way
+New Rochelle City Hall,government,40.9201423,-73.7860033,378392836,way
+Yonkers City Hall,government,40.9321108,-73.8978965,420277255,way
+government facility,government,41.0453002,-73.7030467,428212635,way
+Town of North Castle,government,41.1245342,-73.7132074,452550326,way
+Greenwich Town Hall,government,41.0249111,-73.6290087,502788793,way
+Sleepy Hollow Municipal Building,government,41.0849064,-73.8594774,533481761,way
+Briarcliff Manor Village Offices,government,41.1489177,-73.828615,586105982,way
+Administration Building,government,41.0828868,-73.8573527,608784410,way
+Municipal Building,government,40.9956315,-73.8834524,646211427,way
+Nyack Village Hall,government,41.0913974,-73.9179179,722052705,way
+Rye Brook Village Hall,government,41.0346945,-73.6746598,740573991,way
+Ossining Municipal Building,government,41.1630275,-73.8608191,745288941,way
+Lattingtown Village Hall,government,40.887496,-73.605433,772462200,way
+Larchmont Village Hall,government,40.9272562,-73.7515935,797209838,way
+Upper Nyack Village Hall,government,41.101213,-73.9173557,803036573,way
+Mamaroneck Town Center,government,40.9428667,-73.741385,803437840,way
+Mamaroneck Village Court Clerk,government,40.9491102,-73.734943,838841880,way
+New Castle Town Hall,government,41.1554518,-73.7746424,863552285,way
+Port Chester Village Hall,government,40.9899395,-73.667366,878823827,way
+Tuckahoe Town Hall,government,40.9505291,-73.8265815,884017183,way
+Pelham Village Hall,government,40.9090026,-73.8116438,884485704,way
+Pelham Court Clerk,government,40.9116543,-73.8090773,885649888,way
+Pelham Town Hall,government,40.9117201,-73.8092777,885649891,way
+Dobbs Ferry Village Hall,government,41.0150551,-73.8746694,966339700,way
+Mount Vernon City Hall,government,40.9122687,-73.83913,1006342450,way
+Eastchester Town Hall,government,40.9555049,-73.8111841,1033669311,way
+Grand View-on-Hudson Village Hall,government,41.063454,-73.921116,1060330629,way
+Irvington Village Hall,government,41.0394447,-73.8679543,1061895456,way
+Ardsley Village Hall,government,41.0115885,-73.8460379,1061909858,way
+Elmsford Village Hall,government,41.0537549,-73.8201815,1061912478,way
+Scarsdale Village Hall,government,40.9883392,-73.7973069,1062323178,way
+Bronxville Village Hall,government,40.9355447,-73.8314728,1062399838,way
+Rye City Hall,government,40.9810967,-73.6842261,1062487476,way
+Pelham Manor Village Hall,government,40.890592,-73.8043089,1062761435,way
+government facility,government,41.1632609,-73.8239538,1281178804,way
+Greenburgh Town Hall,government,41.0466885,-73.7895917,19640146,relation
+Eastview Substation,substation,41.0770663,-73.8317976,73568847,way
+Sprainbrook Substation,substation,40.9572017,-73.8563596,73578036,way
+Dunwoodie Substation,substation,40.9396409,-73.8584025,73667439,way
+Pleasantville Substation,substation,41.1420877,-73.7821171,74203235,way
+Cos Cob Substation,substation,41.0290339,-73.5978014,141143897,way
+Elmsford Substation,substation,41.0500401,-73.809133,188839535,way
+239th Street Substation,substation,40.9006806,-73.8520968,277800594,way
+East 212th Street Substation,substation,40.8846247,-73.8793926,277845812,way
+Kenilworth-35 Substation,substation,41.0078982,-73.7160027,303894917,way
+Haviland-45 Substation,substation,41.0190125,-73.7277893,329200285,way
+White Plains Substation,substation,41.0337413,-73.7721685,329210247,way
+Ethelridge-90 Substation,substation,40.9926598,-73.7453496,329238070,way
+Cedar Street Substation,substation,40.9151027,-73.7803637,383110526,way
+Harrison Substation,substation,40.9821414,-73.7402213,383110531,way
+Ossining Substation,substation,41.160092,-73.8677414,383505059,way
+Byram Substation,substation,41.0144255,-73.6535483,383522891,way
+Mianus Substation,substation,41.0429493,-73.5903043,383522892,way
+North Greenwich Substation,substation,41.0931259,-73.6555268,383522893,way
+Prospect Substation,substation,41.0209863,-73.6330172,383522894,way
+Sparkill Substation,substation,41.0317274,-73.9280763,570136579,way
+Washington Street Substation,substation,40.9095747,-73.8266837,684457459,way
+Lake Avenue Substation,substation,40.9461065,-73.8859083,684590906,way
+Wrexham-79 Substation,substation,40.932091,-73.8483771,684595057,way
+Ardsley-1 Substation,substation,41.0118698,-73.8459056,684597941,way
+Dobbs Ferry-7 Substation,substation,41.0165693,-73.8762745,684605165,way
+Irvington-63 Substation,substation,41.0391882,-73.8654995,685243285,way
+Bowman Ave-66 Substation,substation,41.0041661,-73.69491,685256902,way
+Greenwich Substation,substation,41.0210565,-73.6317561,1150287972,way
+substation facility,substation,40.9070539,-73.7897933,1202225551,way
+New Rochelle Substation,substation,40.9028726,-73.7929857,1392239094,way
+Westchester Joint Water Works Pump Station,water_works,40.9519048,-73.7713892,11786220575,node
+Yonkers Joint Wastewater Treatment Plant,water_works,40.9194698,-73.9091835,75070855,way
+Kensico Reservoir Intake Chamber,water_works,41.0851477,-73.7747859,326533860,way
+United Water Westchester,water_works,41.0027736,-73.6733804,334803128,way
+Delaware Outlet,water_works,41.0965274,-73.7328104,390922065,way
+water_works facility,water_works,40.8862917,-73.8815731,442205710,way
+Catskill-Delaware Ultraviolet Light Disinfection Facility,water_works,41.078205,-73.8089771,550717762,way
+water_works facility,water_works,41.0155333,-73.6272241,720583993,way
+water_works facility,water_works,41.0850797,-73.6376388,844046879,way
+Westchester County Wastewater Treatment,water_works,41.1528148,-73.8708752,1355694433,way
+water_works facility,water_works,41.120042,-73.7102958,1356483052,way
+water_works facility,water_works,40.913388,-73.7686877,1437031453,way
+Pleasantville Alum Plant,water_works,41.138437,-73.7786635,19385783,relation

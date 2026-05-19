@@ -1,0 +1,255 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Navos West Seattle Campus,hospital,47.534445,-122.366224,356551783,node
+The Seattle Facial Plastic Surgery Center,hospital,47.6091703,-122.3242052,9525009816,node
+VA Medical Center - Seattle,hospital,47.5630065,-122.3082632,53615315,way
+Swedish Medical Center Ballard Campus,hospital,47.6675911,-122.3802424,292245531,way
+Kaiser Permanente Capitol Hill Campus,hospital,47.6199564,-122.3120786,297300958,way
+Virginia Mason Hospital & Seattle Medical Center,hospital,47.6100706,-122.3278853,297302349,way
+Swedish First Hill Medical Center,hospital,47.6086102,-122.3222589,333369584,way
+Overlake Medical Center,hospital,47.6209671,-122.1869413,391949890,way
+EvergreenHealth Kirkland,hospital,47.7153387,-122.1783439,485040439,way
+Fairfax Hospital,hospital,47.719426,-122.2046766,485042186,way
+Cascade Behavioral Health,hospital,47.487416,-122.2957506,485149429,way
+Schick Shadel Hospital,hospital,47.4945774,-122.3506862,485155451,way
+Eastside Therapeutic Resource,hospital,47.6684163,-122.1957553,606899516,way
+Swedish Medical Center Cherry Hill Campus,hospital,47.6071124,-122.310904,1066764914,way
+hospital facility,hospital,47.7148641,-122.3372123,1255971088,way
+C-Wing,hospital,47.7147962,-122.3377343,1379407233,way
+Seattle Children's Hospital,hospital,47.663096,-122.2829494,7528363,relation
+Will Rogers Wiley Post Memorial Seaplane Base,aerodrome,47.5005893,-122.218066,369034414,node
+Seattle Seaplane Base,aerodrome,47.6319714,-122.327634,369034474,node
+Kenmore Air Seaplane Terminal,aerodrome,47.6283095,-122.339185,985938850,node
+Seaplane Scenics at Carillon Point Seaplane Base,aerodrome,47.6599868,-122.2096996,8226921140,node
+Seattle-Tacoma International Airport,aerodrome,47.4474579,-122.3083543,50898115,way
+Kenmore Air Harbor Seaplane Base,aerodrome,47.7571204,-122.2579166,369168334,way
+Renton Municipal Airport,aerodrome,47.4928298,-122.2146325,660420771,way
+Boeing Field,aerodrome,47.5297822,-122.3034331,537472,relation
+University of Washington Power Plant,power_plant,47.6537362,-122.3036345,54216361,way
+University of Washington West Campus Utility Plant,power_plant,47.653926,-122.3129945,499392301,way
+Seattle School District Office,government,47.5242196,-122.271419,356552256,node
+Seattle Fire Department Headquarters,government,47.5340183,-122.35474,366028866,node
+Burien City Hall,government,47.4670593,-122.339669,1112311108,node
+King County District Court - Southwest Division,government,47.4693456,-122.3423767,1837028267,node
+Ballard Neighborhood Service Center,government,47.6696277,-122.3845453,1921012551,node
+City of Seattle Customer Service Center,government,47.6623262,-122.3129183,2323794524,node
+Department of Social and Health Services,government,47.6129029,-122.343317,2327723133,node
+Metropolitan Improvement District,government,47.6126674,-122.3379854,2327794622,node
+Seattle Public Utilities,government,47.5791863,-122.3207448,2350331317,node
+Washington State Department of Social & Health Services,government,47.5981291,-122.333926,2351730628,node
+Federal Bureau of Investigation Seattle Field Office,government,47.6066348,-122.3346851,2404269676,node
+Rainier Vehicle and Vessel Licensing,government,47.5683323,-122.2880562,2417181566,node
+Northgate Community Field Office,government,47.699021,-122.3416575,2462239463,node
+City of Seattle Customer Service Center,government,47.7200331,-122.2979936,2462452923,node
+Kirkland Municipal Court,government,47.7066359,-122.1851216,2910163149,node
+King County Elections,government,47.468374,-122.2299395,2968207781,node
+Northshore Public Health at Totem Lake,government,47.7176687,-122.1784328,3343055124,node
+Washington State Department of Licensing,government,47.6058757,-122.335444,3655948026,node
+Social Security Administration,government,47.6165293,-122.179817,3810550771,node
+Juvenile Court,government,47.6047898,-122.3159984,3985538276,node
+Renton Licensing,government,47.4786588,-122.2068057,4238341122,node
+Department of Veterans Affairs Office,government,47.4810485,-122.2113519,4238462695,node
+Renton Area Youth & Family Services,government,47.4795342,-122.2032404,4238467189,node
+Renton Chamber of Commerce,government,47.4779914,-122.2087109,4238539389,node
+King County GIS Center,government,47.5989514,-122.3313462,4317625603,node
+Department of Corrections - Seattle Community Justice Center,government,47.588957,-122.328301,4359596989,node
+Parks & Community Services,government,47.6791187,-122.2098912,4428557291,node
+Human Resources,government,47.6790386,-122.2098826,4428565089,node
+City of Seattle Transportation Department Traffic Shops,government,47.5649243,-122.3222262,4455850692,node
+King County Voter Registration Annex,government,47.6028691,-122.3294698,4562924290,node
+Georgetown License,government,47.5478927,-122.3222155,4621620911,node
+Washington State Ferries,government,47.618249,-122.3520729,4848508508,node
+Seattle Passport Agency,government,47.6020475,-122.3273227,5272783231,node
+Bellevue Chamber of Commerce,government,47.6134535,-122.190368,5366914824,node
+King County Vital Statistics,government,47.6051575,-122.3240344,5514598015,node
+Renton Community Services Office,government,47.4741425,-122.222711,5895581985,node
+US Social Security Administration,government,47.6020509,-122.3271232,6736099986,node
+Puget Sound Regional Council,government,47.6042316,-122.3379591,6780355245,node
+Regional Transportation Planning Organization,government,47.6043202,-122.3380503,6780355246,node
+Washington State Labor Council,government,47.5994614,-122.3118809,7618827785,node
+Washington State Department of Licensing,government,47.7446895,-122.3476453,8017677447,node
+NOAA Corps,government,47.6869743,-122.2578825,8206775144,node
+Washington State Department of Labor & Industries,government,47.7084577,-122.3336138,9021178904,node
+Newcastle City Hall,government,47.5385272,-122.1685869,9941407160,node
+Washington State Department of Licensing,government,47.6222375,-122.3604507,10055166139,node
+Georgetown Maintenance & Operations Center,government,47.5492432,-122.3206007,11039965005,node
+"National Weather Service - Seattle/Tacoma, WA",government,47.6870115,-122.2565,11197252298,node
+King North Community Services Office,government,47.698318,-122.3328263,11932473910,node
+Cowlitz Indian Tribe,government,47.4627426,-122.2527557,12358436574,node
+Burien Parks Maintenance Facility,government,47.4645119,-122.3230946,13030557784,node
+USDA,government,47.4705612,-122.2317378,13272996827,node
+King County,government,47.4715295,-122.2336803,13272996896,node
+Renton School District Nutrition Services Purchasing Warehouse Services,government,47.4834863,-122.2107779,13298251111,node
+Washington State Department Of Transportation Maintenance Facility,government,47.4666679,-122.2269863,13370871784,node
+WSU Extension Service - King,government,47.4752591,-122.2334302,13411278253,node
+Woodinville City Hall,government,47.7528884,-122.1622801,27005800,way
+Administration Building,government,47.591512,-122.2252669,35833584,way
+United States Courthouse,government,47.6151942,-122.3364084,36975035,way
+King County Courthouse,government,47.6026438,-122.3305269,37551460,way
+King County Administration Building,government,47.6030533,-122.3294153,37551461,way
+Lake Forest Park City Hall,government,47.7539437,-122.2774898,38933904,way
+Kirkland City Hall,government,47.6782124,-122.2071758,55783329,way
+Renton City Hall,government,47.4747895,-122.2047269,68648844,way
+NOAA Diving Program,government,47.6867579,-122.2599042,75002676,way
+Building 1,government,47.6868528,-122.2573669,75002692,way
+Building 2,government,47.6869435,-122.2556641,75002697,way
+Sunset Multi-Service & Career Development Center,government,47.5035926,-122.1808002,92832590,way
+William Kenzo Nakamura US Courthouse,government,47.6072329,-122.3313657,107124293,way
+City of Kirkland City Hall Annex,government,47.6774815,-122.2079564,107390587,way
+Seattle City Hall,government,47.6038474,-122.3300492,111557287,way
+Tukwila City Hall,government,47.4631443,-122.2555915,120034981,way
+Mercer Island City Hall,government,47.5773695,-122.210475,146351837,way
+Port of Seattle Headquarters,government,47.6138346,-122.3543901,166911088,way
+Golden Gardens Park House,government,47.6889094,-122.401134,217244375,way
+Montlake Project Information Center,government,47.6439161,-122.3032781,217699584,way
+Jameson Building,government,47.6592451,-122.3884158,221921966,way
+ArcWeld Facility,government,47.6585135,-122.3871759,221922028,way
+Jameson Building,government,47.6592445,-122.3890273,221922041,way
+ArcWeld Facility,government,47.6585809,-122.3871741,221922115,way
+Seattle & King County Public Health - Downtown Public Health Center,government,47.6145911,-122.3421774,223927918,way
+Yesler Building,government,47.6019824,-122.3282051,226323013,way
+Chinook Building,government,47.6024852,-122.3285689,226323021,way
+WA Department of Social and Health Services,government,47.5469055,-122.2871311,228542459,way
+Department of Health and Human Services,government,47.5670903,-122.3641769,228916810,way
+Southwest Youth and Family Services,government,47.5619885,-122.3635201,228917569,way
+Seattle Parks and Recreation Central Office,government,47.6191274,-122.3419305,231664564,way
+Southeast Youth & Family Services,government,47.5572015,-122.2850651,234834351,way
+Washington State Department of Transportation Northwest Region Headquarters,government,47.743286,-122.3517474,309146594,way
+Shoreline City Hall,government,47.7563406,-122.3434584,309273896,way
+Seattle Municipal Court,government,47.6041324,-122.3290643,333212253,way
+Seattle Emergency Operations Center,government,47.6012487,-122.3280333,340368683,way
+USGS Western Fisheries Research Center,government,47.6753414,-122.2557001,343109784,way
+Northwest Fisheries Science Center,government,47.6444744,-122.3065555,343324215,way
+VA Magnolia,government,47.6630289,-122.407611,386338596,way
+Henry M. Jackson Federal Building,government,47.6045916,-122.3354836,389138211,way
+City of Seattle Joint Training Facility,government,47.5188727,-122.3351254,401489290,way
+Washington Interscholatic Activities Association,government,47.4769475,-122.2049744,410972744,way
+Bellevue City Hall,government,47.6144397,-122.1923365,418863779,way
+Medina City Hall,government,47.6153426,-122.2391153,419546356,way
+Hunts Point Town Hall,government,47.6373001,-122.2272328,422278034,way
+North City Water District,government,47.7572429,-122.3123568,447943280,way
+Yarrow Point Town Hall,government,47.6473583,-122.2138485,449744775,way
+King County Water District No. 49,government,47.465685,-122.3398803,557237637,way
+Social Security Administration,government,47.4630535,-122.3361627,627099903,way
+King County Emergency Coordination Center,government,47.4804903,-122.1715176,647853934,way
+Cowlitz Indian Tride - Health & Human Services,government,47.4633739,-122.2527789,651652367,way
+USCIS Field Office,government,47.4904592,-122.2911243,652152961,way
+Tukwila School District Service Center,government,47.4745212,-122.2815408,652153707,way
+government facility,government,47.471023,-122.2871013,652154775,way
+Puget Sound Regional Services,government,47.4846937,-122.2025546,654871593,way
+King County Juvenile Detention,government,47.6048676,-122.3154997,693648998,way
+Tukwila Justice Center,government,47.4682052,-122.2880974,870909757,way
+King County Metro Safety and Training Facility at Norfolk,government,47.5120013,-122.287805,1050223646,way
+Social Security Administration,government,47.727437,-122.3439622,1262825995,way
+United States Customs and Border Protection,government,47.7570577,-122.2569101,1293454679,way
+"Northwest Fisheries Science Center, NOAA",government,47.6448491,-122.3067511,233742,relation
+Capitol Hill Community Services Office,government,47.6084119,-122.3095247,3066869,relation
+Federal Office Building,government,47.6040984,-122.3364933,3115653,relation
+King County Environmental Lab,government,47.6523839,-122.3617063,3123074,relation
+NOAA Western Regional Center,government,47.6858713,-122.2550363,3317674,relation
+Washington State Department of Transportation - Corson Avenue Facility,government,47.5445452,-122.3239218,13960974,relation
+Fort Lawton FAA Radar Site,government,47.6577481,-122.412839,14083751,relation
+substation facility,substation,47.6382423,-122.3877677,2308991672,node
+substation facility,substation,47.5773834,-122.2019201,2498568227,node
+substation facility,substation,47.6323284,-122.3248437,5479023932,node
+TPSS #66,substation,47.6175286,-122.3202242,5487520098,node
+Capitol Rectifier Sub. No. 6,substation,47.6212704,-122.3124862,8406688170,node
+substation facility,substation,47.5789829,-122.196264,10128979853,node
+North Substation,substation,47.6840762,-122.3193975,34908553,way
+Talbot Substation,substation,47.4681852,-122.1913803,35125979,way
+Maple Valley Substation,substation,47.4687492,-122.1875849,35125980,way
+substation facility,substation,47.467126,-122.2395005,35153565,way
+Shoreline Substation,substation,47.7477822,-122.3336632,35262129,way
+Massachusetts Substation,substation,47.5887266,-122.3359197,35285169,way
+Lakeside Substation,substation,47.5863596,-122.1582959,35387118,way
+Viewland/Hoffman Substation,substation,47.7059697,-122.3504855,35394492,way
+Duwamish Substation,substation,47.5144537,-122.3071695,35463781,way
+University Receiving Substation,substation,47.6548476,-122.3234628,36333959,way
+Canal Substation,substation,47.6618409,-122.3651184,37046541,way
+Broad Street Substation,substation,47.6214881,-122.3456564,37046545,way
+East Pine Substation,substation,47.6146789,-122.3031507,37046550,way
+Creston-Nelson Substation,substation,47.506476,-122.2670324,37047357,way
+Delridge Substation,substation,47.5494932,-122.3662135,37222218,way
+Paccar Substation,substation,47.4953912,-122.1949053,39084570,way
+substation facility,substation,47.674029,-122.1576668,39085757,way
+substation facility,substation,47.6745928,-122.1577838,39085758,way
+substation facility,substation,47.4710899,-122.2084763,39126394,way
+Norway Hill Substation,substation,47.7435669,-122.1935714,39996573,way
+substation facility,substation,47.5558025,-122.165672,40794150,way
+substation facility,substation,47.4935866,-122.207871,41292373,way
+Shuffleton Substation,substation,47.5017022,-122.2029448,42856326,way
+substation facility,substation,47.5001699,-122.2026216,42856329,way
+Wayne Substation,substation,47.749707,-122.2122712,47413470,way
+Earlington Substation,substation,47.4655887,-122.2258582,55502618,way
+Mercerwood,substation,47.5668402,-122.2200714,92831922,way
+substation facility,substation,47.632255,-122.202078,97858091,way
+substation facility,substation,47.6125603,-122.1866673,103747072,way
+substation facility,substation,47.5820901,-122.2329747,144685015,way
+substation facility,substation,47.5773804,-122.2019039,146296043,way
+South Substation,substation,47.5681103,-122.3301517,158275313,way
+substation facility,substation,47.5902693,-122.2931969,194339205,way
+Bellevue Rectifier Sub. No. 5,substation,47.6202175,-122.3263295,206047760,way
+substation facility,substation,47.502657,-122.1865625,215513981,way
+substation facility,substation,47.6852489,-122.2908671,221140364,way
+substation facility,substation,47.6516525,-122.3978565,221684498,way
+Waterfront Streetcar Rectifier Sub. No. 20,substation,47.6097484,-122.3443909,231362091,way
+North Broadway Rectifier Sub. No. 13,substation,47.6340009,-122.3203468,238146733,way
+substation facility,substation,47.5562213,-122.3565661,239376169,way
+Juanita Substation,substation,47.7176718,-122.195575,240986124,way
+substation facility,substation,47.7412122,-122.228159,240986125,way
+substation facility,substation,47.6947569,-122.1979104,240988992,way
+substation facility,substation,47.6802452,-122.1954642,240988993,way
+substation facility,substation,47.6313631,-122.1672301,242005645,way
+substation facility,substation,47.5827418,-122.167699,242372412,way
+substation facility,substation,47.5789867,-122.1962744,242373257,way
+substation facility,substation,47.5417389,-122.2234609,242429197,way
+substation facility,substation,47.5375133,-122.2122494,242429541,way
+substation facility,substation,47.5343429,-122.2013395,242429865,way
+substation facility,substation,47.5397304,-122.1851803,242430342,way
+substation facility,substation,47.4901856,-122.165026,243501304,way
+substation facility,substation,47.5610707,-122.3145516,243581153,way
+substation facility,substation,47.6233006,-122.1842504,243995890,way
+substation facility,substation,47.6192593,-122.2328941,243995893,way
+substation facility,substation,47.6332279,-122.2286835,243995894,way
+substation facility,substation,47.6135383,-122.208704,243995898,way
+substation facility,substation,47.6676754,-122.1958872,243996142,way
+substation facility,substation,47.5936147,-122.1960536,243996565,way
+Union Street Substation,substation,47.6071121,-122.339481,244468438,way
+substation facility,substation,47.6548572,-122.197786,245216788,way
+substation facility,substation,47.7104271,-122.1637463,260373305,way
+Denny Substation,substation,47.6191137,-122.3319849,339831518,way
+substation facility,substation,47.4660734,-122.2371739,437936453,way
+Boeing 5-30,substation,47.4918955,-122.2100586,588860907,way
+West Receiving Station,substation,47.6536645,-122.3125364,608194155,way
+substation facility,substation,47.5001176,-122.2026958,654881483,way
+substation facility,substation,47.4918628,-122.2106548,654881492,way
+Building 42,substation,47.6812299,-122.2634396,940949038,way
+Broadway and Minor Traction Substation,substation,47.6063937,-122.3210103,1022139164,way
+Broad Street Substation Annex,substation,47.6211992,-122.3467203,1144539852,way
+substation facility,substation,47.6962111,-122.3306888,1286483980,way
+substation facility,substation,47.5844874,-122.1574655,1373922785,way
+substation facility,substation,47.6099027,-122.1776745,1435255080,way
+Bellevue Pumping Station,water_works,47.602877,-122.2042898,366030192,node
+water_works facility,water_works,47.6710062,-122.4128984,8295157659,node
+King County West Point Wastewater Treatment Plant,water_works,47.663828,-122.4277775,34932485,way
+King County South Treatment Plant,water_works,47.4703188,-122.2392023,35153564,way
+water_works facility,water_works,47.6963987,-122.2759545,57883619,way
+King County Alki Wet Weather Treatment Facility,water_works,47.5746196,-122.417297,190464964,way
+Interbay Pump Station,water_works,47.648674,-122.3857547,221684209,way
+Interbay Pump Station,water_works,47.6331798,-122.3777053,221921018,way
+Murray Avenue Pump Station,water_works,47.539826,-122.3973076,224177659,way
+water_works facility,water_works,47.5683377,-122.2208679,246687822,way
+30th Avenue Northeast Pump Station,water_works,47.6639223,-122.2959052,337861958,way
+Salmon Creek Treatment Plant,water_works,47.4910108,-122.3611511,353725904,way
+Lake City Tunnel Regulator,water_works,47.6561648,-122.3205143,362668488,way
+Murray Wet Weather Facility,water_works,47.5399242,-122.3959286,496469759,way
+Magnolia Wet Weather Storage Facility,water_works,47.6328659,-122.3865809,532445306,way
+water_works facility,water_works,47.6325205,-122.3987738,681213391,way
+Barton Street Pump Station,water_works,47.523375,-122.3934416,738088093,way
+Seattle Metro Pumping Station,water_works,47.650386,-122.3066358,969657964,way
+Wilburton Pumping Station,water_works,47.6024405,-122.1799355,1054316176,way
+water_works facility,water_works,47.6115528,-122.1837922,1204801027,way
+South Magnolia CSO Control Facility,water_works,47.6329205,-122.3864651,1358431114,way
+North Beach Pump Station,water_works,47.7014415,-122.3906451,1373670893,way
+Wheeler Street Discharge Station,water_works,47.6410116,-122.3801456,1373672826,way
+Fremont Siphon,water_works,47.6532147,-122.3597606,1373680782,way
+water_works facility,water_works,47.6622013,-122.5010729,1413616236,way

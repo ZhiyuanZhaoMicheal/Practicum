@@ -1,0 +1,44 @@
+{
+  "maria_sanjuan": {
+    "event_name": "Hurricane Maria (San Juan)",
+    "metric_crs": "EPSG:32619",
+    "pre_dir": "project/data/processed/Maria-VNP46A2-pre",
+    "post_dir": "project/data/processed/Maria-VNP46A2-post",
+    "poi_csv": "project/result/maria_sanjuan_critical_infra_poi.csv"
+  },
+  "michael_panamacity": {
+    "event_name": "Hurricane Michael (Panama City)",
+    "metric_crs": "EPSG:32616",
+    "pre_dir": "project/data/processed/Michael-VNP46A2-pre",
+    "post_dir": "project/data/processed/Michael-VNP46A2-post",
+    "poi_csv": "project/result/michael_panamacity_critical_infra_poi.csv"
+  },
+  "earthquake_sanjuan": {
+    "event_name": "Puerto Rico Earthquake (San Juan)",
+    "metric_crs": "EPSG:32619",
+    "pre_dir": "project/data/processed/Earthquake-VNP46A2-pre",
+    "post_dir": "project/data/processed/Earthquake-VNP46A2-post",
+    "poi_csv": "project/result/earthquake_sanjuan_critical_infra_poi.csv"
+  },
+  "ida_neworleans": {
+    "event_name": "Hurricane Ida (New Orleans)",
+    "metric_crs": "EPSG:32615",
+    "pre_dir": "project/data/processed/Ida_NewOrleans-VNP46A2-pre",
+    "post_dir": "project/data/processed/Ida_NewOrleans-VNP46A2-post",
+    "poi_csv": "project/result/ida_neworleans_critical_infra_poi.csv"
+  },
+  "laura_lakecharles": {
+    "event_name": "Hurricane Laura (Lake Charles)",
+    "metric_crs": "EPSG:32615",
+    "pre_dir": "project/data/processed/Laura_LakeCharles-VNP46A2-pre",
+    "post_dir": "project/data/processed/Laura_LakeCharles-VNP46A2-post",
+    "poi_csv": "project/result/laura_lakecharles_critical_infra_poi.csv"
+  },
+  "irma_miami": {
+    "event_name": "Hurricane Irma (Miami)",
+    "metric_crs": "EPSG:32617",
+    "pre_dir": "project/data/processed/Irma_Miami-VNP46A2-pre",
+    "post_dir": "project/data/processed/Irma_Miami-VNP46A2-post",
+    "poi_csv": "project/result/irma_miami_critical_infra_poi.csv"
+  }
+}

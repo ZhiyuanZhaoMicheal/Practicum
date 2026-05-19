@@ -1,0 +1,132 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Womack Army Medical Center,hospital,35.1459947,-79.0024331,10832193884,node
+Cape Fear Valley Medical Center,hospital,35.0314279,-78.9341577,32786331,way
+VA Medical Center,hospital,35.0879477,-78.8766464,32786367,way
+Highsmith-Rainey Specialty Hospital,hospital,35.0543009,-78.8884894,466280234,way
+Fayetteville VA Medical Center,hospital,35.0319432,-79.0288007,544057060,way
+E T Field,aerodrome,34.9182,-79.0524,367908132,node
+Coates Airport,aerodrome,35.1196091,-78.7316871,369030318,node
+Eastover Air Ranch Airport,aerodrome,35.0864782,-78.7716696,1042015721,node
+Fayetteville Regional Airport,aerodrome,34.9921919,-78.8779314,38108891,way
+Pope Army Airfield,aerodrome,35.1730081,-79.0143937,222784159,way
+Simmons Army Air Field,aerodrome,35.1313847,-78.937595,720562344,way
+Cape Fear Valley Medical Center Heliport,aerodrome,35.0326039,-78.9320422,862889234,way
+Valley Heliport,aerodrome,35.081073,-78.9456888,862889242,way
+Fayetteville Fire Station 3,fire_station,35.101789,-78.8978606,9061361103,node
+Fayetteville Fire Station 7,fire_station,35.1314139,-78.8850243,9061361104,node
+Spring Lake Fire Department Station 11,fire_station,35.2073137,-78.9506661,10683487838,node
+Eastover Volunteer Fire Department,fire_station,35.0906893,-78.789063,10683644753,node
+Fire station no.5,fire_station,35.0299371,-78.9267603,13064813639,node
+Fayetteville Fire Station 14,fire_station,35.0780258,-78.8944987,543863582,way
+fire_station facility,fire_station,35.0310133,-79.0521531,545369574,way
+fire_station facility,fire_station,35.1703928,-78.9842624,546940227,way
+fire_station facility,fire_station,35.0878859,-78.9856973,548269419,way
+Stoney Point FIre Department,fire_station,34.9841192,-79.0218451,978605157,way
+WADE VOLUNTEER FIRE DEPARTMENT,fire_station,35.1620532,-78.7406914,1058389015,way
+Lake UpChurch FIre Department,fire_station,34.9482399,-79.0084301,1188660617,way
+Hope Mills Fire Department,fire_station,34.9732015,-78.9589628,1280882866,way
+Fayetteville Police Department,police,35.0541635,-78.8843859,269403733,way
+University Police & Public Safety Department,police,35.0740451,-78.8935066,543863586,way
+Hope Mills Police Department,police,34.9730507,-78.9585542,1205481590,way
+Innovative Solar 46,power_plant,34.9162692,-78.9316515,795007458,way
+Butler-Warner Generation Plant,power_plant,35.098458,-78.8297421,825415933,way
+Boykin PV1,power_plant,35.110901,-78.7518012,1103544001,way
+Quincy Solar,power_plant,35.0721708,-78.8078621,1103544002,way
+Panda Solar NC 5,power_plant,35.0466716,-78.8108766,1103544003,way
+Butler-Warner Solar,power_plant,35.096598,-78.8323527,1103544004,way
+Panda Solar NC 10,power_plant,34.909057,-78.916376,1103598958,way
+Panda Solar NC 9,power_plant,34.9100528,-78.9174127,1103598959,way
+Viper Solar,power_plant,34.9345144,-78.9615599,1103598960,way
+Carter PV1,power_plant,35.0211397,-78.789065,14171441,relation
+Cumberland County Department of Public Health,government,35.0738677,-78.8820291,3155214637,node
+Cumberland County Department of Social Services,government,35.0716262,-78.8821228,3155499497,node
+DMV North Carolina License Plate Agency,government,35.1690654,-78.9718492,4398065448,node
+Cumberland County Alcoholic Beverage Control Board,government,35.029642,-78.9290979,13122743389,node
+Fayetteville City Hall,government,35.0538783,-78.8836473,278563626,way
+Cumberland County Sherrif's Office,government,35.0504815,-78.8769227,278563669,way
+Judge E. Maurice Braswell Cumberland County Courthouse,government,35.0509144,-78.8762552,278563680,way
+government facility,government,35.1690087,-78.9718607,442116216,way
+Parks and Recreation,government,35.0592953,-78.8752236,544082216,way
+US Social Security Administration,government,35.0570855,-78.8789638,544257370,way
+Town Of Spring Lake,government,35.170037,-78.9843221,546940225,way
+Hope Mills Town Hall,government,34.9732775,-78.9578073,548803635,way
+Cumberland Board of Elections,government,35.0536849,-78.8896285,550011319,way
+Wade Town Hall,government,35.1598613,-78.7297641,1058389013,way
+substation facility,substation,35.0797575,-78.9537568,38619487,way
+substation facility,substation,35.1570148,-78.9826844,162810632,way
+substation facility,substation,35.0388197,-79.0298609,162810642,way
+substation facility,substation,35.196731,-78.9956183,162810643,way
+substation facility,substation,35.0682812,-79.0221327,162810644,way
+Fayetteville East Substation,substation,35.098895,-78.8278265,167411842,way
+Fayetteville Substation,substation,35.0211085,-78.9168025,167930675,way
+substation facility,substation,35.1135886,-78.7906508,167930690,way
+substation facility,substation,35.1282509,-78.8705623,167930693,way
+substation facility,substation,35.1311097,-78.8919526,167930699,way
+substation facility,substation,35.1403599,-78.9119131,167930707,way
+substation facility,substation,34.9498969,-78.8906802,184494130,way
+substation facility,substation,35.1268993,-78.9707249,184502720,way
+substation facility,substation,35.1264519,-78.9712385,184502722,way
+substation facility,substation,35.126544,-78.9716724,184502723,way
+substation facility,substation,35.15407,-78.9819324,184502724,way
+substation facility,substation,35.0604659,-78.9916676,184503831,way
+substation facility,substation,35.1419663,-79.037775,184713339,way
+substation facility,substation,35.14178,-79.0384449,184713340,way
+substation facility,substation,34.9785385,-78.9688382,184721717,way
+substation facility,substation,35.1561673,-78.9832289,185745115,way
+substation facility,substation,34.9809908,-79.0350844,428779559,way
+substation facility,substation,35.1879467,-78.7166931,429723204,way
+substation facility,substation,35.0925843,-78.8152036,429760174,way
+substation facility,substation,35.0314472,-78.8732433,433023447,way
+substation facility,substation,35.1040259,-78.8631367,433156880,way
+Collier Substation,substation,35.2049554,-78.8903175,434838090,way
+substation facility,substation,35.0560721,-78.8621106,463127366,way
+substation facility,substation,34.986175,-78.7833528,486752982,way
+substation facility,substation,34.9868043,-78.78503,486752983,way
+substation facility,substation,35.0197784,-78.7850193,486752986,way
+substation facility,substation,35.0204411,-78.7840078,486752987,way
+substation facility,substation,35.0905566,-78.9222306,560947817,way
+substation facility,substation,35.0795398,-79.0106089,617142342,way
+Fayetteville Water Substation,substation,35.0824968,-78.8655701,637374223,way
+Williams Street Substation,substation,35.0491473,-78.8864018,637699272,way
+substation facility,substation,35.0105583,-78.9222151,637699287,way
+Cumberland Road Substation,substation,35.0149975,-78.9341263,637699289,way
+substation facility,substation,35.0256858,-78.998229,638096780,way
+substation facility,substation,34.9996655,-78.9361053,638423260,way
+substation facility,substation,35.1213428,-79.0234488,638432124,way
+substation facility,substation,35.0420293,-78.9177397,638617511,way
+substation facility,substation,34.9629409,-78.9404071,646095146,way
+substation facility,substation,35.0763624,-78.9941813,682210531,way
+substation facility,substation,34.9197863,-78.9424094,765221200,way
+substation facility,substation,35.0971184,-78.8307464,825415935,way
+substation facility,substation,35.0988996,-78.8289775,825415938,way
+substation facility,substation,34.9994174,-78.9056832,825415940,way
+substation facility,substation,34.9441209,-78.9846433,870996105,way
+substation facility,substation,35.0601104,-78.9556959,880787562,way
+substation facility,substation,35.1484689,-78.8610236,881127485,way
+Camden Road Substation,substation,35.0209747,-78.9027398,1070111502,way
+substation facility,substation,35.1107386,-78.9284166,1102928930,way
+substation facility,substation,35.0105141,-79.0337445,1103598956,way
+Railroad Street Substation,substation,35.042848,-78.8464507,1103796432,way
+Goodyear Substation,substation,35.1692095,-78.8585101,1103796441,way
+substation facility,substation,34.9586042,-78.8432864,1103796445,way
+Bordeaux Substation,substation,35.0283408,-78.9388907,1104012709,way
+substation facility,substation,35.0655878,-78.9253416,1104012717,way
+Water Works Substation,substation,35.067916,-78.8956985,1104012718,way
+substation facility,substation,35.0262593,-78.9687578,1104012733,way
+substation facility,substation,35.039923,-78.9499317,1104012735,way
+substation facility,substation,35.0402502,-78.993192,1104012737,way
+substation facility,substation,35.155561,-78.8711048,1284275192,way
+substation facility,substation,35.0776658,-79.0231587,1328839944,way
+substation facility,substation,34.9208632,-78.8135448,1492873169,way
+substation facility,substation,35.0797084,-78.8671603,1492873170,way
+water_works facility,water_works,35.196346,-78.9657069,39078603,way
+water_works facility,water_works,35.1961263,-78.9650207,39079269,way
+water_works facility,water_works,35.1964258,-78.9654459,39081388,way
+water_works facility,water_works,35.0704992,-78.8963813,39081448,way
+water_works facility,water_works,35.19589,-78.9653553,39081522,way
+water_works facility,water_works,35.196151,-78.9655193,39081960,way
+water_works facility,water_works,35.0596784,-78.8635902,39083307,way
+water_works facility,water_works,35.0597899,-78.8631944,315562868,way
+Cross Creek Water Reclamation Facility,water_works,35.0589127,-78.8611722,585488465,way
+Fayetteville Water Works,water_works,35.0797449,-78.8670729,825415944,way
+water_works facility,water_works,34.964806,-78.8331093,889388685,way

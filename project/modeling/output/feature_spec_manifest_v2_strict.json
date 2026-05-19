@@ -1,0 +1,56 @@
+{
+  "version": "v2_strict",
+  "timestamp_utc": "2026-03-10T01:43:28.519262+00:00",
+  "variants": [
+    "baseline_locked_v2_strict",
+    "nlcd_locked_v2_strict",
+    "full_locked_v2_strict"
+  ],
+  "full_feature_raw": [
+    "osm_dist_any_m",
+    "osm_power_count_1000m",
+    "osm_medical_count_1000m",
+    "pixel_cloud_proxy"
+  ],
+  "excluded_from_main_spec": [
+    "missing_osm_flag",
+    "missing_cloud_flag",
+    "pixel_pre_valid_ratio",
+    "pixel_post_valid_ratio",
+    "osm_dist_power_m",
+    "osm_any_count_750m"
+  ],
+  "vif_gate_max": 12.0,
+  "scale_stats": {
+    "pre_mean_ntl_centered": {
+      "mean": 8.824904926964179e-16,
+      "std": 4.175565040258373
+    },
+    "osm_dist_any_m": {
+      "mean": 1374.2381430682904,
+      "std": 2902.001479729799
+    },
+    "osm_power_count_1000m": {
+      "mean": 0.5635552105569571,
+      "std": 1.097731166569636
+    },
+    "osm_medical_count_1000m": {
+      "mean": 0.5871337085193091,
+      "std": 1.7002258365806724
+    },
+    "pixel_cloud_proxy": {
+      "mean": 0.005166404302746038,
+      "std": 0.07720433242315172
+    }
+  },
+  "sample_n_obs": 10306,
+  "events": [
+    "earthquake_sanjuan",
+    "ida_neworleans",
+    "irma_miami",
+    "laura_lakecharles",
+    "maria_sanjuan",
+    "michael_panamacity"
+  ],
+  "missing_osm_flag_all_zero": true
+}

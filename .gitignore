@@ -1,10 +1,25 @@
-project/.DS_Store
-project/.DS_Store
-project/data/.DS_Store
-project/data/raw/imgs/.DS_Store
-project/data/raw/.DS_Store
-project/data/.DS_Store
-project/.DS_Store
-project/data/.DS_Store
-project/data/raw/.DS_Store
-project/data/raw/imgs/.DS_Store
+# macOS
+**/.DS_Store
+**/.Rhistory
+
+# Python
+**/__pycache__/
+*.pyc
+
+# Node / Vite
+project/nightlight-dashboard/node_modules/
+project/nightlight-dashboard/dist/
+
+# Stray download artifacts
+drive-download-*.zip
+wget-log
+
+# Large public datasets — re-download from source (see README)
+project/data/raw/zcta520/
+project/data/raw/counties/
+project/data/raw/ibtracs_NA.csv
+
+# Large local-only assets
+docs/BackupGen_Zhiyuan_Qiushi/NTL_Generator_Capstone_Pre_use.pptx
+docs/dashboardvideo.mov
+

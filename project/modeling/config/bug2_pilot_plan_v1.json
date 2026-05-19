@@ -1,0 +1,72 @@
+{
+  "pilot_state": "PR",
+  "pilot_label": "Puerto Rico official BUG pilot",
+  "pilot_event_ids": [
+    "earthquake_sanjuan",
+    "maria_sanjuan"
+  ],
+  "source_dataset": "pr_official_bug_pilot",
+  "jurisdiction": "Puerto Rico",
+  "county_or_district": "San Juan",
+  "source_url": "https://www.drna.pr.gov/documentos/formularios/perm/calidad-aire/generadores-emergencia/solicitud-de-permiso-general-generadores-de-electricidad-para-residencia-unifamiliar/",
+  "source_path": "project/data/external/bug_inventory/raw/bug_inventory_pr_pilot_raw.csv",
+  "canonical_path": "project/data/external/bug_inventory/canonical/bug_inventory_pr_pilot_v1.csv",
+  "pilot_priority_order": [
+    "PR",
+    "FL",
+    "LA"
+  ],
+  "acquisition_backlog": [
+    {
+      "State": "PR",
+      "Priority state?": 1,
+      "Agency responsible for permitting BUGs": "Department of Natural and Environmental Resources",
+      "Source for agency responsible for permitting BUGs": "https://www.drna.pr.gov/documentos/formularios/perm/calidad-aire/generadores-emergencia/solicitud-de-permiso-general-generadores-de-electricidad-para-residencia-unifamiliar/",
+      "Data availability": "",
+      "Source for data availability": "",
+      "Notes": "Extreme outage case and the clearest current ground-truth pilot candidate for remote sensing validation."
+    },
+    {
+      "State": "FL",
+      "Priority state?": 2,
+      "Agency responsible for permitting BUGs": "County-level permitting systems; Miami-Dade is a strong first lead",
+      "Source for agency responsible for permitting BUGs": "https://www.miamidade.gov/global/economy/building/permits/generators.page",
+      "Data availability": "",
+      "Source for data availability": "https://florida-ag-kbsettlement.com/florida-home-generator-installations-permitting-insurance-and-maintenance-mistakes-to-avoid/",
+      "Notes": "Second priority after PR because multiple current events map to Florida counties."
+    },
+    {
+      "State": "LA",
+      "Priority state?": 3,
+      "Agency responsible for permitting BUGs": "",
+      "Source for agency responsible for permitting BUGs": "",
+      "Data availability": "",
+      "Source for data availability": "",
+      "Notes": "High-value gap because current mainline events already include Louisiana but the permitting path is still unresolved."
+    }
+  ],
+  "coverage_gate": {
+    "min_records": 25,
+    "min_geo_coverage": 0.75,
+    "min_event_hits": 2
+  },
+  "canonical_columns": [
+    "source_dataset",
+    "jurisdiction",
+    "state",
+    "county_or_district",
+    "record_id",
+    "facility_name",
+    "facility_type_raw",
+    "facility_type_std",
+    "fuel_type",
+    "capacity_kw",
+    "operating_hours_annual",
+    "address_raw",
+    "lat",
+    "lon",
+    "geo_quality_flag",
+    "attribute_quality_flag",
+    "source_url"
+  ]
+}

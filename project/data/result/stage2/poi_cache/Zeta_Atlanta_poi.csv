@@ -1,0 +1,405 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Ridgeview Institute - Smyrna,hospital,33.8579171,-84.5130825,358778710,node
+Georgia Regional Hospital Atlanta,hospital,33.696701,-84.2765161,358779826,node
+Charter BHC at Laurel Heights,hospital,33.7798758,-84.3449199,358785137,node
+Atlanta VA Medical Center,hospital,33.8018044,-84.3117,7211662360,node
+hospital facility,hospital,33.8941311,-84.3288595,9120011784,node
+Emory Wesley Woods Hospital,hospital,33.804819,-84.331172,10834410890,node
+Select Specialty Hospital - Midtown Atlanta,hospital,33.7737772,-84.3827544,10834436435,node
+Ridgeview Institute,hospital,33.8564433,-84.5110548,10834460762,node
+Emory Musculoskeletal Institute,hospital,33.828492,-84.3351295,12800526801,node
+Inspire Hospice Atlanta,hospital,33.8466883,-84.3669099,12811236173,node
+Emory Decatur,hospital,33.7909177,-84.2825914,34845332,way
+Piedmont Atlanta Hospital,hospital,33.8091461,-84.3954735,34845384,way
+DeKalb Medical L-TAC,hospital,33.7774402,-84.2929202,51291333,way
+Emory University Hospital,hospital,33.7921377,-84.3221736,61494982,way
+Hughes Spalding Hospital,hospital,33.7537959,-84.3818488,494947781,way
+WellStar Windy Hill Hospital,hospital,33.8993363,-84.4804331,581374034,way
+Laurel Heights Hospital,hospital,33.7804316,-84.3456849,692240855,way
+Anchor Hospital,hospital,33.6093545,-84.4518769,692241977,way
+Talbott Recovery Campus,hospital,33.6139703,-84.542401,787488969,way
+Emory University Orthopaedic and Spine Hospital,hospital,33.8260369,-84.2481384,854266721,way
+Children's Healthcare of Atlanta,hospital,33.8346214,-84.3272884,902148551,way
+Children's Healthcare of Atlanta Arthur M. Blank Hospital,hospital,33.8317764,-84.3304304,933073925,way
+VA Medical Center,hospital,33.8016254,-84.3113223,1221469441,way
+Emory University Hospital Midtown,hospital,33.7689876,-84.3863016,3612501,relation
+Grady Health System,hospital,33.7520549,-84.381856,5675786,relation
+DeKalb-Peachtree Airport,aerodrome,33.8757978,-84.3018842,34847193,way
+Hartsfield–Jackson Atlanta International Airport,aerodrome,33.6373889,-84.4272776,208889095,way
+Fulton County Airport-Brown Field,aerodrome,33.7764628,-84.5202996,1008838834,way
+Dobbins Air Reserve Base,aerodrome,33.913965,-84.518798,4844952,relation
+Hapeville Station 2 Fire Station,fire_station,33.6631,-84.418,367913028,node
+Henry County Station 6 Fire Station,fire_station,33.6069,-84.2219,367913031,node
+DeKalb County Fire Rescue - Station 24,fire_station,33.7642284,-84.2206196,367913038,node
+DeKalb County Fire Rescue - Station 23,fire_station,33.819921,-84.2305934,367913039,node
+Hapeville Station 1 Fire Station,fire_station,33.659499,-84.4080884,367913060,node
+Atlanta Fire Rescue Department - Fire Station 9,fire_station,33.7578332,-84.5019973,367913072,node
+DeKalb County Station 3 Fire Station,fire_station,33.77722,-84.2673489,367913107,node
+DeKalb County Fire Rescue - Station 9,fire_station,33.8115652,-84.2755853,367913109,node
+Decatur Fire Station Two,fire_station,33.759413,-84.3025675,367913112,node
+DeKalb County Fire Rescue - Station 2,fire_station,33.8605995,-84.3352929,367913113,node
+DeKalb County Fire Rescue - Station 19,fire_station,33.8753415,-84.2562262,367913115,node
+Fulton County Station 19 Fire Station,fire_station,33.7745,-84.5162,367913116,node
+Smyrna Fire Station #4,fire_station,33.8421557,-84.4978965,367913124,node
+Fulton County Headquarters Fire Station,fire_station,33.7739,-84.5188,367913139,node
+Smyrna Fire Station #1,fire_station,33.8893478,-84.5168629,367913150,node
+Atlanta Fire Rescue Department - Fire Station 8,fire_station,33.8021266,-84.4356801,367913209,node
+Smyrna Station 4 Fire Station,fire_station,33.8489,-84.4942,367913216,node
+Atlanta Fire Rescue Department - Fire Station 16,fire_station,33.7631523,-84.4219064,367913219,node
+Atlanta Station 26 Fire Station,fire_station,33.8373,-84.4211,367913232,node
+Atlanta Station 17 Fire Station,fire_station,33.7425,-84.4368,367913236,node
+Atlanta Fire Rescue Department - Fire Station 20,fire_station,33.7180346,-84.4069111,367913237,node
+Atlanta Fire Rescue Department - Fire Station 30,fire_station,33.6807202,-84.389375,367913244,node
+Atlanta Station 13 Fire Station,fire_station,33.7420463,-84.3476629,367913251,node
+DeKalb County Fire Rescue - Station 20,fire_station,33.7047212,-84.2698468,367913253,node
+DeKalb County Fire Rescue - Station 26,fire_station,33.7321852,-84.2866733,367913254,node
+Sandy Spring Fire Station 4 (Formerly Atlanta Station 39),fire_station,33.8762818,-84.3815554,367913268,node
+Atlanta Fire Station 19,fire_station,33.7835926,-84.354292,367913296,node
+Atlanta Fire Rescue Department - Fire Station 29,fire_station,33.8106,-84.3691,367913297,node
+Atlanta Station 12 Fire Station,fire_station,33.7615015,-84.3453428,367913299,node
+East Point Station 4 Fire Station,fire_station,33.6752,-84.4619,367913314,node
+East Point Station 3 Fire Station,fire_station,33.669,-84.4286,367913315,node
+East Point Station 2 Fire Station,fire_station,33.669,-84.4289,367913316,node
+Atlanta Fire Rescue Department - Training Center,fire_station,33.7057352,-84.4026255,367913320,node
+Atlanta Fire Rescue Department -  Fire Station 5,fire_station,33.7002193,-84.4810747,367913323,node
+DeKalb County Fire Rescue - Station 15,fire_station,33.8850145,-84.300956,367913346,node
+Atlanta Fire Rescue Department - Fire Station 31,fire_station,33.6890856,-84.5112506,367913368,node
+Fulton County Fire Station 2,fire_station,33.7299,-84.5231,367913374,node
+Station 1 Fire Station,fire_station,33.6152,-84.5257,367913442,node
+Clayton County Station 2 Fire Station,fire_station,33.6059,-84.303,367913447,node
+Forest Park Station 2 Fire Station,fire_station,33.6122,-84.3647,367913484,node
+Fire Station No. 6,fire_station,33.7203921,-84.3110459,1595646778,node
+Station 10,fire_station,33.7422402,-84.3684889,1748936232,node
+Atlanta Fire Rescue Department - Fire Station 2,fire_station,33.7103314,-84.3813462,3501750121,node
+DeKalb County Fire Rescue - Station 22,fire_station,33.8373732,-84.2561349,3596930483,node
+DeKalb County Fire Rescue - Station 7,fire_station,33.7391949,-84.2587184,3708268243,node
+DeKalb County Fire Rescue - Station 4,fire_station,33.654509,-84.2304604,3708283943,node
+DeKalb County Fire Rescue - Station 1,fire_station,33.8003233,-84.3277095,40860251,way
+DeKalb County Fire Rescue - Station 23,fire_station,33.8199788,-84.2306083,44082078,way
+Decatur Fire Station 1,fire_station,33.772342,-84.2936437,51301407,way
+City of Atlanta Fire Rescue Department - Station 18,fire_station,33.7505195,-84.3221092,51311379,way
+Atlanta Fire Rescue Station 35,fire_station,33.6390115,-84.4071052,155325663,way
+Historic Fire Station Number 6,fire_station,33.7553377,-84.3719034,173532783,way
+Atlanta Fire Rescue Department - Station 19,fire_station,33.7835951,-84.3542273,208158659,way
+Atlanta Fire Rescue Department - Station 15,fire_station,33.7821416,-84.3817441,234732964,way
+DeKalb County Fire Rescue - Station 22,fire_station,33.8373115,-84.2561295,236247653,way
+Smyrna Fire Station #3,fire_station,33.8838561,-84.4836298,264852973,way
+Atlanta Fire Rescue - Station 27,fire_station,33.8709838,-84.4085793,267520195,way
+Sandy Springs Fire Department - Station 4,fire_station,33.8763183,-84.3815095,267989990,way
+Atlanta Fire Rescue - Station 21,fire_station,33.8425639,-84.3784105,268001356,way
+Atlanta Fire Rescue - Station 8,fire_station,33.802131,-84.4356163,269246999,way
+Atlanta Fire Rescue - Station 11,fire_station,33.7903629,-84.3927986,269542129,way
+Atlanta Fire Rescue - Station 23;Atlanta Fire Rescue Department - Fire Station 23,fire_station,33.7976608,-84.4158335,269542737,way
+Atlanta Fire Rescue - Station 38,fire_station,33.7819618,-84.483426,269548092,way
+Atlanta Fire Rescue - Station 22,fire_station,33.7776047,-84.4505621,270010150,way
+Atlanta Fire Rescue - Station 16,fire_station,33.7630505,-84.4219416,270474813,way
+Atlanta Fire Rescue Department - Station 4,fire_station,33.7539213,-84.3777195,270494114,way
+Atlanta Fire Rescue Department - Station 1,fire_station,33.7525724,-84.3985227,270497388,way
+Atlanta Fire Rescue - Station 25,fire_station,33.7230466,-84.4645087,272205524,way
+Atlanta Fire Rescue - Station 30,fire_station,33.6806678,-84.3894054,275809609,way
+East Point Station 5 Fire Station,fire_station,33.6476131,-84.4912045,278549089,way
+Atlanta Station 24 Fire Station,fire_station,33.6524805,-84.4102653,279206391,way
+Atlanta Fire Rescue - Station 34;Atlanta Fire Rescue Department - Fire Station 34,fire_station,33.6551481,-84.374764,279404063,way
+College Park Station 2 Fire Station,fire_station,33.62436,-84.4659293,281425198,way
+Cobb County Fire Station #5,fire_station,33.8658119,-84.466166,320703230,way
+Cobb County Fire Station #4,fire_station,33.8494389,-84.4841681,334765009,way
+Smyrna Fire Station #2,fire_station,33.8712042,-84.5343874,335943365,way
+Atlanta Fire Rescue - Station 28;Atlanta Fire Rescue Department - Fire Station 28,fire_station,33.8086503,-84.4716653,343312205,way
+DeKalb County Fire Rescue - Station 3,fire_station,33.7773682,-84.267429,366846882,way
+DeKalb County Fire Rescue - Station 4,fire_station,33.6544376,-84.2304845,366846884,way
+DeKalb County Fire Rescue - Station 2,fire_station,33.8606697,-84.33524,366846885,way
+DeKalb County Fire Rescue - Station 5,fire_station,33.849707,-84.2174481,366848589,way
+DeKalb County Fire Rescue - Station 8,fire_station,33.8359839,-84.3108773,366848590,way
+DeKalb County Fire Rescue - Station 9,fire_station,33.8115984,-84.2756429,366848934,way
+DeKalb County Fire Rescue - Station 10,fire_station,33.6892331,-84.3211184,366848935,way
+DeKalb County Fire Rescue - Station 15,fire_station,33.8849512,-84.3009862,366869531,way
+DeKalb County Fire Rescue - Station 19,fire_station,33.8753543,-84.2563547,366870859,way
+DeKalb County Fire Rescue - Station 20,fire_station,33.7046421,-84.269837,366870860,way
+DeKalb County Fire Rescue - Station 24,fire_station,33.7642067,-84.2206131,366872182,way
+Atlanta Fire Station 40,fire_station,33.6292703,-84.4316811,449678695,way
+Clayton County Fire Station 9,fire_station,33.6368317,-84.3900009,781663314,way
+Forest Park Station 1 Fire Station,fire_station,33.6309211,-84.3571931,969127881,way
+Atlanta Fire Station 3,fire_station,33.8535315,-84.3623383,1082999890,way
+fire_station facility,fire_station,33.637091,-84.4488336,1168567040,way
+Atlanta Police Department Zone 6 Precinct,police,33.7509071,-84.3213477,358780254,node
+Old National Precinct Police Station,police,33.6039,-84.4737,367914066,node
+Georgia Station Patrol Post 47 Police Station,police,33.6179,-84.4013,367914069,node
+Atlanta Precinct Number 5 Police Station,police,33.7598359,-84.389231,367914081,node
+Forest Park Police Station,police,33.6086,-84.3794,367914085,node
+Atlanta Precinct Number 6 Police Station,police,33.7471,-84.3346,367914090,node
+Cumberland Mall Police Station Number 3,police,33.8802,-84.4703,367914092,node
+Decatur Police Station,police,33.7733163,-84.3015337,367914151,node
+Atlanta Police Station Headquarters,police,33.7482126,-84.3943517,367914154,node
+DeKalb County Central Precinct Police Station,police,33.777,-84.2423,367914172,node
+Clarkston Police Station,police,33.809,-84.2395,367914173,node
+Fulton County South Precinct Police Station,police,33.6014,-84.55,367914250,node
+Lake City Police Station,police,33.604,-84.3312,367914264,node
+Chamblee Police Station,police,33.8954,-84.299,367914284,node
+Atlanta Precinct Number 4 Police Station,police,33.7251754,-84.4501647,367914309,node
+College Park Police Station,police,33.653,-84.45,367914311,node
+Avondale Estates Police Station,police,33.7763549,-84.2667641,367914312,node
+Atlanta Precinct Number 2 Police Station,police,33.8232693,-84.3617428,367914317,node
+Emory Police Department,police,33.790585,-84.318282,461977079,node
+East Point Police Headquarters,police,33.6804761,-84.442014,466104203,node
+GSU Police Department,police,33.7543861,-84.38903,1254327928,node
+Atlanta Police Department Zone 2 Precinct,police,33.8401123,-84.3731601,2930419353,node
+Fulton County Sherrif's Office,police,33.7513792,-84.3913533,8241555148,node
+Atlanta Police Department Path Force Unit Precinct,police,33.746762,-84.3583515,11261451510,node
+Atlanta Police Department Zone 5,police,33.7863644,-84.3935676,13320064391,node
+Agnes Scott Public Safety,police,33.768286,-84.2967015,40897634,way
+Fulton County Sheriff Department,police,33.7762252,-84.425346,42739235,way
+Capitol Police Division,police,33.746729,-84.391952,55552714,way
+Smyrna Police Station,police,33.8881595,-84.5166913,84079728,way
+Atlanta Precinct Number 1 Police Station,police,33.7772624,-84.4607165,269890465,way
+Zone 1 Mini Police Precinct,police,33.7579568,-84.407686,270471397,way
+Campus Police Mini Precinct,police,33.7500058,-84.4164267,270498264,way
+GSP Vehicle Center,police,33.7230244,-84.3555615,272194174,way
+Atlanta Mounted Patrol Facility,police,33.7267606,-84.3744248,272195111,way
+Cobb County Police Precinct #3,police,33.8491364,-84.4841744,334765005,way
+De Kalb County Public Safety,police,33.840899,-84.2458151,615645700,way
+Georgia Tech Police,police,33.7812161,-84.4033241,751387123,way
+Campus Police Headquarters / Robert Hall Annex,police,33.7481867,-84.4155287,835162850,way
+Georgia State Patrol,police,33.7234741,-84.3555699,915643620,way
+police facility,police,33.6093221,-84.3739712,968835539,way
+CJ: Georgia State University Police,police,33.7951106,-84.2368622,970792466,way
+College Park Police Department,police,33.6539835,-84.451826,974173899,way
+police facility,police,33.870789,-84.296895,1193244912,way
+Plant McDonough-Atkinson,power_plant,33.825476,-84.4714212,186847078,way
+Laredo Bus Facility Solar Canopies,power_plant,33.7833238,-84.2672032,890509292,way
+MAS ASB Cogen Plant,power_plant,33.6549299,-84.3943078,969681642,way
+Hickory Ridge Landfill Solar Project,power_plant,33.6633055,-84.335469,1159043868,way
+power_plant facility,power_plant,33.764469,-84.4009255,1159745214,way
+Atlanta Falcons Solar,power_plant,33.7552638,-84.3988923,15684003,relation
+Fulton County Courthouse,government,33.7499951,-84.3907337,367913010,node
+DeKalb County Fire Rescue Administration,government,33.8412906,-84.2450461,367913034,node
+Chamblee City Hall,government,33.8950711,-84.2992472,367914679,node
+East Point City Hall,government,33.6795531,-84.4421503,367914689,node
+Atlanta City Hall Annex,government,33.6699,-84.4292,367914703,node
+Clarkston City Hall,government,33.8086,-84.2395,367914749,node
+DeKalb Service Center,government,33.7739061,-84.2954521,554780219,node
+City of Decatur Special Events Office,government,33.7800367,-84.2942393,567189371,node
+US Fish and Wildlife Service Southeast Regional Office,government,33.845845,-84.312456,2144723318,node
+Atlanta Municipal Court,government,33.7475645,-84.3930495,2759658381,node
+Federal Aviation Administration,government,33.6530766,-84.4450912,2909633105,node
+Atlanta Regional Commission,government,33.7550764,-84.3845468,2920297497,node
+State Road & Tollway Authority,government,33.7611007,-84.3856717,2920310387,node
+MARTA Headquarters,government,33.8239131,-84.3686557,2930072908,node
+Fulton County Tax Office,government,33.6880076,-84.4930592,3377395227,node
+DeKalb County Division of Family and Children Services,government,33.7708518,-84.2822457,4630480574,node
+City of Decatur Public Works Department,government,33.7704505,-84.2825475,4630480575,node
+Centers for Disease Control,government,33.7997576,-84.3266957,6214324544,node
+Georgia Environmental Protection Division,government,33.6385207,-84.3937541,6822991980,node
+Atlanta City Studio - Hotel Row Pop-Up,government,33.7525464,-84.3951879,7147733933,node
+The Georgia Building Authority,government,33.749723,-84.3874821,7928624941,node
+US Housing & Urban Development Department,government,33.7551293,-84.391173,8109664812,node
+Georgia Emergency Management Agency,government,33.7253606,-84.3569065,8505307281,node
+Georgia Department of Transportation,government,33.7248789,-84.3570374,8505307307,node
+"City of Tucker, GA City Hall",government,33.8419916,-84.2399272,9344859920,node
+Internal Revenue Service,government,33.883256,-84.2918498,9611158705,node
+Clarkston City Hall Annex,government,33.8090674,-84.238362,9950182260,node
+Federal Bureau of Investigation Atlanta Field Office,government,33.8729795,-84.2677024,10685152659,node
+Dekalb Watershed Managment,government,33.7807219,-84.2412282,11296353489,node
+Dekalb County Tax Commisioner,government,33.7778375,-84.2458356,11296381219,node
+Dekalb County Voter Registration & Elections Office,government,33.7778687,-84.2466375,11296381220,node
+Dekalb County Driver Services,government,33.77757,-84.2467368,11296381221,node
+Dekalb County Medical Examiners' Office,government,33.7720704,-84.2448278,11296381227,node
+Dekalb County Sheriff's Office,government,33.7758506,-84.2434629,11296381228,node
+Dekalb Roads & Drainage,government,33.7752129,-84.2420457,11296381229,node
+Atlanta Police Department - Office of Professional Standards,government,33.7496632,-84.3979701,11762623158,node
+Department of Enterprise Asset Management,government,33.749612,-84.3980044,11762623159,node
+Atlanta - Ted Turner Drive Immigration Court,government,33.7494319,-84.397497,11762623161,node
+City of Atlanta Office of the Inspector General,government,33.7495634,-84.3980429,11762623162,node
+US Immigration & Customs Enforcement - Atlanta Field Office,government,33.7493761,-84.3973549,11777194623,node
+Brookhaven City Centre,government,33.8586832,-84.3403408,13082676195,node
+Atlanta Public Schools Instructional Service Center,government,33.7434057,-84.4215674,13305303096,node
+USCIS Atlanta Field Office,government,33.8482071,-84.2499001,13360613801,node
+IRS Taxpayer Assistance Center,government,33.8765536,-84.2715301,13620243701,node
+Federal Reserve Bank of Atlanta,government,33.782398,-84.3853611,28979077,way
+Richard B. Russell Federal Building & US Courthouse,government,33.7533221,-84.3958641,39447200,way
+Decatur City Hall,government,33.7737246,-84.2961833,40813538,way
+Eloise T. Leveritt Building,government,33.7702619,-84.2827262,51296340,way
+Shirley A. Trussell Building,government,33.7715313,-84.2815592,51307612,way
+government facility,government,33.7705828,-84.2819298,51314976,way
+Westchester Elementary School,government,33.7832667,-84.3064207,51343459,way
+DeKalb County Courthouse,government,33.7740652,-84.2972242,51819070,way
+DeKalb County Courthouse,government,33.7740635,-84.297657,51819071,way
+Georgia State Health Building,government,33.7476133,-84.3890732,55464769,way
+Atlanta Municipal Court,government,33.7474811,-84.3934042,55464773,way
+Georgia Public Service Commission,government,33.7479995,-84.3894917,55464778,way
+Paul D. Coverdell Legislative Office Building,government,33.7480415,-84.3886662,55464787,way
+Georgia State Judicial Building,government,33.7484586,-84.3891993,55464788,way
+Charles L. Carnes Justice Center,government,33.7503622,-84.3912697,55552731,way
+Smyrna City Hall,government,33.8839495,-84.516824,84079681,way
+government facility,government,33.7779393,-84.2466963,98570164,way
+The Georgia State Capitol,government,33.7490541,-84.3881359,113041732,way
+Atlanta City Hall,government,33.7486207,-84.390585,113041909,way
+City of South Fulton City Hall,government,33.7378538,-84.5641378,201142208,way
+U.S. Court of Appeals for the 11th Circuit,government,33.7564517,-84.3902687,262879649,way
+Governor's Mansion,government,33.8463798,-84.3991515,267561239,way
+Consuelate General of Hati,government,33.8346102,-84.3675246,268012766,way
+Atlanta Housing Authority,government,33.7578094,-84.3798402,270470183,way
+Fulton County Government Center,government,33.7509017,-84.3924946,270497339,way
+government facility,government,33.7497332,-84.3980558,270497355,way
+Martin Luther King Jr. Federal Building,government,33.7527561,-84.3944361,270497386,way
+Fulton County Government Center,government,33.7512042,-84.3918872,270497403,way
+Georgia Department of Public Safety,government,33.7499548,-84.3897385,270497419,way
+Georgia Department of Agriculture,government,33.7500928,-84.3876634,270880887,way
+City of Atlanta Sanitation,government,33.7444578,-84.3597883,271132851,way
+GDPS Motor Carrier Compliance,government,33.7444784,-84.3587574,271133646,way
+WorkSource Atlanta,government,33.7326327,-84.3901503,271302304,way
+government facility,government,33.6806294,-84.4421415,275583395,way
+Brawner Hall,government,33.8752026,-84.507373,297821203,way
+North Fulton Training Center,government,33.8922637,-84.380629,334321473,way
+The Fulton County Department of Community Development,government,33.7508495,-84.3933591,344865433,way
+State of Georgia Building,government,33.7541168,-84.3905438,345615605,way
+government facility,government,33.7495764,-84.3973031,359358204,way
+Brookhaven City Hall,government,33.870621,-84.3337739,375972485,way
+Godbold Federal Building,government,33.756838,-84.390662,536822091,way
+Georgia Environmental Protection Division,government,33.6387615,-84.3943096,728101143,way
+Nathan Deal Judicial Center,government,33.7462318,-84.386979,755543618,way
+Avondale Estates City Hall,government,33.776435,-84.266737,864676595,way
+John C. Godbold Federal Building,government,33.7571829,-84.3906722,870569682,way
+Sam Nunn Atlanta Federal Center,government,33.7534622,-84.3932886,884920955,way
+government facility,government,33.7236274,-84.3581929,915643630,way
+Department of Juvenile Justice,government,33.7701505,-84.2518015,943650058,way
+Forest Park City Hall,government,33.6200775,-84.3659725,968836069,way
+GSFC,government,33.844503,-84.2420855,972519456,way
+College Park City Hall,government,33.6550293,-84.4497877,974173895,way
+East Point City Hall,government,33.6799227,-84.4426941,974201236,way
+"Robert T. ""Bobby"" Burgess Building",government,33.7766875,-84.2415821,1115772730,way
+Dekalb Housing Authority,government,33.773683,-84.3027587,1279153693,way
+Atlanta International Airport Air Traffic Control,government,33.6419922,-84.4211555,1303892288,way
+Administration/Classroom Building,government,33.6937751,-84.3362892,1450737555,way
+Administration/Classroom Building,government,33.6944444,-84.3360408,1450737556,way
+Historic Fulton County Courthouse,government,33.7504948,-84.3906888,3616703,relation
+substation facility,substation,33.7909706,-84.2716775,34771030,way
+substation facility,substation,33.7708584,-84.2916155,87207102,way
+substation facility,substation,33.7566384,-84.3798065,102226450,way
+substation facility,substation,33.6143796,-84.5262514,159784551,way
+East Point 12kV Switching Station,substation,33.675453,-84.4621973,171173865,way
+Morrow Substation,substation,33.605931,-84.3334617,171479107,way
+substation facility,substation,33.7265734,-84.3727224,171479108,way
+substation facility,substation,33.6509264,-84.2347214,171479143,way
+substation facility,substation,33.7106111,-84.3504735,171479149,way
+Fort Gillem Substation,substation,33.6273235,-84.3266013,171479153,way
+East Point Water Works Substation,substation,33.6904397,-84.4521723,179892665,way
+substation facility,substation,33.8176494,-84.4681469,179892666,way
+Cascade Heights Substation,substation,33.7232188,-84.4654157,179892667,way
+substation facility,substation,33.7491657,-84.4984989,180059926,way
+substation facility,substation,33.8162528,-84.4918896,180059933,way
+substation facility,substation,33.6931748,-84.4906242,180059937,way
+substation facility,substation,33.8217385,-84.4842598,180059938,way
+substation facility,substation,33.8850311,-84.2449584,181678324,way
+substation facility,substation,33.7800887,-84.3650602,184762893,way
+Argos Cement Substation,substation,33.8242406,-84.4689819,186847067,way
+substation facility,substation,33.8299048,-84.4597629,186847069,way
+substation facility,substation,33.8263788,-84.4746877,186847074,way
+substation facility,substation,33.825522,-84.4729746,186847080,way
+substation facility,substation,33.8226796,-84.4766842,186847081,way
+substation facility,substation,33.788956,-84.3274515,210802853,way
+substation facility,substation,33.7911099,-84.3282142,216261719,way
+substation facility,substation,33.7882215,-84.229998,220277631,way
+substation facility,substation,33.7909898,-84.3663041,226273068,way
+substation facility,substation,33.7881259,-84.4069994,234732962,way
+Wabash,substation,33.7653626,-84.3714267,261238690,way
+substation facility,substation,33.745272,-84.3782979,261242312,way
+substation facility,substation,33.8115148,-84.3947481,261272990,way
+substation facility,substation,33.9006787,-84.4894536,264860939,way
+Burbank Substation,substation,33.7562429,-84.4289227,270500628,way
+substation facility,substation,33.8583095,-84.5150955,293568547,way
+substation facility,substation,33.7913205,-84.3180842,293658373,way
+substation facility,substation,33.8095126,-84.3528643,324365705,way
+substation facility,substation,33.8642606,-84.4703651,330562121,way
+substation facility,substation,33.742318,-84.4089247,389730235,way
+substation facility,substation,33.8465996,-84.4293114,435064745,way
+Colonial Substation,substation,33.8819987,-84.4757101,496174116,way
+substation facility,substation,33.6403625,-84.4090781,575687344,way
+substation facility,substation,33.638664,-84.4072715,576024070,way
+substation facility,substation,33.6427938,-84.3510396,625105094,way
+substation facility,substation,33.78189,-84.4333568,638521300,way
+substation facility,substation,33.8284394,-84.467809,638523179,way
+substation facility,substation,33.8283909,-84.4693183,638523180,way
+substation facility,substation,33.8259328,-84.4550056,638523181,way
+substation facility,substation,33.8857151,-84.4703133,681008521,way
+substation facility,substation,33.7593201,-84.3270409,681288138,way
+substation facility,substation,33.6376043,-84.3971484,683983853,way
+substation facility,substation,33.6148751,-84.3853728,683983861,way
+substation facility,substation,33.758836,-84.3496856,742352276,way
+substation facility,substation,33.8348499,-84.3314884,755155392,way
+substation facility,substation,33.8787404,-84.2801249,755155397,way
+substation facility,substation,33.8584832,-84.3035238,755155399,way
+substation facility,substation,33.858945,-84.3028967,755155400,way
+substation facility,substation,33.8862266,-84.270731,755155401,way
+substation facility,substation,33.7852133,-84.3899742,781164698,way
+Ellenwood Substation,substation,33.6086084,-84.3021169,837666362,way
+Fairview Substation,substation,33.6031427,-84.2242897,837666513,way
+substation facility,substation,33.6753037,-84.2810879,837674409,way
+substation facility,substation,33.7026689,-84.3292212,837675234,way
+substation facility,substation,33.8263524,-84.2570075,837996881,way
+substation facility,substation,33.7630191,-84.4044025,884928897,way
+substation facility,substation,33.7650046,-84.3938927,886340449,way
+Six Flags Substation,substation,33.7655496,-84.5538799,929404873,way
+substation facility,substation,33.7359311,-84.2351157,967608054,way
+substation facility,substation,33.8120628,-84.2959182,967623503,way
+substation facility,substation,33.7391827,-84.281628,968147309,way
+substation facility,substation,33.7092684,-84.2683769,968147336,way
+substation facility,substation,33.6303755,-84.4644253,969681563,way
+substation facility,substation,33.6183365,-84.4500124,969681567,way
+substation facility,substation,33.6128913,-84.4490858,969681569,way
+substation facility,substation,33.6125784,-84.4488746,969681570,way
+substation facility,substation,33.6164287,-84.4306319,969681597,way
+substation facility,substation,33.6153259,-84.4296531,969681605,way
+substation facility,substation,33.6078014,-84.3874543,969681609,way
+substation facility,substation,33.6549348,-84.3946025,969681641,way
+substation facility,substation,33.6532172,-84.4071553,969681643,way
+substation facility,substation,33.6661907,-84.4290073,969681653,way
+substation facility,substation,33.6679565,-84.4353664,969681655,way
+substation facility,substation,33.6881432,-84.4323612,969681658,way
+substation facility,substation,33.7011866,-84.4076035,969681660,way
+substation facility,substation,33.7357012,-84.4063429,969681663,way
+QTS Substation #1,substation,33.7803036,-84.4210166,969681681,way
+substation facility,substation,33.8099748,-84.4333749,973011228,way
+substation facility,substation,33.7874371,-84.4104301,973011266,way
+substation facility,substation,33.7858922,-84.3971698,973011279,way
+substation facility,substation,33.8270187,-84.3677002,973011283,way
+substation facility,substation,33.83871,-84.3682347,973011291,way
+substation facility,substation,33.8560963,-84.3836138,973011301,way
+substation facility,substation,33.8764825,-84.3807861,973011312,way
+substation facility,substation,33.8515635,-84.2193446,973936547,way
+substation facility,substation,33.8096749,-84.23782,973936556,way
+substation facility,substation,33.8511685,-84.2594645,973936568,way
+substation facility,substation,33.7661966,-84.2529261,973936575,way
+substation facility,substation,33.7473771,-84.5472054,975245896,way
+substation facility,substation,33.6808945,-84.5509479,975245964,way
+substation facility,substation,33.6853872,-84.511499,975258284,way
+UPS Substation,substation,33.7916954,-84.5069948,975258285,way
+substation facility,substation,33.7917745,-84.5505542,975258293,way
+substation facility,substation,33.8809827,-84.4755574,975373297,way
+substation facility,substation,33.8879715,-84.4565516,975373306,way
+substation facility,substation,33.8949147,-84.5404393,975373373,way
+substation facility,substation,33.8940219,-84.332092,984875578,way
+QTS Substation #2,substation,33.7764838,-84.4186204,1007825572,way
+substation facility,substation,33.8299809,-84.5569906,1046878843,way
+substation facility,substation,33.6528575,-84.4520207,1051748624,way
+substation facility,substation,33.607248,-84.3619218,1059238277,way
+substation facility,substation,33.6502099,-84.4884647,1059249713,way
+Georgia World Congress Substation,substation,33.7632685,-84.4003529,1059249715,way
+substation facility,substation,33.7724573,-84.407098,1059249718,way
+Center Hill Substation,substation,33.7786847,-84.4739871,1059255853,way
+substation facility,substation,33.8022961,-84.4783533,1059255859,way
+substation facility,substation,33.7769409,-84.4308562,1258708982,way
+substation facility,substation,33.7790008,-84.4308851,1258708989,way
+substation facility,substation,33.6563809,-84.4310612,1303896318,way
+substation facility,substation,33.666407,-84.4199236,1463983842,way
+substation facility,substation,33.7039716,-84.4288611,1485092736,way
+substation facility,substation,33.7803223,-84.4200812,1485092737,way
+East Point Primary Substation,substation,33.6763499,-84.4629659,14128477,relation
+City Pumping Station Number 1,water_works,33.7867724,-84.4090944,367915808,node
+water_works facility,water_works,33.7421702,-84.5537881,34770998,way
+South Cobb Water Reclamation Facility,water_works,33.7747702,-84.5380096,34771022,way
+Intrenchment Creek Pollution Control Plant,water_works,33.703242,-84.3340999,398076364,way
+water_works facility,water_works,33.8237753,-84.4540339,638523182,way
+water_works facility,water_works,33.8225341,-84.4603157,638523183,way
+water_works facility,water_works,33.8315283,-84.4589215,1008115782,way
+Flint River Wastewater Pump Station,water_works,33.6261596,-84.417419,1303892312,way
+water_works facility,water_works,33.6443661,-84.4186019,1461655971,way

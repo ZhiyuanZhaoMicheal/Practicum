@@ -1,0 +1,39 @@
+{
+  "strict_v2_logo_path": "project/modeling/output/logo_aggregate_metrics_v2_strict.csv",
+  "strict_v2_summary_path": "project/modeling/output/model_summary_feature_upgrade_v2_strict.csv",
+  "created_at_utc": "2026-03-10T02:55:54.676701+00:00",
+  "strict_v2_logo_transport": {
+    "Cox": {
+      "rmse": NaN,
+      "mae": NaN,
+      "auc": NaN,
+      "brier": NaN,
+      "c_index": 0.5200494494472293,
+      "sign_consistency": 0.8333333333333334
+    },
+    "Logit": {
+      "rmse": NaN,
+      "mae": NaN,
+      "auc": 0.4548584976505576,
+      "brier": 0.2541868083820802,
+      "c_index": NaN,
+      "sign_consistency": 1.0
+    },
+    "MixedLM": {
+      "rmse": 0.451227780168869,
+      "mae": 0.3237215914293684,
+      "auc": NaN,
+      "brier": NaN,
+      "c_index": NaN,
+      "sign_consistency": 0.8333333333333334
+    },
+    "OLS": {
+      "rmse": 0.413199513467456,
+      "mae": 0.262213550834218,
+      "auc": NaN,
+      "brier": NaN,
+      "c_index": NaN,
+      "sign_consistency": 0.5
+    }
+  }
+}

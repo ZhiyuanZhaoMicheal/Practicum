@@ -1,0 +1,292 @@
+name,facility_type,lat,lon,osm_id,osm_type
+UAB Freestanding ER,hospital,33.6489968,-86.8192056,7860493314,node
+Radiation Oncology Center,hospital,33.5061502,-86.8039246,8863716717,node
+Noland Hospital Birmingham East,hospital,33.4149192,-86.6860221,10861361155,node
+Encompass Health Lakeshore Rehabilitation Hospital,hospital,33.4691159,-86.788335,10861405240,node
+Grandview ER Emergency Dept (up the ramp),hospital,33.4330998,-86.7165596,12880139903,node
+Princeton Baptist Medical Center,hospital,33.4981005,-86.8469527,185848235,way
+Grandview Medical Center,hospital,33.4336847,-86.7188003,424366006,way
+UAB Hospital,hospital,33.5063147,-86.802387,511500067,way
+UAB St. Vincents,hospital,33.5075687,-86.7882062,511500082,way
+Children's of Alabama,hospital,33.5046356,-86.8055968,511500092,way
+UAB Hospital Highlands,hospital,33.4947855,-86.8068421,511500096,way
+Brookwood Baptist Medical Center,hospital,33.464275,-86.7753168,511779080,way
+Hill Crest Behavioral Health Center,hospital,33.5490229,-86.7298332,511797561,way
+St. Vincent's East,hospital,33.5955116,-86.6674919,511817755,way
+VA Medical Center,hospital,33.5042536,-86.8016054,775424715,way
+Cooper Green Mercy Hospital,hospital,33.5034003,-86.8066242,775585131,way
+UAB Callahan Eye Hospital,hospital,33.5037458,-86.8027194,775585139,way
+HealthSouth Lakeshore Rehabilitation Hospital,hospital,33.4685139,-86.7862621,7432265,relation
+Birmingham-Shuttlesworth International Airport,aerodrome,33.5646657,-86.7547354,224422644,way
+UAB Hospital/Gardendale Fed Heliport,aerodrome,33.6484793,-86.81928,868521598,way
+Irondale Fire Station Number 1,fire_station,33.5289935,-86.6988766,367931124,node
+Irondale Fire Station Number 2,fire_station,33.5412155,-86.6652649,367931127,node
+Fire Station Number 30,fire_station,33.6212141,-86.6694327,367931130,node
+Wylam Fire Station,fire_station,33.5048286,-86.9208258,367931131,node
+Vestavia Hills Fire Station Number 1,fire_station,33.4507497,-86.7878289,367931138,node
+Hoover Fire Station Number 2,fire_station,33.3859983,-86.8310515,367931140,node
+Birmingham Fire Station Number 2,fire_station,33.5006928,-86.8130747,367931141,node
+Birmingham Fire Station Number 1,fire_station,33.5196224,-86.8121627,367931142,node
+Fire Station Number 1,fire_station,33.4048321,-86.960826,367931150,node
+Cahaba Valley Fire Station 181,fire_station,33.4093677,-86.6635681,2104812896,node
+Cahaba Valley Fire Station 185,fire_station,33.3700542,-86.665621,2104885263,node
+Cahaba Valley Fire Station 183,fire_station,33.4083862,-86.630109,2104886073,node
+fire_station facility,fire_station,33.5035925,-86.7181648,2450047898,node
+Gardendale Fire & Rescue,fire_station,33.6672565,-86.8152084,2450054187,node
+Vestavia Hills Fire Station #3,fire_station,33.4221375,-86.7783089,2899886310,node
+Homewood Fire Station #2,fire_station,33.4624844,-86.8178889,6151657755,node
+Brighton Fire Department,fire_station,33.4300226,-86.9504797,10087079526,node
+Pleasant Grove Fire Station,fire_station,33.489847,-86.9711745,10879264534,node
+Tarrant Fire Department,fire_station,33.5844782,-86.7745748,11648575893,node
+Center Point Fire,fire_station,33.6544363,-86.6401956,232061734,way
+Birmingham Fire Station 1,fire_station,33.5196251,-86.8121578,233753643,way
+Cahaba Valley Fire Station 181,fire_station,33.4093745,-86.6635132,374365827,way
+Rex Lake Fire Station (CVFD St 184),fire_station,33.4901063,-86.6376326,469114884,way
+Hoover Fire Station 7,fire_station,33.4158263,-86.6642032,469115397,way
+Forestdale Fire Station,fire_station,33.5656154,-86.8953622,542856105,way
+Mountain Brook Fire Station #2,fire_station,33.4679486,-86.7419285,613215530,way
+Cahaba Valley Fire & EMR District Station 185,fire_station,33.3700261,-86.6655811,619865893,way
+Hoover Fire Station Number 5,fire_station,33.4115645,-86.8556434,625132608,way
+Birmingham Fire Station 14,fire_station,33.5112789,-86.8390405,628552160,way
+Birmingham Fire Station 16,fire_station,33.5094716,-86.8933442,649736460,way
+Hoover Fire Station Number 2,fire_station,33.3859999,-86.8310471,678475001,way
+Birmingham Fire Station 25,fire_station,33.4498109,-86.8861485,763468609,way
+Birmingham Fire Station 2,fire_station,33.5005969,-86.813308,775144485,way
+Hoover Fire Station 4,fire_station,33.3887473,-86.7996986,776875352,way
+North Shelby Fire Station,fire_station,33.3840593,-86.7305286,823920541,way
+Birmingham Fire Station 32,fire_station,33.4336037,-86.7140171,824652080,way
+Hoover Fire Station,fire_station,33.3982403,-86.8838432,857010970,way
+Fultondale Fire Department,fire_station,33.6089152,-86.799524,885665972,way
+Homewood Fire Station No. 3,fire_station,33.4472566,-86.8388585,935206137,way
+Birmingham Fire Station 3,fire_station,33.5009398,-86.7907973,966316447,way
+fire_station facility,fire_station,33.475198,-86.6895767,1009609535,way
+Birmingham Fire Station 21,fire_station,33.5029481,-86.8327789,1019815996,way
+Birmingham Fire Station 6 and Fire Alarm HQ,fire_station,33.5137363,-86.8139335,1069655988,way
+Birmingham Fire Station 9,fire_station,33.5325834,-86.8055931,1109698611,way
+Hillview 78 West Fire Dept,fire_station,33.5744821,-86.886853,1157084674,way
+Birmingham Fire Station 8,fire_station,33.540463,-86.7759967,1159078355,way
+fire_station facility,fire_station,33.4898763,-86.9713175,1173227162,way
+Birmingham Fire Station 5,fire_station,33.5604336,-86.7567811,1192507773,way
+West End Fire Station 1-5,fire_station,33.4806428,-86.8602962,1234591566,way
+Birmingham Fire Station 20 and Fire Academy,fire_station,33.4930801,-86.8722036,1234591567,way
+Birmingham Fire Training Facility,fire_station,33.4945566,-86.8704697,1234591568,way
+Birmingham Fire Station 24,fire_station,33.4895979,-86.8877021,1234591569,way
+Birmingham Fire Station 18,fire_station,33.538632,-86.8794635,1234591570,way
+Birmingham Fire Station 7,fire_station,33.4909393,-86.8177233,1234591571,way
+Birmingham Fire Station 10/22,fire_station,33.5256422,-86.7654059,1234591572,way
+Birmingham Fire Station 12,fire_station,33.5483044,-86.7415783,1234591573,way
+Birmingham Fire Station 27,fire_station,33.5932642,-86.694898,1234591575,way
+Birmingham Fire Station 30,fire_station,33.6188832,-86.6711546,1234591576,way
+Birmingham Fire Station 31,fire_station,33.5741641,-86.6433862,1234591577,way
+Birmingham Fire Station 26,fire_station,33.5283077,-86.7159516,1234591578,way
+Birmingham Fire Station 19,fire_station,33.5608837,-86.7272696,1234591579,way
+Birmingham Fire Station 13,fire_station,33.5501201,-86.8224279,1234591580,way
+Birmingham Fire Station 28,fire_station,33.6489225,-86.70967,1234591581,way
+Birmingham Fire Station 29,fire_station,33.5996689,-86.7327339,1234591582,way
+Birmingham Fire Station 17,fire_station,33.5055956,-86.926748,1234591583,way
+Birmingham Fire Station 11,fire_station,33.4383672,-86.9346386,1234591584,way
+Birmingham Fire Station 4,fire_station,33.4323593,-86.8750442,1234591585,way
+Birmingham Fire Station 23,fire_station,33.5637371,-86.7780571,1467518864,way
+Gardendale Police Dept,police,33.658483,-86.8095344,2450054183,node
+University of Alabama at Birmingham Police Department,police,33.4960461,-86.8040732,7231963288,node
+Hoover Police Substation,police,33.4164417,-86.8447837,7857845675,node
+Homewood Police Department,police,33.4696223,-86.8310541,9807744681,node
+Pleasant Grove Police Station,police,33.4901466,-86.9713143,10879264535,node
+Midfield Police Department,police,33.4673177,-86.9068765,11432964300,node
+Tarrant Police Station,police,33.584615,-86.7747974,11648575892,node
+Trussville Police Satellite Office,police,33.6394612,-86.6285781,11688493630,node
+police facility,police,33.389165,-86.7986374,12175754813,node
+Trussville Police Satellite Office,police,33.6058368,-86.641557,12646081394,node
+Birmingham Police Headquarters,police,33.5129089,-86.809697,129478040,way
+Jefferson County Sheriff's Office,police,33.5233919,-86.8076688,828980199,way
+Vestavia Hills Police Department,police,33.4385207,-86.7912207,972382460,way
+police facility,police,33.490141,-86.9713585,1173227163,way
+police facility,police,33.4696225,-86.8310742,1182151895,way
+Homewood City Police Department,police,33.4793284,-86.7901365,1280905520,way
+Irondale Police Department,police,33.5379971,-86.7071675,1291093643,way
+power_plant facility,power_plant,33.4034774,-86.8772332,859497191,way
+power_plant facility,power_plant,33.6071233,-86.767442,1424276800,way
+Bessemer City Hall,government,33.4073319,-86.954437,367931731,node
+Homewood City Hall,government,33.4803428,-86.7902554,367931743,node
+Lipscomb City Hall,government,33.4242757,-86.9261032,367931744,node
+Brighton City Hall,government,33.4295534,-86.9499926,367931747,node
+Fairfield City Hall,government,33.4906624,-86.9152701,367931749,node
+Brownville City Hall,government,33.4395528,-86.912214,367931750,node
+Midfield City Hall,government,33.4614398,-86.9089209,367931899,node
+Gardendale Municipal Court,government,33.6583506,-86.8095256,2450054184,node
+Gardendale City Hall,government,33.6508685,-86.8122428,2450054188,node
+Gardendale Civic Center,government,33.6469333,-86.8098086,2450054192,node
+Cardiff Town Hall,government,33.646145,-86.9338404,5469686949,node
+Jefferson County Revenue Department Satellite Office,government,33.4024326,-86.8084571,6109432924,node
+Tarrant Municipal Court,government,33.582295,-86.7712184,11648794532,node
+Federal Courthouse,government,33.5174142,-86.8105244,54677507,way
+Jefferson County Courthouse,government,33.5214044,-86.8090443,54778067,way
+Hugo L. Black US Courthouse,government,33.5161028,-86.8112075,54778071,way
+Birmingham City Hall,government,33.5204043,-86.8110717,58108445,way
+Jefferson County Criminal Justice Center,government,33.522958,-86.808569,129478052,way
+Hoover City Hall,government,33.3871803,-86.8056741,423957700,way
+Jefferson County Department of Health,government,33.5037635,-86.8086464,627057941,way
+government facility,government,33.4801299,-86.7057932,826052883,way
+government facility,government,33.4801096,-86.7043843,826052898,way
+Social Security Administration,government,33.5177108,-86.8204579,828980223,way
+Fultondale City Hall,government,33.6093161,-86.798792,836497329,way
+Vestavia Hills City Hall,government,33.4379106,-86.7911941,972382459,way
+Drug Enforcement Administration,government,33.5220706,-86.8159036,979982036,way
+19220 Shelby County Services Building / 911 Center,government,33.371068,-86.662122,995347611,way
+Federal Bureau of Investigation Birmingham Field Office,government,33.5232407,-86.8164527,1070058992,way
+Personnel Board of Jefferson County,government,33.522481,-86.8079901,1081937924,way
+Brookside Town Hall,government,33.6282648,-86.9074256,1147222532,way
+Alabama Department of Transportation,government,33.5323203,-86.8532932,1155887499,way
+Tarrant City Hall,government,33.582363,-86.7713558,1253159568,way
+Tarrant Public Works Department,government,33.5885778,-86.7725846,1271842596,way
+Tarrant Electric Department Operations,government,33.5888461,-86.7736155,1271842598,way
+Adamsville City Hall,government,33.6010417,-86.9539146,1282553653,way
+government facility,government,33.6009394,-86.9545524,1282553654,way
+Irondale City Hall,government,33.5382604,-86.7066173,1291093641,way
+substation facility,substation,33.4996753,-86.7999439,7731825,way
+Boyles Substation,substation,33.566397,-86.8039657,83913273,way
+Bessemer Substation,substation,33.4223932,-86.9627747,106664557,way
+substation facility,substation,33.5836421,-86.7335281,182431426,way
+substation facility,substation,33.5471421,-86.8430047,182433016,way
+substation facility,substation,33.5440654,-86.8617435,182433017,way
+substation facility,substation,33.4885997,-86.7112404,182439331,way
+Valley Substation,substation,33.4618124,-86.7840465,182439333,way
+substation facility,substation,33.5275613,-86.7155605,182439334,way
+substation facility,substation,33.5353498,-86.7422625,182439335,way
+East Birmingham Substation,substation,33.5377187,-86.7797284,182505699,way
+substation facility,substation,33.4575969,-86.9217335,182521776,way
+Pratt City Substation,substation,33.5172475,-86.881956,182673797,way
+substation facility,substation,33.4542063,-86.9654154,182829862,way
+substation facility,substation,33.4909235,-86.9325346,182833791,way
+South Park Substation,substation,33.4866626,-86.879114,182922928,way
+substation facility,substation,33.4476442,-86.8284027,183106621,way
+Magella Substation,substation,33.4721616,-86.8421166,183106625,way
+substation facility,substation,33.551035,-86.7229614,183255823,way
+South Jefferson Substation,substation,33.460773,-86.6934632,183394248,way
+substation facility,substation,33.4326917,-86.8826638,183405784,way
+substation facility,substation,33.4965035,-86.8501177,183405785,way
+substation facility,substation,33.4965035,-86.817602,183405786,way
+substation facility,substation,33.4519566,-86.7158122,183405788,way
+substation facility,substation,33.4320424,-86.7115835,183405794,way
+substation facility,substation,33.5831357,-86.6550584,183459668,way
+substation facility,substation,33.5913138,-86.7181931,183478056,way
+Ross Bridge Substation,substation,33.3850102,-86.900681,183747500,way
+substation facility,substation,33.5456715,-86.8038356,183771993,way
+substation facility,substation,33.5140064,-86.7812143,183846466,way
+East Thomas Substation,substation,33.5213183,-86.8546568,185848218,way
+Inverness Substation,substation,33.4109938,-86.701104,186161705,way
+substation facility,substation,33.3943536,-86.956386,186330437,way
+substation facility,substation,33.4039776,-86.9105423,186330440,way
+substation facility,substation,33.3776997,-86.9696643,186330443,way
+substation facility,substation,33.4081691,-86.961019,187017200,way
+Forestdale Substation,substation,33.5739326,-86.8866857,187105447,way
+substation facility,substation,33.5825308,-86.9173823,187105448,way
+substation facility,substation,33.5339902,-86.7866661,187282107,way
+Southside Substation,substation,33.4988658,-86.8089335,187282110,way
+Tarrant City Substation,substation,33.5863687,-86.771898,260431168,way
+substation facility,substation,33.3746382,-86.8011257,326391982,way
+substation facility,substation,33.4207391,-86.8001152,326391984,way
+Hoover Substation,substation,33.3904493,-86.8071852,326391985,way
+substation facility,substation,33.5122774,-86.8054649,483752673,way
+substation facility,substation,33.4808946,-86.776873,673923451,way
+Green Station Substation,substation,33.6510453,-86.7175345,673923575,way
+substation facility,substation,33.4215066,-86.8016944,836908993,way
+Bluff Park Substation,substation,33.4191278,-86.8478768,836908994,way
+substation facility,substation,33.4340645,-86.8786098,836908996,way
+substation facility,substation,33.6033121,-86.7609671,836940468,way
+Pawnee Substation,substation,33.6447208,-86.7328099,836940475,way
+substation facility,substation,33.5956361,-86.7708279,836940486,way
+substation facility,substation,33.544211,-86.6629898,846465288,way
+substation facility,substation,33.4845418,-86.9321191,854090115,way
+substation facility,substation,33.4787559,-86.9316124,854090119,way
+substation facility,substation,33.4839331,-86.9327092,854090142,way
+substation facility,substation,33.4037147,-86.7832762,891134193,way
+Parkwest Substation,substation,33.5136187,-86.8184911,1084050422,way
+substation facility,substation,33.5038385,-86.7927737,1096430654,way
+substation facility,substation,33.445521,-86.7398767,1154855760,way
+substation facility,substation,33.4013334,-86.8359365,1154855771,way
+Wachovia Substation,substation,33.4022973,-86.9234243,1154907916,way
+substation facility,substation,33.4592316,-86.8953978,1155365539,way
+substation facility,substation,33.4166583,-86.9692364,1155392830,way
+substation facility,substation,33.4194832,-86.9713527,1155392843,way
+substation facility,substation,33.4252019,-86.9627462,1155392853,way
+substation facility,substation,33.4075017,-86.9531006,1155392863,way
+substation facility,substation,33.3926006,-86.9677157,1155392877,way
+substation facility,substation,33.42074,-86.9641704,1155392881,way
+substation facility,substation,33.3878644,-86.9681034,1155392883,way
+substation facility,substation,33.4073422,-86.9355048,1155392893,way
+Pleasant Grove Substation,substation,33.4797913,-86.9613423,1155392932,way
+substation facility,substation,33.4753078,-86.9493235,1155392933,way
+substation facility,substation,33.4812402,-86.9365962,1155438494,way
+substation facility,substation,33.4799607,-86.9449954,1155438502,way
+substation facility,substation,33.5033361,-86.9084926,1155438504,way
+substation facility,substation,33.4877259,-86.9199401,1155438546,way
+substation facility,substation,33.4759043,-86.9308255,1155438548,way
+substation facility,substation,33.4834118,-86.9251265,1155438559,way
+substation facility,substation,33.4804157,-86.9322265,1155438562,way
+substation facility,substation,33.4704856,-86.946764,1155438577,way
+substation facility,substation,33.4701987,-86.9478307,1155438579,way
+substation facility,substation,33.4745995,-86.9435495,1155438581,way
+substation facility,substation,33.4821145,-86.9416267,1155438582,way
+substation facility,substation,33.4829785,-86.9406014,1155438583,way
+substation facility,substation,33.4900071,-86.9342351,1155438587,way
+substation facility,substation,33.4733324,-86.9441257,1155438588,way
+substation facility,substation,33.4611136,-86.9514018,1155438590,way
+substation facility,substation,33.4725059,-86.9447258,1155438592,way
+substation facility,substation,33.5141485,-86.9634071,1155438595,way
+Fulton Springs Substation,substation,33.6169114,-86.8090793,1155634292,way
+substation facility,substation,33.5461702,-86.9274063,1155634324,way
+substation facility,substation,33.5320937,-86.9026485,1155634326,way
+Midtown Substation,substation,33.5046419,-86.8146186,1155887536,way
+substation facility,substation,33.4733601,-86.8198788,1155887547,way
+substation facility,substation,33.479115,-86.7365133,1155887548,way
+substation facility,substation,33.5061063,-86.6473612,1156133800,way
+substation facility,substation,33.5331124,-86.7567584,1156133836,way
+Walnut Hill Substation,substation,33.5319462,-86.8089676,1156133856,way
+substation facility,substation,33.5514367,-86.7889827,1156133867,way
+substation facility,substation,33.5637399,-86.799984,1156133933,way
+substation facility,substation,33.5689069,-86.8004663,1156133934,way
+substation facility,substation,33.5556001,-86.8511267,1156133937,way
+Acipco Substation,substation,33.5462014,-86.8304095,1156133938,way
+substation facility,substation,33.5457468,-86.8343089,1156358191,way
+substation facility,substation,33.5456898,-86.832374,1156358192,way
+substation facility,substation,33.6205152,-86.6889008,1157360993,way
+substation facility,substation,33.6061127,-86.6879964,1157360995,way
+Ketona Substation,substation,33.606675,-86.7561645,1157361005,way
+Sun Valley Substation,substation,33.6386891,-86.7014894,1157361010,way
+substation facility,substation,33.5883002,-86.7699589,1157361019,way
+substation facility,substation,33.5710603,-86.7939924,1157361021,way
+substation facility,substation,33.4020033,-86.6660921,1157581125,way
+Fultondale Substation,substation,33.6221411,-86.8005645,1158926613,way
+substation facility,substation,33.6380195,-86.8202746,1161052519,way
+Adamsville Substation,substation,33.6018732,-86.9558167,1161801796,way
+Graysville Substation,substation,33.6281993,-86.9568896,1161801798,way
+substation facility,substation,33.4474024,-86.7889657,1274612504,way
+substation facility,substation,33.6441548,-86.655918,1460812054,way
+substation facility,substation,33.651376,-86.683875,1460812055,way
+substation facility,substation,33.645439,-86.727718,1460812056,way
+substation facility,substation,33.4789946,-86.9484612,1460812059,way
+substation facility,substation,33.4816319,-86.9304126,1460812060,way
+substation facility,substation,33.4220271,-86.7719367,1460812061,way
+substation facility,substation,33.5039637,-86.7175663,1460812062,way
+substation facility,substation,33.5038306,-86.7674942,1460812063,way
+substation facility,substation,33.5843268,-86.831941,1460812064,way
+Water Treatment Plant,water_works,33.3814816,-86.8193777,270100141,way
+water_works facility,water_works,33.4256849,-86.7167099,323465696,way
+water_works facility,water_works,33.5786192,-86.7899604,664542836,way
+water_works facility,water_works,33.3720893,-86.7869989,825350053,way
+water_works facility,water_works,33.4743612,-86.6887825,826052903,way
+water_works facility,water_works,33.4134993,-86.6627922,833889716,way
+water_works facility,water_works,33.4134436,-86.6622358,833889717,way
+water_works facility,water_works,33.4131188,-86.6622383,833889718,way
+water_works facility,water_works,33.4138989,-86.6616792,833889719,way
+water_works facility,water_works,33.4133177,-86.6617597,833889720,way
+water_works facility,water_works,33.4142097,-86.6621825,833889721,way
+water_works facility,water_works,33.4140646,-86.6625214,833889722,way
+water_works facility,water_works,33.4139436,-86.6625215,833889723,way
+water_works facility,water_works,33.4134638,-86.6612327,833889724,way
+water_works facility,water_works,33.3693534,-86.7935538,836935460,way
+Birmingham Water Works,water_works,33.5366799,-86.8613728,1155841151,way
+Five-Mile Creek Water Reclamation Facility,water_works,33.5975712,-86.8646676,1243012336,way
+water_works facility,water_works,33.4656294,-86.7595027,1373389412,way
+water_works facility,water_works,33.5285365,-86.8979438,15620052,relation

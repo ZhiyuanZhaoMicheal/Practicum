@@ -1,0 +1,86 @@
+{
+  "default": {
+    "bug_propensity_weight": 0.1,
+    "night_use_weight": 0.1,
+    "detectability_weight": 0.1,
+    "capacity_prior_band": "low",
+    "capacity_weight": 0.5
+  },
+  "hospital": {
+    "bug_propensity_weight": 1.0,
+    "night_use_weight": 1.0,
+    "detectability_weight": 0.95,
+    "capacity_prior_band": "high",
+    "capacity_weight": 1.5
+  },
+  "aerodrome": {
+    "bug_propensity_weight": 1.0,
+    "night_use_weight": 0.95,
+    "detectability_weight": 1.0,
+    "capacity_prior_band": "critical",
+    "capacity_weight": 1.8
+  },
+  "power_plant": {
+    "bug_propensity_weight": 1.0,
+    "night_use_weight": 1.0,
+    "detectability_weight": 1.0,
+    "capacity_prior_band": "critical",
+    "capacity_weight": 2.0
+  },
+  "substation": {
+    "bug_propensity_weight": 0.95,
+    "night_use_weight": 0.95,
+    "detectability_weight": 0.9,
+    "capacity_prior_band": "high",
+    "capacity_weight": 1.5
+  },
+  "water_works": {
+    "bug_propensity_weight": 0.9,
+    "night_use_weight": 0.9,
+    "detectability_weight": 0.85,
+    "capacity_prior_band": "medium",
+    "capacity_weight": 1.3
+  },
+  "fire_station": {
+    "bug_propensity_weight": 0.7,
+    "night_use_weight": 0.85,
+    "detectability_weight": 0.75,
+    "capacity_prior_band": "medium",
+    "capacity_weight": 1.0
+  },
+  "police": {
+    "bug_propensity_weight": 0.7,
+    "night_use_weight": 0.85,
+    "detectability_weight": 0.75,
+    "capacity_prior_band": "medium",
+    "capacity_weight": 1.0
+  },
+  "government": {
+    "bug_propensity_weight": 0.55,
+    "night_use_weight": 0.6,
+    "detectability_weight": 0.55,
+    "capacity_prior_band": "medium",
+    "capacity_weight": 0.85
+  },
+  "townhall": {
+    "bug_propensity_weight": 0.4,
+    "night_use_weight": 0.45,
+    "detectability_weight": 0.45,
+    "capacity_prior_band": "low",
+    "capacity_weight": 0.7
+  },
+  "public_building": {
+    "bug_propensity_weight": 0.35,
+    "night_use_weight": 0.4,
+    "detectability_weight": 0.35,
+    "capacity_prior_band": "low",
+    "capacity_weight": 0.6
+  },
+  "clinic": {
+    "bug_propensity_weight": 0.15,
+    "night_use_weight": 0.25,
+    "detectability_weight": 0.2,
+    "capacity_prior_band": "low",
+    "capacity_weight": 0.35
+  }
+}

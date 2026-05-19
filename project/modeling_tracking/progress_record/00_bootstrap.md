@@ -1,0 +1,267 @@
+# Modeling Bootstrap Log
+
+## Scope
+- Branch: modeling-6events
+- Data line: teammate/main six-event pipeline
+- Report language: Chinese main text + English technical terms
+
+## Execution Log
+- Consolidated legacy `15-19` into `project/modeling/pipelines/01-03`; root numbered files are now direct-import shims and pre-merge implementations moved to `project/modeling/legacy/archive_premerge/`.
+- [2026-02-23 16:25:34 UTC] Pipeline started
+- [2026-02-23 16:25:38 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-02-23 16:26:32 UTC] Pipeline started
+- [2026-02-23 16:26:36 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-02-23 16:26:39 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 16:26:46 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 16:28:23 UTC] Pipeline started
+- [2026-02-23 16:28:28 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-02-23 16:28:32 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 16:28:39 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 16:29:16 UTC] Pipeline started
+- [2026-02-23 16:29:20 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-02-23 16:29:24 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 16:29:32 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 16:29:34 UTC] Generated model figures for OLS, MixedLM, Logit, and Cox
+- [2026-02-23 16:29:34 UTC] Generated four standalone model reports and report index
+- [2026-02-23 16:29:34 UTC] Pipeline finished
+- [2026-02-23 16:30:25 UTC] Generated model figures for OLS, MixedLM, Logit, and Cox
+- [2026-02-23 16:30:40 UTC] Generated four standalone model reports and report index
+- [2026-02-23 17:47:24 UTC] Pipeline started
+- [2026-02-23 17:51:55 UTC] Pipeline started
+- [2026-02-23 17:51:56 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 17:51:56 UTC] NLCD coverage sufficient; reran all 4 models with land_use controls
+- [2026-02-23 17:51:57 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 17:51:59 UTC] Generated model figures for OLS, MixedLM, Logit, and Cox
+- [2026-02-23 17:51:59 UTC] Generated four standalone model reports and report index
+- [2026-02-23 17:51:59 UTC] Pipeline finished
+- [2026-02-23 17:53:23 UTC] Pipeline started
+- [2026-02-23 17:53:25 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 17:53:25 UTC] NLCD coverage sufficient; reran all 4 models with land_use controls
+- [2026-02-23 17:53:25 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 17:53:28 UTC] Generated model figures for OLS, MixedLM, Logit, and Cox
+- [2026-02-23 17:53:28 UTC] Generated four standalone model reports and report index
+- [2026-02-23 17:53:28 UTC] Pipeline finished
+- [2026-02-23 17:55:25 UTC] Generated four standalone model reports and report index
+- [2026-02-23 23:01:53 UTC] Pipeline started
+- [2026-02-23 23:01:56 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-02-23 23:01:56 UTC] Attached cloud features to panel. Summary saved to project/modeling/output/cloud_feature_summary.csv
+- [2026-02-23 23:01:59 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 23:02:01 UTC] NLCD coverage sufficient; reran all 4 models with land_use controls
+- [2026-02-23 23:02:08 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 23:02:10 UTC] Generated model figures for OLS, MixedLM, Logit, and Cox
+- [2026-02-23 23:02:10 UTC] Generated four standalone model reports and report index
+- [2026-02-23 23:02:10 UTC] Pipeline finished
+- [2026-02-23 23:03:01 UTC] Pipeline started
+- [2026-02-23 23:03:03 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-02-23 23:03:04 UTC] Attached cloud features to panel. Summary saved to project/modeling/output/cloud_feature_summary.csv
+- [2026-02-23 23:03:06 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-02-23 23:03:08 UTC] NLCD coverage sufficient; reran all 4 models with land_use controls
+- [2026-02-23 23:03:16 UTC] Completed robustness scenarios and exported robustness_summary.csv
+- [2026-02-23 23:03:18 UTC] Generated model figures for OLS, MixedLM, Logit, and Cox
+- [2026-02-23 23:03:18 UTC] Generated four standalone model reports and report index
+- [2026-02-23 23:03:18 UTC] Pipeline finished
+- [2026-02-24 00:16:10 UTC] Feature-upgrade pipeline started
+- [2026-02-24 00:16:39 UTC] Feature-upgrade pipeline started
+- [2026-02-24 00:16:56 UTC] Feature-upgrade pipeline finished
+- [2026-02-24 00:19:52 UTC] Feature-upgrade pipeline started
+- [2026-02-24 00:20:09 UTC] Feature-upgrade pipeline finished
+- [2026-02-24 00:21:03 UTC] Feature-upgrade pipeline started
+- [2026-02-24 00:21:22 UTC] Feature-upgrade pipeline finished
+- [2026-02-24 00:48:18 UTC] Strict V2 pipeline started
+- [2026-02-24 00:48:24 UTC] Strict V2 pipeline finished
+- [2026-02-27 03:58:17 UTC] Exploration V2 pipeline started
+- [2026-02-27 03:59:24 UTC] Exploration V2: cloud ablation
+- [2026-02-27 03:59:45 UTC] Exploration V2: noise masking
+- [2026-02-27 04:00:04 UTC] Exploration V2: urban-rural + population
+- [2026-02-27 04:00:11 UTC] Exploration V2: spatial diagnostics + contribution
+- [2026-02-27 04:00:14 UTC] Exploration V2: extreme-event sensitivity
+- [2026-02-27 04:00:22 UTC] Exploration V2: write plan docs/report/index
+- [2026-02-27 04:00:23 UTC] Exploration V2 pipeline completed
+- [2026-02-27 04:02:10 UTC] Exploration V2 pipeline started
+- [2026-02-27 04:02:20 UTC] Exploration V2: cloud ablation
+- [2026-02-27 04:02:43 UTC] Exploration V2: noise masking
+- [2026-02-27 04:02:59 UTC] Exploration V2: urban-rural + population
+- [2026-02-27 04:03:09 UTC] Exploration V2: spatial diagnostics + contribution
+- [2026-02-27 04:03:12 UTC] Exploration V2: extreme-event sensitivity
+- [2026-02-27 04:03:32 UTC] Exploration V2: write plan docs/report/index
+- [2026-02-27 04:03:33 UTC] Exploration V2 pipeline completed
+- [2026-02-27 04:06:59 UTC] Exploration V2 pipeline started
+- [2026-02-27 04:08:30 UTC] Exploration V2: cloud ablation
+- [2026-02-27 04:08:56 UTC] Exploration V2: noise masking
+- [2026-02-27 04:09:10 UTC] Exploration V2: urban-rural + population
+- [2026-02-27 04:09:22 UTC] Exploration V2: spatial diagnostics + contribution
+- [2026-02-27 04:09:25 UTC] Exploration V2: extreme-event sensitivity
+- [2026-02-27 04:09:51 UTC] Exploration V2: write plan docs/report/index
+- [2026-02-27 04:09:51 UTC] Exploration V2 pipeline completed
+- [2026-02-27 04:11:00 UTC] Exploration V2 pipeline started
+- [2026-02-27 04:11:22 UTC] Exploration V2: cloud ablation
+- [2026-02-27 04:11:45 UTC] Exploration V2: noise masking
+- [2026-02-27 04:11:59 UTC] Exploration V2: urban-rural + population
+- [2026-02-27 04:12:12 UTC] Exploration V2: spatial diagnostics + contribution
+- [2026-02-27 04:12:15 UTC] Exploration V2: extreme-event sensitivity
+- [2026-02-27 04:12:39 UTC] Exploration V2: write plan docs/report/index
+- [2026-02-27 04:12:39 UTC] Exploration V2 pipeline completed
+- [2026-02-27 04:20:00 UTC] Modeling entrypoints refactored: active pipelines consolidated under `project/modeling/pipelines/`, historical scripts archived under `project/modeling/legacy/`, root numbered scripts reduced to compatibility shims.
+- [2026-02-27 13:55:07 UTC] Strict V2 pipeline started
+- [2026-02-27 13:55:14 UTC] Strict V2 pipeline finished
+- [2026-02-27 14:03:21 UTC] Exploration V2 pipeline started
+- [2026-02-27 14:05:44 UTC] Exploration V2: cloud ablation
+- [2026-02-27 14:11:52 UTC] Exploration V2: noise masking
+- [2026-02-27 14:15:28 UTC] Exploration V2: urban-rural + population
+- [2026-02-27 14:17:47 UTC] Exploration V2: spatial diagnostics + contribution
+- [2026-02-27 14:17:52 UTC] Exploration V2: extreme-event sensitivity
+- [2026-02-27 14:23:09 UTC] Exploration V2: write plan docs/report/index
+- [2026-02-27 14:23:10 UTC] Exploration V2 pipeline completed
+- [2026-02-27 14:28:46 UTC] Strict V2 pipeline started
+- [2026-02-27 14:29:09 UTC] Strict V2 pipeline finished
+- [2026-02-27 14:33:07 UTC] Exploration V2 pipeline started
+- [2026-02-27 14:33:34 UTC] Exploration V2: cloud ablation
+- [2026-02-27 14:36:43 UTC] Exploration V2 pipeline started
+- [2026-02-27 14:37:37 UTC] Exploration V2: cloud ablation
+- [2026-02-27 23:54:00 UTC] Quality+matched V1 started
+- [2026-02-27 23:54:01 UTC] Quality+matched V1: build quality-adjusted targets and recovery v2
+- [2026-02-27 23:54:06 UTC] Quality+matched V1: LOEO quality-aware transport
+- [2026-02-27 23:54:13 UTC] Quality+matched V1: spatial block CV
+- [2026-02-27 23:54:20 UTC] Quality+matched V1: facility-centered matched design
+- [2026-02-27 23:54:32 UTC] Quality+matched V1: role matrix and report
+- [2026-02-27 23:54:32 UTC] Quality+matched V1 completed
+- [2026-02-28 00:25:11 UTC] Hazard mainline V1 started
+- [2026-02-28 00:25:11 UTC] Hazard mainline V1: attach hazard/exposure features
+- [2026-02-28 00:25:11 UTC] Hazard mainline V1: LOEO transport
+- [2026-02-28 00:25:19 UTC] Hazard mainline V1: summarize features and event selection
+- [2026-02-28 00:25:20 UTC] Hazard mainline V1 completed
+- [2026-02-28 00:26:18 UTC] Hazard mainline V1 started
+- [2026-02-28 00:26:18 UTC] Hazard mainline V1: attach hazard/exposure features
+- [2026-02-28 00:26:18 UTC] Hazard mainline V1: LOEO transport
+- [2026-02-28 00:26:28 UTC] Hazard mainline V1: summarize features and event selection
+- [2026-02-28 00:26:29 UTC] Hazard mainline V1 completed
+- [2026-02-28 00:27:26 UTC] Hazard mainline V1 started
+- [2026-02-28 00:27:26 UTC] Hazard mainline V1: attach hazard/exposure features
+- [2026-02-28 00:27:26 UTC] Hazard mainline V1: LOEO transport
+- [2026-02-28 00:27:37 UTC] Hazard mainline V1: summarize features and event selection
+- [2026-02-28 00:27:37 UTC] Hazard mainline V1 completed
+- [2026-03-02 03:46:07 UTC] Event increment V1 started
+- [2026-03-02 03:46:07 UTC] stage_7_ian_fortmyers: build feature panel for ian_fortmyers
+- [2026-03-02 03:46:17 UTC] stage_8_ian_charlotteharbor: build feature panel for ian_charlotteharbor
+- [2026-03-02 03:46:17 UTC] stage_9_earthquake_hatay: build feature panel for earthquake_hatay
+- [2026-03-02 03:46:17 UTC] stage_10_dorian_freeport: build feature panel for dorian_freeport
+- [2026-03-02 03:47:37 UTC] stage_7_ian_fortmyers: synced 0 teammate asset rows
+- [2026-03-02 03:48:12 UTC] stage_7_ian_fortmyers: synced 0 teammate asset rows
+- [2026-03-02 03:49:23 UTC] stage_7_ian_fortmyers: synced 86 teammate asset rows
+- [2026-03-02 03:49:24 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_7_ian_fortmyers.parquet with 2,911 rows across 1 events
+- [2026-03-02 03:55:01 UTC] Event increment V1 started
+- [2026-03-02 03:55:01 UTC] stage_7_ian_fortmyers: build feature panel for ian_fortmyers
+- [2026-03-02 03:55:02 UTC] stage_7_ian_fortmyers: synced 86 teammate asset rows
+- [2026-03-02 03:55:03 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_7_ian_fortmyers.parquet with 2,911 rows across 1 events
+- [2026-03-02 03:55:30 UTC] stage_8_ian_charlotteharbor: build feature panel for ian_charlotteharbor
+- [2026-03-02 03:55:39 UTC] stage_8_ian_charlotteharbor: synced 167 teammate asset rows
+- [2026-03-02 03:55:40 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_8_ian_charlotteharbor.parquet with 3,688 rows across 2 events
+- [2026-03-02 03:56:18 UTC] stage_9_earthquake_hatay: build feature panel for earthquake_hatay
+- [2026-03-02 03:56:24 UTC] stage_9_earthquake_hatay: synced 191 teammate asset rows
+- [2026-03-02 03:56:25 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_9_earthquake_hatay.parquet with 5,260 rows across 3 events
+- [2026-03-02 03:57:56 UTC] stage_10_dorian_freeport: build feature panel for dorian_freeport
+- [2026-03-02 03:58:05 UTC] stage_10_dorian_freeport: synced 275 teammate asset rows
+- [2026-03-02 03:58:07 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_10_dorian_freeport.parquet with 5,635 rows across 4 events
+- [2026-03-02 03:58:49 UTC] Event increment V1 completed
+- [2026-03-02 03:59:47 UTC] stage_7_ian_fortmyers: synced 86 teammate asset rows
+- [2026-03-02 03:59:47 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_7_ian_fortmyers.parquet with 2,911 rows across 1 events
+- [2026-03-02 04:00:46 UTC] stage_7_ian_fortmyers: synced 86 teammate asset rows
+- [2026-03-02 04:00:47 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_7_ian_fortmyers.parquet with 2,911 rows across 1 events
+- [2026-03-02 04:01:48 UTC] stage_7_ian_fortmyers: synced 86 teammate asset rows
+- [2026-03-02 04:01:49 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_7_ian_fortmyers.parquet with 2,911 rows across 1 events
+- [2026-03-02 04:02:29 UTC] Strict V2 pipeline started
+- [2026-03-02 04:03:22 UTC] Event increment V1 started
+- [2026-03-02 04:03:22 UTC] stage_7_ian_fortmyers: build feature panel for ian_fortmyers
+- [2026-03-02 04:03:23 UTC] stage_7_ian_fortmyers: synced 86 teammate asset rows
+- [2026-03-02 04:03:24 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_7_ian_fortmyers.parquet with 2,911 rows across 1 events
+- [2026-03-02 04:04:06 UTC] Strict V2 pipeline started
+- [2026-03-02 04:04:10 UTC] strict-v2 stage fallback: using summary before downstream LOGO failure (ValueError: operands could not be broadcast together with shapes (0,0) (11,) )
+- [2026-03-02 04:04:10 UTC] stage_8_ian_charlotteharbor: build feature panel for ian_charlotteharbor
+- [2026-03-02 04:04:12 UTC] stage_8_ian_charlotteharbor: synced 167 teammate asset rows
+- [2026-03-02 04:04:13 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_8_ian_charlotteharbor.parquet with 3,688 rows across 2 events
+- [2026-03-02 04:04:57 UTC] Strict V2 pipeline started
+- [2026-03-02 04:05:01 UTC] strict-v2 stage fallback: using summary before downstream LOGO failure (ValueError: operands could not be broadcast together with shapes (0,0) (11,) )
+- [2026-03-02 04:05:02 UTC] stage_9_earthquake_hatay: build feature panel for earthquake_hatay
+- [2026-03-02 04:05:04 UTC] stage_9_earthquake_hatay: synced 191 teammate asset rows
+- [2026-03-02 04:05:05 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_9_earthquake_hatay.parquet with 5,260 rows across 3 events
+- [2026-03-02 04:06:54 UTC] Strict V2 pipeline started
+- [2026-03-02 04:06:58 UTC] strict-v2 stage fallback: using summary before downstream LOGO failure (ValueError: operands could not be broadcast together with shapes (0,0) (11,) )
+- [2026-03-02 04:06:58 UTC] stage_10_dorian_freeport: build feature panel for dorian_freeport
+- [2026-03-02 04:07:01 UTC] stage_10_dorian_freeport: synced 275 teammate asset rows
+- [2026-03-02 04:07:03 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1_feature_upgrade_stage_10_dorian_freeport.parquet with 5,635 rows across 4 events
+- [2026-03-02 04:08:36 UTC] Strict V2 pipeline started
+- [2026-03-02 04:08:41 UTC] strict-v2 stage fallback: using summary before downstream LOGO failure (ValueError: operands could not be broadcast together with shapes (0,0) (11,) )
+- [2026-03-02 04:08:42 UTC] Event increment V1 completed
+- [2026-03-02 14:35:35 UTC] intl-stage-repair: prepare covariates
+- [2026-03-02 14:35:57 UTC] intl-stage-repair: prepare covariates
+- [2026-03-02 14:42:15 UTC] intl-stage-repair: repair stage 9
+- [2026-03-02 14:42:58 UTC] intl-stage-repair: repair stage 10
+- [2026-03-02 14:43:26 UTC] intl-stage-repair: fit HZ2
+- [2026-03-02 14:44:11 UTC] intl-stage-repair: score readiness
+- [2026-03-02 14:44:24 UTC] intl-stage-repair: write report
+- [2026-03-10 01:36:21 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-03-10 01:36:48 UTC] Attached NLCD to panel. Coverage summary saved to project/modeling/output/nlcd_coverage.csv
+- [2026-03-10 01:37:06 UTC] Feature-upgrade pipeline started
+- [2026-03-10 01:37:09 UTC] Feature-upgrade pipeline started
+- [2026-03-10 01:37:10 UTC] Built pixel panel project/modeling/pixel_data/all_events_pixel_panel_v1.parquet with 10,306 rows across 6 events
+- [2026-03-10 01:39:11 UTC] Feature-upgrade pipeline started
+- [2026-03-10 01:39:40 UTC] Feature-upgrade pipeline started
+- [2026-03-10 01:40:01 UTC] Feature-upgrade pipeline finished
+- [2026-03-10 01:40:23 UTC] Feature-upgrade pipeline finished
+- [2026-03-10 01:40:25 UTC] Strict V2 pipeline started
+- [2026-03-10 01:41:03 UTC] Strict V2 pipeline started
+- [2026-03-10 01:41:49 UTC] Strict V2 pipeline started
+- [2026-03-10 01:42:07 UTC] Strict V2 pipeline finished
+- [2026-03-10 01:43:28 UTC] Strict V2 pipeline started
+- [2026-03-10 01:43:48 UTC] Strict V2 pipeline finished
+- [2026-03-10 01:49:48 UTC] Exploration V2 pipeline started
+- [2026-03-10 01:50:15 UTC] Exploration V2: cloud ablation
+- [2026-03-10 01:50:46 UTC] Exploration V2: noise masking
+- [2026-03-10 01:51:06 UTC] Exploration V2: urban-rural + population
+- [2026-03-10 01:51:22 UTC] Exploration V2: spatial diagnostics + contribution
+- [2026-03-10 01:51:25 UTC] Exploration V2: extreme-event sensitivity
+- [2026-03-10 01:51:57 UTC] Exploration V2: write plan docs/report/index
+- [2026-03-10 01:51:57 UTC] Exploration V2 pipeline completed
+- [2026-03-10 01:52:27 UTC] Quality+matched V1 started
+- [2026-03-10 01:52:27 UTC] Quality+matched V1: build quality-adjusted targets and recovery v2
+- [2026-03-10 01:52:31 UTC] Quality+matched V1: LOEO quality-aware transport
+- [2026-03-10 01:52:39 UTC] Quality+matched V1: spatial block CV
+- [2026-03-10 01:52:45 UTC] Quality+matched V1: facility-centered matched design
+- [2026-03-10 01:52:55 UTC] Quality+matched V1: role matrix and report
+- [2026-03-10 01:52:55 UTC] Quality+matched V1 completed
+- [2026-03-10 01:53:18 UTC] Hazard mainline V1 started
+- [2026-03-10 01:53:18 UTC] Hazard mainline V1: attach hazard/exposure features
+- [2026-03-10 01:53:18 UTC] Hazard mainline V1: LOEO transport
+- [2026-03-10 01:53:28 UTC] Hazard mainline V1: summarize features and event selection
+- [2026-03-10 01:53:28 UTC] Hazard mainline V1 completed
+- [2026-03-10 14:34:04 UTC] BUG transport V1 started
+- [2026-03-10 14:34:04 UTC] BUG transport V1: attach BUG prior features
+- [2026-03-10 14:35:04 UTC] BUG transport V1 started
+- [2026-03-10 14:35:04 UTC] BUG transport V1: attach BUG prior features
+- [2026-03-10 14:35:04 UTC] BUG transport V1: LOEO transport
+- [2026-03-10 14:35:32 UTC] BUG transport V1: summarize features and report
+- [2026-03-10 14:35:32 UTC] BUG transport V1 completed
+- [2026-03-10 14:48:33 UTC] Hazard readiness V1 started
+- [2026-03-10 14:48:33 UTC] BUG2 PR pilot V1 started
+- [2026-03-10 14:48:34 UTC] Hazard readiness V1: filter mainline-ready events
+- [2026-03-10 14:48:34 UTC] Hazard readiness V1: LOEO transport
+- [2026-03-10 14:48:38 UTC] Hazard readiness V1: summarize and report
+- [2026-03-10 14:48:38 UTC] Hazard readiness V1 completed
+- [2026-03-10 14:49:16 UTC] BUG2 PR pilot V1 started
+- [2026-03-10 14:49:16 UTC] BUG2 PR pilot V1 completed: awaiting canonical inventory
+- [2026-03-10 14:50:02 UTC] Hazard readiness V1 started
+- [2026-03-10 14:50:02 UTC] BUG2 PR pilot V1 started
+- [2026-03-10 14:50:02 UTC] BUG2 PR pilot V1 completed: awaiting canonical inventory
+- [2026-03-10 14:50:02 UTC] Hazard readiness V1: filter mainline-ready events
+- [2026-03-10 14:50:02 UTC] Hazard readiness V1: LOEO transport
+- [2026-03-10 14:50:06 UTC] Hazard readiness V1: summarize and report
+- [2026-03-10 14:50:06 UTC] Hazard readiness V1 completed
+- [2026-03-10 14:51:15 UTC] BUG2 PR pilot V1 started
+- [2026-03-10 14:51:15 UTC] BUG2 PR pilot V1 completed: awaiting canonical inventory
+- [2026-03-10 14:52:23 UTC] Hazard readiness V1 started
+- [2026-03-10 14:52:23 UTC] BUG2 PR pilot V1 started
+- [2026-03-10 14:52:23 UTC] BUG2 PR pilot V1 completed: awaiting canonical inventory
+- [2026-03-10 14:52:23 UTC] Hazard readiness V1: filter mainline-ready events
+- [2026-03-10 14:52:24 UTC] Hazard readiness V1: LOEO transport
+- [2026-03-10 14:52:27 UTC] Hazard readiness V1: summarize and report
+- [2026-03-10 14:52:28 UTC] Hazard readiness V1 completed

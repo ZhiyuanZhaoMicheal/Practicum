@@ -1,0 +1,87 @@
+State,Priority state?,Researcher initials,Agency responsible for permitting BUGs,Source for agency responsible for permitting BUGs,Data availability,Source for data availability,Notes,,,
+PR,2,AJ,"DRNA; need permit for any emission source; for both home-power and commerical backup generators; need to fill out an Emission Source Permit. For commerical uses, asks if it will be used for more than 500 hours a year. possibly a Title 4 Permit ",https://www.drna.pr.gov/documentos/formularios/perm/calidad-aire/generadores-emergencia/solicitud-de-permiso-general-generadores-de-electricidad-para-residencia-unifamiliar/ https://diatomenvironmental.com/permit-electricity-generator-puerto-rico/,need to submit an Application to Examine Records and Copies of Documents ,DRNA | Área Calidad de Aire/Permisos,extreme case of outages - good ground-truthing case for remote sensing work,,,Who Has to Obtain a Title V Permit? | US EPA
+FL,2,AJ,FDEP; EPSAP Non-title V Source Permit required; also regulated by municipalities,https://floridadep.gov/air/permitting-compliance/content/air-permit-application https://floridadep.gov/sites/default/files/EPSAP_NTV_User_Manual_081111.pdf,Air Permit Document search (search for either by permit number/PSD number or search by facility information); Also have a map of all active air permits in Florida,https://fldep.dep.state.fl.us/air/emission/apds/default.asp https://floridadep.gov/air/permitting-compliance/content/map-active-air-permitted-facilities,https://florida-ag-kbsettlement.com/florida-home-generator-installations-permitting-insurance-and-maintenance-mistakes-to-avoid/,,,
+CA,1,SE,"Regional air quality management districts
+
+In at least some cases, individual counties or cities","https://ww2.arb.ca.gov/our-work/programs/emergency-backup-generators/about --> all generators > 50 bhp need permits from regional air quality districts
+
+https://cdi.santacruzcountyca.gov/UPC/BuildingPermitsSafety/ApplyforaBuildingPermit/GeneratorPermits.aspx
+https://www.cityofmillvalley.gov/DocumentCenter/View/349/Supplemental-Guide-for-Generators-PDF?bidId= --> examples of counties/cities with separate permitting forms","Air quality management district data is available via public record request 
+
+County/city data availability unclear - potentially avialable via public record request",https://www.lgsec.org/wp-content/uploads/2020/05/BUGs-in-5-CA-Air-Districts.pdf --> notes that air quality management district data available through public record request,see Steven Moss's research in literature spreadsheet,,,
+ME,1,AJ,"Maine Department of Environmental Protection; Air Quality; Need either a Minor Source License or a Major Source License. Minor sources emit less than the following: 50 tons per year of VOC for facilities within the Ozone Transport Region, 10 tons per year of single Hazardous Air Pollutant, 25 tons per year of all Hazardous Air Pollutants combined, 100 tons per year of any other regulated pollutant. Major sources emit one or more of the following: 50 tons per year of VOC for facilities within the Ozone Transport Region, 10 tons per year of single Hazardous Air Pollutant, 25 tons per year of all Hazardous Air Pollutants combined, 100 tons per year of any other regulated pollutant",https://www.maine.gov/dep/air/permits/index.html; under licenses link ,"Have lists of minor and major source licenses in each county (search either by source number or keyword (county, town, facility name); can ask for public record requests; have to report emissions if they meet certain requirements; also have data for GHG summaries and CAP summaries for each year; have to go through (I looked and saw the CAP summaries were with each company, so would have to find permits to know what companies to look at)","Minor Source Licenses List, Air Quality, Maine DEP https://www.maine.gov/dep/how-do-i/how-do-i.html?id=318580 https://www.maine.gov/dep/ftp/AIR/DATA/",06-096 DEPARTMENT OF ENVIRONMENTAL PROTECTION Chapter 169 Draft that requires strict permit regulations for emergency generation,,,
+MD,1,AJ,"need permit from the Department of Environment; Air Quality. Under the general permit section; Part 70 (Title V) Operating Permit. must include specific emissions information, a description of all applicable regulations and requirements, a compliance plan for all emission units which are out of compliance with any applicable regulation or requirement, and a compliance certification. needs to submit information for requirements only enforcable by MDE (state regulations on air toxins, nuisances, odors, and continous emission monitoring telemetry)","TM 24-01 Technical Guidance and Calculation Methodologies to Comply with Building Energy Performance Standards, July 2024 https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/part70_applications.aspx https://mde.maryland.gov/programs/permits/Documents/Permit%20Applications/Air/Federal%20Title%20V%20-%20Part%2070%20Operating%20Permit%20-%20Initial%20Permit%20Application-ARA.pdf",have lists of issued Part 70 Permits and Draft Part 70 Permits for Public Review,"TM 24-01 Technical Guidance and Calculation Methodologies to Comply with Building Energy Performance Standards, July 2024 https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/title5_issued_permits.aspx https://mde.maryland.gov/programs/permits/AirManagementPermits/Pages/title5draftpermits.aspx",Maryland Department of the Environment. A. 2.1.4 Energy and Emission Exclusions. Energy uses that can be subtracted from a buildings GHG emissions and energy usage includes emissions from a backup generator if federal/state regulation requires a covered building to use a backup generator or other equipment that must run on fossil fuels. A. 2. 1. 4.3 energy usage from backup generators or other equipment that are not required for federal or state regulation must be included.https://mde.maryland.gov/programs/permits/AirManagementPermits/Documents/Emergency%20Generator%20General%20Permit.pdf,,,
+MA,1,AJ,"need permits (Compliance Certification) for both emergency (37 kw or more) and nonemergency backup generators (50 km or more) within 60 days of installation; Massachussets Department of Environmental Protection Air Department. Notes: most emergency units qualify for the compliance certification option; many non-emergency units don't, but may still be installed. asked to consult MassDEP before proceeding; may need to submit a comprehensive plan application (CPA) instead. ",https://www.mass.gov/how-to/submit-a-compliance-certification-stationary-engine-or-turbine?_gl=1*ev00jn*_ga*MTUzMjM2NDYyMy4xNzcxODEzOTEz*_ga_MCLPEGW7WM*czE3NzE4Mjc3NjMkbzIkZzAkdDE3NzE4Mjc3NjMkajYwJGwwJGgw&_ga=2.125097418.1376490323.1771813913-1532364623.1771813913,"view all pending and final decisons for Permit, Certification, License, or Notification Applications submitted through EEA ePLACE portal. search by location, record number, permit category, status, and submission date.can view and comment on applications open for Public Comment; this feature could be useful for research; how do people feel about backup generator use?",https://eplace.eea.mass.gov/EEAPublicApp/,,,,
+MN,1,SE,"commercial facilities: state air permits required for emissions above a certain level - based on a calculation involving fuel type, date of manufacture, and other variables
+
+residential: depending on city or township, permits may be required - e.g. minneapolis appears to require an electric permit","sources for commercial facilities:
+
+https://www.pca.state.mn.us/business-with-us/stationary-engines-or-generators
+
+https://www.pca.state.mn.us/business-with-us/stationary-engines
+
+source for residential: https://midwestgenerators.com/2015/03/28/do-i-need-a-permit-to-install-a-generator/
+
+https://www.dli.mn.gov/sites/default/files/pdf/ele-homeowner-existing.pdf","commercial data appears to be available on request, though unclear if we can request data for all facilities: ""Air modeling protocols and modeling information requests should be submitted using MPCA e-Services.""",https://www.pca.state.mn.us/business-with-us/air-quality-modeling,,,,
+NJ,1,JP,"New Jersey Department of Environmental Protection (NJDEP)
+Needs permits in accordance with NJAC 7:27-8 if rated heat input is 1,000,000 BTU/hr or greater
+For minor facilities, GP-005A for distillate fuels, GP-005B for gaseous fuels 
+For major facilities, GOP-003 w maximum rated heat input of less than or equal to 30 MMBTU/hr, and a GOP-004 for gaseous fuels
+GP-005 was a permit that existed, since displaced by GP-005A and GP-OO5B but still can run before expiration",https://dep.nj.gov/boss/general-permits/general-operating-permits/,"unclear, but pasted online portal for applications ",https://dep.nj.gov/boss/general-permits/,,,,
+NY,1,JP,"New York State Department of Environmental Conservation (NYSDEC) for generators over 40kw
+In New York City it is stricter and requires Department of Buildings (DOB) and Fire Department of New York (FDNY) permits","NYC: https://www.nyc.gov/site/buildings/property-or-business-owner/project-requirements-owner-emergency-backup.page#:~:text=You%20can%20submit%20a%20filing%20or%20permit,the%20NYC%20Building%20Code%20and%20Zoning%20Resolution
+
+NYS: https://govt.westlaw.com/nycrr/Browse/Home/NewYork/UnofficialNewYorkCodesRulesandRegulations?guid=Iad78c1b0b5a011dda0a4e17826ebc834&originationContext=documenttoc&transitionType=Default&contextData=(sc.Default)","Appears to be publically available, across various classes",https://extapps.dec.ny.gov/data/dar/afs/issued_atv.html,"IMPORTANT: publically available, maybe even scrapeable? However, appears to mix various facilities, not just BUGs",,,
+WA,1,SE,"Generally permitted by the state, but individual municipalities have their own permitting process (e.g. Bellevue)
+
+Unclear if there's a minimum kW or other threshold for generators to be permitted, but guides tend to use expansive language (""in most situations, an electrical permit is required"")","State permitting page: https://lni.wa.gov/licensing-permits/electrical/electrical-permits-fees-and-inspections/look-up-a-permit-or-inspection
+
+Bellevue as an example of a city that does its own permitting: https://bellevuewa.gov/city-government/departments/development/permits/plan-submittal-resources/generator-permit-requirements
+
+Full list of cities that do their own permitting: https://lni.wa.gov/licensing-permits/electrical/electrical-permits-fees-and-inspections/city-electrical-permits-inspections",State-level data is available & probably scrapeable,https://secure.lni.wa.gov/epispub/frmPermitSearchMain.aspx,"State-level data appears to include information even from cities that have their own permitting process (e.g. Bellevue) but may need to call and confirm that these cities don't have a separate dataset
+
+",,,
+AZ,1,AJ,"need an Air Quality individual permit for facilities that don't qualify for a general permit and covers Class I and II permits; includes all industrial activities not covered under a general permit, that emit air pollution in excess of the permitting standards and/or trigger federal requirements; may have a categorical exemption. the page for a generators GP (requirement for powerplants with generators is gone) regulated on county level (Pima ex)) I believe they got rid of the generator specific permit",https://azdeq.gov/why-do-i-need-air-quality-individual-permit https://azdeq.gov/node/513 https://azdeq.gov/permits-needed-power-plant https://www.pima.gov/456/Class-I-Permits,"under air quality, databases on daily, exceedences, and monitoring of pollutants. search for dates, counties in AZ, or pollutants.Also have an Emissions Bank Credit Database to search for particular pollutants; may be harder to track how backup generators contribute t these emissions",https://azdeq.gov/databases,,,,
+PA,1,,,,,,,,,
+AL,,,,,,,,,,
+AK,,,,,,,,,,
+AR,,,,,,,,,,
+AS,,,,,,,,,,
+CO,,,,,,,,,,
+CT,,,,,,,,,,
+DE,,,,,,,,,,
+DC,,,,,,,,,,
+GA,,,,,,,,,,
+HI,,,,,,,,,,
+ID,,,,,,,,,,
+IL,,,,,,,,,,
+IN,,,,,,,,,,
+IA,,,,,,,,,,
+KS,,,,,,,,,,
+KY,,,,,,,,,,
+LA,,,,,,,,,,
+MI,,,,,,,,,,
+MS,,,,,,,,,,
+MO,,,,,,,,,,
+MT,,,,,,,,,,
+NE,,,,,,,,,,
+NV,,,,,,,,,,
+NH,,,,,,,,,,
+NM,,,,,,,,,,
+NC,,,,,,,,,,
+ND,,,,,,,,,,
+OH,,,https://www.ohca.org/uploads/news/OHCA_Generator_Whitepaper.pdf Fire Marshal required permit circa 2012 - specifically for storage of fuel; nursing facilities requiring generators; by city requirements found Avon https://www.cityofavon.com/DocumentCenter/View/3277/Back-Up-Generator-Guidelines--Permit-Application ,,,,,,,
+OK,,,,,,,,,,
+OR,,,,,,,,,,
+RI,,,,,,,,,,
+SC,,,,,,,,,,
+SD,,,,,,,,,,
+TN,,,,,,,,,,
+TX,,,,,,,,,,
+UT,,,,,,,,,,
+VT,,,,,,,,,,
+VA,,,,,,,,,,
+VI,,,,,,,,,,
+WV,,,,,,,,,,
+WI,,,,,,,,,,
+WY,,,,,,,,,,

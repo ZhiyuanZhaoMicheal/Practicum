@@ -1,0 +1,15 @@
+{
+  "logic": "extreme_drop_improves_and_control_not",
+  "extreme_candidates": [
+    "maria_sanjuan",
+    "earthquake_sanjuan"
+  ],
+  "used_soft_candidates": true,
+  "control_drop_event": "maria_sanjuan",
+  "decision": "structural_shift_not_single_event",
+  "evidence": {
+    "base_logit_auc": 0.4748839535413161,
+    "best_extreme_drop_logit_auc": 0.47634187994466687,
+    "control_drop_logit_auc": 0.47634187994466687
+  }
+}

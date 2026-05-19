@@ -1,0 +1,38 @@
+{
+  "created_at_utc": "2026-03-10T02:56:22.693146+00:00",
+  "policy": "Balanced",
+  "thresholds": {
+    "delta_logit_auc": 0.02,
+    "delta_survival_best_c_index": 0.01
+  },
+  "max_rounds": 3,
+  "stopped_at_round": "r1",
+  "reason": "marginal_improvement",
+  "marginal_improvement_stop": true,
+  "baseline_round": "r0",
+  "baseline_metrics": {
+    "logit_auc": 0.489724801190338,
+    "logit_brier": 0.3110092683683461,
+    "cox_c_index": 0.4641479930440278,
+    "aft_c_index": 0.5354466838366854,
+    "ols_rmse": 0.5242969348922774,
+    "mixedlm_rmse": 0.6009971119451999,
+    "hgb_auc": NaN,
+    "hgb_rmse": NaN,
+    "survival_best_c_index": 0.5354466838366854
+  },
+  "final_metrics": {
+    "logit_auc": 0.4814246024736008,
+    "logit_brier": 0.25672240206179203,
+    "survival_best_c_index": 0.5213379750676524,
+    "cox_c_index": 0.5213379750676524,
+    "aft_c_index": 0.4773447838464176,
+    "ols_rmse": 0.4142288205013616,
+    "mixedlm_rmse": 0.4682862683890155,
+    "hgb_auc": NaN,
+    "hgb_rmse": NaN
+  },
+  "executed_rounds": [
+    "r1"
+  ]
+}

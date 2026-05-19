@@ -1,0 +1,39 @@
+{
+  "worldpop": {
+    "base_dir": "project/data/external/worldpop",
+    "countries": {
+      "earthquake_hatay": {
+        "iso3": "TUR",
+        "year": 2020,
+        "cache_name": "TUR_2020.tif"
+      },
+      "dorian_freeport": {
+        "iso3": "BHS",
+        "year": 2020,
+        "cache_name": "BHS_2020.tif"
+      }
+    }
+  },
+  "stages": {
+    "stage_9_earthquake_hatay": {
+      "stage_tag": "stage_9_earthquake_hatay",
+      "repair_events": ["earthquake_hatay"]
+    },
+    "stage_10_dorian_freeport": {
+      "stage_tag": "stage_10_dorian_freeport",
+      "repair_events": ["earthquake_hatay", "dorian_freeport"]
+    }
+  },
+  "hz2": {
+    "numeric_terms": [
+      "pixel_cloud_proxy",
+      "recovery_obs_quality_score",
+      "urban_share_1km",
+      "water_share_1km",
+      "developed_high_share_1km",
+      "pop_density_log1p_v2"
+    ],
+    "categorical_terms": ["land_use_group", "event_disaster_type"],
+    "interaction_terms": ["in_buffer_x_pop_v2"]
+  }
+}

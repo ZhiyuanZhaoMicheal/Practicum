@@ -1,0 +1,252 @@
+name,facility_type,lat,lon,osm_id,osm_type
+William P. Hobby Airport,aerodrome,29.6453956,-95.2779583,209239667,way
+Police Helicopter Patrol Heliport,aerodrome,29.6492025,-95.2702848,888038121,way
+Pasadena Fire Chief,fire_station,29.7132978,-95.2017432,368160241,node
+Houston Fire Department Station 9,fire_station,29.776231,-95.3604454,368160461,node
+City of Southside Place Fire Department,fire_station,29.7146581,-95.4335888,368160634,node
+Pasadena Fire Department Station 2,fire_station,29.7036322,-95.201383,368160736,node
+Pasadena Fire Protection Service,fire_station,29.6874962,-95.207792,368160772,node
+Galena Park Fire Department Station 1,fire_station,29.734151,-95.2387738,368160779,node
+South Houston Fire Department,fire_station,29.6654895,-95.2388682,368160790,node
+Jacinto Fire Department,fire_station,29.7690513,-95.2478658,368160793,node
+Pasadena Fire Department Station 4,fire_station,29.6838622,-95.2079795,368160981,node
+Houston Fire Department Station 34,fire_station,29.8401944,-95.3388471,368161066,node
+Houston Fire Department Station 35,fire_station,29.6741004,-95.3380004,368161067,node
+Houston Fire Department Station 38,fire_station,29.7901872,-95.4677444,368161070,node
+Houston Fire Department Station 40,fire_station,29.7101583,-95.3208582,368161072,node
+Houston Fire Department Station 25,fire_station,29.7186504,-95.3533667,368161073,node
+Houston Fire Department Station 29,fire_station,29.6840001,-95.2537059,368161077,node
+Houston Fire Department Station 17,fire_station,29.7569907,-95.341345,368161081,node
+Houston Fire Department Station 19,fire_station,29.7772172,-95.3361182,368161083,node
+Houston Fire Department Station 20,fire_station,29.7441184,-95.3008501,368161086,node
+Houston Fire Department Station 6,fire_station,29.7695805,-95.3942605,368161089,node
+Houston Fire Department Station 12,fire_station,29.7946413,-95.3528703,368161093,node
+West University Place Fire Department,fire_station,29.7149564,-95.4380504,368161110,node
+Pasadena Fire Marshal's Office,fire_station,29.7132978,-95.2017432,368161138,node
+Missouri City Fire and Rescue Services Station 2,fire_station,29.6303327,-95.5188497,368161143,node
+Houston Fire Department Station 55,fire_station,29.6375591,-95.35617,368161199,node
+Houston Fire Department Station 41,fire_station,29.7739036,-95.2819016,368161201,node
+Houston Fire Department Station 42,fire_station,29.743591,-95.2726953,368161202,node
+Houston Fire Department Station 46,fire_station,29.6859295,-95.3643446,368161206,node
+Houston Fire Department Station 66,fire_station,29.8519736,-95.53989,368161209,node
+Houston Fire Department Station 67,fire_station,29.8637512,-95.436052,368161212,node
+Houston Fire Department Station 60,fire_station,29.7331826,-95.5248414,368161219,node
+Houston Fire Department Station 61,fire_station,29.6253833,-95.2670824,368161225,node
+Houston Fire Department Station 77,fire_station,29.8223466,-95.5438158,368161236,node
+Houston Fire Department Station 81,fire_station,29.641458,-95.2785092,368161243,node
+South Houston Fire Station,fire_station,29.666,-95.2391,368161265,node
+City of Jacinto Fire Department,fire_station,29.7691,-95.2477,368161275,node
+City of Piney Point Village Fire Department,fire_station,29.7821,-95.5129,368161280,node
+Fire Station Number 2,fire_station,29.6308,-95.5208,368161284,node
+Galena Park Fire Station,fire_station,29.7341,-95.2383,368161297,node
+Houston Fire Station Number 38,fire_station,29.7901909,-95.4677045,368161300,node
+Houston Fire Station Number 41,fire_station,29.7733,-95.2826,368161328,node
+Houston Fire Station Number 55,fire_station,29.6402,-95.3568,368161333,node
+Little York Volunteer Fire Department,fire_station,29.8894,-95.4001,368161440,node
+City of Houston Fire Station 24,fire_station,29.658029,-95.3899701,7229355385,node
+The Roberts Family Training Field,fire_station,29.90763,-95.3997761,13322036056,node
+Houston Fire Station Number 36;Houston Fire Department Station 36,fire_station,29.6571009,-95.2800548,46273801,way
+fire_station facility,fire_station,29.6414532,-95.2784967,46510415,way
+Sheldon Community Volunteer Fire / Rescue Station 1,fire_station,29.844256,-95.2144891,177239572,way
+Houston Fire Department Station 50,fire_station,29.8344639,-95.4898706,180766663,way
+Houston Fire Department Station 8,fire_station,29.7513031,-95.3728201,228446604,way
+Houston Fire Department Station 4,fire_station,29.8662731,-95.4895147,239556598,way
+Cy - Fair Volunteer Fire Department Station 1,fire_station,29.8965113,-95.5368996,240353331,way
+Bellaire Fire Department,fire_station,29.7017527,-95.4683908,251660022,way
+Houston Fire Department Station 49,fire_station,29.7911409,-95.5442423,265996275,way
+Houston Fire Department Station 5,fire_station,29.8102733,-95.5062614,308771686,way
+Houston Fire Department Station 68,fire_station,29.6770174,-95.5287463,317222090,way
+Houston Fire Department Station 2,fire_station,29.7623309,-95.4810925,377984502,way
+Houston Fire Station 18,fire_station,29.7355362,-95.3314565,378413471,way
+Houston Fire Department Station 37,fire_station,29.7017367,-95.4406655,389891631,way
+Houston Fire Department Station 33,fire_station,29.7001783,-95.401386,398200985,way
+Village Fire Department,fire_station,29.7808623,-95.5142854,399713222,way
+Houston Fire Department Station 16,fire_station,29.7346046,-95.4023464,425632222,way
+City of Houston Fire Department - Arson,fire_station,29.7695992,-95.3696221,437398766,way
+Houston Fire Department Station 7,fire_station,29.7392543,-95.3736077,484640539,way
+Houston Fire Department Station 23,fire_station,29.7160352,-95.2792254,520305342,way
+fire_station facility,fire_station,29.7809859,-95.5142872,572476840,way
+Houston Fire Department Station 21,fire_station,29.6704301,-95.4328278,662095731,way
+Houston Fire Department Station 30,fire_station,29.8191705,-95.3607904,671190399,way
+Houston Fire Department Station 15,fire_station,29.8028363,-95.3866766,674527210,way
+Houston Fire Department Station 31,fire_station,29.8285241,-95.4024595,725713303,way
+Houston Fire Department Station 58,fire_station,29.857078,-95.3835244,835673719,way
+Houston Fire Department - Arson Division,fire_station,29.7913023,-95.4307103,849618550,way
+Houston Fire Department Station 22,fire_station,29.7305717,-95.2846403,931703045,way
+Little York Fire Department - Station 81,fire_station,29.9071241,-95.4016242,943428006,way
+Houston Fire Department Station 11,fire_station,29.7793824,-95.4176585,974192624,way
+Houston Fire Department Station 28,fire_station,29.7338957,-95.4768726,1023522246,way
+Houston Fire Department Station 27,fire_station,29.7769035,-95.3045765,1026895315,way
+Houston Fire Department Station 13,fire_station,29.8322315,-95.451381,1026897995,way
+Houston Fire Department Station 62,fire_station,29.7980785,-95.4377315,1027211940,way
+Houston Fire Department Station 39,fire_station,29.8127935,-95.318635,1032712063,way
+Houston Fire Department Station 26,fire_station,29.6818145,-95.3050155,1060981137,way
+Houston Fire Department Station 82,fire_station,29.6579336,-95.5114216,1065983128,way
+Heights Fire Department,fire_station,29.7923629,-95.3987534,1069916719,way
+Houston Fire Department Station 51,fire_station,29.70529,-95.504893,1071299083,way
+Houston Fire Department Station 45,fire_station,29.8052066,-95.2639134,1074383702,way
+Houston Fire Department Station 56,fire_station,29.8709025,-95.305807,1081950533,way
+Houston Fire Department Station 32,fire_station,29.8496645,-95.265454,1084301167,way
+Houston Fire Department Station 44,fire_station,29.7780972,-95.2181338,1087972231,way
+Houston Fire Department Station 43,fire_station,29.828268,-95.284031,1089305909,way
+Houston Fire Station Number 48,fire_station,29.6533709,-95.481085,1103947405,way
+Houston Fire Department Station 59,fire_station,29.6252382,-95.4647972,1227098711,way
+Houston Fire Department Station 47,fire_station,29.6317327,-95.4137075,1240852481,way
+Houston Fire Department Station 3,fire_station,29.7379143,-95.438362,1276245532,way
+Houston Fire Department Station 52,fire_station,29.6351007,-95.2296639,1396459093,way
+Galena Park Police Substation,police,29.7578186,-95.2138724,368160928,node
+Houston Police Department - Eastside Patrol,police,29.734426,-95.2906143,368162237,node
+Houston Police Department Mykawa Substation,police,29.6575066,-95.3164366,368162245,node
+Houston Police Department - Fondren Patrol,police,29.6587549,-95.5099624,368162248,node
+Houston Police Department - Palm Center,police,29.6958228,-95.3340619,368162249,node
+Houston Police Department - Acres Home,police,29.8574824,-95.4216752,368162254,node
+Harris County Sheriff's Office,police,29.7643591,-95.3569288,368162263,node
+Jacinto City Police Department,police,29.7680944,-95.2447422,368162266,node
+Houston Police Department - Hobby Airport,police,29.6570556,-95.2802056,368162275,node
+Harris County Sheriff's Office - DARE Program,police,29.8434157,-95.3342513,368162286,node
+Southside Place Police Department,police,29.7146616,-95.4334494,368162292,node
+Houston Police Department - Near Town,police,29.7450136,-95.3898927,368162305,node
+Houston Police Department - Ana Maria Lopez,police,29.7819689,-95.3586726,368162312,node
+Harris County Sheriff's Office,police,29.7628066,-95.357298,368162315,node
+Houston Police Department - Northwest Patrol,police,29.8570626,-95.5397144,368162324,node
+Houston Police Department - Leija,police,29.6851134,-95.2539724,368162328,node
+Houston Police Department,police,29.755888,-95.367452,368162330,node
+South Houston Police Department,police,29.6653346,-95.2393555,368162333,node
+Harris County Sheriff's Office - Economic Crime,police,29.7620822,-95.3577236,368162359,node
+Houston Police Department - Telephone Road,police,29.6193584,-95.2849214,368162367,node
+Houston Police Department - Gulfton,police,29.7169926,-95.4853497,368162450,node
+Pasadena Police Department,police,29.6934079,-95.1960244,368162465,node
+Houston Police Department - Ranchester,police,29.7066176,-95.5440621,368162468,node
+Harris County Sheriff's Office - Recruiting,police,29.7535046,-95.3227812,368162470,node
+Houston Police Department - Jensen Street,police,29.8451211,-95.3436164,368162499,node
+South Houston Police Station,police,29.6658,-95.2394,368162672,node
+Jacinto City Police Station,police,29.7679,-95.2453,368162680,node
+Galena Park Police Station,police,29.732,-95.2416,368162694,node
+Houston Police Department - Heights,police,29.7860468,-95.4113904,368162696,node
+Harris County Sheriff's Office,police,29.7616785,-95.3568397,368162701,node
+Houston Police Station,police,29.7649432,-95.3706247,6988914748,node
+Department of Public Safety,police,29.719919,-95.351183,364286180,way
+Houston Police Department - South Central Patrol,police,29.7428286,-95.3627804,367137434,way
+Houston Community College Police,police,29.7355649,-95.3775279,568349810,way
+Hedwig Village Police Department,police,29.7828356,-95.5104023,572498907,way
+Spring Valley Village Police Department,police,29.7882413,-95.5153377,785797134,way
+Houston Police Department - Broadway Square,police,29.6758503,-95.2767783,848673487,way
+South Gessner Patrol Station,police,29.6495333,-95.5284161,1065985951,way
+Memorial Village Police Department,police,29.7620575,-95.538835,1076581822,way
+Houston Police Department - North Patrol,police,29.8792715,-95.4468285,1083046525,way
+Houston Police Department - Hiram Clarke,police,29.613833,-95.442203,1083308609,way
+Houston Heights Police Station,police,29.8036115,-95.402864,1084917759,way
+Houston Police Department - Spring Branch,police,29.8035835,-95.4962185,1085015562,way
+Houston Police Department - Navigation,police,29.7527235,-95.32747,1087349059,way
+Houston Police Department - Northeast Patrol,police,29.8322325,-95.2731585,1089306113,way
+Galena Park Police,police,29.7329163,-95.2459343,1090222347,way
+Galena Park Police Department,police,29.7320385,-95.245532,1090222769,way
+Houston Police Department,police,29.637058,-95.457174,1092145003,way
+Houston Police Department - Sunnyside,police,29.6585391,-95.3716704,1209506477,way
+Houston Police Department - Richmond,police,29.7322433,-95.4941645,1227210268,way
+Thermal Energy Cooporation Central Plant,power_plant,29.7036919,-95.3977826,337225056,way
+Central Power Plant,power_plant,29.7219675,-95.3416155,364021573,way
+Satelite Thermal Plant,power_plant,29.7239951,-95.3636351,374895678,way
+Channel Energy Center,power_plant,29.7188239,-95.232688,422731519,way
+Friendswood Energy,power_plant,29.6470687,-95.4519193,585787416,way
+power_plant facility,power_plant,29.8608796,-95.2026422,818970459,way
+HO Clarke Generating,power_plant,29.6449193,-95.4518802,1072756157,way
+Rentech Nitrogen Pasadena Cogeneration Power Station,power_plant,29.7399321,-95.1960994,1219860490,way
+power_plant facility,power_plant,29.6292715,-95.2933068,1318563291,way
+Lantana Point Reserve Peakshaving Unit,power_plant,29.628418,-95.4938822,1369845520,way
+power_plant facility,power_plant,29.7009185,-95.3865608,1424469192,way
+Crockett BESS,power_plant,29.775449,-95.378967,1453230631,way
+Callisto I Energy Center,power_plant,29.6496608,-95.4507833,1458594435,way
+Greens Bayou Electric Generating Station,power_plant,29.8206246,-95.2207792,2854431,relation
+Pasadena City Hall,government,29.6916727,-95.1961981,368162525,node
+Jacinto City Hall,government,29.7668965,-95.2468996,368162527,node
+Galena Park City Hall,government,29.7321,-95.2416,368162530,node
+United States Customhouse,government,29.7576507,-95.3615081,368162786,node
+West University City Hall,government,29.7149471,-95.4377124,2571540811,node
+Southside Place City Hall,government,29.7147222,-95.4336639,2615064417,node
+Army Navy Air Force,government,29.7000355,-95.2960443,3798973889,node
+Armed Forces Career Center,government,29.7039757,-95.296812,3830978574,node
+Ft Bend County Tax Assessor,government,29.6173794,-95.5360777,4227549129,node
+Texas Department of Public Safety Driver License Mega Center,government,29.6439897,-95.5293584,4251878622,node
+IdentoGO,government,29.7500095,-95.2660904,8589524117,node
+Armed Forces Career Center,government,29.846147,-95.4023906,9859292631,node
+Texas Department of Health and Human Services,government,29.8211466,-95.3781488,9928348000,node
+Federal Bureau of Investigation Houston Field Office,government,29.8360749,-95.4813676,10685200076,node
+BARC animal shelter and adoptions,government,29.7921403,-95.3447327,11003185106,node
+Houston BARC administration,government,29.7911068,-95.343768,11003299905,node
+Oficina de empadronamiento electoral de Bolivia en el exterior,government,29.7416908,-95.4844648,11491309689,node
+Texas Health and Human Services Office,government,29.8717961,-95.3642612,13422331095,node
+Social Security Administration,government,29.9017061,-95.309837,13502662526,node
+Harris County Civil Courthouse,government,29.7607823,-95.3573743,44130572,way
+Herbert W. Gee Municipal Courthouse,government,29.7656096,-95.3714387,54043760,way
+Bob Casey United States Courthouse,government,29.7610765,-95.3673826,54169598,way
+Houston City Hall,government,29.7601811,-95.369374,54358731,way
+Hattie Mae White Educational Support Center,government,29.802604,-95.4542534,128238620,way
+Harris Central Appraisal District,government,29.8446999,-95.4999198,156353669,way
+Harris County Criminal Justice Center,government,29.7620419,-95.3577469,260786295,way
+Harris County Courthouse Annex,government,29.7157584,-95.4769476,329323290,way
+Justice of the Peace for Precinct 7,government,29.7053583,-95.3486618,365911456,way
+Bellaire City Hall,government,29.7034113,-95.4684011,378479711,way
+Bellaire Municipal Court Clerk's Office,government,29.7023001,-95.4690439,378479720,way
+U.S. Customs and Border Protection,government,29.7012263,-95.291188,379695032,way
+Fire Prevention Office/ Arson,government,29.6792954,-95.47874,460688270,way
+Houston Parks and Recreation Department - Green Space Management,government,29.7627841,-95.4296699,467449939,way
+Texas Department of Criminal Justice,government,29.8073702,-95.4538175,545592662,way
+Houston Emergency Center,government,29.8435234,-95.4095469,579214973,way
+Harris County Courthouse Annex 31,government,29.8675449,-95.4118938,756341473,way
+Spring Valley Village City Hall,government,29.7881427,-95.5151502,785797135,way
+government facility,government,29.849589,-95.4749745,843703318,way
+government facility,government,29.7504233,-95.3248243,970967662,way
+Hilshire Village City Hall,government,29.7945365,-95.493163,1061917992,way
+Harris County Tax AssessorCollector Office,government,29.801011,-95.495956,1088904329,way
+Hunters Creek Village City Hall,government,29.7788805,-95.5051812,1089385230,way
+government facility,government,29.6649016,-95.2388326,1212053951,way
+Armed Forces Career Center,government,29.7350279,-95.517151,1411240795,way
+government facility,government,29.7626046,-95.3396288,1493915147,way
+Houston City Hall Annex,government,29.7607127,-95.3702535,14569211,relation
+water_works facility,water_works,29.8675008,-95.5278953,12920194692,node
+Houston East Water Purification Plant,water_works,29.7408031,-95.2176247,144164279,way
+water_works facility,water_works,29.8935921,-95.4666466,196867476,way
+water_works facility,water_works,29.822707,-95.5245427,262756424,way
+water_works facility,water_works,29.6867889,-95.4503831,266866059,way
+water_works facility,water_works,29.690156,-95.4501457,266866061,way
+water_works facility,water_works,29.6964529,-95.4200426,266866062,way
+water_works facility,water_works,29.8959847,-95.431771,351787545,way
+water_works facility,water_works,29.6995604,-95.2668532,382304532,way
+water_works facility,water_works,29.668901,-95.5430853,394652930,way
+water_works facility,water_works,29.7101791,-95.258954,396000140,way
+water_works facility,water_works,29.6168304,-95.4541918,400879359,way
+water_works facility,water_works,29.8204291,-95.5166654,468889991,way
+Rolling Fork Water #1,water_works,29.8925844,-95.5334163,474860031,way
+water_works facility,water_works,29.6457037,-95.3390251,484579817,way
+water_works facility,water_works,29.7049933,-95.4334671,528727266,way
+FWSD23 Wastewater Treatment Plant,water_works,29.8448876,-95.2746245,610621456,way
+water_works facility,water_works,29.7720097,-95.1961384,614086698,way
+water_works facility,water_works,29.8940853,-95.4305711,627012428,way
+water_works facility,water_works,29.7553747,-95.3013099,634222661,way
+water_works facility,water_works,29.877333,-95.4970202,653968350,way
+water_works facility,water_works,29.8772179,-95.5138542,655049006,way
+water_works facility,water_works,29.9010361,-95.5449803,655081374,way
+water_works facility,water_works,29.6641154,-95.2399711,659529158,way
+Vince Bayou Wastewater Treatment Plant,water_works,29.7154276,-95.2083805,676317747,way
+water_works facility,water_works,29.8789715,-95.5122756,678280660,way
+water_works facility,water_works,29.9099391,-95.445521,678414861,way
+water_works facility,water_works,29.7283314,-95.4503534,714618060,way
+Rolling Fork Water #2,water_works,29.8909424,-95.5337917,785276362,way
+water_works facility,water_works,29.7367174,-95.2670561,909646710,way
+water_works facility,water_works,29.7656679,-95.2225906,909646715,way
+water_works facility,water_works,29.7193351,-95.3328523,909646840,way
+water_works facility,water_works,29.7646305,-95.3530535,910465305,way
+water_works facility,water_works,29.7599813,-95.3202152,911613423,way
+Westbery #1 Plant & #1 Well,water_works,29.6620341,-95.475871,1090401182,way
+water_works facility,water_works,29.7470555,-95.5073729,1113496105,way
+water_works facility,water_works,29.6156261,-95.5208748,1119966938,way
+water_works facility,water_works,29.7156673,-95.2072044,1125853477,way
+water_works facility,water_works,29.7156697,-95.206742,1125853478,way
+water_works facility,water_works,29.7152685,-95.2071943,1125853479,way
+water_works facility,water_works,29.7152668,-95.2067401,1125853480,way
+water_works facility,water_works,29.6852509,-95.4517327,1229607908,way
+water_works facility,water_works,29.6694532,-95.2353529,1309978169,way
+East Haven Wastewater Treatment Plant,water_works,29.6439077,-95.2633309,1324477142,way
+water_works facility,water_works,29.8071068,-95.2938774,1352240654,way
+water_works facility,water_works,29.6483294,-95.2224371,1451498260,way

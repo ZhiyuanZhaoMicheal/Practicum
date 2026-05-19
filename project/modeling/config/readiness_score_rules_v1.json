@@ -1,0 +1,48 @@
+{
+  "obs_quality_score": {
+    "max": 30,
+    "rules": [
+      {"observed_rate_min": 0.99, "high_censoring_max": 0.01, "score": 30},
+      {"observed_rate_min": 0.97, "score": 24},
+      {"observed_rate_min": 0.95, "score": 18},
+      {"observed_rate_min": 0.0, "score": 0}
+    ]
+  },
+  "post_coverage_score": {
+    "max": 20,
+    "rules": [
+      {"post_tif_min": 40, "score": 20},
+      {"post_tif_min": 25, "score": 12},
+      {"post_tif_min": 15, "score": 6},
+      {"post_tif_min": 0, "score": 0}
+    ]
+  },
+  "poi_score": {
+    "max": 20,
+    "rules": [
+      {"poi_count_min": 150, "score": 20},
+      {"poi_count_min": 80, "score": 12},
+      {"poi_count_min": 40, "score": 6},
+      {"poi_count_min": 0, "score": 0}
+    ]
+  },
+  "covariate_score": {
+    "max": 20,
+    "rules": [
+      {"missing_pop_flag_mean_max": 0.05, "score": 20},
+      {"proxy_only": true, "score": 10},
+      {"missing": true, "score": 0}
+    ]
+  },
+  "integrity_score": {
+    "max": 10,
+    "rules": [
+      {"integrity_ok": true, "score": 10},
+      {"integrity_ok": false, "score": 0}
+    ]
+  },
+  "bands": {
+    "mainline_ready_min": 80,
+    "sensitivity_only_min": 60
+  }
+}

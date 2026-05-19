@@ -1,0 +1,4 @@
+city_size,n_events,mean_auc,std_auc,min_auc,max_auc
+large,12,0.968,0.025,0.904,0.994
+medium,7,0.962,0.026,0.906,0.98
+small,6,0.974,0.018,0.947,0.998

@@ -1,0 +1,421 @@
+facility_type,lon,lat,name
+hospital,-80.19296,25.8237323,Douglas Gardens Hospital
+hospital,-80.177,25.889921,Saint Catherine's Rehabilitation Hospital
+hospital,-80.3382285,25.684005,Baptist Children's Hospital
+hospital,-80.2540819,25.742333,Coral Gables Acupuncture
+hospital,-80.1406461,25.7845261,Miami Beach Urgent Care
+hospital,-80.266086,25.8155566,DeLaCalle Medical Center
+hospital,-80.2142146,25.8596138,North Shore Medical Center Emergency Room
+hospital,-80.140543,25.777466,Baptist Health South Florida
+hospital,-80.2829593,25.8186716,Miami Springs Nursing And Rehab Center
+hospital,-80.3315234,25.9003369,Select Specialty Hospital - Miami Lakes
+hospital,-80.3429732,25.8837555,Saint Catherine's West Rehabilitation Hospital
+hospital,-80.3215341,25.860337,Southern Winds
+hospital,-80.2789477,25.7637168,Kindred Hospital - South Florida - Coral Gables
+hospital,-80.3323335,25.9139935,United Dental Specialists
+hospital,-80.2117611,25.7920593,Jackson Memorial Emergency Department
+hospital,-80.1408505,25.8139728,Mount Sinai Emergency Department
+hospital,-80.2128361,25.7400525,Mercy Hospital Emergency Department
+hospital,-80.1347815,25.8136211,Stems Health Regenerative Medicine Miami
+hospital,-80.2106874,25.7909879,Bascom Palmer Eye Institute/Anne Bates Leach Eye Hospital
+hospital,-80.3165827,25.7468319,West Gables Rehabilitation Hospital
+hospital,-80.3260853,25.8862089,Palmetto General Hospital
+hospital,-80.1418569,25.8134778,Mount Sinai Medical Center
+hospital,-80.1938026,25.8233923,Miami Jewish Health Systems
+hospital,-80.2083983,25.7910986,Highland Park Pavilion
+hospital,-80.2030738,25.9303889,Jackson North Medical Center
+hospital,-80.1888413,25.8127215,Care Resource
+hospital,-80.210852,25.7770165,Select Specialty Hospital - Miami
+hospital,-80.292982,25.7060157,Larkin Community Hospital
+hospital,-80.2740057,25.7243779,Doctors Hospital
+hospital,-80.2944963,25.7412351,Nicklaus Children's Hospital
+hospital,-80.3177518,25.747334,Westchester General Hospital
+hospital,-80.2138059,25.7885059,Sylvester Comprehensive Cancer Center
+hospital,-80.2163404,25.7884714,University of Miami Hospital
+hospital,-80.2094878,25.7907229,Jackson Behavioral Health Hospital
+hospital,-80.2171429,25.7918018,Miami Veterans Affairs Medical Center
+hospital,-80.2119924,25.7917921,Jackson Memorial Hospital
+hospital,-80.214835,25.7409348,Mercy Hospital
+hospital,-80.2551562,25.7434547,Coral Gables Hospital
+hospital,-80.2940221,25.7790447,The Miami Medical Center
+hospital,-80.3117508,25.8684517,Larkin Community Hospital Palm Springs Campus
+hospital,-80.2141557,25.8597629,North Shore Medical Center
+hospital,-80.2686192,25.8456769,Hialeah Hospital
+hospital,-80.3964926,25.6870034,Leon Medical Centers
+hospital,-80.3231894,25.7989796,Jackson West Medical Center
+hospital,-80.2940078,25.7047486,Baptist Rehabilitation Hospital
+aerodrome,-80.1745006,25.7756375,Watson Island International Seaplane Base
+aerodrome,-80.1775503,25.7834634,Miami Seaplane Base
+aerodrome,-80.2918816,25.7955406,Miami International Airport
+aerodrome,-80.2753172,25.9057006,Miami-Opa Locka Executive Airport
+power_plant,-80.1528142,25.7484995,Central District Wastewater Treatment Plant
+power_plant,-80.383755,25.7915306,IKEA Miami 327 Solar
+power_plant,-80.1971289,25.7989857,Wynwood Energy Storage
+fire_station,-80.1301581,25.7802585,Miami Beach - Beach Patrol Ocean Rescue
+fire_station,-80.1666667,25.8955556,North Miami East Fire Station
+fire_station,-80.3488889,25.8108333,Saga Bay Fire Station
+fire_station,-80.28,25.9536111,Honey Hill Fire Station
+fire_station,-80.2447222,25.9136111,Bunche Park Fire Station
+fire_station,-80.2888889,25.8075,Airport North Side Fire Station
+fire_station,-80.3485901,25.8102237,Miami Dade Fire / Rescue
+fire_station,-80.3171737,25.9048435,South Florida Fire Fighters
+fire_station,-80.2603962,25.7458691,Coral Gables Fire Department Station 1
+fire_station,-80.2799625,25.8267032,Hialeah Fire Department Station 1
+fire_station,-80.2416796,25.8333379,Model Cities Fire Department Station 2
+fire_station,-80.1969782,25.763063,Miami Fire / Rescue Station 4
+fire_station,-80.2142474,25.780652,Miami Fire / Rescue Department Support Service Division
+fire_station,-80.2078653,25.8103083,Miami Fire / Rescue Station 6
+fire_station,-80.235005,25.7688408,Miami Fire / Rescue Station 7
+fire_station,-80.2412232,25.7301748,Miami Fire / Rescue Station 8
+fire_station,-80.1946316,25.8330092,Miami Fire / Rescue Station 9
+fire_station,-80.2823615,25.6632934,Coral Gables Fire Department Station 3
+fire_station,-80.4010428,25.6888106,West Kendall Fire Department Station 57
+fire_station,-80.2446517,25.913319,Bunche Park Fire Department Station 54
+fire_station,-80.3265637,25.9418822,Palm Springs North Fire Department Station 44
+fire_station,-80.3543937,25.8256847,Doral Fire Department Station 45
+fire_station,-80.4240749,25.7280366,West Bird Fire Department Station 37
+fire_station,-80.169651,25.7748819,Seaport / Port of Miami Fire Department Station 39
+fire_station,-80.3644085,25.8701762,Medley Fire Department Station 46
+fire_station,-80.3469564,25.7477109,Westchester Fire Department Station 47
+fire_station,-80.2849152,25.6690508,Pinecrest Fire Department Station 49
+fire_station,-80.2846311,25.8213793,Miami Springs Fire Department Station 35
+fire_station,-80.1213149,25.8313812,Miami Beach Fire / Rescue Station 3
+fire_station,-80.1370289,25.7813468,Miami Beach Fire / Rescue Station 1
+fire_station,-80.2697659,25.9064888,Opa - Locka Airport Fire Department Station 25
+fire_station,-80.250931,25.8821371,Opa - Locka Fire Department Station 26
+fire_station,-80.3385769,25.8679447,Hialeah Gardens Fire Department Station 28
+fire_station,-80.368415,25.7652022,Sweetwater Fire Department Station 29
+fire_station,-80.1936725,25.8627984,Miami Shores / El Portal Fire Station 30
+fire_station,-80.1627323,25.9328364,North Miami Beach Fire Department Station 31
+fire_station,-80.1928551,25.9289084,Uleta Fire Department Station 32
+fire_station,-80.1484031,25.9401452,Aventura South Fire Department Station 33
+fire_station,-80.2921425,25.7704397,Miami Fire / Rescue Station 11
+fire_station,-80.2206114,25.8174323,Miami Fire / Rescue Station 12
+fire_station,-80.2344977,25.8599313,West Little River Fire Department Station 7
+fire_station,-80.292179,25.7973796,Miami-Dade Fire Rescue Station 12 (MIA Midfield)
+fire_station,-80.3118463,25.809006,Virginia Gardens Fire Department Station 17
+fire_station,-80.2884721,25.7058826,South Miami Fire Department Station 14
+fire_station,-80.1251569,25.9020062,Haulover Fire Department Station 21
+fire_station,-80.1669631,25.8956735,North Miami East Fire Department Station 20
+fire_station,-80.2102415,25.894421,North Miami West Fire Department Station 19
+fire_station,-80.2885986,25.8065335,Northside Fire Department Station 59
+fire_station,-80.2991462,25.8661962,Hialeah Fire Department Station 3
+fire_station,-80.2765969,25.8325594,Hialeah Fire Department Station 4
+fire_station,-80.2792516,25.8288848,Hialeah Fire Department Station 2
+fire_station,-80.3325305,25.8909714,Hialeah Fire Department Station 7
+fire_station,-80.3073221,25.8900386,Hialeah Fire Department Station 5
+fire_station,-80.2977143,25.8439394,Hialeah Fire Department Station 6
+fire_station,-80.3271918,25.733978,Tropical Park Fire Department Station 3
+fire_station,-80.1944929,25.7941252,Miami Fire / Rescue Station 2
+fire_station,-80.2569946,25.7267676,Miami Fire and Rescue Training Center
+fire_station,-80.3353301,25.7120462,Miami-Dade County Fire and Rescue Headquarters
+fire_station,-80.1757128,25.8480132,Fire Rescue City of Miami
+fire_station,-80.2154557,25.7947958,Miami Fire-Rescue Station 5
+fire_station,-80.2956127,25.7619528,Miami-Dade Fire Rescue Station 40
+fire_station,-80.1642471,25.690748,Key Biscayne Fire Department
+fire_station,-80.214277,25.7806792,Miami Fire / Rescue Department Support Service Division
+fire_station,-80.1911485,25.7787972,Miami Fire / Rescue Station 1
+fire_station,-80.3211998,25.6742051,Suniland / Pinecrest Fire Department Station 23
+fire_station,-80.1231503,25.9356274,Sunny Isles Beach Fire Department Station 10
+fire_station,-80.3812954,25.6954681,Kendall Fire Department Station 9
+fire_station,-80.2632526,25.7789586,Miami Fire / Rescue Station 10
+fire_station,-80.1608615,25.7028446,Key Biscayne Fire Department Station 15
+fire_station,-80.135784,25.9317169,Eastern Shores Fire Rescue Station (78)
+fire_station,-80.3089309,25.9240248,Miami Lakes Fire Station
+fire_station,-80.2451108,25.9448862,Carol City Fire Department Station 11
+fire_station,-80.1936884,25.8628249,
+fire_station,-80.338766,25.7911069,Fontainebleau Fire Department Station 48
+fire_station,-80.4240824,25.7280556,
+fire_station,-80.3873427,25.6587138,Turnpike South Fire Department Station 53
+fire_station,-80.2798342,25.9553303,Honey Hill Fire Department Station 51
+fire_station,-80.4013078,25.7618118,Tamiami Fire Department Station 58
+fire_station,-80.1553408,25.9195536,Interama Fire Department Station 22
+fire_station,-80.1240631,25.8538996,Miami Beach Number 4 Fire Station
+fire_station,-80.4010761,25.6888509,
+fire_station,-80.2135963,25.780539,Miami Fire / Rescue Station 3
+fire_station,-80.3779095,25.8410465,Doral North Fire Station
+fire_station,-80.2647558,25.7244114,Coral Gables Fire Department Station 2
+police,-80.1391556,25.9528071,Aventura Police Station
+police,-80.1268206,25.8874244,Bal Harbour Village Police Station
+police,-80.2604054,25.746042,Coral Gables Police Station
+police,-80.1855556,25.8794444,Biscayne Park Police Station
+police,-80.1875382,25.8548466,El Portal Police Station
+police,-80.266506,25.8727413,Hialeah Police Station
+police,-80.2455556,25.8488889,Hialeah Metro Police Sub-Station Number 2
+police,-80.2808333,25.8238889,Hialeah Police Substation
+police,-80.3322222,25.8905556,Hialeah Police Substation
+police,-80.3694444,25.8894444,Hialeah Gardens Police Substation
+police,-80.3391667,25.8630556,Hialeah Gardens Police Station
+police,-80.3622222,25.8730556,Medley Satellite Police Station
+police,-80.3175,25.8402778,Medley Police Station
+police,-80.1883333,25.7894444,Miami Omni Police Station
+police,-80.2001859,25.7890267,Miami Overtown Police Station
+police,-80.3439023,25.7984924,Miami-Dade County Police Headquarters
+police,-80.1844444,25.8358333,Miami Upper Eastside Police Station
+police,-80.285,25.8208333,Miami Springs Police Station
+police,-80.1332266,25.7823546,Miami Beach Police Station
+police,-80.2458333,25.7172222,Miami Bayside Police Mini Station
+police,-80.2266667,25.795,Miami Alapattah Police Station
+police,-80.2027778,25.7722222,Miami East Havana Network Police Station
+police,-80.1952979,25.7824952,Miami Downtown Police Station
+police,-80.2136111,25.8316667,Miami North Police Station
+police,-80.2594444,25.7825,Miami Flagami Network Police Station
+police,-80.1897222,25.8002778,Miami Edgewater Police Mini Station
+police,-80.3730556,25.7636111,Sweetwater Police Station
+police,-80.1220169,25.9425961,Sunny Isles Beach Police Department
+police,-80.3022222,25.8091667,Virginia Gardens Police Station
+police,-80.3252778,25.6644444,Pinecrest Police Station
+police,-80.2336111,25.8977778,Opalocka Police Mini Station
+police,-80.2920733,25.7032875,South Miami Police Station
+police,-80.1622222,25.9313889,North Miami Beach Police Station
+police,-80.2419444,25.9058333,Opa-Locka Police Station
+police,-80.1580556,25.8486111,North Bay Village Police Station
+police,-80.2547222,25.7313889,Miami Southwest Coconut Grove Network Police Station
+police,-80.2954658,25.7621838,West Miami Police Station
+police,-80.3741145,25.781479,Miami Highway Patrol Troop E
+police,-80.2038722,25.8396112,Miami Police Department - Little Haiti NET
+police,-80.1943926,25.7820214,Miami Police Department - Canine Unit
+police,-80.2444047,25.9454814,Miami-Dade Police Department Professional Compliance Bureau
+police,-80.331424,25.8206244,Doral Police Department
+police,-80.2269154,25.9276754,Miami Gardens Police Department
+police,-80.266593,25.7713593,Miami Police Department West Flagler NET
+police,-80.2159402,25.7746214,Miami Police Department Little Havana NET
+police,-80.3873975,25.6636664,Florida Highway Patrol Snapper Creek Service Plaza
+police,-80.1875073,25.7788741,Miami Police Department - NET
+police,-80.3360369,25.7153218,Metro - Dade Police Communications Bureau
+police,-80.3257428,25.782883,Miami - Dade County Police Department
+police,-80.3808488,25.6967609,Kendall Police Station
+police,-80.3229987,25.7886276,Miami - Dade County Police Department - Special Patrol
+police,-80.3234763,25.7876838,Miami - Dade County Police Department
+police,-80.2169223,25.7858081,Miami - Dade County Police - Court Liaison
+police,-80.1965253,25.7735287,Miami - Dade County Police Department
+police,-80.1664246,25.8486052,Miami - Dade County Police Department
+police,-80.1615589,25.895039,Miami Police Department - Crime Suppression
+police,-80.3254629,25.7835274,Miami - Dade County Metro Police Department
+police,-80.23449,25.72828,Miami Police Department
+police,-80.1692005,25.9159614,North Miami Beach Police Department - Neighborhood Resource Center
+police,-80.2448589,25.9414956,Miami - Dade County Police Department
+police,-80.3235571,25.7886416,Miami - Dade County Police Department
+police,-80.3433811,25.7976133,Miami - Dade County Police Department - Dare
+police,-80.1982989,25.7783469,Miami Police Department - Internal Affairs
+police,-80.1983065,25.7780973,Miami Police Department - Administration
+police,-80.2663295,25.872565,Hialeah Police Department - Property and Evidence
+police,-80.245233,25.8492433,Miami - Dade County Police Department Northside Station
+police,-80.3433104,25.7975826,Metro Dade County Police Department
+police,-80.4229951,25.6746017,Miami - Dade County Police Department Hammocks Station
+police,-80.3518938,25.8269018,Miami - Dade Police Department Metropolitan Police Institute (Training Bureau)
+police,-80.3258465,25.7835281,Miami - Dade County Police - Investigation
+police,-80.3433819,25.7975783,Miami - Dade County Police Department - Warrants Bureau
+police,-80.2454642,25.877862,Miami - Dade College Police Department
+police,-80.2982492,25.9100565,Miami Lakes Police Department
+police,-80.1999736,25.8315444,Miami - Dade School Police Department
+police,-80.1950077,25.7746004,Miami - Dade County Police Department
+police,-80.38071,25.7683,Sweetwater Police Department
+police,-80.3433063,25.797614,Miami - Dade County Police Department - Evidence
+police,-80.1560523,25.9003596,North Miami Beach Police Department - Neighborhood Resource
+police,-80.3244741,25.782974,Miami - Dade County Police Department
+police,-80.1983027,25.7782221,Miami Police Department - Investigations
+police,-80.2804864,25.7127465,University of Miami Police Department
+police,-80.16499,25.6909848,Key Biscayne Police Station
+police,-80.3721309,25.7598874,FIU Police Department
+police,-80.3286062,25.6528809,Pinecrest Police Station
+police,-80.1731974,25.7852516,Marine Police
+police,-80.1434896,25.9119734,University Police
+police,-80.1510369,25.848385,North Bay Village City Hall - Police Chief
+police,-80.1448707,25.7934384,Miami Beach Marine Patrol
+police,-80.2317083,25.7722534,Miami South Police Station
+police,-80.1983805,25.7781541,Miami Police Station
+police,-80.1837893,25.8891554,North Miami Police Department
+police,-80.2138679,25.781073,Miami Police Department - Bomb Squad
+police,-80.1549665,25.9200099,Miami - Dade County Police Department Intercoastal Station
+police,-80.1395689,25.9154352,Florida Fish and Wildlife Conservation Commission Law Enforcement South Region B
+police,-80.3359737,25.7152419,
+police,-80.237749,25.7721509,Florida Highway Patrol Troop E Investigations
+police,-80.1989949,25.7764955,Miami - Dade County Police Department
+police,-80.1938178,25.8667981,Miami Shores Police Station
+police,-80.129775,25.8774736,Indian Creek Village Police Station
+police,-80.1300343,25.8855189,Town of Bay Harbor Islands Police Department
+police,-80.1300757,25.8853734,Town of Bay Harbor Islands Police Department Administrative Offices
+government,-80.2530556,25.9047222,Opa-Locka City Hall
+government,-80.1877303,25.8549067,El Portal Village Hall
+government,-80.1588889,25.8497222,North Bay Village City Hall
+government,-80.193827,25.867496,Miami Shores City Hall
+government,-80.2417158,25.8328749,Department of Health Rehabilative Services
+government,-80.2749617,25.7932154,Federal Aviation Administration
+government,-80.29184,25.7034785,City of South Miami City Hall
+government,-80.3380951,25.8082628,Oficina de empadronamiento electoral de Bolivia en el exterior
+government,-80.4309696,25.6562033,USCIS Immigration
+government,-80.177933,25.7787553,Port of Miami Administration
+government,-80.302677,25.8093948,Village of Virginia Gardens
+government,-80.1982289,25.7703163,City of Miami Administrative Building (Riverside)
+government,-80.4071208,25.7445589,Dade County Public School Management
+government,-80.136401,25.7931182,Customer Service Centers Miami Beach
+government,-80.3741732,25.7808526,Florida Highway Patrol Regional Communication Center - Miami
+government,-80.1294056,25.8556141,Miami Beach Building Department - North Beach Office
+government,-80.1875875,25.7900229,Miami Passport Agency
+government,-80.1567642,25.6713634,Park Administration Office
+government,-80.19602,25.7754556,Government Center Metrorail Station 2nd Floor
+government,-80.1522866,25.7911608,Venetian Causeway Operations Tower
+government,-80.1814783,25.7897675,Venetian Way Operations Tower
+government,-80.3724937,25.7547165,FIU One Card Center
+government,-80.3789643,25.8985126,Florida Department of Highway Safety and Motor Vehicles
+government,-80.3080084,25.6886235,Divorce Without War
+government,-80.2954635,25.7623244,West Miami City Hall
+government,-80.2581422,25.7814607,FLHSMV Driver License and Motor Vehicle Service Center
+government,-80.3221707,25.8177589,Florida Department of Agriculture Division of Licensing
+government,-80.38166,25.7690161,Social Security Administration
+government,-80.3286088,25.6531401,Pincrest
+government,-80.3836366,25.754602,"National Weather Service - Miami, FL,"
+government,-80.3418407,25.7862371,Refugee Health Center
+government,-80.1483358,25.77078,City of Miami Beach Fleet Department
+government,-80.147914,25.7712251,Department of Sanitation City of Miami Beach
+government,-80.167268,25.9247143,USCIS Application Support Center (ASC) North Miami
+government,-80.1572582,25.9228011,N Miami Beach Public Services Opns
+government,-80.1778582,25.92519,Dade County Commissioner
+government,-80.1555363,25.9181832,Florida Department of Highway Safety and Motor Vehicles
+government,-80.2440577,25.8484827,Driver License and Motor Vehicle Service Center
+government,-80.2153611,25.943204,Florida Department of Highway Safety and Motor Vehicles
+government,-80.2894973,25.8052626,Customs & GAC
+government,-80.3836212,25.7544887,National Hurricane Center
+government,-80.1604958,25.7333936,NOAA Southeast Fisheries Science Center
+government,-80.1626279,25.7357693,NOAA
+government,-80.3286236,25.6529784,
+government,-80.1353879,25.7928273,Miami Beach City Hall
+government,-80.1965196,25.7758889,Government Center
+government,-80.3341793,25.8217926,Doral City Hall
+government,-80.2214541,25.9294304,US Social Security Administration
+government,-80.1217779,25.942683,Sunny Isles Beach Government Center
+government,-80.259215,25.7585232,Coral Gables Tag Agency
+government,-80.263487,25.7491433,Coral Gables City Hall
+government,-80.1876435,25.8548694,
+government,-80.3671435,25.8062366,Miami-Dade Corrections & Rehabilitation Department Headquarters
+government,-80.1267956,25.8872815,Bal Harbour Village Hall
+government,-80.3385765,25.8003012,
+government,-80.2572778,25.7946712,Greater Miami Expressway Agency
+government,-80.2544317,25.7649355,Social Security Administration
+government,-80.2338342,25.7277357,Miami City Hall
+government,-80.1228025,25.8813555,Town of Surfside Town Hall
+government,-80.2920386,25.7037276,
+government,-80.1826947,25.8901626,North Miami City Hall
+government,-80.244698,25.9437394,Miami Gardens City Hall
+government,-80.1326434,25.7826242,Old City Hall
+government,-80.1597743,25.7334343,NOAA
+government,-80.2920187,25.7034185,
+government,-80.2155776,25.7866502,Miami-Dade State Attorney's Office
+government,-80.1324757,25.7758226,Dade County Health Department
+government,-80.3834988,25.754875,NOAA
+government,-80.1299136,25.8855238,Town of Bay Harbor Islands Town Hall
+government,-80.1298051,25.8855273,Town of Bay Harbor Islands Building & Zoning Department
+government,-80.1298757,25.8853816,Town of Bay Harbor Islands Administrative Offices
+government,-80.2640039,25.748782,Coral Gables Development Services
+substation,-80.343347,25.7682421,Flagami Substation
+substation,-80.352891,25.7358236,Olympia Heights Substation
+substation,-80.3657767,25.7133037,Miller Substation
+substation,-80.3223772,25.9056097,Miami Lakes Substation
+substation,-80.3144055,25.8848736,Gratigny Substation
+substation,-80.380139,25.8183369,Seagull Substation
+substation,-80.3308896,25.8301752,
+substation,-80.3536228,25.8311701,Doral Switching Substation
+substation,-80.435625,25.8133113,Levee Substation FPL
+substation,-80.4133049,25.6909542,Lindgren Substation
+substation,-80.416266,25.7731638,Sweetwater Substation
+substation,-80.3835745,25.7529461,Modesto A. Maidique Substation
+substation,-80.3128039,25.8309614,Dade Substation 138kV
+substation,-80.3111121,25.8311287,Dade Substation 230kV
+substation,-80.2573535,25.7994962,River Substation
+substation,-80.2065597,25.859624,Miami Shores Substation
+substation,-80.189167,25.8458671,Lemon City Substation
+substation,-80.2046683,25.840656,Little River Substation
+substation,-80.2577965,25.8479006,Seaboard Substation
+substation,-80.2878286,25.9403387,
+substation,-80.3141869,25.7775369,Merchandise Substation
+substation,-80.265735,25.7935275,Lejeune Substation
+substation,-80.2859746,25.7771992,Blue Lagoon Substation
+substation,-80.2271271,25.7838439,Lawrence Substation
+substation,-80.2713762,25.7758469,Riverside Substation
+substation,-80.3376547,25.7053947,Galloway Substation
+substation,-80.3544433,25.6605045,Killian Substation
+substation,-80.288388,25.8832536,Red Road Substation
+substation,-80.3293291,25.900676,
+substation,-80.3196231,25.9420865,Country Club Substation
+substation,-80.2582631,25.8101671,Fronton Substation
+substation,-80.2692181,25.8089578,Airport Substation
+substation,-80.3683568,25.8544991,Urban Substation
+substation,-80.2545505,25.7355679,Coconut Grove Substation
+substation,-80.2853788,25.6711501,Snapper Creek Substation
+substation,-80.1422142,25.9463463,Ojus Substation
+substation,-80.1700349,25.8927266,Arch Creek Substation
+substation,-80.3570478,25.9272171,Spoonbill Substation
+substation,-80.3727724,25.872268,
+substation,-80.3703055,25.7929962,Doral Substation
+substation,-80.3718938,25.8722876,Pennsuco Substation
+substation,-80.1210599,25.8537669,Roney Substation
+substation,-80.124287,25.90093,Haulover Substation
+substation,-80.313147,25.7894626,
+substation,-80.2123295,25.913524,Brandon Substation
+substation,-80.1446658,25.9543284,
+substation,-80.196905,25.7698521,Downtown Substation
+substation,-80.3268463,25.7752197,Bell Substation
+substation,-80.2537554,25.7475586,Douglas Substation
+substation,-80.3265233,25.8058164,Milam Substation
+substation,-80.2586793,25.8776799,Master Substation
+substation,-80.4180818,25.7873205,137th Avenue Substation
+substation,-80.2864796,25.8293406,Hialeah Substation
+substation,-80.3494512,25.7539515,Tropical Substation
+substation,-80.2034196,25.7846423,Railway Substation
+substation,-80.1937098,25.7967714,Miami Substation
+substation,-80.2063986,25.8909385,Biscayne Substation
+substation,-80.2576216,25.8283998,Industrial Substation
+substation,-80.2936066,25.8402765,Seminola Substation
+substation,-80.151078,25.9271684,Greynolds Substation
+substation,-80.2048745,25.9465607,Weston Village Substation
+substation,-80.171563,25.9243108,Uleta Substation
+substation,-80.2039654,25.9282427,Fulford Substation
+substation,-80.3284604,25.8970396,
+substation,-80.3122087,25.8557643,Roselawn Substation
+substation,-80.2331742,25.9276474,Golden Glades Substation
+substation,-80.263689,25.9369386,Garden Substation
+substation,-80.2360089,25.8978103,Opa Locka Substation
+substation,-80.2874221,25.7087656,South Miami Substation
+substation,-80.2942959,25.7340707,Bird Substation
+substation,-80.3049407,25.6948506,Dadeland Substation
+substation,-80.3853254,25.7281892,Village Green Substation
+substation,-80.2757402,25.7168105,University Substation
+substation,-80.3815581,25.6931494,Marion Substation
+substation,-80.2959217,25.7548977,62nd Avenue Substation
+substation,-80.3123485,25.7840515,
+substation,-80.1622675,25.7006738,Key Biscayne Substation
+substation,-80.2650187,25.763954,Tamiami Substation
+substation,-80.2187037,25.7964683,Market Substation
+substation,-80.2023621,25.8143604,Buena Vista Substation
+substation,-80.2378031,25.8367106,Gladeview Substation
+substation,-80.1975351,25.7988941,Miramar Substation
+substation,-80.2393141,25.7570731,Natoma Substation
+substation,-80.2033257,25.7840518,Railway Substation
+substation,-80.3268911,25.6565132,Suniland Substation
+substation,-80.3266464,25.6759403,Kendall Substation
+substation,-80.3051436,25.7633549,8th Street Cable Terminal
+substation,-80.1422371,25.7949163,Venetian Substation
+substation,-80.3279171,25.8826611,Hialeah Substation
+substation,-80.128059,25.8131058,40th Street Substation
+substation,-80.1488638,25.7711693,Miami Beach Substation
+substation,-80.122493,25.8724521,Normandy Beach Substation
+substation,-80.1966846,25.760805,Simpson Substation
+substation,-80.1320749,25.9304008,Sunny Isles Substation
+substation,-80.153495,25.74799,Virginia Key Substation
+substation,-80.1705609,25.8793335,Boulevard Substation
+substation,-80.2229627,25.7678662,Latin Quarter Substation
+substation,-80.2203046,25.7469968,Natoma Substation
+substation,-80.3091031,25.8389249,New Fortress Substation
+substation,-80.3569761,25.8354939,
+substation,-80.3565923,25.8355041,
+substation,-80.3799394,25.6574059,Don Shula Substation
+substation,-80.1986343,25.7905725,
+substation,-80.3997246,25.6767587,Faucet Substation
+substation,-80.3427217,25.7665305,Flagami Substation
+substation,-80.1461259,25.7666646,
+substation,-80.2960542,25.755187,Banyan Substation
+substation,-80.1707072,25.9086753,
+substation,-80.2105982,25.7974449,
+water_works,-80.2866962,25.8315901,MDWASA JOHN PRESTON
+water_works,-80.2865629,25.8282423,Hialeah Water Treatment Plant

@@ -1,0 +1,216 @@
+facility_type,lon,lat,name
+hospital,-66.0737457,18.3952598,Centro Médico de Puerto Rico
+hospital,-65.9719277,18.3888917,Hospital de la UPR - Dr. Federico Trilla
+hospital,-66.0512493,18.409803,Hospital Auxilio Mutuo
+hospital,-66.1475309,18.3980232,Auxilio Mutuo San Pablo - Bayamón
+hospital,-66.1133806,18.3615749,Guaynabo Medical Mall
+hospital,-66.0977203,18.3625223,Professional Hospital
+hospital,-66.0631347,18.4469993,The San Jorge Hospital
+hospital,-66.0766116,18.39007,Hospital General de Psiquiatría Dr. Ramón Fernández Marina
+hospital,-66.0793734,18.3908124,SJ Veteran's Administration Caribbean Healthcare System
+hospital,-66.0521728,18.3967422,
+hospital,-66.0559612,18.4193389,Hospital Pavía de Hato Rey
+hospital,-66.0692463,18.4196641,Clínica Las Américas
+hospital,-66.0686266,18.4116521,Hospital del Maestro
+hospital,-66.0982671,18.3901301,Hospital Metropolitano de San Juan
+hospital,-66.1477885,18.4178664,Centro Médico Correccional
+hospital,-66.0464969,18.3726834,Hospital Episcopal San Lucas Metro
+hospital,-66.0654345,18.4561992,Ashford Presbyterian Community Hospital
+hospital,-66.1541844,18.3682821,Hospital Universitario Dr. Ramón Ruiz Arnau
+hospital,-66.0387956,18.3991004,Hospital San Francisco
+hospital,-66.1384771,18.4283405,
+hospital,-66.2435667,18.3030627,
+hospital,-66.0429398,18.4194095,Centro Más Salud Dr. Enrique Koppish
+hospital,-66.0455278,18.3569026,Metro Pavia Clinic - Cupey
+hospital,-66.127424,18.4419738,CDT Cataño
+hospital,-66.0406834,18.4483611,Centro Más Salud Dr. Arnaldo J. García
+hospital,-66.0799337,18.4172815,Centro Más Salud Dr. José A. López Antongiorgi
+hospital,-66.0149506,18.3986982,Centro Más Salud Dr. A. Oliveras Guerra
+hospital,-66.0225649,18.3844748,CPC Hospital San Juan Capestrano
+hospital,-66.1664112,18.3980272,Doctors' Center Hospital Bayamón
+aerodrome,-66.1211014,18.4577999,San Juan Seaplane Base
+aerodrome,-66.0981778,18.4562051,Aeropuerto Comandante Fernando Luis Ribas Dominicci
+power_plant,-66.1486603,18.4558707,Central Palo Seco
+power_plant,-66.1045714,18.4266402,Central Termoeléctrica de San Juan
+power_plant,-66.0163989,18.3281938,
+power_plant,-65.9038185,18.4121878,Parque Solar San Fermín
+power_plant,-66.1344496,18.4149446,
+power_plant,-66.1143385,18.4089209,
+power_plant,-66.1286988,18.4156343,
+power_plant,-66.1255137,18.4166837,
+power_plant,-66.1123014,18.4117406,
+fire_station,-66.0921764,18.4626118,Estación de Bomberos de San Juan
+fire_station,-66.0922916,18.4627526,
+fire_station,-66.1157542,18.3578284,Estación de Bomberos de Guaynabo
+fire_station,-66.1670543,18.3923257,Estación de Bomberos de Bayamón
+fire_station,-66.0510659,18.3958925,
+fire_station,-66.0526202,18.4402355,Estación de Bomberos de San Juan - Barrio Obrero
+fire_station,-66.0571073,18.4162144,"Estación de Bomberos de Hato Rey ""Arthur Rivera Cruz"""
+fire_station,-66.0854475,18.4130433,Estación de Bomberos de Puerto Nuevo
+fire_station,-66.0425305,18.4191725,Estación de Bomberos de San Juan - Truman
+fire_station,-65.9979983,18.4375385,
+fire_station,-66.1267694,18.4408239,Estación de Bomberos de Cataño Comandante Abelsaín Coreano Cruz
+fire_station,-66.1987443,18.3400161,Estación de Bomberos - Bayamón 2
+fire_station,-66.0250984,18.441801,Estación de Bomberos - Isla Verde
+police,-66.112485,18.42966,Rosa de Lima Police Station
+police,-66.1043441,18.4671958,Policía de Puerto Rico
+police,-66.0836862,18.4458976,Police Diving Unit
+police,-66.035289,18.39509,
+police,-66.0755214,18.4543492,Cuartel Condado
+police,-66.0633799,18.4200557,Policía Municipal
+police,-66.1357686,18.4709437,Torre Vigilancia
+police,-66.1476882,18.4164889,
+police,-65.9887664,18.4019632,
+police,-65.9937749,18.4028844,
+police,-66.1109766,18.46468,Cuartel de la Policía Municipal del Viejo San Juan
+police,-66.1173549,18.3926121,Cuartel de la Policía Municipal de Guaynabo
+police,-66.1135234,18.3752133,Cuartel de la Policía Municipal de Guyanabo
+police,-66.0415923,18.4366335,Cuartel de la Policía de Barrio Obrero
+police,-66.0516965,18.3973332,Cuartel Estatal de Río Piedras
+police,-66.0967649,18.4625854,
+police,-66.1119904,18.3622146,Cuartel de la Policía Estatal de Guaynabo
+police,-66.0976807,18.3609055,Guaynabo Transit Police
+police,-66.0817469,18.4484501,Cuartel Estatal Precinto 266
+police,-66.1451074,18.4181588,División de Vehiculos Hurtados
+police,-66.1475288,18.4154044,Comandancia de la Policía de Bayamón
+police,-66.1557241,18.3994582,Policía Municipal
+police,-66.1501492,18.3936945,Cuartel de la Policía Estatal de Bayamón Norte Agente Carlos R. Acosta Rey
+police,-66.1498639,18.3633893,Cuartel Bayamon Sur
+police,-66.0698446,18.3385106,Cuartel de la Policía - Montehiedra
+police,-66.072591,18.3849864,Cuartel de la Policía Municipal de San Juan - Unidad de Tránsito
+police,-66.0799516,18.3854283,Comandancia de la Policía - Region San Juan
+police,-66.0914197,18.4004691,
+police,-66.0415543,18.4367075,Policía de Puerto Rico - Precinto 466
+police,-66.0514146,18.4408393,Cuartel de la Policía Municipal de San Juan
+police,-66.0416787,18.4368501,Policía de Puerto Rico - Precinto 466
+police,-66.0778615,18.4172129,Cuartel General de la Policía de Puerto Rico
+police,-66.0501445,18.413911,Policía Municipal de San Juan - Cuartel Hato Rey Este
+police,-66.0232635,18.3673286,
+police,-66.0612584,18.4192217,Policía de Puerto Rico - Patrullas de Carreteras de San Juan
+police,-66.0614814,18.420088,Policía de Puerto Rico - Recinto Hato Rey Oeste
+police,-65.9609741,18.3798953,Comandancia de la Policía - Carolina
+police,-65.9836786,18.4555184,Cuartel de la Policía de Piñones
+police,-66.1943734,18.438057,Cuartel de la Polícia Municipal de Toa Baja
+police,-65.9795425,18.3826063,
+police,-66.1262691,18.4414143,Cuartel Policía Municipal de Cataño Sgto. Carlos Reyes Rivera
+police,-66.0052432,18.356566,Cuartel Estatal de la Policía de Trujillo Alto
+police,-66.0063848,18.3559913,Cuartel de la Policía Municipal de Trujillo Alto Teniente Pedro Casildo Torres Santos
+police,-66.1226951,18.3973461,Cuartel de la Policia - Juan Domingo
+police,-66.0343249,18.4147516,Cuartel de la Policía de Puerto Rico - Precinto de Hato Rey Este
+police,-66.0156042,18.396584,Cuartel de la Policía Municipal de San Juan - Antillas
+substation,-66.0660911,18.4476139,
+substation,-66.0780513,18.4462356,Subestación Viaducto I
+substation,-66.0679783,18.4270126,Subestación Hato Rey 1420
+substation,-66.0565209,18.3439072,
+substation,-66.0730377,18.3728888,Subestación Monacillos
+substation,-66.2262437,18.4132877,Subestación Candelaria Arenas
+substation,-65.9876718,18.3221157,Subestación Quebrada Negrito
+substation,-66.2308632,18.34687,Subestación Piñas
+substation,-65.990947,18.3436478,
+substation,-65.9096278,18.3747608,Subestación Canóvanas
+substation,-66.1856686,18.349586,Subestación Rexville
+substation,-66.1406293,18.398782,Subestación Bayamón
+substation,-65.9810258,18.395243,Subestación Sabana Llana II
+substation,-66.0760882,18.454173,Subestación Santurce
+substation,-66.060246,18.4345157,Subestación Martín Peña
+substation,-66.143316,18.3734882,Subestación UPR - Bayamón
+substation,-66.0690707,18.450832,Subestación Minillas - 1114
+substation,-66.0778643,18.4466301,Subestación Viaducto II
+substation,-66.0867041,18.4541812,
+substation,-66.1399541,18.4234338,Subestación Cataño
+substation,-66.0669751,18.4521612,Subestación Condado - 1133
+substation,-66.0679219,18.4070501,Subestación Fonalleda
+substation,-66.0901848,18.4621143,Subestación Parques y Recreos
+substation,-66.0607131,18.4509197,Subestación Taft
+substation,-66.0474904,18.4012651,
+substation,-66.0475598,18.4012719,
+substation,-66.1044622,18.4269674,
+substation,-66.0571849,18.4124287,Subestación Fátima
+substation,-66.1260116,18.3816711,Subestación Río Bayamón
+substation,-66.0687042,18.4408991,Subestación Egozcue
+substation,-66.0675614,18.4223859,Subestación Tres Monjitas - 1414
+substation,-65.992575,18.3966997,Subestación San Antón
+substation,-65.9807973,18.3943652,Subestación Sabana Llana I
+substation,-66.055757,18.3970599,Subestación Venezuela
+substation,-66.0113391,18.4102452,Subestación Campo Llano
+substation,-66.0702447,18.4225773,
+substation,-66.0729889,18.4505628,Subestación Villamil
+substation,-66.0600857,18.4268981,Subestación Hato Rey 1404
+substation,-66.0474712,18.406049,Subestación Universidad
+substation,-66.0826163,18.4500082,Subestación Miramar 1107
+substation,-66.1119631,18.3697374,Subestación Los Frailes
+substation,-66.1111198,18.3648495,Subestación Guaynabo Pueblo
+substation,-66.0852318,18.3134867,Subestación Río
+substation,-65.9868359,18.4377781,Subestación Base Muñiz
+substation,-66.0126185,18.3436,Subestación Conquistador
+substation,-66.0096964,18.436535,Subestación Aeropuerto
+substation,-66.0720811,18.3991227,
+substation,-66.0729881,18.3923049,Subestación Centro Médico
+substation,-66.1008387,18.4644015,Subestación Puerta de Tierra
+substation,-66.1119254,18.4341178,
+substation,-66.0497426,18.4152232,
+substation,-66.0434787,18.395925,Subestación Capuchino
+substation,-65.9605404,18.3790633,Subestación Carolina Pueblo
+substation,-66.1806706,18.3850002,
+substation,-66.0754235,18.3890027,
+substation,-66.072627,18.386556,
+substation,-66.1579377,18.3981712,Subestación Bayamón Pueblo
+substation,-66.148801,18.4543399,Subestación Palo Seco
+substation,-66.1148225,18.432172,Subestación Amelia
+substation,-66.1126064,18.4325108,
+substation,-66.1286807,18.4399047,
+substation,-66.1779877,18.4114275,Subestación CREA
+substation,-66.0944607,18.3898712,Subestación Las Lomas
+substation,-66.122335,18.399591,Subestación Juan Domingo
+substation,-66.0444973,18.4463734,Subestación Luis Llorens Torres
+substation,-66.0795597,18.4161793,Subestación Puerto Nuevo
+substation,-66.0526512,18.4468921,Subestación Tapia
+substation,-66.1830973,18.4067545,Subestación Hato Tejas
+substation,-66.0494123,18.4272654,Subestación Las Monjas
+substation,-65.9880558,18.4224154,Subestación Vistamar
+substation,-66.091127,18.4510464,Subestación Isla Grande
+substation,-66.1070722,18.4655061,Subestación Covadonga GIS
+substation,-66.0885962,18.4144153,Subestación San Fernando
+substation,-66.0990662,18.3980813,Subestación Summit Hills I
+substation,-66.0990377,18.3984683,Subestación Summit Hills II
+substation,-66.0188514,18.4043658,Subestación Villas Prades
+substation,-65.9077903,18.4055241,Subestación Solar San Fermín
+substation,-66.1073571,18.4096974,Subestación Caparra
+substation,-66.0835376,18.4297729,Subestación Crematorio
+substation,-66.1383639,18.4498106,Subestación Bayview
+substation,-66.1396783,18.3771195,
+substation,-66.1438748,18.3781849,Subestación Guaraguao
+substation,-66.1364163,18.4152339,
+substation,-65.9390135,18.3233049,Subestación Barrazas
+substation,-66.0214758,18.3687666,
+substation,-66.0238751,18.3711533,
+substation,-66.0120743,18.3689792,
+substation,-66.1664375,18.3713925,
+substation,-66.156553,18.3826471,
+substation,-66.1949539,18.417006,
+substation,-66.1161046,18.40833,
+substation,-66.0787554,18.400902,Subestación Reparto Metro
+substation,-66.0167353,18.4415756,
+substation,-66.0628957,18.4010601,Subestación Jardines Metropolitanos AEE
+substation,-66.0249189,18.4405698,
+substation,-66.1094276,18.4175684,
+substation,-66.1051563,18.4270282,
+substation,-66.1036448,18.4238106,
+substation,-66.095291,18.451524,
+substation,-66.2040818,18.3251796,Subestación Buena Vista
+substation,-66.0866611,18.4328535,
+substation,-66.0561074,18.396628,Subestación Venezuela
+substation,-66.0596389,18.3940194,
+substation,-66.0732258,18.4459183,
+substation,-66.0469837,18.4235399,
+substation,-66.0254867,18.4393446,
+substation,-66.0070063,18.43142,Subeatacióon Los Ángeles
+substation,-66.1699777,18.3927582,
+substation,-66.0558698,18.4434083,
+substation,-66.0232787,18.3984521,
+substation,-66.0365525,18.4150447,
+substation,-66.0434089,18.4105651,
+substation,-66.0590979,18.3708138,
+substation,-66.0171585,18.3280766,
+water_works,-66.1197177,18.3758506,
+water_works,-66.1904854,18.4371668,AAA

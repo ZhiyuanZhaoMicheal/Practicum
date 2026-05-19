@@ -1,0 +1,7 @@
+event_id,event_name,n_pre_images,n_post_images,n_pixels_before_filter,n_pixels_after_filter,in_buffer_ratio,damage_ratio
+maria_sanjuan,Hurricane Maria (San Juan),27,37,1680,1393,0.7717157214644652,0.9899497487437185
+michael_panamacity,Hurricane Michael (Panama City),13,35,26376,1262,0.41759112519809827,0.696513470681458
+earthquake_sanjuan,Puerto Rico Earthquake (San Juan),20,29,1680,1372,0.7740524781341108,0.652332361516035
+ida_neworleans,Hurricane Ida (New Orleans),9,35,3196,2392,0.6040969899665551,0.46195652173913043
+laura_lakecharles,Hurricane Laura (Lake Charles),16,63,3060,1626,0.5498154981549815,0.6783517835178352
+irma_miami,Hurricane Irma (Miami),8,27,2622,2261,0.7173816895179125,0.4192835028748341

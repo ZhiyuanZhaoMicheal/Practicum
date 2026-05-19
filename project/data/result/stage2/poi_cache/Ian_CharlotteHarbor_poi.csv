@@ -1,0 +1,60 @@
+facility_type,lon,lat,name
+hospital,-82.0401413,26.9410055,Bayfront Health Punta Gorda
+hospital,-82.0957567,26.9903446,ShorePoint Health Port Charlotte
+hospital,-82.0986832,26.9887822,Fawcett Memorial Hospital
+hospital,-82.0315322,26.9233431,Charlotte Behavioral Health Care
+hospital,-82.0582461,26.9933482,Charlotte Endcosopic Surgery Center
+aerodrome,-81.970732,27.0499867,Sunnybreeze Airport
+aerodrome,-82.0442084,27.0428033,Lake Suzy Estates Airport
+aerodrome,-81.9156782,26.968652,Shell Creek Airpark
+aerodrome,-81.9898781,26.9187937,Punta Gorda Airport
+power_plant,-82.0643007,27.011977,
+fire_station,-82.0467694,26.9253094,Punta Gorda Fire Department
+fire_station,-82.1621241,27.0664683,North Port Fire / Rescue Station 84
+fire_station,-82.207959,27.073853,North Port Fire / Rescue Station 1
+fire_station,-82.1182539,27.0683026,North Port Fire / Rescue Station 83
+fire_station,-82.0007647,26.9221614,Charlotte County Fire/EMS Station 7
+fire_station,-82.2233637,26.9172076,Charlotte County Fire Station 4
+fire_station,-82.0146622,26.860648,Charlotte County Fire Station 5
+fire_station,-82.1567948,27.0045998,Charlotte County Fire Department Station 2
+fire_station,-81.9919718,26.9547714,Charlotte County Fire Department Station 6
+fire_station,-82.0356736,27.0016872,Charlotte County Fire Department Station 12
+fire_station,-82.0066212,26.9877412,Charlotte County Fire Department Station 11
+fire_station,-82.0692777,26.9094455,Punta Gorda Fire Station #3
+fire_station,-82.2102516,26.9662084,Charlotte County Fire Department Station 3
+fire_station,-82.1621751,27.0664754,North Port Fire / Rescue Station 84
+fire_station,-82.0916395,27.0262896,Charlotte County Fire and Emergency Medical Services Station 8
+fire_station,-82.0921445,26.9762237,Charlotte County Fire Department Station 1
+fire_station,-82.1568095,27.00457,
+police,-82.0068076,26.9151841,Charlotte County Sheriff's Office - Corrections
+police,-82.0466861,26.9257392,Punta Gorda Police Department
+police,-82.0990841,26.9841514,Charlotte County Sheriff's Office - Mid County
+police,-82.1445241,27.010081,Charlotte County Sheriff's Office Community Policing Crime Prevention Office
+police,-82.0243934,26.9191776,Major Terry Branscome Training Center
+police,-82.0034378,26.9215789,Charlotte County Sheriff's Office
+police,-82.2080872,27.0756672,North Port Police Department
+police,-82.0398194,26.9326432,Gulf Breeze Community Office
+government,-82.0532668,26.9338273,City of Punta Gorda City Hall
+government,-82.0284395,26.9778859,Charlotte County-Punta Gorda Metropolitan Planning Organization
+government,-82.1381152,27.0098635,Social Security Administration
+government,-82.2064091,27.075752,North Port City Hall
+government,-82.0562609,27.0122319,Florida Department of Health in Charlotte County
+government,-82.141144,27.0086596,Charlotte County Administration Center
+substation,-82.0466749,26.933532,Florida Power & Light PG1
+substation,-81.9768442,26.9534984,Charlotte Substation
+substation,-82.1280544,27.00259,Murdock Substation
+substation,-82.1381013,27.0167643,Coast Substation
+substation,-82.0352998,27.0182043,Deepcreek Substation
+substation,-81.9779213,26.9552992,Cleveland Substation
+substation,-82.0638558,27.0424496,Peachland Substation
+substation,-81.9509979,27.0442781,
+substation,-82.1760398,27.0166083,
+substation,-82.0740482,26.9673188,Harbor Substation
+substation,-82.0384433,26.9122285,Cooper Substation
+substation,-82.2241346,26.9282747,McCall Substtaion
+substation,-82.0469048,26.9343779,Punta Gorda Substation
+substation,-82.0243728,26.8590215,
+substation,-82.1583402,27.0901716,Panacea Substation
+substation,-82.1103819,27.0259868,Raintree Substation
+water_works,-82.0024158,27.0898832,
+water_works,-81.9342113,26.9732392,

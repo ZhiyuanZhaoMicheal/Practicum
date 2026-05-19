@@ -1,0 +1,7 @@
+disaster_type,n_events,mean_auc,std_auc,min_auc,max_auc
+derecho,1,0.958,,0.958,0.958
+earthquake,2,0.963,0.011,0.955,0.97
+hurricane,16,0.97,0.022,0.906,0.998
+ice_storm,1,0.977,,0.977,0.977
+severe_storm,2,0.963,0.01,0.956,0.97
+winter_storm,3,0.959,0.049,0.904,0.994

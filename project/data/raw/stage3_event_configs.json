@@ -1,0 +1,290 @@
+[
+  {
+    "event_id": "matthew-jax",
+    "name": "Matthew (Jacksonville)",
+    "bbox": [
+      -81.835,
+      30.18,
+      -81.485,
+      30.48
+    ],
+    "center": [
+      -81.66,
+      30.33
+    ],
+    "landfall": "2016-10-07",
+    "wind_kt": 98.0,
+    "track_dist_km": 107.5,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "florence-wilm",
+    "name": "Florence (Wilmington)",
+    "bbox": [
+      -78.125,
+      34.08,
+      -77.775,
+      34.38
+    ],
+    "center": [
+      -77.95,
+      34.23
+    ],
+    "landfall": "2018-09-14",
+    "wind_kt": 80.0,
+    "track_dist_km": 15.5,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "zeta-atlanta",
+    "name": "Zeta (Atlanta)",
+    "bbox": [
+      -84.565,
+      33.6,
+      -84.215,
+      33.9
+    ],
+    "center": [
+      -84.39,
+      33.75
+    ],
+    "landfall": "2020-10-29",
+    "wind_kt": 53.0,
+    "track_dist_km": 161.3,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "isaias-nj",
+    "name": "Isaias (Newark)",
+    "bbox": [
+      -74.345,
+      40.59,
+      -73.995,
+      40.89
+    ],
+    "center": [
+      -74.17,
+      40.74
+    ],
+    "landfall": "2020-08-04",
+    "wind_kt": 55.0,
+    "track_dist_km": 104.7,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "irma-savannah",
+    "name": "Irma (Savannah)",
+    "bbox": [
+      -81.265,
+      31.93,
+      -80.915,
+      32.23
+    ],
+    "center": [
+      -81.09,
+      32.08
+    ],
+    "landfall": "2017-09-11",
+    "wind_kt": 45.0,
+    "track_dist_km": 297.9,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "zeta-birmingham",
+    "name": "Zeta (Birmingham)",
+    "bbox": [
+      -86.975,
+      33.37,
+      -86.625,
+      33.67
+    ],
+    "center": [
+      -86.8,
+      33.52
+    ],
+    "landfall": "2020-10-29",
+    "wind_kt": 60.0,
+    "track_dist_km": 111.5,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "matthew-nc",
+    "name": "Matthew (Fayetteville)",
+    "bbox": [
+      -79.055,
+      34.91,
+      -78.705,
+      35.21
+    ],
+    "center": [
+      -78.88,
+      35.06
+    ],
+    "landfall": "2016-10-08",
+    "wind_kt": 70.0,
+    "track_dist_km": 168.8,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "florence-sc",
+    "name": "Florence (Myrtle Beach)",
+    "bbox": [
+      -79.065,
+      33.54,
+      -78.715,
+      33.84
+    ],
+    "center": [
+      -78.89,
+      33.69
+    ],
+    "landfall": "2018-09-15",
+    "wind_kt": 60.0,
+    "track_dist_km": 25.4,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "isaias-ny",
+    "name": "Isaias (Westchester)",
+    "bbox": [
+      -73.935,
+      40.88,
+      -73.585,
+      41.18
+    ],
+    "center": [
+      -73.76,
+      41.03
+    ],
+    "landfall": "2020-08-04",
+    "wind_kt": 55.0,
+    "track_dist_km": 149.4,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "uri-houston",
+    "name": "Winter Storm Uri (Houston)",
+    "bbox": [
+      -95.545,
+      29.61,
+      -95.195,
+      29.91
+    ],
+    "center": [
+      -95.37,
+      29.76
+    ],
+    "landfall": "2021-02-15",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "derecho-chicago",
+    "name": "Derecho (Chicago)",
+    "bbox": [
+      -87.805,
+      41.73,
+      -87.455,
+      42.03
+    ],
+    "center": [
+      -87.63,
+      41.88
+    ],
+    "landfall": "2020-08-10",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "severe-detroit",
+    "name": "Severe thunderstorm complex (Detroit)",
+    "bbox": [
+      -83.225,
+      42.18,
+      -82.875,
+      42.48
+    ],
+    "center": [
+      -83.05,
+      42.33
+    ],
+    "landfall": "2019-07-20",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "noreaster-boston",
+    "name": "Nor'easter (Boston)",
+    "bbox": [
+      -71.235,
+      42.21,
+      -70.885,
+      42.51
+    ],
+    "center": [
+      -71.06,
+      42.36
+    ],
+    "landfall": "2021-10-27",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "icestorm-okc",
+    "name": "Ice storm (Oklahoma City)",
+    "bbox": [
+      -97.695,
+      35.32,
+      -97.345,
+      35.62
+    ],
+    "center": [
+      -97.52,
+      35.47
+    ],
+    "landfall": "2020-10-27",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "severe-nashville",
+    "name": "Severe thunderstorms (Nashville)",
+    "bbox": [
+      -86.955,
+      36.01,
+      -86.605,
+      36.31
+    ],
+    "center": [
+      -86.78,
+      36.16
+    ],
+    "landfall": "2023-07-18",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  },
+  {
+    "event_id": "atmos-seattle",
+    "name": "Atmospheric river (Seattle)",
+    "bbox": [
+      -122.505,
+      47.46,
+      -122.155,
+      47.76
+    ],
+    "center": [
+      -122.33,
+      47.61
+    ],
+    "landfall": "2022-11-04",
+    "wind_kt": null,
+    "track_dist_km": 0,
+    "within_wind_field": true
+  }
+]

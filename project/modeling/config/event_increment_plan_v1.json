@@ -1,0 +1,97 @@
+[
+  {
+    "stage_id": "baseline_6",
+    "event_count": 6,
+    "new_event_id": "",
+    "events_in_scope": [
+      "maria_sanjuan",
+      "michael_panamacity",
+      "earthquake_sanjuan",
+      "ida_neworleans",
+      "laura_lakecharles",
+      "irma_miami"
+    ],
+    "events_config_path": "project/modeling/config/events_10.json",
+    "group_tag": "baseline",
+    "needs_online_acquisition": false,
+    "notes": "Frozen six-event anchor"
+  },
+  {
+    "stage_id": "stage_7_ian_fortmyers",
+    "event_count": 7,
+    "new_event_id": "ian_fortmyers",
+    "events_in_scope": [
+      "maria_sanjuan",
+      "michael_panamacity",
+      "earthquake_sanjuan",
+      "ida_neworleans",
+      "laura_lakecharles",
+      "irma_miami",
+      "ian_fortmyers"
+    ],
+    "events_config_path": "project/modeling/config/events_10.json",
+    "group_tag": "us_only",
+    "needs_online_acquisition": true,
+    "notes": "Add mid-urban coastal hurricane"
+  },
+  {
+    "stage_id": "stage_8_ian_charlotteharbor",
+    "event_count": 8,
+    "new_event_id": "ian_charlotteharbor",
+    "events_in_scope": [
+      "maria_sanjuan",
+      "michael_panamacity",
+      "earthquake_sanjuan",
+      "ida_neworleans",
+      "laura_lakecharles",
+      "irma_miami",
+      "ian_fortmyers",
+      "ian_charlotteharbor"
+    ],
+    "events_config_path": "project/modeling/config/events_10.json",
+    "group_tag": "us_only",
+    "needs_online_acquisition": true,
+    "notes": "Add lower-urban coastal hurricane"
+  },
+  {
+    "stage_id": "stage_9_earthquake_hatay",
+    "event_count": 9,
+    "new_event_id": "earthquake_hatay",
+    "events_in_scope": [
+      "maria_sanjuan",
+      "michael_panamacity",
+      "earthquake_sanjuan",
+      "ida_neworleans",
+      "laura_lakecharles",
+      "irma_miami",
+      "ian_fortmyers",
+      "ian_charlotteharbor",
+      "earthquake_hatay"
+    ],
+    "events_config_path": "project/modeling/config/events_10.json",
+    "group_tag": "intl_addition",
+    "needs_online_acquisition": true,
+    "notes": "Break San Juan earthquake coupling"
+  },
+  {
+    "stage_id": "stage_10_dorian_freeport",
+    "event_count": 10,
+    "new_event_id": "dorian_freeport",
+    "events_in_scope": [
+      "maria_sanjuan",
+      "michael_panamacity",
+      "earthquake_sanjuan",
+      "ida_neworleans",
+      "laura_lakecharles",
+      "irma_miami",
+      "ian_fortmyers",
+      "ian_charlotteharbor",
+      "earthquake_hatay",
+      "dorian_freeport"
+    ],
+    "events_config_path": "project/modeling/config/events_10.json",
+    "group_tag": "intl_addition",
+    "needs_online_acquisition": true,
+    "notes": "Add non-PR island-like hurricane"
+  }
+]

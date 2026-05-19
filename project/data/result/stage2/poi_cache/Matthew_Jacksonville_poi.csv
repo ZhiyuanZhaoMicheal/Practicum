@@ -1,0 +1,228 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Brooks Rehabilitation Hospital,hospital,30.2902563,-81.6011984,358715199,node
+Specialty Hospital Jacksonville,hospital,30.27148,-81.61587,358743958,node
+Ten Broeck Hospital Jacksonville,hospital,30.2901371,-81.5973748,358755697,node
+Wekiva Springs,hospital,30.2580283,-81.595717,10844749361,node
+Men's Mental Health,hospital,30.3153203,-81.6535416,13363566048,node
+Baptist Medical Center Jacksonville,hospital,30.3156224,-81.6633259,351665511,way
+Nemours Children's Specialty Care,hospital,30.3129361,-81.6631742,362815989,way
+Baptist Emergency at Town Center,hospital,30.2672562,-81.5226381,434298978,way
+UF Health Proton Therapy Institute,hospital,30.3493532,-81.6629717,497668544,way
+Ascension Saint Vincent’s Southside Hospital,hospital,30.2540661,-81.5817455,502144326,way
+Saint Vincent's Medical Center Riverside,hospital,30.3074289,-81.6899217,502198875,way
+Naval Hospital Jacksonville,hospital,30.2083989,-81.6831646,502237494,way
+Baptist MD Anderson Cancer Center,hospital,30.3129394,-81.6613771,539807810,way
+Park West ER,hospital,30.249037,-81.7487847,646576812,way
+hospital facility,hospital,30.2046268,-81.605227,670835672,way
+hospital facility,hospital,30.3133387,-81.7404329,802608107,way
+hospital facility,hospital,30.2012125,-81.7527538,809338872,way
+hospital facility,hospital,30.2718974,-81.6155593,851867892,way
+hospital facility,hospital,30.196834,-81.8334402,864304564,way
+hospital facility,hospital,30.2526409,-81.5939102,872082649,way
+hospital facility,hospital,30.2903963,-81.5970843,877957817,way
+hospital facility,hospital,30.2907234,-81.5986989,877957818,way
+Wekiva Springs Center,hospital,30.2571736,-81.5943526,11897334,relation
+hospital facility,hospital,30.2909058,-81.6008958,11950992,relation
+Memorial Hospital,hospital,30.2878515,-81.6003269,11950993,relation
+hospital facility,hospital,30.356508,-81.7277202,13546702,relation
+Baptist North Medical Campus,hospital,30.4403006,-81.7202539,13648126,relation
+UF Health Jacksonville,hospital,30.348748,-81.6646813,14547184,relation
+hospital facility,hospital,30.3484743,-81.6613432,14547192,relation
+Gary Gale Seaplane Base,aerodrome,30.1938992,-81.6819,1041997652,node
+Herlong Recreational Airport,aerodrome,30.2731285,-81.8049922,50414876,way
+Jacksonville Naval Air Station (Towers Field),aerodrome,30.2321922,-81.6791745,318133027,way
+Jacksonville Executive at Craig Airport,aerodrome,30.3365082,-81.5151198,6853997,relation
+Jacksonville International Airport,aerodrome,30.4936857,-81.6875696,13943454,relation
+Duval County Fire Station Number 15,fire_station,30.3783321,-81.6564328,367822372,node
+Duval County Fire Station Number 11,fire_station,30.355209,-81.625574,367822381,node
+JFRD Station 39,fire_station,30.3248795,-81.6507961,367822403,node
+Fire and Rescue Department Station 36,fire_station,30.3744477,-81.7107106,367822407,node
+Duval County Fire Station Number 35,fire_station,30.4698705,-81.631166,367822411,node
+Fire and Rescue Department Station 34,fire_station,30.4396566,-81.7018508,367822420,node
+Fire and Rescue Department Station 33,fire_station,30.4301353,-81.7595321,367822423,node
+Duval County Fire Station Number 32,fire_station,30.319224,-81.78559,367822428,node
+Duval County Fire Station Number 31,fire_station,30.270183,-81.770813,367822431,node
+Naval Air Station Jacksonville,fire_station,30.2344891,-81.6765044,640547624,node
+fire_station facility,fire_station,30.2259444,-81.6735155,1545303208,node
+Fire and Rescue Department Station 48,fire_station,30.4037708,-81.5413747,7465477132,node
+Fire and Rescue Department Station 38,fire_station,30.3894857,-81.6418687,7465477144,node
+Jacksonville Fire Rescue - Station 13,fire_station,30.3047895,-81.6543626,253720505,way
+Fire and Rescue Department Station 30,fire_station,30.3237088,-81.5453969,474815441,way
+Duval County Fire Station Number 27,fire_station,30.3666969,-81.5941251,489071486,way
+JFRD Station 4,fire_station,30.3312978,-81.6652933,497131638,way
+Fire and Rescue Department Station 1,fire_station,30.3299264,-81.650985,497147337,way
+Fire and Rescue Department Station 20,fire_station,30.2948308,-81.6002446,497157030,way
+Fire and Rescue Department Station 7,fire_station,30.3523029,-81.7017734,497325273,way
+Fire Station 18,fire_station,30.3597422,-81.6762952,497342361,way
+JFRD F.S.-17;Duval County Fire Station Number 17,fire_station,30.331157,-81.7143579,497384519,way
+Duval County Fire Station Number 2,fire_station,30.3402255,-81.6542161,498168380,way
+Fire and Rescue Department Station 5,fire_station,30.326867,-81.689139,498452546,way
+Fire and Rescue Department Station 26,fire_station,30.3369451,-81.7568426,518982887,way
+Duval County Fire Station Number 9,fire_station,30.3661187,-81.6534113,521092101,way
+"Jacksonville Fire Rescue Department, Station Number 10",fire_station,30.3116385,-81.7050475,539842191,way
+Duval County Fire Sation 52,fire_station,30.2039164,-81.7434691,548421229,way
+Duval County Fire Station Number 19,fire_station,30.330931,-81.5894867,581644095,way
+Duval County Fire Station Number 12,fire_station,30.3055895,-81.6301954,588723985,way
+Duval County Fire Station Number 53,fire_station,30.3725046,-81.8073279,637951610,way
+JFRD Fire Station 44,fire_station,30.2190566,-81.56649,657973680,way
+Duval County Fire Station Number 21,fire_station,30.2582708,-81.6188886,723937888,way
+Duval County Fire Station Number 51,fire_station,30.1950983,-81.6122146,728238345,way
+Duval County Fire Station Number 14,fire_station,30.2845328,-81.7137532,773007488,way
+Fire and Rescue Department Station 32,fire_station,30.3001111,-81.784835,780482411,way
+Duval County Fire Station Number 22,fire_station,30.2810234,-81.7481851,788082412,way
+Duval County Fire Station Number 23,fire_station,30.2509418,-81.6974604,792965387,way
+Duval County Fire Station Number 25,fire_station,30.2478181,-81.738038,809381702,way
+Fire and Rescue Department Station 31,fire_station,30.24685,-81.7766563,810850470,way
+Fire and Rescue Department Station 61,fire_station,30.2021699,-81.821079,810896820,way
+Fire and Rescue Department Station 28,fire_station,30.2752631,-81.562134,860341583,way
+Fire and Rescue Department Station 37,fire_station,30.4211335,-81.6353295,866054043,way
+Fire and Rescue Department Station 24,fire_station,30.4090778,-81.687564,990939095,way
+Fire and Rescue Department Station 63,fire_station,30.2465788,-81.5214471,13403061,relation
+Jacksonville Sheriff's Office,police,30.3253723,-81.6520118,367825139,node
+Jacksonville Housing Police,police,30.3387808,-81.6663368,367825148,node
+Jacksonville Sheriff Office,police,30.4283843,-81.6614077,6949034949,node
+Highway Patrol Station,police,30.2978637,-81.7690699,7549244997,node
+Martin P. Garris Police Building,police,30.2670498,-81.5122707,92643909,way
+Police Memorial Building,police,30.3252235,-81.6516126,326785290,way
+Jacksonville Sheriff's Office Mounted & Canine Facility,police,30.3319475,-81.6709484,346116530,way
+Duval County Schools Police Department,police,30.3408809,-81.5734853,580914362,way
+Baptist Medical Center Gas Turbine,power_plant,30.3143731,-81.6636079,681882816,way
+power_plant facility,power_plant,30.440382,-81.7429456,1025738738,way
+Seminole Mill Plant,power_plant,30.4220527,-81.6048302,1061358912,way
+Hecate Energy Blair Road Solar,power_plant,30.2860392,-81.8351178,1081790753,way
+Jax LNG Cogen,power_plant,30.3941497,-81.5583289,1220027878,way
+power_plant facility,power_plant,30.404467,-81.7520024,12145093,relation
+Kennedy Generating Plant,power_plant,30.3645262,-81.6252137,12226366,relation
+Imeson Solar Farm,power_plant,30.4561621,-81.718041,14153144,relation
+Northside Generating Plant,power_plant,30.4215099,-81.5541547,15509426,relation
+Office of the State Attorney,government,30.3297724,-81.6613253,6179687430,node
+Duval County Tax Collector,government,30.3266013,-81.654656,7727815662,node
+U.S. Customs and Border Protection,government,30.4210135,-81.571415,7881276867,node
+Federal Bureau of Investigation Jacksonville Field Office,government,30.248793,-81.5227202,8691458327,node
+Mosquito Control,government,30.4434406,-81.6101875,9445427269,node
+Duval County Tax Collector,government,30.1948888,-81.6221004,12073594770,node
+Florida Highway Patrol Regional Communication Center - Jacksonville,government,30.3367276,-81.6646857,13245215594,node
+Duval County Courthouse,government,30.3300695,-81.6633437,170066678,way
+Charles E. Bennett Federal Building,government,30.326917,-81.6637277,170068037,way
+Federal Reserve Bank  of Atlanta,government,30.326998,-81.66913,170072768,way
+Edward Ball Building,government,30.3287788,-81.6604591,326826322,way
+Bryan Simpson United States Courthouse,government,30.3296216,-81.660643,326826325,way
+Jacksonville City Hall,government,30.3300651,-81.6590554,326826326,way
+Jake M. Godbold City Hall Annex,government,30.3297443,-81.658234,326827334,way
+San Marco Preservation Society,government,30.3106932,-81.6549273,362822717,way
+Duval County Public Schools,government,30.3173227,-81.6505131,362863818,way
+Florida Department of Transportation,government,30.3212134,-81.6888067,493865426,way
+Supervisor of Elections,government,30.3283551,-81.6554145,497151830,way
+government facility,government,30.3372236,-81.6594715,498168460,way
+USCIS Jacksonville Field Office,government,30.2566681,-81.5900068,932918957,way
+Ed Austin Building,government,30.3298397,-81.6616162,9177833,relation
+Center Park Substation,substation,30.2967898,-81.4867307,85691274,way
+Robinwood Substation JEA,substation,30.3017543,-81.5270565,93153974,way
+Deercreek Substation JEA,substation,30.1924589,-81.5214948,93155379,way
+Fort Caroline Substation JEA,substation,30.3604969,-81.4889121,132665891,way
+Millcove Substation,substation,30.3447801,-81.5413548,132727417,way
+Forest Substation JEA,substation,30.2663242,-81.5374499,133792426,way
+Philips Substation JEA,substation,30.2345051,-81.5907431,133792475,way
+Craven Substation JEA,substation,30.2049459,-81.6018887,136161275,way
+Hartley Substation JEA,substation,30.1855058,-81.6119738,136161276,way
+Baymeadows Substation JEA,substation,30.2363947,-81.5427969,137171153,way
+Normandy Substation JEA,substation,30.306677,-81.8197663,166776124,way
+West Lake Substation,substation,30.3840527,-81.8165979,166791258,way
+Firestone Substation JEA,substation,30.2232463,-81.7653352,166791261,way
+Northside Plant Substation,substation,30.4183155,-81.549727,166791262,way
+substation facility,substation,30.2232778,-81.69979,166791288,way
+NAS Jacksonville Substation JEA,substation,30.2225441,-81.7002784,166791293,way
+Ritter Park Substation,substation,30.4548001,-81.6342151,166791294,way
+Biltmore Substation JEA,substation,30.3472151,-81.7634513,166791296,way
+Saint Johns Substation,substation,30.4343634,-81.5544897,166791301,way
+JAX Heights Substation JEA,substation,30.2244642,-81.8186986,166791302,way
+Northside Peaking Substation JEA,substation,30.42178,-81.5548347,166791317,way
+Randall Street Substation JEA,substation,30.3108761,-81.7074642,204250593,way
+Eastport Substation JEA,substation,30.4189582,-81.5982303,224445355,way
+Hamilton Substation JEA,substation,30.2836048,-81.7216365,319840503,way
+College Substation,substation,30.3172629,-81.6814145,362680613,way
+Kennedy Power Plant Substation,substation,30.3645539,-81.6270598,379890609,way
+Merrill Substation,substation,30.3515079,-81.5668217,379890610,way
+University Park Substation JEA,substation,30.366563,-81.6006488,379890628,way
+substation facility,substation,30.2929196,-81.6202493,379890640,way
+Arlington Substation,substation,30.3355547,-81.5950488,379890643,way
+Jax Zoo Substation JEA,substation,30.4080001,-81.6352598,379890667,way
+Kennedy Plant Substation,substation,30.3639974,-81.6272301,379890668,way
+Powers Substation JEA,substation,30.2588157,-81.6196407,379890672,way
+Kings Avenue Substation JEA,substation,30.3105646,-81.6525738,379955621,way
+Paxon Substation,substation,30.3436109,-81.7515327,379955631,way
+Grand Park Substation,substation,30.3558202,-81.7155611,379955640,way
+Herlong Substation,substation,30.2777005,-81.769008,379971641,way
+Brooklyn Substation,substation,30.3364422,-81.6895622,379971647,way
+Church Substation,substation,30.3329997,-81.6692797,379971648,way
+Kennedy Plant Substation South,substation,30.3629665,-81.6262504,379971649,way
+Lane Substation JEA,substation,30.3074309,-81.7525165,379971650,way
+Main Substation,substation,30.3358497,-81.6545603,379971651,way
+Oakwood Villa Substation,substation,30.3233065,-81.5692009,379971652,way
+Southside Substation JEA,substation,30.3139977,-81.6490572,379991766,way
+substation facility,substation,30.3665886,-81.608062,380061369,way
+Anheuser-Busch Substation JEA,substation,30.434374,-81.6444389,380061465,way
+Blount Island Substation,substation,30.4065152,-81.5243766,380061466,way
+Cecil Field Substation JEA,substation,30.2502386,-81.8342548,380061469,way
+Orange Park North Substation #14 CLAY,substation,30.1827928,-81.7301685,381941577,way
+Utsey Road Switching Station,substation,30.394554,-81.7812312,557834321,way
+Waterleaf Substation JEA,substation,30.3362367,-81.4882095,558906897,way
+Deerwood Substation JEA,substation,30.2352436,-81.5217165,559192876,way
+Southpoint Substation JEA,substation,30.235018,-81.5770498,559336081,way
+Jax Zoo Underground Transition #1 JEA 138KV,substation,30.3959857,-81.636995,584523754,way
+San Souci Substation,substation,30.2842543,-81.5765139,585763524,way
+Orange Park North Switch #2 CLAY,substation,30.1824955,-81.7307901,607831351,way
+Orange Park North Switch #1 CLAY,substation,30.1832778,-81.7302983,607831352,way
+Water Street Substation,substation,30.3252671,-81.6564323,660275716,way
+Ortega Substation,substation,30.2665424,-81.707934,777428261,way
+Commercial Metals Substation JEA,substation,30.3469884,-81.7560773,889329878,way
+substation facility,substation,30.3510992,-81.7138255,931728398,way
+substation facility,substation,30.3952003,-81.5407345,932444734,way
+Ivy Steel Substation,substation,30.3561898,-81.7231863,1030603614,way
+substation facility,substation,30.3797941,-81.6378187,1061371624,way
+Rosselle Substation,substation,30.3190857,-81.6944014,1061730421,way
+substation facility,substation,30.4541427,-81.5956857,1131200504,way
+substation facility,substation,30.4751685,-81.5550063,1132940512,way
+substation facility,substation,30.4611305,-81.5606836,1133175403,way
+substation facility,substation,30.4644445,-81.5499929,1133175428,way
+substation facility,substation,30.4584202,-81.5823593,1136753151,way
+substation facility,substation,30.4554373,-81.5790265,1137013705,way
+substation facility,substation,30.4580132,-81.6026582,1137856966,way
+substation facility,substation,30.2359426,-81.5199364,1139097812,way
+substation facility,substation,30.4437154,-81.5795959,1149187241,way
+substation facility,substation,30.4752497,-81.6078214,1150195419,way
+substation facility,substation,30.4649487,-81.607652,1150252702,way
+substation facility,substation,30.4640206,-81.600111,1150500035,way
+substation facility,substation,30.4450499,-81.5721609,1153301404,way
+substation facility,substation,30.4506494,-81.5716705,1161720160,way
+substation facility,substation,30.4507166,-81.5594128,1161720166,way
+substation facility,substation,30.4798725,-81.5967797,1165419920,way
+substation facility,substation,30.4788012,-81.5879323,1165923558,way
+Park and King Electric Substation JEA,substation,30.3114216,-81.6933257,1411935123,way
+Herschel Street Substation JEA,substation,30.2954418,-81.7102335,1411942778,way
+St Johns Park Substation JEA,substation,30.2886438,-81.72003,1411960968,way
+Picketville Substation JEA,substation,30.380403,-81.751368,12142663,relation
+Northwest Jax Substation,substation,30.3677261,-81.6852868,13365982,relation
+Soutel Dr Substation JEA,substation,30.4046666,-81.714544,13505165,relation
+Northshore Substation,substation,30.3710052,-81.6590334,13608479,relation
+Garden City Substation JEA,substation,30.4544026,-81.698329,13678015,relation
+Dinsmore Substation,substation,30.453925,-81.7753053,13771238,relation
+Georgia Substation,substation,30.3291601,-81.6398524,14537400,relation
+Twenty First & Hubbard Substation JEA,substation,30.3573839,-81.6520886,14579972,relation
+Orange Park Wastewater Treatment Plant,water_works,30.1818636,-81.7095133,253278625,way
+Mandarin Water Reclamation Facility,water_works,30.1787147,-81.6219747,253424578,way
+water_works facility,water_works,30.3112812,-81.6538794,447935859,way
+water_works facility,water_works,30.2957829,-81.6060195,450928296,way
+water_works facility,water_works,30.3353714,-81.5942515,581628306,way
+Southwest Wastewater Treatment Facility,water_works,30.232419,-81.7223298,792988990,way
+Well SIte,water_works,30.1799673,-81.8067353,1152676071,way
+Lift Station 163,water_works,30.1873249,-81.794034,1186986251,way
+North Grid Wastewater Facility,water_works,30.4229742,-81.6184681,13631134,relation
+Highlands Water Treatment Plant,water_works,30.425807,-81.6575267,13667258,relation
+water_works facility,water_works,30.3562904,-81.6869676,13841460,relation
+water_works facility,water_works,30.212692,-81.5623436,14163815,relation
+water_works facility,water_works,30.2129997,-81.5586192,14163817,relation
+Buckman Wastewater Treatment Facility,water_works,30.352669,-81.6291415,14585928,relation
+water_works facility,water_works,30.3439321,-81.6283979,14642517,relation
+water_works facility,water_works,30.3434155,-81.6286098,14642518,relation
+Jacksonville Electric Authority,water_works,30.3277863,-81.6466886,14922203,relation

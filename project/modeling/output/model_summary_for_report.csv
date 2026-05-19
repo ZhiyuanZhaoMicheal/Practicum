@@ -1,0 +1,11 @@
+model,variant,key_metric,term,value,p_value,ci_low,ci_high,n_obs,notes
+OLS,no_nlcd,coef_in_buffer,in_buffer,0.0282733701267649,0.0701473004404728,-0.002326332747708,0.0588730730012378,,linear effect
+OLS,with_nlcd,coef_in_buffer,in_buffer,-0.0237783928564872,0.1220367355719481,-0.0539183193831447,0.0063615336701701,,linear effect
+MixedLM,no_nlcd,coef_in_buffer,in_buffer,0.0282733701267659,0.0196063792731257,0.0045288890788326,0.0520178511746993,,mixed-effect fixed coefficient
+MixedLM,with_nlcd,coef_in_buffer,in_buffer,-0.0237783928564875,0.045305724943065,-0.0470597800423927,-0.0004970056705823,,mixed-effect fixed coefficient
+Logit,no_nlcd,odds_ratio_in_buffer,in_buffer,0.6830921188503436,1.022281241240984e-07,0.5936496486969365,0.7860104758078666,,odds ratio
+Logit,with_nlcd,odds_ratio_in_buffer,in_buffer,1.177657730123081,0.104872195045629,0.9664630933130278,1.435003301123938,,odds ratio
+Logit,no_nlcd,auc,AUC,0.7191682793637468,,,,,ROC AUC
+Logit,with_nlcd,auc,AUC,0.7490056545209962,,,,,ROC AUC
+Cox,no_nlcd,hazard_ratio_in_buffer,in_buffer,1.1261347066024303,4.527028943130977e-07,1.075348060720038,1.1793199092816389,,hazard ratio
+Cox,with_nlcd,hazard_ratio_in_buffer,in_buffer,1.053569238831728,0.0692077192336297,0.9959044293290975,1.1145729533106274,,hazard ratio

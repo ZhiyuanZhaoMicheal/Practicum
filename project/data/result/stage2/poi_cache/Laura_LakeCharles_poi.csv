@@ -1,0 +1,142 @@
+facility_type,lon,lat,name
+hospital,-93.2226202,30.2050534,Extended Care Of Southwest Louisiana
+hospital,-93.2470628,30.1406178,Lake Charles Memorial Hospital For Women
+hospital,-93.2503702,30.1903784,Avail Hospital Lake Charles
+hospital,-93.222959,30.1764601,Oceans Behavioral Hospital Of Lake Charles
+hospital,-93.1980827,30.204224,Lake Charles Memorial Hospital
+hospital,-93.2507482,30.1811676,Lake Area Medical Center
+hospital,-93.2273564,30.2159176,CHRISTUS Saint Patrick Hospital
+hospital,-93.368948,30.2290343,West Calcasieu Cameron Hospital
+aerodrome,-93.1427849,30.1375856,Open A-1 Ranch Airport
+aerodrome,-93.0884847,30.2293734,Morgan Crop Service Airport
+aerodrome,-93.1351548,30.2546084,Chloe Airport
+aerodrome,-93.1449929,30.2108979,Chennault International Airport
+aerodrome,-93.2598091,30.2076284,L Auberge Du Lac Hotel Seaplane Base
+aerodrome,-93.1626316,30.2265516,Louisiana State Police Troop D Heliport
+aerodrome,-93.222826,30.1230587,Lake Charles Regional Airport
+aerodrome,-93.3760704,30.1308005,Southland Field
+power_plant,-93.281306,30.2249847,PPG Powerhouse A
+power_plant,-93.2933413,30.2849623,Roy S. Nelson Generating Plant
+power_plant,-93.3453269,30.1597468,Calcasieu Power Station
+power_plant,-93.2896838,30.2709678,Lake Charles Power
+power_plant,-93.2806851,30.2215337,PPG Powerhouse B
+power_plant,-93.2947732,30.2256031,PPG Powerhouse C
+power_plant,-93.2938677,30.2264655,PPG Plant C Caustic Cogen
+power_plant,-93.2830309,30.2214157,RS Cogen
+power_plant,-93.3219444,30.19661,Lake Charles Polymers Cogen
+power_plant,-93.1680374,30.3314456,
+police,-93.2191424,30.2266202,Calcasieu Parish Sheriff's Office
+police,-93.2093494,30.3009942,Calcasieu Parish Sheriff's Office Moss Bluff Law Enforcement Center
+police,-93.1519748,30.2098518,Calcasieu Parish Sheriff's Office - Training
+police,-93.1948407,30.2345582,Lake Charles Police Service Center
+police,-93.2181462,30.1754522,Lake Charles Police Service Center
+police,-93.2128318,30.1283213,Calcasieu Parish Sheriff's Office South Lake Charles Law Enforcement Center
+police,-93.1316651,30.2328786,Calcasieu Parish Sheriff's Office - Youth
+police,-93.1414128,30.2258143,Calcasieu Parish Sheriff's Office - Prison
+police,-93.1412809,30.2270962,Calcasieu Parish Sheriff's Office
+police,-93.1410725,30.2270961,Calcasieu Parish Sheriff's Office
+police,-93.3737116,30.1320082,Calcasieu Parish Sheriff's Office Carlyss Law Enforcement Center
+police,-93.1896297,30.2492345,Calcasieu Parish Sheriff's Office North Lake Charles Law Enforcement Center
+police,-93.2669457,30.2626468,Westlake Police Department
+police,-93.1626838,30.2265451,Louisiana State Police Troop D
+police,-93.2048279,30.2265834,Lake Charles Police Department
+police,-93.3603875,30.230785,Calcasieu Parish Sheriff's Office Sulphur Law Enforcement Center
+police,-93.3709529,30.2345008,Sulphur City Marshal's Office
+police,-93.3767258,30.2430991,Sulphur Police Department
+substation,-93.2877939,30.2828533,
+substation,-93.233906,30.32954,Moss Bluff Substation
+substation,-93.2959309,30.2819975,
+substation,-93.2904798,30.2823412,
+substation,-93.2008409,30.3308244,Gillis Substation
+substation,-93.1213976,30.2601135,
+substation,-93.348559,30.1923573,Carlyss Substation
+substation,-93.3345983,30.1736949,Pecan Grove Substation
+substation,-93.3629027,30.1694908,Boudoin Substation
+substation,-93.2052539,30.1758212,
+substation,-93.1129006,30.1723956,Chalkley Bulk Substation
+substation,-93.1279452,30.2315747,Chlomal Substation
+substation,-93.2320798,30.1837542,Contraband Substation
+substation,-93.1795166,30.1685633,Smith Substation
+substation,-93.2283103,30.1547552,Solac Substation
+substation,-93.1777419,30.1985466,Greinwich Substation
+substation,-93.178917,30.2205111,
+substation,-93.2185953,30.2319325,Ann Substation
+substation,-93.2011016,30.2266546,East Broad Substation
+substation,-93.2109259,30.2134196,Ford Substation
+substation,-93.1794809,30.2639765,Goosport Substation
+substation,-93.2024901,30.2028337,Oak Park Substation
+substation,-93.3556919,30.1827809,Arizona Substation
+substation,-93.249883,30.2426576,Westlake Substation
+substation,-93.2719822,30.2450237,
+substation,-93.2831709,30.2384397,
+substation,-93.2717411,30.2366275,
+substation,-93.2809675,30.2528709,
+substation,-93.2825641,30.2433063,
+substation,-93.2925728,30.2434605,Mossville Substation
+substation,-93.3757377,30.1603195,Choupique Substation
+substation,-93.3738754,30.2179443,Sulphur Substation
+substation,-93.3258945,30.1840611,
+substation,-93.3435268,30.1883824,Citcon West Substation
+substation,-93.3245131,30.1845118,Rosebluff Substation
+substation,-93.2286197,30.205872,
+substation,-93.2525386,30.197538,
+substation,-93.2973449,30.2283611,
+substation,-93.3070085,30.197795,
+substation,-93.345523,30.1595111,
+substation,-93.2815721,30.110723,
+substation,-93.2960095,30.2241918,
+substation,-93.2819105,30.2214775,
+substation,-93.2813511,30.2239394,
+substation,-93.2976599,30.2276366,
+substation,-93.3027182,30.1910829,
+substation,-93.3994543,30.2126392,
+substation,-93.302878,30.2236,
+substation,-93.3028035,30.2230555,
+substation,-93.3527251,30.2883617,
+substation,-93.3497162,30.3263102,
+substation,-93.3521297,30.3265171,
+substation,-93.2929611,30.2624578,
+substation,-93.2934835,30.2621942,
+substation,-93.2832226,30.246256,
+substation,-93.2754325,30.2515955,
+substation,-93.3174738,30.234464,Maplewood Substation
+substation,-93.3426032,30.2271718,Hollywood Substation
+substation,-93.3899336,30.2414603,Burton Substation
+substation,-93.3659654,30.2651899,
+substation,-93.3094847,30.2516573,
+substation,-93.2932043,30.2464004,
+substation,-93.2855552,30.2211863,
+substation,-93.284158,30.2213011,
+substation,-93.2805154,30.2222222,
+substation,-93.2939511,30.2255087,
+substation,-93.31733,30.1972384,
+substation,-93.3237156,30.1971263,
+substation,-93.3386527,30.2110751,
+substation,-93.3259053,30.1940372,
+substation,-93.3260145,30.1946868,
+substation,-93.3271358,30.1833861,Citgo Substation
+substation,-93.3298957,30.1860288,
+substation,-93.3234458,30.1935564,
+substation,-93.3511704,30.1582405,Catalyst Substation
+substation,-93.2810913,30.153332,Vincent Substation
+substation,-93.3429156,30.1792604,
+substation,-93.3493307,30.1598244,
+substation,-93.3418531,30.1553436,
+substation,-93.3392889,30.1582027,Contank Substation
+substation,-93.3392364,30.1590446,
+substation,-93.3393006,30.1567438,
+substation,-93.3317581,30.1578475,
+substation,-93.3382447,30.1471594,
+substation,-93.1590878,30.274173,
+substation,-93.1584674,30.222931,
+substation,-93.0818302,30.1575354,Manchester Substation
+substation,-93.3674594,30.1551212,
+substation,-93.3855334,30.1938418,Thomas Road Substation
+substation,-93.2836072,30.1167028,
+substation,-93.2962183,30.1242188,
+substation,-93.3373748,30.1707075,
+substation,-93.3365862,30.1700715,
+substation,-93.2956852,30.2250603,
+substation,-93.2154677,30.1774476,
+substation,-93.1118426,30.1726252,
+substation,-93.1266276,30.2016333,

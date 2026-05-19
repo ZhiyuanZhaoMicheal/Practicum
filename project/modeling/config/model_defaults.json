@@ -1,0 +1,15 @@
+{
+  "pre_ntl_threshold": 0.5,
+  "damage_threshold": -0.1,
+  "recovery_threshold": 0.9,
+  "buffer_default_m": 750,
+  "buffer_aerodrome_m": 1250,
+  "facility_exclusion_for_robustness": [
+    "clinic",
+    "townhall",
+    "public_building"
+  ],
+  "pre_threshold_scenarios": [0.3, 0.5, 1.0],
+  "damage_threshold_scenarios": [-0.05, -0.1, -0.15, -0.2],
+  "recovery_threshold_scenarios": [0.8, 0.9, 0.95]
+}

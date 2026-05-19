@@ -1,0 +1,544 @@
+name,facility_type,lat,lon,osm_id,osm_type
+Floating Hospital for Children,hospital,42.3498066,-71.0639959,257489648,node
+Dr. Solomon Carter Fuller Mental Health Center,hospital,42.336038,-71.0707256,257578331,node
+Commonwealth Community Care,hospital,42.3334252,-71.0755668,8688824259,node
+Beth Israel Lahey Health Primary Care,hospital,42.3055583,-71.1091782,11091836291,node
+"Mass General Brigham (Medord, Cardiology)",hospital,42.4154329,-71.1108309,13430704233,node
+Winchester Hospital Center for Cancer Care,hospital,42.4702299,-71.126459,29538485,way
+Shriners Hospitals for Children - Boston,hospital,42.3630911,-71.0664345,29614822,way
+Massachusetts Eye and Ear,hospital,42.3627604,-71.0701296,29650639,way
+East Boston Neighborhood Health Center,hospital,42.3723565,-71.0383426,29661649,way
+BayRidge Hospital,hospital,42.4715523,-70.9568496,29772891,way
+Beth Israel Deaconess Hospital – Milton,hospital,42.2513698,-71.0770247,29837344,way
+Massachusetts General Hospital,hospital,42.3627276,-71.0688403,117853077,way
+AFC Urgent Care Dedham,hospital,42.2509006,-71.1715473,212911637,way
+Beth Israel Deaconess Medical Center East Campus,hospital,42.3396986,-71.1052122,228306157,way
+Beth Israel Deaconess Medical Center West Campus,hospital,42.3382444,-71.1095299,228314418,way
+Dana-Farber Cancer Institute,hospital,42.3375652,-71.1076915,228321180,way
+Lahey Hospital & Medical Center,hospital,42.484797,-71.2037593,231642276,way
+Cambridge Hospital,hospital,42.3750806,-71.1042527,315080437,way
+Somerville Hospital,hospital,42.3899544,-71.1095485,315080458,way
+Spaulding Rehabilitation Hospital,hospital,42.3786189,-71.0490359,377072605,way
+Mass General Brigham,hospital,42.3915408,-71.0785614,409647473,way
+Winchester Hospital,hospital,42.4658558,-71.122633,447354701,way
+Quincy Mental Health Center,hospital,42.2386207,-70.9805727,495547450,way
+North Shore Medical Center - Salem Hospital,hospital,42.5111964,-70.9051843,495571238,way
+Union Hospital,hospital,42.5010641,-70.9803926,495776385,way
+MelroseWakefield Hospital,hospital,42.4600259,-71.0612313,495860495,way
+Quigley Memorial Hospital,hospital,42.4007115,-71.0285867,495916178,way
+CHA Everett Hospital,hospital,42.4093336,-71.0394146,495917509,way
+Lawrence Memorial Hospital,hospital,42.4263937,-71.1118302,495922218,way
+McLean Hospital,hospital,42.3932693,-71.1903082,495950127,way
+VA Boston Healthcare System - West Roxbury Division,hospital,42.2744875,-71.1715422,495959452,way
+Bournewood Hospital,hospital,42.2983392,-71.1493107,495967894,way
+Hebrew Rehabilitation Center,hospital,42.2968849,-71.1314295,495971524,way
+Lemuel Shattuck Hospital,hospital,42.2991925,-71.1016383,495972839,way
+Franciscan Children's Hospital,hospital,42.3502857,-71.1439999,496107473,way
+HRI Hospital,hospital,42.3506004,-71.1210955,496108843,way
+Spaulding Hospital Cambridge,hospital,42.3755223,-71.1071427,496115222,way
+New England Baptist Hospital,hospital,42.3295623,-71.1067787,496187161,way
+VA Boston Healthcare System-Jamaica Plain,hospital,42.3267497,-71.1101107,496187166,way
+Mount Auburn Hospital,hospital,42.3741301,-71.134462,589640526,way
+Brigham & Women's Faulkner Hospital,hospital,42.3017469,-71.1289816,589642015,way
+Arbour Hospital,hospital,42.315686,-71.1121372,692732072,way
+Tufts Medical Center,hospital,42.3495134,-71.063564,813301924,way
+Boston Medical Center – Brighton,hospital,42.3486721,-71.1478038,822922630,way
+hospital facility,hospital,42.3630637,-71.0664435,1004421027,way
+Encompass Health Rehabilitation Hospital of New England,hospital,42.4635211,-71.1612495,1274181067,way
+Boston Medical Center,hospital,42.3341717,-71.0740135,63951,relation
+Brigham and Women's Hospital,hospital,42.3359419,-71.105671,3061383,relation
+Boston Children's Hospital,hospital,42.3373009,-71.1055298,18981281,relation
+Boston Harbor Seaplane Base (Cape Air Seaplanes),aerodrome,42.361055,-71.0283123,7831158519,node
+Tailwind Boston Seaplane Base,aerodrome,42.3604396,-71.0289574,7831158520,node
+Logan International Airport,aerodrome,42.3631431,-71.009697,291828579,way
+Westwood Fire Department,fire_station,42.2266732,-71.2224468,257494327,node
+Milton Fire Department,fire_station,42.2393847,-71.1089328,257494338,node
+Tower Hill Fire Station,fire_station,42.4632533,-70.9792377,257494408,node
+Somerville Fire Department,fire_station,42.3846647,-71.1113341,257494413,node
+Lynn Fire Department,fire_station,42.482747,-70.9566395,257494417,node
+Boston Fire Department Engine 21,fire_station,42.3183276,-71.0632676,257494425,node
+Newton Fire Department,fire_station,42.3323579,-71.1929803,257494432,node
+"Boston Fire Department Engine 33, Ladder 15",fire_station,42.3480675,-71.0855303,257494439,node
+Melrose Fire Department,fire_station,42.4661803,-71.0689328,257494441,node
+Woburn Fire Department,fire_station,42.4714934,-71.1507635,257494461,node
+"Boston Fire Department Engine 37, Ladder 26",fire_station,42.3371951,-71.0960914,257494464,node
+Medford Fire Department,fire_station,42.4154502,-71.1100739,257494469,node
+Wakefield Fire Department,fire_station,42.4825372,-71.0653021,257494472,node
+"Boston Fire Department Engine 52, Ladder 29",fire_station,42.2908822,-71.0896182,257494474,node
+Quincy Fire Department,fire_station,42.2561209,-70.9953671,257494496,node
+Boston Fire Department Engine 16,fire_station,42.2782692,-71.0787474,257494500,node
+Winthrop Fire Department,fire_station,42.3741185,-70.9718419,257494501,node
+Revere Fire Department,fire_station,42.41052,-71.0124182,257494508,node
+Newton Fire Department: Station 10,fire_station,42.2994193,-71.187796,257494511,node
+Boston Fire Department Engine 5,fire_station,42.3791,-71.0302213,257494512,node
+Medford Fire Department,fire_station,42.4206508,-71.1332585,257494520,node
+Burlington Fire Department,fire_station,42.4950007,-71.2247893,257494523,node
+Hingham Fire Department,fire_station,42.2417816,-70.8962905,257494532,node
+Milton Fire Department,fire_station,42.254433,-71.0801809,257494555,node
+Somerville Fire Department,fire_station,42.3788721,-71.0925694,257494617,node
+Lynn Fire Department,fire_station,42.4634474,-70.9651217,257494625,node
+Boston Fire Department Engine 10,fire_station,42.3549685,-71.0529122,257494627,node
+Lynn Fire Department,fire_station,42.4704431,-70.9364623,257494628,node
+Melrose Fire Department,fire_station,42.4564542,-71.0533805,257494644,node
+"Boston Fire Department Engine 2, Ladder 19",fire_station,42.3349826,-71.0371376,257494684,node
+Watertown Fire Department Station 3,fire_station,42.3775578,-71.1885466,257494686,node
+Medford Fire Department,fire_station,42.4359748,-71.0966958,257494691,node
+Everett Fire Department,fire_station,42.4121097,-71.0541774,257494735,node
+Boston Fire Department Engine 42,fire_station,42.3183967,-71.0977763,257494743,node
+Malden Fire Department,fire_station,42.4282094,-71.0643935,257494750,node
+"Boston Fire Department Engine 17, Ladder 7, Car 7",fire_station,42.3077417,-71.0616123,257494756,node
+Quincy Fire Department,fire_station,42.2434272,-71.0237184,257494771,node
+Boston Fire Department Engine 20,fire_station,42.2885707,-71.0477989,257494781,node
+Chelsea Fire Department,fire_station,42.3990619,-71.0226139,257494807,node
+Lexington Fire Department,fire_station,42.4336309,-71.2093824,257494826,node
+Newton Fire Department,fire_station,42.3142484,-71.2153007,257494830,node
+Brookline Fire Station 7,fire_station,42.3387849,-71.1333843,257494855,node
+Boston Fire Department Engine 22,fire_station,42.3405215,-71.0775392,257494865,node
+Lynn Fire Department,fire_station,42.4706585,-70.9478681,257494868,node
+Lynn Fire Department,fire_station,42.5060073,-70.9823261,257494883,node
+Winchester Fire Department,fire_station,42.453038,-71.1357467,257494885,node
+"Boston Fire Department Engine 53, Ladder 16",fire_station,42.2789955,-71.1174661,257494934,node
+Waltham Fire Department,fire_station,42.406838,-71.2199142,257494942,node
+"Boston Fire Department Engine 28, Ladder 10",fire_station,42.3105415,-71.1144181,257494956,node
+fire_station facility,fire_station,42.2462531,-70.9763991,257494971,node
+Revere Fire Department,fire_station,42.4192616,-70.9911908,257494980,node
+Somerville Fire Department Engine 7,fire_station,42.3916806,-71.1108341,257494989,node
+"Boston Fire Department Engine 32, Ladder 9",fire_station,42.383825,-71.071579,257495006,node
+Weymouth Fire Department,fire_station,42.2431421,-70.9445499,257495008,node
+Brookline Fire Department Headquarters,fire_station,42.3337159,-71.1212902,257495014,node
+Cambridge Fire Department,fire_station,42.3711772,-71.0787804,257495035,node
+Quincy Fire Department,fire_station,42.2653171,-71.0202951,257495037,node
+Newton Fire Department,fire_station,42.3324704,-71.1935115,257495059,node
+Fire Department Station Number Six,fire_station,42.3116014,-71.1635746,257495074,node
+Saugus Fire Department,fire_station,42.4650441,-71.0067825,257495076,node
+"Boston Fire Department Engine 24, Ladder 23",fire_station,42.3074868,-71.0821723,257495099,node
+Hull Fire Department,fire_station,42.3036241,-70.9073645,257495116,node
+Lynn Fire Department,fire_station,42.4797737,-70.9345697,257495123,node
+Medford Fire Department,fire_station,42.4013136,-71.1058309,257495138,node
+Dedham Fire Department,fire_station,42.2546392,-71.1647748,257495170,node
+Massport Fire-Rescue Headquarters,fire_station,42.3574557,-71.0177962,257495177,node
+Medford Fire Department,fire_station,42.42101,-71.0990662,257495195,node
+Boston Fire Department Engine 55,fire_station,42.2639868,-71.1548054,257495203,node
+"Boston Fire Department Engine 29, Ladder 11",fire_station,42.3427021,-71.1534743,257495214,node
+Nahant Fire Department,fire_station,42.4236729,-70.9322328,257495220,node
+East Dedham Fire Station,fire_station,42.2488028,-71.1547285,257495224,node
+Woburn Fire Department,fire_station,42.4732966,-71.1730621,257495231,node
+"Boston Fire Department Engine 48, Ladder 28",fire_station,42.2551417,-71.1198375,257495240,node
+Winthrop Fire Department,fire_station,42.3765251,-70.985364,257495260,node
+Newton Fire Department,fire_station,42.3570749,-71.207105,257495261,node
+"Boston Fire Department Engine 39, Ladder 18",fire_station,42.3396213,-71.0505004,257495270,node
+Quincy Fire Department,fire_station,42.2974154,-71.0106951,257495280,node
+Central Fire Station,fire_station,42.2446876,-70.9985882,367777861,node
+Nahant Town Fire Department,fire_station,42.4237535,-70.9322294,367777924,node
+Brookline Fire Department Station 5,fire_station,42.344778,-71.1217226,367777984,node
+Town of Wakefield Fire Department,fire_station,42.504144,-71.0691892,367777994,node
+Massport Fire-Rescue Satellite Station,fire_station,42.3651324,-71.0022532,1249785465,node
+"Boston Fire Department Engine 4, Ladder 24",fire_station,42.3608968,-71.0656878,1735991962,node
+Dedham Square Fire Station,fire_station,42.246154,-71.1741011,1853335688,node
+Prattville Fire Station,fire_station,42.4050269,-71.0344383,4693105554,node
+Medford Fire Department,fire_station,42.4108726,-71.0887592,5460570156,node
+Boston Fire Department Marine Unit,fire_station,42.3667019,-71.049326,7633046991,node
+Station 2,fire_station,42.3630072,-71.1001761,29513583,way
+Cambridge Fire Department,fire_station,42.3910149,-71.1217762,29514529,way
+Cambridge Fire Department,fire_station,42.380054,-71.1407654,29516428,way
+Stoneham Fire Department,fire_station,42.4795652,-71.0992554,29571652,way
+Pine Hill Station,fire_station,42.472414,-70.9670595,29597971,way
+Quincy Fire Department,fire_station,42.2759044,-71.028665,29618711,way
+Boston Fire Department,fire_station,42.3538243,-71.1361373,29632136,way
+Boston Fire Department Engine 42,fire_station,42.3183889,-71.0977672,29649309,way
+Boston Fire Department Headquarters,fire_station,42.3311392,-71.0695745,29650554,way
+"Boston Fire Department Engine 7, Ladder 17",fire_station,42.3489461,-71.0709446,29650737,way
+Boston Fire Department Engine 3,fire_station,42.3399735,-71.0685,29650833,way
+Malden Fire Department Station 3,fire_station,42.4269307,-71.0758968,29651862,way
+Fire Station 3 (East Braintree),fire_station,42.2281371,-70.986938,29666224,way
+Watertown Fire Department,fire_station,42.3671837,-71.1866304,29672140,way
+Cambridge Fire Department,fire_station,42.3842463,-71.1298533,29683795,way
+Melrose Fire Department,fire_station,42.4569492,-71.0646262,29707307,way
+Somerville Fire Department,fire_station,42.4026774,-71.1272231,29722867,way
+"Boston Fire Department Engine Company 30, Ladder 25",fire_station,42.2840222,-71.1564992,29750728,way
+fire_station facility,fire_station,42.2677958,-70.9575811,29770763,way
+River Street Firehouse,fire_station,42.363259,-71.1100117,29792368,way
+Belmont Fire Department,fire_station,42.3841973,-71.1813719,29813341,way
+Brookline Fire Department,fire_station,42.3268363,-71.1477986,29822957,way
+Cambridge Fire Department,fire_station,42.3735047,-71.1008192,29824267,way
+Everett Fire Department,fire_station,42.4122382,-71.0453855,29837473,way
+Engine Number 1 Fire Station,fire_station,42.4050438,-71.0344391,29838330,way
+Quincy Fire Department,fire_station,42.2462308,-70.9763964,29840810,way
+Newton Fire Department,fire_station,42.3549346,-71.1891713,29857563,way
+Boston Fire Department Engine 51,fire_station,42.3512805,-71.168166,29858001,way
+"Boston Fire Department Engine 18, Ladder 6",fire_station,42.2865049,-71.0638488,29859736,way
+Everett Fire Department,fire_station,42.4055548,-71.0573123,29868885,way
+"Boston Fire Department Engine 8, Ladder 1",fire_station,42.3657633,-71.0531546,29869475,way
+Massport Fire-Rescue Headquarters,fire_station,42.3574134,-71.0180093,29877163,way
+Boston Fire Department Engine 49,fire_station,42.2367913,-71.1312487,29890030,way
+fire_station facility,fire_station,42.4652238,-71.008742,29897870,way
+Brookline Fire Department Station Number One,fire_station,42.3313835,-71.1174116,29919121,way
+Everett Emergency Communications Center,fire_station,42.412402,-71.0452258,29954674,way
+Saugus Fire Department,fire_station,42.4505509,-71.0154835,29956056,way
+Milton Fire Department,fire_station,42.2580183,-71.0408581,29961898,way
+Engine 56 - Ladder 21,fire_station,42.3880863,-71.0039069,29964847,way
+Chelsea Fire Department,fire_station,42.3942962,-71.032781,29965131,way
+Quincy Fire Department Engine 8 Germantown,fire_station,42.2532659,-70.9604767,29969751,way
+Arlington Fire Department,fire_station,42.4137647,-71.1496995,39012036,way
+Lexington Fire Department Headquarters,fire_station,42.4530561,-71.232025,50713564,way
+Malden Fire Department,fire_station,42.4349019,-71.0441651,80628953,way
+Belmont Center Fire House,fire_station,42.3984863,-71.1739771,99022115,way
+Weymouth Fire Department,fire_station,42.2176341,-70.9326026,114330584,way
+Arlington Fire Department,fire_station,42.4199924,-71.1684955,196448873,way
+Arlington Fire Department,fire_station,42.4152316,-71.1809141,196457739,way
+Swampscott Fire Department,fire_station,42.4695391,-70.9202792,201483781,way
+Burlington Fire Department,fire_station,42.5067808,-71.1949032,212280164,way
+Westwood Fire Department,fire_station,42.2183919,-71.1878108,214060675,way
+West Side Fire Station,fire_station,42.4421449,-71.1736008,214139428,way
+Salem Fire Department - Station 5,fire_station,42.5027018,-70.8940713,215901904,way
+Waltham Fire Department,fire_station,42.3746057,-71.2185191,216427018,way
+Engine 14 and Ladder 4,fire_station,42.3288606,-71.0823481,510704766,way
+Reilly-Brickley Central Fire Station,fire_station,42.3908781,-71.0912782,712129278,way
+East End Fire Station,fire_station,42.3705932,-71.1598891,754442739,way
+Boston Fire Department Engine 50,fire_station,42.374218,-71.0611387,831359512,way
+Newton Fire Department: Wires Division,fire_station,42.2992043,-71.1881686,856560210,way
+Engine 9 and Ladder 2,fire_station,42.3680586,-71.0387167,1172132578,way
+Woburn Fire Headquarters,fire_station,42.4968323,-71.1554657,1233838681,way
+Temporary Station 10,fire_station,42.3752257,-71.1079722,1264365238,way
+Needham Fire Department Station 2,fire_station,42.2982109,-71.2333409,1311465060,way
+Point of Pines Fire Station,fire_station,42.4400025,-70.9681274,1341622509,way
+State Police Government Center,police,42.3593842,-71.0623249,257493571,node
+Boston Police Department Hyde Park Neighborhood Station,police,42.2564288,-71.1242782,257493592,node
+Lynn Police Department,police,42.4656801,-70.9487324,257493610,node
+Boston Police Department Area E-5 West Roxbury,police,42.2867829,-71.1484246,257493622,node
+Sp Revere,police,42.414395,-70.9893996,257493644,node
+Boston Police Department D-14 Brighton/Allston Neighborhood Station,police,42.3493611,-71.1505902,257493648,node
+Boston Police Department District B-3 North Dorchester-Mattapan Neighborhood Station,police,42.2846826,-71.0916905,257493659,node
+Norfolk County Sheriff,police,42.2597568,-71.2087651,257493663,node
+Quincy Police Dept,police,42.2563332,-70.9952524,257493668,node
+Brookline Police Station,police,42.3338262,-71.121453,257493672,node
+Wakefield Police Department,police,42.5042648,-71.0694102,257493721,node
+Saugus Police Department,police,42.4649929,-71.0071433,257493724,node
+Stoneham Police Department,police,42.4807868,-71.0981547,257493730,node
+Braintree Police Department,police,42.2117915,-70.9935421,257493818,node
+Winthrop Police Department,police,42.3767663,-70.9844155,257493822,node
+Woburn Police Department,police,42.4817003,-71.1565549,257493823,node
+Melrose Police Department,police,42.45479,-71.0664787,257493851,node
+Boston Police Department District E-13,police,42.3096859,-71.1046118,257493857,node
+Medford Police Department,police,42.4158105,-71.1101517,257493859,node
+Hingham Police Dept,police,42.2308679,-70.8857156,257493884,node
+Cambridge Police Department,police,42.3672754,-71.0861518,257493900,node
+Boston Police Department South Boston Neighborhood Station,police,42.3411265,-71.0549541,257493905,node
+Boston Police Department Bureau of Special Operations,police,42.3185903,-71.0809867,257493913,node
+Boston Police Department Area C South Boston Dorchester,police,42.2980276,-71.0590886,257493919,node
+Suffolk County Sheriff,police,42.3336821,-71.0683257,257493966,node
+Harvard University Police,police,42.3787447,-71.123779,257493974,node
+Nahant Police Dept,police,42.4276118,-70.926141,257494028,node
+Tufts University Police Department,police,42.4086297,-71.1181379,1155695170,node
+MBTA Transit Police Headquarters,police,42.3316785,-71.0643016,1277603135,node
+Massachusetts State Police Troop F,police,42.3755234,-71.0281826,2948651587,node
+Harvard University Police - Mather House Sub Station,police,42.3687212,-71.115319,3601574352,node
+Berklee College Police,police,42.3464496,-71.0875507,5197251861,node
+Massachusetts Environmental Police Coastal Bureau Headquarters,police,42.2530707,-70.9196581,7106447023,node
+MassPort Police,police,42.3651554,-71.0367695,7167429300,node
+MBTA Transit Police,police,42.3474468,-71.0754514,7824147904,node
+Cambridge Police Reporting Station,police,42.3651606,-71.1037269,10922728503,node
+MIT Police Station,police,42.3543686,-71.1043397,11014629849,node
+East Somerville Police Substation,police,42.3873489,-71.0819419,11092724334,node
+Assembly Row Police Substation,police,42.3949401,-71.0777418,11092748961,node
+Somerville Police Department,police,42.3791862,-71.0923063,11095258800,node
+Malden Police Station,police,42.4299923,-71.0468437,11349591479,node
+State Police Boston Barracks,police,42.3667462,-71.0690309,12110471022,node
+Revere Police Department,police,42.4016856,-70.9997791,12830562803,node
+Somerville Police Department,police,42.4028267,-71.1265586,12956471095,node
+Milton Police Department,police,42.2523605,-71.0793156,29540857,way
+"Boston Police Department, Area D-4",police,42.339438,-71.0692525,29608402,way
+Boston Police Department District C-6 South Boston,police,42.3411614,-71.0549568,29608956,way
+"Massachusetts State Police Troop H Community Action Team, Identification, & Detail Office",police,42.3213564,-71.0506322,29610815,way
+Massachusetts State Police Brighton Office,police,42.3602536,-71.1461788,29629167,way
+State Police Medford,police,42.4042369,-71.0833183,29706280,way
+Massachusetts State Police South Boston,police,42.3225059,-71.0490035,29761793,way
+Everett Police,police,42.4125322,-71.0447195,29766753,way
+Boston Police Department Area A-1,police,42.361822,-71.0602924,29802030,way
+B-2 Boston Police Department,police,42.3283646,-71.0856994,29803753,way
+Watertown Police Department,police,42.3673687,-71.1863201,29811152,way
+Chelsea Police Dept,police,42.3890571,-71.0399052,29834358,way
+Massachusetts State Police Troop F,police,42.3755135,-71.0281711,29849626,way
+Massachusetts State Police - H7 Milton,police,42.2148232,-71.0931039,29860490,way
+Bemont Police Department,police,42.3961477,-71.1777015,29907201,way
+Boston Police Department Headquarters,police,42.334173,-71.0907439,29948147,way
+Stoneham Police,police,42.4807211,-71.0981532,29961046,way
+Arlington Police Department,police,42.4190557,-71.1523815,40665834,way
+Boston Police Harbor Unit,police,42.3437354,-71.0368816,212122424,way
+Boston Police Department Charlestown Neighborhood Station,police,42.3764755,-71.0560447,212123471,way
+Boston University Police Station,police,42.3524991,-71.1186058,212129920,way
+Burlington Police Department,police,42.5053401,-71.1924752,212279574,way
+Dedham Police Dept,police,42.2478198,-71.1741095,212911758,way
+Westwood Police Department,police,42.228035,-71.220623,214063002,way
+Newton Police Annex Building,police,42.3488364,-71.2257517,214751557,way
+Newton Police Headquarters,police,42.3494754,-71.2275581,214752909,way
+Watertown Police,police,42.3713669,-71.200698,217029719,way
+Waltham Police Community Substation,police,42.3745459,-71.2348595,240446422,way
+Swampscott Police Department,police,42.4675101,-70.9047112,388618473,way
+University Police,police,42.5006068,-70.8937915,398269967,way
+Belmont Police Department,police,42.3911765,-71.1832376,711030295,way
+Massachusetts State Police Marine Section,police,42.3681886,-71.060932,849606613,way
+police facility,police,42.3815886,-71.0281481,1094957871,way
+police facility,police,42.4466845,-71.223292,1331533475,way
+Medical Area Total Energy Plant,power_plant,42.3368746,-71.1083929,29513430,way
+power_plant facility,power_plant,42.3379845,-71.0904747,29650865,way
+42 Dickson Cogeneration Plant,power_plant,42.3611444,-71.0934462,132601297,way
+Fore River Energy Center,power_plant,42.2412667,-70.9646503,195816938,way
+Revere Solar Site,power_plant,42.4024275,-71.0074201,487994477,way
+515 Main Saugus,power_plant,42.4826301,-71.0397904,642433320,way
+Wheelabrator Saugus Incinerator waste-to-energy plant,power_plant,42.4466582,-70.9805833,714397674,way
+power_plant facility,power_plant,42.3052273,-71.0547437,722020672,way
+Kendall Square Cogeneration Station,power_plant,42.3633503,-71.0800244,891350340,way
+M Street Jet Power Plant,power_plant,42.3392683,-71.0314289,960885364,way
+Dorchester Solar Site,power_plant,42.301444,-71.0469857,1072048573,way
+Potter Station 2,power_plant,42.2343011,-70.9668725,1072048575,way
+Boston Scientific Solar,power_plant,42.2932004,-71.0340829,1147239896,way
+Deer Island Treatment Plant,power_plant,42.3467113,-70.9563738,14164068,relation
+Charlestown Wind Turbine,power_plant,42.3914632,-71.0709752,14164070,relation
+Weld Hill Solar Project,power_plant,42.2953464,-71.1329133,15678274,relation
+power_plant facility,power_plant,42.3143212,-71.0405724,15687613,relation
+General Electric Aircraft Engines,power_plant,42.4524476,-70.9674825,15777746,relation
+Meadow Solar,power_plant,42.2304209,-71.1336569,17393702,relation
+City of Somerville Parking Department,government,42.4000534,-71.1252352,257578556,node
+Town of Winthrop Parks & Recreation Department.,government,42.3759604,-70.988156,257580249,node
+Newton City Hall,government,42.3373845,-71.2087333,257584252,node
+Nahant Town Hall,government,42.4243303,-70.9135696,257584348,node
+Lynn City Hall,government,42.464921,-70.9513216,257584529,node
+Winchester Town Hall,government,42.4527814,-71.134626,257584573,node
+Hingham Town Hall,government,42.2315091,-70.8859198,257584696,node
+Suffolk County Courthouse,government,42.359845,-71.0611201,367777808,node
+Middlesex County District Court of Somerville,government,42.3955416,-71.0844086,367777816,node
+Boston Harbor Islands SP Office,government,42.2528817,-70.9198288,956430733,node
+Middlesex South Registry Of Deeds,government,42.3706008,-71.0792908,4083102428,node
+TSA Boston,government,42.3755907,-71.028304,4882047356,node
+Social Security Administration,government,42.3894169,-71.1457464,6114784774,node
+Social Security Office,government,42.4214008,-71.074868,6260573285,node
+Malden City Hall,government,42.4273477,-71.0727315,6571285424,node
+Office of the Attorney General of Massachusetts,government,42.3593736,-71.062528,7609362497,node
+EPA Region 1 Headquarters,government,42.3571498,-71.057112,7609422115,node
+Massachusetts Supreme Judicial Court,government,42.3592216,-71.0613853,7613588384,node
+Massachusetts Appeals Court,government,42.3592182,-71.06093,7613589924,node
+Boston Public Library Archives,government,42.2782758,-71.1798369,7683328307,node
+Massachusetts State Public Health Laboratory,government,42.3006893,-71.1175377,7692615502,node
+Massachusetts Food Protection,government,42.3006535,-71.117958,7692615528,node
+Massachusetts Infectious Disease Response,government,42.3006404,-71.1180864,7692615554,node
+Massachusetts Environmental Radiation Laboratory,government,42.3006645,-71.1178257,7692616090,node
+Massachusetts State Record Center,government,42.314336,-71.0349938,7747033147,node
+Massachusetts Historical Commission,government,42.3142527,-71.0348543,7747033149,node
+Massachusetts Rehabilitation Commission (MRC) Roxbury,government,42.3193885,-71.0971321,7797398191,node
+Charlestown District Court,government,42.3720144,-71.0623421,7801604910,node
+Erich Lindemann Mental Health Center,government,42.3633475,-71.0630517,7814644181,node
+Registry of Motor Vehicles (RMV) Haymarket Service Center,government,42.3622046,-71.0575771,7926526374,node
+"Brighton Division, Boston Municipal Court",government,42.3473393,-71.1532229,8565702597,node
+Cambridge Juvenile Court,government,42.369351,-71.0804564,9170752295,node
+EZDriveMA Customer Service Center,government,42.3733787,-71.0370106,9210626342,node
+Watertown RMV Service Center,government,42.3643417,-71.1587609,9649749133,node
+Quincy Department of Health,government,42.2894732,-71.0231822,9891905341,node
+Commonwealth of Massachusetts Department of Elementary & Secondary Education,government,42.4270728,-71.0690338,9995234976,node
+Malden Public Schools Parent Information Center,government,42.4270005,-71.0703353,9996109045,node
+government facility,government,42.4105923,-71.0000568,10234617856,node
+Federal Bureau of Investigation Boston Field Office,government,42.3972405,-71.038657,10685089539,node
+Cambridge Animal Commission,government,42.3700884,-71.1034246,11196842743,node
+Cambridge Arts,government,42.370098,-71.1034411,11196842744,node
+Cambridge Arts + Cultural Planning,government,42.3701056,-71.1034592,11196842745,node
+Cambridge Community Development,government,42.3701139,-71.103479,11196842746,node
+Cambridge Traffic Parking + Transportation Department,government,42.3701236,-71.1034983,11196842747,node
+Middlesex Probate and Family Court,government,42.5067265,-71.1356675,11200288083,node
+Cambridge Fire Department Temporary Administrative Offices,government,42.3873856,-71.1401875,11746960041,node
+Boston Housing Authority Central Office,government,42.3537045,-71.0599579,11872819809,node
+Boston Housing Authority Housing Service Center,government,42.3536234,-71.0600518,11872819810,node
+City of Boston Veterans Services,government,42.3621919,-71.06093,11895322588,node
+City of Boston Welfare Department,government,42.3620766,-71.0608612,11895322589,node
+DTA Malden Transitional Assistance Office,government,42.4188911,-71.0761775,12010105722,node
+Arlington Housing Authority,government,42.4163075,-71.1527923,12060599211,node
+Cambridge District Court,government,42.4045847,-71.0874434,12137383092,node
+Malden District Court,government,42.4046698,-71.0870867,12137383093,node
+Chelsea Registry of Motor Vehicles,government,42.4019775,-71.0238071,12984349475,node
+John Joseph Moakley US Courthouse,government,42.3541615,-71.0471523,29518342,way
+Coddington Hall,government,42.2526583,-71.0018663,29528924,way
+Middlesex County Courthouse,government,42.3699409,-71.0797087,29538211,way
+Everett City Hall,government,42.4083636,-71.0546941,29568701,way
+Department of Youth Services Metro Regional Office,government,42.2931609,-71.0918556,29571777,way
+Milton Town Hall,government,42.25411,-71.0797247,29572370,way
+Quincy City Hall,government,42.2509346,-71.0042995,29600170,way
+Melrose City Hall,government,42.4566117,-71.0648207,29612522,way
+Brookline Town Hall,government,42.3340201,-71.1206083,29635570,way
+Medford City Hall,government,42.4181453,-71.1057439,29641266,way
+"Roxbury Division, Boston Municipal Court",government,42.3277399,-71.0838844,29648911,way
+government facility,government,42.4048076,-71.0872489,29653105,way
+Revere Department of Public Works,government,42.4265712,-71.0062343,29662240,way
+Lynn District Court,government,42.4652111,-70.9498615,29670043,way
+Coffin Building,government,42.3696223,-71.1035058,29708715,way
+Winthrop Town Hall,government,42.3776271,-70.9846021,29710074,way
+Massachusetts State House,government,42.3586034,-71.0636959,29718019,way
+City of Cambridge Department of Public Works,government,42.3713554,-71.097548,29719454,way
+Cambridge City Hall Annex,government,42.3699873,-71.1034614,29725821,way
+government facility,government,42.3917863,-71.0972459,29730778,way
+MassDOT Highway District 6 Headquarters,government,42.3487623,-71.0578097,29740870,way
+Somerville City Hall,government,42.3871794,-71.0981965,29745717,way
+government facility,government,42.3789644,-71.0923802,29746288,way
+Chelsea City Hall,government,42.3935272,-71.0332719,29763941,way
+Revere City Hall,government,42.407877,-71.0132075,29767104,way
+Quincy District Court,government,42.2495797,-70.9997542,29768693,way
+Boston Fire Department Special Operations Training Center,government,42.3603017,-71.1383804,29785704,way
+Brookline Municipal Court,government,42.3339343,-71.1218461,29785808,way
+Boston Housing Authority Administrative Offices Charlestown,government,42.377385,-71.0571894,29821208,way
+Boston Municipal Court - West Roxbury Division,government,42.3008629,-71.1102718,29824360,way
+Josiah Quincy Building,government,42.2763592,-71.0314413,29832049,way
+Boston Municipal Court South Boston Division,government,42.3352446,-71.0427253,29833637,way
+Watertown City Hall,government,42.3678615,-71.1874399,29856582,way
+Cambridge City Hall,government,42.3671312,-71.1056551,29889531,way
+Belmont Town Hall,government,42.3966436,-71.1772683,29912890,way
+Alice K. Wolf Center,government,42.3654544,-71.1056398,29933815,way
+Stoneham Town Hall,government,42.480346,-71.098442,29942325,way
+MassDOT Highway Operations Center,government,42.346286,-71.0383645,29964511,way
+Chelsea Emergency Operations Center,government,42.3941017,-71.0332982,29965138,way
+Chelsea District Court,government,42.3889491,-71.041423,29965363,way
+Saugus Town Hall,government,42.4652681,-71.0091393,29968036,way
+Arlington Town Hall,government,42.415729,-71.1563641,36894756,way
+Lexington Town Hall,government,42.4469865,-71.2246106,39712865,way
+Weymouth Town Hall,government,42.2219527,-70.9391256,46686031,way
+National Archives at Boston,government,42.3975263,-71.2118957,75836782,way
+Department of Children and Families,government,42.4167698,-71.1520311,164772455,way
+Middlesex Superior Court,government,42.500623,-71.163788,187803183,way
+Arlington Department of Public Works,government,42.4196056,-71.1640915,196451690,way
+Swampscott Town Hall/Elihu Thompson House,government,42.4696163,-70.9183984,200347013,way
+Deer Park Office,government,42.352915,-71.0653543,212124578,way
+Burlington Town Hall,government,42.5062032,-71.1938646,212279771,way
+Dedham Town Hall,government,42.2456514,-71.1742323,212911775,way
+Norfolk County Administration Offices,government,42.2484216,-71.17474,212911802,way
+Dedham District Court,government,42.2489998,-71.1751243,212911860,way
+Norfolk County Registry of Deeds,government,42.2492454,-71.1758413,212911908,way
+Norfolk County Superior Court,government,42.2485906,-71.1762192,212912005,way
+Westwood Town Hall,government,42.2284145,-71.2208041,214062975,way
+City Hall Annex,government,42.479102,-71.1522254,214146212,way
+Woburn City Hall,government,42.4790736,-71.152551,214146365,way
+Woburn District Court,government,42.478941,-71.1532761,214146750,way
+Lexington Public Schools Central Administration,government,42.4443922,-71.1995873,214277882,way
+government facility,government,42.4179735,-71.2006967,214278027,way
+Newton District Court,government,42.3495753,-71.2271595,214752660,way
+Wakefield Town Hall,government,42.5061873,-71.0729151,216404917,way
+Waltham District Court,government,42.3787248,-71.2245109,216428699,way
+McCormack Building,government,42.3595164,-71.0623731,247987328,way
+Erich Lindemann Building,government,42.3632519,-71.0627671,485210343,way
+Revere Registry of Motor Vehicles,government,42.4107681,-71.0004379,618688152,way
+Boston City Hall,government,42.3604307,-71.0579608,788015166,way
+Charles F. Hurley Building,government,42.3621982,-71.0632006,814380637,way
+Boston Municipal Court East Boston Division,government,42.3710076,-71.0387163,815961919,way
+Massachusetts Department of Public Health Jamaica Plain Campus,government,42.3011342,-71.1175895,823919708,way
+Dorchester District Court,government,42.293951,-71.0714255,1011849957,way
+Volpe National Transportation Systems Center,government,42.3653705,-71.0854082,1196985630,way
+government facility,government,42.2562241,-70.9952416,1495288908,way
+John Adams Courthouse,government,42.3592081,-71.0610985,7135687,relation
+Edward W. Brooke Courthouse,government,42.3629016,-71.0616973,7140530,relation
+substation facility,substation,42.3643045,-71.0992881,13191873714,node
+High Street Substation,substation,42.3538655,-71.0551922,29569070,way
+Chatham Street Substation,substation,42.3594843,-71.0549301,29575721,way
+Kingston Street Substation,substation,42.3530192,-71.0599404,29620770,way
+Putnam Avenue Substation,substation,42.3604482,-71.1138197,29631450,way
+substation facility,substation,42.351033,-71.1303716,29632578,way
+Scotia Street Substation,substation,42.346545,-71.0855523,29650758,way
+substation facility,substation,42.3803522,-71.12894,29725154,way
+substation facility,substation,42.3479889,-71.087323,29805588,way
+Carver Street Substation,substation,42.3501813,-71.0662894,29944562,way
+Hampshire Station,substation,42.3659118,-71.0915886,29951233,way
+North Cambridge Substation,substation,42.3913977,-71.1428826,43315304,way
+Edgar Substation,substation,42.2404874,-70.9648291,46973545,way
+North Weymouth Substation,substation,42.2381068,-70.9485824,47041506,way
+Revere Substation,substation,42.4028678,-71.0077353,52303799,way
+Wellington Substation,substation,42.4125585,-71.0798383,80515984,way
+Prospect Street Substation,substation,42.3779172,-71.0952936,81049979,way
+substation facility,substation,42.3819014,-71.0995644,81050657,way
+Golden Hills Substation,substation,42.4718198,-71.0453825,81604584,way
+Melrose Substation,substation,42.4695505,-71.0504682,81604586,way
+substation facility,substation,42.5083071,-71.013813,81605446,way
+Wakefield Substation,substation,42.487853,-71.0478067,81605454,way
+Wakefield Junction Substation,substation,42.5052627,-71.0416563,81606442,way
+West Salem Substation,substation,42.5051063,-70.9273158,81641135,way
+substation facility,substation,42.50259,-70.9848514,81664875,way
+Woburn Substation,substation,42.4622053,-71.1540735,81721779,way
+Burlington Substation,substation,42.4755382,-71.2144506,81993224,way
+Chelsea Substation,substation,42.3948824,-71.024879,82202597,way
+Everett Substation,substation,42.4143732,-71.0716096,82202607,way
+Maplewood Substation,substation,42.4315986,-71.0387105,82249770,way
+North Woburn Substation,substation,42.5089572,-71.1263662,83621445,way
+Lynn Substation,substation,42.4544487,-70.9514458,89908533,way
+substation facility,substation,42.4472577,-71.2256673,98633766,way
+Deer Island Substation,substation,42.3498881,-70.9612449,135422592,way
+Baker Street Substation,substation,42.2800848,-71.1690527,136560643,way
+substation facility,substation,42.2365371,-71.1342617,136721284,way
+Melrose #4 Substation,substation,42.4559016,-71.0641639,149087169,way
+substation facility,substation,42.3850996,-71.0765261,160929158,way
+Bartholomew Street Substation,substation,42.5091429,-70.9744772,167585071,way
+Needham Transition Station,substation,42.2556614,-71.232119,184849496,way
+substation facility,substation,42.4750588,-70.8946601,204156458,way
+Field Street Substation,substation,42.254395,-70.9920151,204494272,way
+substation facility,substation,42.4680246,-70.9066656,204866997,way
+substation facility,substation,42.3987883,-71.1326577,212292111,way
+substation facility,substation,42.4338587,-71.1906694,214276153,way
+substation facility,substation,42.3367095,-71.2097354,214738393,way
+North Quincy Substation,substation,42.2786387,-71.033107,218331038,way
+Brighton Substation,substation,42.3573115,-71.1317047,257042463,way
+Hobart Street Substation,substation,42.2214212,-70.9059716,319031291,way
+Malden Substation,substation,42.4257952,-71.0699901,371671111,way
+Colburn Street Substation,substation,42.3315936,-71.1108888,382228671,way
+Dewar Street Substation,substation,42.3087848,-71.0550983,382228672,way
+Hawkins Street Substation,substation,42.3619741,-71.06065,382250171,way
+Swift's Beach Tap,substation,42.2286971,-70.9626165,382290105,way
+Potter/Watson Substation,substation,42.2339674,-70.967651,382290107,way
+East Weymouth Substation,substation,42.2201252,-70.9205072,382290193,way
+substation facility,substation,42.4753355,-70.9142216,382298091,way
+substation facility,substation,42.3637592,-71.1140602,382345594,way
+Electric Avenue Substation,substation,42.3571762,-71.1549371,382453641,way
+Watertown Substation,substation,42.3651528,-71.179256,382453645,way
+East Cambridge Substation,substation,42.362882,-71.0805262,382537190,way
+Hyde Park Substation,substation,42.2735818,-71.1206003,383037049,way
+Newton Highlands Substation,substation,42.3171715,-71.2116985,383144345,way
+Church Hill Substation,substation,42.2222785,-71.0197894,569804491,way
+Middle St Substation,substation,42.2238274,-70.9952637,569804646,way
+substation facility,substation,42.4986709,-71.0771706,577593494,way
+substation facility,substation,42.4864136,-71.0980649,609756294,way
+substation facility,substation,42.3895394,-71.1323589,741132838,way
+Blair Pond Substation,substation,42.3955298,-71.1574853,741143580,way
+substation facility,substation,42.387276,-71.1412119,749104748,way
+substation facility,substation,42.3833238,-71.1441009,749104749,way
+Andrew Square Substation,substation,42.329161,-71.0587263,787125206,way
+East Eagle Substation,substation,42.3822034,-71.0283706,832323406,way
+Seafood Way Substation,substation,42.3482432,-71.0327653,856052921,way
+GE River Substation,substation,42.4472282,-70.9663848,905992191,way
+Granite Substation,substation,42.4722922,-70.9578687,1075389941,way
+Bridge Substation,substation,42.4645381,-70.9707471,1076720692,way
+Hudson Substation,substation,42.4611832,-70.9831166,1080806379,way
+East Saugus Substation,substation,42.460808,-71.0146039,1097553458,way
+Hendersonville Substation,substation,42.3997667,-71.0654818,1132600847,way
+Mystic 345kV Substation,substation,42.3931044,-71.0670801,1150603927,way
+Mystic 115kV Substation,substation,42.391244,-71.0691709,1150603928,way
+Wheelabrator Saugus Substation,substation,42.4469357,-70.979418,1150603929,way
+substation facility,substation,42.3554404,-71.1050118,1161394066,way
+substation facility,substation,42.3593329,-71.1009705,1267897241,way
+substation facility,substation,42.3957478,-71.146241,1282557293,way
+substation facility,substation,42.2812586,-71.0307795,1314534507,way
+substation facility,substation,42.3778353,-71.0954632,1317152487,way
+Metcalf Square Substation,substation,42.3778845,-70.9841849,1473680370,way
+Winthrop Substation,substation,42.3865857,-70.9769087,1473680373,way
+Revere Beach Substation,substation,42.4176939,-70.9900164,1473728735,way
+Nahant Substation,substation,42.4276739,-70.9330321,1473742342,way
+Malden Traction Power Substation,substation,42.4264041,-71.0746196,1476219619,way
+Medford Substation,substation,42.4187941,-71.1075417,1476224241,way
+Codding Avenue Substation,substation,42.4023232,-71.1053219,1476226163,way
+West Medford,substation,42.4216502,-71.1322208,1476227574,way
+substation facility,substation,42.455485,-70.9520859,1479435765,way
+K Street Substation,substation,42.3398938,-71.0384794,3361062,relation
+Walter J. Sullivan Water Treatment Plant,water_works,42.3829176,-71.1440312,29514957,way
+Reardon Water Treatment Plant,water_works,42.476449,-70.9722445,29748891,way
+Winchester Water Treatment Plant,water_works,42.4402802,-71.120127,29939373,way
+Horn Pond Treatment Plant,water_works,42.4639443,-71.1537462,59469325,way
+Hull Wastewater Treatment Facility,water_works,42.3053676,-70.8996048,71802912,way
+Vine Brook Water Treatment Plant,water_works,42.4933263,-71.2239421,212290906,way
+Horn Pond Treatment Plant,water_works,42.4637785,-71.1542799,214147222,way
+Bob Walsh Water Treatment Plant,water_works,42.509654,-70.9442107,214988046,way
+Broadway Water Treatment Facility,water_works,42.4970443,-71.0722432,216404825,way
+Deer Island Treatment Plant,water_works,42.3499997,-70.9589686,286194980,way
+Lynn Regional Water Pollution Facility,water_works,42.4529778,-70.9563981,1326084151,way
+Bridge Street Treatment Plant,water_works,42.2534612,-71.1811339,1326237442,way
+Cottage Farm CSO Treatment Facility,water_works,42.3536641,-71.1114863,17736774,relation

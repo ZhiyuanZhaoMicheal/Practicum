@@ -1,0 +1,11 @@
+{
+  "event_ids": [
+    "ian_charlotteharbor",
+    "earthquake_sanjuan",
+    "ida_neworleans",
+    "irma_miami",
+    "laura_lakecharles"
+  ],
+  "selection_basis": "current_readiness_recommendation",
+  "notes": "Explicit allowlist for the readiness-filtered HZ1 rerun. Ian Fort Myers remains excluded despite a high readiness score because the current written recommendation keeps it as sensitivity-only."
+}
